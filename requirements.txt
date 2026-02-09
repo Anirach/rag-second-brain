@@ -1,0 +1,31 @@
+# RAG Second Brain - Requirements
+# Proof of Concept Implementation
+
+# Core
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Embeddings & NLP
+sentence-transformers>=2.2.0
+transformers>=4.20.0
+torch>=1.12.0
+
+# Knowledge Graph
+rdflib>=6.0.0
+owlrl>=6.0.0  # OWL 2 RL reasoning (Apache 2.0, free)
+sparqlwrapper>=2.0.0
+
+# Co-occurrence
+gensim>=4.0.0  # For word vectors
+
+# Utilities
+tqdm>=4.60.0
+pyyaml>=6.0
+requests>=2.28.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Optional: For local LLM inference (zero cost)
+# ollama  # Install separately: curl -fsSL https://ollama.com/install.sh | sh
