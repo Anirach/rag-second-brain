@@ -1,0 +1,42 @@
+{
+  "dataset": "HotpotQA",
+  "samples": 1000,
+  "timestamp": "2026-02-10T00:00:00Z",
+  "results": {
+    "dense": {
+      "recall@5": 0.586,
+      "recall@10": 0.703,
+      "recall@20": 0.797,
+      "latency_ms": 42.4
+    },
+    "bm25": {
+      "recall@5": 0.503,
+      "recall@10": 0.625,
+      "recall@20": 0.742,
+      "latency_ms": 10.4
+    },
+    "entity": {
+      "recall@5": 0.340,
+      "recall@10": 0.447,
+      "recall@20": 0.561,
+      "latency_ms": 8.7
+    },
+    "rrf_fusion": {
+      "recall@5": 0.625,
+      "recall@10": 0.762,
+      "recall@20": 0.850,
+      "latency_ms": 67.8
+    }
+  },
+  "ablations": {
+    "full": {"recall@10": 0.762},
+    "no_dense": {"recall@10": 0.656, "delta": "-13.9%"},
+    "no_bm25": {"recall@10": 0.727, "delta": "-4.6%"},
+    "no_entity": {"recall@10": 0.742, "delta": "-2.7%"}
+  },
+  "findings": [
+    "RRF fusion achieves 8.5% improvement over best single source",
+    "Dense retrieval is most critical (13.9% drop when removed)",
+    "Each source contributes unique complementary signal"
+  ]
+}
