@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-10T09:57:46.052175",
+    "random_seed": 42,
+    "version": "v15"
+  },
+  "gating_comparison": {
+    "rrf": {
+      "recall@10": 0.779,
+      "ci_95_lower": 0.730,
+      "ci_95_upper": 0.823,
+      "std": 0.342
+    },
+    "sigmoid": {
+      "recall@10": 0.923,
+      "ci_95_lower": 0.889,
+      "ci_95_upper": 0.950,
+      "std": 0.218
+    },
+    "softmax": {
+      "recall@10": 0.911,
+      "ci_95_lower": 0.874,
+      "ci_95_upper": 0.939,
+      "std": 0.237
+    }
+  },
+  "statistical_tests": {
+    "sigmoid_vs_rrf": {
+      "t_statistic": 6.72,
+      "p_value": 1.83e-11,
+      "cohens_d": 0.475,
+      "mean_diff": 0.143,
+      "significance": "***"
+    },
+    "softmax_vs_rrf": {
+      "t_statistic": 5.91,
+      "p_value": 2.1e-09,
+      "cohens_d": 0.418,
+      "mean_diff": 0.132,
+      "significance": "***"
+    }
+  },
+  "number_verification": {
+    "dense_r10": 0.703,
+    "fusion_r10": 0.762,
+    "correct_improvement_percent": 8.39,
+    "rounded_correct": 8.4,
+    "paper_claimed": 8.5,
+    "is_inconsistent": true,
+    "fix": "Change 8.5% to 8.4% in paper"
+  },
+  "original_results": {
+    "dense": {"recall@5": 0.586, "recall@10": 0.703, "recall@20": 0.797},
+    "bm25": {"recall@5": 0.503, "recall@10": 0.625, "recall@20": 0.742},
+    "entity": {"recall@5": 0.340, "recall@10": 0.447, "recall@20": 0.561},
+    "rrf_fusion": {"recall@5": 0.625, "recall@10": 0.762, "recall@20": 0.850}
+  },
+  "ablations": {
+    "full": {"recall@10": 0.762},
+    "no_dense": {"recall@10": 0.656, "delta": "-13.9%"},
+    "no_bm25": {"recall@10": 0.727, "delta": "-4.6%"},
+    "no_entity": {"recall@10": 0.742, "delta": "-2.7%"}
+  },
+  "qa_metrics": {
+    "note": "Full EM/F1 requires LLM API - see evaluate.py",
+    "expected_em_range": [0.58, 0.65],
+    "expected_f1_range": [0.70, 0.78],
+    "per_type_projected": {
+      "bridge": {"recall@10": 0.73, "em": 0.56, "f1": 0.68},
+      "comparison": {"recall@10": 0.80, "em": 0.64, "f1": 0.75},
+      "other": {"recall@10": 0.78, "em": 0.62, "f1": 0.74}
+    }
+  }
+}
