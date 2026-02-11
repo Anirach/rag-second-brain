@@ -43,7 +43,7 @@ class SpacyEntityLinker(EntityLinker):
     system like REL, BLINK, or GENRE.
     """
     
-    def __init__(self, model_name: str = "en_core_web_lg"):
+    def __init__(self, model_name: str = "en_core_web_sm"):
         """Initialize spaCy entity linker.
         
         Args:
