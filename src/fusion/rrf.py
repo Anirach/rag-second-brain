@@ -7,7 +7,7 @@ Reference: Cormack, G. V., Clarke, C. L., & Buettcher, S. (2009).
 Reciprocal rank fusion outperforms condorcet and individual rank learning methods.
 """
 
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Optional
 from collections import defaultdict
 
 
@@ -82,7 +82,3 @@ def weighted_rrf_fusion(
         sorted_docs = sorted_docs[:top_n]
     
     return sorted_docs
-
-
-# Import Optional for type hints
-from typing import Optional
