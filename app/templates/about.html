@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}About — RAG Second Brain{% endblock %}
+{% block content %}
+<div class="max-w-3xl">
+<h1 class="text-2xl font-bold mb-6">ℹ️ About This Application</h1>
+
+<div class="prose prose-sm space-y-6">
+
+<div class="bg-white rounded-xl shadow-sm border p-6">
+    <h2 class="text-lg font-semibold mb-3">📄 The Paper</h2>
+    <p class="text-gray-600 mb-2"><strong>Multi-Source Retrieval-Augmented Generation for Personal Knowledge Management: Integrating Co-occurrence Statistics, Knowledge Graphs, and Ontological Reasoning via Learned Gating</strong></p>
+    <p class="text-sm text-gray-500">This application demonstrates the key concepts from our research paper on multi-source RAG for "Second Brain" systems.</p>
+    <a href="https://github.com/Anirach/rag-second-brain" class="inline-block mt-2 text-sm text-brand-600 hover:underline">📂 GitHub Repository</a>
+</div>
+
+<div class="bg-white rounded-xl shadow-sm border p-6">
+    <h2 class="text-lg font-semibold mb-3">🏗️ Architecture</h2>
+    <div class="bg-gray-50 rounded-lg p-4 font-mono text-sm text-center space-y-2">
+        <div>📝 <strong>Query</strong></div>
+        <div>↓</div>
+        <div class="flex justify-center gap-4">
+            <div class="bg-blue-100 text-blue-800 px-3 py-2 rounded-lg">🔵 Dense<br><span class="text-xs">Embeddings</span></div>
+            <div class="bg-green-100 text-green-800 px-3 py-2 rounded-lg">🟢 Statistical<br><span class="text-xs">BM25+PPMI</span></div>
+            <div class="bg-purple-100 text-purple-800 px-3 py-2 rounded-lg">🟣 KG<br><span class="text-xs">Entities</span></div>
+        </div>
+        <div>↓</div>
+        <div class="bg-orange-100 text-orange-800 px-4 py-2 rounded-lg inline-block">⚡ Sigmoid Gating</div>
+        <div>↓</div>
+        <div class="bg-brand-100 text-brand-800 px-4 py-2 rounded-lg inline-block">🔀 Fused Results</div>
+    </div>
+</div>
+
+<div class="bg-white rounded-xl shadow-sm border p-6">
+    <h2 class="text-lg font-semibold mb-3">🔵 Dense Vector Retrieval</h2>
+    <p class="text-sm text-gray-600">Encodes documents and queries into dense vector embeddings using sentence-transformers (all-MiniLM-L6-v2). Finds semantically similar documents via cosine similarity, even when they don't share exact keywords.</p>
+    <p class="text-sm text-gray-500 mt-2"><strong>Best for:</strong> Topical/semantic queries ("What methods improve reasoning?")</p>
+</div>
+
+<div class="bg-white rounded-xl shadow-sm border p-6">
+    <h2 class="text-lg font-semibold mb-3">🟢 Statistical Retrieval (BM25 + PPMI)</h2>
+    <p class="text-sm text-gray-600">BM25 provides lexical matching based on term frequency. PPMI (Positive Pointwise Mutual Information) captures implicit term associations — words that frequently co-occur in the corpus, revealing hidden connections.</p>
+    <p class="text-sm text-gray-500 mt-2"><strong>Best for:</strong> Keyword-rich queries, comparison queries ("Compare dense vs sparse")</p>
+</div>
+
+<div class="bg-white rounded-xl shadow-sm border p-6">
+    <h2 class="text-lg font-semibold mb-3">🟣 Knowledge Graph Retrieval</h2>
+    <p class="text-sm text-gray-600">Extracts named entities (people, methods, models) and builds a graph of relationships. Finds documents through entity matching and graph traversal — connecting concepts across documents.</p>
+    <p class="text-sm text-gray-500 mt-2"><strong>Best for:</strong> Structural queries ("Which papers mention both BERT and attention?")</p>
+</div>
+
+<div class="bg-white rounded-xl shadow-sm border p-6">
+    <h2 class="text-lg font-semibold mb-3">⚡ Sigmoid Gating Mechanism</h2>
+    <p class="text-sm text-gray-600">A learned gating network that dynamically weights each retrieval source based on query characteristics. Unlike softmax (competitive), sigmoid allows independent activation — multiple sources can be fully weighted simultaneously when they provide complementary information.</p>
+    <div class="mt-3 text-sm">
+        <strong>Key results from the paper:</strong>
+        <ul class="list-disc ml-5 mt-1 text-gray-600 space-y-1">
+            <li>+8.4% R@10 over best single source (HotpotQA)</li>
+            <li>+13.8% R@10 on harder MuSiQue benchmark</li>
+            <li>+18.4% improvement of learned gating over RRF baseline</li>
+            <li>Bridge queries benefit most from fusion (+13.9%)</li>
+        </ul>
+    </div>
+</div>
+
+</div>
+</div>
+{% endblock %}

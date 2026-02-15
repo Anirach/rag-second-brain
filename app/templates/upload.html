@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Upload — RAG Second Brain{% endblock %}
+{% block content %}
+<h1 class="text-2xl font-bold mb-6">📄 Upload Document</h1>
+
+<div class="max-w-2xl">
+    <div class="bg-white rounded-xl shadow-sm border p-6">
+        <p class="text-sm text-gray-500 mb-4">Add a document to your Second Brain. It will be automatically indexed across all 3 retrieval sources (dense, statistical, knowledge graph).</p>
+        <form method="post" action="/upload">
+            <div class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Title</label>
+                    <input type="text" name="title" required placeholder="e.g., My Research Notes on RAG"
+                           class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-brand-500">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Content</label>
+                    <textarea name="content" required rows="10" placeholder="Paste your document text, paper abstract, or notes here..."
+                              class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-brand-500 font-mono text-sm"></textarea>
+                </div>
+                <button type="submit" class="px-6 py-2.5 bg-brand-600 text-white rounded-lg font-medium hover:bg-brand-700">
+                    Upload & Index
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="mt-6 bg-blue-50 border border-blue-200 rounded-xl p-4 text-sm text-blue-800">
+        <strong>What happens when you upload:</strong>
+        <ol class="list-decimal ml-5 mt-2 space-y-1">
+            <li><strong>Dense indexing:</strong> Text is encoded into a vector embedding for semantic search</li>
+            <li><strong>Statistical indexing:</strong> BM25 tokens + PPMI co-occurrence matrix updated</li>
+            <li><strong>KG indexing:</strong> Entities extracted, relations built, graph updated</li>
+        </ol>
+    </div>
+</div>
+{% endblock %}
