@@ -1,0 +1,3622 @@
+{
+  "ddx_ml": {
+    "XGBoost": {
+      "metrics": {
+        "top1": 0.994,
+        "top3": 1.0,
+        "top5": 1.0,
+        "ndcg5": 1.0201049944117966,
+        "f1": 0.33586666666666665,
+        "halluc": 0.0,
+        "n": 1000,
+        "cis": {
+          "top1": [
+            0.989,
+            0.998
+          ],
+          "top3": [
+            1.0,
+            1.0
+          ],
+          "top5": [
+            1.0,
+            1.0
+          ],
+          "ndcg5": [
+            1.0134,
+            1.0278
+          ],
+          "f1": [
+            0.3351,
+            0.3367
+          ],
+          "top1_wilson": [
+            0.9869718317581478,
+            0.9972473308581237
+          ],
+          "halluc_upper_95": 0.0005989670023149134
+        },
+        "per_class": {
+          "Acute dystonic reactions": 1.0,
+          "Pulmonary embolism": 1.0,
+          "Possible NSTEMI / STEMI": 1.0,
+          "URTI": 1.0,
+          "Spontaneous rib fracture": 1.0,
+          "Bronchitis": 1.0,
+          "Bronchiolitis": 1.0,
+          "Epiglottitis": 1.0,
+          "Chagas": 1.0,
+          "GERD": 1.0,
+          "HIV (initial infection)": 1.0,
+          "Pericarditis": 1.0,
+          "Unstable angina": 1.0,
+          "Acute laryngitis": 0.95,
+          "Boerhaave": 1.0,
+          "Guillain-Barr\u00e9 syndrome": 1.0,
+          "Chronic rhinosinusitis": 1.0,
+          "Anaphylaxis": 1.0,
+          "Whooping cough": 1.0,
+          "Scombroid food poisoning": 1.0,
+          "Influenza": 1.0,
+          "Larygospasm": 1.0,
+          "PSVT": 1.0,
+          "Myocarditis": 1.0,
+          "Bronchospasm / acute asthma exacerbation": 1.0,
+          "Ebola": 1.0,
+          "Allergic sinusitis": 1.0,
+          "Croup": 0.95,
+          "Anemia": 1.0,
+          "Panic attack": 1.0,
+          "Cluster headache": 1.0,
+          "Localized edema": 1.0,
+          "SLE": 1.0,
+          "Inguinal hernia": 1.0,
+          "Pulmonary neoplasm": 1.0,
+          "Spontaneous pneumothorax": 1.0,
+          "Tuberculosis": 1.0,
+          "Acute COPD exacerbation / infection": 1.0,
+          "Sarcoidosis": 1.0,
+          "Acute otitis media": 1.0,
+          "Acute rhinosinusitis": 0.8,
+          "Stable angina": 1.0,
+          "Viral pharyngitis": 1.0,
+          "Acute pulmonary edema": 1.0,
+          "Pneumonia": 1.0,
+          "Atrial fibrillation": 1.0,
+          "Bronchiectasis": 1.0,
+          "Pancreatic neoplasm": 1.0,
+          "Myasthenia gravis": 1.0
+        },
+        "per_class_counts": {
+          "Acute dystonic reactions": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pulmonary embolism": {
+            "correct": 20,
+            "total": 20
+          },
+          "Possible NSTEMI / STEMI": {
+            "correct": 20,
+            "total": 20
+          },
+          "URTI": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous rib fracture": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchiolitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Epiglottitis": {
+            "correct": 22,
+            "total": 22
+          },
+          "Chagas": {
+            "correct": 21,
+            "total": 21
+          },
+          "GERD": {
+            "correct": 20,
+            "total": 20
+          },
+          "HIV (initial infection)": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pericarditis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Unstable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Acute laryngitis": {
+            "correct": 19,
+            "total": 20
+          },
+          "Boerhaave": {
+            "correct": 20,
+            "total": 20
+          },
+          "Guillain-Barr\u00e9 syndrome": {
+            "correct": 23,
+            "total": 23
+          },
+          "Chronic rhinosinusitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Anaphylaxis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Whooping cough": {
+            "correct": 20,
+            "total": 20
+          },
+          "Scombroid food poisoning": {
+            "correct": 21,
+            "total": 21
+          },
+          "Influenza": {
+            "correct": 20,
+            "total": 20
+          },
+          "Larygospasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "PSVT": {
+            "correct": 20,
+            "total": 20
+          },
+          "Myocarditis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchospasm / acute asthma exacerbation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Ebola": {
+            "correct": 20,
+            "total": 20
+          },
+          "Allergic sinusitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Croup": {
+            "correct": 19,
+            "total": 20
+          },
+          "Anemia": {
+            "correct": 20,
+            "total": 20
+          },
+          "Panic attack": {
+            "correct": 20,
+            "total": 20
+          },
+          "Cluster headache": {
+            "correct": 21,
+            "total": 21
+          },
+          "Localized edema": {
+            "correct": 22,
+            "total": 22
+          },
+          "SLE": {
+            "correct": 20,
+            "total": 20
+          },
+          "Inguinal hernia": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pulmonary neoplasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous pneumothorax": {
+            "correct": 20,
+            "total": 20
+          },
+          "Tuberculosis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute COPD exacerbation / infection": {
+            "correct": 21,
+            "total": 21
+          },
+          "Sarcoidosis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute otitis media": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute rhinosinusitis": {
+            "correct": 16,
+            "total": 20
+          },
+          "Stable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Viral pharyngitis": {
+            "correct": 22,
+            "total": 22
+          },
+          "Acute pulmonary edema": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pneumonia": {
+            "correct": 21,
+            "total": 21
+          },
+          "Atrial fibrillation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Bronchiectasis": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pancreatic neoplasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "Myasthenia gravis": {
+            "correct": 20,
+            "total": 20
+          }
+        }
+      }
+    },
+    "kNN": {
+      "metrics": {
+        "top1": 0.991,
+        "top3": 1.0,
+        "top5": 1.0,
+        "ndcg5": 1.017927377232694,
+        "f1": 0.33573333333333333,
+        "halluc": 0.0,
+        "n": 1000,
+        "cis": {
+          "top1": [
+            0.984,
+            0.996
+          ],
+          "top3": [
+            1.0,
+            1.0
+          ],
+          "top5": [
+            1.0,
+            1.0
+          ],
+          "ndcg5": [
+            1.0106,
+            1.0257
+          ],
+          "f1": [
+            0.335,
+            0.3365
+          ],
+          "top1_wilson": [
+            0.982984183834662,
+            0.9952579393325229
+          ],
+          "halluc_upper_95": 0.0005989670023149134
+        },
+        "per_class": {
+          "Acute dystonic reactions": 1.0,
+          "Pulmonary embolism": 1.0,
+          "Possible NSTEMI / STEMI": 1.0,
+          "URTI": 1.0,
+          "Spontaneous rib fracture": 1.0,
+          "Bronchitis": 1.0,
+          "Bronchiolitis": 0.95,
+          "Epiglottitis": 1.0,
+          "Chagas": 1.0,
+          "GERD": 1.0,
+          "HIV (initial infection)": 1.0,
+          "Pericarditis": 1.0,
+          "Unstable angina": 1.0,
+          "Acute laryngitis": 0.95,
+          "Boerhaave": 1.0,
+          "Guillain-Barr\u00e9 syndrome": 1.0,
+          "Chronic rhinosinusitis": 0.9,
+          "Anaphylaxis": 1.0,
+          "Whooping cough": 1.0,
+          "Scombroid food poisoning": 1.0,
+          "Influenza": 1.0,
+          "Larygospasm": 1.0,
+          "PSVT": 1.0,
+          "Myocarditis": 1.0,
+          "Bronchospasm / acute asthma exacerbation": 1.0,
+          "Ebola": 1.0,
+          "Allergic sinusitis": 1.0,
+          "Croup": 1.0,
+          "Anemia": 1.0,
+          "Panic attack": 1.0,
+          "Cluster headache": 1.0,
+          "Localized edema": 1.0,
+          "SLE": 1.0,
+          "Inguinal hernia": 1.0,
+          "Pulmonary neoplasm": 1.0,
+          "Spontaneous pneumothorax": 1.0,
+          "Tuberculosis": 1.0,
+          "Acute COPD exacerbation / infection": 1.0,
+          "Sarcoidosis": 1.0,
+          "Acute otitis media": 1.0,
+          "Acute rhinosinusitis": 0.75,
+          "Stable angina": 1.0,
+          "Viral pharyngitis": 1.0,
+          "Acute pulmonary edema": 1.0,
+          "Pneumonia": 1.0,
+          "Atrial fibrillation": 1.0,
+          "Bronchiectasis": 1.0,
+          "Pancreatic neoplasm": 1.0,
+          "Myasthenia gravis": 1.0
+        },
+        "per_class_counts": {
+          "Acute dystonic reactions": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pulmonary embolism": {
+            "correct": 20,
+            "total": 20
+          },
+          "Possible NSTEMI / STEMI": {
+            "correct": 20,
+            "total": 20
+          },
+          "URTI": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous rib fracture": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchiolitis": {
+            "correct": 19,
+            "total": 20
+          },
+          "Epiglottitis": {
+            "correct": 22,
+            "total": 22
+          },
+          "Chagas": {
+            "correct": 21,
+            "total": 21
+          },
+          "GERD": {
+            "correct": 20,
+            "total": 20
+          },
+          "HIV (initial infection)": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pericarditis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Unstable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Acute laryngitis": {
+            "correct": 19,
+            "total": 20
+          },
+          "Boerhaave": {
+            "correct": 20,
+            "total": 20
+          },
+          "Guillain-Barr\u00e9 syndrome": {
+            "correct": 23,
+            "total": 23
+          },
+          "Chronic rhinosinusitis": {
+            "correct": 18,
+            "total": 20
+          },
+          "Anaphylaxis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Whooping cough": {
+            "correct": 20,
+            "total": 20
+          },
+          "Scombroid food poisoning": {
+            "correct": 21,
+            "total": 21
+          },
+          "Influenza": {
+            "correct": 20,
+            "total": 20
+          },
+          "Larygospasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "PSVT": {
+            "correct": 20,
+            "total": 20
+          },
+          "Myocarditis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchospasm / acute asthma exacerbation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Ebola": {
+            "correct": 20,
+            "total": 20
+          },
+          "Allergic sinusitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Croup": {
+            "correct": 20,
+            "total": 20
+          },
+          "Anemia": {
+            "correct": 20,
+            "total": 20
+          },
+          "Panic attack": {
+            "correct": 20,
+            "total": 20
+          },
+          "Cluster headache": {
+            "correct": 21,
+            "total": 21
+          },
+          "Localized edema": {
+            "correct": 22,
+            "total": 22
+          },
+          "SLE": {
+            "correct": 20,
+            "total": 20
+          },
+          "Inguinal hernia": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pulmonary neoplasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous pneumothorax": {
+            "correct": 20,
+            "total": 20
+          },
+          "Tuberculosis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute COPD exacerbation / infection": {
+            "correct": 21,
+            "total": 21
+          },
+          "Sarcoidosis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute otitis media": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute rhinosinusitis": {
+            "correct": 15,
+            "total": 20
+          },
+          "Stable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Viral pharyngitis": {
+            "correct": 22,
+            "total": 22
+          },
+          "Acute pulmonary edema": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pneumonia": {
+            "correct": 21,
+            "total": 21
+          },
+          "Atrial fibrillation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Bronchiectasis": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pancreatic neoplasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "Myasthenia gravis": {
+            "correct": 20,
+            "total": 20
+          }
+        }
+      }
+    },
+    "RandomForest": {
+      "metrics": {
+        "top1": 0.929,
+        "top3": 0.951,
+        "top5": 0.953,
+        "ndcg5": 0.9696294908287566,
+        "f1": 0.3204666666666666,
+        "halluc": 0.0,
+        "n": 1000,
+        "cis": {
+          "top1": [
+            0.914,
+            0.944
+          ],
+          "top3": [
+            0.938,
+            0.964
+          ],
+          "top5": [
+            0.939,
+            0.966
+          ],
+          "ndcg5": [
+            0.9527,
+            0.9845
+          ],
+          "f1": [
+            0.3159,
+            0.3248
+          ],
+          "top1_wilson": [
+            0.9113863365698452,
+            0.9433303046495486
+          ],
+          "halluc_upper_95": 0.0005989670023149134
+        },
+        "per_class": {
+          "Acute dystonic reactions": 1.0,
+          "Pulmonary embolism": 1.0,
+          "Possible NSTEMI / STEMI": 1.0,
+          "URTI": 1.0,
+          "Spontaneous rib fracture": 0.7,
+          "Bronchitis": 1.0,
+          "Bronchiolitis": 0.75,
+          "Epiglottitis": 1.0,
+          "Chagas": 0.9523809523809523,
+          "GERD": 1.0,
+          "HIV (initial infection)": 1.0,
+          "Pericarditis": 1.0,
+          "Unstable angina": 1.0,
+          "Acute laryngitis": 0.95,
+          "Boerhaave": 0.95,
+          "Guillain-Barr\u00e9 syndrome": 1.0,
+          "Chronic rhinosinusitis": 1.0,
+          "Anaphylaxis": 1.0,
+          "Whooping cough": 0.0,
+          "Scombroid food poisoning": 1.0,
+          "Influenza": 1.0,
+          "Larygospasm": 0.35,
+          "PSVT": 1.0,
+          "Myocarditis": 0.75,
+          "Bronchospasm / acute asthma exacerbation": 1.0,
+          "Ebola": 1.0,
+          "Allergic sinusitis": 1.0,
+          "Croup": 0.55,
+          "Anemia": 1.0,
+          "Panic attack": 1.0,
+          "Cluster headache": 1.0,
+          "Localized edema": 1.0,
+          "SLE": 1.0,
+          "Inguinal hernia": 1.0,
+          "Pulmonary neoplasm": 1.0,
+          "Spontaneous pneumothorax": 1.0,
+          "Tuberculosis": 1.0,
+          "Acute COPD exacerbation / infection": 1.0,
+          "Sarcoidosis": 1.0,
+          "Acute otitis media": 1.0,
+          "Acute rhinosinusitis": 0.5,
+          "Stable angina": 1.0,
+          "Viral pharyngitis": 1.0,
+          "Acute pulmonary edema": 1.0,
+          "Pneumonia": 1.0,
+          "Atrial fibrillation": 1.0,
+          "Bronchiectasis": 1.0,
+          "Pancreatic neoplasm": 1.0,
+          "Myasthenia gravis": 1.0
+        },
+        "per_class_counts": {
+          "Acute dystonic reactions": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pulmonary embolism": {
+            "correct": 20,
+            "total": 20
+          },
+          "Possible NSTEMI / STEMI": {
+            "correct": 20,
+            "total": 20
+          },
+          "URTI": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous rib fracture": {
+            "correct": 14,
+            "total": 20
+          },
+          "Bronchitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchiolitis": {
+            "correct": 15,
+            "total": 20
+          },
+          "Epiglottitis": {
+            "correct": 22,
+            "total": 22
+          },
+          "Chagas": {
+            "correct": 20,
+            "total": 21
+          },
+          "GERD": {
+            "correct": 20,
+            "total": 20
+          },
+          "HIV (initial infection)": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pericarditis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Unstable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Acute laryngitis": {
+            "correct": 19,
+            "total": 20
+          },
+          "Boerhaave": {
+            "correct": 19,
+            "total": 20
+          },
+          "Guillain-Barr\u00e9 syndrome": {
+            "correct": 23,
+            "total": 23
+          },
+          "Chronic rhinosinusitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Anaphylaxis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Whooping cough": {
+            "correct": 0,
+            "total": 20
+          },
+          "Scombroid food poisoning": {
+            "correct": 21,
+            "total": 21
+          },
+          "Influenza": {
+            "correct": 20,
+            "total": 20
+          },
+          "Larygospasm": {
+            "correct": 7,
+            "total": 20
+          },
+          "PSVT": {
+            "correct": 20,
+            "total": 20
+          },
+          "Myocarditis": {
+            "correct": 15,
+            "total": 20
+          },
+          "Bronchospasm / acute asthma exacerbation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Ebola": {
+            "correct": 20,
+            "total": 20
+          },
+          "Allergic sinusitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Croup": {
+            "correct": 11,
+            "total": 20
+          },
+          "Anemia": {
+            "correct": 20,
+            "total": 20
+          },
+          "Panic attack": {
+            "correct": 20,
+            "total": 20
+          },
+          "Cluster headache": {
+            "correct": 21,
+            "total": 21
+          },
+          "Localized edema": {
+            "correct": 22,
+            "total": 22
+          },
+          "SLE": {
+            "correct": 20,
+            "total": 20
+          },
+          "Inguinal hernia": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pulmonary neoplasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous pneumothorax": {
+            "correct": 20,
+            "total": 20
+          },
+          "Tuberculosis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute COPD exacerbation / infection": {
+            "correct": 21,
+            "total": 21
+          },
+          "Sarcoidosis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute otitis media": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute rhinosinusitis": {
+            "correct": 10,
+            "total": 20
+          },
+          "Stable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Viral pharyngitis": {
+            "correct": 22,
+            "total": 22
+          },
+          "Acute pulmonary edema": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pneumonia": {
+            "correct": 21,
+            "total": 21
+          },
+          "Atrial fibrillation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Bronchiectasis": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pancreatic neoplasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "Myasthenia gravis": {
+            "correct": 20,
+            "total": 20
+          }
+        }
+      }
+    }
+  },
+  "ddx_main": {
+    "LLM-Only": {
+      "metrics": {
+        "top1": 0.299,
+        "top3": 0.412,
+        "top5": 0.458,
+        "ndcg5": 0.38943147997711114,
+        "f1": 0.15333333333333338,
+        "halluc": 0.6202,
+        "n": 1000,
+        "cis": {
+          "top1": [
+            0.27,
+            0.327
+          ],
+          "top3": [
+            0.38,
+            0.441
+          ],
+          "top5": [
+            0.427,
+            0.491
+          ],
+          "ndcg5": [
+            0.3605,
+            0.4184
+          ],
+          "f1": [
+            0.1427,
+            0.1635
+          ],
+          "top1_wilson": [
+            0.27143763442230356,
+            0.3281007224888896
+          ]
+        },
+        "per_class": {
+          "Acute dystonic reactions": 0.9047619047619048,
+          "Pulmonary embolism": 0.7,
+          "Possible NSTEMI / STEMI": 0.0,
+          "URTI": 0.0,
+          "Spontaneous rib fracture": 0.0,
+          "Bronchitis": 0.5,
+          "Bronchiolitis": 0.05,
+          "Epiglottitis": 0.0,
+          "Chagas": 0.0,
+          "GERD": 0.9,
+          "HIV (initial infection)": 0.0,
+          "Pericarditis": 0.6,
+          "Unstable angina": 0.0,
+          "Acute laryngitis": 0.05,
+          "Boerhaave": 0.0,
+          "Guillain-Barr\u00e9 syndrome": 0.9130434782608695,
+          "Chronic rhinosinusitis": 1.0,
+          "Anaphylaxis": 0.4,
+          "Whooping cough": 0.6,
+          "Scombroid food poisoning": 0.0,
+          "Influenza": 0.05,
+          "Larygospasm": 0.0,
+          "PSVT": 0.0,
+          "Myocarditis": 0.05,
+          "Bronchospasm / acute asthma exacerbation": 1.0,
+          "Ebola": 0.4,
+          "Allergic sinusitis": 0.0,
+          "Croup": 0.85,
+          "Anemia": 0.9,
+          "Panic attack": 0.05,
+          "Cluster headache": 0.6190476190476191,
+          "Localized edema": 0.0,
+          "SLE": 0.0,
+          "Inguinal hernia": 0.0,
+          "Pulmonary neoplasm": 0.0,
+          "Spontaneous pneumothorax": 0.65,
+          "Tuberculosis": 0.4,
+          "Acute COPD exacerbation / infection": 0.0,
+          "Sarcoidosis": 0.0,
+          "Acute otitis media": 0.3,
+          "Acute rhinosinusitis": 0.75,
+          "Stable angina": 0.0,
+          "Viral pharyngitis": 0.0,
+          "Acute pulmonary edema": 0.0,
+          "Pneumonia": 0.7619047619047619,
+          "Atrial fibrillation": 0.23809523809523808,
+          "Bronchiectasis": 0.0,
+          "Pancreatic neoplasm": 0.0,
+          "Myasthenia gravis": 1.0
+        },
+        "per_class_counts": {
+          "Acute dystonic reactions": {
+            "correct": 19,
+            "total": 21
+          },
+          "Pulmonary embolism": {
+            "correct": 14,
+            "total": 20
+          },
+          "Possible NSTEMI / STEMI": {
+            "correct": 0,
+            "total": 20
+          },
+          "URTI": {
+            "correct": 0,
+            "total": 20
+          },
+          "Spontaneous rib fracture": {
+            "correct": 0,
+            "total": 20
+          },
+          "Bronchitis": {
+            "correct": 10,
+            "total": 20
+          },
+          "Bronchiolitis": {
+            "correct": 1,
+            "total": 20
+          },
+          "Epiglottitis": {
+            "correct": 0,
+            "total": 22
+          },
+          "Chagas": {
+            "correct": 0,
+            "total": 21
+          },
+          "GERD": {
+            "correct": 18,
+            "total": 20
+          },
+          "HIV (initial infection)": {
+            "correct": 0,
+            "total": 20
+          },
+          "Pericarditis": {
+            "correct": 12,
+            "total": 20
+          },
+          "Unstable angina": {
+            "correct": 0,
+            "total": 21
+          },
+          "Acute laryngitis": {
+            "correct": 1,
+            "total": 20
+          },
+          "Boerhaave": {
+            "correct": 0,
+            "total": 20
+          },
+          "Guillain-Barr\u00e9 syndrome": {
+            "correct": 21,
+            "total": 23
+          },
+          "Chronic rhinosinusitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Anaphylaxis": {
+            "correct": 8,
+            "total": 20
+          },
+          "Whooping cough": {
+            "correct": 12,
+            "total": 20
+          },
+          "Scombroid food poisoning": {
+            "correct": 0,
+            "total": 21
+          },
+          "Influenza": {
+            "correct": 1,
+            "total": 20
+          },
+          "Larygospasm": {
+            "correct": 0,
+            "total": 20
+          },
+          "PSVT": {
+            "correct": 0,
+            "total": 20
+          },
+          "Myocarditis": {
+            "correct": 1,
+            "total": 20
+          },
+          "Bronchospasm / acute asthma exacerbation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Ebola": {
+            "correct": 8,
+            "total": 20
+          },
+          "Allergic sinusitis": {
+            "correct": 0,
+            "total": 20
+          },
+          "Croup": {
+            "correct": 17,
+            "total": 20
+          },
+          "Anemia": {
+            "correct": 18,
+            "total": 20
+          },
+          "Panic attack": {
+            "correct": 1,
+            "total": 20
+          },
+          "Cluster headache": {
+            "correct": 13,
+            "total": 21
+          },
+          "Localized edema": {
+            "correct": 0,
+            "total": 22
+          },
+          "SLE": {
+            "correct": 0,
+            "total": 20
+          },
+          "Inguinal hernia": {
+            "correct": 0,
+            "total": 20
+          },
+          "Pulmonary neoplasm": {
+            "correct": 0,
+            "total": 20
+          },
+          "Spontaneous pneumothorax": {
+            "correct": 13,
+            "total": 20
+          },
+          "Tuberculosis": {
+            "correct": 8,
+            "total": 20
+          },
+          "Acute COPD exacerbation / infection": {
+            "correct": 0,
+            "total": 21
+          },
+          "Sarcoidosis": {
+            "correct": 0,
+            "total": 20
+          },
+          "Acute otitis media": {
+            "correct": 6,
+            "total": 20
+          },
+          "Acute rhinosinusitis": {
+            "correct": 15,
+            "total": 20
+          },
+          "Stable angina": {
+            "correct": 0,
+            "total": 21
+          },
+          "Viral pharyngitis": {
+            "correct": 0,
+            "total": 22
+          },
+          "Acute pulmonary edema": {
+            "correct": 0,
+            "total": 20
+          },
+          "Pneumonia": {
+            "correct": 16,
+            "total": 21
+          },
+          "Atrial fibrillation": {
+            "correct": 5,
+            "total": 21
+          },
+          "Bronchiectasis": {
+            "correct": 0,
+            "total": 21
+          },
+          "Pancreatic neoplasm": {
+            "correct": 0,
+            "total": 20
+          },
+          "Myasthenia gravis": {
+            "correct": 20,
+            "total": 20
+          }
+        }
+      }
+    },
+    "Dense-Only": {
+      "metrics": {
+        "top1": 0.846,
+        "top3": 0.929,
+        "top5": 0.943,
+        "ndcg5": 0.9176336988544254,
+        "f1": 0.3161333333333333,
+        "halluc": 0.0,
+        "n": 1000,
+        "cis": {
+          "top1": [
+            0.823,
+            0.868
+          ],
+          "top3": [
+            0.912,
+            0.944
+          ],
+          "top5": [
+            0.928,
+            0.956
+          ],
+          "ndcg5": [
+            0.9,
+            0.935
+          ],
+          "f1": [
+            0.3109,
+            0.3209
+          ],
+          "top1_wilson": [
+            0.8223081403024968,
+            0.8670437428254991
+          ],
+          "halluc_upper_95": 0.0005989670023149134
+        },
+        "per_class": {
+          "Acute dystonic reactions": 1.0,
+          "Pulmonary embolism": 0.9,
+          "Possible NSTEMI / STEMI": 0.65,
+          "URTI": 1.0,
+          "Spontaneous rib fracture": 0.6,
+          "Bronchitis": 0.65,
+          "Bronchiolitis": 1.0,
+          "Epiglottitis": 0.8636363636363636,
+          "Chagas": 0.9523809523809523,
+          "GERD": 0.75,
+          "HIV (initial infection)": 0.6,
+          "Pericarditis": 0.9,
+          "Unstable angina": 1.0,
+          "Acute laryngitis": 0.5,
+          "Boerhaave": 0.85,
+          "Guillain-Barr\u00e9 syndrome": 1.0,
+          "Chronic rhinosinusitis": 0.9,
+          "Anaphylaxis": 0.8,
+          "Whooping cough": 1.0,
+          "Scombroid food poisoning": 0.8571428571428571,
+          "Influenza": 0.9,
+          "Larygospasm": 1.0,
+          "PSVT": 1.0,
+          "Myocarditis": 0.85,
+          "Bronchospasm / acute asthma exacerbation": 1.0,
+          "Ebola": 1.0,
+          "Allergic sinusitis": 1.0,
+          "Croup": 1.0,
+          "Anemia": 1.0,
+          "Panic attack": 0.95,
+          "Cluster headache": 1.0,
+          "Localized edema": 1.0,
+          "SLE": 0.15,
+          "Inguinal hernia": 1.0,
+          "Pulmonary neoplasm": 1.0,
+          "Spontaneous pneumothorax": 1.0,
+          "Tuberculosis": 0.95,
+          "Acute COPD exacerbation / infection": 1.0,
+          "Sarcoidosis": 0.9,
+          "Acute otitis media": 1.0,
+          "Acute rhinosinusitis": 0.05,
+          "Stable angina": 1.0,
+          "Viral pharyngitis": 0.3181818181818182,
+          "Acute pulmonary edema": 0.75,
+          "Pneumonia": 0.0,
+          "Atrial fibrillation": 0.9523809523809523,
+          "Bronchiectasis": 1.0,
+          "Pancreatic neoplasm": 0.9,
+          "Myasthenia gravis": 1.0
+        },
+        "per_class_counts": {
+          "Acute dystonic reactions": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pulmonary embolism": {
+            "correct": 18,
+            "total": 20
+          },
+          "Possible NSTEMI / STEMI": {
+            "correct": 13,
+            "total": 20
+          },
+          "URTI": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous rib fracture": {
+            "correct": 12,
+            "total": 20
+          },
+          "Bronchitis": {
+            "correct": 13,
+            "total": 20
+          },
+          "Bronchiolitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Epiglottitis": {
+            "correct": 19,
+            "total": 22
+          },
+          "Chagas": {
+            "correct": 20,
+            "total": 21
+          },
+          "GERD": {
+            "correct": 15,
+            "total": 20
+          },
+          "HIV (initial infection)": {
+            "correct": 12,
+            "total": 20
+          },
+          "Pericarditis": {
+            "correct": 18,
+            "total": 20
+          },
+          "Unstable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Acute laryngitis": {
+            "correct": 10,
+            "total": 20
+          },
+          "Boerhaave": {
+            "correct": 17,
+            "total": 20
+          },
+          "Guillain-Barr\u00e9 syndrome": {
+            "correct": 23,
+            "total": 23
+          },
+          "Chronic rhinosinusitis": {
+            "correct": 18,
+            "total": 20
+          },
+          "Anaphylaxis": {
+            "correct": 16,
+            "total": 20
+          },
+          "Whooping cough": {
+            "correct": 20,
+            "total": 20
+          },
+          "Scombroid food poisoning": {
+            "correct": 18,
+            "total": 21
+          },
+          "Influenza": {
+            "correct": 18,
+            "total": 20
+          },
+          "Larygospasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "PSVT": {
+            "correct": 20,
+            "total": 20
+          },
+          "Myocarditis": {
+            "correct": 17,
+            "total": 20
+          },
+          "Bronchospasm / acute asthma exacerbation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Ebola": {
+            "correct": 20,
+            "total": 20
+          },
+          "Allergic sinusitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Croup": {
+            "correct": 20,
+            "total": 20
+          },
+          "Anemia": {
+            "correct": 20,
+            "total": 20
+          },
+          "Panic attack": {
+            "correct": 19,
+            "total": 20
+          },
+          "Cluster headache": {
+            "correct": 21,
+            "total": 21
+          },
+          "Localized edema": {
+            "correct": 22,
+            "total": 22
+          },
+          "SLE": {
+            "correct": 3,
+            "total": 20
+          },
+          "Inguinal hernia": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pulmonary neoplasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous pneumothorax": {
+            "correct": 20,
+            "total": 20
+          },
+          "Tuberculosis": {
+            "correct": 19,
+            "total": 20
+          },
+          "Acute COPD exacerbation / infection": {
+            "correct": 21,
+            "total": 21
+          },
+          "Sarcoidosis": {
+            "correct": 18,
+            "total": 20
+          },
+          "Acute otitis media": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute rhinosinusitis": {
+            "correct": 1,
+            "total": 20
+          },
+          "Stable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Viral pharyngitis": {
+            "correct": 7,
+            "total": 22
+          },
+          "Acute pulmonary edema": {
+            "correct": 15,
+            "total": 20
+          },
+          "Pneumonia": {
+            "correct": 0,
+            "total": 21
+          },
+          "Atrial fibrillation": {
+            "correct": 20,
+            "total": 21
+          },
+          "Bronchiectasis": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pancreatic neoplasm": {
+            "correct": 18,
+            "total": 20
+          },
+          "Myasthenia gravis": {
+            "correct": 20,
+            "total": 20
+          }
+        }
+      }
+    },
+    "BM25+PPMI": {
+      "metrics": {
+        "top1": 0.915,
+        "top3": 0.956,
+        "top5": 0.956,
+        "ndcg5": 0.9655578720107164,
+        "f1": 0.32139999999999996,
+        "halluc": 0.0112,
+        "n": 1000,
+        "cis": {
+          "top1": [
+            0.898,
+            0.932
+          ],
+          "top3": [
+            0.943,
+            0.968
+          ],
+          "top5": [
+            0.943,
+            0.968
+          ],
+          "ndcg5": [
+            0.9492,
+            0.9801
+          ],
+          "f1": [
+            0.3168,
+            0.3254
+          ],
+          "top1_wilson": [
+            0.8960871089966438,
+            0.9307366814603455
+          ]
+        },
+        "per_class": {
+          "Acute dystonic reactions": 1.0,
+          "Pulmonary embolism": 1.0,
+          "Possible NSTEMI / STEMI": 1.0,
+          "URTI": 1.0,
+          "Spontaneous rib fracture": 1.0,
+          "Bronchitis": 1.0,
+          "Bronchiolitis": 1.0,
+          "Epiglottitis": 1.0,
+          "Chagas": 1.0,
+          "GERD": 1.0,
+          "HIV (initial infection)": 0.35,
+          "Pericarditis": 1.0,
+          "Unstable angina": 1.0,
+          "Acute laryngitis": 1.0,
+          "Boerhaave": 1.0,
+          "Guillain-Barr\u00e9 syndrome": 1.0,
+          "Chronic rhinosinusitis": 0.1,
+          "Anaphylaxis": 0.95,
+          "Whooping cough": 1.0,
+          "Scombroid food poisoning": 1.0,
+          "Influenza": 1.0,
+          "Larygospasm": 0.1,
+          "PSVT": 1.0,
+          "Myocarditis": 1.0,
+          "Bronchospasm / acute asthma exacerbation": 1.0,
+          "Ebola": 1.0,
+          "Allergic sinusitis": 1.0,
+          "Croup": 1.0,
+          "Anemia": 0.95,
+          "Panic attack": 1.0,
+          "Cluster headache": 1.0,
+          "Localized edema": 1.0,
+          "SLE": 0.65,
+          "Inguinal hernia": 1.0,
+          "Pulmonary neoplasm": 1.0,
+          "Spontaneous pneumothorax": 1.0,
+          "Tuberculosis": 1.0,
+          "Acute COPD exacerbation / infection": 1.0,
+          "Sarcoidosis": 1.0,
+          "Acute otitis media": 1.0,
+          "Acute rhinosinusitis": 0.75,
+          "Stable angina": 0.9047619047619048,
+          "Viral pharyngitis": 1.0,
+          "Acute pulmonary edema": 1.0,
+          "Pneumonia": 0.047619047619047616,
+          "Atrial fibrillation": 1.0,
+          "Bronchiectasis": 1.0,
+          "Pancreatic neoplasm": 1.0,
+          "Myasthenia gravis": 1.0
+        },
+        "per_class_counts": {
+          "Acute dystonic reactions": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pulmonary embolism": {
+            "correct": 20,
+            "total": 20
+          },
+          "Possible NSTEMI / STEMI": {
+            "correct": 20,
+            "total": 20
+          },
+          "URTI": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous rib fracture": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchiolitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Epiglottitis": {
+            "correct": 22,
+            "total": 22
+          },
+          "Chagas": {
+            "correct": 21,
+            "total": 21
+          },
+          "GERD": {
+            "correct": 20,
+            "total": 20
+          },
+          "HIV (initial infection)": {
+            "correct": 7,
+            "total": 20
+          },
+          "Pericarditis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Unstable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Acute laryngitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Boerhaave": {
+            "correct": 20,
+            "total": 20
+          },
+          "Guillain-Barr\u00e9 syndrome": {
+            "correct": 23,
+            "total": 23
+          },
+          "Chronic rhinosinusitis": {
+            "correct": 2,
+            "total": 20
+          },
+          "Anaphylaxis": {
+            "correct": 19,
+            "total": 20
+          },
+          "Whooping cough": {
+            "correct": 20,
+            "total": 20
+          },
+          "Scombroid food poisoning": {
+            "correct": 21,
+            "total": 21
+          },
+          "Influenza": {
+            "correct": 20,
+            "total": 20
+          },
+          "Larygospasm": {
+            "correct": 2,
+            "total": 20
+          },
+          "PSVT": {
+            "correct": 20,
+            "total": 20
+          },
+          "Myocarditis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchospasm / acute asthma exacerbation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Ebola": {
+            "correct": 20,
+            "total": 20
+          },
+          "Allergic sinusitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Croup": {
+            "correct": 20,
+            "total": 20
+          },
+          "Anemia": {
+            "correct": 19,
+            "total": 20
+          },
+          "Panic attack": {
+            "correct": 20,
+            "total": 20
+          },
+          "Cluster headache": {
+            "correct": 21,
+            "total": 21
+          },
+          "Localized edema": {
+            "correct": 22,
+            "total": 22
+          },
+          "SLE": {
+            "correct": 13,
+            "total": 20
+          },
+          "Inguinal hernia": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pulmonary neoplasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous pneumothorax": {
+            "correct": 20,
+            "total": 20
+          },
+          "Tuberculosis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute COPD exacerbation / infection": {
+            "correct": 21,
+            "total": 21
+          },
+          "Sarcoidosis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute otitis media": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute rhinosinusitis": {
+            "correct": 15,
+            "total": 20
+          },
+          "Stable angina": {
+            "correct": 19,
+            "total": 21
+          },
+          "Viral pharyngitis": {
+            "correct": 22,
+            "total": 22
+          },
+          "Acute pulmonary edema": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pneumonia": {
+            "correct": 1,
+            "total": 21
+          },
+          "Atrial fibrillation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Bronchiectasis": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pancreatic neoplasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "Myasthenia gravis": {
+            "correct": 20,
+            "total": 20
+          }
+        }
+      }
+    },
+    "Multi-Source": {
+      "metrics": {
+        "top1": 0.943,
+        "top3": 0.958,
+        "top5": 0.959,
+        "ndcg5": 0.9654894989187885,
+        "f1": 0.32106666666666667,
+        "halluc": 0.0,
+        "n": 1000,
+        "cis": {
+          "top1": [
+            0.928,
+            0.957
+          ],
+          "top3": [
+            0.945,
+            0.97
+          ],
+          "top5": [
+            0.946,
+            0.971
+          ],
+          "ndcg5": [
+            0.9511,
+            0.9787
+          ],
+          "f1": [
+            0.3169,
+            0.3252
+          ],
+          "top1_wilson": [
+            0.9268629323405141,
+            0.9557465596412841
+          ],
+          "halluc_upper_95": 0.0005989670023149134
+        },
+        "per_class": {
+          "Acute dystonic reactions": 1.0,
+          "Pulmonary embolism": 1.0,
+          "Possible NSTEMI / STEMI": 0.95,
+          "URTI": 1.0,
+          "Spontaneous rib fracture": 1.0,
+          "Bronchitis": 1.0,
+          "Bronchiolitis": 1.0,
+          "Epiglottitis": 1.0,
+          "Chagas": 1.0,
+          "GERD": 1.0,
+          "HIV (initial infection)": 0.85,
+          "Pericarditis": 0.95,
+          "Unstable angina": 1.0,
+          "Acute laryngitis": 1.0,
+          "Boerhaave": 1.0,
+          "Guillain-Barr\u00e9 syndrome": 1.0,
+          "Chronic rhinosinusitis": 0.95,
+          "Anaphylaxis": 0.9,
+          "Whooping cough": 1.0,
+          "Scombroid food poisoning": 1.0,
+          "Influenza": 1.0,
+          "Larygospasm": 1.0,
+          "PSVT": 1.0,
+          "Myocarditis": 1.0,
+          "Bronchospasm / acute asthma exacerbation": 1.0,
+          "Ebola": 1.0,
+          "Allergic sinusitis": 1.0,
+          "Croup": 1.0,
+          "Anemia": 1.0,
+          "Panic attack": 1.0,
+          "Cluster headache": 1.0,
+          "Localized edema": 1.0,
+          "SLE": 0.0,
+          "Inguinal hernia": 1.0,
+          "Pulmonary neoplasm": 1.0,
+          "Spontaneous pneumothorax": 1.0,
+          "Tuberculosis": 1.0,
+          "Acute COPD exacerbation / infection": 1.0,
+          "Sarcoidosis": 1.0,
+          "Acute otitis media": 1.0,
+          "Acute rhinosinusitis": 0.65,
+          "Stable angina": 1.0,
+          "Viral pharyngitis": 1.0,
+          "Acute pulmonary edema": 1.0,
+          "Pneumonia": 0.0,
+          "Atrial fibrillation": 1.0,
+          "Bronchiectasis": 1.0,
+          "Pancreatic neoplasm": 0.95,
+          "Myasthenia gravis": 1.0
+        },
+        "per_class_counts": {
+          "Acute dystonic reactions": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pulmonary embolism": {
+            "correct": 20,
+            "total": 20
+          },
+          "Possible NSTEMI / STEMI": {
+            "correct": 19,
+            "total": 20
+          },
+          "URTI": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous rib fracture": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchiolitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Epiglottitis": {
+            "correct": 22,
+            "total": 22
+          },
+          "Chagas": {
+            "correct": 21,
+            "total": 21
+          },
+          "GERD": {
+            "correct": 20,
+            "total": 20
+          },
+          "HIV (initial infection)": {
+            "correct": 17,
+            "total": 20
+          },
+          "Pericarditis": {
+            "correct": 19,
+            "total": 20
+          },
+          "Unstable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Acute laryngitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Boerhaave": {
+            "correct": 20,
+            "total": 20
+          },
+          "Guillain-Barr\u00e9 syndrome": {
+            "correct": 23,
+            "total": 23
+          },
+          "Chronic rhinosinusitis": {
+            "correct": 19,
+            "total": 20
+          },
+          "Anaphylaxis": {
+            "correct": 18,
+            "total": 20
+          },
+          "Whooping cough": {
+            "correct": 20,
+            "total": 20
+          },
+          "Scombroid food poisoning": {
+            "correct": 21,
+            "total": 21
+          },
+          "Influenza": {
+            "correct": 20,
+            "total": 20
+          },
+          "Larygospasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "PSVT": {
+            "correct": 20,
+            "total": 20
+          },
+          "Myocarditis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchospasm / acute asthma exacerbation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Ebola": {
+            "correct": 20,
+            "total": 20
+          },
+          "Allergic sinusitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Croup": {
+            "correct": 20,
+            "total": 20
+          },
+          "Anemia": {
+            "correct": 20,
+            "total": 20
+          },
+          "Panic attack": {
+            "correct": 20,
+            "total": 20
+          },
+          "Cluster headache": {
+            "correct": 21,
+            "total": 21
+          },
+          "Localized edema": {
+            "correct": 22,
+            "total": 22
+          },
+          "SLE": {
+            "correct": 0,
+            "total": 20
+          },
+          "Inguinal hernia": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pulmonary neoplasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous pneumothorax": {
+            "correct": 20,
+            "total": 20
+          },
+          "Tuberculosis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute COPD exacerbation / infection": {
+            "correct": 21,
+            "total": 21
+          },
+          "Sarcoidosis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute otitis media": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute rhinosinusitis": {
+            "correct": 13,
+            "total": 20
+          },
+          "Stable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Viral pharyngitis": {
+            "correct": 22,
+            "total": 22
+          },
+          "Acute pulmonary edema": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pneumonia": {
+            "correct": 0,
+            "total": 21
+          },
+          "Atrial fibrillation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Bronchiectasis": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pancreatic neoplasm": {
+            "correct": 19,
+            "total": 20
+          },
+          "Myasthenia gravis": {
+            "correct": 20,
+            "total": 20
+          }
+        }
+      }
+    }
+  },
+  "ddx_significance": {
+    "LLM-Only vs Dense-Only": 0.0,
+    "Dense-Only vs BM25+PPMI": 6.938715857440769e-08,
+    "BM25+PPMI vs Multi-Source": 0.0012504421134105215,
+    "LLM-Only vs Multi-Source": 0.0
+  },
+  "ddx_errors": [
+    {
+      "true": "HIV (initial infection)",
+      "predicted": [
+        "{'diagnosis': 'Chagas', 'confidence': 0.016}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.0159}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.0155}"
+      ],
+      "symptom_text": "Age: 21, Sex: M, Do you have swollen or painful lymph nodes?, Have you ever had a sexually transmitted infection?, Have you had significantly increased sweating?, Have you had diarrhea or an increase ",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0159}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.0155}"
+      ],
+      "symptom_text": "Age: 3, Sex: F, Have you ever had a pericarditis?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Do you feel pain somewhere?: V_26, Do you feel pa",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0162}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.0162}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0157}"
+      ],
+      "symptom_text": "Age: 50, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Characterize your pain:: V_192, Do you feel pain somewhere?: V_26, Do you feel pain",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.0161}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0156}"
+      ],
+      "symptom_text": "Age: 16, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Characterize your pain:: V_192, Do you feel pain somewhere?: V_26, Do you feel pain",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0161}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.016}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.0153}"
+      ],
+      "symptom_text": "Age: 22, Sex: M, Have you ever had a pericarditis?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Do you feel pain somewhere?: V_34, Do you feel p",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0159}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.0156}"
+      ],
+      "symptom_text": "Age: 64, Sex: F, Have you ever had a pericarditis?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_192, Do you feel pain somewhere?: V_34, Do you feel p",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0159}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.0155}"
+      ],
+      "symptom_text": "Age: 40, Sex: F, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Characterize your pain:: V_192, Do you feel pain somewhere?: V_26, Do you feel pain",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Possible NSTEMI / STEMI",
+      "predicted": [
+        "{'diagnosis': 'Unstable angina', 'confidence': 0.016}",
+        "{'diagnosis': 'Stable angina', 'confidence': 0.016}",
+        "{'diagnosis': 'Possible NSTEMI / STEMI', 'confidence': 0.0159}"
+      ],
+      "symptom_text": "Age: 32, Sex: F, Have you had significantly increased sweating?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_154, Characterize your pain:: V_183, Cha",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "Influenza",
+        "Pulmonary neoplasm",
+        "SLE"
+      ],
+      "symptom_text": "Age: 3, Sex: F, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Characterize your pain:: V_192, Do you feel pain somewhere?: V_55, Do you feel pain ",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.016}",
+        "{'diagnosis': 'Pericarditis', 'confidence': 0.0154}"
+      ],
+      "symptom_text": "Age: 63, Sex: F, Have you ever had a pericarditis?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Do you feel pain somewhere?: V_26, Do you feel p",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Acute rhinosinusitis",
+      "predicted": [
+        "{'diagnosis': 'Chronic rhinosinusitis', 'confidence': 0.0164}",
+        "{'diagnosis': 'Acute rhinosinusitis', 'confidence': 0.016}",
+        "{'diagnosis': 'Acute otitis media', 'confidence': 0.015}"
+      ],
+      "symptom_text": "Age: 55, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_192, Do you feel pain somewhere?: V_32, Do you feel pain somewhere?: V_89, Do you feel p",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0162}",
+        "{'diagnosis': 'Myocarditis', 'confidence': 0.0151}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.015}"
+      ],
+      "symptom_text": "Age: 23, Sex: F, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Characterize your pain:: V_192, Do you feel pain somewhere?: V_55, Do you feel pain",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0162}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.0154}",
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0152}"
+      ],
+      "symptom_text": "Age: 11, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Do you feel pain somewhere?: V_56, Do you feel pain somewhere?: V_159, Do you feel ",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0162}",
+        "{'diagnosis': 'SLE', 'confidence': 0.0149}",
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0147}"
+      ],
+      "symptom_text": "Age: 27, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Do you feel pain somewhere?: V_56, Do you feel pain somewhere?: V_171, How intense ",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.0157}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0156}"
+      ],
+      "symptom_text": "Age: 16, Sex: F, Have you ever had a pericarditis?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Characterize your pain:: V_192, Do you feel pain",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0163}",
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0152}",
+        "{'diagnosis': 'Pancreatic neoplasm', 'confidence': 0.0151}"
+      ],
+      "symptom_text": "Age: 0, Sex: M, Have you been coughing up blood?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Characterize your pain:: V_192, Do you feel pain s",
+      "dense_found": false,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0162}",
+        "{'diagnosis': 'SLE', 'confidence': 0.016}",
+        "{'diagnosis': 'Pancreatic neoplasm', 'confidence': 0.0152}"
+      ],
+      "symptom_text": "Age: 30, Sex: F, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_192, Do you feel pain somewhere?: V_160, How intense is the pain?: 2, Does the pain radi",
+      "dense_found": false,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0158}",
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0152}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.015}"
+      ],
+      "symptom_text": "Age: 28, Sex: M, Have you been coughing up blood?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Do you feel pain somewhere?: V_55, Do you feel pa",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0163}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0155}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.0151}"
+      ],
+      "symptom_text": "Age: 22, Sex: F, Have you ever had a pericarditis?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Characterize your pain:: V_192, Do you feel pain",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0161}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.0161}",
+        "{'diagnosis': 'Pulmonary neoplasm', 'confidence': 0.0146}"
+      ],
+      "symptom_text": "Age: 44, Sex: M, Have you been coughing up blood?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Characterize your pain:: V_192, Do you feel pain ",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0159}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.0158}"
+      ],
+      "symptom_text": "Age: 11, Sex: M, Have you ever had a pericarditis?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_192, Do you feel pain somewhere?: V_26, Do you feel p",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pericarditis",
+      "predicted": [
+        "{'diagnosis': 'Spontaneous rib fracture', 'confidence': 0.016}",
+        "{'diagnosis': 'Pericarditis', 'confidence': 0.0158}",
+        "{'diagnosis': 'Myocarditis', 'confidence': 0.0153}"
+      ],
+      "symptom_text": "Age: 50, Sex: F, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Characterize your pain:: V_192, Do you feel pain somewhere?: V_159, How intense is ",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Pulmonary neoplasm', 'confidence': 0.0151}",
+        "{'diagnosis': 'Myocarditis', 'confidence': 0.0151}",
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0149}"
+      ],
+      "symptom_text": "Age: 62, Sex: F, Have you been coughing up blood?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Characterize your pain:: V_192, Do you feel pain ",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0163}",
+        "{'diagnosis': 'SLE', 'confidence': 0.0153}",
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0152}"
+      ],
+      "symptom_text": "Age: 28, Sex: M, Have you been coughing up blood?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_192, Do you feel pain somewhere?: V_55, Do you feel pa",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0156}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.0153}"
+      ],
+      "symptom_text": "Age: 92, Sex: F, Have you ever had a pericarditis?, Have you breastfed one of your children for more than 9 months?, Do you have pain somewhere, related to your reason for consulting?, Characterize yo",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "Influenza",
+        "Bronchitis",
+        "Myocarditis"
+      ],
+      "symptom_text": "Age: 9, Sex: F, Have you been coughing up blood?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Characterize your pain:: V_192, Do you feel pain s",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0163}",
+        "{'diagnosis': 'Pulmonary neoplasm', 'confidence': 0.0156}",
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0152}"
+      ],
+      "symptom_text": "Age: 16, Sex: M, Have you been coughing up blood?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Characterize your pain:: V_192, Do you feel pain ",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Acute rhinosinusitis",
+      "predicted": [
+        "{'diagnosis': 'Chronic rhinosinusitis', 'confidence': 0.0163}",
+        "{'diagnosis': 'Acute rhinosinusitis', 'confidence': 0.0159}",
+        "{'diagnosis': 'Acute laryngitis', 'confidence': 0.0149}"
+      ],
+      "symptom_text": "Age: 16, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_181, Characterize your pain:: V_192, Do you feel pain somewhere?: V_32, Do you feel pain",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0156}",
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0155}",
+        "{'diagnosis': 'Myocarditis', 'confidence': 0.0153}"
+      ],
+      "symptom_text": "Age: 12, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_192, Do you feel pain somewhere?: V_29, Do you feel pain somewhere?: V_55, Do you feel p",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Chronic rhinosinusitis",
+      "predicted": [
+        "{'diagnosis': 'Acute rhinosinusitis', 'confidence': 0.0162}",
+        "{'diagnosis': 'Chronic rhinosinusitis', 'confidence': 0.0161}",
+        "{'diagnosis': 'URTI', 'confidence': 0.0153}"
+      ],
+      "symptom_text": "Age: 46, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_192, Do you feel pain somewhere?: V_32, Do you feel pain somewhere?: V_89, Do you feel p",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0161}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.016}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.0153}"
+      ],
+      "symptom_text": "Age: 33, Sex: M, Have you ever had a pericarditis?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Do you feel pain somewhere?: V_34, Do you feel p",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "HIV (initial infection)",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0161}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.016}",
+        "{'diagnosis': 'HIV (initial infection)', 'confidence': 0.0158}"
+      ],
+      "symptom_text": "Age: 68, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_198, Do you feel pain somewhere?: V_166, Do you feel pain somewhere?: V_167, How intense",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0159}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.0156}"
+      ],
+      "symptom_text": "Age: 28, Sex: F, Have you ever had a pericarditis?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Do you feel pain somewhere?: V_34, Do you feel p",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Acute rhinosinusitis",
+      "predicted": [
+        "{'diagnosis': 'Chronic rhinosinusitis', 'confidence': 0.0163}",
+        "{'diagnosis': 'Acute rhinosinusitis', 'confidence': 0.0162}",
+        "{'diagnosis': 'Acute otitis media', 'confidence': 0.0147}"
+      ],
+      "symptom_text": "Age: 19, Sex: F, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_181, Do you feel pain somewhere?: V_32, Do you feel pain somewhere?: V_108, Do you feel ",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0159}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.0156}"
+      ],
+      "symptom_text": "Age: 31, Sex: F, Have you ever had a pericarditis?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_192, Do you feel pain somewhere?: V_26, Do you feel p",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Acute rhinosinusitis",
+      "predicted": [
+        "{'diagnosis': 'Chronic rhinosinusitis', 'confidence': 0.0163}",
+        "{'diagnosis': 'Acute rhinosinusitis', 'confidence': 0.0161}",
+        "{'diagnosis': 'URTI', 'confidence': 0.0153}"
+      ],
+      "symptom_text": "Age: 27, Sex: F, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_181, Do you feel pain somewhere?: V_32, Do you feel pain somewhere?: V_89, Do you feel p",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0163}",
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0155}",
+        "{'diagnosis': 'Pulmonary neoplasm', 'confidence': 0.0152}"
+      ],
+      "symptom_text": "Age: 31, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Do you feel pain somewhere?: V_29, Do you feel pain somewhere?: V_55, Do you feel p",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.016}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0156}"
+      ],
+      "symptom_text": "Age: 68, Sex: F, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Characterize your pain:: V_192, Do you feel pain somewhere?: V_26, Do you feel pain",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Acute rhinosinusitis",
+      "predicted": [
+        "{'diagnosis': 'Chronic rhinosinusitis', 'confidence': 0.0163}",
+        "{'diagnosis': 'Acute rhinosinusitis', 'confidence': 0.0161}",
+        "{'diagnosis': 'Acute laryngitis', 'confidence': 0.0144}"
+      ],
+      "symptom_text": "Age: 50, Sex: F, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_181, Characterize your pain:: V_192, Do you feel pain somewhere?: V_32, Do you feel pain",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "Acute rhinosinusitis",
+      "predicted": [
+        "{'diagnosis': 'Chronic rhinosinusitis', 'confidence': 0.0161}",
+        "{'diagnosis': 'Acute rhinosinusitis', 'confidence': 0.016}",
+        "{'diagnosis': 'Acute otitis media', 'confidence': 0.0145}"
+      ],
+      "symptom_text": "Age: 65, Sex: F, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_181, Characterize your pain:: V_192, Do you feel pain somewhere?: V_89, Do you feel pain",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.016}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.0155}"
+      ],
+      "symptom_text": "Age: 14, Sex: M, Have you ever had a pericarditis?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Characterize your pain:: V_192, Do you feel pain",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0159}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.0158}"
+      ],
+      "symptom_text": "Age: 2, Sex: M, Have you ever had a pericarditis?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Characterize your pain:: V_192, Do you feel pain ",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0162}",
+        "{'diagnosis': 'Pulmonary neoplasm', 'confidence': 0.0154}",
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0152}"
+      ],
+      "symptom_text": "Age: 31, Sex: M, Have you been coughing up blood?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Do you feel pain somewhere?: V_56, Do you feel pa",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Pulmonary neoplasm', 'confidence': 0.016}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.016}",
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0154}"
+      ],
+      "symptom_text": "Age: 52, Sex: F, Have you been coughing up blood?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Characterize your pain:: V_192, Do you feel pain ",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pancreatic neoplasm",
+      "predicted": [
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.016}",
+        "{'diagnosis': 'Pancreatic neoplasm', 'confidence': 0.0158}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.0149}"
+      ],
+      "symptom_text": "Age: 25, Sex: F, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Do you feel pain somewhere?: V_85, Do you feel pain somewhere?: V_104, Do you feel ",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "Influenza",
+        "Pulmonary neoplasm",
+        "Inguinal hernia"
+      ],
+      "symptom_text": "Age: 63, Sex: F, Have you been coughing up blood?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Do you feel pain somewhere?: V_29, Do you feel pa",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Anaphylaxis",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.016}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.0158}",
+        "{'diagnosis': 'Anaphylaxis', 'confidence': 0.0158}"
+      ],
+      "symptom_text": "Age: 57, Sex: M, Have you been in contact with or ate something that you have an allergy to?, Have you had diarrhea or an increase in stool frequency?, Do you have pain somewhere, related to your reas",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0156}",
+        "{'diagnosis': 'Chagas', 'confidence': 0.0154}",
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0152}"
+      ],
+      "symptom_text": "Age: 37, Sex: M, Have you been coughing up blood?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Characterize your pain:: V_192, Do you feel pain ",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Anaphylaxis",
+      "predicted": [
+        "{'diagnosis': 'Pancreatic neoplasm', 'confidence': 0.0158}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.0156}",
+        "{'diagnosis': 'Anaphylaxis', 'confidence': 0.0155}"
+      ],
+      "symptom_text": "Age: 60, Sex: M, Have you had diarrhea or an increase in stool frequency?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_182, Characterize your pain:: ",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "HIV (initial infection)",
+      "predicted": [
+        "{'diagnosis': 'Chagas', 'confidence': 0.016}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.016}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.0156}"
+      ],
+      "symptom_text": "Age: 51, Sex: M, Do you have swollen or painful lymph nodes?, Have you ever had a sexually transmitted infection?, Have you had significantly increased sweating?, Have you had diarrhea or an increase ",
+      "dense_found": false,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0157}",
+        "{'diagnosis': 'Pulmonary neoplasm', 'confidence': 0.0156}",
+        "{'diagnosis': 'Pneumonia', 'confidence': 0.0155}"
+      ],
+      "symptom_text": "Age: 2, Sex: M, Characterize your pain:: V_11, Do you feel pain somewhere?: V_123, Does the pain radiate to another location?: V_123, Do you smoke cigarettes?, Do you have Parkinson\u2019s disease?, Do you",
+      "dense_found": false,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "Acute rhinosinusitis",
+      "predicted": [
+        "{'diagnosis': 'Chronic rhinosinusitis', 'confidence': 0.0163}",
+        "{'diagnosis': 'Acute rhinosinusitis', 'confidence': 0.016}",
+        "{'diagnosis': 'Acute otitis media', 'confidence': 0.0153}"
+      ],
+      "symptom_text": "Age: 37, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_181, Do you feel pain somewhere?: V_32, Do you feel pain somewhere?: V_89, Do you feel p",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": true
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0163}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.0152}",
+        "{'diagnosis': 'Pulmonary neoplasm', 'confidence': 0.015}"
+      ],
+      "symptom_text": "Age: 29, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Characterize your pain:: V_192, Do you feel pain somewhere?: V_159, Do you feel pai",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "Pneumonia",
+      "predicted": [
+        "{'diagnosis': 'Influenza', 'confidence': 0.0161}",
+        "{'diagnosis': 'Myocarditis', 'confidence': 0.0153}",
+        "{'diagnosis': 'Bronchitis', 'confidence': 0.0151}"
+      ],
+      "symptom_text": "Age: 7, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_179, Do you feel pain somewhere?: V_55, Do you feel pain somewhere?: V_56, Do you feel pa",
+      "dense_found": false,
+      "bm25_found": false,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.0157}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0153}"
+      ],
+      "symptom_text": "Age: 7, Sex: F, Have you ever had a pericarditis?, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Characterize your pain:: V_192, Do you feel pain ",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.016}",
+        "{'diagnosis': 'Inguinal hernia', 'confidence': 0.0156}"
+      ],
+      "symptom_text": "Age: 7, Sex: F, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_192, Do you feel pain somewhere?: V_26, Do you feel pain somewhere?: V_35, Do you feel pa",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    },
+    {
+      "true": "SLE",
+      "predicted": [
+        "{'diagnosis': 'SLE', 'confidence': 0.0164}",
+        "{'diagnosis': 'Influenza', 'confidence': 0.016}",
+        "{'diagnosis': 'Sarcoidosis', 'confidence': 0.0158}"
+      ],
+      "symptom_text": "Age: 3, Sex: M, Do you have pain somewhere, related to your reason for consulting?, Characterize your pain:: V_161, Do you feel pain somewhere?: V_34, Do you feel pain somewhere?: V_75, Do you feel pa",
+      "dense_found": true,
+      "bm25_found": true,
+      "kg_found": true,
+      "in_candidates_but_ranked_wrong": false
+    }
+  ],
+  "ddx_4o": {
+    "LLM-Only": {
+      "metrics": {
+        "top1": 0.261,
+        "top3": 0.388,
+        "top5": 0.456,
+        "ndcg5": 0.36870033078571457,
+        "f1": 0.15453333333333336,
+        "halluc": 0.67067454656613,
+        "n": 1000,
+        "cis": {
+          "top1": [
+            0.234,
+            0.29
+          ],
+          "top3": [
+            0.357,
+            0.421
+          ],
+          "top5": [
+            0.426,
+            0.487
+          ],
+          "ndcg5": [
+            0.3418,
+            0.3982
+          ],
+          "f1": [
+            0.1438,
+            0.1647
+          ],
+          "top1_wilson": [
+            0.23473118426217232,
+            0.289098006293923
+          ]
+        },
+        "per_class": {
+          "Acute dystonic reactions": 0.5238095238095238,
+          "Pulmonary embolism": 0.55,
+          "Possible NSTEMI / STEMI": 0.0,
+          "URTI": 0.0,
+          "Spontaneous rib fracture": 0.1,
+          "Bronchitis": 0.05,
+          "Bronchiolitis": 0.1,
+          "Epiglottitis": 0.0,
+          "Chagas": 0.0,
+          "GERD": 1.0,
+          "HIV (initial infection)": 0.15,
+          "Pericarditis": 0.55,
+          "Unstable angina": 0.5238095238095238,
+          "Acute laryngitis": 0.15,
+          "Boerhaave": 0.0,
+          "Guillain-Barr\u00e9 syndrome": 0.8695652173913043,
+          "Chronic rhinosinusitis": 0.6,
+          "Anaphylaxis": 0.1,
+          "Whooping cough": 0.6,
+          "Scombroid food poisoning": 0.0,
+          "Influenza": 0.0,
+          "Larygospasm": 0.0,
+          "PSVT": 0.0,
+          "Myocarditis": 0.05,
+          "Bronchospasm / acute asthma exacerbation": 0.7619047619047619,
+          "Ebola": 0.0,
+          "Allergic sinusitis": 0.0,
+          "Croup": 0.75,
+          "Anemia": 0.75,
+          "Panic attack": 0.1,
+          "Cluster headache": 0.6666666666666666,
+          "Localized edema": 0.0,
+          "SLE": 0.0,
+          "Inguinal hernia": 0.0,
+          "Pulmonary neoplasm": 0.0,
+          "Spontaneous pneumothorax": 0.7,
+          "Tuberculosis": 0.3,
+          "Acute COPD exacerbation / infection": 0.0,
+          "Sarcoidosis": 0.0,
+          "Acute otitis media": 0.45,
+          "Acute rhinosinusitis": 0.35,
+          "Stable angina": 0.3333333333333333,
+          "Viral pharyngitis": 0.0,
+          "Acute pulmonary edema": 0.0,
+          "Pneumonia": 0.3333333333333333,
+          "Atrial fibrillation": 0.38095238095238093,
+          "Bronchiectasis": 0.09523809523809523,
+          "Pancreatic neoplasm": 0.0,
+          "Myasthenia gravis": 0.85
+        },
+        "per_class_counts": {
+          "Acute dystonic reactions": {
+            "correct": 11,
+            "total": 21
+          },
+          "Pulmonary embolism": {
+            "correct": 11,
+            "total": 20
+          },
+          "Possible NSTEMI / STEMI": {
+            "correct": 0,
+            "total": 20
+          },
+          "URTI": {
+            "correct": 0,
+            "total": 20
+          },
+          "Spontaneous rib fracture": {
+            "correct": 2,
+            "total": 20
+          },
+          "Bronchitis": {
+            "correct": 1,
+            "total": 20
+          },
+          "Bronchiolitis": {
+            "correct": 2,
+            "total": 20
+          },
+          "Epiglottitis": {
+            "correct": 0,
+            "total": 22
+          },
+          "Chagas": {
+            "correct": 0,
+            "total": 21
+          },
+          "GERD": {
+            "correct": 20,
+            "total": 20
+          },
+          "HIV (initial infection)": {
+            "correct": 3,
+            "total": 20
+          },
+          "Pericarditis": {
+            "correct": 11,
+            "total": 20
+          },
+          "Unstable angina": {
+            "correct": 11,
+            "total": 21
+          },
+          "Acute laryngitis": {
+            "correct": 3,
+            "total": 20
+          },
+          "Boerhaave": {
+            "correct": 0,
+            "total": 20
+          },
+          "Guillain-Barr\u00e9 syndrome": {
+            "correct": 20,
+            "total": 23
+          },
+          "Chronic rhinosinusitis": {
+            "correct": 12,
+            "total": 20
+          },
+          "Anaphylaxis": {
+            "correct": 2,
+            "total": 20
+          },
+          "Whooping cough": {
+            "correct": 12,
+            "total": 20
+          },
+          "Scombroid food poisoning": {
+            "correct": 0,
+            "total": 21
+          },
+          "Influenza": {
+            "correct": 0,
+            "total": 20
+          },
+          "Larygospasm": {
+            "correct": 0,
+            "total": 20
+          },
+          "PSVT": {
+            "correct": 0,
+            "total": 20
+          },
+          "Myocarditis": {
+            "correct": 1,
+            "total": 20
+          },
+          "Bronchospasm / acute asthma exacerbation": {
+            "correct": 16,
+            "total": 21
+          },
+          "Ebola": {
+            "correct": 0,
+            "total": 20
+          },
+          "Allergic sinusitis": {
+            "correct": 0,
+            "total": 20
+          },
+          "Croup": {
+            "correct": 15,
+            "total": 20
+          },
+          "Anemia": {
+            "correct": 15,
+            "total": 20
+          },
+          "Panic attack": {
+            "correct": 2,
+            "total": 20
+          },
+          "Cluster headache": {
+            "correct": 14,
+            "total": 21
+          },
+          "Localized edema": {
+            "correct": 0,
+            "total": 22
+          },
+          "SLE": {
+            "correct": 0,
+            "total": 20
+          },
+          "Inguinal hernia": {
+            "correct": 0,
+            "total": 20
+          },
+          "Pulmonary neoplasm": {
+            "correct": 0,
+            "total": 20
+          },
+          "Spontaneous pneumothorax": {
+            "correct": 14,
+            "total": 20
+          },
+          "Tuberculosis": {
+            "correct": 6,
+            "total": 20
+          },
+          "Acute COPD exacerbation / infection": {
+            "correct": 0,
+            "total": 21
+          },
+          "Sarcoidosis": {
+            "correct": 0,
+            "total": 20
+          },
+          "Acute otitis media": {
+            "correct": 9,
+            "total": 20
+          },
+          "Acute rhinosinusitis": {
+            "correct": 7,
+            "total": 20
+          },
+          "Stable angina": {
+            "correct": 7,
+            "total": 21
+          },
+          "Viral pharyngitis": {
+            "correct": 0,
+            "total": 22
+          },
+          "Acute pulmonary edema": {
+            "correct": 0,
+            "total": 20
+          },
+          "Pneumonia": {
+            "correct": 7,
+            "total": 21
+          },
+          "Atrial fibrillation": {
+            "correct": 8,
+            "total": 21
+          },
+          "Bronchiectasis": {
+            "correct": 2,
+            "total": 21
+          },
+          "Pancreatic neoplasm": {
+            "correct": 0,
+            "total": 20
+          },
+          "Myasthenia gravis": {
+            "correct": 17,
+            "total": 20
+          }
+        }
+      }
+    },
+    "Dense-Only": {
+      "metrics": {
+        "top1": 0.812,
+        "top3": 0.924,
+        "top5": 0.948,
+        "ndcg5": 0.9136848034097209,
+        "f1": 0.3188,
+        "halluc": 0.011,
+        "n": 1000,
+        "cis": {
+          "top1": [
+            0.787,
+            0.837
+          ],
+          "top3": [
+            0.908,
+            0.939
+          ],
+          "top5": [
+            0.934,
+            0.962
+          ],
+          "ndcg5": [
+            0.894,
+            0.9313
+          ],
+          "f1": [
+            0.3139,
+            0.3237
+          ],
+          "top1_wilson": [
+            0.7866068125887822,
+            0.8350052901162315
+          ]
+        },
+        "per_class": {
+          "Acute dystonic reactions": 1.0,
+          "Pulmonary embolism": 0.9,
+          "Possible NSTEMI / STEMI": 0.65,
+          "URTI": 1.0,
+          "Spontaneous rib fracture": 0.6,
+          "Bronchitis": 0.65,
+          "Bronchiolitis": 1.0,
+          "Epiglottitis": 0.8636363636363636,
+          "Chagas": 0.9523809523809523,
+          "GERD": 0.45,
+          "HIV (initial infection)": 0.55,
+          "Pericarditis": 0.9,
+          "Unstable angina": 1.0,
+          "Acute laryngitis": 0.35,
+          "Boerhaave": 0.8,
+          "Guillain-Barr\u00e9 syndrome": 1.0,
+          "Chronic rhinosinusitis": 0.9,
+          "Anaphylaxis": 0.0,
+          "Whooping cough": 1.0,
+          "Scombroid food poisoning": 0.5238095238095238,
+          "Influenza": 0.9,
+          "Larygospasm": 0.55,
+          "PSVT": 1.0,
+          "Myocarditis": 0.85,
+          "Bronchospasm / acute asthma exacerbation": 1.0,
+          "Ebola": 1.0,
+          "Allergic sinusitis": 1.0,
+          "Croup": 1.0,
+          "Anemia": 0.9,
+          "Panic attack": 0.95,
+          "Cluster headache": 1.0,
+          "Localized edema": 1.0,
+          "SLE": 0.75,
+          "Inguinal hernia": 1.0,
+          "Pulmonary neoplasm": 1.0,
+          "Spontaneous pneumothorax": 1.0,
+          "Tuberculosis": 0.95,
+          "Acute COPD exacerbation / infection": 1.0,
+          "Sarcoidosis": 0.9,
+          "Acute otitis media": 1.0,
+          "Acute rhinosinusitis": 0.05,
+          "Stable angina": 1.0,
+          "Viral pharyngitis": 0.3181818181818182,
+          "Acute pulmonary edema": 0.7,
+          "Pneumonia": 0.0,
+          "Atrial fibrillation": 0.9523809523809523,
+          "Bronchiectasis": 1.0,
+          "Pancreatic neoplasm": 0.9,
+          "Myasthenia gravis": 1.0
+        },
+        "per_class_counts": {
+          "Acute dystonic reactions": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pulmonary embolism": {
+            "correct": 18,
+            "total": 20
+          },
+          "Possible NSTEMI / STEMI": {
+            "correct": 13,
+            "total": 20
+          },
+          "URTI": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous rib fracture": {
+            "correct": 12,
+            "total": 20
+          },
+          "Bronchitis": {
+            "correct": 13,
+            "total": 20
+          },
+          "Bronchiolitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Epiglottitis": {
+            "correct": 19,
+            "total": 22
+          },
+          "Chagas": {
+            "correct": 20,
+            "total": 21
+          },
+          "GERD": {
+            "correct": 9,
+            "total": 20
+          },
+          "HIV (initial infection)": {
+            "correct": 11,
+            "total": 20
+          },
+          "Pericarditis": {
+            "correct": 18,
+            "total": 20
+          },
+          "Unstable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Acute laryngitis": {
+            "correct": 7,
+            "total": 20
+          },
+          "Boerhaave": {
+            "correct": 16,
+            "total": 20
+          },
+          "Guillain-Barr\u00e9 syndrome": {
+            "correct": 23,
+            "total": 23
+          },
+          "Chronic rhinosinusitis": {
+            "correct": 18,
+            "total": 20
+          },
+          "Anaphylaxis": {
+            "correct": 0,
+            "total": 20
+          },
+          "Whooping cough": {
+            "correct": 20,
+            "total": 20
+          },
+          "Scombroid food poisoning": {
+            "correct": 11,
+            "total": 21
+          },
+          "Influenza": {
+            "correct": 18,
+            "total": 20
+          },
+          "Larygospasm": {
+            "correct": 11,
+            "total": 20
+          },
+          "PSVT": {
+            "correct": 20,
+            "total": 20
+          },
+          "Myocarditis": {
+            "correct": 17,
+            "total": 20
+          },
+          "Bronchospasm / acute asthma exacerbation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Ebola": {
+            "correct": 20,
+            "total": 20
+          },
+          "Allergic sinusitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Croup": {
+            "correct": 20,
+            "total": 20
+          },
+          "Anemia": {
+            "correct": 18,
+            "total": 20
+          },
+          "Panic attack": {
+            "correct": 19,
+            "total": 20
+          },
+          "Cluster headache": {
+            "correct": 21,
+            "total": 21
+          },
+          "Localized edema": {
+            "correct": 22,
+            "total": 22
+          },
+          "SLE": {
+            "correct": 15,
+            "total": 20
+          },
+          "Inguinal hernia": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pulmonary neoplasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous pneumothorax": {
+            "correct": 20,
+            "total": 20
+          },
+          "Tuberculosis": {
+            "correct": 19,
+            "total": 20
+          },
+          "Acute COPD exacerbation / infection": {
+            "correct": 21,
+            "total": 21
+          },
+          "Sarcoidosis": {
+            "correct": 18,
+            "total": 20
+          },
+          "Acute otitis media": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute rhinosinusitis": {
+            "correct": 1,
+            "total": 20
+          },
+          "Stable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Viral pharyngitis": {
+            "correct": 7,
+            "total": 22
+          },
+          "Acute pulmonary edema": {
+            "correct": 14,
+            "total": 20
+          },
+          "Pneumonia": {
+            "correct": 0,
+            "total": 21
+          },
+          "Atrial fibrillation": {
+            "correct": 20,
+            "total": 21
+          },
+          "Bronchiectasis": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pancreatic neoplasm": {
+            "correct": 18,
+            "total": 20
+          },
+          "Myasthenia gravis": {
+            "correct": 20,
+            "total": 20
+          }
+        }
+      }
+    },
+    "Multi-Source": {
+      "metrics": {
+        "top1": 0.932,
+        "top3": 0.959,
+        "top5": 0.96,
+        "ndcg5": 0.9742627427580751,
+        "f1": 0.3228000000000001,
+        "halluc": 0.014,
+        "n": 1000,
+        "cis": {
+          "top1": [
+            0.917,
+            0.947
+          ],
+          "top3": [
+            0.947,
+            0.971
+          ],
+          "top5": [
+            0.948,
+            0.972
+          ],
+          "ndcg5": [
+            0.9576,
+            0.9889
+          ],
+          "f1": [
+            0.3186,
+            0.3269
+          ],
+          "top1_wilson": [
+            0.9146861384770105,
+            0.9460075421914699
+          ]
+        },
+        "per_class": {
+          "Acute dystonic reactions": 1.0,
+          "Pulmonary embolism": 1.0,
+          "Possible NSTEMI / STEMI": 0.95,
+          "URTI": 1.0,
+          "Spontaneous rib fracture": 1.0,
+          "Bronchitis": 1.0,
+          "Bronchiolitis": 1.0,
+          "Epiglottitis": 1.0,
+          "Chagas": 1.0,
+          "GERD": 1.0,
+          "HIV (initial infection)": 0.55,
+          "Pericarditis": 0.95,
+          "Unstable angina": 1.0,
+          "Acute laryngitis": 1.0,
+          "Boerhaave": 1.0,
+          "Guillain-Barr\u00e9 syndrome": 1.0,
+          "Chronic rhinosinusitis": 0.95,
+          "Anaphylaxis": 0.65,
+          "Whooping cough": 1.0,
+          "Scombroid food poisoning": 1.0,
+          "Influenza": 1.0,
+          "Larygospasm": 0.05,
+          "PSVT": 1.0,
+          "Myocarditis": 1.0,
+          "Bronchospasm / acute asthma exacerbation": 1.0,
+          "Ebola": 1.0,
+          "Allergic sinusitis": 1.0,
+          "Croup": 1.0,
+          "Anemia": 0.95,
+          "Panic attack": 1.0,
+          "Cluster headache": 1.0,
+          "Localized edema": 1.0,
+          "SLE": 1.0,
+          "Inguinal hernia": 1.0,
+          "Pulmonary neoplasm": 1.0,
+          "Spontaneous pneumothorax": 1.0,
+          "Tuberculosis": 1.0,
+          "Acute COPD exacerbation / infection": 1.0,
+          "Sarcoidosis": 1.0,
+          "Acute otitis media": 1.0,
+          "Acute rhinosinusitis": 0.65,
+          "Stable angina": 1.0,
+          "Viral pharyngitis": 1.0,
+          "Acute pulmonary edema": 1.0,
+          "Pneumonia": 0.0,
+          "Atrial fibrillation": 1.0,
+          "Bronchiectasis": 1.0,
+          "Pancreatic neoplasm": 0.95,
+          "Myasthenia gravis": 1.0
+        },
+        "per_class_counts": {
+          "Acute dystonic reactions": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pulmonary embolism": {
+            "correct": 20,
+            "total": 20
+          },
+          "Possible NSTEMI / STEMI": {
+            "correct": 19,
+            "total": 20
+          },
+          "URTI": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous rib fracture": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchiolitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Epiglottitis": {
+            "correct": 22,
+            "total": 22
+          },
+          "Chagas": {
+            "correct": 21,
+            "total": 21
+          },
+          "GERD": {
+            "correct": 20,
+            "total": 20
+          },
+          "HIV (initial infection)": {
+            "correct": 11,
+            "total": 20
+          },
+          "Pericarditis": {
+            "correct": 19,
+            "total": 20
+          },
+          "Unstable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Acute laryngitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Boerhaave": {
+            "correct": 20,
+            "total": 20
+          },
+          "Guillain-Barr\u00e9 syndrome": {
+            "correct": 23,
+            "total": 23
+          },
+          "Chronic rhinosinusitis": {
+            "correct": 19,
+            "total": 20
+          },
+          "Anaphylaxis": {
+            "correct": 13,
+            "total": 20
+          },
+          "Whooping cough": {
+            "correct": 20,
+            "total": 20
+          },
+          "Scombroid food poisoning": {
+            "correct": 21,
+            "total": 21
+          },
+          "Influenza": {
+            "correct": 20,
+            "total": 20
+          },
+          "Larygospasm": {
+            "correct": 1,
+            "total": 20
+          },
+          "PSVT": {
+            "correct": 20,
+            "total": 20
+          },
+          "Myocarditis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Bronchospasm / acute asthma exacerbation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Ebola": {
+            "correct": 20,
+            "total": 20
+          },
+          "Allergic sinusitis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Croup": {
+            "correct": 20,
+            "total": 20
+          },
+          "Anemia": {
+            "correct": 19,
+            "total": 20
+          },
+          "Panic attack": {
+            "correct": 20,
+            "total": 20
+          },
+          "Cluster headache": {
+            "correct": 21,
+            "total": 21
+          },
+          "Localized edema": {
+            "correct": 22,
+            "total": 22
+          },
+          "SLE": {
+            "correct": 20,
+            "total": 20
+          },
+          "Inguinal hernia": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pulmonary neoplasm": {
+            "correct": 20,
+            "total": 20
+          },
+          "Spontaneous pneumothorax": {
+            "correct": 20,
+            "total": 20
+          },
+          "Tuberculosis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute COPD exacerbation / infection": {
+            "correct": 21,
+            "total": 21
+          },
+          "Sarcoidosis": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute otitis media": {
+            "correct": 20,
+            "total": 20
+          },
+          "Acute rhinosinusitis": {
+            "correct": 13,
+            "total": 20
+          },
+          "Stable angina": {
+            "correct": 21,
+            "total": 21
+          },
+          "Viral pharyngitis": {
+            "correct": 22,
+            "total": 22
+          },
+          "Acute pulmonary edema": {
+            "correct": 20,
+            "total": 20
+          },
+          "Pneumonia": {
+            "correct": 0,
+            "total": 21
+          },
+          "Atrial fibrillation": {
+            "correct": 21,
+            "total": 21
+          },
+          "Bronchiectasis": {
+            "correct": 21,
+            "total": 21
+          },
+          "Pancreatic neoplasm": {
+            "correct": 19,
+            "total": 20
+          },
+          "Myasthenia gravis": {
+            "correct": 20,
+            "total": 20
+          }
+        }
+      }
+    }
+  }
+}
