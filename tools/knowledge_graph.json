@@ -1,0 +1,727 @@
+{
+  "nodes": [
+    {
+      "id": "person:anirach",
+      "type": "Person",
+      "name": "Anirach Mingkhwan",
+      "attributes": {
+        "org": "KMUTNB",
+        "role": "lecturer"
+      }
+    },
+    {
+      "id": "person:duckman",
+      "type": "Person",
+      "name": "DuckMan",
+      "attributes": {
+        "role": "collaborator"
+      }
+    },
+    {
+      "id": "org:kmutnb",
+      "type": "Organization",
+      "name": "King Mongkut's University of Technology North Bangkok",
+      "attributes": {}
+    },
+    {
+      "id": "org:imperial-college",
+      "type": "Organization",
+      "name": "Imperial College London",
+      "attributes": {}
+    },
+    {
+      "id": "org:springer",
+      "type": "Organization",
+      "name": "Springer Publishing",
+      "attributes": {}
+    },
+    {
+      "id": "org:ieee",
+      "type": "Organization",
+      "name": "IEEE",
+      "attributes": {}
+    },
+    {
+      "id": "org:acm",
+      "type": "Organization",
+      "name": "ACM",
+      "attributes": {}
+    },
+    {
+      "id": "org:openclaw",
+      "type": "Organization",
+      "name": "OpenClaw Platform",
+      "attributes": {}
+    },
+    {
+      "id": "org:anthropic",
+      "type": "Organization",
+      "name": "Anthropic",
+      "attributes": {}
+    },
+    {
+      "id": "org:google",
+      "type": "Organization",
+      "name": "Google",
+      "attributes": {}
+    },
+    {
+      "id": "org:openai",
+      "type": "Organization",
+      "name": "OpenAI",
+      "attributes": {}
+    },
+    {
+      "id": "org:stanford",
+      "type": "Organization",
+      "name": "Stanford University",
+      "attributes": {}
+    },
+    {
+      "id": "project:rag-second-brain",
+      "type": "Project",
+      "name": "RAG Second Brain",
+      "attributes": {
+        "status": "active",
+        "target": "Information Fusion",
+        "github": "https://github.com/Anirach/rag-second-brain"
+      }
+    },
+    {
+      "id": "project:three-old-men",
+      "type": "Project",
+      "name": "Three Old Men",
+      "attributes": {
+        "status": "complete",
+        "genre": "literary fiction",
+        "github": "https://github.com/Anirach/three-old-men"
+      }
+    },
+    {
+      "id": "project:ncd-cie",
+      "type": "Project",
+      "name": "NCD-CIE",
+      "attributes": {
+        "status": "active",
+        "target": "AIiH 2026",
+        "github": "https://github.com/Anirach/ncd-cie"
+      }
+    },
+    {
+      "id": "project:chartsense-ai",
+      "type": "Project",
+      "name": "ChartSense AI",
+      "attributes": {
+        "status": "active",
+        "target": "Thai hospitals",
+        "github": "https://github.com/Anirach/chartsense-ai"
+      }
+    },
+    {
+      "id": "project:bookshelf-app",
+      "type": "Project",
+      "name": "Bookshelf App",
+      "attributes": {
+        "status": "in-progress",
+        "stack": "Next.js + Prisma"
+      }
+    },
+    {
+      "id": "project:helpdesk-booking",
+      "type": "Project",
+      "name": "Helpdesk Booking",
+      "attributes": {
+        "status": "existing",
+        "github": "https://github.com/Anirach/helpdesk-booking"
+      }
+    },
+    {
+      "id": "project:bookshelf",
+      "type": "Project",
+      "name": "bookshelf",
+      "attributes": {
+        "github": "https://github.com/Anirach/bookshelf"
+      }
+    },
+    {
+      "id": "project:claude-skills",
+      "type": "Project",
+      "name": "claude-skills",
+      "attributes": {
+        "github": "https://github.com/Jeffallan/claude-skills"
+      }
+    },
+    {
+      "id": "project:ai-research-dashboard",
+      "type": "Project",
+      "name": "ai-research-dashboard",
+      "attributes": {
+        "github": "https://github.com/Anirach/ai-research-dashboard"
+      }
+    },
+    {
+      "id": "project:obsidian-vault",
+      "type": "Project",
+      "name": "obsidian-vault",
+      "attributes": {
+        "github": "https://github.com/Anirach/obsidian-vault"
+      }
+    },
+    {
+      "id": "project:lobsterboard",
+      "type": "Project",
+      "name": "LobsterBoard",
+      "attributes": {
+        "github": "https://github.com/Curbob/LobsterBoard"
+      }
+    },
+    {
+      "id": "topic:rag",
+      "type": "Topic",
+      "name": "RAG",
+      "attributes": {}
+    },
+    {
+      "id": "topic:knowledge-graph",
+      "type": "Topic",
+      "name": "knowledge graph",
+      "attributes": {}
+    },
+    {
+      "id": "topic:ontology",
+      "type": "Topic",
+      "name": "ontology",
+      "attributes": {}
+    },
+    {
+      "id": "topic:causal-inference",
+      "type": "Topic",
+      "name": "causal inference",
+      "attributes": {}
+    },
+    {
+      "id": "topic:ncd",
+      "type": "Topic",
+      "name": "NCD",
+      "attributes": {}
+    },
+    {
+      "id": "topic:ai",
+      "type": "Topic",
+      "name": "AI",
+      "attributes": {}
+    },
+    {
+      "id": "topic:llm",
+      "type": "Topic",
+      "name": "LLM",
+      "attributes": {}
+    },
+    {
+      "id": "topic:gpt",
+      "type": "Topic",
+      "name": "GPT",
+      "attributes": {}
+    },
+    {
+      "id": "topic:longevity",
+      "type": "Topic",
+      "name": "longevity",
+      "attributes": {}
+    },
+    {
+      "id": "topic:biomedical",
+      "type": "Topic",
+      "name": "biomedical",
+      "attributes": {}
+    },
+    {
+      "id": "topic:healthcare",
+      "type": "Topic",
+      "name": "healthcare",
+      "attributes": {}
+    },
+    {
+      "id": "topic:second-brain",
+      "type": "Topic",
+      "name": "second brain",
+      "attributes": {}
+    },
+    {
+      "id": "topic:clinical-decision-support",
+      "type": "Topic",
+      "name": "clinical decision support",
+      "attributes": {}
+    },
+    {
+      "id": "topic:icd-10",
+      "type": "Topic",
+      "name": "ICD-10",
+      "attributes": {}
+    },
+    {
+      "id": "topic:graphrag",
+      "type": "Topic",
+      "name": "GraphRAG",
+      "attributes": {}
+    },
+    {
+      "id": "topic:translation",
+      "type": "Topic",
+      "name": "translation",
+      "attributes": {}
+    },
+    {
+      "id": "topic:docker",
+      "type": "Topic",
+      "name": "Docker",
+      "attributes": {}
+    },
+    {
+      "id": "topic:next-js",
+      "type": "Topic",
+      "name": "Next.js",
+      "attributes": {}
+    },
+    {
+      "id": "topic:fastapi",
+      "type": "Topic",
+      "name": "FastAPI",
+      "attributes": {}
+    },
+    {
+      "id": "topic:postgresql",
+      "type": "Topic",
+      "name": "PostgreSQL",
+      "attributes": {}
+    },
+    {
+      "id": "topic:neo4j",
+      "type": "Topic",
+      "name": "Neo4j",
+      "attributes": {}
+    },
+    {
+      "id": "topic:arxiv",
+      "type": "Topic",
+      "name": "arXiv",
+      "attributes": {}
+    },
+    {
+      "id": "topic:peer-review",
+      "type": "Topic",
+      "name": "peer review",
+      "attributes": {}
+    },
+    {
+      "id": "topic:obsidian",
+      "type": "Topic",
+      "name": "Obsidian",
+      "attributes": {}
+    },
+    {
+      "id": "topic:chromadb",
+      "type": "Topic",
+      "name": "ChromaDB",
+      "attributes": {}
+    },
+    {
+      "id": "topic:multi-agent",
+      "type": "Topic",
+      "name": "multi-agent",
+      "attributes": {}
+    },
+    {
+      "id": "event:aiih-2026",
+      "type": "Event",
+      "name": "AIiH 2026",
+      "attributes": {
+        "venue": "Imperial College London",
+        "date": "2026-08-26/28",
+        "type": "conference"
+      }
+    },
+    {
+      "id": "event:round-1-ad-hoc-risk-formula-wilson-intervals-inappropriate-no-validation-missing-related-work-all-fixed-in-v2-v3",
+      "type": "Event",
+      "name": "- **Round 1:** Ad-hoc risk formula, Wilson intervals inappropriate, no validation, missing related work → all fixed in v2/v3",
+      "attributes": {}
+    },
+    {
+      "id": "event:paper-v23-1-submitted-to-cmt-paper-id-18-full-length-paper-track",
+      "type": "Event",
+      "name": "Paper v23.1 submitted to CMT (Paper ID 18, Full-length Paper track)",
+      "attributes": {}
+    },
+    {
+      "id": "event:ncd-cie-llm-paper-v20-finalized-4-review-rounds-v17-v20-average-score-6-0-7-0-all-reviewers-weak-accept-new-experiments-optimization-optimal-0-65-paper-0-7-within-2-gwet-s-ac1-0-86-t2dm-auc-0-68-ckd-auc-0-67-submission-ready-for-aiih-2026-files-on-google-drive-papers-ncd-cie-llm",
+      "type": "Event",
+      "name": "NCD-CIE-LLM paper v20 finalized — 4 review rounds (v17→v20), average score 6.0→7.0. All reviewers Weak Accept. New experiments: γ optimization (optimal 0.65, paper 0.7 within 2%), Gwet's AC1=0.86, T2DM AUC 0.68, CKD AUC 0.67. Submission-ready for AIiH 2026. Files on Google Drive Papers/NCD-CIE-LLM/",
+      "attributes": {}
+    },
+    {
+      "id": "doc:view",
+      "type": "Document",
+      "name": "View",
+      "attributes": {}
+    },
+    {
+      "id": "doc:three-old-men-the-last-conversation",
+      "type": "Document",
+      "name": "Three Old Men: The Last Conversation",
+      "attributes": {}
+    },
+    {
+      "id": "doc:co-occurrence-sequence-and-knowledge-graph-with-o",
+      "type": "Document",
+      "name": "Co-occurrence, Sequence and Knowledge Graph with Ontology as a Second Brain for AI-LLM",
+      "attributes": {}
+    },
+    {
+      "id": "doc:ncd-causal-insight-engine",
+      "type": "Document",
+      "name": "NCD Causal Insight Engine",
+      "attributes": {}
+    },
+    {
+      "id": "doc:mobile-app-development",
+      "type": "Document",
+      "name": "Mobile App Development",
+      "attributes": {}
+    },
+    {
+      "id": "doc:create-ui-wireframes",
+      "type": "Document",
+      "name": "Create UI Wireframes",
+      "attributes": {}
+    },
+    {
+      "id": "doc:arthur-test-project",
+      "type": "Document",
+      "name": "Arthur Test Project",
+      "attributes": {}
+    },
+    {
+      "id": "doc:design-system-architecture",
+      "type": "Document",
+      "name": "Design System Architecture",
+      "attributes": {}
+    },
+    {
+      "id": "doc:implement-backend-api",
+      "type": "Document",
+      "name": "Implement Backend API",
+      "attributes": {}
+    },
+    {
+      "id": "doc:response-to-reviewers",
+      "type": "Document",
+      "name": "Response to Reviewers",
+      "attributes": {}
+    },
+    {
+      "id": "doc:ncd-cie-a-causal-knowledge-graph-platform-for-ncd",
+      "type": "Document",
+      "name": "NCD-CIE: A Causal Knowledge Graph Platform for NCD Risk Assessment and Intervention Planning",
+      "attributes": {}
+    },
+    {
+      "id": "doc:section-5-consensus-checkpoints",
+      "type": "Document",
+      "name": "Section 5: Consensus Checkpoints",
+      "attributes": {}
+    },
+    {
+      "id": "doc:daily-reports-cost-reports",
+      "type": "Document",
+      "name": "Daily-Reports/Cost-Reports",
+      "attributes": {}
+    },
+    {
+      "id": "doc:devops-with-vibecoding",
+      "type": "Document",
+      "name": "DevOps with VibeCoding",
+      "attributes": {}
+    },
+    {
+      "id": "doc:tokyo-trip-details",
+      "type": "Document",
+      "name": "Tokyo trip details",
+      "attributes": {}
+    },
+    {
+      "id": "doc:api-keys-and-credentials",
+      "type": "Document",
+      "name": "API keys and credentials",
+      "attributes": {}
+    },
+    {
+      "id": "doc:ai-automation-society-skool",
+      "type": "Document",
+      "name": "AI Automation Society (Skool)",
+      "attributes": {}
+    },
+    {
+      "id": "doc:ai-workshop-lite-skool",
+      "type": "Document",
+      "name": "AI Workshop Lite (Skool)",
+      "attributes": {}
+    },
+    {
+      "id": "doc:icosse-committee-lyon-france",
+      "type": "Document",
+      "name": "ICoSSE Committee | Lyon, France",
+      "attributes": {}
+    },
+    {
+      "id": "doc:ai-accelerator-skool",
+      "type": "Document",
+      "name": "AI Accelerator (Skool)",
+      "attributes": {}
+    },
+    {
+      "id": "doc:levi-s-red-tab-program",
+      "type": "Document",
+      "name": "Levi's® Red Tab™ program",
+      "attributes": {}
+    },
+    {
+      "id": "doc:builder-s-console-log-skool",
+      "type": "Document",
+      "name": "Builder’s Console Log  (Skool)",
+      "attributes": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "person:anirach",
+      "target": "org:kmutnb",
+      "relation": "affiliated_with"
+    },
+    {
+      "source": "person:anirach",
+      "target": "project:rag-second-brain",
+      "relation": "works_on"
+    },
+    {
+      "source": "person:anirach",
+      "target": "project:three-old-men",
+      "relation": "works_on"
+    },
+    {
+      "source": "person:anirach",
+      "target": "project:ncd-cie",
+      "relation": "works_on"
+    },
+    {
+      "source": "person:anirach",
+      "target": "project:chartsense-ai",
+      "relation": "works_on"
+    },
+    {
+      "source": "person:anirach",
+      "target": "project:bookshelf-app",
+      "relation": "works_on"
+    },
+    {
+      "source": "person:anirach",
+      "target": "project:helpdesk-booking",
+      "relation": "works_on"
+    },
+    {
+      "source": "person:anirach",
+      "target": "project:bookshelf",
+      "relation": "works_on"
+    },
+    {
+      "source": "person:anirach",
+      "target": "project:claude-skills",
+      "relation": "works_on"
+    },
+    {
+      "source": "person:anirach",
+      "target": "project:ai-research-dashboard",
+      "relation": "works_on"
+    },
+    {
+      "source": "person:anirach",
+      "target": "project:obsidian-vault",
+      "relation": "works_on"
+    },
+    {
+      "source": "person:anirach",
+      "target": "project:lobsterboard",
+      "relation": "works_on"
+    },
+    {
+      "source": "person:duckman",
+      "target": "project:chartsense-ai",
+      "relation": "collaborates_on"
+    },
+    {
+      "source": "project:rag-second-brain",
+      "target": "topic:rag",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:rag-second-brain",
+      "target": "topic:knowledge-graph",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:rag-second-brain",
+      "target": "topic:ontology",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:rag-second-brain",
+      "target": "topic:llm",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:rag-second-brain",
+      "target": "topic:second-brain",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:rag-second-brain",
+      "target": "topic:multi-agent",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:ncd-cie",
+      "target": "topic:ncd",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:ncd-cie",
+      "target": "topic:causal-inference",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:ncd-cie",
+      "target": "topic:knowledge-graph",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:ncd-cie",
+      "target": "topic:healthcare",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:ncd-cie",
+      "target": "topic:icd-10",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:chartsense-ai",
+      "target": "topic:clinical-decision-support",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:chartsense-ai",
+      "target": "topic:graphrag",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:chartsense-ai",
+      "target": "topic:healthcare",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:chartsense-ai",
+      "target": "topic:icd-10",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:chartsense-ai",
+      "target": "topic:next-js",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:chartsense-ai",
+      "target": "topic:fastapi",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:three-old-men",
+      "target": "topic:translation",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:bookshelf-app",
+      "target": "topic:next-js",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:bookshelf-app",
+      "target": "topic:postgresql",
+      "relation": "related_to"
+    },
+    {
+      "source": "project:ncd-cie",
+      "target": "event:aiih-2026",
+      "relation": "submitted_to"
+    },
+    {
+      "source": "project:rag-second-brain",
+      "target": "org:kmutnb",
+      "relation": "developed_at"
+    },
+    {
+      "source": "project:three-old-men",
+      "target": "org:kmutnb",
+      "relation": "developed_at"
+    },
+    {
+      "source": "project:ncd-cie",
+      "target": "org:kmutnb",
+      "relation": "developed_at"
+    },
+    {
+      "source": "project:chartsense-ai",
+      "target": "org:kmutnb",
+      "relation": "developed_at"
+    },
+    {
+      "source": "project:bookshelf-app",
+      "target": "org:kmutnb",
+      "relation": "developed_at"
+    },
+    {
+      "source": "project:helpdesk-booking",
+      "target": "org:kmutnb",
+      "relation": "developed_at"
+    },
+    {
+      "source": "project:bookshelf",
+      "target": "org:kmutnb",
+      "relation": "developed_at"
+    },
+    {
+      "source": "project:claude-skills",
+      "target": "org:kmutnb",
+      "relation": "developed_at"
+    },
+    {
+      "source": "project:ai-research-dashboard",
+      "target": "org:kmutnb",
+      "relation": "developed_at"
+    },
+    {
+      "source": "project:obsidian-vault",
+      "target": "org:kmutnb",
+      "relation": "developed_at"
+    },
+    {
+      "source": "project:lobsterboard",
+      "target": "org:kmutnb",
+      "relation": "developed_at"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-02-22T15:39:51.147702+07:00",
+    "node_count": 75,
+    "edge_count": 45
+  }
+}

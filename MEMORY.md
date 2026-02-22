@@ -279,6 +279,10 @@ curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendDocument" \
 ---
 
 ## 💡 Lessons Learned
+- **2026-02-22:** Always spawn sub-agents for tasks longer than 30 seconds to prevent failures
+- **[2026-02-22]** Sandbox sub-agents cannot run openclaw CLI commands (cron add, gateway restart, etc). Always handle those in main agent after sub-agent completes file creation.
+- **2026-02-22:** Ensure sandbox Docker user matches workspace file ownership to enable write access
+- **2026-02-22:** De-identify all HA query results with identifiable data before entering LLM context
 
 - **Research reports:** Always use specific article URLs, not category pages
 - **Paper reviews:** Conceptual papers need at least minimal experiments for top venues

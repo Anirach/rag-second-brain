@@ -1,0 +1,119 @@
+{
+    "title": "🎵 VIBE CODING",
+    "subtitle": "with Claude Code Extension",
+    "description": "Complete Team Development Workshop",
+    "tech_stack": [
+        "React 18 • TypeScript 5 • Node.js • SQLite3",
+        "Tailwind CSS • Claude Code Extension",
+        "GitHub Flow • GitHub Actions CI/CD"
+    ],
+    "duration": "8+ Hours",
+    "team_size": "3-6 Developers",
+    "features": "📋 Step-by-Step Guides • AI Prompts • Team Workflows • Best Practices",
+    "banner": "🤖 Copy-Paste AI Prompts for Every Task",
+    "parts": [
+        {
+            "title": "PART I: FOUNDATION",
+            "subtitle": "Understanding Vibe Coding Fundamentals",
+            "modules": [
+                {
+                    "title": "Module 1: Introduction to Vibe Coding",
+                    "duration": "45 minutes",
+                    "format": "Concept Introduction",
+                    "badge_color": "purple",
+                    "sections": [
+                        {
+                            "heading": "1.1 What is Vibe Coding?",
+                            "content": [
+                                {"type": "text", "value": "Vibe Coding is a revolutionary development philosophy that transforms how developers collaborate with AI coding assistants. Instead of treating AI as a simple autocomplete tool, Vibe Coding establishes a structured workflow where AI understands your project's architecture, design system, and coding standards."},
+                                {"type": "text", "value": "The term 'Vibe' comes from finding a natural rhythm between human intent and AI execution. When the vibe is right, code flows naturally, consistently, and with minimal friction."},
+                                {"type": "vibe", "value": "🎵 VIBE: The Core Philosophy — You are the architect, AI is your skilled assistant. You define what to build, AI helps you build it consistently."}
+                            ]
+                        },
+                        {
+                            "heading": "1.2 The Three Pillars",
+                            "content": [
+                                {"type": "text", "value": "Vibe Coding is built on three fundamental principles:"},
+                                {"type": "bullets", "items": [
+                                    "Context-First Development: Establish rich context through @file references",
+                                    "Rules-Based Consistency: CLAUDE.md defines AI behavior standards",
+                                    "Plan-First Implementation: Always request a plan before code generation"
+                                ]},
+                                {"type": "best_practice", "value": "✅ BEST PRACTICE: Teams using Vibe Coding report 40% faster code reviews and 60% fewer design system violations."}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Module 2: Context-First Development with @file",
+                    "duration": "60 minutes",
+                    "format": "Hands-on Practice",
+                    "badge_color": "green",
+                    "sections": [
+                        {
+                            "heading": "2.1 Understanding @file References",
+                            "content": [
+                                {"type": "text", "value": "The @file command is the most powerful tool in Vibe Coding. It tells Claude Code to include a file's complete content as context for any request."},
+                                {"type": "ai_prompt", "title": "Your First @file Prompt",
+                                 "prompt": "@file src/components/Card.tsx - Create a new UserCard component that follows the same styling patterns",
+                                 "tip": "AI will read Card.tsx and replicate its structure, styling, and patterns automatically."},
+                                {"type": "warning", "value": "⚠️ WARNING: Never describe patterns in words when you can show them with @file. Showing beats telling every time."}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "PART II: IMPLEMENTATION",
+            "subtitle": "Building Features the Vibe Way",
+            "modules": [
+                {
+                    "title": "Module 3: Complete Feature Workflow",
+                    "duration": "90 minutes",
+                    "format": "Live Coding",
+                    "badge_color": "blue",
+                    "sections": [
+                        {
+                            "heading": "3.1 The 19-Step Implementation Process",
+                            "content": [
+                                {"type": "text", "value": "Every feature follows a structured workflow from requirements to deployment:"},
+                                {"type": "numbered_table", "headers": ["#", "Step", "Description"],
+                                 "rows": [
+                                    ["1", "UNDERSTAND REQUIREMENTS", "Clarify scope and acceptance criteria"],
+                                    ["2", "REFERENCE EXISTING CODE", "Use @file to show similar patterns"],
+                                    ["3", "REQUEST IMPLEMENTATION PLAN", "Get AI to propose architecture"],
+                                    ["4", "REVIEW AND APPROVE", "Verify plan matches requirements"],
+                                    ["5", "IMPLEMENT IN PHASES", "Build incrementally, test each phase"]
+                                ]},
+                                {"type": "ai_prompt", "title": "Request Implementation Plan",
+                                 "prompt": "@file src/features/UserProfile.tsx @file src/types/user.ts - Plan a new NotificationSettings feature following the same patterns. Include: component structure, state management, API integration, and test strategy.",
+                                 "tip": "Always request a plan BEFORE any code generation. Review it, adjust, then approve."}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "summary_cards": [
+        {
+            "title": "🎵 VIBE CODING",
+            "items": [
+                "Use @file for context, not descriptions",
+                "CLAUDE.md is your AI constitution",
+                "Plan first, code second",
+                "Review AI plans before approval"
+            ]
+        },
+        {
+            "title": "🎨 DESIGN SYSTEM",
+            "items": [
+                "CLAUDE.md is the single source of truth",
+                "Reference existing components always",
+                "Consistent naming conventions",
+                "Test everything before merging"
+            ]
+        }
+    ]
+}
