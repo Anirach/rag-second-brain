@@ -1,0 +1,288 @@
+{
+  "name": "Daily AI Research Automation - Anirach",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "value": "0 0 * * *"
+            }
+          ]
+        },
+        "timezone": "Asia/Bangkok"
+      },
+      "id": "schedule-trigger",
+      "name": "Daily 7AM Bangkok",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        240,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://your-clawdbot-webhook-endpoint.com/generate-report",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_API_TOKEN"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "action",
+              "value": "generate_daily_research_report"
+            },
+            {
+              "name": "date",
+              "value": "={{$now.format('YYYY-MM-DD')}}"
+            },
+            {
+              "name": "topics",
+              "value": "=['ai', 'longevity', 'healthcare', 'machine_learning']"
+            },
+            {
+              "name": "format",
+              "value": "professional_docx"
+            }
+          ]
+        }
+      },
+      "id": "trigger-research-report",
+      "name": "Trigger Research Report Generation",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [
+        460,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "amount": 30,
+        "unit": "seconds"
+      },
+      "id": "wait-for-generation",
+      "name": "Wait for Report Generation",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [
+        680,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://your-clawdbot-webhook-endpoint.com/status/{{$node['trigger-research-report'].json.report_id}}"
+      },
+      "id": "check-report-status",
+      "name": "Check Report Status",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [
+        900,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "leftValue": "={{$node['check-report-status'].json.status}}",
+            "operation": "equal",
+            "rightValue": "completed"
+          }
+        }
+      },
+      "id": "check-completion",
+      "name": "Report Completed?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [
+        1120,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{$node['check-report-status'].json.google_drive_url}}"
+      },
+      "id": "get-report-link",
+      "name": "Get Google Drive Link",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [
+        1340,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.telegram.org/bot{{$credentials.telegramBot.token}}/sendMessage",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "chat_id",
+              "value": "7579913696"
+            },
+            {
+              "name": "text",
+              "value": "🔬 **Daily Research Update - {{$now.format('MMMM DD, YYYY')}}**\\n\\n📊 **AI + Longevity Research Briefing**\\n\\n✅ **Generated**: {{$node['check-report-status'].json.papers_count}} papers analyzed\\n🎯 **Topics**: AI, Longevity, Healthcare, ML\\n📎 **Report**: {{$node['check-report-status'].json.google_drive_url}}\\n\\n*Automated via n8n workflow* 🤖"
+            },
+            {
+              "name": "parse_mode",
+              "value": "Markdown"
+            }
+          ]
+        }
+      },
+      "id": "send-telegram-notification",
+      "name": "Send Telegram Notification",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [
+        1340,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "to": "anirach@your-email.com",
+        "subject": "Daily AI Research Update - {{$now.format('MMMM DD, YYYY')}}",
+        "emailBody": "Good morning Anirach,\\n\\nYour daily AI + Longevity research briefing is ready:\\n\\n📊 Papers Analyzed: {{$node['check-report-status'].json.papers_count}}\\n🎯 Topics Covered: AI, Longevity, Healthcare, Machine Learning\\n📎 Google Drive: {{$node['check-report-status'].json.google_drive_url}}\\n\\nKey highlights:\\n{{$node['check-report-status'].json.summary}}\\n\\nBest regards,\\nArthur (Research Assistant)"
+      },
+      "id": "send-email-notification",
+      "name": "Send Email Notification",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2,
+      "position": [
+        1340,
+        440
+      ]
+    },
+    {
+      "parameters": {
+        "amount": 60,
+        "unit": "seconds"
+      },
+      "id": "retry-wait",
+      "name": "Wait Before Retry",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [
+        1120,
+        440
+      ]
+    }
+  ],
+  "connections": {
+    "Daily 7AM Bangkok": {
+      "main": [
+        [
+          {
+            "node": "Trigger Research Report Generation",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Trigger Research Report Generation": {
+      "main": [
+        [
+          {
+            "node": "Wait for Report Generation",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait for Report Generation": {
+      "main": [
+        [
+          {
+            "node": "Check Report Status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Report Status": {
+      "main": [
+        [
+          {
+            "node": "Report Completed?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Report Completed?": {
+      "main": [
+        [
+          {
+            "node": "Get Google Drive Link",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Send Telegram Notification", 
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Send Email Notification",
+            "type": "main", 
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wait Before Retry",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait Before Retry": {
+      "main": [
+        [
+          {
+            "node": "Check Report Status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "timezone": "Asia/Bangkok"
+  },
+  "staticData": null,
+  "tags": ["research", "automation", "daily", "ai", "longevity"],
+  "triggerCount": 0,
+  "updatedAt": "2026-01-29T05:13:00.000Z",
+  "versionId": "1"
+}

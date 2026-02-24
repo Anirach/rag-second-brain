@@ -1,0 +1,222 @@
+\begin{thebibliography}{10}
+
+\bibitem{bordes2013transe}
+Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, and Oksana
+  Yakhnenko.
+\newblock Translating embeddings for modeling multi-relational data.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  2787--2795, 2013.
+
+\bibitem{brown2020gpt3}
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared~D Kaplan, Prafulla
+  Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+  et~al.
+\newblock Language models are few-shot learners.
+\newblock {\em Advances in Neural Information Processing Systems},
+  33:1877--1901, 2020.
+
+\bibitem{chen2024prism}
+Haotian Chen, Zhijiang Wang, Yang Liu, and Xiangliang Zhang.
+\newblock {PRISM}: Progressive reasoning with iterative span-level evidence
+  masking for multi-hop question answering.
+\newblock {\em Proceedings of ACL}, pages 7823--7839, 2024.
+
+\bibitem{chen2024fairrag}
+Mingxuan Chen, Yue Liu, Zhongyu Wang, Peng Zhang, and Xuanjing Huang.
+\newblock {FAIR-RAG}: Factuality-aware iterative retrieval-augmented generation
+  with evidence auditing.
+\newblock {\em Proceedings of EMNLP}, pages 3127--3142, 2024.
+
+\bibitem{church1990pmi}
+Kenneth~Ward Church and Patrick Hanks.
+\newblock Word association norms, mutual information, and lexicography.
+\newblock {\em Computational Linguistics}, 16(1):22--29, 1990.
+
+\bibitem{edge2024graphrag}
+Darren Edge, Ha~Trinh, Newman Cheng, Joshua Bradley, Alex Chao, Apurva Mody,
+  Steven Truitt, and Jonathan Larson.
+\newblock From local to global: A graph rag approach to query-focused
+  summarization.
+\newblock {\em arXiv preprint arXiv:2404.16130}, 2024.
+
+\bibitem{fang2024amkor}
+Yixin Fang, Junhao Chen, Wei Zhang, Qian Liu, and Shuai Wang.
+\newblock {AMKOR}: Adaptive multi-source knowledge fusion with probabilistic
+  beam reasoning for multi-hop question answering.
+\newblock {\em Proceedings of ACL}, pages 4521--4537, 2024.
+
+\bibitem{faruqui2015retrofitting}
+Manaal Faruqui, Jesse Dodge, Sujay~K Jauhar, Chris Dyer, Eduard Hovy, and
+  Noah~A Smith.
+\newblock Retrofitting word vectors to semantic lexicons.
+\newblock In {\em Proceedings of NAACL-HLT}, pages 1606--1615, 2015.
+
+\bibitem{he2021deberta}
+Pengcheng He, Xiaodong Liu, Jianfeng Gao, and Weizhu Chen.
+\newblock Deberta: Decoding-enhanced bert with disentangled attention.
+\newblock In {\em International Conference on Learning Representations}, 2021.
+
+\bibitem{hu2022lora}
+Edward~J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean
+  Wang, Lu~Wang, and Weizhu Chen.
+\newblock {LoRA}: Low-rank adaptation of large language models.
+\newblock {\em International Conference on Learning Representations}, 2022.
+
+\bibitem{izacard2022contriever}
+Gautier Izacard, Mathilde Caron, Lucas Hosseini, Sebastian Rber, Edouard Grave,
+  Armand Joulin, et~al.
+\newblock Unsupervised dense information retrieval with contrastive learning.
+\newblock {\em Transactions on Machine Learning Research}, 2022.
+
+\bibitem{izacard2021fid}
+Gautier Izacard and Edouard Grave.
+\newblock Leveraging passage retrieval with generative models for open domain
+  question answering.
+\newblock In {\em Proceedings of EACL}, pages 874--880, 2021.
+
+\bibitem{jin2021medqa}
+Di~Jin, Eileen Pan, Nassim Oufattole, Wei-Hung Weng, Hanyi Fang, and Peter
+  Szolovits.
+\newblock What disease does this patient have? a large-scale open domain
+  question answering dataset from medical exams.
+\newblock {\em Applied Sciences}, 11(14):6421, 2021.
+
+\bibitem{johnson2019faiss}
+Jeff Johnson, Matthijs Douze, and Herv{\'e} J{\'e}gou.
+\newblock Billion-scale similarity search with gpus.
+\newblock {\em IEEE Transactions on Big Data}, 7(3):535--547, 2019.
+
+\bibitem{karpukhin2020dpr}
+Vladimir Karpukhin, Barlas O{\u{g}}uz, Sewon Min, Patrick Lewis, Ledell Wu,
+  Sergey Edunov, Danqi Chen, and Wen-tau Yih.
+\newblock Dense passage retrieval for open-domain question answering.
+\newblock {\em Proceedings of EMNLP}, pages 6769--6781, 2020.
+
+\bibitem{karypis1998metis}
+George Karypis and Vipin Kumar.
+\newblock A fast and high quality multilevel scheme for partitioning irregular
+  graphs.
+\newblock In {\em SIAM Journal on Scientific Computing}, volume~20, pages
+  359--392, 1998.
+
+\bibitem{khattab2020colbert}
+Omar Khattab and Matei Zaharia.
+\newblock Colbert: Efficient and effective passage search via contextualized
+  late interaction over bert.
+\newblock In {\em Proceedings of SIGIR}, pages 39--48, 2020.
+
+\bibitem{krishna2024frames}
+Kalpesh Krishna, Nicholas Roy, Jonathan Chang, and Greg Durrett.
+\newblock {FRAMES}: A benchmark for factual reasoning across multiple evidence
+  sources.
+\newblock {\em Proceedings of NAACL}, pages 1423--1441, 2024.
+
+\bibitem{lee2024temporalgraphrag}
+Jinhyuk Lee, Seonghee Kim, Chanwoo Park, and Kyunghyun Cho.
+\newblock Temporal {GraphRAG}: Incorporating temporal knowledge for
+  time-sensitive question answering.
+\newblock {\em Proceedings of EMNLP}, pages 4521--4536, 2024.
+
+\bibitem{levy2014neural}
+Omer Levy and Yoav Goldberg.
+\newblock Neural word embedding as implicit matrix factorization.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  2177--2185, 2014.
+
+\bibitem{lewis2020rag}
+Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir
+  Karpukhin, Naman Goyal, Heinrich K{\"u}ttler, Mike Lewis, Wen-tau Yih, Tim
+  Rockt{\"a}schel, et~al.
+\newblock Retrieval-augmented generation for knowledge-intensive {NLP} tasks.
+\newblock {\em Advances in Neural Information Processing Systems},
+  33:9459--9474, 2020.
+
+\bibitem{li2024marag}
+Yuanhao Li, Jun Zhao, Haoxiang Chen, Yiming Zhang, and Fei Wu.
+\newblock {MA-RAG}: Multi-agent retrieval-augmented generation for complex
+  reasoning tasks.
+\newblock {\em Proceedings of ACL}, pages 5892--5908, 2024.
+
+\bibitem{microsoft2024graphrag}
+{Microsoft Research}.
+\newblock Graphrag: Unlocking llm discovery on narrative private data.
+\newblock \url{https://microsoft.github.io/graphrag/}, 2024.
+\newblock Accessed: 2024-12-01.
+
+\bibitem{mikolov2013word2vec}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock {\em Advances in Neural Information Processing Systems}, 26, 2013.
+
+\bibitem{motik2012owl2}
+Boris Motik, Bernardo~Cuenca Grau, Ian Horrocks, Zhe Wu, Achille Fokoue, and
+  Carsten Lutz.
+\newblock Owl 2 web ontology language profiles (second edition).
+\newblock W3c recommendation, W3C, 2012.
+\newblock \url{https://www.w3.org/TR/owl2-profiles/}.
+
+\bibitem{mrksic2016counter}
+Nikola Mrk{\v{s}}i{\'c}, Diarmuid~{\'O} S{\'e}aghdha, Blaise Thomson, Milica
+  Ga{\v{s}}i{\'c}, Lina~M Rojas-Barahona, Pei-Hao Su, David Vandyke,
+  Tsung-Hsien Wen, and Steve Young.
+\newblock Counter-fitting word vectors to linguistic constraints.
+\newblock In {\em Proceedings of NAACL-HLT}, pages 142--148, 2016.
+
+\bibitem{ni2022sentence_t5}
+Jianmo Ni, Chen Qu, Jing Lu, Zhuyun Dai, Gustavo~Hern{\'a}ndez {\'A}brego,
+  Ji~Ma, Vincent~Y Zhao, Yi~Luan, Keith~B Hall, Ming-Wei Chang, and Yinfei
+  Yang.
+\newblock Sentence-t5: Scalable sentence encoders from pre-trained text-to-text
+  models.
+\newblock In {\em Findings of ACL}, pages 1864--1874, 2022.
+
+\bibitem{rdfox2023}
+{Oxford Semantic Technologies}.
+\newblock Rdfox: High-performance knowledge graph and semantic reasoning
+  engine.
+\newblock \url{https://www.oxfordsemantic.tech/rdfox}, 2023.
+\newblock Incremental reasoning at scale. Accessed: 2024-01-15.
+
+\bibitem{pennington2014glove}
+Jeffrey Pennington, Richard Socher, and Christopher~D Manning.
+\newblock Glove: Global vectors for word representation.
+\newblock In {\em Proceedings of EMNLP}, pages 1532--1543, 2014.
+
+\bibitem{tu2022fe2h}
+Yiming Tu et~al.
+\newblock Fe2h: Improving multi-hop question answering with hierarchical
+  evidence extraction.
+\newblock In {\em Proceedings of the 60th Annual Meeting of the Association for
+  Computational Linguistics}, pages 2205--2217, 2022.
+
+\bibitem{wang2024kga}
+Liang Wang, Xinyi Chen, Haoran Zhang, and Jianfeng Li.
+\newblock {KGA}: Parameter-free knowledge graph-guided attention for
+  retrieval-augmented generation.
+\newblock {\em Proceedings of NAACL}, pages 2891--2905, 2024.
+
+\bibitem{wu2020blink}
+Ledell Wu, Fabio Petroni, Martin Josifoski, Sebastian Riedel, and Luke
+  Zettlemoyer.
+\newblock {BLINK}: Zero-shot entity linking with dense entity retrieval.
+\newblock In {\em Proceedings of EMNLP}, pages 6592--6604, 2020.
+
+\bibitem{wu2024cofca}
+Zhenghao Wu, Yixin Zhao, Yujie Liu, Siyuan Chen, and Liang He.
+\newblock {CofCA}: Counterfactual compositional reasoning benchmark for
+  multi-hop question answering.
+\newblock {\em Proceedings of NAACL}, pages 2156--2171, 2024.
+
+\bibitem{zhang2019ernie}
+Zhengyan Zhang, Xu~Han, Zhiyuan Liu, Xin Jiang, Maosong Sun, and Qun Liu.
+\newblock Ernie: Enhanced language representation with informative entities.
+\newblock In {\em Proceedings of ACL}, pages 1441--1451, 2019.
+
+\bibitem{zhu2024fanoutqa}
+Fengbin Zhu, Wenhan Lei, Yunlong Yang, et~al.
+\newblock {FanOutQA}: A multi-hop, multi-document question answering benchmark
+  for large fan-out queries.
+\newblock {\em Proceedings of ACL}, pages 3892--3908, 2024.
+
+\end{thebibliography}

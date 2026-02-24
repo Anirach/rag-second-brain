@@ -1,0 +1,9 @@
+PENDING CALENDAR EVENTS FOR ANIRACH
+=====================================
+
+Date: January 29, 2026 (Tomorrow)
+Event: XSD meeting
+Time: 10:30 (need to confirm AM/PM)
+Status: Pending addition to Google Calendar
+
+Note: Waiting for Google Calendar OAuth completion to add automatically.

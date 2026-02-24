@@ -1,0 +1,40 @@
+% NCD-CIE Framingham Validation Results
+\begin{table}[t]
+\centering
+\caption{External validation of NCD-CIE on Framingham ($n=4,172$). HRs from published literature, not fit to data.}
+\label{tab:framingham}
+\small
+\begin{tabular}{@{}lc@{}}
+\toprule
+\textbf{Metric} & \textbf{Value [95\% CI]} \\
+\midrule
+AUC-ROC & 0.723 [0.703--0.743] \\
+Brier score & 0.1214 [0.1160--0.1270] \\
+Calibration slope & 1.48 \\
+Calibration intercept & 0.04 \\
+Hosmer-Lemeshow $\chi^2$ & 146.6 ($p=0.000$) \\
+Sensitivity (Youden) & 0.686 \\
+Specificity (Youden) & 0.650 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Subgroup discrimination of NCD-CIE on Framingham.}
+\label{tab:framingham-subgroup}
+\small
+\begin{tabular}{@{}lrcl@{}}
+\toprule
+\textbf{Subgroup} & \textbf{$n$} & \textbf{Events} & \textbf{AUC-ROC [95\% CI]} \\
+\midrule
+Male & 1808 & 339 & 0.710 [0.678--0.740] \\
+Female & 2364 & 286 & 0.719 [0.684--0.747] \\
+Age $<$50 & 2187 & 181 & 0.687 [0.646--0.732] \\
+Age 50--60 & 1425 & 285 & 0.654 [0.621--0.688] \\
+Age $>$60 & 560 & 159 & 0.591 [0.531--0.640] \\
+Diabetes & 106 & 37 & 0.621 [0.516--0.737] \\
+No Diabetes & 4066 & 588 & 0.719 [0.697--0.739] \\
+\bottomrule
+\end{tabular}
+\end{table}

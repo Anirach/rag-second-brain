@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Dashboard — RAG Second Brain{% endblock %}
+{% block content %}
+<h1 class="text-2xl font-bold mb-6">📊 Dashboard</h1>
+
+{% if request.query_params.get('uploaded') %}
+<div class="bg-green-50 border border-green-200 rounded-lg p-3 mb-4 text-green-800 text-sm fade-in">
+    ✅ Document uploaded and indexed across all 3 retrieval sources!
+</div>
+{% endif %}
+
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+    {% set cards = [
+        ("Documents", stats.doc_count, "📄", "blue"),
+        ("Entities", stats.entity_count, "🏷️", "purple"),
+        ("Relations", stats.relation_count, "🔗", "green"),
+        ("PPMI Terms", stats.ppmi_terms, "📊", "orange"),
+    ] %}
+    {% for label, value, icon, color in cards %}
+    <div class="bg-white rounded-xl shadow-sm border p-5">
+        <div class="text-2xl mb-1">{{ icon }}</div>
+        <div class="text-3xl font-bold text-gray-800">{{ value }}</div>
+        <div class="text-sm text-gray-500">{{ label }}</div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="bg-white rounded-xl shadow-sm border">
+    <div class="px-5 py-4 border-b">
+        <h2 class="font-semibold">Indexed Documents</h2>
+    </div>
+    <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+            <thead class="bg-gray-50 text-left">
+                <tr>
+                    <th class="px-5 py-3 font-medium text-gray-500">#</th>
+                    <th class="px-5 py-3 font-medium text-gray-500">Title</th>
+                    <th class="px-5 py-3 font-medium text-gray-500">Authors</th>
+                    <th class="px-5 py-3 font-medium text-gray-500">Year</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y">
+                {% for doc in documents %}
+                <tr class="hover:bg-gray-50">
+                    <td class="px-5 py-3 text-gray-400">{{ doc.id + 1 }}</td>
+                    <td class="px-5 py-3 font-medium">{{ doc.title[:80] }}{% if doc.title|length > 80 %}...{% endif %}</td>
+                    <td class="px-5 py-3 text-gray-600">{{ doc.authors }}</td>
+                    <td class="px-5 py-3 text-gray-600">{{ doc.year }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

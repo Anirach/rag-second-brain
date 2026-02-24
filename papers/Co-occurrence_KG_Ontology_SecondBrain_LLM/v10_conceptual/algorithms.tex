@@ -1,0 +1,349 @@
+% Detailed Algorithm Pseudocode
+% Supplementary Material for: Co-occurrence, Sequence and Knowledge Graph 
+% with Ontology as a Second Brain for AI-LLM
+
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\title{Detailed Algorithm Specifications\\
+\large Supplementary Material for Triple-Source RAG Framework}
+\author{Anonymous}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+This document provides detailed pseudocode for all algorithms in the proposed framework, with line-by-line explanations and complexity annotations. Algorithms are presented in order of execution within the pipeline.
+
+\section{Main Pipeline}
+
+\begin{algorithm}[H]
+\caption{TripleSourceRAG: Complete Retrieval Pipeline}
+\label{alg:main}
+\begin{algorithmic}[1]
+\REQUIRE Query string $q$, corpus $\mathcal{D}$, parameters $k, k'$, threshold $\theta_r$
+\ENSURE Ranked passage list $\mathcal{P}^*$ of size $k'$
+
+\STATE \textbf{// Phase 1: Query Processing}
+\STATE $\mathbf{h}_q \leftarrow \text{SentenceEncoder}(q)$ \COMMENT{Encode query to $\mathbb{R}^d$}
+\STATE $E_q \leftarrow \text{EntityLink}(q)$ \COMMENT{Extract entity mentions}
+
+\STATE
+\STATE \textbf{// Phase 2: Multi-Source Retrieval (Parallel)}
+\STATE $\mathcal{R}_c \leftarrow \text{CooccurrenceRetrieval}(q, k)$ \COMMENT{Alg.~\ref{alg:cooc}}
+\STATE $\mathcal{R}_s \leftarrow \text{SequenceRetrieval}(\mathbf{h}_q, k)$ \COMMENT{Alg.~\ref{alg:seq}}
+\STATE $\mathcal{R}_g \leftarrow \text{KGRetrieval}(E_q, k, \theta_r)$ \COMMENT{Alg.~\ref{alg:kg}}
+
+\STATE
+\STATE \textbf{// Phase 3: Candidate Pool Construction}
+\STATE $\mathcal{C} \leftarrow \mathcal{R}_c \cup \mathcal{R}_s \cup \mathcal{R}_g$ \COMMENT{Union: $|\mathcal{C}| \leq 3k$}
+\STATE $\text{source}[p] \leftarrow s$ for each $p \in \mathcal{R}_s$ \COMMENT{Track source membership}
+
+\STATE
+\STATE \textbf{// Phase 4: Cross-Attention Enrichment}
+\STATE $\mathbf{H} \leftarrow \{\mathbf{h}_p : p \in \mathcal{C}\}$ \COMMENT{Collect embeddings}
+\STATE $\mathbf{H}' \leftarrow \text{BidirectionalCrossAttention}(\mathbf{H}, \text{source})$ \COMMENT{Alg.~\ref{alg:crossattn}}
+
+\STATE
+\STATE \textbf{// Phase 5: Gating and Scoring}
+\STATE $\mathbf{g}_{\text{src}} \leftarrow \text{softmax}(\mathbf{W}_g \mathbf{h}_q / \tau)$ \COMMENT{Source-level gate}
+\FOR{each $p \in \mathcal{C}$}
+    \STATE $g_c \leftarrow \sigma(\mathbf{w}^\top \mathbf{h}'_p)$ \COMMENT{Candidate-level gate}
+    \STATE $\text{score}[p] \leftarrow g_c \times \mathbf{g}_{\text{src}}[\text{source}[p]]$ \COMMENT{Combined score}
+\ENDFOR
+
+\STATE
+\STATE \textbf{// Phase 6: Final Selection}
+\STATE $\mathcal{P}^* \leftarrow \text{TopK}(\mathcal{C}, \text{score}, k')$ \COMMENT{Select top-$k'$}
+
+\RETURN $\mathcal{P}^*$
+\end{algorithmic}
+\end{algorithm}
+
+\textbf{Complexity:} $O(\sqrt{n} \cdot d + k^2 \cdot d)$ time, $O(k \cdot d)$ working memory.
+
+\section{Source-Specific Retrieval}
+
+\subsection{Co-occurrence Retrieval}
+
+\begin{algorithm}[H]
+\caption{CooccurrenceRetrieval}
+\label{alg:cooc}
+\begin{algorithmic}[1]
+\REQUIRE Query $q$, count $k$, co-occurrence embeddings $\mathbf{E}_c$, passage index $\mathcal{I}_c$
+\ENSURE Top-$k$ passages by co-occurrence similarity
+
+\STATE \textbf{// Step 1: Query Embedding}
+\STATE $\text{tokens} \leftarrow \text{Tokenize}(q)$
+\STATE $\mathbf{e}_q \leftarrow \frac{1}{|\text{tokens}|} \sum_{t \in \text{tokens}} \mathbf{E}_c[t]$ \COMMENT{Mean pooling}
+
+\STATE
+\STATE \textbf{// Step 2: Similarity Search}
+\IF{$\mathcal{I}_c$ is FAISS index}
+    \STATE $\mathcal{R}_c \leftarrow \text{FAISS.search}(\mathcal{I}_c, \mathbf{e}_q, k)$
+\ELSE
+    \STATE $\text{sims} \leftarrow \{\cos(\mathbf{e}_q, \mathbf{e}_{p_i}) : p_i \in \mathcal{D}\}$ \COMMENT{Brute force}
+    \STATE $\mathcal{R}_c \leftarrow \text{TopK}(\mathcal{D}, \text{sims}, k)$
+\ENDIF
+
+\RETURN $\mathcal{R}_c$
+\end{algorithmic}
+\end{algorithm}
+
+\textbf{Complexity:} $O(\sqrt{n} \cdot d_c)$ with FAISS index, $O(n \cdot d_c)$ brute force.
+
+\subsection{Sequence Retrieval}
+
+\begin{algorithm}[H]
+\caption{SequenceRetrieval}
+\label{alg:seq}
+\begin{algorithmic}[1]
+\REQUIRE Query embedding $\mathbf{h}_q$, count $k$, FAISS index $\mathcal{I}_s$
+\ENSURE Top-$k$ passages by semantic similarity
+
+\STATE \textbf{// Direct FAISS search}
+\STATE $\text{distances}, \text{indices} \leftarrow \text{FAISS.search}(\mathcal{I}_s, \mathbf{h}_q, k)$
+\STATE $\mathcal{R}_s \leftarrow \{(\mathcal{D}[\text{indices}[i]], 1 - \text{distances}[i]) : i \in [k]\}$
+
+\RETURN $\mathcal{R}_s$
+\end{algorithmic}
+\end{algorithm}
+
+\textbf{Complexity:} $O(\sqrt{n} \cdot d)$ with IVF-PQ index.
+
+\subsection{Knowledge Graph Retrieval}
+
+\begin{algorithm}[H]
+\caption{KGRetrieval}
+\label{alg:kg}
+\begin{algorithmic}[1]
+\REQUIRE Linked entities $E_q$, count $k$, threshold $\theta_r$, KG $\mathcal{G}$
+\ENSURE Top-$k$ passages from KG reasoning
+
+\STATE \textbf{// Step 1: Neighborhood Expansion}
+\STATE $E_{\text{expand}} \leftarrow E_q$
+\FOR{$h = 1$ to $H_{\max}$} \COMMENT{$H_{\max}$ = max hops}
+    \STATE $E_{\text{new}} \leftarrow \emptyset$
+    \FOR{each $e \in E_{\text{expand}}$}
+        \STATE $N(e) \leftarrow \{e' : (e, r, e') \in \mathcal{G} \text{ or } (e', r, e) \in \mathcal{G}\}$
+        \STATE $E_{\text{new}} \leftarrow E_{\text{new}} \cup N(e)$
+    \ENDFOR
+    \STATE $E_{\text{expand}} \leftarrow E_{\text{expand}} \cup E_{\text{new}}$
+\ENDFOR
+
+\STATE
+\STATE \textbf{// Step 2: Passage Scoring}
+\STATE $\text{scores} \leftarrow \{\}$
+\FOR{each passage $p$ containing entities in $E_{\text{expand}}$}
+    \STATE $E_p \leftarrow \text{entities in } p$
+    \STATE $\text{overlap} \leftarrow |E_p \cap E_{\text{expand}}|$
+    \STATE $\text{min\_dist} \leftarrow \min_{e \in E_p} \text{HopDist}(e, E_q)$
+    \STATE $\text{scores}[p] \leftarrow \text{overlap} / (1 + \text{min\_dist})$ \COMMENT{Proximity-weighted}
+\ENDFOR
+
+\STATE
+\STATE \textbf{// Step 3: Threshold and Select}
+\STATE $\mathcal{R}_g \leftarrow \{p : \text{scores}[p] \geq \theta_r\}$
+\STATE $\mathcal{R}_g \leftarrow \text{TopK}(\mathcal{R}_g, \text{scores}, k)$
+
+\RETURN $\mathcal{R}_g$
+\end{algorithmic}
+\end{algorithm}
+
+\textbf{Complexity:} $O(|E_q| \cdot \bar{d}^{H_{\max}} + |\mathcal{P}_{\text{match}}| \cdot |E_{\text{expand}}|)$.
+
+\section{Cross-Attention Enrichment}
+
+\begin{algorithm}[H]
+\caption{BidirectionalCrossAttention}
+\label{alg:crossattn}
+\begin{algorithmic}[1]
+\REQUIRE Candidate embeddings $\mathbf{H} = \{\mathbf{h}_1, \ldots, \mathbf{h}_{3k}\}$, source labels
+\ENSURE Enriched embeddings $\mathbf{H}'$
+
+\STATE \textbf{// Partition by source}
+\STATE $\mathbf{H}_c \leftarrow \{\mathbf{h}_i : \text{source}[i] = c\}$ \COMMENT{Co-occurrence}
+\STATE $\mathbf{H}_s \leftarrow \{\mathbf{h}_i : \text{source}[i] = s\}$ \COMMENT{Sequence}
+\STATE $\mathbf{H}_g \leftarrow \{\mathbf{h}_i : \text{source}[i] = g\}$ \COMMENT{KG}
+
+\STATE
+\STATE \textbf{// Cross-attention for each source pair}
+\STATE $\mathbf{H}_{c \leftarrow s} \leftarrow \text{CrossAttn}(\mathbf{H}_c, \mathbf{H}_s)$ \COMMENT{Co-occ attends to Seq}
+\STATE $\mathbf{H}_{c \leftarrow g} \leftarrow \text{CrossAttn}(\mathbf{H}_c, \mathbf{H}_g)$ \COMMENT{Co-occ attends to KG}
+\STATE $\mathbf{H}_{s \leftarrow c} \leftarrow \text{CrossAttn}(\mathbf{H}_s, \mathbf{H}_c)$
+\STATE $\mathbf{H}_{s \leftarrow g} \leftarrow \text{CrossAttn}(\mathbf{H}_s, \mathbf{H}_g)$
+\STATE $\mathbf{H}_{g \leftarrow c} \leftarrow \text{CrossAttn}(\mathbf{H}_g, \mathbf{H}_c)$
+\STATE $\mathbf{H}_{g \leftarrow s} \leftarrow \text{CrossAttn}(\mathbf{H}_g, \mathbf{H}_s)$
+
+\STATE
+\STATE \textbf{// Residual combination}
+\STATE $\mathbf{H}'_c \leftarrow \mathbf{H}_c + \alpha_{cs} \mathbf{H}_{c \leftarrow s} + \alpha_{cg} \mathbf{H}_{c \leftarrow g}$
+\STATE $\mathbf{H}'_s \leftarrow \mathbf{H}_s + \alpha_{sc} \mathbf{H}_{s \leftarrow c} + \alpha_{sg} \mathbf{H}_{s \leftarrow g}$
+\STATE $\mathbf{H}'_g \leftarrow \mathbf{H}_g + \alpha_{gc} \mathbf{H}_{g \leftarrow c} + \alpha_{gs} \mathbf{H}_{g \leftarrow s}$
+
+\STATE $\mathbf{H}' \leftarrow \mathbf{H}'_c \cup \mathbf{H}'_s \cup \mathbf{H}'_g$
+
+\RETURN $\mathbf{H}'$
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\caption{CrossAttn: Single Cross-Attention Layer}
+\label{alg:single_crossattn}
+\begin{algorithmic}[1]
+\REQUIRE Query set $\mathbf{Q}$, Key-Value set $\mathbf{K}$, weights $\mathbf{W}_Q, \mathbf{W}_K, \mathbf{W}_V$
+\ENSURE Attended representations
+
+\STATE $\mathbf{Q}' \leftarrow \mathbf{Q} \mathbf{W}_Q$ \COMMENT{Project queries}
+\STATE $\mathbf{K}' \leftarrow \mathbf{K} \mathbf{W}_K$ \COMMENT{Project keys}
+\STATE $\mathbf{V}' \leftarrow \mathbf{K} \mathbf{W}_V$ \COMMENT{Project values}
+
+\STATE $\mathbf{A} \leftarrow \text{softmax}\left(\frac{\mathbf{Q}' {\mathbf{K}'}^\top}{\sqrt{d_k}}\right)$ \COMMENT{Attention weights}
+\STATE $\mathbf{O} \leftarrow \mathbf{A} \mathbf{V}'$ \COMMENT{Weighted sum}
+
+\RETURN $\mathbf{O}$
+\end{algorithmic}
+\end{algorithm}
+
+\textbf{Complexity:} $O(k^2 \cdot d)$ for attention computation over $3k$ candidates.
+
+\section{Training Algorithms}
+
+\subsection{Stage 1: Contrastive Gating Training}
+
+\begin{algorithm}[H]
+\caption{Stage1\_ContrastiveGating}
+\label{alg:stage1}
+\begin{algorithmic}[1]
+\REQUIRE Training set $\mathcal{Q}_{\text{train}}$, oracle labels $\mathcal{O}$, epochs $E$, batch size $B$
+\ENSURE Trained gating parameters $\theta = \{\mathbf{w}, \mathbf{W}_g, \alpha_{*}\}$
+
+\STATE Initialize $\theta$ randomly
+\STATE $\text{optimizer} \leftarrow \text{AdamW}(\theta, \text{lr}=5 \times 10^{-5})$
+
+\FOR{epoch $= 1$ to $E$}
+    \STATE Shuffle $\mathcal{Q}_{\text{train}}$
+    \FOR{mini-batch $\mathcal{B} \subset \mathcal{Q}_{\text{train}}$ of size $B$}
+        \STATE $\mathcal{L}_{\text{batch}} \leftarrow 0$
+        
+        \FOR{each query $q \in \mathcal{B}$}
+            \STATE \textbf{// Retrieve candidates from all sources}
+            \STATE $\mathcal{C}_q \leftarrow \text{TripleSourceRAG}(q, k=10, k'=30)$
+            
+            \STATE \textbf{// Get positive/negative labels from oracle}
+            \STATE $p^+ \leftarrow$ sample positive from $\mathcal{O}[q] \cap \mathcal{C}_q$
+            \STATE $\{p^-_j\}_{j=1}^{N-1} \leftarrow$ sample negatives from $\mathcal{C}_q \setminus \mathcal{O}[q]$
+            
+            \STATE \textbf{// Compute InfoNCE loss}
+            \STATE $\mathbf{h}_q \leftarrow \text{Encode}(q)$
+            \STATE $\mathbf{h}^+ \leftarrow \text{Encode}(p^+)$
+            \STATE $\{\mathbf{h}^-_j\} \leftarrow \text{Encode}(\{p^-_j\})$
+            
+            \STATE $\text{sim}^+ \leftarrow \cos(\mathbf{h}_q, \mathbf{h}^+) / \tau$
+            \STATE $\text{sims}^- \leftarrow \{\cos(\mathbf{h}_q, \mathbf{h}^-_j) / \tau\}$
+            
+            \STATE $\mathcal{L}_q \leftarrow -\log \frac{\exp(\text{sim}^+)}{\exp(\text{sim}^+) + \sum_j \exp(\text{sims}^-_j)}$
+            \STATE $\mathcal{L}_{\text{batch}} \leftarrow \mathcal{L}_{\text{batch}} + \mathcal{L}_q$
+        \ENDFOR
+        
+        \STATE $\mathcal{L}_{\text{batch}} \leftarrow \mathcal{L}_{\text{batch}} / |\mathcal{B}|$ \COMMENT{Average}
+        \STATE $\nabla\theta \leftarrow \text{Backprop}(\mathcal{L}_{\text{batch}})$
+        \STATE $\theta \leftarrow \text{optimizer.step}(\nabla\theta)$
+    \ENDFOR
+\ENDFOR
+
+\RETURN $\theta$
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Stage 2: Cross-Attention Fine-tuning}
+
+\begin{algorithm}[H]
+\caption{Stage2\_CrossAttentionFinetune}
+\label{alg:stage2}
+\begin{algorithmic}[1]
+\REQUIRE Training set $\mathcal{Q}_{\text{train}}$, gold answers $\mathcal{A}$, frozen $\theta_{\text{gate}}$, epochs $E$
+\ENSURE Trained cross-attention and generator parameters $\phi$
+
+\STATE Load frozen gating parameters $\theta_{\text{gate}}$
+\STATE Initialize cross-attention weights $\phi_{\text{cross}}$
+\STATE Initialize LoRA adapters $\phi_{\text{LoRA}}$
+\STATE $\text{optimizer} \leftarrow \text{AdamW}(\{\phi_{\text{cross}}, \phi_{\text{LoRA}}\}, \text{lr}=1 \times 10^{-4})$
+
+\FOR{epoch $= 1$ to $E$}
+    \FOR{mini-batch $\mathcal{B} \subset \mathcal{Q}_{\text{train}}$}
+        \STATE $\mathcal{L}_{\text{batch}} \leftarrow 0$
+        
+        \FOR{each $(q, a^*) \in \mathcal{B}$}
+            \STATE \textbf{// Retrieve and gate (frozen)}
+            \STATE $\mathcal{P}^* \leftarrow \text{TripleSourceRAG}(q, \theta_{\text{gate}})$
+            
+            \STATE \textbf{// Cross-attention enrichment (trainable)}
+            \STATE $\mathbf{C} \leftarrow \text{GeneratorCrossAttn}(\mathbf{h}_q, \mathcal{P}^*, \phi_{\text{cross}})$
+            
+            \STATE \textbf{// Generation loss}
+            \STATE $\mathcal{L}_q \leftarrow -\sum_{t=1}^{|a^*|} \log P_{\phi_{\text{LoRA}}}(a^*_t | a^*_{<t}, q, \mathbf{C})$
+            \STATE $\mathcal{L}_{\text{batch}} \leftarrow \mathcal{L}_{\text{batch}} + \mathcal{L}_q$
+        \ENDFOR
+        
+        \STATE $\nabla\phi \leftarrow \text{Backprop}(\mathcal{L}_{\text{batch}})$
+        \STATE $\phi \leftarrow \text{optimizer.step}(\nabla\phi)$
+    \ENDFOR
+\ENDFOR
+
+\RETURN $\phi$
+\end{algorithmic}
+\end{algorithm}
+
+\section{Complexity Summary}
+
+\begin{table}[H]
+\centering
+\caption{Complexity of all algorithms}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Algorithm} & \textbf{Time} & \textbf{Space} \\
+\midrule
+CooccurrenceRetrieval & $O(\sqrt{n} \cdot d_c)$ & $O(k)$ \\
+SequenceRetrieval & $O(\sqrt{n} \cdot d)$ & $O(k)$ \\
+KGRetrieval & $O(|E_q| \cdot \bar{d}^H)$ & $O(|E_{\text{expand}}|)$ \\
+BidirectionalCrossAttention & $O(k^2 \cdot d)$ & $O(k^2)$ \\
+TripleSourceRAG (full) & $O(\sqrt{n} \cdot d + k^2 \cdot d)$ & $O(k \cdot d)$ \\
+\midrule
+Stage1 Training (per batch) & $O(B \cdot k \cdot d)$ & $O(B \cdot k \cdot d)$ \\
+Stage2 Training (per batch) & $O(B \cdot L \cdot d^2)$ & $O(B \cdot L \cdot d)$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Where:
+\begin{itemize}
+    \item $n$ = corpus size
+    \item $d$ = embedding dimension
+    \item $k$ = candidates per source
+    \item $B$ = batch size
+    \item $L$ = sequence length
+    \item $\bar{d}$ = average KG degree
+    \item $H$ = max hops
+\end{itemize}
+
+\section{Implementation Notes}
+
+\textbf{Parallelization:} The three source retrievals (lines 6-8 in Alg.~\ref{alg:main}) are independent and can execute in parallel, reducing wall-clock time by up to 3×.
+
+\textbf{Caching:} Passage embeddings and KG neighborhoods can be pre-computed and cached, moving significant computation to index time rather than query time.
+
+\textbf{Batching:} Cross-attention can be batched across queries for GPU efficiency. For batch size $B$, attention matrices become $B \times 3k \times 3k \times d$.
+
+\textbf{Memory optimization:} Gradient checkpointing can reduce memory usage during training at the cost of recomputation.
+
+\end{document}

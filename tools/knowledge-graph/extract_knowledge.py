@@ -92,11 +92,11 @@ Content:
 
     try:
         r = subprocess.run([
-            "curl", "-s", "-X", "POST", "https://openrouter.ai/api/v1/chat/completions",
+            "curl", "-s", "--max-time", "20", "-X", "POST", "https://openrouter.ai/api/v1/chat/completions",
             "-H", "Content-Type: application/json",
             "-H", f"Authorization: Bearer {OPENROUTER_API_KEY}",
             "-d", payload
-        ], capture_output=True, text=True, timeout=120)
+        ], capture_output=True, text=True, timeout=25)
 
         if r.returncode != 0:
             return None
@@ -577,9 +577,13 @@ def main():
         print("Done.")
         return
 
-    print(f"\nProcessing {len(all_content)} source(s)...")
-    for item in all_content:
-        process_content(item["text"], item["source"])
+    # Batch all content into a single LLM call instead of one per source
+    print(f"\nBatching {len(all_content)} source(s) into single LLM extraction...")
+    combined_text = ""
+    for item in all_content[:15]:  # Cap at 15 sources to stay within token limits
+        combined_text += f"\n\n--- Source: {item['source']} ---\n{item['text'][:500]}"
+
+    process_content(combined_text, "batch")
 
     write_index()
     print(f"\n=== Complete ===")

@@ -1,0 +1,126 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\Newlabel{addr1}{a}
+\citation{brown2020language,openai2023gpt4}
+\citation{ji2023survey,singhal2023large}
+\citation{lewis2020retrieval,gao2023retrieval}
+\citation{forte2022building}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
+\newlabel{sec:introduction}{{1}{2}{Introduction}{section.1}{}}
+\citation{fansi2022ddxplus}
+\citation{gretelai_s2d}
+\citation{lewis2020retrieval}
+\citation{karpukhin2020dense}
+\citation{izacard2021leveraging}
+\citation{shuster2021retrieval}
+\citation{thorne2018fever}
+\citation{gao2023retrieval,zhao2024retrieval}
+\citation{santos2022knowledge,chandak2023building}
+\citation{bodenreider2004unified}
+\citation{pan2024unifying}
+\citation{he2024gretriever}
+\citation{yasunaga2022deep}
+\citation{singhal2023large}
+\citation{mcduff2023towards}
+\citation{fansi2022ddxplus}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{4}{section.2}\protected@file@percent }
+\newlabel{sec:related}{{2}{4}{Related Work}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Retrieval-Augmented Generation}{4}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Knowledge Graphs in Biomedical AI}{4}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}LLM-Based Medical Diagnosis}{4}{subsection.2.3}\protected@file@percent }
+\citation{ji2023survey,umapathi2023med}
+\citation{shuster2021retrieval}
+\citation{lu2022neurologic}
+\citation{manakul2023selfcheckgpt}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Hallucination Mitigation}{5}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{5}{section.3}\protected@file@percent }
+\newlabel{sec:method}{{3}{5}{Method}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Problem Formulation}{5}{subsection.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Conceptual overview of the multi-source RAG pipeline. Three retrieval modalities provide complementary evidence that is fused via reciprocal rank fusion before augmenting the LLM prompt.}}{6}{figure.1}\protected@file@percent }
+\newlabel{fig:architecture}{{1}{6}{Conceptual overview of the multi-source RAG pipeline. Three retrieval modalities provide complementary evidence that is fused via reciprocal rank fusion before augmenting the LLM prompt}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Architecture Overview}{6}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Dense Vector Retrieval}{6}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:dense}{{3.3}{6}{Dense Vector Retrieval}{subsection.3.3}{}}
+\citation{robertson2009probabilistic}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}BM25 with PPMI Enhancement}{7}{subsection.3.4}\protected@file@percent }
+\newlabel{sec:bm25}{{3.4}{7}{BM25 with PPMI Enhancement}{subsection.3.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Multi-Source Knowledge Graph}{7}{subsection.3.5}\protected@file@percent }
+\newlabel{sec:kg}{{3.5}{7}{Multi-Source Knowledge Graph}{subsection.3.5}{}}
+\citation{cormack2009reciprocal}
+\citation{fansi2022ddxplus}
+\newlabel{eq:kg_score}{{4}{8}{Multi-Source Knowledge Graph}{equation.3.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Retrieval Fusion and LLM Prompting}{8}{subsection.3.6}\protected@file@percent }
+\newlabel{sec:fusion}{{3.6}{8}{Retrieval Fusion and LLM Prompting}{subsection.3.6}{}}
+\citation{gretelai_s2d}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experimental Setup}{9}{section.4}\protected@file@percent }
+\newlabel{sec:experiments}{{4}{9}{Experimental Setup}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Datasets}{9}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{DDXPlus~\cite  {fansi2022ddxplus}.}{9}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Symptom2Disease~\cite  {gretelai_s2d}.}{9}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Model Configuration}{9}{subsection.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Results on DDXPlus ($n{=}200$, 49 diseases, 223 symptoms) using GPT-4o-mini. Best results in \textbf  {bold}.}}{10}{table.1}\protected@file@percent }
+\newlabel{tab:ddxplus}{{1}{10}{Results on DDXPlus ($n{=}200$, 49 diseases, 223 symptoms) using GPT-4o-mini. Best results in \textbf {bold}}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Evaluation Protocol}{10}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{10}{section.5}\protected@file@percent }
+\newlabel{sec:results}{{5}{10}{Results}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}DDXPlus Benchmark Results}{10}{subsection.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Model ablation on DDXPlus ($n{=}200$) using GPT-4o. Compare with Table~\ref {tab:ddxplus} (GPT-4o-mini).}}{11}{table.2}\protected@file@percent }
+\newlabel{tab:gpt4o}{{2}{11}{Model ablation on DDXPlus ($n{=}200$) using GPT-4o. Compare with Table~\ref {tab:ddxplus} (GPT-4o-mini)}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Model Ablation: GPT-4o vs.\ GPT-4o-mini}{11}{subsection.5.2}\protected@file@percent }
+\newlabel{sec:model_ablation}{{5.2}{11}{Model Ablation: GPT-4o vs.\ GPT-4o-mini}{subsection.5.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Results on Symptom2Disease ($n{=}320$, 24 diseases) using GPT-4o-mini with a domain-specific knowledge graph built from the S2D training split.}}{12}{table.3}\protected@file@percent }
+\newlabel{tab:s2d}{{3}{12}{Results on Symptom2Disease ($n{=}320$, 24 diseases) using GPT-4o-mini with a domain-specific knowledge graph built from the S2D training split}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Cross-Domain Results: Symptom2Disease}{12}{subsection.5.3}\protected@file@percent }
+\newlabel{sec:cross_domain}{{5.3}{12}{Cross-Domain Results: Symptom2Disease}{subsection.5.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Ablation: incremental contribution of each retrieval layer on DDXPlus.}}{13}{table.4}\protected@file@percent }
+\newlabel{tab:ablation}{{4}{13}{Ablation: incremental contribution of each retrieval layer on DDXPlus}{table.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Ablation Analysis}{13}{subsection.5.4}\protected@file@percent }
+\newlabel{sec:ablation}{{5.4}{13}{Ablation Analysis}{subsection.5.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Hallucination rates across methods, datasets, and models.}}{14}{table.5}\protected@file@percent }
+\newlabel{tab:halluc}{{5}{14}{Hallucination rates across methods, datasets, and models}{table.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Hallucination Analysis}{14}{subsection.5.5}\protected@file@percent }
+\newlabel{sec:hallucination}{{5.5}{14}{Hallucination Analysis}{subsection.5.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{14}{section.6}\protected@file@percent }
+\newlabel{sec:discussion}{{6}{14}{Discussion}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}The Progressive Value of Multi-Source Retrieval}{14}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Model-Agnostic Retrieval: RAG as an Equalizer}{15}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Domain-Specific Knowledge Graphs}{16}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}TF-IDF and PPMI as Clinical Significance Proxies}{16}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Practical Implications for Clinical Decision Support}{17}{subsection.6.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Limitations}{17}{section.7}\protected@file@percent }
+\newlabel{sec:limitations}{{7}{17}{Limitations}{section.7}{}}
+\citation{chen2023meditron}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{18}{section.8}\protected@file@percent }
+\newlabel{sec:conclusion}{{8}{18}{Conclusion}{section.8}{}}
+\bibstyle{elsarticle-num}
+\bibcite{brown2020language}{{1}{}{{}}{{}}}
+\bibcite{openai2023gpt4}{{2}{}{{}}{{}}}
+\bibcite{ji2023survey}{{3}{}{{}}{{}}}
+\bibcite{singhal2023large}{{4}{}{{}}{{}}}
+\bibcite{lewis2020retrieval}{{5}{}{{}}{{}}}
+\bibcite{gao2023retrieval}{{6}{}{{}}{{}}}
+\bibcite{forte2022building}{{7}{}{{}}{{}}}
+\bibcite{robertson2009probabilistic}{{8}{}{{}}{{}}}
+\bibcite{fansi2022ddxplus}{{9}{}{{}}{{}}}
+\bibcite{gretelai_s2d}{{10}{}{{}}{{}}}
+\bibcite{santos2022knowledge}{{11}{}{{}}{{}}}
+\bibcite{chandak2023building}{{12}{}{{}}{{}}}
+\bibcite{bodenreider2004unified}{{13}{}{{}}{{}}}
+\bibcite{pan2024unifying}{{14}{}{{}}{{}}}
+\bibcite{mcduff2023towards}{{15}{}{{}}{{}}}
+\bibcite{karpukhin2020dense}{{16}{}{{}}{{}}}
+\bibcite{izacard2021leveraging}{{17}{}{{}}{{}}}
+\bibcite{shuster2021retrieval}{{18}{}{{}}{{}}}
+\bibcite{thorne2018fever}{{19}{}{{}}{{}}}
+\bibcite{zhao2024retrieval}{{20}{}{{}}{{}}}
+\bibcite{umapathi2023med}{{21}{}{{}}{{}}}
+\bibcite{lu2022neurologic}{{22}{}{{}}{{}}}
+\bibcite{manakul2023selfcheckgpt}{{23}{}{{}}{{}}}
+\bibcite{cormack2009reciprocal}{{24}{}{{}}{{}}}
+\bibcite{he2024gretriever}{{25}{}{{}}{{}}}
+\bibcite{yasunaga2022deep}{{26}{}{{}}{{}}}
+\bibcite{chen2023meditron}{{27}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\gdef \@abspage@last{22}

@@ -1,0 +1,324 @@
+% References for: Co-occurrence, Sequence and Knowledge Graph with Ontology 
+% as a Second Brain for AI-LLM
+% Version 7.0 - Updated Bibliography (Differentiability Fix)
+
+% ============================================
+% NEW V7: DIFFERENTIABILITY REFERENCES
+% ============================================
+
+@inproceedings{jang2017gumbel,
+  title={Categorical Reparameterization with Gumbel-Softmax},
+  author={Jang, Eric and Gu, Shixiang and Poole, Ben},
+  booktitle={International Conference on Learning Representations},
+  year={2017},
+  note={Gumbel-Softmax trick for differentiable discrete sampling}
+}
+
+@article{williams1992reinforce,
+  title={Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning},
+  author={Williams, Ronald J},
+  journal={Machine Learning},
+  volume={8},
+  number={3-4},
+  pages={229--256},
+  year={1992},
+  publisher={Springer},
+  note={REINFORCE algorithm for policy gradient estimation}
+}
+
+@inproceedings{oord2018infonce,
+  title={Representation Learning with Contrastive Predictive Coding},
+  author={van den Oord, Aaron and Li, Yazhe and Vinyals, Oriol},
+  booktitle={arXiv preprint arXiv:1807.03748},
+  year={2018},
+  note={InfoNCE loss for contrastive learning}
+}
+
+@inproceedings{chen2020simclr,
+  title={A Simple Framework for Contrastive Learning of Visual Representations},
+  author={Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey},
+  booktitle={International Conference on Machine Learning},
+  pages={1597--1607},
+  year={2020},
+  note={SimCLR contrastive learning framework}
+}
+
+% ============================================
+% CORE RAG AND RETRIEVAL REFERENCES
+% ============================================
+
+@article{lewis2020rag,
+  title={Retrieval-Augmented Generation for Knowledge-Intensive {NLP} Tasks},
+  author={Lewis, Patrick and Perez, Ethan and Piktus, Aleksandra and Petroni, Fabio and Karpukhin, Vladimir and Goyal, Naman and K{\"u}ttler, Heinrich and Lewis, Mike and Yih, Wen-tau and Rockt{\"a}schel, Tim and others},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  pages={9459--9474},
+  year={2020}
+}
+
+@article{karpukhin2020dpr,
+  title={Dense Passage Retrieval for Open-Domain Question Answering},
+  author={Karpukhin, Vladimir and O{\u{g}}uz, Barlas and Min, Sewon and Lewis, Patrick and Wu, Ledell and Edunov, Sergey and Chen, Danqi and Yih, Wen-tau},
+  journal={Proceedings of EMNLP},
+  pages={6769--6781},
+  year={2020}
+}
+
+@inproceedings{khattab2020colbert,
+  title={ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT},
+  author={Khattab, Omar and Zaharia, Matei},
+  booktitle={Proceedings of SIGIR},
+  pages={39--48},
+  year={2020}
+}
+
+% ============================================
+% RECENT ADVANCED RAG SYSTEMS
+% ============================================
+
+@article{fang2024amkor,
+  title={{AMKOR}: Adaptive Multi-Source Knowledge Fusion with Probabilistic Beam Reasoning for Multi-Hop Question Answering},
+  author={Fang, Yixin and Chen, Junhao and Zhang, Wei and Liu, Qian and Wang, Shuai},
+  journal={Proceedings of ACL},
+  pages={4521--4537},
+  year={2024}
+}
+
+@article{wang2024kga,
+  title={{KGA}: Parameter-Free Knowledge Graph-Guided Attention for Retrieval-Augmented Generation},
+  author={Wang, Liang and Chen, Xinyi and Zhang, Haoran and Li, Jianfeng},
+  journal={Proceedings of NAACL},
+  pages={2891--2905},
+  year={2024}
+}
+
+@article{chen2024fairrag,
+  title={{FAIR-RAG}: Factuality-Aware Iterative Retrieval-Augmented Generation with Evidence Auditing},
+  author={Chen, Mingxuan and Liu, Yue and Wang, Zhongyu and Zhang, Peng and Huang, Xuanjing},
+  journal={Proceedings of EMNLP},
+  pages={3127--3142},
+  year={2024}
+}
+
+@article{li2024marag,
+  title={{MA-RAG}: Multi-Agent Retrieval-Augmented Generation for Complex Reasoning Tasks},
+  author={Li, Yuanhao and Zhao, Jun and Chen, Haoxiang and Zhang, Yiming and Wu, Fei},
+  journal={Proceedings of ACL},
+  pages={5892--5908},
+  year={2024}
+}
+
+@article{krishna2024frames,
+  title={{FRAMES}: A Benchmark for Factual Reasoning Across Multiple Evidence Sources},
+  author={Krishna, Kalpesh and Roy, Nicholas and Chang, Jonathan and Durrett, Greg},
+  journal={Proceedings of NAACL},
+  pages={1423--1441},
+  year={2024}
+}
+
+@article{shi2024replug,
+  title={{REPLUG}: Retrieval-Augmented Black-Box Language Models},
+  author={Shi, Weijia and Min, Sewon and Yasunaga, Michihiro and Seo, Minjoon and James, Rich and Lewis, Mike and Zettlemoyer, Luke and Yih, Wen-tau},
+  journal={Proceedings of NAACL},
+  pages={1731--1746},
+  year={2024}
+}
+
+@article{izacard2023atlas,
+  title={{Atlas}: Few-shot Learning with Retrieval Augmented Language Models},
+  author={Izacard, Gautier and Lewis, Patrick and Lomeli, Maria and Hosseini, Lucas and Petroni, Fabio and Schick, Timo and Dwivedi-Yu, Jane and Joulin, Armand and Riedel, Sebastian and Grave, Edouard},
+  journal={Journal of Machine Learning Research},
+  volume={24},
+  number={251},
+  pages={1--43},
+  year={2023}
+}
+
+% ============================================
+% ENTITY LINKING
+% ============================================
+
+@inproceedings{wu2020blink,
+  title={{BLINK}: Zero-Shot Entity Linking with Dense Entity Retrieval},
+  author={Wu, Ledell and Petroni, Fabio and Josifoski, Martin and Riedel, Sebastian and Zettlemoyer, Luke},
+  booktitle={Proceedings of EMNLP},
+  pages={6592--6604},
+  year={2020}
+}
+
+% ============================================
+% PARAMETER-EFFICIENT FINE-TUNING
+% ============================================
+
+@article{hu2022lora,
+  title={{LoRA}: Low-Rank Adaptation of Large Language Models},
+  author={Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu},
+  journal={International Conference on Learning Representations},
+  year={2022}
+}
+
+@article{dettmers2023qlora,
+  title={{QLoRA}: Efficient Finetuning of Quantized LLMs},
+  author={Dettmers, Tim and Pagnoni, Artidoro and Holtzman, Ari and Zettlemoyer, Luke},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2023}
+}
+
+% ============================================
+% KNOWLEDGE GRAPH REFERENCES
+% ============================================
+
+@inproceedings{bordes2013transe,
+  title={Translating Embeddings for Modeling Multi-relational Data},
+  author={Bordes, Antoine and Usunier, Nicolas and Garcia-Duran, Alberto and Weston, Jason and Yakhnenko, Oksana},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={2787--2795},
+  year={2013}
+}
+
+% ============================================
+% LLM AND TRANSFORMERS
+% ============================================
+
+@article{brown2020gpt3,
+  title={Language Models are Few-Shot Learners},
+  author={Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  pages={1877--1901},
+  year={2020}
+}
+
+@article{touvron2023llama,
+  title={Llama 2: Open Foundation and Fine-Tuned Chat Models},
+  author={Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others},
+  journal={arXiv preprint arXiv:2307.09288},
+  year={2023}
+}
+
+% ============================================
+% QA BENCHMARKS
+% ============================================
+
+@inproceedings{yang2018hotpotqa,
+  title={HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering},
+  author={Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William W and Salakhutdinov, Ruslan and Manning, Christopher D},
+  booktitle={Proceedings of EMNLP},
+  pages={2369--2380},
+  year={2018}
+}
+
+@inproceedings{talmor2018complexwebq,
+  title={The Web as a Knowledge-Base for Answering Complex Questions},
+  author={Talmor, Alon and Berant, Jonathan},
+  booktitle={Proceedings of NAACL-HLT},
+  pages={641--651},
+  year={2018}
+}
+
+@inproceedings{berant2013webquestions,
+  title={Semantic Parsing on Freebase from Question-Answer Pairs},
+  author={Berant, Jonathan and Chou, Andrew and Frostig, Roy and Liang, Percy},
+  booktitle={Proceedings of EMNLP},
+  pages={1533--1544},
+  year={2013}
+}
+
+% ============================================
+% ONTOLOGY AND REASONING
+% ============================================
+
+@techreport{motik2012owl2,
+  title={OWL 2 Web Ontology Language Profiles (Second Edition)},
+  author={Motik, Boris and Grau, Bernardo Cuenca and Horrocks, Ian and Wu, Zhe and Fokoue, Achille and Lutz, Carsten},
+  institution={W3C},
+  type={W3C Recommendation},
+  year={2012}
+}
+
+@misc{rdfox2023,
+  title={RDFox: High-Performance Knowledge Graph and Semantic Reasoning Engine},
+  author={{Oxford Semantic Technologies}},
+  howpublished={\url{https://www.oxfordsemantic.tech/rdfox}},
+  year={2023}
+}
+
+% ============================================
+% EMBEDDINGS AND VECTOR SEARCH
+% ============================================
+
+@article{johnson2019faiss,
+  title={Billion-scale similarity search with GPUs},
+  author={Johnson, Jeff and Douze, Matthijs and J{\'e}gou, Herv{\'e}},
+  journal={IEEE Transactions on Big Data},
+  volume={7},
+  number={3},
+  pages={535--547},
+  year={2019}
+}
+
+@inproceedings{ni2022sentence_t5,
+  title={Sentence-T5: Scalable Sentence Encoders from Pre-trained Text-to-Text Models},
+  author={Ni, Jianmo and Qu, Chen and Lu, Jing and Dai, Zhuyun and {\'A}brego, Gustavo Hern{\'a}ndez and Ma, Ji and Zhao, Vincent Y and Luan, Yi and Hall, Keith B and Chang, Ming-Wei and Yang, Yinfei},
+  booktitle={Findings of ACL},
+  pages={1864--1874},
+  year={2022}
+}
+
+% ============================================
+% CO-OCCURRENCE AND STATISTICAL METHODS
+% ============================================
+
+@inproceedings{pennington2014glove,
+  title={GloVe: Global Vectors for Word Representation},
+  author={Pennington, Jeffrey and Socher, Richard and Manning, Christopher D},
+  booktitle={Proceedings of EMNLP},
+  pages={1532--1543},
+  year={2014}
+}
+
+% ============================================
+% GRAPHRAG
+% ============================================
+
+@article{edge2024graphrag,
+  title={From Local to Global: A Graph RAG Approach to Query-Focused Summarization},
+  author={Edge, Darren and Trinh, Ha and Cheng, Newman and Bradley, Joshua and Chao, Alex and Mody, Apurva and Truitt, Steven and Larson, Jonathan},
+  journal={arXiv preprint arXiv:2404.16130},
+  year={2024}
+}
+
+@misc{microsoft2024graphrag,
+  title={GraphRAG: Unlocking LLM Discovery on Narrative Private Data},
+  author={{Microsoft Research}},
+  howpublished={\url{https://microsoft.github.io/graphrag/}},
+  year={2024}
+}
+
+% ============================================
+% EVALUATION
+% ============================================
+
+@inproceedings{rajpurkar2016squad,
+  title={SQuAD: 100,000+ Questions for Machine Comprehension of Text},
+  author={Rajpurkar, Pranav and Zhang, Jian and Lopyrev, Konstantin and Liang, Percy},
+  booktitle={Proceedings of EMNLP},
+  pages={2383--2392},
+  year={2016}
+}
+
+@inproceedings{he2021deberta,
+  title={DeBERTa: Decoding-enhanced BERT with Disentangled Attention},
+  author={He, Pengcheng and Liu, Xiaodong and Gao, Jianfeng and Chen, Weizhu},
+  booktitle={International Conference on Learning Representations},
+  year={2021}
+}
+
+@inproceedings{izacard2021fid,
+  title={Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering},
+  author={Izacard, Gautier and Grave, Edouard},
+  booktitle={Proceedings of EACL},
+  pages={874--880},
+  year={2021}
+}

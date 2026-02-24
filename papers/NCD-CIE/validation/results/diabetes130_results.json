@@ -1,0 +1,121 @@
+{
+  "dataset": "Diabetes 130 US Hospitals",
+  "n_encounters": 101766,
+  "n_patients": 71518,
+  "readmission_rates": {
+    "any": 0.4608808442898414,
+    "30_day": 0.11159915885462728
+  },
+  "kg_risk_auc": {
+    "any_readmission": 0.614107382731196,
+    "30d_readmission": 0.5961605583013929
+  },
+  "n_multi_visit_patients": 16773,
+  "n_medication_changes": 25968,
+  "intervention_results": {
+    "metformin": {
+      "n_started": 1819,
+      "rate_before": 0.9835074216602528,
+      "rate_after": 0.5579989004947774,
+      "observed_effect": -0.42550852116547544,
+      "predicted_effect": -0.08,
+      "prediction_error": 0.3455085211654754,
+      "direction_match": true,
+      "p_value": 8.167825671408436e-202
+    },
+    "insulin": {
+      "n_started": 3922,
+      "rate_before": 0.9839367669556349,
+      "rate_after": 0.5787863335033147,
+      "observed_effect": -0.40515043345232027,
+      "predicted_effect": -0.05,
+      "prediction_error": 0.3551504334523203,
+      "direction_match": true,
+      "p_value": 0.0
+    },
+    "glipizide": {
+      "n_started": 1121,
+      "rate_before": 0.9741302408563782,
+      "rate_after": 0.5994647636039251,
+      "observed_effect": -0.37466547725245314,
+      "predicted_effect": -0.04,
+      "prediction_error": 0.33466547725245316,
+      "direction_match": true,
+      "p_value": 3.223926489614998e-99
+    },
+    "glyburide": {
+      "n_started": 863,
+      "rate_before": 0.9884125144843569,
+      "rate_after": 0.5585168018539977,
+      "observed_effect": -0.4298957126303592,
+      "predicted_effect": -0.03,
+      "prediction_error": 0.39989571263035917,
+      "direction_match": true,
+      "p_value": 7.296179997272374e-101
+    },
+    "pioglitazone": {
+      "n_started": 727,
+      "rate_before": 0.9889958734525447,
+      "rate_after": 0.579092159559835,
+      "observed_effect": -0.40990371389270974,
+      "predicted_effect": -0.035,
+      "prediction_error": 0.3749037138927097,
+      "direction_match": true,
+      "p_value": 5.020133006402085e-81
+    },
+    "rosiglitazone": {
+      "n_started": 565,
+      "rate_before": 0.9858407079646018,
+      "rate_after": 0.6194690265486725,
+      "observed_effect": -0.36637168141592924,
+      "predicted_effect": -0.03,
+      "prediction_error": 0.3363716814159292,
+      "direction_match": true,
+      "p_value": 1.9055435267645208e-53
+    },
+    "glimepiride": {
+      "n_started": 518,
+      "rate_before": 0.974903474903475,
+      "rate_after": 0.61003861003861,
+      "observed_effect": -0.3648648648648649,
+      "predicted_effect": -0.035,
+      "prediction_error": 0.3298648648648649,
+      "direction_match": true,
+      "p_value": 6.805572674805169e-47
+    },
+    "acarbose": {
+      "n_started": 42,
+      "rate_before": 1.0,
+      "rate_after": 0.8095238095238095,
+      "observed_effect": -0.19047619047619047,
+      "predicted_effect": -0.02,
+      "prediction_error": 0.17047619047619048,
+      "direction_match": true,
+      "p_value": 0.003435295881197043
+    },
+    "repaglinide": {
+      "n_started": 286,
+      "rate_before": 0.993006993006993,
+      "rate_after": 0.5944055944055944,
+      "observed_effect": -0.39860139860139865,
+      "predicted_effect": -0.025,
+      "prediction_error": 0.3736013986013986,
+      "direction_match": true,
+      "p_value": 6.090744085783741e-32
+    },
+    "nateglinide": {
+      "n_started": 92,
+      "rate_before": 0.9782608695652174,
+      "rate_after": 0.6847826086956522,
+      "observed_effect": -0.2934782608695652,
+      "predicted_effect": -0.02,
+      "prediction_error": 0.27347826086956517,
+      "direction_match": true,
+      "p_value": 2.3532580217013787e-07
+    }
+  },
+  "overall_correlation": {
+    "r": 0.5438832595801587,
+    "p": 0.1041281934477514
+  }
+}

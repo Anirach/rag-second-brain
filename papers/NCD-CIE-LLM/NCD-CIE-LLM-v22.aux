@@ -1,0 +1,212 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{who2021ncd}
+\citation{dagostino2008,hippisley2017qrisk3,score22021}
+\citation{pearl2018book}
+\citation{ma2024causal,kiciman2023causal}
+\citation{jin2023cladder}
+\@writefile{toc}{\contentsline {title}{NCD-CIE: A Causal-Informed Clinical Decision Support\unskip \ \ignorespaces System with LLM Augmentation for\unskip \ \ignorespaces Non-Communicable Disease Healthcare}{1}{chapter.1}\protected@file@percent }
+\@writefile{toc}{\authcount {1}}
+\@writefile{toc}{\contentsline {author}{Anonymous Submission}{1}{chapter.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1.1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{1}{Introduction}{section.1.1}{}}
+\citation{dagostino2008}
+\citation{hippisley2017qrisk3}
+\citation{score22021}
+\citation{pearl2009causality,hernan2020causal}
+\citation{sharma2020dowhy}
+\citation{beaumont2021causalnex}
+\citation{chandak2023primekg,barabasi2011network}
+\citation{li2020behrt,rasmy2021medbert}
+\citation{prosperi2020causal}
+\citation{richens2020causal}
+\citation{textor2016dagitty}
+\citation{inoue2023causalforest}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.1.2}\protected@file@percent }
+\newlabel{sec:related}{{2}{2}{Related Work}{section.1.2}{}}
+\citation{ma2024causal}
+\citation{kiciman2023causal}
+\citation{jin2023cladder}
+\citation{ma2024causal}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Feature comparison with existing tools.}}{3}{table.1.1}\protected@file@percent }
+\newlabel{tab:toolcomp}{{1}{3}{Feature comparison with existing tools}{table.1.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Heterogeneous Treatment Effects.}{3}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}LLMs for Causal Reasoning}{3}{subsection.1.2.1}\protected@file@percent }
+\newlabel{sec:llmcausal}{{2.1}{3}{LLMs for Causal Reasoning}{subsection.1.2.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}System Architecture}{3}{section.1.3}\protected@file@percent }
+\newlabel{sec:arch}{{3}{3}{System Architecture}{section.1.3}{}}
+\citation{pearl2018book,hernan2020causal}
+\citation{hill1965environment}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces NCD-CIE architecture with LLM augmentation layers (dashed orange). The formal causal engine remains the computational backbone; LLMs serve as interface and validation layers.}}{4}{figure.1.1}\protected@file@percent }
+\newlabel{fig:arch}{{1}{4}{NCD-CIE architecture with LLM augmentation layers (dashed orange). The formal causal engine remains the computational backbone; LLMs serve as interface and validation layers}{figure.1.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Clinical Domains.}{4}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Causal Knowledge Graph}{4}{section.1.4}\protected@file@percent }
+\newlabel{sec:kg}{{4}{4}{Causal Knowledge Graph}{section.1.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Formal Definition}{4}{subsection.1.4.1}\protected@file@percent }
+\newlabel{sec:formal}{{4.1}{4}{Formal Definition}{subsection.1.4.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Positioning: Causal Guidance, Not Formal Inference.}{4}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Edge Construction}{4}{subsection.1.4.2}\protected@file@percent }
+\newlabel{sec:edges}{{4.2}{4}{Edge Construction}{subsection.1.4.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Comparison with related formalisms.}}{5}{table.1.2}\protected@file@percent }
+\newlabel{tab:comparison}{{2}{5}{Comparison with related formalisms}{table.1.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Cycle Handling}{5}{subsection.1.4.3}\protected@file@percent }
+\newlabel{sec:cycles}{{4.3}{5}{Cycle Handling}{subsection.1.4.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Heterogeneous Treatment Effect Estimation}{5}{section.1.5}\protected@file@percent }
+\newlabel{sec:hte}{{5}{5}{Heterogeneous Treatment Effect Estimation}{section.1.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}The Clinical Question}{5}{subsection.1.5.1}\protected@file@percent }
+\citation{inoue2023causalforest}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Representative CVD causal subgraph (9 nodes). Edge weights are \emph  {illustrative composites} aggregating sub-endpoints (e.g., SBP$\to $CVD\,=\,0.68 combines SBP$\to $CAD\,=\,0.35 and SBP$\to $Stroke\,=\,0.42); see Appendix~\ref {app:edges} for per-endpoint values. Colours indicate Bradford Hill evidence grade.}}{6}{figure.1.2}\protected@file@percent }
+\newlabel{fig:cvd_subgraph}{{2}{6}{Representative CVD causal subgraph (9 nodes). Edge weights are \emph {illustrative composites} aggregating sub-endpoints (e.g., SBP$\to $CVD\,=\,0.68 combines SBP$\to $CAD\,=\,0.35 and SBP$\to $Stroke\,=\,0.42); see Appendix~\ref {app:edges} for per-endpoint values. Colours indicate Bradford Hill evidence grade}{figure.1.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Individual Treatment Effect Estimation}{6}{subsection.1.5.2}\protected@file@percent }
+\newlabel{sec:ite}{{5.2}{6}{Individual Treatment Effect Estimation}{subsection.1.5.2}{}}
+\newlabel{eq:ite}{{1}{6}{Individual Treatment Effect Estimation}{equation.1.5.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Benefit Stratification}{6}{subsection.1.5.3}\protected@file@percent }
+\newlabel{sec:benefit}{{5.3}{6}{Benefit Stratification}{subsection.1.5.3}{}}
+\citation{inoue2023causalforest}
+\citation{kiciman2023causal}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Heterogeneous treatment effects: statin therapy example. $R_0$: baseline 10-year CVD risk; $R_1$: post-statin risk; ITE: individual treatment effect.}}{7}{table.1.3}\protected@file@percent }
+\newlabel{tab:hte}{{3}{7}{Heterogeneous treatment effects: statin therapy example. $R_0$: baseline 10-year CVD risk; $R_1$: post-statin risk; ITE: individual treatment effect}{table.1.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Modifiable Risk Attribution}{7}{subsection.1.5.4}\protected@file@percent }
+\newlabel{sec:modifiable}{{5.4}{7}{Modifiable Risk Attribution}{subsection.1.5.4}{}}
+\newlabel{eq:modifiable}{{2}{7}{Modifiable Risk Attribution}{equation.1.5.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Clinical Actionability}{7}{subsection.1.5.5}\protected@file@percent }
+\newlabel{sec:actionability}{{5.5}{7}{Clinical Actionability}{subsection.1.5.5}{}}
+\@writefile{toc}{\contentsline {paragraph}{Connection to Prior Work.}{7}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}LLM Augmentation Layers}{7}{section.1.6}\protected@file@percent }
+\newlabel{sec:llm}{{6}{7}{LLM Augmentation Layers}{section.1.6}{}}
+\citation{feinstein1990kappa}
+\citation{ma2024causal}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces LLM-assisted validation of 107 expert-curated causal edges.}}{8}{table.1.4}\protected@file@percent }
+\newlabel{tab:llmvalid}{{4}{8}{LLM-assisted validation of 107 expert-curated causal edges}{table.1.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}LLM-Assisted Causal Graph Validation}{8}{subsection.1.6.1}\protected@file@percent }
+\newlabel{sec:llmvalidation}{{6.1}{8}{LLM-Assisted Causal Graph Validation}{subsection.1.6.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Protocol.}{8}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Results.}{8}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Implications.}{8}{section*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Natural Language What-If Interface}{8}{subsection.1.6.2}\protected@file@percent }
+\newlabel{sec:llminterface}{{6.2}{8}{Natural Language What-If Interface}{subsection.1.6.2}{}}
+\citation{jin2023cladder}
+\@writefile{toc}{\contentsline {paragraph}{Query Parsing.}{9}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Explanation Generation.}{9}{section*.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Counterfactual Explanation Generation}{9}{subsection.1.6.3}\protected@file@percent }
+\newlabel{sec:counterfactual}{{6.3}{9}{Counterfactual Explanation Generation}{subsection.1.6.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Risk Prediction Engine}{9}{section.1.7}\protected@file@percent }
+\newlabel{sec:risk}{{7}{9}{Risk Prediction Engine}{section.1.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Logistic-Link Scoring}{9}{subsection.1.7.1}\protected@file@percent }
+\newlabel{sec:logistic}{{7.1}{9}{Logistic-Link Scoring}{subsection.1.7.1}{}}
+\newlabel{eq:risk}{{3}{9}{Logistic-Link Scoring}{equation.1.7.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Uncertainty Quantification}{9}{subsection.1.7.2}\protected@file@percent }
+\newlabel{sec:uncert}{{7.2}{9}{Uncertainty Quantification}{subsection.1.7.2}{}}
+\newlabel{eq:meta}{{4}{9}{Uncertainty Quantification}{equation.1.7.4}{}}
+\citation{pearl2009causality}
+\citation{ctt2010,pearl2009causality}
+\citation{naci2019comparative}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Topological Intervention Cascade}}{10}{algorithm.1}\protected@file@percent }
+\newlabel{alg:cascade}{{1}{10}{What-If Intervention Simulator}{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Composite NCD Risk Score}{10}{subsection.1.7.3}\protected@file@percent }
+\newlabel{sec:composite}{{7.3}{10}{Composite NCD Risk Score}{subsection.1.7.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}What-If Intervention Simulator}{10}{section.1.8}\protected@file@percent }
+\newlabel{sec:whatif}{{8}{10}{What-If Intervention Simulator}{section.1.8}{}}
+\@writefile{toc}{\contentsline {paragraph}{Connection to Do-Calculus.}{10}{section*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Lifestyle Intervention Mapping.}{10}{section*.12}\protected@file@percent }
+\citation{nhanes2020}
+\citation{score22021}
+\citation{dagostino2008}
+\citation{vanderweele2017evalue}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Evaluation}{11}{section.1.9}\protected@file@percent }
+\newlabel{sec:validation}{{9}{11}{Evaluation}{section.1.9}{}}
+\@writefile{toc}{\contentsline {paragraph}{Internal Consistency and Concordance.}{11}{section*.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Primary Validation: SCORE2 Cross-Population}{11}{subsection.1.9.1}\protected@file@percent }
+\newlabel{sec:score2}{{9.1}{11}{Primary Validation: SCORE2 Cross-Population}{subsection.1.9.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Internal Calibration Check: D'Agostino Coefficients}{11}{subsection.1.9.2}\protected@file@percent }
+\newlabel{sec:dagostino}{{9.2}{11}{Internal Calibration Check: D'Agostino Coefficients}{subsection.1.9.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{Interpreting the Difference.}{11}{section*.14}\protected@file@percent }
+\citation{ctt2010}
+\citation{knowler2002dpp}
+\citation{perkovic2019credence}
+\citation{sprint2015}
+\citation{sabatine2017fourier}
+\citation{zinman2015empareg}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Face validity: simulated vs.\ RCT absolute risk reduction. $\dagger $~Independent of edge weight sources.}}{12}{table.1.5}\protected@file@percent }
+\newlabel{tab:rct}{{5}{12}{Face validity: simulated vs.\ RCT absolute risk reduction. $\dagger $~Independent of edge weight sources}{table.1.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Sensitivity of simulated ARR to $\gamma $ and ablation results. Grid search yields $\gamma ^* = 0.65$ (RMSE\,=\,0.74); default $\gamma = 0.7$ within 2\% of optimum.}}{12}{table.1.6}\protected@file@percent }
+\newlabel{tab:sensitivity}{{6}{12}{Sensitivity of simulated ARR to $\gamma $ and ablation results. Grid search yields $\gamma ^* = 0.65$ (RMSE\,=\,0.74); default $\gamma = 0.7$ within 2\% of optimum}{table.1.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{Robustness Checks.}{12}{section*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Face Validity Against Landmark RCTs}{12}{subsection.1.9.3}\protected@file@percent }
+\newlabel{sec:faceval}{{9.3}{12}{Face Validity Against Landmark RCTs}{subsection.1.9.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}Sensitivity and Ablation}{12}{subsection.1.9.4}\protected@file@percent }
+\newlabel{sec:sensitivity}{{9.4}{12}{Sensitivity and Ablation}{subsection.1.9.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.5}T2DM and CKD Cross-Sectional Validation}{12}{subsection.1.9.5}\protected@file@percent }
+\newlabel{sec:t2dmckd}{{9.5}{12}{T2DM and CKD Cross-Sectional Validation}{subsection.1.9.5}{}}
+\citation{spirtes2000causation}
+\citation{sritara2003egat}
+\citation{aekplakorn2011thai}
+\citation{bareinboim2016causal}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.6}Direct KG and Structural Validation}{13}{subsection.1.9.6}\protected@file@percent }
+\newlabel{sec:directkg}{{9.6}{13}{Direct KG and Structural Validation}{subsection.1.9.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {10}Implementation and Transportability}{13}{section.1.10}\protected@file@percent }
+\newlabel{sec:impl}{{10}{13}{Implementation and Transportability}{section.1.10}{}}
+\@writefile{toc}{\contentsline {paragraph}{Data and Code Availability.}{13}{section*.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {11}Safety and Ethical Considerations}{13}{section.1.11}\protected@file@percent }
+\newlabel{sec:ethics}{{11}{13}{Safety and Ethical Considerations}{section.1.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {12}Discussion}{13}{section.1.12}\protected@file@percent }
+\newlabel{sec:discussion}{{12}{13}{Discussion}{section.1.12}{}}
+\@writefile{toc}{\contentsline {paragraph}{When Is Transparency Worth the AUC Tradeoff?}{14}{section*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{LLM Augmentation Benefits and Limitations.}{14}{section*.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Limitations.}{14}{section*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Future Work.}{14}{section*.20}\protected@file@percent }
+\bibcite{who2021ncd}{1}
+\bibcite{dagostino2008}{2}
+\bibcite{hippisley2017qrisk3}{3}
+\bibcite{score22021}{4}
+\bibcite{pearl2009causality}{5}
+\bibcite{pearl2018book}{6}
+\bibcite{hill1965environment}{7}
+\bibcite{sharma2020dowhy}{8}
+\bibcite{beaumont2021causalnex}{9}
+\bibcite{bareinboim2016causal}{10}
+\bibcite{chandak2023primekg}{11}
+\bibcite{barabasi2011network}{12}
+\bibcite{nhanes2020}{13}
+\bibcite{ctt2010}{14}
+\bibcite{knowler2002dpp}{15}
+\bibcite{perkovic2019credence}{16}
+\@writefile{toc}{\contentsline {section}{\numberline {13}Conclusion}{15}{section.1.13}\protected@file@percent }
+\newlabel{sec:conclusion}{{13}{15}{Conclusion}{section.1.13}{}}
+\bibcite{sprint2015}{17}
+\bibcite{naci2019comparative}{18}
+\bibcite{spirtes2000causation}{19}
+\bibcite{sritara2003egat}{20}
+\bibcite{aekplakorn2011thai}{21}
+\bibcite{sabatine2017fourier}{22}
+\bibcite{zinman2015empareg}{23}
+\bibcite{vanderweele2017evalue}{24}
+\bibcite{erqou2009lpa}{25}
+\bibcite{stringhini2017socioeconomic}{26}
+\bibcite{li2020behrt}{27}
+\bibcite{rasmy2021medbert}{28}
+\bibcite{prosperi2020causal}{29}
+\bibcite{hernan2020causal}{30}
+\bibcite{richens2020causal}{31}
+\bibcite{feinstein1990kappa}{32}
+\bibcite{textor2016dagitty}{33}
+\bibcite{ma2024causal}{34}
+\bibcite{kiciman2023causal}{35}
+\bibcite{jin2023cladder}{36}
+\bibcite{ban2023causalcot}{37}
+\bibcite{long2023causal}{38}
+\bibcite{inoue2023causalforest}{39}
+\gdef \LT@i {\LT@entry 
+    {1}{58.3055pt}\LT@entry 
+    {1}{59.70549pt}\LT@entry 
+    {4}{26.43483pt}\LT@entry 
+    {1}{42.63367pt}\LT@entry 
+    {1}{18.51698pt}\LT@entry 
+    {4}{82.33066pt}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Complete Knowledge Graph Edge Specification}{17}{section.A.1}\protected@file@percent }
+\newlabel{app:edges}{{A}{17}{Complete Knowledge Graph Edge Specification}{section.A.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{Representative subset (20 of 107 edges) across all domains.}}{17}{table.A.7}\protected@file@percent }
+\newlabel{tab:edges}{{7}{17}{Representative subset (20 of 107 edges) across all domains}{table.A.7}{}}
+\gdef \@abspage@last{17}

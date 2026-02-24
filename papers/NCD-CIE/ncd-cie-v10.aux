@@ -1,0 +1,192 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{who2021ncd}
+\citation{dagostino2008,hippisley2017qrisk3,score22021}
+\citation{pearl2018book}
+\@writefile{toc}{\contentsline {title}{NCD-CIE: A Causal Knowledge Graph and Interventional\unskip \ \ignorespaces Simulation Engine for Non-Communicable Disease\unskip \ \ignorespaces Risk Prediction}{1}{chapter.1}\protected@file@percent }
+\@writefile{toc}{\authcount {1}}
+\@writefile{toc}{\contentsline {author}{Anonymous Submission}{1}{chapter.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1.1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{1}{Introduction}{section.1.1}{}}
+\citation{hill1965environment}
+\citation{dagostino2008}
+\citation{hippisley2017qrisk3}
+\citation{score22021}
+\citation{alaa2019attentive}
+\citation{pearl2009causality}
+\citation{sharma2020dowhy}
+\citation{beaumont2021causalnex}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.1.2}\protected@file@percent }
+\newlabel{sec:related}{{2}{2}{Related Work}{section.1.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{NCD Risk Prediction.}{2}{section*.2}\protected@file@percent }
+\citation{chandak2023primekg}
+\citation{barabasi2011network}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Feature comparison of NCD-CIE with existing risk prediction and causal inference tools.}}{3}{table.1.1}\protected@file@percent }
+\newlabel{tab:toolcomp}{{1}{3}{Feature comparison of NCD-CIE with existing risk prediction and causal inference tools}{table.1.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Causal Inference Frameworks.}{3}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Health Knowledge Graphs.}{3}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Comparison with Existing Tools.}{3}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}System Architecture}{3}{section.1.3}\protected@file@percent }
+\newlabel{sec:arch}{{3}{3}{System Architecture}{section.1.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Clinical Domains}{3}{subsection.1.3.1}\protected@file@percent }
+\newlabel{sec:domains}{{3.1}{3}{Clinical Domains}{subsection.1.3.1}{}}
+\citation{pearl2018book}
+\citation{pearl2009causality}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces NCD-CIE system architecture. Data flows from heterogeneous sources through normalisation and the causal knowledge graph to the risk engine and what-if simulator.}}{4}{figure.1.1}\protected@file@percent }
+\newlabel{fig:arch}{{1}{4}{NCD-CIE system architecture. Data flows from heterogeneous sources through normalisation and the causal knowledge graph to the risk engine and what-if simulator}{figure.1.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Causal Knowledge Graph}{4}{section.1.4}\protected@file@percent }
+\newlabel{sec:kg}{{4}{4}{Causal Knowledge Graph}{section.1.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Formal Definition}{4}{subsection.1.4.1}\protected@file@percent }
+\newlabel{sec:formal}{{4.1}{4}{Formal Definition}{subsection.1.4.1}{}}
+\newlabel{eq:graph}{{1}{4}{Formal Definition}{equation.1.4.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Positioning within Pearl's Framework.}{4}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Scope of Do-Calculus Claims.}{4}{section*.7}\protected@file@percent }
+\citation{nhanes2020}
+\citation{hill1965environment}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Eight clinical domains in the NCD-CIE causal knowledge graph.}}{5}{table.1.2}\protected@file@percent }
+\newlabel{tab:domains}{{2}{5}{Eight clinical domains in the NCD-CIE causal knowledge graph}{table.1.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Comparison of NCD-CIE's causal knowledge graph with related formalisms.}}{5}{table.1.3}\protected@file@percent }
+\newlabel{tab:comparison}{{3}{5}{Comparison of NCD-CIE's causal knowledge graph with related formalisms}{table.1.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Biomarker Ontology}{5}{subsection.1.4.2}\protected@file@percent }
+\newlabel{sec:ontology}{{4.2}{5}{Biomarker Ontology}{subsection.1.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Representative CVD causal subgraph (9 nodes). Edge weights are log-odds coefficients. Colours indicate Bradford Hill evidence grade (A\,=\,green, B\,=\,blue).}}{6}{figure.1.2}\protected@file@percent }
+\newlabel{fig:cvd_subgraph}{{2}{6}{Representative CVD causal subgraph (9 nodes). Edge weights are log-odds coefficients. Colours indicate Bradford Hill evidence grade (A\,=\,green, B\,=\,blue)}{figure.1.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Edge Construction and Bradford Hill Criteria}{6}{subsection.1.4.3}\protected@file@percent }
+\newlabel{sec:edges}{{4.3}{6}{Edge Construction and Bradford Hill Criteria}{subsection.1.4.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Cycle Handling}{6}{subsection.1.4.4}\protected@file@percent }
+\newlabel{sec:cycles}{{4.4}{6}{Cycle Handling}{subsection.1.4.4}{}}
+\citation{dagostino2008}
+\citation{pearl2009causality}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Risk Prediction Engine}{7}{section.1.5}\protected@file@percent }
+\newlabel{sec:risk}{{5}{7}{Risk Prediction Engine}{section.1.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Logistic-Link Scoring}{7}{subsection.1.5.1}\protected@file@percent }
+\newlabel{sec:logistic}{{5.1}{7}{Logistic-Link Scoring}{subsection.1.5.1}{}}
+\newlabel{eq:risk}{{2}{7}{Logistic-Link Scoring}{equation.1.5.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Cross-Source Uncertainty Quantification}{7}{subsection.1.5.2}\protected@file@percent }
+\newlabel{sec:uncert}{{5.2}{7}{Cross-Source Uncertainty Quantification}{subsection.1.5.2}{}}
+\newlabel{eq:meta}{{3}{7}{Cross-Source Uncertainty Quantification}{equation.1.5.3}{}}
+\newlabel{eq:riskvar}{{4}{7}{Cross-Source Uncertainty Quantification}{equation.1.5.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Composite NCD Risk Score}{7}{subsection.1.5.3}\protected@file@percent }
+\newlabel{sec:composite}{{5.3}{7}{Composite NCD Risk Score}{subsection.1.5.3}{}}
+\newlabel{eq:composite}{{5}{7}{Composite NCD Risk Score}{equation.1.5.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}What-If Intervention Simulator}{7}{section.1.6}\protected@file@percent }
+\newlabel{sec:whatif}{{6}{7}{What-If Intervention Simulator}{section.1.6}{}}
+\citation{ctt2010,pearl2009causality}
+\citation{naci2018comparative}
+\citation{nhanes2020}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Topological Intervention Cascade}}{8}{algorithm.1}\protected@file@percent }
+\newlabel{alg:cascade}{{1}{8}{Topological Cascade Algorithm}{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Topological Cascade Algorithm}{8}{subsection.1.6.1}\protected@file@percent }
+\newlabel{sec:cascade}{{6.1}{8}{Topological Cascade Algorithm}{subsection.1.6.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Lifestyle Intervention Mapping.}{8}{section*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Evaluation}{8}{section.1.7}\protected@file@percent }
+\newlabel{sec:validation}{{7}{8}{Evaluation}{section.1.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Internal Consistency on Synthetic Data}{8}{subsection.1.7.1}\protected@file@percent }
+\newlabel{sec:synthetic}{{7.1}{8}{Internal Consistency on Synthetic Data}{subsection.1.7.1}{}}
+\citation{dagostino2008}
+\citation{dagostino2008}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Internal consistency check on synthetic cohort ($n = 5{,}000$, 30\% test set). These results verify implementation correctness, not predictive accuracy.}}{9}{table.1.4}\protected@file@percent }
+\newlabel{tab:synthetic}{{4}{9}{Internal consistency check on synthetic cohort ($n = 5{,}000$, 30\% test set). These results verify implementation correctness, not predictive accuracy}{table.1.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces NHANES concordance analysis: NCD-CIE vs.\ Framingham ($n = 8{,}291$). Metrics reflect agreement between two models, not accuracy against clinical outcomes.}}{9}{table.1.5}\protected@file@percent }
+\newlabel{tab:nhanes}{{5}{9}{NHANES concordance analysis: NCD-CIE vs.\ Framingham ($n = 8{,}291$). Metrics reflect agreement between two models, not accuracy against clinical outcomes}{table.1.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Concordance with Framingham on NHANES}{9}{subsection.1.7.2}\protected@file@percent }
+\newlabel{sec:nhanes}{{7.2}{9}{Concordance with Framingham on NHANES}{subsection.1.7.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Outcome-Based Validation on Framingham Cohort}{9}{subsection.1.7.3}\protected@file@percent }
+\newlabel{sec:framingham}{{7.3}{9}{Outcome-Based Validation on Framingham Cohort}{subsection.1.7.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Discrimination.}{9}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Calibration.}{9}{section*.10}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Framingham outcome-based validation: subgroup AUC-ROC. All hazard ratios are literature-derived; no data fitting was performed.}}{10}{table.1.6}\protected@file@percent }
+\newlabel{tab:framingham_sub}{{6}{10}{Framingham outcome-based validation: subgroup AUC-ROC. All hazard ratios are literature-derived; no data fitting was performed}{table.1.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{Formal Statistical Tests.}{10}{section*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Sex-Stratified Reclassification.}{10}{section*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Linearity Assessment.}{10}{section*.13}\protected@file@percent }
+\citation{ctt2010}
+\citation{knowler2002dpp}
+\citation{perkovic2019credence}
+\citation{sprint2015}
+\citation{sabatine2017fourier}
+\citation{zinman2015empareg}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Calibration plot: predicted vs.\ observed 10-year CHD risk by decile (Framingham cohort, $n\!=\!4{,}172$). Slope\,=\,0.91, intercept\,=\,$-$0.08.}}{11}{figure.1.3}\protected@file@percent }
+\newlabel{fig:calibration}{{3}{11}{Calibration plot: predicted vs.\ observed 10-year CHD risk by decile (Framingham cohort, $n\!=\!4{,}172$). Slope\,=\,0.91, intercept\,=\,$-$0.08}{figure.1.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Face Validity Against Landmark RCTs}{11}{subsection.1.7.4}\protected@file@percent }
+\newlabel{sec:faceval}{{7.4}{11}{Face Validity Against Landmark RCTs}{subsection.1.7.4}{}}
+\citation{spirtes2000causation}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces ROC curve for NCD-CIE CVD risk prediction on Framingham cohort (AUC\,=\,0.721 [95\% CI: 0.700--0.741]).}}{12}{figure.1.4}\protected@file@percent }
+\newlabel{fig:roc}{{4}{12}{ROC curve for NCD-CIE CVD risk prediction on Framingham cohort (AUC\,=\,0.721 [95\% CI: 0.700--0.741])}{figure.1.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5}Sensitivity Analysis and Ablation}{12}{subsection.1.7.5}\protected@file@percent }
+\newlabel{sec:sensitivity}{{7.5}{12}{Sensitivity Analysis and Ablation}{subsection.1.7.5}{}}
+\newlabel{sec:ablation}{{7.5}{12}{Ablation Study}{section*.14}{}}
+\@writefile{toc}{\contentsline {paragraph}{Ablation Study.}{12}{section*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6}Data-Driven Structural Comparison}{12}{subsection.1.7.6}\protected@file@percent }
+\newlabel{sec:pcalg}{{7.6}{12}{Data-Driven Structural Comparison}{subsection.1.7.6}{}}
+\citation{hippisley2017qrisk3}
+\citation{vickers2006dca}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Face validity: NCD-CIE simulated absolute risk reduction (ARR) vs.\ RCT observed ARR. $\dagger $~Independent: edge weights for these pathways were derived from other sources (CTT for statins, not PCSK9i trials; CREDENCE for SGLT2i renal endpoint, not cardiovascular).}}{13}{table.1.7}\protected@file@percent }
+\newlabel{tab:rct}{{7}{13}{Face validity: NCD-CIE simulated absolute risk reduction (ARR) vs.\ RCT observed ARR. $\dagger $~Independent: edge weights for these pathways were derived from other sources (CTT for statins, not PCSK9i trials; CREDENCE for SGLT2i renal endpoint, not cardiovascular)}{table.1.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Sensitivity of $\Delta R_{\text  {CVD}}$ (statin) to hyperparameters.}}{13}{table.1.8}\protected@file@percent }
+\newlabel{tab:sensitivity}{{8}{13}{Sensitivity of $\Delta R_{\text {CVD}}$ (statin) to hyperparameters}{table.1.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.7}Subgroup Fairness Analysis}{13}{subsection.1.7.7}\protected@file@percent }
+\newlabel{sec:subgroup}{{7.7}{13}{Subgroup Fairness Analysis}{subsection.1.7.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.8}Decision Curve Analysis}{13}{subsection.1.7.8}\protected@file@percent }
+\newlabel{sec:dca}{{7.8}{13}{Decision Curve Analysis}{subsection.1.7.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Implementation and Transportability}{13}{section.1.8}\protected@file@percent }
+\newlabel{sec:impl}{{8}{13}{Implementation and Transportability}{section.1.8}{}}
+\citation{aekplakorn2011thai}
+\citation{bareinboim2016causal}
+\citation{sritara2003egat}
+\citation{aekplakorn2011thai}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Ablation study: Pearson $r$ vs.\ Framingham under modified configurations.}}{14}{table.1.9}\protected@file@percent }
+\newlabel{tab:ablation}{{9}{14}{Ablation study: Pearson $r$ vs.\ Framingham under modified configurations}{table.1.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Expert-curated causal knowledge graph vs.\ PC-algorithm CPDAG (NHANES). SHD reflects partial structural agreement. Divergence is expected because the expert graph encodes causal direction from domain knowledge, while the PC algorithm recovers conditional independence structure.}}{14}{table.1.10}\protected@file@percent }
+\newlabel{tab:pcalg}{{10}{14}{Expert-curated causal knowledge graph vs.\ PC-algorithm CPDAG (NHANES). SHD reflects partial structural agreement. Divergence is expected because the expert graph encodes causal direction from domain knowledge, while the PC algorithm recovers conditional independence structure}{table.1.10}{}}
+\@writefile{toc}{\contentsline {paragraph}{Use Case.}{14}{section*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Thai/Asian Transportability}{14}{subsection.1.8.1}\protected@file@percent }
+\newlabel{sec:thai}{{8.1}{14}{Thai/Asian Transportability}{subsection.1.8.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Data and Code Availability.}{14}{section*.16}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Subgroup analysis: C-statistics and Framingham concordance by demographic stratum (NHANES, CVD).}}{15}{table.1.11}\protected@file@percent }
+\newlabel{tab:subgroup}{{11}{15}{Subgroup analysis: C-statistics and Framingham concordance by demographic stratum (NHANES, CVD)}{table.1.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Decision curve analysis: net benefit ($\times 10^{-2}$) at selected thresholds (NHANES, CVD).}}{15}{table.1.12}\protected@file@percent }
+\newlabel{tab:dca}{{12}{15}{Decision curve analysis: net benefit ($\times 10^{-2}$) at selected thresholds (NHANES, CVD)}{table.1.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Safety and Ethical Considerations}{15}{section.1.9}\protected@file@percent }
+\newlabel{sec:ethics}{{9}{15}{Safety and Ethical Considerations}{section.1.9}{}}
+\citation{dagostino2008}
+\citation{dagostino2008}
+\@writefile{toc}{\contentsline {paragraph}{Ethics and IRB Statement.}{16}{section*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {10}Discussion}{16}{section.1.10}\protected@file@percent }
+\newlabel{sec:discussion}{{10}{16}{Discussion}{section.1.10}{}}
+\@writefile{toc}{\contentsline {paragraph}{Outcome-Based Validation.}{16}{section*.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Scope of Framingham Validation.}{16}{section*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Calibration.}{16}{section*.20}\protected@file@percent }
+\bibcite{who2021ncd}{1}
+\bibcite{dagostino2008}{2}
+\@writefile{toc}{\contentsline {paragraph}{Strengths.}{17}{section*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Limitations.}{17}{section*.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Future Work.}{17}{section*.23}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {11}Conclusion}{17}{section.1.11}\protected@file@percent }
+\newlabel{sec:conclusion}{{11}{17}{Conclusion}{section.1.11}{}}
+\bibcite{hippisley2017qrisk3}{3}
+\bibcite{score22021}{4}
+\bibcite{pearl2009causality}{5}
+\bibcite{pearl2018book}{6}
+\bibcite{hill1965environment}{7}
+\bibcite{sharma2020dowhy}{8}
+\bibcite{beaumont2021causalnex}{9}
+\bibcite{bareinboim2016causal}{10}
+\bibcite{chandak2023primekg}{11}
+\bibcite{barabasi2011network}{12}
+\bibcite{alaa2019attentive}{13}
+\bibcite{nhanes2020}{14}
+\bibcite{ctt2010}{15}
+\bibcite{knowler2002dpp}{16}
+\bibcite{perkovic2019credence}{17}
+\bibcite{sprint2015}{18}
+\bibcite{naci2018comparative}{19}
+\bibcite{spirtes2000causation}{20}
+\bibcite{vickers2006dca}{21}
+\bibcite{sritara2003egat}{22}
+\bibcite{aekplakorn2011thai}{23}
+\bibcite{sabatine2017fourier}{24}
+\bibcite{zinman2015empareg}{25}
+\gdef \@abspage@last{18}

@@ -1,0 +1,588 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main_v5.1.aux
+The style file: plain.bst
+Database file #1: references_v5.1.bib
+Repeated entry---line 528 of file references_v5.1.bib
+ : @article{lewis2020rag
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 537 of file references_v5.1.bib
+ : @article{karpukhin2020dpr
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 545 of file references_v5.1.bib
+ : @inproceedings{khattab2020colbert
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 557 of file references_v5.1.bib
+ : @article{fang2024amkor
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 565 of file references_v5.1.bib
+ : @article{wang2024kga
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 573 of file references_v5.1.bib
+ : @article{chen2024fairrag
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 581 of file references_v5.1.bib
+ : @article{li2024marag
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 589 of file references_v5.1.bib
+ : @article{krishna2024frames
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 597 of file references_v5.1.bib
+ : @article{izacard2022contriever
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 619 of file references_v5.1.bib
+ : @inproceedings{bordes2013transe
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 638 of file references_v5.1.bib
+ : @article{brown2020gpt3
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 732 of file references_v5.1.bib
+ : @article{johnson2019faiss
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 743 of file references_v5.1.bib
+ : @inproceedings{ni2022sentence_t5
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 797 of file references_v5.1.bib
+ : @inproceedings{levy2014neural
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 805 of file references_v5.1.bib
+ : @inproceedings{pennington2014glove
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 813 of file references_v5.1.bib
+ : @article{mikolov2013word2vec
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 821 of file references_v5.1.bib
+ : @article{church1990pmi
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 832 of file references_v5.1.bib
+ : @inproceedings{faruqui2015retrofitting
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 840 of file references_v5.1.bib
+ : @inproceedings{mrksic2016counter
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 848 of file references_v5.1.bib
+ : @inproceedings{zhang2019ernie
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 856 of file references_v5.1.bib
+ : @article{edge2024graphrag
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 863 of file references_v5.1.bib
+ : @misc{microsoft2024graphrag
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 871 of file references_v5.1.bib
+ : @techreport{motik2012owl2
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 880 of file references_v5.1.bib
+ : @misc{rdfox2023
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 910 of file references_v5.1.bib
+ : @inproceedings{izacard2021fid
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 933 of file references_v5.1.bib
+ : @article{jin2021medqa
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 944 of file references_v5.1.bib
+ : @inproceedings{karypis1998metis
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 970 of file references_v5.1.bib
+ : @article{edge2024graphrag
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 999 of file references_v5.1.bib
+ : @inproceedings{levy2014neural
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1024 of file references_v5.1.bib
+ : @inproceedings{faruqui2015retrofitting
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1206 of file references_v5.1.bib
+ : @inproceedings{zhang2019ernie
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1293 of file references_v5.1.bib
+ : @inproceedings{pennington2014glove
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1443 of file references_v5.1.bib
+ : @article{lewis2020rag
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1452 of file references_v5.1.bib
+ : @article{karpukhin2020dpr
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1460 of file references_v5.1.bib
+ : @inproceedings{khattab2020colbert
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1472 of file references_v5.1.bib
+ : @article{fang2024amkor
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1480 of file references_v5.1.bib
+ : @article{wang2024kga
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1488 of file references_v5.1.bib
+ : @article{chen2024fairrag
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1496 of file references_v5.1.bib
+ : @article{li2024marag
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1504 of file references_v5.1.bib
+ : @article{krishna2024frames
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1512 of file references_v5.1.bib
+ : @article{izacard2022contriever
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1523 of file references_v5.1.bib
+ : @article{chen2024prism
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1531 of file references_v5.1.bib
+ : @article{lee2024temporalgraphrag
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1539 of file references_v5.1.bib
+ : @article{zhu2024fanoutqa
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1547 of file references_v5.1.bib
+ : @article{wu2024cofca
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1559 of file references_v5.1.bib
+ : @inproceedings{wu2020blink
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1571 of file references_v5.1.bib
+ : @article{hu2022lora
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1593 of file references_v5.1.bib
+ : @inproceedings{bordes2013transe
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1612 of file references_v5.1.bib
+ : @article{brown2020gpt3
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1706 of file references_v5.1.bib
+ : @article{johnson2019faiss
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1717 of file references_v5.1.bib
+ : @inproceedings{ni2022sentence_t5
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1771 of file references_v5.1.bib
+ : @inproceedings{levy2014neural
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1779 of file references_v5.1.bib
+ : @inproceedings{pennington2014glove
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1787 of file references_v5.1.bib
+ : @article{mikolov2013word2vec
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1795 of file references_v5.1.bib
+ : @article{church1990pmi
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1810 of file references_v5.1.bib
+ : @inproceedings{faruqui2015retrofitting
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1818 of file references_v5.1.bib
+ : @inproceedings{mrksic2016counter
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1826 of file references_v5.1.bib
+ : @inproceedings{zhang2019ernie
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1838 of file references_v5.1.bib
+ : @article{edge2024graphrag
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1845 of file references_v5.1.bib
+ : @misc{microsoft2024graphrag
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1857 of file references_v5.1.bib
+ : @techreport{motik2012owl2
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1866 of file references_v5.1.bib
+ : @misc{rdfox2023
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1896 of file references_v5.1.bib
+ : @inproceedings{izacard2021fid
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1912 of file references_v5.1.bib
+ : @inproceedings{he2021deberta
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1919 of file references_v5.1.bib
+ : @article{jin2021medqa
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1930 of file references_v5.1.bib
+ : @inproceedings{karypis1998metis
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1962 of file references_v5.1.bib
+ : @article{lewis2020rag
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1971 of file references_v5.1.bib
+ : @article{karpukhin2020dpr
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1979 of file references_v5.1.bib
+ : @inproceedings{khattab2020colbert
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1991 of file references_v5.1.bib
+ : @article{fang2024amkor
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1999 of file references_v5.1.bib
+ : @article{wang2024kga
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2007 of file references_v5.1.bib
+ : @article{chen2024fairrag
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2015 of file references_v5.1.bib
+ : @article{li2024marag
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2023 of file references_v5.1.bib
+ : @article{krishna2024frames
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2031 of file references_v5.1.bib
+ : @article{izacard2022contriever
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2053 of file references_v5.1.bib
+ : @inproceedings{bordes2013transe
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2072 of file references_v5.1.bib
+ : @article{brown2020gpt3
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2166 of file references_v5.1.bib
+ : @article{johnson2019faiss
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2177 of file references_v5.1.bib
+ : @inproceedings{ni2022sentence_t5
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2231 of file references_v5.1.bib
+ : @inproceedings{levy2014neural
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2239 of file references_v5.1.bib
+ : @inproceedings{pennington2014glove
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2247 of file references_v5.1.bib
+ : @article{mikolov2013word2vec
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2255 of file references_v5.1.bib
+ : @article{church1990pmi
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2266 of file references_v5.1.bib
+ : @inproceedings{faruqui2015retrofitting
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2274 of file references_v5.1.bib
+ : @inproceedings{mrksic2016counter
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2282 of file references_v5.1.bib
+ : @inproceedings{zhang2019ernie
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2290 of file references_v5.1.bib
+ : @article{edge2024graphrag
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2297 of file references_v5.1.bib
+ : @misc{microsoft2024graphrag
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2305 of file references_v5.1.bib
+ : @techreport{motik2012owl2
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2314 of file references_v5.1.bib
+ : @misc{rdfox2023
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2344 of file references_v5.1.bib
+ : @inproceedings{izacard2021fid
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2367 of file references_v5.1.bib
+ : @article{jin2021medqa
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2378 of file references_v5.1.bib
+ : @inproceedings{karypis1998metis
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2404 of file references_v5.1.bib
+ : @article{edge2024graphrag
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2433 of file references_v5.1.bib
+ : @inproceedings{levy2014neural
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2458 of file references_v5.1.bib
+ : @inproceedings{faruqui2015retrofitting
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2640 of file references_v5.1.bib
+ : @inproceedings{zhang2019ernie
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2727 of file references_v5.1.bib
+ : @inproceedings{pennington2014glove
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2869 of file references_v5.1.bib
+ : @article{lewis2020rag
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2878 of file references_v5.1.bib
+ : @article{karpukhin2020dpr
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2886 of file references_v5.1.bib
+ : @inproceedings{khattab2020colbert
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2898 of file references_v5.1.bib
+ : @article{fang2024amkor
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2906 of file references_v5.1.bib
+ : @article{wang2024kga
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2914 of file references_v5.1.bib
+ : @article{chen2024fairrag
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2922 of file references_v5.1.bib
+ : @article{li2024marag
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2930 of file references_v5.1.bib
+ : @article{krishna2024frames
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2938 of file references_v5.1.bib
+ : @article{izacard2022contriever
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2960 of file references_v5.1.bib
+ : @inproceedings{bordes2013transe
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2979 of file references_v5.1.bib
+ : @article{brown2020gpt3
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3073 of file references_v5.1.bib
+ : @article{johnson2019faiss
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3084 of file references_v5.1.bib
+ : @inproceedings{ni2022sentence_t5
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3138 of file references_v5.1.bib
+ : @inproceedings{levy2014neural
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3146 of file references_v5.1.bib
+ : @inproceedings{pennington2014glove
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3154 of file references_v5.1.bib
+ : @article{mikolov2013word2vec
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3162 of file references_v5.1.bib
+ : @article{church1990pmi
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3173 of file references_v5.1.bib
+ : @inproceedings{faruqui2015retrofitting
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3181 of file references_v5.1.bib
+ : @inproceedings{mrksic2016counter
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3189 of file references_v5.1.bib
+ : @inproceedings{zhang2019ernie
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3197 of file references_v5.1.bib
+ : @article{edge2024graphrag
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3204 of file references_v5.1.bib
+ : @misc{microsoft2024graphrag
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3212 of file references_v5.1.bib
+ : @techreport{motik2012owl2
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3221 of file references_v5.1.bib
+ : @misc{rdfox2023
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3251 of file references_v5.1.bib
+ : @inproceedings{izacard2021fid
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3274 of file references_v5.1.bib
+ : @article{jin2021medqa
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3285 of file references_v5.1.bib
+ : @inproceedings{karypis1998metis
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3311 of file references_v5.1.bib
+ : @article{edge2024graphrag
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3340 of file references_v5.1.bib
+ : @inproceedings{levy2014neural
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3365 of file references_v5.1.bib
+ : @inproceedings{faruqui2015retrofitting
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3547 of file references_v5.1.bib
+ : @inproceedings{zhang2019ernie
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3634 of file references_v5.1.bib
+ : @inproceedings{pennington2014glove
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3769 of file references_v5.1.bib
+ : @article{krishna2024frames
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3776 of file references_v5.1.bib
+ : @article{brown2020gpt3
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3785 of file references_v5.1.bib
+ : @article{lewis2020rag
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3794 of file references_v5.1.bib
+ : @article{edge2024graphrag
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3801 of file references_v5.1.bib
+ : @misc{microsoft2024graphrag
+ :                            ,
+I'm skipping whatever remains of this entry
+Warning--can't use both volume and number fields in karypis1998metis
+You've used 35 entries,
+            2118 wiz_defined-function locations,
+            675 strings with 11158 characters,
+and the built_in function-call counts, 17215 in all, are:
+= -- 1692
+> -- 983
+< -- 23
++ -- 388
+- -- 352
+* -- 1221
+:= -- 2674
+add.period$ -- 108
+call.type$ -- 35
+change.case$ -- 277
+chr.to.int$ -- 0
+cite$ -- 36
+duplicate$ -- 641
+empty$ -- 1151
+format.name$ -- 352
+if$ -- 3685
+int.to.chr$ -- 0
+int.to.str$ -- 35
+missing$ -- 32
+newline$ -- 181
+num.names$ -- 70
+pop$ -- 308
+preamble$ -- 1
+purify$ -- 241
+quote$ -- 0
+skip$ -- 580
+stack$ -- 0
+substring$ -- 1134
+swap$ -- 281
+text.length$ -- 23
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 140
+warning$ -- 1
+while$ -- 145
+width$ -- 37
+write$ -- 388
+(There were 135 error messages)

@@ -1,0 +1,1270 @@
+2026-02-15 08:55:45,118 INFO Experiment started | Model: gpt-4o-mini | Seed: 42
+2026-02-15 08:55:45,134 INFO Loading DDXPlus data...
+2026-02-15 08:55:45,136 INFO Loaded 223 evidences, 49 conditions
+2026-02-15 08:55:46,032 INFO Loaded 134529 test patients
+2026-02-15 08:55:46,170 INFO Sampled 200 DDXPlus vignettes
+2026-02-15 08:55:46,170 INFO Loading Symptom2Disease...
+2026-02-15 08:56:00,884 INFO Loaded 1046 Symptom2Disease samples
+2026-02-15 08:56:00,885 INFO Building PPMI knowledge graph...
+2026-02-15 08:56:01,044 INFO PPMI: 483 symptoms × 49 diseases
+2026-02-15 08:56:01,047 INFO Computing disease embeddings...
+2026-02-15 08:56:01,095 INFO Embedded 49 diseases
+2026-02-15 08:56:01,100 INFO ============================================================
+Running DDXPlus...
+2026-02-15 08:56:01,100 INFO [DDXPlus] 1/200 | Bronchiectasis
+2026-02-15 08:56:01,107 INFO [DDXPlus] 2/200 | Localized edema
+2026-02-15 08:56:01,112 INFO [DDXPlus] 3/200 | Epiglottitis
+2026-02-15 08:56:01,118 INFO [DDXPlus] 4/200 | Unstable angina
+2026-02-15 08:56:01,123 INFO [DDXPlus] 5/200 | GERD
+2026-02-15 08:56:01,128 INFO [DDXPlus] 6/200 | Chronic rhinosinusitis
+2026-02-15 08:56:01,133 INFO [DDXPlus] 7/200 | Anemia
+2026-02-15 08:56:01,139 INFO [DDXPlus] 8/200 | Inguinal hernia
+2026-02-15 08:56:01,145 INFO [DDXPlus] 9/200 | SLE
+2026-02-15 08:56:01,151 INFO [DDXPlus] 10/200 | Spontaneous pneumothorax
+2026-02-15 08:56:01,157 INFO [DDXPlus] 11/200 | Spontaneous rib fracture
+2026-02-15 08:56:01,163 INFO [DDXPlus] 12/200 | Pulmonary neoplasm
+2026-02-15 08:56:01,169 INFO [DDXPlus] 13/200 | Acute rhinosinusitis
+2026-02-15 08:56:01,176 INFO [DDXPlus] 14/200 | Acute otitis media
+2026-02-15 08:56:01,183 INFO [DDXPlus] 15/200 | Acute dystonic reactions
+2026-02-15 08:56:01,189 INFO [DDXPlus] 16/200 | Myocarditis
+2026-02-15 08:56:01,195 INFO [DDXPlus] 17/200 | Bronchospasm / acute asthma exacerbation
+2026-02-15 08:56:01,201 INFO [DDXPlus] 18/200 | Sarcoidosis
+2026-02-15 08:56:01,206 INFO [DDXPlus] 19/200 | Pneumonia
+2026-02-15 08:56:01,212 INFO [DDXPlus] 20/200 | Acute COPD exacerbation / infection
+2026-02-15 08:56:01,217 INFO [DDXPlus] 21/200 | Spontaneous pneumothorax
+2026-02-15 08:56:01,222 INFO [DDXPlus] 22/200 | Acute dystonic reactions
+2026-02-15 08:56:01,227 INFO [DDXPlus] 23/200 | Acute pulmonary edema
+2026-02-15 08:56:01,232 INFO [DDXPlus] 24/200 | Acute rhinosinusitis
+2026-02-15 08:56:01,237 INFO [DDXPlus] 25/200 | Panic attack
+2026-02-15 08:56:01,243 INFO [DDXPlus] 26/200 | Scombroid food poisoning
+2026-02-15 08:56:01,248 INFO [DDXPlus] 27/200 | Larygospasm
+2026-02-15 08:56:01,254 INFO [DDXPlus] 28/200 | Chronic rhinosinusitis
+2026-02-15 08:56:01,259 INFO [DDXPlus] 29/200 | Inguinal hernia
+2026-02-15 08:56:01,263 INFO [DDXPlus] 30/200 | GERD
+2026-02-15 08:56:01,268 INFO [DDXPlus] 31/200 | Pancreatic neoplasm
+2026-02-15 08:56:01,274 INFO [DDXPlus] 32/200 | HIV (initial infection)
+2026-02-15 08:56:01,280 INFO [DDXPlus] 33/200 | Unstable angina
+2026-02-15 08:56:01,286 INFO [DDXPlus] 34/200 | Spontaneous rib fracture
+2026-02-15 08:56:01,292 INFO [DDXPlus] 35/200 | Tuberculosis
+2026-02-15 08:56:01,298 INFO [DDXPlus] 36/200 | Stable angina
+2026-02-15 08:56:01,303 INFO [DDXPlus] 37/200 | PSVT
+2026-02-15 08:56:01,307 INFO [DDXPlus] 38/200 | Boerhaave
+2026-02-15 08:56:01,312 INFO [DDXPlus] 39/200 | Bronchitis
+2026-02-15 08:56:01,317 INFO [DDXPlus] 40/200 | Cluster headache
+2026-02-15 08:56:01,321 INFO [DDXPlus] 41/200 | Anemia
+2026-02-15 08:56:01,325 INFO [DDXPlus] 42/200 | Allergic sinusitis
+2026-02-15 08:56:01,330 INFO [DDXPlus] 43/200 | SLE
+2026-02-15 08:56:01,336 INFO [DDXPlus] 44/200 | Acute pulmonary edema
+2026-02-15 08:56:01,341 INFO [DDXPlus] 45/200 | Myasthenia gravis
+2026-02-15 08:56:01,346 INFO [DDXPlus] 46/200 | Pulmonary embolism
+2026-02-15 08:56:01,352 INFO [DDXPlus] 47/200 | Croup
+2026-02-15 08:56:01,357 INFO [DDXPlus] 48/200 | Epiglottitis
+2026-02-15 08:56:01,362 INFO [DDXPlus] 49/200 | Possible NSTEMI / STEMI
+2026-02-15 08:56:01,367 INFO [DDXPlus] 50/200 | Acute laryngitis
+2026-02-15 08:56:01,371 INFO [DDXPlus] 51/200 | Myocarditis
+2026-02-15 08:56:01,376 INFO [DDXPlus] 52/200 | Localized edema
+2026-02-15 08:56:01,383 INFO [DDXPlus] 53/200 | Anemia
+2026-02-15 08:56:01,389 INFO [DDXPlus] 54/200 | Ebola
+2026-02-15 08:56:01,394 INFO [DDXPlus] 55/200 | Pneumonia
+2026-02-15 08:56:01,400 INFO [DDXPlus] 56/200 | PSVT
+2026-02-15 08:56:01,405 INFO [DDXPlus] 57/200 | Guillain-Barré syndrome
+2026-02-15 08:56:01,411 INFO [DDXPlus] 58/200 | Influenza
+2026-02-15 08:56:01,416 INFO [DDXPlus] 59/200 | Anaphylaxis
+2026-02-15 08:56:01,422 INFO [DDXPlus] 60/200 | Acute otitis media
+2026-02-15 08:56:01,428 INFO [DDXPlus] 61/200 | Inguinal hernia
+2026-02-15 08:56:01,434 INFO [DDXPlus] 62/200 | URTI
+2026-02-15 08:56:01,439 INFO [DDXPlus] 63/200 | Bronchospasm / acute asthma exacerbation
+2026-02-15 08:56:01,445 INFO [DDXPlus] 64/200 | Myasthenia gravis
+2026-02-15 08:56:01,451 INFO [DDXPlus] 65/200 | SLE
+2026-02-15 08:56:01,456 INFO [DDXPlus] 66/200 | Pulmonary embolism
+2026-02-15 08:56:01,461 INFO [DDXPlus] 67/200 | Acute otitis media
+2026-02-15 08:56:01,468 INFO [DDXPlus] 68/200 | Acute otitis media
+2026-02-15 08:56:01,473 INFO [DDXPlus] 69/200 | GERD
+2026-02-15 08:56:01,479 INFO [DDXPlus] 70/200 | Croup
+2026-02-15 08:56:01,484 INFO [DDXPlus] 71/200 | Pericarditis
+2026-02-15 08:56:01,490 INFO [DDXPlus] 72/200 | GERD
+2026-02-15 08:56:01,496 INFO [DDXPlus] 73/200 | Boerhaave
+2026-02-15 08:56:01,500 INFO [DDXPlus] 74/200 | Myasthenia gravis
+2026-02-15 08:56:01,505 INFO [DDXPlus] 75/200 | HIV (initial infection)
+2026-02-15 08:56:01,510 INFO [DDXPlus] 76/200 | Localized edema
+2026-02-15 08:56:01,515 INFO [DDXPlus] 77/200 | Anaphylaxis
+2026-02-15 08:56:01,520 INFO [DDXPlus] 78/200 | Acute laryngitis
+2026-02-15 08:56:01,524 INFO [DDXPlus] 79/200 | Ebola
+2026-02-15 08:56:01,529 INFO [DDXPlus] 80/200 | Whooping cough
+2026-02-15 08:56:01,534 INFO [DDXPlus] 81/200 | Pancreatic neoplasm
+2026-02-15 08:56:01,539 INFO [DDXPlus] 82/200 | Pulmonary embolism
+2026-02-15 08:56:01,544 INFO [DDXPlus] 83/200 | Stable angina
+2026-02-15 08:56:01,550 INFO [DDXPlus] 84/200 | URTI
+2026-02-15 08:56:01,555 INFO [DDXPlus] 85/200 | Chronic rhinosinusitis
+2026-02-15 08:56:01,562 INFO [DDXPlus] 86/200 | Cluster headache
+2026-02-15 08:56:01,568 INFO [DDXPlus] 87/200 | Sarcoidosis
+2026-02-15 08:56:01,574 INFO [DDXPlus] 88/200 | Bronchiolitis
+2026-02-15 08:56:01,578 INFO [DDXPlus] 89/200 | Pancreatic neoplasm
+2026-02-15 08:56:01,584 INFO [DDXPlus] 90/200 | Panic attack
+2026-02-15 08:56:01,590 INFO [DDXPlus] 91/200 | Possible NSTEMI / STEMI
+2026-02-15 08:56:01,596 INFO [DDXPlus] 92/200 | Acute laryngitis
+2026-02-15 08:56:01,602 INFO [DDXPlus] 93/200 | URTI
+2026-02-15 08:56:01,607 INFO [DDXPlus] 94/200 | Anaphylaxis
+2026-02-15 08:56:01,613 INFO [DDXPlus] 95/200 | Influenza
+2026-02-15 08:56:01,619 INFO [DDXPlus] 96/200 | Acute dystonic reactions
+2026-02-15 08:56:01,625 INFO [DDXPlus] 97/200 | Chagas
+2026-02-15 08:56:01,631 INFO [DDXPlus] 98/200 | Whooping cough
+2026-02-15 08:56:01,637 INFO [DDXPlus] 99/200 | Myocarditis
+2026-02-15 08:56:01,643 INFO [DDXPlus] 100/200 | Bronchiectasis
+2026-02-15 08:56:01,648 INFO [DDXPlus] 101/200 | Unstable angina
+2026-02-15 08:56:01,654 INFO [DDXPlus] 102/200 | Influenza
+2026-02-15 08:56:01,659 INFO [DDXPlus] 103/200 | Whooping cough
+2026-02-15 08:56:01,664 INFO [DDXPlus] 104/200 | Atrial fibrillation
+2026-02-15 08:56:01,669 INFO [DDXPlus] 105/200 | Sarcoidosis
+2026-02-15 08:56:01,673 INFO [DDXPlus] 106/200 | Panic attack
+2026-02-15 08:56:01,679 INFO [DDXPlus] 107/200 | Possible NSTEMI / STEMI
+2026-02-15 08:56:01,685 INFO [DDXPlus] 108/200 | Larygospasm
+2026-02-15 08:56:01,690 INFO [DDXPlus] 109/200 | Chagas
+2026-02-15 08:56:01,695 INFO [DDXPlus] 110/200 | Allergic sinusitis
+2026-02-15 08:56:01,699 INFO [DDXPlus] 111/200 | Anemia
+2026-02-15 08:56:01,705 INFO [DDXPlus] 112/200 | Bronchiectasis
+2026-02-15 08:56:01,709 INFO [DDXPlus] 113/200 | Atrial fibrillation
+2026-02-15 08:56:01,714 INFO [DDXPlus] 114/200 | Acute dystonic reactions
+2026-02-15 08:56:01,720 INFO [DDXPlus] 115/200 | Pneumonia
+2026-02-15 08:56:01,726 INFO [DDXPlus] 116/200 | GERD
+2026-02-15 08:56:01,731 INFO [DDXPlus] 117/200 | Boerhaave
+2026-02-15 08:56:01,737 INFO [DDXPlus] 118/200 | Tuberculosis
+2026-02-15 08:56:01,741 INFO [DDXPlus] 119/200 | Whooping cough
+2026-02-15 08:56:01,746 INFO [DDXPlus] 120/200 | Guillain-Barré syndrome
+2026-02-15 08:56:01,751 INFO [DDXPlus] 121/200 | Myasthenia gravis
+2026-02-15 08:56:01,757 INFO [DDXPlus] 122/200 | Sarcoidosis
+2026-02-15 08:56:01,763 INFO [DDXPlus] 123/200 | Myocarditis
+2026-02-15 08:56:01,768 INFO [DDXPlus] 124/200 | Atrial fibrillation
+2026-02-15 08:56:01,772 INFO [DDXPlus] 125/200 | Croup
+2026-02-15 08:56:01,777 INFO [DDXPlus] 126/200 | Unstable angina
+2026-02-15 08:56:01,783 INFO [DDXPlus] 127/200 | Scombroid food poisoning
+2026-02-15 08:56:01,789 INFO [DDXPlus] 128/200 | Panic attack
+2026-02-15 08:56:01,794 INFO [DDXPlus] 129/200 | PSVT
+2026-02-15 08:56:01,798 INFO [DDXPlus] 130/200 | Pulmonary neoplasm
+2026-02-15 08:56:01,803 INFO [DDXPlus] 131/200 | Pericarditis
+2026-02-15 08:56:01,808 INFO [DDXPlus] 132/200 | Allergic sinusitis
+2026-02-15 08:56:01,814 INFO [DDXPlus] 133/200 | Viral pharyngitis
+2026-02-15 08:56:01,819 INFO [DDXPlus] 134/200 | Epiglottitis
+2026-02-15 08:56:01,825 INFO [DDXPlus] 135/200 | Cluster headache
+2026-02-15 08:56:01,830 INFO [DDXPlus] 136/200 | Tuberculosis
+2026-02-15 08:56:01,835 INFO [DDXPlus] 137/200 | Spontaneous rib fracture
+2026-02-15 08:56:01,840 INFO [DDXPlus] 138/200 | Epiglottitis
+2026-02-15 08:56:01,845 INFO [DDXPlus] 139/200 | Chronic rhinosinusitis
+2026-02-15 08:56:01,849 INFO [DDXPlus] 140/200 | Bronchospasm / acute asthma exacerbation
+2026-02-15 08:56:01,857 INFO [DDXPlus] 141/200 | Inguinal hernia
+2026-02-15 08:56:01,863 INFO [DDXPlus] 142/200 | Acute COPD exacerbation / infection
+2026-02-15 08:56:01,867 INFO [DDXPlus] 143/200 | Chagas
+2026-02-15 08:56:01,873 INFO [DDXPlus] 144/200 | Boerhaave
+2026-02-15 08:56:01,878 INFO [DDXPlus] 145/200 | Acute pulmonary edema
+2026-02-15 08:56:01,882 INFO [DDXPlus] 146/200 | Ebola
+2026-02-15 08:56:01,887 INFO [DDXPlus] 147/200 | Bronchitis
+2026-02-15 08:56:01,892 INFO [DDXPlus] 148/200 | Atrial fibrillation
+2026-02-15 08:56:01,896 INFO [DDXPlus] 149/200 | Tuberculosis
+2026-02-15 08:56:01,901 INFO [DDXPlus] 150/200 | Larygospasm
+2026-02-15 08:56:01,906 INFO [DDXPlus] 151/200 | Pericarditis
+2026-02-15 08:56:01,910 INFO [DDXPlus] 152/200 | Possible NSTEMI / STEMI
+2026-02-15 08:56:01,915 INFO [DDXPlus] 153/200 | Bronchitis
+2026-02-15 08:56:01,920 INFO [DDXPlus] 154/200 | Bronchiolitis
+2026-02-15 08:56:01,924 INFO [DDXPlus] 155/200 | Acute COPD exacerbation / infection
+2026-02-15 08:56:01,928 INFO [DDXPlus] 156/200 | Viral pharyngitis
+2026-02-15 08:56:01,933 INFO [DDXPlus] 157/200 | Viral pharyngitis
+2026-02-15 08:56:01,939 INFO [DDXPlus] 158/200 | Stable angina
+2026-02-15 08:56:01,944 INFO [DDXPlus] 159/200 | Acute COPD exacerbation / infection
+2026-02-15 08:56:01,949 INFO [DDXPlus] 160/200 | Guillain-Barré syndrome
+2026-02-15 08:56:01,955 INFO [DDXPlus] 161/200 | Bronchiolitis
+2026-02-15 08:56:01,960 INFO [DDXPlus] 162/200 | SLE
+2026-02-15 08:56:01,967 INFO [DDXPlus] 163/200 | Allergic sinusitis
+2026-02-15 08:56:01,972 INFO [DDXPlus] 164/200 | Larygospasm
+2026-02-15 08:56:01,977 INFO [DDXPlus] 165/200 | Acute pulmonary edema
+2026-02-15 08:56:01,985 INFO [DDXPlus] 166/200 | Bronchiolitis
+2026-02-15 08:56:01,991 INFO [DDXPlus] 167/200 | Guillain-Barré syndrome
+2026-02-15 08:56:01,996 INFO [DDXPlus] 168/200 | Scombroid food poisoning
+2026-02-15 08:56:02,002 INFO [DDXPlus] 169/200 | Stable angina
+2026-02-15 08:56:02,009 INFO [DDXPlus] 170/200 | Spontaneous pneumothorax
+2026-02-15 08:56:02,017 INFO [DDXPlus] 171/200 | Localized edema
+2026-02-15 08:56:02,024 INFO [DDXPlus] 172/200 | Influenza
+2026-02-15 08:56:02,029 INFO [DDXPlus] 173/200 | Anemia
+2026-02-15 08:56:02,038 INFO [DDXPlus] 174/200 | Chagas
+2026-02-15 08:56:02,045 INFO [DDXPlus] 175/200 | PSVT
+2026-02-15 08:56:02,053 INFO [DDXPlus] 176/200 | Spontaneous pneumothorax
+2026-02-15 08:56:02,058 INFO [DDXPlus] 177/200 | Pericarditis
+2026-02-15 08:56:02,064 INFO [DDXPlus] 178/200 | Anaphylaxis
+2026-02-15 08:56:02,071 INFO [DDXPlus] 179/200 | Acute rhinosinusitis
+2026-02-15 08:56:02,077 INFO [DDXPlus] 180/200 | Pulmonary embolism
+2026-02-15 08:56:02,082 INFO [DDXPlus] 181/200 | Bronchospasm / acute asthma exacerbation
+2026-02-15 08:56:02,088 INFO [DDXPlus] 182/200 | Acute COPD exacerbation / infection
+2026-02-15 08:56:02,093 INFO [DDXPlus] 183/200 | HIV (initial infection)
+2026-02-15 08:56:02,098 INFO [DDXPlus] 184/200 | Pulmonary neoplasm
+2026-02-15 08:56:02,103 INFO [DDXPlus] 185/200 | Bronchitis
+2026-02-15 08:56:02,108 INFO [DDXPlus] 186/200 | Cluster headache
+2026-02-15 08:56:02,112 INFO [DDXPlus] 187/200 | Pneumonia
+2026-02-15 08:56:02,117 INFO [DDXPlus] 188/200 | Pancreatic neoplasm
+2026-02-15 08:56:02,121 INFO [DDXPlus] 189/200 | Ebola
+2026-02-15 08:56:02,126 INFO [DDXPlus] 190/200 | Acute rhinosinusitis
+2026-02-15 08:56:02,130 INFO [DDXPlus] 191/200 | Pulmonary neoplasm
+2026-02-15 08:56:02,135 INFO [DDXPlus] 192/200 | Bronchiectasis
+2026-02-15 08:56:02,140 INFO [DDXPlus] 193/200 | Spontaneous rib fracture
+2026-02-15 08:56:02,144 INFO [DDXPlus] 194/200 | HIV (initial infection)
+2026-02-15 08:56:02,149 INFO [DDXPlus] 195/200 | URTI
+2026-02-15 08:56:02,154 INFO [DDXPlus] 196/200 | Viral pharyngitis
+2026-02-15 08:56:02,159 INFO [DDXPlus] 197/200 | Scombroid food poisoning
+2026-02-15 08:56:02,164 INFO [DDXPlus] 198/200 | Bronchitis
+2026-02-15 08:56:02,168 INFO [DDXPlus] 199/200 | Acute laryngitis
+2026-02-15 08:56:02,173 INFO [DDXPlus] 200/200 | Croup
+2026-02-15 08:56:02,336 INFO [DDXPlus] LLM-Only: Top1=0.325 Top5=0.485 NDCG@5=0.4151
+2026-02-15 08:56:02,336 INFO [DDXPlus] Dense RAG: Top1=0.855 Top5=0.955 NDCG@5=0.9342
+2026-02-15 08:56:02,336 INFO [DDXPlus] BM25+PPMI: Top1=0.955 Top5=0.965 NDCG@5=0.9929
+2026-02-15 08:56:02,336 INFO [DDXPlus] Multi-Source KG: Top1=0.955 Top5=0.985 NDCG@5=0.9992
+2026-02-15 08:56:02,336 INFO ============================================================
+Running Symptom2Disease...
+2026-02-15 08:56:02,336 INFO [S2D] 1/1046 | cervical spondylosis
+2026-02-15 08:56:02,341 INFO [S2D] 2/1046 | impetigo
+2026-02-15 08:56:02,345 INFO [S2D] 3/1046 | urinary tract infection
+2026-02-15 08:56:02,350 INFO [S2D] 4/1046 | arthritis
+2026-02-15 08:56:02,354 INFO [S2D] 5/1046 | dengue
+2026-02-15 08:56:02,359 INFO [S2D] 6/1046 | common cold
+2026-02-15 08:56:02,363 INFO [S2D] 7/1046 | dengue
+2026-02-15 08:56:02,368 INFO [S2D] 8/1046 | dengue
+2026-02-15 08:56:02,372 INFO [S2D] 9/1046 | impetigo
+2026-02-15 08:56:02,377 INFO [S2D] 10/1046 | drug reaction
+2026-02-15 08:56:02,381 INFO [S2D] 11/1046 | arthritis
+2026-02-15 08:56:02,386 INFO [S2D] 12/1046 | cervical spondylosis
+2026-02-15 08:56:02,391 INFO [S2D] 13/1046 | cervical spondylosis
+2026-02-15 08:56:02,395 INFO [S2D] 14/1046 | urinary tract infection
+2026-02-15 08:56:02,399 INFO [S2D] 15/1046 | fungal infection
+2026-02-15 08:56:02,404 INFO [S2D] 16/1046 | malaria
+2026-02-15 08:56:02,409 INFO [S2D] 17/1046 | allergy
+2026-02-15 08:56:02,413 INFO [S2D] 18/1046 | bronchial asthma
+2026-02-15 08:56:02,417 INFO [S2D] 19/1046 | varicose veins
+2026-02-15 08:56:02,422 INFO [S2D] 20/1046 | common cold
+2026-02-15 08:56:02,426 INFO [S2D] 21/1046 | dengue
+2026-02-15 08:56:02,430 INFO [S2D] 22/1046 | migraine
+2026-02-15 08:56:02,435 INFO [S2D] 23/1046 | drug reaction
+2026-02-15 08:56:02,439 INFO [S2D] 24/1046 | hypertension
+2026-02-15 08:56:02,443 INFO [S2D] 25/1046 | bronchial asthma
+2026-02-15 08:56:02,448 INFO [S2D] 26/1046 | urinary tract infection
+2026-02-15 08:56:02,453 INFO [S2D] 27/1046 | varicose veins
+2026-02-15 08:56:02,459 INFO [S2D] 28/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:02,463 INFO [S2D] 29/1046 | malaria
+2026-02-15 08:56:02,468 INFO [S2D] 30/1046 | urinary tract infection
+2026-02-15 08:56:02,472 INFO [S2D] 31/1046 | impetigo
+2026-02-15 08:56:02,477 INFO [S2D] 32/1046 | pneumonia
+2026-02-15 08:56:02,483 INFO [S2D] 33/1046 | psoriasis
+2026-02-15 08:56:02,488 INFO [S2D] 34/1046 | hypertension
+2026-02-15 08:56:02,494 INFO [S2D] 35/1046 | impetigo
+2026-02-15 08:56:02,498 INFO [S2D] 36/1046 | diabetes
+2026-02-15 08:56:02,503 INFO [S2D] 37/1046 | pneumonia
+2026-02-15 08:56:02,508 INFO [S2D] 38/1046 | dengue
+2026-02-15 08:56:02,513 INFO [S2D] 39/1046 | diabetes
+2026-02-15 08:56:02,518 INFO [S2D] 40/1046 | bronchial asthma
+2026-02-15 08:56:02,523 INFO [S2D] 41/1046 | malaria
+2026-02-15 08:56:02,527 INFO [S2D] 42/1046 | migraine
+2026-02-15 08:56:02,531 INFO [S2D] 43/1046 | common cold
+2026-02-15 08:56:02,535 INFO [S2D] 44/1046 | drug reaction
+2026-02-15 08:56:02,539 INFO [S2D] 45/1046 | jaundice
+2026-02-15 08:56:02,544 INFO [S2D] 46/1046 | allergy
+2026-02-15 08:56:02,548 INFO [S2D] 47/1046 | psoriasis
+2026-02-15 08:56:02,552 INFO [S2D] 48/1046 | impetigo
+2026-02-15 08:56:02,557 INFO [S2D] 49/1046 | chicken pox
+2026-02-15 08:56:02,561 INFO [S2D] 50/1046 | diabetes
+2026-02-15 08:56:02,565 INFO [S2D] 51/1046 | migraine
+2026-02-15 08:56:02,569 INFO [S2D] 52/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:02,575 INFO [S2D] 53/1046 | migraine
+2026-02-15 08:56:02,579 INFO [S2D] 54/1046 | urinary tract infection
+2026-02-15 08:56:02,584 INFO [S2D] 55/1046 | chicken pox
+2026-02-15 08:56:02,589 INFO [S2D] 56/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:02,593 INFO [S2D] 57/1046 | dengue
+2026-02-15 08:56:02,598 INFO [S2D] 58/1046 | impetigo
+2026-02-15 08:56:02,603 INFO [S2D] 59/1046 | arthritis
+2026-02-15 08:56:02,608 INFO [S2D] 60/1046 | hypertension
+2026-02-15 08:56:02,613 INFO [S2D] 61/1046 | diabetes
+2026-02-15 08:56:02,618 INFO [S2D] 62/1046 | allergy
+2026-02-15 08:56:02,623 INFO [S2D] 63/1046 | cervical spondylosis
+2026-02-15 08:56:02,629 INFO [S2D] 64/1046 | fungal infection
+2026-02-15 08:56:02,633 INFO [S2D] 65/1046 | common cold
+2026-02-15 08:56:02,638 INFO [S2D] 66/1046 | migraine
+2026-02-15 08:56:02,643 INFO [S2D] 67/1046 | psoriasis
+2026-02-15 08:56:02,647 INFO [S2D] 68/1046 | fungal infection
+2026-02-15 08:56:02,652 INFO [S2D] 69/1046 | cervical spondylosis
+2026-02-15 08:56:02,657 INFO [S2D] 70/1046 | typhoid
+2026-02-15 08:56:02,662 INFO [S2D] 71/1046 | arthritis
+2026-02-15 08:56:02,667 INFO [S2D] 72/1046 | common cold
+2026-02-15 08:56:02,672 INFO [S2D] 73/1046 | chicken pox
+2026-02-15 08:56:02,677 INFO [S2D] 74/1046 | peptic ulcer disease
+2026-02-15 08:56:02,681 INFO [S2D] 75/1046 | urinary tract infection
+2026-02-15 08:56:02,685 INFO [S2D] 76/1046 | impetigo
+2026-02-15 08:56:02,690 INFO [S2D] 77/1046 | impetigo
+2026-02-15 08:56:02,694 INFO [S2D] 78/1046 | allergy
+2026-02-15 08:56:02,698 INFO [S2D] 79/1046 | diabetes
+2026-02-15 08:56:02,702 INFO [S2D] 80/1046 | allergy
+2026-02-15 08:56:02,706 INFO [S2D] 81/1046 | varicose veins
+2026-02-15 08:56:02,710 INFO [S2D] 82/1046 | bronchial asthma
+2026-02-15 08:56:02,715 INFO [S2D] 83/1046 | pneumonia
+2026-02-15 08:56:02,719 INFO [S2D] 84/1046 | cervical spondylosis
+2026-02-15 08:56:02,723 INFO [S2D] 85/1046 | malaria
+2026-02-15 08:56:02,728 INFO [S2D] 86/1046 | arthritis
+2026-02-15 08:56:02,733 INFO [S2D] 87/1046 | bronchial asthma
+2026-02-15 08:56:02,738 INFO [S2D] 88/1046 | cervical spondylosis
+2026-02-15 08:56:02,742 INFO [S2D] 89/1046 | impetigo
+2026-02-15 08:56:02,746 INFO [S2D] 90/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:02,750 INFO [S2D] 91/1046 | drug reaction
+2026-02-15 08:56:02,754 INFO [S2D] 92/1046 | pneumonia
+2026-02-15 08:56:02,758 INFO [S2D] 93/1046 | urinary tract infection
+2026-02-15 08:56:02,762 INFO [S2D] 94/1046 | malaria
+2026-02-15 08:56:02,767 INFO [S2D] 95/1046 | chicken pox
+2026-02-15 08:56:02,771 INFO [S2D] 96/1046 | varicose veins
+2026-02-15 08:56:02,775 INFO [S2D] 97/1046 | peptic ulcer disease
+2026-02-15 08:56:02,779 INFO [S2D] 98/1046 | psoriasis
+2026-02-15 08:56:02,783 INFO [S2D] 99/1046 | migraine
+2026-02-15 08:56:02,787 INFO [S2D] 100/1046 | diabetes
+2026-02-15 08:56:02,796 INFO [S2D] 101/1046 | bronchial asthma
+2026-02-15 08:56:02,800 INFO [S2D] 102/1046 | migraine
+2026-02-15 08:56:02,804 INFO [S2D] 103/1046 | peptic ulcer disease
+2026-02-15 08:56:02,808 INFO [S2D] 104/1046 | diabetes
+2026-02-15 08:56:02,813 INFO [S2D] 105/1046 | bronchial asthma
+2026-02-15 08:56:02,818 INFO [S2D] 106/1046 | bronchial asthma
+2026-02-15 08:56:02,823 INFO [S2D] 107/1046 | arthritis
+2026-02-15 08:56:02,827 INFO [S2D] 108/1046 | fungal infection
+2026-02-15 08:56:02,832 INFO [S2D] 109/1046 | common cold
+2026-02-15 08:56:02,837 INFO [S2D] 110/1046 | migraine
+2026-02-15 08:56:02,841 INFO [S2D] 111/1046 | cervical spondylosis
+2026-02-15 08:56:02,846 INFO [S2D] 112/1046 | dengue
+2026-02-15 08:56:02,850 INFO [S2D] 113/1046 | allergy
+2026-02-15 08:56:02,854 INFO [S2D] 114/1046 | urinary tract infection
+2026-02-15 08:56:02,858 INFO [S2D] 115/1046 | urinary tract infection
+2026-02-15 08:56:02,862 INFO [S2D] 116/1046 | drug reaction
+2026-02-15 08:56:02,866 INFO [S2D] 117/1046 | migraine
+2026-02-15 08:56:02,871 INFO [S2D] 118/1046 | varicose veins
+2026-02-15 08:56:02,874 INFO [S2D] 119/1046 | arthritis
+2026-02-15 08:56:02,879 INFO [S2D] 120/1046 | urinary tract infection
+2026-02-15 08:56:02,883 INFO [S2D] 121/1046 | peptic ulcer disease
+2026-02-15 08:56:02,887 INFO [S2D] 122/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:02,891 INFO [S2D] 123/1046 | fungal infection
+2026-02-15 08:56:02,895 INFO [S2D] 124/1046 | diabetes
+2026-02-15 08:56:02,899 INFO [S2D] 125/1046 | arthritis
+2026-02-15 08:56:02,903 INFO [S2D] 126/1046 | arthritis
+2026-02-15 08:56:02,907 INFO [S2D] 127/1046 | typhoid
+2026-02-15 08:56:02,911 INFO [S2D] 128/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:02,914 INFO [S2D] 129/1046 | allergy
+2026-02-15 08:56:02,919 INFO [S2D] 130/1046 | psoriasis
+2026-02-15 08:56:02,923 INFO [S2D] 131/1046 | varicose veins
+2026-02-15 08:56:02,927 INFO [S2D] 132/1046 | typhoid
+2026-02-15 08:56:02,932 INFO [S2D] 133/1046 | fungal infection
+2026-02-15 08:56:02,937 INFO [S2D] 134/1046 | cervical spondylosis
+2026-02-15 08:56:02,941 INFO [S2D] 135/1046 | fungal infection
+2026-02-15 08:56:02,946 INFO [S2D] 136/1046 | impetigo
+2026-02-15 08:56:02,951 INFO [S2D] 137/1046 | typhoid
+2026-02-15 08:56:02,956 INFO [S2D] 138/1046 | fungal infection
+2026-02-15 08:56:02,961 INFO [S2D] 139/1046 | drug reaction
+2026-02-15 08:56:02,966 INFO [S2D] 140/1046 | jaundice
+2026-02-15 08:56:02,970 INFO [S2D] 141/1046 | chicken pox
+2026-02-15 08:56:02,974 INFO [S2D] 142/1046 | cervical spondylosis
+2026-02-15 08:56:02,978 INFO [S2D] 143/1046 | peptic ulcer disease
+2026-02-15 08:56:02,982 INFO [S2D] 144/1046 | chicken pox
+2026-02-15 08:56:02,986 INFO [S2D] 145/1046 | pneumonia
+2026-02-15 08:56:02,991 INFO [S2D] 146/1046 | impetigo
+2026-02-15 08:56:02,995 INFO [S2D] 147/1046 | typhoid
+2026-02-15 08:56:02,999 INFO [S2D] 148/1046 | dengue
+2026-02-15 08:56:03,003 INFO [S2D] 149/1046 | typhoid
+2026-02-15 08:56:03,008 INFO [S2D] 150/1046 | allergy
+2026-02-15 08:56:03,013 INFO [S2D] 151/1046 | pneumonia
+2026-02-15 08:56:03,017 INFO [S2D] 152/1046 | varicose veins
+2026-02-15 08:56:03,021 INFO [S2D] 153/1046 | peptic ulcer disease
+2026-02-15 08:56:03,025 INFO [S2D] 154/1046 | malaria
+2026-02-15 08:56:03,030 INFO [S2D] 155/1046 | common cold
+2026-02-15 08:56:03,034 INFO [S2D] 156/1046 | typhoid
+2026-02-15 08:56:03,040 INFO [S2D] 157/1046 | drug reaction
+2026-02-15 08:56:03,045 INFO [S2D] 158/1046 | diabetes
+2026-02-15 08:56:03,050 INFO [S2D] 159/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:03,055 INFO [S2D] 160/1046 | dengue
+2026-02-15 08:56:03,061 INFO [S2D] 161/1046 | hypertension
+2026-02-15 08:56:03,066 INFO [S2D] 162/1046 | dengue
+2026-02-15 08:56:03,071 INFO [S2D] 163/1046 | malaria
+2026-02-15 08:56:03,075 INFO [S2D] 164/1046 | malaria
+2026-02-15 08:56:03,080 INFO [S2D] 165/1046 | hypertension
+2026-02-15 08:56:03,084 INFO [S2D] 166/1046 | common cold
+2026-02-15 08:56:03,090 INFO [S2D] 167/1046 | urinary tract infection
+2026-02-15 08:56:03,095 INFO [S2D] 168/1046 | psoriasis
+2026-02-15 08:56:03,100 INFO [S2D] 169/1046 | diabetes
+2026-02-15 08:56:03,104 INFO [S2D] 170/1046 | chicken pox
+2026-02-15 08:56:03,108 INFO [S2D] 171/1046 | cervical spondylosis
+2026-02-15 08:56:03,113 INFO [S2D] 172/1046 | impetigo
+2026-02-15 08:56:03,117 INFO [S2D] 173/1046 | impetigo
+2026-02-15 08:56:03,122 INFO [S2D] 174/1046 | allergy
+2026-02-15 08:56:03,126 INFO [S2D] 175/1046 | diabetes
+2026-02-15 08:56:03,131 INFO [S2D] 176/1046 | varicose veins
+2026-02-15 08:56:03,136 INFO [S2D] 177/1046 | fungal infection
+2026-02-15 08:56:03,142 INFO [S2D] 178/1046 | psoriasis
+2026-02-15 08:56:03,146 INFO [S2D] 179/1046 | varicose veins
+2026-02-15 08:56:03,151 INFO [S2D] 180/1046 | peptic ulcer disease
+2026-02-15 08:56:03,156 INFO [S2D] 181/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:03,160 INFO [S2D] 182/1046 | common cold
+2026-02-15 08:56:03,165 INFO [S2D] 183/1046 | hypertension
+2026-02-15 08:56:03,170 INFO [S2D] 184/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:03,174 INFO [S2D] 185/1046 | pneumonia
+2026-02-15 08:56:03,179 INFO [S2D] 186/1046 | peptic ulcer disease
+2026-02-15 08:56:03,183 INFO [S2D] 187/1046 | peptic ulcer disease
+2026-02-15 08:56:03,188 INFO [S2D] 188/1046 | jaundice
+2026-02-15 08:56:03,193 INFO [S2D] 189/1046 | chicken pox
+2026-02-15 08:56:03,197 INFO [S2D] 190/1046 | common cold
+2026-02-15 08:56:03,202 INFO [S2D] 191/1046 | chicken pox
+2026-02-15 08:56:03,207 INFO [S2D] 192/1046 | drug reaction
+2026-02-15 08:56:03,212 INFO [S2D] 193/1046 | impetigo
+2026-02-15 08:56:03,216 INFO [S2D] 194/1046 | psoriasis
+2026-02-15 08:56:03,221 INFO [S2D] 195/1046 | hypertension
+2026-02-15 08:56:03,225 INFO [S2D] 196/1046 | dengue
+2026-02-15 08:56:03,230 INFO [S2D] 197/1046 | typhoid
+2026-02-15 08:56:03,235 INFO [S2D] 198/1046 | drug reaction
+2026-02-15 08:56:03,240 INFO [S2D] 199/1046 | common cold
+2026-02-15 08:56:03,245 INFO [S2D] 200/1046 | allergy
+2026-02-15 08:56:03,250 INFO [S2D] 201/1046 | diabetes
+2026-02-15 08:56:03,255 INFO [S2D] 202/1046 | dengue
+2026-02-15 08:56:03,260 INFO [S2D] 203/1046 | psoriasis
+2026-02-15 08:56:03,265 INFO [S2D] 204/1046 | hypertension
+2026-02-15 08:56:03,269 INFO [S2D] 205/1046 | malaria
+2026-02-15 08:56:03,274 INFO [S2D] 206/1046 | jaundice
+2026-02-15 08:56:03,278 INFO [S2D] 207/1046 | hypertension
+2026-02-15 08:56:03,282 INFO [S2D] 208/1046 | allergy
+2026-02-15 08:56:03,287 INFO [S2D] 209/1046 | pneumonia
+2026-02-15 08:56:03,291 INFO [S2D] 210/1046 | peptic ulcer disease
+2026-02-15 08:56:03,296 INFO [S2D] 211/1046 | impetigo
+2026-02-15 08:56:03,301 INFO [S2D] 212/1046 | allergy
+2026-02-15 08:56:03,306 INFO [S2D] 213/1046 | pneumonia
+2026-02-15 08:56:03,311 INFO [S2D] 214/1046 | varicose veins
+2026-02-15 08:56:03,315 INFO [S2D] 215/1046 | peptic ulcer disease
+2026-02-15 08:56:03,319 INFO [S2D] 216/1046 | typhoid
+2026-02-15 08:56:03,324 INFO [S2D] 217/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:03,328 INFO [S2D] 218/1046 | impetigo
+2026-02-15 08:56:03,332 INFO [S2D] 219/1046 | chicken pox
+2026-02-15 08:56:03,337 INFO [S2D] 220/1046 | impetigo
+2026-02-15 08:56:03,342 INFO [S2D] 221/1046 | allergy
+2026-02-15 08:56:03,347 INFO [S2D] 222/1046 | common cold
+2026-02-15 08:56:03,351 INFO [S2D] 223/1046 | pneumonia
+2026-02-15 08:56:03,356 INFO [S2D] 224/1046 | chicken pox
+2026-02-15 08:56:03,359 INFO [S2D] 225/1046 | jaundice
+2026-02-15 08:56:03,364 INFO [S2D] 226/1046 | allergy
+2026-02-15 08:56:03,368 INFO [S2D] 227/1046 | impetigo
+2026-02-15 08:56:03,372 INFO [S2D] 228/1046 | urinary tract infection
+2026-02-15 08:56:03,377 INFO [S2D] 229/1046 | arthritis
+2026-02-15 08:56:03,381 INFO [S2D] 230/1046 | common cold
+2026-02-15 08:56:03,386 INFO [S2D] 231/1046 | varicose veins
+2026-02-15 08:56:03,390 INFO [S2D] 232/1046 | urinary tract infection
+2026-02-15 08:56:03,395 INFO [S2D] 233/1046 | cervical spondylosis
+2026-02-15 08:56:03,399 INFO [S2D] 234/1046 | hypertension
+2026-02-15 08:56:03,403 INFO [S2D] 235/1046 | fungal infection
+2026-02-15 08:56:03,407 INFO [S2D] 236/1046 | bronchial asthma
+2026-02-15 08:56:03,412 INFO [S2D] 237/1046 | psoriasis
+2026-02-15 08:56:03,416 INFO [S2D] 238/1046 | pneumonia
+2026-02-15 08:56:03,420 INFO [S2D] 239/1046 | bronchial asthma
+2026-02-15 08:56:03,425 INFO [S2D] 240/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:03,429 INFO [S2D] 241/1046 | psoriasis
+2026-02-15 08:56:03,433 INFO [S2D] 242/1046 | peptic ulcer disease
+2026-02-15 08:56:03,438 INFO [S2D] 243/1046 | typhoid
+2026-02-15 08:56:03,443 INFO [S2D] 244/1046 | drug reaction
+2026-02-15 08:56:03,448 INFO [S2D] 245/1046 | arthritis
+2026-02-15 08:56:03,454 INFO [S2D] 246/1046 | dengue
+2026-02-15 08:56:03,459 INFO [S2D] 247/1046 | cervical spondylosis
+2026-02-15 08:56:03,463 INFO [S2D] 248/1046 | peptic ulcer disease
+2026-02-15 08:56:03,468 INFO [S2D] 249/1046 | common cold
+2026-02-15 08:56:03,472 INFO [S2D] 250/1046 | varicose veins
+2026-02-15 08:56:03,476 INFO [S2D] 251/1046 | hypertension
+2026-02-15 08:56:03,481 INFO [S2D] 252/1046 | urinary tract infection
+2026-02-15 08:56:03,485 INFO [S2D] 253/1046 | urinary tract infection
+2026-02-15 08:56:03,489 INFO [S2D] 254/1046 | varicose veins
+2026-02-15 08:56:03,494 INFO [S2D] 255/1046 | dengue
+2026-02-15 08:56:03,499 INFO [S2D] 256/1046 | hypertension
+2026-02-15 08:56:03,503 INFO [S2D] 257/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:03,508 INFO [S2D] 258/1046 | impetigo
+2026-02-15 08:56:03,512 INFO [S2D] 259/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:03,517 INFO [S2D] 260/1046 | malaria
+2026-02-15 08:56:03,521 INFO [S2D] 261/1046 | diabetes
+2026-02-15 08:56:03,526 INFO [S2D] 262/1046 | common cold
+2026-02-15 08:56:03,530 INFO [S2D] 263/1046 | impetigo
+2026-02-15 08:56:03,535 INFO [S2D] 264/1046 | allergy
+2026-02-15 08:56:03,540 INFO [S2D] 265/1046 | dengue
+2026-02-15 08:56:03,546 INFO [S2D] 266/1046 | arthritis
+2026-02-15 08:56:03,552 INFO [S2D] 267/1046 | chicken pox
+2026-02-15 08:56:03,557 INFO [S2D] 268/1046 | fungal infection
+2026-02-15 08:56:03,563 INFO [S2D] 269/1046 | allergy
+2026-02-15 08:56:03,569 INFO [S2D] 270/1046 | common cold
+2026-02-15 08:56:03,574 INFO [S2D] 271/1046 | jaundice
+2026-02-15 08:56:03,579 INFO [S2D] 272/1046 | common cold
+2026-02-15 08:56:03,583 INFO [S2D] 273/1046 | psoriasis
+2026-02-15 08:56:03,587 INFO [S2D] 274/1046 | allergy
+2026-02-15 08:56:03,592 INFO [S2D] 275/1046 | arthritis
+2026-02-15 08:56:03,596 INFO [S2D] 276/1046 | typhoid
+2026-02-15 08:56:03,601 INFO [S2D] 277/1046 | varicose veins
+2026-02-15 08:56:03,605 INFO [S2D] 278/1046 | typhoid
+2026-02-15 08:56:03,609 INFO [S2D] 279/1046 | bronchial asthma
+2026-02-15 08:56:03,614 INFO [S2D] 280/1046 | bronchial asthma
+2026-02-15 08:56:03,618 INFO [S2D] 281/1046 | hypertension
+2026-02-15 08:56:03,622 INFO [S2D] 282/1046 | urinary tract infection
+2026-02-15 08:56:03,626 INFO [S2D] 283/1046 | migraine
+2026-02-15 08:56:03,631 INFO [S2D] 284/1046 | dengue
+2026-02-15 08:56:03,635 INFO [S2D] 285/1046 | migraine
+2026-02-15 08:56:03,640 INFO [S2D] 286/1046 | cervical spondylosis
+2026-02-15 08:56:03,645 INFO [S2D] 287/1046 | cervical spondylosis
+2026-02-15 08:56:03,649 INFO [S2D] 288/1046 | fungal infection
+2026-02-15 08:56:03,654 INFO [S2D] 289/1046 | chicken pox
+2026-02-15 08:56:03,659 INFO [S2D] 290/1046 | pneumonia
+2026-02-15 08:56:03,663 INFO [S2D] 291/1046 | fungal infection
+2026-02-15 08:56:03,668 INFO [S2D] 292/1046 | fungal infection
+2026-02-15 08:56:03,672 INFO [S2D] 293/1046 | drug reaction
+2026-02-15 08:56:03,676 INFO [S2D] 294/1046 | allergy
+2026-02-15 08:56:03,681 INFO [S2D] 295/1046 | cervical spondylosis
+2026-02-15 08:56:03,686 INFO [S2D] 296/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:03,691 INFO [S2D] 297/1046 | arthritis
+2026-02-15 08:56:03,695 INFO [S2D] 298/1046 | chicken pox
+2026-02-15 08:56:03,699 INFO [S2D] 299/1046 | psoriasis
+2026-02-15 08:56:03,704 INFO [S2D] 300/1046 | arthritis
+2026-02-15 08:56:03,708 INFO [S2D] 301/1046 | bronchial asthma
+2026-02-15 08:56:03,713 INFO [S2D] 302/1046 | pneumonia
+2026-02-15 08:56:03,717 INFO [S2D] 303/1046 | allergy
+2026-02-15 08:56:03,722 INFO [S2D] 304/1046 | varicose veins
+2026-02-15 08:56:03,726 INFO [S2D] 305/1046 | bronchial asthma
+2026-02-15 08:56:03,730 INFO [S2D] 306/1046 | urinary tract infection
+2026-02-15 08:56:03,734 INFO [S2D] 307/1046 | common cold
+2026-02-15 08:56:03,739 INFO [S2D] 308/1046 | drug reaction
+2026-02-15 08:56:03,743 INFO [S2D] 309/1046 | drug reaction
+2026-02-15 08:56:03,748 INFO [S2D] 310/1046 | bronchial asthma
+2026-02-15 08:56:03,752 INFO [S2D] 311/1046 | drug reaction
+2026-02-15 08:56:03,756 INFO [S2D] 312/1046 | cervical spondylosis
+2026-02-15 08:56:03,760 INFO [S2D] 313/1046 | bronchial asthma
+2026-02-15 08:56:03,764 INFO [S2D] 314/1046 | drug reaction
+2026-02-15 08:56:03,769 INFO [S2D] 315/1046 | typhoid
+2026-02-15 08:56:03,774 INFO [S2D] 316/1046 | drug reaction
+2026-02-15 08:56:03,779 INFO [S2D] 317/1046 | drug reaction
+2026-02-15 08:56:03,784 INFO [S2D] 318/1046 | jaundice
+2026-02-15 08:56:03,788 INFO [S2D] 319/1046 | fungal infection
+2026-02-15 08:56:03,793 INFO [S2D] 320/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:03,797 INFO [S2D] 321/1046 | cervical spondylosis
+2026-02-15 08:56:03,802 INFO [S2D] 322/1046 | jaundice
+2026-02-15 08:56:03,806 INFO [S2D] 323/1046 | pneumonia
+2026-02-15 08:56:03,811 INFO [S2D] 324/1046 | arthritis
+2026-02-15 08:56:03,815 INFO [S2D] 325/1046 | chicken pox
+2026-02-15 08:56:03,819 INFO [S2D] 326/1046 | urinary tract infection
+2026-02-15 08:56:03,823 INFO [S2D] 327/1046 | chicken pox
+2026-02-15 08:56:03,827 INFO [S2D] 328/1046 | migraine
+2026-02-15 08:56:03,832 INFO [S2D] 329/1046 | urinary tract infection
+2026-02-15 08:56:03,837 INFO [S2D] 330/1046 | psoriasis
+2026-02-15 08:56:03,842 INFO [S2D] 331/1046 | cervical spondylosis
+2026-02-15 08:56:03,846 INFO [S2D] 332/1046 | diabetes
+2026-02-15 08:56:03,850 INFO [S2D] 333/1046 | arthritis
+2026-02-15 08:56:03,854 INFO [S2D] 334/1046 | peptic ulcer disease
+2026-02-15 08:56:03,859 INFO [S2D] 335/1046 | typhoid
+2026-02-15 08:56:03,863 INFO [S2D] 336/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:03,867 INFO [S2D] 337/1046 | diabetes
+2026-02-15 08:56:03,872 INFO [S2D] 338/1046 | peptic ulcer disease
+2026-02-15 08:56:03,876 INFO [S2D] 339/1046 | impetigo
+2026-02-15 08:56:03,880 INFO [S2D] 340/1046 | cervical spondylosis
+2026-02-15 08:56:03,884 INFO [S2D] 341/1046 | psoriasis
+2026-02-15 08:56:03,888 INFO [S2D] 342/1046 | diabetes
+2026-02-15 08:56:03,893 INFO [S2D] 343/1046 | peptic ulcer disease
+2026-02-15 08:56:03,897 INFO [S2D] 344/1046 | malaria
+2026-02-15 08:56:03,901 INFO [S2D] 345/1046 | pneumonia
+2026-02-15 08:56:03,905 INFO [S2D] 346/1046 | dengue
+2026-02-15 08:56:03,910 INFO [S2D] 347/1046 | arthritis
+2026-02-15 08:56:03,914 INFO [S2D] 348/1046 | dengue
+2026-02-15 08:56:03,919 INFO [S2D] 349/1046 | chicken pox
+2026-02-15 08:56:03,923 INFO [S2D] 350/1046 | bronchial asthma
+2026-02-15 08:56:03,928 INFO [S2D] 351/1046 | impetigo
+2026-02-15 08:56:03,932 INFO [S2D] 352/1046 | jaundice
+2026-02-15 08:56:03,937 INFO [S2D] 353/1046 | urinary tract infection
+2026-02-15 08:56:03,942 INFO [S2D] 354/1046 | drug reaction
+2026-02-15 08:56:03,947 INFO [S2D] 355/1046 | cervical spondylosis
+2026-02-15 08:56:03,951 INFO [S2D] 356/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:03,956 INFO [S2D] 357/1046 | cervical spondylosis
+2026-02-15 08:56:03,960 INFO [S2D] 358/1046 | malaria
+2026-02-15 08:56:03,965 INFO [S2D] 359/1046 | jaundice
+2026-02-15 08:56:03,970 INFO [S2D] 360/1046 | dengue
+2026-02-15 08:56:03,974 INFO [S2D] 361/1046 | chicken pox
+2026-02-15 08:56:03,979 INFO [S2D] 362/1046 | diabetes
+2026-02-15 08:56:03,984 INFO [S2D] 363/1046 | urinary tract infection
+2026-02-15 08:56:03,988 INFO [S2D] 364/1046 | jaundice
+2026-02-15 08:56:03,994 INFO [S2D] 365/1046 | fungal infection
+2026-02-15 08:56:03,998 INFO [S2D] 366/1046 | jaundice
+2026-02-15 08:56:04,003 INFO [S2D] 367/1046 | cervical spondylosis
+2026-02-15 08:56:04,008 INFO [S2D] 368/1046 | impetigo
+2026-02-15 08:56:04,013 INFO [S2D] 369/1046 | dengue
+2026-02-15 08:56:04,018 INFO [S2D] 370/1046 | common cold
+2026-02-15 08:56:04,023 INFO [S2D] 371/1046 | fungal infection
+2026-02-15 08:56:04,027 INFO [S2D] 372/1046 | hypertension
+2026-02-15 08:56:04,032 INFO [S2D] 373/1046 | drug reaction
+2026-02-15 08:56:04,037 INFO [S2D] 374/1046 | jaundice
+2026-02-15 08:56:04,042 INFO [S2D] 375/1046 | varicose veins
+2026-02-15 08:56:04,046 INFO [S2D] 376/1046 | chicken pox
+2026-02-15 08:56:04,050 INFO [S2D] 377/1046 | allergy
+2026-02-15 08:56:04,055 INFO [S2D] 378/1046 | common cold
+2026-02-15 08:56:04,059 INFO [S2D] 379/1046 | pneumonia
+2026-02-15 08:56:04,064 INFO [S2D] 380/1046 | common cold
+2026-02-15 08:56:04,068 INFO [S2D] 381/1046 | impetigo
+2026-02-15 08:56:04,073 INFO [S2D] 382/1046 | peptic ulcer disease
+2026-02-15 08:56:04,077 INFO [S2D] 383/1046 | peptic ulcer disease
+2026-02-15 08:56:04,081 INFO [S2D] 384/1046 | bronchial asthma
+2026-02-15 08:56:04,086 INFO [S2D] 385/1046 | urinary tract infection
+2026-02-15 08:56:04,090 INFO [S2D] 386/1046 | migraine
+2026-02-15 08:56:04,094 INFO [S2D] 387/1046 | malaria
+2026-02-15 08:56:04,098 INFO [S2D] 388/1046 | bronchial asthma
+2026-02-15 08:56:04,103 INFO [S2D] 389/1046 | varicose veins
+2026-02-15 08:56:04,107 INFO [S2D] 390/1046 | malaria
+2026-02-15 08:56:04,111 INFO [S2D] 391/1046 | malaria
+2026-02-15 08:56:04,115 INFO [S2D] 392/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:04,120 INFO [S2D] 393/1046 | dengue
+2026-02-15 08:56:04,124 INFO [S2D] 394/1046 | peptic ulcer disease
+2026-02-15 08:56:04,128 INFO [S2D] 395/1046 | allergy
+2026-02-15 08:56:04,132 INFO [S2D] 396/1046 | urinary tract infection
+2026-02-15 08:56:04,137 INFO [S2D] 397/1046 | impetigo
+2026-02-15 08:56:04,142 INFO [S2D] 398/1046 | psoriasis
+2026-02-15 08:56:04,147 INFO [S2D] 399/1046 | fungal infection
+2026-02-15 08:56:04,151 INFO [S2D] 400/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:04,155 INFO [S2D] 401/1046 | pneumonia
+2026-02-15 08:56:04,160 INFO [S2D] 402/1046 | diabetes
+2026-02-15 08:56:04,165 INFO [S2D] 403/1046 | drug reaction
+2026-02-15 08:56:04,169 INFO [S2D] 404/1046 | malaria
+2026-02-15 08:56:04,174 INFO [S2D] 405/1046 | cervical spondylosis
+2026-02-15 08:56:04,178 INFO [S2D] 406/1046 | cervical spondylosis
+2026-02-15 08:56:04,182 INFO [S2D] 407/1046 | varicose veins
+2026-02-15 08:56:04,187 INFO [S2D] 408/1046 | bronchial asthma
+2026-02-15 08:56:04,192 INFO [S2D] 409/1046 | pneumonia
+2026-02-15 08:56:04,198 INFO [S2D] 410/1046 | jaundice
+2026-02-15 08:56:04,202 INFO [S2D] 411/1046 | chicken pox
+2026-02-15 08:56:04,207 INFO [S2D] 412/1046 | impetigo
+2026-02-15 08:56:04,211 INFO [S2D] 413/1046 | bronchial asthma
+2026-02-15 08:56:04,215 INFO [S2D] 414/1046 | psoriasis
+2026-02-15 08:56:04,221 INFO [S2D] 415/1046 | psoriasis
+2026-02-15 08:56:04,225 INFO [S2D] 416/1046 | dengue
+2026-02-15 08:56:04,230 INFO [S2D] 417/1046 | allergy
+2026-02-15 08:56:04,235 INFO [S2D] 418/1046 | chicken pox
+2026-02-15 08:56:04,239 INFO [S2D] 419/1046 | diabetes
+2026-02-15 08:56:04,243 INFO [S2D] 420/1046 | psoriasis
+2026-02-15 08:56:04,248 INFO [S2D] 421/1046 | peptic ulcer disease
+2026-02-15 08:56:04,252 INFO [S2D] 422/1046 | cervical spondylosis
+2026-02-15 08:56:04,257 INFO [S2D] 423/1046 | hypertension
+2026-02-15 08:56:04,261 INFO [S2D] 424/1046 | drug reaction
+2026-02-15 08:56:04,266 INFO [S2D] 425/1046 | bronchial asthma
+2026-02-15 08:56:04,270 INFO [S2D] 426/1046 | dengue
+2026-02-15 08:56:04,275 INFO [S2D] 427/1046 | malaria
+2026-02-15 08:56:04,279 INFO [S2D] 428/1046 | typhoid
+2026-02-15 08:56:04,283 INFO [S2D] 429/1046 | impetigo
+2026-02-15 08:56:04,288 INFO [S2D] 430/1046 | psoriasis
+2026-02-15 08:56:04,293 INFO [S2D] 431/1046 | pneumonia
+2026-02-15 08:56:04,298 INFO [S2D] 432/1046 | impetigo
+2026-02-15 08:56:04,302 INFO [S2D] 433/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:04,306 INFO [S2D] 434/1046 | drug reaction
+2026-02-15 08:56:04,311 INFO [S2D] 435/1046 | jaundice
+2026-02-15 08:56:04,317 INFO [S2D] 436/1046 | diabetes
+2026-02-15 08:56:04,322 INFO [S2D] 437/1046 | malaria
+2026-02-15 08:56:04,326 INFO [S2D] 438/1046 | bronchial asthma
+2026-02-15 08:56:04,331 INFO [S2D] 439/1046 | chicken pox
+2026-02-15 08:56:04,335 INFO [S2D] 440/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:04,339 INFO [S2D] 441/1046 | varicose veins
+2026-02-15 08:56:04,344 INFO [S2D] 442/1046 | hypertension
+2026-02-15 08:56:04,349 INFO [S2D] 443/1046 | urinary tract infection
+2026-02-15 08:56:04,355 INFO [S2D] 444/1046 | arthritis
+2026-02-15 08:56:04,360 INFO [S2D] 445/1046 | dengue
+2026-02-15 08:56:04,365 INFO [S2D] 446/1046 | common cold
+2026-02-15 08:56:04,370 INFO [S2D] 447/1046 | varicose veins
+2026-02-15 08:56:04,375 INFO [S2D] 448/1046 | migraine
+2026-02-15 08:56:04,380 INFO [S2D] 449/1046 | drug reaction
+2026-02-15 08:56:04,385 INFO [S2D] 450/1046 | drug reaction
+2026-02-15 08:56:04,389 INFO [S2D] 451/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:04,394 INFO [S2D] 452/1046 | arthritis
+2026-02-15 08:56:04,398 INFO [S2D] 453/1046 | arthritis
+2026-02-15 08:56:04,403 INFO [S2D] 454/1046 | migraine
+2026-02-15 08:56:04,408 INFO [S2D] 455/1046 | peptic ulcer disease
+2026-02-15 08:56:04,413 INFO [S2D] 456/1046 | migraine
+2026-02-15 08:56:04,418 INFO [S2D] 457/1046 | psoriasis
+2026-02-15 08:56:04,422 INFO [S2D] 458/1046 | hypertension
+2026-02-15 08:56:04,427 INFO [S2D] 459/1046 | jaundice
+2026-02-15 08:56:04,431 INFO [S2D] 460/1046 | drug reaction
+2026-02-15 08:56:04,435 INFO [S2D] 461/1046 | fungal infection
+2026-02-15 08:56:04,440 INFO [S2D] 462/1046 | malaria
+2026-02-15 08:56:04,445 INFO [S2D] 463/1046 | hypertension
+2026-02-15 08:56:04,449 INFO [S2D] 464/1046 | cervical spondylosis
+2026-02-15 08:56:04,454 INFO [S2D] 465/1046 | fungal infection
+2026-02-15 08:56:04,458 INFO [S2D] 466/1046 | chicken pox
+2026-02-15 08:56:04,463 INFO [S2D] 467/1046 | dengue
+2026-02-15 08:56:04,468 INFO [S2D] 468/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:04,473 INFO [S2D] 469/1046 | hypertension
+2026-02-15 08:56:04,478 INFO [S2D] 470/1046 | psoriasis
+2026-02-15 08:56:04,483 INFO [S2D] 471/1046 | pneumonia
+2026-02-15 08:56:04,489 INFO [S2D] 472/1046 | psoriasis
+2026-02-15 08:56:04,493 INFO [S2D] 473/1046 | hypertension
+2026-02-15 08:56:04,499 INFO [S2D] 474/1046 | bronchial asthma
+2026-02-15 08:56:04,504 INFO [S2D] 475/1046 | peptic ulcer disease
+2026-02-15 08:56:04,509 INFO [S2D] 476/1046 | diabetes
+2026-02-15 08:56:04,513 INFO [S2D] 477/1046 | impetigo
+2026-02-15 08:56:04,518 INFO [S2D] 478/1046 | psoriasis
+2026-02-15 08:56:04,522 INFO [S2D] 479/1046 | typhoid
+2026-02-15 08:56:04,526 INFO [S2D] 480/1046 | hypertension
+2026-02-15 08:56:04,531 INFO [S2D] 481/1046 | fungal infection
+2026-02-15 08:56:04,535 INFO [S2D] 482/1046 | fungal infection
+2026-02-15 08:56:04,540 INFO [S2D] 483/1046 | hypertension
+2026-02-15 08:56:04,545 INFO [S2D] 484/1046 | varicose veins
+2026-02-15 08:56:04,549 INFO [S2D] 485/1046 | fungal infection
+2026-02-15 08:56:04,555 INFO [S2D] 486/1046 | cervical spondylosis
+2026-02-15 08:56:04,560 INFO [S2D] 487/1046 | varicose veins
+2026-02-15 08:56:04,564 INFO [S2D] 488/1046 | pneumonia
+2026-02-15 08:56:04,569 INFO [S2D] 489/1046 | jaundice
+2026-02-15 08:56:04,573 INFO [S2D] 490/1046 | jaundice
+2026-02-15 08:56:04,578 INFO [S2D] 491/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:04,583 INFO [S2D] 492/1046 | hypertension
+2026-02-15 08:56:04,588 INFO [S2D] 493/1046 | arthritis
+2026-02-15 08:56:04,593 INFO [S2D] 494/1046 | typhoid
+2026-02-15 08:56:04,597 INFO [S2D] 495/1046 | jaundice
+2026-02-15 08:56:04,602 INFO [S2D] 496/1046 | psoriasis
+2026-02-15 08:56:04,607 INFO [S2D] 497/1046 | impetigo
+2026-02-15 08:56:04,611 INFO [S2D] 498/1046 | drug reaction
+2026-02-15 08:56:04,617 INFO [S2D] 499/1046 | impetigo
+2026-02-15 08:56:04,622 INFO [S2D] 500/1046 | impetigo
+2026-02-15 08:56:04,627 INFO [S2D] 501/1046 | allergy
+2026-02-15 08:56:04,632 INFO [S2D] 502/1046 | chicken pox
+2026-02-15 08:56:04,636 INFO [S2D] 503/1046 | migraine
+2026-02-15 08:56:04,640 INFO [S2D] 504/1046 | chicken pox
+2026-02-15 08:56:04,645 INFO [S2D] 505/1046 | cervical spondylosis
+2026-02-15 08:56:04,650 INFO [S2D] 506/1046 | chicken pox
+2026-02-15 08:56:04,655 INFO [S2D] 507/1046 | migraine
+2026-02-15 08:56:04,659 INFO [S2D] 508/1046 | diabetes
+2026-02-15 08:56:04,665 INFO [S2D] 509/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:04,670 INFO [S2D] 510/1046 | chicken pox
+2026-02-15 08:56:04,675 INFO [S2D] 511/1046 | drug reaction
+2026-02-15 08:56:04,679 INFO [S2D] 512/1046 | common cold
+2026-02-15 08:56:04,684 INFO [S2D] 513/1046 | allergy
+2026-02-15 08:56:04,688 INFO [S2D] 514/1046 | arthritis
+2026-02-15 08:56:04,693 INFO [S2D] 515/1046 | typhoid
+2026-02-15 08:56:04,698 INFO [S2D] 516/1046 | hypertension
+2026-02-15 08:56:04,702 INFO [S2D] 517/1046 | bronchial asthma
+2026-02-15 08:56:04,708 INFO [S2D] 518/1046 | dengue
+2026-02-15 08:56:04,712 INFO [S2D] 519/1046 | hypertension
+2026-02-15 08:56:04,717 INFO [S2D] 520/1046 | hypertension
+2026-02-15 08:56:04,721 INFO [S2D] 521/1046 | diabetes
+2026-02-15 08:56:04,726 INFO [S2D] 522/1046 | chicken pox
+2026-02-15 08:56:04,732 INFO [S2D] 523/1046 | urinary tract infection
+2026-02-15 08:56:04,738 INFO [S2D] 524/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:04,743 INFO [S2D] 525/1046 | migraine
+2026-02-15 08:56:04,748 INFO [S2D] 526/1046 | fungal infection
+2026-02-15 08:56:04,754 INFO [S2D] 527/1046 | jaundice
+2026-02-15 08:56:04,758 INFO [S2D] 528/1046 | cervical spondylosis
+2026-02-15 08:56:04,763 INFO [S2D] 529/1046 | chicken pox
+2026-02-15 08:56:04,768 INFO [S2D] 530/1046 | psoriasis
+2026-02-15 08:56:04,773 INFO [S2D] 531/1046 | typhoid
+2026-02-15 08:56:04,777 INFO [S2D] 532/1046 | fungal infection
+2026-02-15 08:56:04,781 INFO [S2D] 533/1046 | common cold
+2026-02-15 08:56:04,786 INFO [S2D] 534/1046 | malaria
+2026-02-15 08:56:04,790 INFO [S2D] 535/1046 | typhoid
+2026-02-15 08:56:04,794 INFO [S2D] 536/1046 | malaria
+2026-02-15 08:56:04,798 INFO [S2D] 537/1046 | typhoid
+2026-02-15 08:56:04,803 INFO [S2D] 538/1046 | typhoid
+2026-02-15 08:56:04,809 INFO [S2D] 539/1046 | varicose veins
+2026-02-15 08:56:04,813 INFO [S2D] 540/1046 | bronchial asthma
+2026-02-15 08:56:04,818 INFO [S2D] 541/1046 | migraine
+2026-02-15 08:56:04,823 INFO [S2D] 542/1046 | impetigo
+2026-02-15 08:56:04,828 INFO [S2D] 543/1046 | allergy
+2026-02-15 08:56:04,832 INFO [S2D] 544/1046 | diabetes
+2026-02-15 08:56:04,837 INFO [S2D] 545/1046 | drug reaction
+2026-02-15 08:56:04,842 INFO [S2D] 546/1046 | psoriasis
+2026-02-15 08:56:04,846 INFO [S2D] 547/1046 | impetigo
+2026-02-15 08:56:04,852 INFO [S2D] 548/1046 | malaria
+2026-02-15 08:56:04,857 INFO [S2D] 549/1046 | fungal infection
+2026-02-15 08:56:04,863 INFO [S2D] 550/1046 | common cold
+2026-02-15 08:56:04,868 INFO [S2D] 551/1046 | jaundice
+2026-02-15 08:56:04,873 INFO [S2D] 552/1046 | hypertension
+2026-02-15 08:56:04,879 INFO [S2D] 553/1046 | common cold
+2026-02-15 08:56:04,885 INFO [S2D] 554/1046 | bronchial asthma
+2026-02-15 08:56:04,891 INFO [S2D] 555/1046 | pneumonia
+2026-02-15 08:56:04,895 INFO [S2D] 556/1046 | malaria
+2026-02-15 08:56:04,899 INFO [S2D] 557/1046 | migraine
+2026-02-15 08:56:04,904 INFO [S2D] 558/1046 | bronchial asthma
+2026-02-15 08:56:04,908 INFO [S2D] 559/1046 | chicken pox
+2026-02-15 08:56:04,912 INFO [S2D] 560/1046 | typhoid
+2026-02-15 08:56:04,916 INFO [S2D] 561/1046 | peptic ulcer disease
+2026-02-15 08:56:04,920 INFO [S2D] 562/1046 | varicose veins
+2026-02-15 08:56:04,924 INFO [S2D] 563/1046 | impetigo
+2026-02-15 08:56:04,929 INFO [S2D] 564/1046 | arthritis
+2026-02-15 08:56:04,933 INFO [S2D] 565/1046 | malaria
+2026-02-15 08:56:04,937 INFO [S2D] 566/1046 | pneumonia
+2026-02-15 08:56:04,942 INFO [S2D] 567/1046 | malaria
+2026-02-15 08:56:04,946 INFO [S2D] 568/1046 | impetigo
+2026-02-15 08:56:04,951 INFO [S2D] 569/1046 | psoriasis
+2026-02-15 08:56:04,955 INFO [S2D] 570/1046 | fungal infection
+2026-02-15 08:56:04,959 INFO [S2D] 571/1046 | hypertension
+2026-02-15 08:56:04,963 INFO [S2D] 572/1046 | arthritis
+2026-02-15 08:56:04,967 INFO [S2D] 573/1046 | typhoid
+2026-02-15 08:56:04,971 INFO [S2D] 574/1046 | typhoid
+2026-02-15 08:56:04,975 INFO [S2D] 575/1046 | common cold
+2026-02-15 08:56:04,979 INFO [S2D] 576/1046 | fungal infection
+2026-02-15 08:56:04,983 INFO [S2D] 577/1046 | fungal infection
+2026-02-15 08:56:04,987 INFO [S2D] 578/1046 | peptic ulcer disease
+2026-02-15 08:56:04,991 INFO [S2D] 579/1046 | psoriasis
+2026-02-15 08:56:04,995 INFO [S2D] 580/1046 | diabetes
+2026-02-15 08:56:05,001 INFO [S2D] 581/1046 | pneumonia
+2026-02-15 08:56:05,006 INFO [S2D] 582/1046 | drug reaction
+2026-02-15 08:56:05,011 INFO [S2D] 583/1046 | malaria
+2026-02-15 08:56:05,016 INFO [S2D] 584/1046 | bronchial asthma
+2026-02-15 08:56:05,020 INFO [S2D] 585/1046 | malaria
+2026-02-15 08:56:05,025 INFO [S2D] 586/1046 | chicken pox
+2026-02-15 08:56:05,029 INFO [S2D] 587/1046 | typhoid
+2026-02-15 08:56:05,033 INFO [S2D] 588/1046 | common cold
+2026-02-15 08:56:05,039 INFO [S2D] 589/1046 | common cold
+2026-02-15 08:56:05,045 INFO [S2D] 590/1046 | allergy
+2026-02-15 08:56:05,051 INFO [S2D] 591/1046 | bronchial asthma
+2026-02-15 08:56:05,056 INFO [S2D] 592/1046 | fungal infection
+2026-02-15 08:56:05,062 INFO [S2D] 593/1046 | fungal infection
+2026-02-15 08:56:05,067 INFO [S2D] 594/1046 | bronchial asthma
+2026-02-15 08:56:05,072 INFO [S2D] 595/1046 | diabetes
+2026-02-15 08:56:05,076 INFO [S2D] 596/1046 | fungal infection
+2026-02-15 08:56:05,080 INFO [S2D] 597/1046 | urinary tract infection
+2026-02-15 08:56:05,085 INFO [S2D] 598/1046 | allergy
+2026-02-15 08:56:05,089 INFO [S2D] 599/1046 | pneumonia
+2026-02-15 08:56:05,093 INFO [S2D] 600/1046 | typhoid
+2026-02-15 08:56:05,097 INFO [S2D] 601/1046 | peptic ulcer disease
+2026-02-15 08:56:05,102 INFO [S2D] 602/1046 | common cold
+2026-02-15 08:56:05,106 INFO [S2D] 603/1046 | migraine
+2026-02-15 08:56:05,110 INFO [S2D] 604/1046 | jaundice
+2026-02-15 08:56:05,113 INFO [S2D] 605/1046 | varicose veins
+2026-02-15 08:56:05,118 INFO [S2D] 606/1046 | pneumonia
+2026-02-15 08:56:05,121 INFO [S2D] 607/1046 | fungal infection
+2026-02-15 08:56:05,125 INFO [S2D] 608/1046 | jaundice
+2026-02-15 08:56:05,129 INFO [S2D] 609/1046 | arthritis
+2026-02-15 08:56:05,134 INFO [S2D] 610/1046 | allergy
+2026-02-15 08:56:05,138 INFO [S2D] 611/1046 | psoriasis
+2026-02-15 08:56:05,142 INFO [S2D] 612/1046 | pneumonia
+2026-02-15 08:56:05,146 INFO [S2D] 613/1046 | drug reaction
+2026-02-15 08:56:05,150 INFO [S2D] 614/1046 | jaundice
+2026-02-15 08:56:05,154 INFO [S2D] 615/1046 | dengue
+2026-02-15 08:56:05,159 INFO [S2D] 616/1046 | varicose veins
+2026-02-15 08:56:05,163 INFO [S2D] 617/1046 | typhoid
+2026-02-15 08:56:05,167 INFO [S2D] 618/1046 | peptic ulcer disease
+2026-02-15 08:56:05,171 INFO [S2D] 619/1046 | pneumonia
+2026-02-15 08:56:05,175 INFO [S2D] 620/1046 | jaundice
+2026-02-15 08:56:05,179 INFO [S2D] 621/1046 | cervical spondylosis
+2026-02-15 08:56:05,184 INFO [S2D] 622/1046 | jaundice
+2026-02-15 08:56:05,188 INFO [S2D] 623/1046 | peptic ulcer disease
+2026-02-15 08:56:05,192 INFO [S2D] 624/1046 | diabetes
+2026-02-15 08:56:05,196 INFO [S2D] 625/1046 | chicken pox
+2026-02-15 08:56:05,200 INFO [S2D] 626/1046 | urinary tract infection
+2026-02-15 08:56:05,205 INFO [S2D] 627/1046 | jaundice
+2026-02-15 08:56:05,209 INFO [S2D] 628/1046 | drug reaction
+2026-02-15 08:56:05,213 INFO [S2D] 629/1046 | psoriasis
+2026-02-15 08:56:05,217 INFO [S2D] 630/1046 | arthritis
+2026-02-15 08:56:05,221 INFO [S2D] 631/1046 | diabetes
+2026-02-15 08:56:05,225 INFO [S2D] 632/1046 | urinary tract infection
+2026-02-15 08:56:05,229 INFO [S2D] 633/1046 | psoriasis
+2026-02-15 08:56:05,233 INFO [S2D] 634/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:05,237 INFO [S2D] 635/1046 | dengue
+2026-02-15 08:56:05,241 INFO [S2D] 636/1046 | typhoid
+2026-02-15 08:56:05,245 INFO [S2D] 637/1046 | cervical spondylosis
+2026-02-15 08:56:05,249 INFO [S2D] 638/1046 | fungal infection
+2026-02-15 08:56:05,253 INFO [S2D] 639/1046 | diabetes
+2026-02-15 08:56:05,257 INFO [S2D] 640/1046 | varicose veins
+2026-02-15 08:56:05,261 INFO [S2D] 641/1046 | hypertension
+2026-02-15 08:56:05,265 INFO [S2D] 642/1046 | jaundice
+2026-02-15 08:56:05,269 INFO [S2D] 643/1046 | hypertension
+2026-02-15 08:56:05,273 INFO [S2D] 644/1046 | varicose veins
+2026-02-15 08:56:05,278 INFO [S2D] 645/1046 | pneumonia
+2026-02-15 08:56:05,282 INFO [S2D] 646/1046 | dengue
+2026-02-15 08:56:05,286 INFO [S2D] 647/1046 | allergy
+2026-02-15 08:56:05,290 INFO [S2D] 648/1046 | typhoid
+2026-02-15 08:56:05,294 INFO [S2D] 649/1046 | hypertension
+2026-02-15 08:56:05,298 INFO [S2D] 650/1046 | dengue
+2026-02-15 08:56:05,303 INFO [S2D] 651/1046 | bronchial asthma
+2026-02-15 08:56:05,307 INFO [S2D] 652/1046 | malaria
+2026-02-15 08:56:05,311 INFO [S2D] 653/1046 | dengue
+2026-02-15 08:56:05,315 INFO [S2D] 654/1046 | jaundice
+2026-02-15 08:56:05,319 INFO [S2D] 655/1046 | drug reaction
+2026-02-15 08:56:05,323 INFO [S2D] 656/1046 | peptic ulcer disease
+2026-02-15 08:56:05,328 INFO [S2D] 657/1046 | dengue
+2026-02-15 08:56:05,332 INFO [S2D] 658/1046 | arthritis
+2026-02-15 08:56:05,336 INFO [S2D] 659/1046 | common cold
+2026-02-15 08:56:05,341 INFO [S2D] 660/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:05,346 INFO [S2D] 661/1046 | allergy
+2026-02-15 08:56:05,352 INFO [S2D] 662/1046 | typhoid
+2026-02-15 08:56:05,356 INFO [S2D] 663/1046 | cervical spondylosis
+2026-02-15 08:56:05,361 INFO [S2D] 664/1046 | drug reaction
+2026-02-15 08:56:05,366 INFO [S2D] 665/1046 | arthritis
+2026-02-15 08:56:05,371 INFO [S2D] 666/1046 | allergy
+2026-02-15 08:56:05,375 INFO [S2D] 667/1046 | allergy
+2026-02-15 08:56:05,379 INFO [S2D] 668/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:05,384 INFO [S2D] 669/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:05,388 INFO [S2D] 670/1046 | cervical spondylosis
+2026-02-15 08:56:05,392 INFO [S2D] 671/1046 | migraine
+2026-02-15 08:56:05,397 INFO [S2D] 672/1046 | diabetes
+2026-02-15 08:56:05,401 INFO [S2D] 673/1046 | allergy
+2026-02-15 08:56:05,405 INFO [S2D] 674/1046 | drug reaction
+2026-02-15 08:56:05,410 INFO [S2D] 675/1046 | impetigo
+2026-02-15 08:56:05,414 INFO [S2D] 676/1046 | migraine
+2026-02-15 08:56:05,418 INFO [S2D] 677/1046 | chicken pox
+2026-02-15 08:56:05,422 INFO [S2D] 678/1046 | arthritis
+2026-02-15 08:56:05,426 INFO [S2D] 679/1046 | dengue
+2026-02-15 08:56:05,431 INFO [S2D] 680/1046 | chicken pox
+2026-02-15 08:56:05,435 INFO [S2D] 681/1046 | malaria
+2026-02-15 08:56:05,439 INFO [S2D] 682/1046 | diabetes
+2026-02-15 08:56:05,443 INFO [S2D] 683/1046 | psoriasis
+2026-02-15 08:56:05,448 INFO [S2D] 684/1046 | urinary tract infection
+2026-02-15 08:56:05,452 INFO [S2D] 685/1046 | psoriasis
+2026-02-15 08:56:05,457 INFO [S2D] 686/1046 | varicose veins
+2026-02-15 08:56:05,461 INFO [S2D] 687/1046 | varicose veins
+2026-02-15 08:56:05,466 INFO [S2D] 688/1046 | varicose veins
+2026-02-15 08:56:05,470 INFO [S2D] 689/1046 | varicose veins
+2026-02-15 08:56:05,475 INFO [S2D] 690/1046 | impetigo
+2026-02-15 08:56:05,479 INFO [S2D] 691/1046 | malaria
+2026-02-15 08:56:05,484 INFO [S2D] 692/1046 | bronchial asthma
+2026-02-15 08:56:05,490 INFO [S2D] 693/1046 | malaria
+2026-02-15 08:56:05,495 INFO [S2D] 694/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:05,500 INFO [S2D] 695/1046 | chicken pox
+2026-02-15 08:56:05,504 INFO [S2D] 696/1046 | common cold
+2026-02-15 08:56:05,509 INFO [S2D] 697/1046 | migraine
+2026-02-15 08:56:05,513 INFO [S2D] 698/1046 | bronchial asthma
+2026-02-15 08:56:05,518 INFO [S2D] 699/1046 | common cold
+2026-02-15 08:56:05,522 INFO [S2D] 700/1046 | allergy
+2026-02-15 08:56:05,526 INFO [S2D] 701/1046 | arthritis
+2026-02-15 08:56:05,531 INFO [S2D] 702/1046 | common cold
+2026-02-15 08:56:05,535 INFO [S2D] 703/1046 | arthritis
+2026-02-15 08:56:05,539 INFO [S2D] 704/1046 | psoriasis
+2026-02-15 08:56:05,544 INFO [S2D] 705/1046 | diabetes
+2026-02-15 08:56:05,548 INFO [S2D] 706/1046 | allergy
+2026-02-15 08:56:05,555 INFO [S2D] 707/1046 | dengue
+2026-02-15 08:56:05,559 INFO [S2D] 708/1046 | malaria
+2026-02-15 08:56:05,563 INFO [S2D] 709/1046 | peptic ulcer disease
+2026-02-15 08:56:05,567 INFO [S2D] 710/1046 | bronchial asthma
+2026-02-15 08:56:05,572 INFO [S2D] 711/1046 | hypertension
+2026-02-15 08:56:05,576 INFO [S2D] 712/1046 | chicken pox
+2026-02-15 08:56:05,580 INFO [S2D] 713/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:05,584 INFO [S2D] 714/1046 | peptic ulcer disease
+2026-02-15 08:56:05,589 INFO [S2D] 715/1046 | diabetes
+2026-02-15 08:56:05,593 INFO [S2D] 716/1046 | allergy
+2026-02-15 08:56:05,597 INFO [S2D] 717/1046 | urinary tract infection
+2026-02-15 08:56:05,601 INFO [S2D] 718/1046 | malaria
+2026-02-15 08:56:05,605 INFO [S2D] 719/1046 | malaria
+2026-02-15 08:56:05,610 INFO [S2D] 720/1046 | arthritis
+2026-02-15 08:56:05,614 INFO [S2D] 721/1046 | varicose veins
+2026-02-15 08:56:05,619 INFO [S2D] 722/1046 | psoriasis
+2026-02-15 08:56:05,624 INFO [S2D] 723/1046 | diabetes
+2026-02-15 08:56:05,629 INFO [S2D] 724/1046 | fungal infection
+2026-02-15 08:56:05,633 INFO [S2D] 725/1046 | migraine
+2026-02-15 08:56:05,637 INFO [S2D] 726/1046 | bronchial asthma
+2026-02-15 08:56:05,642 INFO [S2D] 727/1046 | allergy
+2026-02-15 08:56:05,647 INFO [S2D] 728/1046 | cervical spondylosis
+2026-02-15 08:56:05,653 INFO [S2D] 729/1046 | bronchial asthma
+2026-02-15 08:56:05,658 INFO [S2D] 730/1046 | hypertension
+2026-02-15 08:56:05,663 INFO [S2D] 731/1046 | urinary tract infection
+2026-02-15 08:56:05,668 INFO [S2D] 732/1046 | common cold
+2026-02-15 08:56:05,673 INFO [S2D] 733/1046 | hypertension
+2026-02-15 08:56:05,678 INFO [S2D] 734/1046 | hypertension
+2026-02-15 08:56:05,683 INFO [S2D] 735/1046 | chicken pox
+2026-02-15 08:56:05,688 INFO [S2D] 736/1046 | typhoid
+2026-02-15 08:56:05,693 INFO [S2D] 737/1046 | cervical spondylosis
+2026-02-15 08:56:05,697 INFO [S2D] 738/1046 | peptic ulcer disease
+2026-02-15 08:56:05,701 INFO [S2D] 739/1046 | dengue
+2026-02-15 08:56:05,705 INFO [S2D] 740/1046 | urinary tract infection
+2026-02-15 08:56:05,710 INFO [S2D] 741/1046 | cervical spondylosis
+2026-02-15 08:56:05,716 INFO [S2D] 742/1046 | typhoid
+2026-02-15 08:56:05,721 INFO [S2D] 743/1046 | jaundice
+2026-02-15 08:56:05,727 INFO [S2D] 744/1046 | dengue
+2026-02-15 08:56:05,732 INFO [S2D] 745/1046 | urinary tract infection
+2026-02-15 08:56:05,737 INFO [S2D] 746/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:05,741 INFO [S2D] 747/1046 | malaria
+2026-02-15 08:56:05,745 INFO [S2D] 748/1046 | dengue
+2026-02-15 08:56:05,749 INFO [S2D] 749/1046 | pneumonia
+2026-02-15 08:56:05,754 INFO [S2D] 750/1046 | diabetes
+2026-02-15 08:56:05,758 INFO [S2D] 751/1046 | hypertension
+2026-02-15 08:56:05,761 INFO [S2D] 752/1046 | hypertension
+2026-02-15 08:56:05,765 INFO [S2D] 753/1046 | common cold
+2026-02-15 08:56:05,768 INFO [S2D] 754/1046 | cervical spondylosis
+2026-02-15 08:56:05,772 INFO [S2D] 755/1046 | migraine
+2026-02-15 08:56:05,776 INFO [S2D] 756/1046 | migraine
+2026-02-15 08:56:05,779 INFO [S2D] 757/1046 | diabetes
+2026-02-15 08:56:05,783 INFO [S2D] 758/1046 | hypertension
+2026-02-15 08:56:05,787 INFO [S2D] 759/1046 | migraine
+2026-02-15 08:56:05,790 INFO [S2D] 760/1046 | migraine
+2026-02-15 08:56:05,793 INFO [S2D] 761/1046 | typhoid
+2026-02-15 08:56:05,796 INFO [S2D] 762/1046 | urinary tract infection
+2026-02-15 08:56:05,799 INFO [S2D] 763/1046 | drug reaction
+2026-02-15 08:56:05,801 INFO [S2D] 764/1046 | peptic ulcer disease
+2026-02-15 08:56:05,804 INFO [S2D] 765/1046 | urinary tract infection
+2026-02-15 08:56:05,807 INFO [S2D] 766/1046 | diabetes
+2026-02-15 08:56:05,811 INFO [S2D] 767/1046 | typhoid
+2026-02-15 08:56:05,814 INFO [S2D] 768/1046 | typhoid
+2026-02-15 08:56:05,816 INFO [S2D] 769/1046 | migraine
+2026-02-15 08:56:05,819 INFO [S2D] 770/1046 | varicose veins
+2026-02-15 08:56:05,822 INFO [S2D] 771/1046 | fungal infection
+2026-02-15 08:56:05,825 INFO [S2D] 772/1046 | chicken pox
+2026-02-15 08:56:05,828 INFO [S2D] 773/1046 | fungal infection
+2026-02-15 08:56:05,831 INFO [S2D] 774/1046 | urinary tract infection
+2026-02-15 08:56:05,834 INFO [S2D] 775/1046 | peptic ulcer disease
+2026-02-15 08:56:05,837 INFO [S2D] 776/1046 | urinary tract infection
+2026-02-15 08:56:05,839 INFO [S2D] 777/1046 | pneumonia
+2026-02-15 08:56:05,842 INFO [S2D] 778/1046 | chicken pox
+2026-02-15 08:56:05,845 INFO [S2D] 779/1046 | arthritis
+2026-02-15 08:56:05,848 INFO [S2D] 780/1046 | arthritis
+2026-02-15 08:56:05,851 INFO [S2D] 781/1046 | peptic ulcer disease
+2026-02-15 08:56:05,854 INFO [S2D] 782/1046 | common cold
+2026-02-15 08:56:05,857 INFO [S2D] 783/1046 | peptic ulcer disease
+2026-02-15 08:56:05,859 INFO [S2D] 784/1046 | varicose veins
+2026-02-15 08:56:05,862 INFO [S2D] 785/1046 | peptic ulcer disease
+2026-02-15 08:56:05,865 INFO [S2D] 786/1046 | allergy
+2026-02-15 08:56:05,869 INFO [S2D] 787/1046 | dengue
+2026-02-15 08:56:05,872 INFO [S2D] 788/1046 | chicken pox
+2026-02-15 08:56:05,874 INFO [S2D] 789/1046 | psoriasis
+2026-02-15 08:56:05,877 INFO [S2D] 790/1046 | hypertension
+2026-02-15 08:56:05,992 INFO [S2D] 791/1046 | arthritis
+2026-02-15 08:56:05,996 INFO [S2D] 792/1046 | psoriasis
+2026-02-15 08:56:05,999 INFO [S2D] 793/1046 | malaria
+2026-02-15 08:56:06,002 INFO [S2D] 794/1046 | drug reaction
+2026-02-15 08:56:06,005 INFO [S2D] 795/1046 | arthritis
+2026-02-15 08:56:06,008 INFO [S2D] 796/1046 | pneumonia
+2026-02-15 08:56:06,011 INFO [S2D] 797/1046 | varicose veins
+2026-02-15 08:56:06,013 INFO [S2D] 798/1046 | peptic ulcer disease
+2026-02-15 08:56:06,017 INFO [S2D] 799/1046 | psoriasis
+2026-02-15 08:56:06,019 INFO [S2D] 800/1046 | bronchial asthma
+2026-02-15 08:56:06,022 INFO [S2D] 801/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:06,026 INFO [S2D] 802/1046 | impetigo
+2026-02-15 08:56:06,028 INFO [S2D] 803/1046 | malaria
+2026-02-15 08:56:06,031 INFO [S2D] 804/1046 | malaria
+2026-02-15 08:56:06,034 INFO [S2D] 805/1046 | varicose veins
+2026-02-15 08:56:06,037 INFO [S2D] 806/1046 | arthritis
+2026-02-15 08:56:06,040 INFO [S2D] 807/1046 | bronchial asthma
+2026-02-15 08:56:06,043 INFO [S2D] 808/1046 | dengue
+2026-02-15 08:56:06,046 INFO [S2D] 809/1046 | common cold
+2026-02-15 08:56:06,049 INFO [S2D] 810/1046 | diabetes
+2026-02-15 08:56:06,052 INFO [S2D] 811/1046 | pneumonia
+2026-02-15 08:56:06,054 INFO [S2D] 812/1046 | malaria
+2026-02-15 08:56:06,057 INFO [S2D] 813/1046 | typhoid
+2026-02-15 08:56:06,060 INFO [S2D] 814/1046 | arthritis
+2026-02-15 08:56:06,062 INFO [S2D] 815/1046 | dengue
+2026-02-15 08:56:06,065 INFO [S2D] 816/1046 | varicose veins
+2026-02-15 08:56:06,068 INFO [S2D] 817/1046 | urinary tract infection
+2026-02-15 08:56:06,071 INFO [S2D] 818/1046 | diabetes
+2026-02-15 08:56:06,074 INFO [S2D] 819/1046 | common cold
+2026-02-15 08:56:06,077 INFO [S2D] 820/1046 | diabetes
+2026-02-15 08:56:06,081 INFO [S2D] 821/1046 | drug reaction
+2026-02-15 08:56:06,084 INFO [S2D] 822/1046 | typhoid
+2026-02-15 08:56:06,087 INFO [S2D] 823/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:06,090 INFO [S2D] 824/1046 | pneumonia
+2026-02-15 08:56:06,092 INFO [S2D] 825/1046 | drug reaction
+2026-02-15 08:56:06,095 INFO [S2D] 826/1046 | hypertension
+2026-02-15 08:56:06,098 INFO [S2D] 827/1046 | fungal infection
+2026-02-15 08:56:06,101 INFO [S2D] 828/1046 | varicose veins
+2026-02-15 08:56:06,103 INFO [S2D] 829/1046 | urinary tract infection
+2026-02-15 08:56:06,106 INFO [S2D] 830/1046 | cervical spondylosis
+2026-02-15 08:56:06,110 INFO [S2D] 831/1046 | drug reaction
+2026-02-15 08:56:06,113 INFO [S2D] 832/1046 | drug reaction
+2026-02-15 08:56:06,116 INFO [S2D] 833/1046 | pneumonia
+2026-02-15 08:56:06,119 INFO [S2D] 834/1046 | psoriasis
+2026-02-15 08:56:06,121 INFO [S2D] 835/1046 | allergy
+2026-02-15 08:56:06,124 INFO [S2D] 836/1046 | arthritis
+2026-02-15 08:56:06,127 INFO [S2D] 837/1046 | varicose veins
+2026-02-15 08:56:06,130 INFO [S2D] 838/1046 | migraine
+2026-02-15 08:56:06,133 INFO [S2D] 839/1046 | impetigo
+2026-02-15 08:56:06,137 INFO [S2D] 840/1046 | allergy
+2026-02-15 08:56:06,140 INFO [S2D] 841/1046 | pneumonia
+2026-02-15 08:56:06,143 INFO [S2D] 842/1046 | peptic ulcer disease
+2026-02-15 08:56:06,146 INFO [S2D] 843/1046 | peptic ulcer disease
+2026-02-15 08:56:06,149 INFO [S2D] 844/1046 | drug reaction
+2026-02-15 08:56:06,152 INFO [S2D] 845/1046 | pneumonia
+2026-02-15 08:56:06,154 INFO [S2D] 846/1046 | fungal infection
+2026-02-15 08:56:06,158 INFO [S2D] 847/1046 | cervical spondylosis
+2026-02-15 08:56:06,161 INFO [S2D] 848/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:06,163 INFO [S2D] 849/1046 | psoriasis
+2026-02-15 08:56:06,166 INFO [S2D] 850/1046 | arthritis
+2026-02-15 08:56:06,170 INFO [S2D] 851/1046 | pneumonia
+2026-02-15 08:56:06,172 INFO [S2D] 852/1046 | arthritis
+2026-02-15 08:56:06,175 INFO [S2D] 853/1046 | cervical spondylosis
+2026-02-15 08:56:06,177 INFO [S2D] 854/1046 | malaria
+2026-02-15 08:56:06,180 INFO [S2D] 855/1046 | typhoid
+2026-02-15 08:56:06,183 INFO [S2D] 856/1046 | peptic ulcer disease
+2026-02-15 08:56:06,186 INFO [S2D] 857/1046 | malaria
+2026-02-15 08:56:06,189 INFO [S2D] 858/1046 | migraine
+2026-02-15 08:56:06,192 INFO [S2D] 859/1046 | bronchial asthma
+2026-02-15 08:56:06,195 INFO [S2D] 860/1046 | diabetes
+2026-02-15 08:56:06,197 INFO [S2D] 861/1046 | jaundice
+2026-02-15 08:56:06,201 INFO [S2D] 862/1046 | migraine
+2026-02-15 08:56:06,204 INFO [S2D] 863/1046 | malaria
+2026-02-15 08:56:06,207 INFO [S2D] 864/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:06,210 INFO [S2D] 865/1046 | malaria
+2026-02-15 08:56:06,212 INFO [S2D] 866/1046 | chicken pox
+2026-02-15 08:56:06,215 INFO [S2D] 867/1046 | arthritis
+2026-02-15 08:56:06,218 INFO [S2D] 868/1046 | urinary tract infection
+2026-02-15 08:56:06,221 INFO [S2D] 869/1046 | chicken pox
+2026-02-15 08:56:06,224 INFO [S2D] 870/1046 | fungal infection
+2026-02-15 08:56:06,227 INFO [S2D] 871/1046 | jaundice
+2026-02-15 08:56:06,230 INFO [S2D] 872/1046 | typhoid
+2026-02-15 08:56:06,232 INFO [S2D] 873/1046 | cervical spondylosis
+2026-02-15 08:56:06,235 INFO [S2D] 874/1046 | pneumonia
+2026-02-15 08:56:06,238 INFO [S2D] 875/1046 | bronchial asthma
+2026-02-15 08:56:06,240 INFO [S2D] 876/1046 | chicken pox
+2026-02-15 08:56:06,243 INFO [S2D] 877/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:06,246 INFO [S2D] 878/1046 | impetigo
+2026-02-15 08:56:06,249 INFO [S2D] 879/1046 | hypertension
+2026-02-15 08:56:06,252 INFO [S2D] 880/1046 | typhoid
+2026-02-15 08:56:06,255 INFO [S2D] 881/1046 | fungal infection
+2026-02-15 08:56:06,258 INFO [S2D] 882/1046 | common cold
+2026-02-15 08:56:06,261 INFO [S2D] 883/1046 | hypertension
+2026-02-15 08:56:06,263 INFO [S2D] 884/1046 | arthritis
+2026-02-15 08:56:06,266 INFO [S2D] 885/1046 | impetigo
+2026-02-15 08:56:06,269 INFO [S2D] 886/1046 | migraine
+2026-02-15 08:56:06,272 INFO [S2D] 887/1046 | drug reaction
+2026-02-15 08:56:06,275 INFO [S2D] 888/1046 | diabetes
+2026-02-15 08:56:06,278 INFO [S2D] 889/1046 | pneumonia
+2026-02-15 08:56:06,280 INFO [S2D] 890/1046 | urinary tract infection
+2026-02-15 08:56:06,283 INFO [S2D] 891/1046 | dengue
+2026-02-15 08:56:06,286 INFO [S2D] 892/1046 | dengue
+2026-02-15 08:56:06,289 INFO [S2D] 893/1046 | chicken pox
+2026-02-15 08:56:06,292 INFO [S2D] 894/1046 | migraine
+2026-02-15 08:56:06,295 INFO [S2D] 895/1046 | cervical spondylosis
+2026-02-15 08:56:06,298 INFO [S2D] 896/1046 | malaria
+2026-02-15 08:56:06,301 INFO [S2D] 897/1046 | jaundice
+2026-02-15 08:56:06,304 INFO [S2D] 898/1046 | common cold
+2026-02-15 08:56:06,307 INFO [S2D] 899/1046 | diabetes
+2026-02-15 08:56:06,310 INFO [S2D] 900/1046 | pneumonia
+2026-02-15 08:56:06,313 INFO [S2D] 901/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:06,316 INFO [S2D] 902/1046 | bronchial asthma
+2026-02-15 08:56:06,319 INFO [S2D] 903/1046 | varicose veins
+2026-02-15 08:56:06,323 INFO [S2D] 904/1046 | common cold
+2026-02-15 08:56:06,327 INFO [S2D] 905/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:06,331 INFO [S2D] 906/1046 | psoriasis
+2026-02-15 08:56:06,334 INFO [S2D] 907/1046 | cervical spondylosis
+2026-02-15 08:56:06,338 INFO [S2D] 908/1046 | peptic ulcer disease
+2026-02-15 08:56:06,341 INFO [S2D] 909/1046 | diabetes
+2026-02-15 08:56:06,345 INFO [S2D] 910/1046 | common cold
+2026-02-15 08:56:06,349 INFO [S2D] 911/1046 | common cold
+2026-02-15 08:56:06,352 INFO [S2D] 912/1046 | urinary tract infection
+2026-02-15 08:56:06,356 INFO [S2D] 913/1046 | jaundice
+2026-02-15 08:56:06,360 INFO [S2D] 914/1046 | pneumonia
+2026-02-15 08:56:06,364 INFO [S2D] 915/1046 | chicken pox
+2026-02-15 08:56:06,368 INFO [S2D] 916/1046 | fungal infection
+2026-02-15 08:56:06,372 INFO [S2D] 917/1046 | typhoid
+2026-02-15 08:56:06,376 INFO [S2D] 918/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:06,379 INFO [S2D] 919/1046 | migraine
+2026-02-15 08:56:06,383 INFO [S2D] 920/1046 | impetigo
+2026-02-15 08:56:06,387 INFO [S2D] 921/1046 | dengue
+2026-02-15 08:56:06,390 INFO [S2D] 922/1046 | allergy
+2026-02-15 08:56:06,394 INFO [S2D] 923/1046 | arthritis
+2026-02-15 08:56:06,398 INFO [S2D] 924/1046 | drug reaction
+2026-02-15 08:56:06,402 INFO [S2D] 925/1046 | allergy
+2026-02-15 08:56:06,406 INFO [S2D] 926/1046 | diabetes
+2026-02-15 08:56:06,409 INFO [S2D] 927/1046 | impetigo
+2026-02-15 08:56:06,413 INFO [S2D] 928/1046 | urinary tract infection
+2026-02-15 08:56:06,416 INFO [S2D] 929/1046 | allergy
+2026-02-15 08:56:06,419 INFO [S2D] 930/1046 | hypertension
+2026-02-15 08:56:06,422 INFO [S2D] 931/1046 | common cold
+2026-02-15 08:56:06,425 INFO [S2D] 932/1046 | malaria
+2026-02-15 08:56:06,429 INFO [S2D] 933/1046 | chicken pox
+2026-02-15 08:56:06,433 INFO [S2D] 934/1046 | allergy
+2026-02-15 08:56:06,436 INFO [S2D] 935/1046 | arthritis
+2026-02-15 08:56:06,440 INFO [S2D] 936/1046 | dengue
+2026-02-15 08:56:06,443 INFO [S2D] 937/1046 | chicken pox
+2026-02-15 08:56:06,446 INFO [S2D] 938/1046 | diabetes
+2026-02-15 08:56:06,450 INFO [S2D] 939/1046 | varicose veins
+2026-02-15 08:56:06,452 INFO [S2D] 940/1046 | migraine
+2026-02-15 08:56:06,456 INFO [S2D] 941/1046 | urinary tract infection
+2026-02-15 08:56:06,459 INFO [S2D] 942/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:06,462 INFO [S2D] 943/1046 | arthritis
+2026-02-15 08:56:06,465 INFO [S2D] 944/1046 | allergy
+2026-02-15 08:56:06,467 INFO [S2D] 945/1046 | diabetes
+2026-02-15 08:56:06,470 INFO [S2D] 946/1046 | cervical spondylosis
+2026-02-15 08:56:06,474 INFO [S2D] 947/1046 | impetigo
+2026-02-15 08:56:06,476 INFO [S2D] 948/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:06,480 INFO [S2D] 949/1046 | fungal infection
+2026-02-15 08:56:06,482 INFO [S2D] 950/1046 | dengue
+2026-02-15 08:56:06,486 INFO [S2D] 951/1046 | migraine
+2026-02-15 08:56:06,490 INFO [S2D] 952/1046 | common cold
+2026-02-15 08:56:06,494 INFO [S2D] 953/1046 | gastroesophageal reflux disease
+2026-02-15 08:56:06,497 INFO [S2D] 954/1046 | psoriasis
+2026-02-15 08:56:06,501 INFO [S2D] 955/1046 | pneumonia
+2026-02-15 08:56:06,505 INFO [S2D] 956/1046 | cervical spondylosis
+2026-02-15 08:56:06,509 INFO [S2D] 957/1046 | fungal infection
+2026-02-15 08:56:06,513 INFO [S2D] 958/1046 | peptic ulcer disease
+2026-02-15 08:56:06,517 INFO [S2D] 959/1046 | malaria
+2026-02-15 08:56:06,521 INFO [S2D] 960/1046 | allergy
+2026-02-15 08:56:06,524 INFO [S2D] 961/1046 | psoriasis
+2026-02-15 08:56:06,528 INFO [S2D] 962/1046 | hypertension
+2026-02-15 08:56:06,531 INFO [S2D] 963/1046 | impetigo
+2026-02-15 08:56:06,534 INFO [S2D] 964/1046 | chicken pox
+2026-02-15 08:56:06,537 INFO [S2D] 965/1046 | fungal infection
+2026-02-15 08:56:06,540 INFO [S2D] 966/1046 | impetigo
+2026-02-15 08:56:06,544 INFO [S2D] 967/1046 | allergy
+2026-02-15 08:56:06,548 INFO [S2D] 968/1046 | pneumonia
+2026-02-15 08:56:06,551 INFO [S2D] 969/1046 | cervical spondylosis
+2026-02-15 08:56:06,555 INFO [S2D] 970/1046 | psoriasis
+2026-02-15 08:56:06,559 INFO [S2D] 971/1046 | typhoid
+2026-02-15 08:56:06,562 INFO [S2D] 972/1046 | drug reaction
+2026-02-15 08:56:06,566 INFO [S2D] 973/1046 | malaria
+2026-02-15 08:56:06,570 INFO [S2D] 974/1046 | impetigo
+2026-02-15 08:56:06,574 INFO [S2D] 975/1046 | varicose veins
+2026-02-15 08:56:06,577 INFO [S2D] 976/1046 | urinary tract infection
+2026-02-15 08:56:06,581 INFO [S2D] 977/1046 | typhoid
+2026-02-15 08:56:06,585 INFO [S2D] 978/1046 | urinary tract infection
+2026-02-15 08:56:06,589 INFO [S2D] 979/1046 | impetigo
+2026-02-15 08:56:06,592 INFO [S2D] 980/1046 | psoriasis
+2026-02-15 08:56:06,596 INFO [S2D] 981/1046 | varicose veins
+2026-02-15 08:56:06,600 INFO [S2D] 982/1046 | common cold
+2026-02-15 08:56:06,604 INFO [S2D] 983/1046 | peptic ulcer disease
+2026-02-15 08:56:06,608 INFO [S2D] 984/1046 | hypertension
+2026-02-15 08:56:06,612 INFO [S2D] 985/1046 | bronchial asthma
+2026-02-15 08:56:06,616 INFO [S2D] 986/1046 | varicose veins
+2026-02-15 08:56:06,618 INFO [S2D] 987/1046 | urinary tract infection
+2026-02-15 08:56:06,621 INFO [S2D] 988/1046 | peptic ulcer disease
+2026-02-15 08:56:06,624 INFO [S2D] 989/1046 | malaria
+2026-02-15 08:56:06,627 INFO [S2D] 990/1046 | psoriasis
+2026-02-15 08:56:06,629 INFO [S2D] 991/1046 | migraine
+2026-02-15 08:56:06,632 INFO [S2D] 992/1046 | bronchial asthma
+2026-02-15 08:56:06,635 INFO [S2D] 993/1046 | urinary tract infection
+2026-02-15 08:56:06,638 INFO [S2D] 994/1046 | psoriasis
+2026-02-15 08:56:13,350 INFO [S2D] 995/1046 | dengue
+2026-02-15 08:56:18,984 INFO [S2D] 996/1046 | dengue
+2026-02-15 08:56:23,635 INFO [S2D] 997/1046 | hypertension
+2026-02-15 08:56:28,318 INFO [S2D] 998/1046 | pneumonia
+2026-02-15 08:56:34,045 INFO [S2D] 999/1046 | allergy
+2026-02-15 08:56:39,549 INFO [S2D] 1000/1046 | varicose veins
+2026-02-15 08:56:45,082 INFO [S2D] 1001/1046 | varicose veins
+2026-02-15 08:56:50,677 INFO [S2D] 1002/1046 | drug reaction
+2026-02-15 08:56:55,833 INFO [S2D] 1003/1046 | varicose veins
+2026-02-15 08:57:01,408 INFO [S2D] 1004/1046 | fungal infection
+2026-02-15 08:57:07,188 INFO [S2D] 1005/1046 | cervical spondylosis
+2026-02-15 08:57:12,189 INFO [S2D] 1006/1046 | varicose veins
+2026-02-15 08:57:19,015 INFO [S2D] 1007/1046 | typhoid
+2026-02-15 08:57:24,489 INFO [S2D] 1008/1046 | arthritis
+2026-02-15 08:57:31,112 INFO [S2D] 1009/1046 | fungal infection
+2026-02-15 08:57:37,302 INFO [S2D] 1010/1046 | drug reaction
+2026-02-15 08:57:43,648 INFO [S2D] 1011/1046 | peptic ulcer disease
+2026-02-15 08:57:48,540 INFO [S2D] 1012/1046 | allergy
+2026-02-15 08:57:53,487 INFO [S2D] 1013/1046 | gastroesophageal reflux disease
+2026-02-15 08:57:59,128 INFO [S2D] 1014/1046 | peptic ulcer disease
+2026-02-15 08:58:04,897 INFO [S2D] 1015/1046 | cervical spondylosis
+2026-02-15 08:58:10,842 INFO [S2D] 1016/1046 | typhoid
+2026-02-15 08:58:16,682 INFO [S2D] 1017/1046 | hypertension
+2026-02-15 08:58:21,086 INFO [S2D] 1018/1046 | impetigo
+2026-02-15 08:58:27,336 INFO [S2D] 1019/1046 | pneumonia
+2026-02-15 08:58:33,203 INFO [S2D] 1020/1046 | bronchial asthma
+2026-02-15 08:58:37,752 INFO [S2D] 1021/1046 | hypertension
+2026-02-15 08:58:44,209 INFO [S2D] 1022/1046 | common cold
+2026-02-15 08:58:49,739 INFO [S2D] 1023/1046 | migraine
+2026-02-15 08:58:56,660 INFO [S2D] 1024/1046 | typhoid
+2026-02-15 08:59:02,187 INFO [S2D] 1025/1046 | chicken pox
+2026-02-15 08:59:07,812 INFO [S2D] 1026/1046 | common cold
+2026-02-15 08:59:13,030 INFO [S2D] 1027/1046 | diabetes
+2026-02-15 08:59:19,300 INFO [S2D] 1028/1046 | migraine
+2026-02-15 08:59:25,913 INFO [S2D] 1029/1046 | bronchial asthma
+2026-02-15 08:59:31,147 INFO [S2D] 1030/1046 | dengue
+2026-02-15 08:59:38,224 INFO [S2D] 1031/1046 | arthritis
+2026-02-15 08:59:44,860 INFO [S2D] 1032/1046 | drug reaction
+2026-02-15 08:59:53,147 INFO [S2D] 1033/1046 | varicose veins
+2026-02-15 08:59:59,057 INFO [S2D] 1034/1046 | allergy
+2026-02-15 09:00:04,803 INFO [S2D] 1035/1046 | jaundice
+2026-02-15 09:00:10,031 INFO [S2D] 1036/1046 | psoriasis
+2026-02-15 09:00:16,551 INFO [S2D] 1037/1046 | arthritis
+2026-02-15 09:00:22,482 INFO [S2D] 1038/1046 | drug reaction
+2026-02-15 09:00:29,965 INFO [S2D] 1039/1046 | bronchial asthma
+2026-02-15 09:00:35,614 INFO [S2D] 1040/1046 | peptic ulcer disease
+2026-02-15 09:00:41,296 INFO [S2D] 1041/1046 | chicken pox
+2026-02-15 09:00:47,876 INFO [S2D] 1042/1046 | dengue
+2026-02-15 09:00:53,486 INFO [S2D] 1043/1046 | psoriasis
+2026-02-15 09:01:00,518 INFO [S2D] 1044/1046 | bronchial asthma
+2026-02-15 09:01:06,127 INFO [S2D] 1045/1046 | bronchial asthma
+2026-02-15 09:01:12,271 INFO [S2D] 1046/1046 | dengue
+2026-02-15 09:01:19,202 INFO [S2D] LLM-Only: Top1=0.3164 Top5=0.5382 NDCG@5=0.4655
+2026-02-15 09:01:19,202 INFO [S2D] Dense RAG: Top1=0.0287 Top5=0.0296 NDCG@5=0.0299
+2026-02-15 09:01:19,202 INFO [S2D] BM25+PPMI: Top1=0.1033 Top5=0.1329 NDCG@5=0.1302
+2026-02-15 09:01:19,202 INFO [S2D] Multi-Source KG: Top1=0.0191 Top5=0.021 NDCG@5=0.0221
+2026-02-15 09:01:19,259 INFO EXPERIMENT COMPLETE

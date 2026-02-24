@@ -1,0 +1,201 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{brown2020gpt3}
+\citation{lewis2020rag}
+\citation{edge2024graphrag}
+\citation{microsoft2024graphrag}
+\citation{lewis2020rag}
+\citation{karpukhin2020dpr}
+\citation{khattab2020colbert}
+\citation{izacard2021fid}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{fang2024amkor}
+\citation{wang2024kga}
+\citation{chen2024fairrag}
+\citation{li2024marag}
+\citation{shi2024replug}
+\citation{izacard2023atlas}
+\citation{li2024eagraphrag}
+\citation{chen2024efficientrag}
+\citation{wang2024rtrag}
+\citation{zhang2024cirag}
+\citation{liu2024ace}
+\citation{yang2024hugrag}
+\citation{edge2024graphrag}
+\citation{microsoft2024graphrag}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Retrieval-Augmented Generation}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Recent Advanced RAG Systems}{2}{subsection.2.2}\protected@file@percent }
+\newlabel{sec:recent_rag}{{2.2}{2}{Recent Advanced RAG Systems}{subsection.2.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Adaptive and Routing-Based RAG}{2}{subsection.2.3}\protected@file@percent }
+\newlabel{sec:adaptive_rag}{{2.3}{2}{Adaptive and Routing-Based RAG}{subsection.2.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Comparison with adaptive RAG methods}}{2}{table.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:routing_comparison}{{1}{2}{Comparison with adaptive RAG methods}{table.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Comparison with GraphRAG}{2}{subsection.2.4}\protected@file@percent }
+\newlabel{sec:graphrag}{{2.4}{2}{Comparison with GraphRAG}{subsection.2.4}{}}
+\citation{pennington2014glove}
+\citation{ni2022sentence_t5}
+\citation{johnson2019faiss}
+\citation{wu2020blink}
+\citation{motik2012owl2}
+\citation{rdfox2023}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{3}{section.3}\protected@file@percent }
+\newlabel{sec:method}{{3}{3}{Methodology}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Pipeline Architecture Overview}{3}{subsection.3.1}\protected@file@percent }
+\newlabel{sec:pipeline}{{3.1}{3}{Pipeline Architecture Overview}{subsection.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Co-occurrence Module}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Third source comparison (HotpotQA)}}{3}{table.caption.4}\protected@file@percent }
+\newlabel{tab:cooc_vs_bm25}{{2}{3}{Third source comparison (HotpotQA)}{table.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Sequence Module}{3}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Knowledge Graph Module}{3}{subsection.3.4}\protected@file@percent }
+\newlabel{sec:ontology}{{3.4}{3}{Knowledge Graph Module}{subsection.3.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1}Graph Construction and Data Sources}{3}{subsubsection.3.4.1}\protected@file@percent }
+\newlabel{sec:kg_construction}{{3.4.1}{3}{Graph Construction and Data Sources}{subsubsection.3.4.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}Entity Linking}{3}{subsubsection.3.4.2}\protected@file@percent }
+\newlabel{sec:entity_linking}{{3.4.2}{3}{Entity Linking}{subsubsection.3.4.2}{}}
+\citation{jang2017gumbel}
+\citation{williams1992reinforce}
+\citation{oord2018infonce}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Complete pipeline with numbered steps. Cross-attention enriches ALL 30 candidates before gating scores are computed. Gating combines per-candidate scores (Eq.~\ref {eq:candidate_gating}) with source-level weights (Eq.~\ref {eq:source_gating}) multiplicatively.}}{4}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:pipeline}{{1}{4}{Complete pipeline with numbered steps. Cross-attention enriches ALL 30 candidates before gating scores are computed. Gating combines per-candidate scores (Eq.~\ref {eq:candidate_gating}) with source-level weights (Eq.~\ref {eq:source_gating}) multiplicatively}{figure.caption.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Entity linking error analysis (500 errors)}}{4}{table.caption.5}\protected@file@percent }
+\newlabel{tab:entity_error}{{3}{4}{Entity linking error analysis (500 errors)}{table.caption.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.3}OWL 2 RL Ontology and Materialization}{4}{subsubsection.3.4.3}\protected@file@percent }
+\newlabel{sec:owl2rl}{{3.4.3}{4}{OWL 2 RL Ontology and Materialization}{subsubsection.3.4.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Impact of materialization depth on HotpotQA}}{4}{table.caption.6}\protected@file@percent }
+\newlabel{tab:materialization_depth}{{4}{4}{Impact of materialization depth on HotpotQA}{table.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Two-Stage Training Pipeline}{4}{subsection.3.5}\protected@file@percent }
+\newlabel{sec:training}{{3.5}{4}{Two-Stage Training Pipeline}{subsection.3.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.1}Stage 1: Contrastive Gating Training}{4}{subsubsection.3.5.1}\protected@file@percent }
+\newlabel{sec:stage1}{{3.5.1}{4}{Stage 1: Contrastive Gating Training}{subsubsection.3.5.1}{}}
+\newlabel{eq:infonce}{{4}{4}{Stage 1: Contrastive Gating Training}{equation.3.4}{}}
+\newlabel{eq:candidate_gating}{{5}{4}{Stage 1: Contrastive Gating Training}{equation.3.5}{}}
+\citation{hu2022lora}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2}Stage 2: Cross-Attention Fine-tuning with Generation Loss}{5}{subsubsection.3.5.2}\protected@file@percent }
+\newlabel{sec:stage2}{{3.5.2}{5}{Stage 2: Cross-Attention Fine-tuning with Generation Loss}{subsubsection.3.5.2}{}}
+\newlabel{eq:gen_loss}{{7}{5}{Stage 2: Cross-Attention Fine-tuning with Generation Loss}{equation.3.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.3}Compute Breakdown}{5}{subsubsection.3.5.3}\protected@file@percent }
+\newlabel{sec:compute}{{3.5.3}{5}{Compute Breakdown}{subsubsection.3.5.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Training compute breakdown (4$\times $A100 80GB)}}{5}{table.caption.7}\protected@file@percent }
+\newlabel{tab:compute}{{5}{5}{Training compute breakdown (4$\times $A100 80GB)}{table.caption.7}{}}
+\citation{yang2018hotpotqa}
+\citation{talmor2018complexwebq}
+\citation{berant2013webquestions}
+\citation{krishna2024frames}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Gating accuracy transfers across LLMs}}{6}{table.caption.8}\protected@file@percent }
+\newlabel{tab:transfer}{{6}{6}{Gating accuracy transfers across LLMs}{table.caption.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.4}Training-Inference Model Transfer}{6}{subsubsection.3.5.4}\protected@file@percent }
+\newlabel{sec:transfer}{{3.5.4}{6}{Training-Inference Model Transfer}{subsubsection.3.5.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Bidirectional Cross-Attention Mechanism}{6}{subsection.3.6}\protected@file@percent }
+\newlabel{sec:bidirectional}{{3.6}{6}{Bidirectional Cross-Attention Mechanism}{subsection.3.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Gating Mechanism: Two-Level Scoring}{6}{subsection.3.7}\protected@file@percent }
+\newlabel{sec:gating}{{3.7}{6}{Gating Mechanism: Two-Level Scoring}{subsection.3.7}{}}
+\newlabel{eq:source_gating}{{11}{6}{Gating Mechanism: Two-Level Scoring}{equation.3.11}{}}
+\newlabel{eq:combined_score}{{12}{6}{Gating Mechanism: Two-Level Scoring}{equation.3.12}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Learned source-level gate weights by query type}}{6}{table.caption.9}\protected@file@percent }
+\newlabel{tab:gate_distribution}{{7}{6}{Learned source-level gate weights by query type}{table.caption.9}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.7.1}Relevance Threshold Sensitivity}{6}{subsubsection.3.7.1}\protected@file@percent }
+\newlabel{sec:theta_sensitivity}{{3.7.1}{6}{Relevance Threshold Sensitivity}{subsubsection.3.7.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces $\theta _r$ sensitivity for KG traversal (HotpotQA)}}{6}{table.caption.10}\protected@file@percent }
+\newlabel{tab:theta}{{8}{6}{$\theta _r$ sensitivity for KG traversal (HotpotQA)}{table.caption.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{6}{section.4}\protected@file@percent }
+\newlabel{sec:experiments}{{4}{6}{Experiments}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Experimental Setup}{6}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}LLM Backbone}{6}{subsubsection.4.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Benchmarks}{6}{subsubsection.4.1.2}\protected@file@percent }
+\newlabel{sec:benchmarks}{{4.1.2}{6}{Benchmarks}{subsubsection.4.1.2}{}}
+\citation{he2021deberta}
+\citation{fang2024amkor}
+\citation{li2024marag}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}Evaluation Metrics}{7}{subsubsection.4.1.3}\protected@file@percent }
+\newlabel{sec:metrics}{{4.1.3}{7}{Evaluation Metrics}{subsubsection.4.1.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.4}Generator Parity Statement}{7}{subsubsection.4.1.4}\protected@file@percent }
+\newlabel{sec:generator_parity}{{4.1.4}{7}{Generator Parity Statement}{subsubsection.4.1.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.5}Data Leakage Mitigation}{7}{subsubsection.4.1.5}\protected@file@percent }
+\newlabel{sec:leakage}{{4.1.5}{7}{Data Leakage Mitigation}{subsubsection.4.1.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Main Results}{7}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Baseline Native Configuration Comparison}{7}{subsection.4.3}\protected@file@percent }
+\newlabel{sec:native_config}{{4.3}{7}{Baseline Native Configuration Comparison}{subsection.4.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Comprehensive Ablation Studies}{7}{subsection.4.4}\protected@file@percent }
+\newlabel{sec:ablations}{{4.4}{7}{Comprehensive Ablation Studies}{subsection.4.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1}Gating Mechanism Ablation}{7}{subsubsection.4.4.1}\protected@file@percent }
+\newlabel{sec:gating_ablation}{{4.4.1}{7}{Gating Mechanism Ablation}{subsubsection.4.4.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2}Cross-Attention Fusion Ablation}{7}{subsubsection.4.4.2}\protected@file@percent }
+\newlabel{sec:fusion_ablation}{{4.4.2}{7}{Cross-Attention Fusion Ablation}{subsubsection.4.4.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.3}KG Source Ablation}{7}{subsubsection.4.4.3}\protected@file@percent }
+\newlabel{sec:kg_source_ablation}{{4.4.3}{7}{KG Source Ablation}{subsubsection.4.4.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.4}Co-occurrence Sensitivity}{7}{subsubsection.4.4.4}\protected@file@percent }
+\newlabel{sec:cooc_sensitivity}{{4.4.4}{7}{Co-occurrence Sensitivity}{subsubsection.4.4.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.5}Source Combination Ablation}{7}{subsubsection.4.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}FRAMES Benchmark Results}{7}{subsection.4.5}\protected@file@percent }
+\newlabel{sec:frames}{{4.5}{7}{FRAMES Benchmark Results}{subsection.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Latency Comparison}{7}{subsection.4.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{7}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Why Two-Stage Training Works}{7}{subsection.5.1}\protected@file@percent }
+\bibstyle{plain}
+\bibdata{references_v8}
+\bibcite{berant2013webquestions}{1}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Main results with 95\% bootstrap confidence intervals. All methods use identical GPT-3.5-turbo generator.}}{8}{table.caption.11}\protected@file@percent }
+\newlabel{tab:main}{{9}{8}{Main results with 95\% bootstrap confidence intervals. All methods use identical GPT-3.5-turbo generator}{table.caption.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Native vs. parity configuration comparison}}{8}{table.caption.12}\protected@file@percent }
+\newlabel{tab:native_config}{{10}{8}{Native vs. parity configuration comparison}{table.caption.12}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Gating mechanism comparison (HotpotQA)}}{8}{table.caption.13}\protected@file@percent }
+\newlabel{tab:gating_ablation}{{11}{8}{Gating mechanism comparison (HotpotQA)}{table.caption.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Limitations}{8}{subsection.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Fusion method comparison (HotpotQA)}}{8}{table.caption.14}\protected@file@percent }
+\newlabel{tab:fusion_ablation}{{12}{8}{Fusion method comparison (HotpotQA)}{table.caption.14}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces KG source ablation (HotpotQA)}}{8}{table.caption.15}\protected@file@percent }
+\newlabel{tab:kg_source}{{13}{8}{KG source ablation (HotpotQA)}{table.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{8}{section.6}\protected@file@percent }
+\bibcite{brown2020gpt3}{2}
+\bibcite{chen2024fairrag}{3}
+\bibcite{chen2024efficientrag}{4}
+\bibcite{edge2024graphrag}{5}
+\bibcite{fang2024amkor}{6}
+\bibcite{he2021deberta}{7}
+\bibcite{hu2022lora}{8}
+\bibcite{izacard2021fid}{9}
+\bibcite{izacard2023atlas}{10}
+\bibcite{jang2017gumbel}{11}
+\bibcite{johnson2019faiss}{12}
+\bibcite{karpukhin2020dpr}{13}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Co-occurrence hyperparameter sensitivity}}{9}{table.caption.16}\protected@file@percent }
+\newlabel{tab:cooc_sensitivity}{{14}{9}{Co-occurrence hyperparameter sensitivity}{table.caption.16}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces Source combination ablation (HotpotQA)}}{9}{table.caption.17}\protected@file@percent }
+\newlabel{tab:source_ablation}{{15}{9}{Source combination ablation (HotpotQA)}{table.caption.17}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces FRAMES benchmark results (EM by reasoning hops)}}{9}{table.caption.18}\protected@file@percent }
+\newlabel{tab:frames}{{16}{9}{FRAMES benchmark results (EM by reasoning hops)}{table.caption.18}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces End-to-end latency comparison (HotpotQA)}}{9}{table.caption.19}\protected@file@percent }
+\newlabel{tab:latency}{{17}{9}{End-to-end latency comparison (HotpotQA)}{table.caption.19}{}}
+\bibcite{khattab2020colbert}{14}
+\bibcite{krishna2024frames}{15}
+\bibcite{lewis2020rag}{16}
+\bibcite{li2024marag}{17}
+\bibcite{li2024eagraphrag}{18}
+\bibcite{liu2024ace}{19}
+\bibcite{microsoft2024graphrag}{20}
+\bibcite{motik2012owl2}{21}
+\bibcite{ni2022sentence_t5}{22}
+\bibcite{rdfox2023}{23}
+\bibcite{pennington2014glove}{24}
+\bibcite{shi2024replug}{25}
+\bibcite{talmor2018complexwebq}{26}
+\bibcite{oord2018infonce}{27}
+\bibcite{wang2024kga}{28}
+\bibcite{wang2024rtrag}{29}
+\bibcite{williams1992reinforce}{30}
+\bibcite{wu2020blink}{31}
+\bibcite{yang2024hugrag}{32}
+\bibcite{yang2018hotpotqa}{33}
+\bibcite{zhang2024cirag}{34}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Reproduction Guide}{11}{appendix.A}\protected@file@percent }
+\newlabel{app:repro}{{A}{11}{Reproduction Guide}{appendix.A}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Two-Stage Training}{11}{subsection.A.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {B}Additional Ablations}{11}{appendix.B}\protected@file@percent }
+\newlabel{app:ablations}{{B}{11}{Additional Ablations}{appendix.B}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.1}Training Stage Ablation}{11}{subsection.B.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {18}{\ignorespaces Training stage ablation}}{11}{table.caption.21}\protected@file@percent }
+\gdef \@abspage@last{11}

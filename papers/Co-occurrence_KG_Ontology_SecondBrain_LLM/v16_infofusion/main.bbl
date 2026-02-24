@@ -1,0 +1,182 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{forte2022building}
+T.~Forte, Building a Second Brain: A Proven Method to Organize Your Digital
+  Life and Unlock Your Creative Potential, Atria Books, 2022.
+
+\bibitem{jones2007personal}
+W.~Jones, Personal information management, Annual Review of Information Science
+  and Technology 41~(1) (2007) 453--504.
+
+\bibitem{izacard2022unsupervised}
+G.~Izacard, M.~Caron, L.~Hosseini, S.~Riedel, P.~Bojanowski, A.~Joulin,
+  E.~Grave, Unsupervised dense information retrieval with contrastive learning,
+  Transactions on Machine Learning Research (2022).
+
+\bibitem{xiao2023bge}
+S.~Xiao, Z.~Liu, P.~Zhang, N.~Muennighoff, C-pack: Packaged resources to
+  advance general {Chinese} embedding, arXiv preprint arXiv:2309.07597 (2023).
+
+\bibitem{xiong2021answering}
+W.~Xiong, X.~Li, K.~Iber, et~al., Answering complex open-domain questions with
+  multi-hop dense retrieval, in: International Conference on Learning
+  Representations, 2021.
+
+\bibitem{gao2024retrieval}
+Y.~Gao, Y.~Xiong, X.~Gao, K.~Jia, J.~Pan, Y.~Bi, Y.~Dai, J.~Sun, H.~Wang,
+  Retrieval-augmented generation for large language models: A survey, arXiv
+  preprint arXiv:2312.10997 (2024).
+
+\bibitem{lewis2020retrieval}
+P.~Lewis, E.~Perez, A.~Piktus, F.~Petroni, V.~Karpukhin, N.~Goyal,
+  H.~K{\"u}ttler, M.~Lewis, W.-t. Yih, T.~Rockt{\"a}schel, et~al.,
+  Retrieval-augmented generation for knowledge-intensive {NLP} tasks, in:
+  Advances in Neural Information Processing Systems, Vol.~33, 2020, pp.
+  9459--9474.
+
+\bibitem{khaleghi2013multisensor}
+B.~Khaleghi, A.~Khamis, F.~O. Karray, S.~N. Razavi, Multisensor data fusion: A
+  review of the state-of-the-art, Information Fusion 14~(1) (2013) 28--44.
+
+\bibitem{castanedo2013review}
+F.~Castanedo, A review of data fusion techniques, The Scientific World Journal
+  2013 (2013).
+
+\bibitem{edge2024local}
+D.~Edge, H.~Trinh, N.~Cheng, J.~Bradley, A.~Chao, A.~Mody, S.~Truitt,
+  J.~Larson, From local to global: A graph {RAG} approach to query-focused
+  summarization, arXiv preprint arXiv:2404.16130 (2024).
+
+\bibitem{peng2024graph}
+B.~Peng, M.~Galley, P.~He, H.~Cheng, Y.~Xie, Y.~Hu, Q.~Huang, L.~Liden, Z.~Yu,
+  W.~Chen, J.~Gao, Graph retrieval-augmented generation: A survey, arXiv
+  preprint arXiv:2408.08921 (2024).
+
+\bibitem{asai2024selfrag}
+A.~Asai, Z.~Wu, Y.~Wang, A.~Sil, H.~Hajishirzi, Self-{RAG}: Learning to
+  retrieve, generate, and critique through self-reflection, International
+  Conference on Learning Representations (2024).
+
+\bibitem{jeong2024adaptive}
+S.~Jeong, J.~Baek, S.~Cho, S.~J. Hwang, J.~C. Park, Adaptive-{RAG}: Learning to
+  adapt retrieval-augmented large language models through question complexity,
+  Proceedings of NAACL (2024).
+
+\bibitem{karpukhin2020dense}
+V.~Karpukhin, B.~O{\u{g}}uz, S.~Min, P.~Lewis, L.~Wu, S.~Edunov, D.~Chen, W.-t.
+  Yih, Dense passage retrieval for open-domain question answering, in:
+  Proceedings of EMNLP, 2020, pp. 6769--6781.
+
+\bibitem{zhao2024retrieval}
+P.~Zhao, H.~Zhang, Q.~Yu, Z.~Wang, Y.~Geng, F.~Fu, L.~Yang, W.~Zhang, J.~Jiang,
+  B.~Cui, Retrieval-augmented generation for {AI}-generated content: A survey,
+  arXiv preprint arXiv:2402.19473 (2024).
+
+\bibitem{khattab2021baleen}
+O.~Khattab, C.~Potts, M.~Zaharia, Baleen: Robust multi-hop reasoning at scale
+  via condensed retrieval, in: Advances in Neural Information Processing
+  Systems, Vol.~34, 2021.
+
+\bibitem{zhao2024beam}
+J.~Zhao, Y.~Zhu, L.~Yang, J.~Xu, et~al., Beam retrieval: General end-to-end
+  retrieval for multi-hop question answering, in: Findings of ACL, 2024.
+
+\bibitem{trivedi2022musique}
+H.~Trivedi, N.~Balasubramanian, T.~Khot, A.~Sabharwal, {MuSiQue}: Multihop
+  questions via single-hop question composition, Transactions of the
+  Association for Computational Linguistics 10 (2022) 539--554.
+
+\bibitem{pan2024unifying}
+S.~Pan, L.~Luo, Y.~Wang, C.~Chen, J.~Wang, X.~Wu, Unifying large language
+  models and knowledge graphs: A roadmap, IEEE Transactions on Knowledge and
+  Data Engineering 36~(7) (2024) 3580--3599.
+
+\bibitem{hogan2021knowledge}
+A.~Hogan, E.~Blomqvist, M.~Cochez, C.~d'Amato, G.~d. Melo, C.~Gutierrez,
+  S.~Kirrane, J.~E.~L. Gayo, R.~Navigli, S.~Neumaier, et~al., Knowledge graphs,
+  ACM Computing Surveys 54~(4) (2021) 1--37.
+
+\bibitem{sun2024thinkongraph}
+J.~Sun, C.~Xu, L.~Tang, S.~Wang, C.~Lin, Y.~Gong, H.-Y. Shum, J.~Guo,
+  Think-on-graph: Deep and responsible reasoning of large language model on
+  knowledge graph, in: International Conference on Learning Representations,
+  2024.
+
+\bibitem{luo2024reasoning}
+L.~Luo, Y.-F. Li, G.~Haffari, S.~Pan, Reasoning on graphs: Faithful and
+  interpretable large language model reasoning, in: International Conference on
+  Learning Representations, 2024.
+
+\bibitem{cormack2009rrf}
+G.~V. Cormack, C.~L. Clarke, S.~Buettcher, Reciprocal rank fusion outperforms
+  condorcet and individual rank learning methods, in: Proceedings of SIGIR,
+  2009, pp. 758--759.
+
+\bibitem{shazeer2017outrageously}
+N.~Shazeer, A.~Mirhoseini, K.~Maziarz, A.~Davis, Q.~Le, G.~Hinton, J.~Dean,
+  Outrageously large neural networks: The sparsely-gated mixture-of-experts
+  layer, in: International Conference on Learning Representations, 2017.
+
+\bibitem{jacobs1991adaptive}
+R.~A. Jacobs, M.~I. Jordan, S.~J. Nowlan, G.~E. Hinton, Adaptive mixtures of
+  local experts, Neural Computation 3~(1) (1991) 79--87.
+
+\bibitem{ma2023hybrid}
+X.~Ma, et~al., A hybrid approach to full-stage information retrieval, in:
+  Proceedings of SIGIR, 2023.
+
+\bibitem{robertson2009probabilistic}
+S.~Robertson, H.~Zaragoza, The probabilistic relevance framework: {BM25} and
+  beyond, Foundations and Trends in Information Retrieval 3~(4) (2009)
+  333--389.
+
+\bibitem{meng2024knowledge}
+Z.~Meng, X.~Li, J.~Chen, P.~Groth, Knowledge graph completion with multi-source
+  information fusion, Information Fusion 101 (2024) 102024.
+
+\bibitem{guan2024mirag}
+S.~Guan, J.~Cheng, X.~Li, Multi-source information fusion for
+  retrieval-augmented generation, Information Fusion 108 (2024) 102427.
+
+\bibitem{johnson2019billion}
+J.~Johnson, M.~Douze, H.~J{\'e}gou, Billion-scale similarity search with
+  {GPUs}, IEEE Transactions on Big Data 7~(3) (2019) 535--547.
+
+\bibitem{church1990word}
+K.~W. Church, P.~Hanks, Word association norms, mutual information, and
+  lexicography, Computational Linguistics 16~(1) (1990) 22--29.
+
+\bibitem{levy2014neural}
+O.~Levy, Y.~Goldberg, Neural word embedding as implicit matrix factorization,
+  in: Advances in Neural Information Processing Systems, Vol.~27, 2014.
+
+\bibitem{ayoola2022refined}
+T.~Ayoola, S.~Tyagi, J.~Fisher, A.~Pierleoni, V.~Shrivastava, {ReFinED}: An
+  efficient zero-shot-capable approach to end-to-end entity linking, in:
+  Proceedings of NAACL, 2022, pp. 209--220.
+
+\bibitem{baader2003description}
+F.~Baader, D.~Calvanese, D.~L. McGuinness, D.~Nardi, P.~F. Patel-Schneider, The
+  description logic handbook: Theory, implementation and applications (2003).
+
+\bibitem{haveliwala2003topic}
+T.~H. Haveliwala, Topic-sensitive {PageRank}: A context-sensitive ranking
+  algorithm for web search, IEEE Transactions on Knowledge and Data Engineering
+  15~(4) (2003) 784--796.
+
+\bibitem{vaswani2017attention}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
+  {\L}.~Kaiser, I.~Polosukhin, Attention is all you need, in: Advances in
+  Neural Information Processing Systems, Vol.~30, 2017.
+
+\bibitem{yang2018hotpotqa}
+Z.~Yang, P.~Qi, S.~Zhang, Y.~Bengio, W.~W. Cohen, R.~Salakhutdinov, C.~D.
+  Manning, {HotpotQA}: A dataset for diverse, explainable multi-hop question
+  answering, in: Proceedings of EMNLP, 2018, pp. 2369--2380.
+
+\end{thebibliography}

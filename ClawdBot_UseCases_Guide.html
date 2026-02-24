@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClawdBot: 5 Popular Use Cases - Setup Guide & Examples</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #FF4500;
+            --primary-dark: #CC3700;
+            --secondary: #1a1a2e;
+            --accent: #00d4aa;
+            --text: #2d3748;
+            --text-light: #718096;
+            --bg: #ffffff;
+            --bg-code: #1e1e2e;
+            --border: #e2e8f0;
+            --success: #48bb78;
+            --warning: #ed8936;
+            --info: #4299e1;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.7;
+            color: var(--text);
+            background: var(--bg);
+            font-size: 11pt;
+        }
+        
+        .cover {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, var(--secondary) 0%, #16213e 50%, #0f3460 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 40px;
+            page-break-after: always;
+        }
+        
+        .cover-logo {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        
+        .cover h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            letter-spacing: -1px;
+        }
+        
+        .cover h2 {
+            font-size: 24px;
+            font-weight: 400;
+            color: var(--accent);
+            margin-bottom: 40px;
+        }
+        
+        .cover-meta {
+            font-size: 14px;
+            color: rgba(255,255,255,0.7);
+            margin-top: 60px;
+        }
+        
+        .toc {
+            padding: 60px 80px;
+            page-break-after: always;
+        }
+        
+        .toc h2 {
+            font-size: 32px;
+            color: var(--secondary);
+            margin-bottom: 40px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--primary);
+        }
+        
+        .toc-list {
+            list-style: none;
+        }
+        
+        .toc-list > li {
+            margin-bottom: 25px;
+        }
+        
+        .toc-list > li > a {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--secondary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .toc-list > li > a:hover {
+            color: var(--primary);
+        }
+        
+        .toc-num {
+            display: inline-flex;
+            width: 36px;
+            height: 36px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+        
+        .toc-sub {
+            list-style: none;
+            margin-left: 48px;
+            margin-top: 10px;
+        }
+        
+        .toc-sub li {
+            margin: 6px 0;
+        }
+        
+        .toc-sub a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 60px;
+        }
+        
+        .use-case {
+            page-break-before: always;
+        }
+        
+        .use-case-header {
+            background: linear-gradient(135deg, var(--secondary) 0%, #16213e 100%);
+            color: white;
+            padding: 50px 60px;
+            margin: -40px -60px 40px;
+            border-radius: 0 0 20px 20px;
+        }
+        
+        .use-case-number {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .use-case-header h2 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .use-case-header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        h3 {
+            font-size: 22px;
+            color: var(--secondary);
+            margin: 35px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border);
+        }
+        
+        h3::before {
+            content: "▸ ";
+            color: var(--primary);
+        }
+        
+        h4 {
+            font-size: 17px;
+            color: var(--text);
+            margin: 25px 0 12px;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul, ol {
+            margin: 15px 0 20px 25px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        pre {
+            background: var(--bg-code);
+            border-radius: 10px;
+            padding: 20px;
+            overflow-x: auto;
+            margin: 20px 0;
+            border: 1px solid #2d2d44;
+        }
+        
+        code {
+            font-family: 'JetBrains Mono', 'Fira Code', monospace;
+            font-size: 12px;
+            line-height: 1.6;
+        }
+        
+        pre code {
+            color: #a6accd;
+        }
+        
+        :not(pre) > code {
+            background: #f1f5f9;
+            padding: 3px 8px;
+            border-radius: 5px;
+            color: var(--primary-dark);
+            font-size: 13px;
+        }
+        
+        .comment { color: #636da3; font-style: italic; }
+        .keyword { color: #c792ea; }
+        .string { color: #c3e88d; }
+        .property { color: #89ddff; }
+        .value { color: #f78c6c; }
+        .boolean { color: #ff9cac; }
+        
+        .callout {
+            padding: 20px 25px;
+            border-radius: 10px;
+            margin: 25px 0;
+            border-left: 4px solid;
+        }
+        
+        .callout-tip {
+            background: #f0fff4;
+            border-color: var(--success);
+        }
+        
+        .callout-tip::before {
+            content: "💡 Tip: ";
+            font-weight: 600;
+            color: var(--success);
+        }
+        
+        .callout-warning {
+            background: #fffaf0;
+            border-color: var(--warning);
+        }
+        
+        .callout-warning::before {
+            content: "⚠️ Note: ";
+            font-weight: 600;
+            color: var(--warning);
+        }
+        
+        .callout-info {
+            background: #ebf8ff;
+            border-color: var(--info);
+        }
+        
+        .callout-info::before {
+            content: "ℹ️ Info: ";
+            font-weight: 600;
+            color: var(--info);
+        }
+        
+        .conversation {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            border: 1px solid var(--border);
+        }
+        
+        .conversation-title {
+            font-weight: 600;
+            color: var(--secondary);
+            margin-bottom: 20px;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .msg {
+            margin: 12px 0;
+            padding: 12px 16px;
+            border-radius: 12px;
+            max-width: 85%;
+        }
+        
+        .msg-user {
+            background: var(--primary);
+            color: white;
+            margin-left: auto;
+            border-bottom-right-radius: 4px;
+        }
+        
+        .msg-bot {
+            background: white;
+            border: 1px solid var(--border);
+            border-bottom-left-radius: 4px;
+        }
+        
+        .msg-label {
+            font-size: 11px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            opacity: 0.8;
+        }
+        
+        .msg-user .msg-label { color: rgba(255,255,255,0.8); }
+        .msg-bot .msg-label { color: var(--text-light); }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        th {
+            background: var(--secondary);
+            color: white;
+            font-weight: 600;
+        }
+        
+        tr:nth-child(even) {
+            background: #f8fafc;
+        }
+        
+        .prereq-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        .prereq-list li {
+            background: #f8fafc;
+            padding: 15px 20px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .prereq-list .icon {
+            font-size: 20px;
+        }
+        
+        .step {
+            display: flex;
+            gap: 20px;
+            margin: 25px 0;
+            padding: 20px;
+            background: #fafbfc;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+        
+        .step-num {
+            width: 40px;
+            height: 40px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        
+        .step-content {
+            flex: 1;
+        }
+        
+        .step-content h4 {
+            margin: 0 0 10px;
+            color: var(--secondary);
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-light);
+            font-size: 12px;
+            border-top: 1px solid var(--border);
+            margin-top: 60px;
+        }
+
+        @media print {
+            .use-case {
+                page-break-before: always;
+            }
+            
+            pre {
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+            
+            .cover {
+                height: 100vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Cover Page -->
+    <div class="cover">
+        <div class="cover-logo">🦞</div>
+        <h1>ClawdBot</h1>
+        <h2>5 Popular Use Cases</h2>
+        <p style="font-size: 18px; max-width: 600px; opacity: 0.9;">
+            Setup Guide & Examples for Building Your Personal AI Assistant
+        </p>
+        <div class="cover-meta">
+            <p>Version 1.0 • January 2025</p>
+            <p>Documentation for ClawdBot Gateway</p>
+        </div>
+    </div>
+
+    <!-- Table of Contents -->
+    <div class="toc">
+        <h2>Table of Contents</h2>
+        <ol class="toc-list">
+            <li>
+                <a href="#usecase1"><span class="toc-num">1</span> Personal Telegram Assistant</a>
+                <ul class="toc-sub">
+                    <li><a href="#uc1-overview">Overview</a></li>
+                    <li><a href="#uc1-prerequisites">Prerequisites</a></li>
+                    <li><a href="#uc1-setup">Step-by-Step Setup</a></li>
+                    <li><a href="#uc1-config">Configuration Examples</a></li>
+                    <li><a href="#uc1-usage">Usage Examples</a></li>
+                    <li><a href="#uc1-tips">Tips & Best Practices</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#usecase2"><span class="toc-num">2</span> Automated Daily Briefings (Cron Jobs)</a>
+                <ul class="toc-sub">
+                    <li><a href="#uc2-overview">Overview</a></li>
+                    <li><a href="#uc2-prerequisites">Prerequisites</a></li>
+                    <li><a href="#uc2-setup">Step-by-Step Setup</a></li>
+                    <li><a href="#uc2-config">Configuration Examples</a></li>
+                    <li><a href="#uc2-usage">Usage Examples</a></li>
+                    <li><a href="#uc2-tips">Tips & Best Practices</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#usecase3"><span class="toc-num">3</span> GitHub & Developer Workflow Integration</a>
+                <ul class="toc-sub">
+                    <li><a href="#uc3-overview">Overview</a></li>
+                    <li><a href="#uc3-prerequisites">Prerequisites</a></li>
+                    <li><a href="#uc3-setup">Step-by-Step Setup</a></li>
+                    <li><a href="#uc3-config">Configuration Examples</a></li>
+                    <li><a href="#uc3-usage">Usage Examples</a></li>
+                    <li><a href="#uc3-tips">Tips & Best Practices</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#usecase4"><span class="toc-num">4</span> Multi-Channel Communication Hub</a>
+                <ul class="toc-sub">
+                    <li><a href="#uc4-overview">Overview</a></li>
+                    <li><a href="#uc4-prerequisites">Prerequisites</a></li>
+                    <li><a href="#uc4-setup">Step-by-Step Setup</a></li>
+                    <li><a href="#uc4-config">Configuration Examples</a></li>
+                    <li><a href="#uc4-usage">Usage Examples</a></li>
+                    <li><a href="#uc4-tips">Tips & Best Practices</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#usecase5"><span class="toc-num">5</span> Smart Research & Web Automation</a>
+                <ul class="toc-sub">
+                    <li><a href="#uc5-overview">Overview</a></li>
+                    <li><a href="#uc5-prerequisites">Prerequisites</a></li>
+                    <li><a href="#uc5-setup">Step-by-Step Setup</a></li>
+                    <li><a href="#uc5-config">Configuration Examples</a></li>
+                    <li><a href="#uc5-usage">Usage Examples</a></li>
+                    <li><a href="#uc5-tips">Tips & Best Practices</a></li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <!-- Use Case 1: Personal Telegram Assistant -->
+    <div class="container use-case" id="usecase1">
+        <div class="use-case-header">
+            <span class="use-case-number">USE CASE 1</span>
+            <h2>Personal Telegram Assistant</h2>
+            <p>Your 24/7 AI companion accessible from anywhere via Telegram</p>
+        </div>
+
+        <h3 id="uc1-overview">Overview</h3>
+        <p>Transform ClawdBot into your personal Telegram assistant that's always available. Whether you're on your phone, tablet, or desktop, you can chat with your AI assistant, set reminders, look up information, manage files in your workspace, and automate daily tasks—all through the familiar Telegram interface.</p>
+        
+        <p><strong>Why it's useful:</strong></p>
+        <ul>
+            <li>Access your AI assistant from any device with Telegram installed</li>
+            <li>Secure pairing system ensures only you can interact with your bot</li>
+            <li>Native Telegram features: inline keyboards, reactions, voice messages</li>
+            <li>Persistent conversation history across sessions</li>
+            <li>Support for images, documents, and media sharing</li>
+        </ul>
+
+        <h3 id="uc1-prerequisites">Prerequisites</h3>
+        <ul class="prereq-list">
+            <li><span class="icon">📱</span> Telegram account</li>
+            <li><span class="icon">🤖</span> Telegram bot token from @BotFather</li>
+            <li><span class="icon">🖥️</span> ClawdBot installed and running</li>
+            <li><span class="icon">🔑</span> AI provider API key (Anthropic/OpenAI)</li>
+        </ul>
+
+        <h3 id="uc1-setup">Step-by-Step Setup</h3>
+        
+        <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-content">
+                <h4>Create a Telegram Bot</h4>
+                <p>Open Telegram and search for <code>@BotFather</code>. Start a chat and send <code>/newbot</code>. Follow the prompts to name your bot (e.g., "My Clawd Assistant") and choose a username ending in "bot" (e.g., <code>myclawd_bot</code>). Copy the bot token provided.</p>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-content">
+                <h4>Configure BotFather Settings (Optional but Recommended)</h4>
+                <p>In BotFather, run these commands for your bot:</p>
+                <ul>
+                    <li><code>/setprivacy</code> → Disable (to see all group messages)</li>
+                    <li><code>/setjoingroups</code> → Enable (to add to groups)</li>
+                    <li><code>/setdescription</code> → Add a description</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-content">
+                <h4>Configure ClawdBot</h4>
+                <p>Edit your configuration file at <code>~/.clawdbot/clawdbot.json</code>:</p>
+            </div>
+        </div>
+
+        <h3 id="uc1-config">Configuration Examples</h3>
+        
+        <h4>Minimal Configuration</h4>
+        <pre><code>{
+  <span class="property">"channels"</span>: {
+    <span class="property">"telegram"</span>: {
+      <span class="property">"enabled"</span>: <span class="boolean">true</span>,
+      <span class="property">"botToken"</span>: <span class="string">"123456789:ABCdefGHI..."</span>,
+      <span class="property">"dmPolicy"</span>: <span class="string">"pairing"</span>
+    }
+  }
+}</code></pre>
+
+        <h4>Full-Featured Configuration</h4>
+        <pre><code>{
+  <span class="property">"identity"</span>: {
+    <span class="property">"name"</span>: <span class="string">"Clawd"</span>,
+    <span class="property">"theme"</span>: <span class="string">"helpful AI assistant"</span>,
+    <span class="property">"emoji"</span>: <span class="string">"🦞"</span>
+  },
+  <span class="property">"channels"</span>: {
+    <span class="property">"telegram"</span>: {
+      <span class="property">"enabled"</span>: <span class="boolean">true</span>,
+      <span class="property">"botToken"</span>: <span class="string">"123456789:ABCdefGHI..."</span>,
+      <span class="property">"dmPolicy"</span>: <span class="string">"pairing"</span>,
+      <span class="property">"allowFrom"</span>: [<span class="string">"123456789"</span>], <span class="comment">// Your Telegram user ID</span>
+      <span class="property">"textChunkLimit"</span>: <span class="value">4000</span>,
+      <span class="property">"mediaMaxMb"</span>: <span class="value">10</span>,
+      <span class="property">"reactionLevel"</span>: <span class="string">"minimal"</span>,
+      <span class="property">"streamMode"</span>: <span class="string">"partial"</span>,
+      <span class="property">"groups"</span>: {
+        <span class="property">"*"</span>: { <span class="property">"requireMention"</span>: <span class="boolean">true</span> }
+      },
+      <span class="property">"customCommands"</span>: [
+        { <span class="property">"command"</span>: <span class="string">"backup"</span>, <span class="property">"description"</span>: <span class="string">"Git backup workspace"</span> },
+        { <span class="property">"command"</span>: <span class="string">"weather"</span>, <span class="property">"description"</span>: <span class="string">"Get weather report"</span> }
+      ]
+    }
+  },
+  <span class="property">"messages"</span>: {
+    <span class="property">"ackReaction"</span>: <span class="string">"👀"</span>,
+    <span class="property">"ackReactionScope"</span>: <span class="string">"group-mentions"</span>,
+    <span class="property">"removeAckAfterReply"</span>: <span class="boolean">true</span>
+  }
+}</code></pre>
+
+        <div class="callout callout-tip">
+            To find your Telegram user ID, DM your bot after starting the gateway and check the logs with <code>clawdbot logs --follow</code>, or DM <code>@userinfobot</code> on Telegram.
+        </div>
+
+        <h3 id="uc1-usage">Usage Examples</h3>
+
+        <div class="conversation">
+            <div class="conversation-title">💬 Quick Information Lookup</div>
+            <div class="msg msg-user">
+                <div class="msg-label">You</div>
+                What's the capital of Mongolia and what's the population?
+            </div>
+            <div class="msg msg-bot">
+                <div class="msg-label">Clawd 🦞</div>
+                The capital of Mongolia is <strong>Ulaanbaatar</strong> (also spelled Ulan Bator). The city has a population of approximately 1.5 million people, which is nearly half of Mongolia's total population of about 3.4 million.
+            </div>
+        </div>
+
+        <div class="conversation">
+            <div class="conversation-title">💬 File Management</div>
+            <div class="msg msg-user">
+                <div class="msg-label">You</div>
+                Create a new file called shopping-list.md with items: milk, eggs, bread
+            </div>
+            <div class="msg msg-bot">
+                <div class="msg-label">Clawd 🦞</div>
+                ✅ Created <code>shopping-list.md</code> with your items:<br><br>
+                <code># Shopping List<br>- Milk<br>- Eggs<br>- Bread</code>
+            </div>
+        </div>
+
+        <div class="conversation">
+            <div class="conversation-title">💬 Setting Reminders via Cron</div>
+            <div class="msg msg-user">
+                <div class="msg-label">You</div>
+                Remind me to call mom in 2 hours
+            </div>
+            <div class="msg msg-bot">
+                <div class="msg-label">Clawd 🦞</div>
+                ✅ Set a reminder for 2 hours from now. I'll message you at 4:30 PM to call mom!
+            </div>
+        </div>
+
+        <h3 id="uc1-tips">Tips & Best Practices</h3>
+
+        <div class="callout callout-tip">
+            Use <code>dmPolicy: "pairing"</code> for security. When someone new messages your bot, they receive a pairing code that you must approve with <code>clawdbot pairing approve telegram &lt;code&gt;</code>.
+        </div>
+
+        <div class="callout callout-warning">
+            Keep your bot token secret! Never commit it to version control. Use environment variables: <code>TELEGRAM_BOT_TOKEN=...</code>
+        </div>
+
+        <ul>
+            <li><strong>Enable reactions</strong> — Set <code>reactionLevel: "minimal"</code> for natural conversation flow</li>
+            <li><strong>Use streaming</strong> — <code>streamMode: "partial"</code> shows real-time typing for better UX</li>
+            <li><strong>Group mentions</strong> — Always use <code>requireMention: true</code> in groups to avoid noise</li>
+            <li><strong>Custom commands</strong> — Add frequently used actions to the Telegram menu</li>
+            <li><strong>History limit</strong> — Adjust <code>historyLimit</code> to control context window size</li>
+        </ul>
+    </div>
+
+    <!-- Use Case 2: Automated Daily Briefings -->
+    <div class="container use-case" id="usecase2">
+        <div class="use-case-header">
+            <span class="use-case-number">USE CASE 2</span>
+            <h2>Automated Daily Briefings</h2>
+            <p>Wake up to personalized summaries delivered right to your chat</p>
+        </div>
+
+        <h3 id="uc2-overview">Overview</h3>
+        <p>ClawdBot's built-in cron scheduler lets you automate recurring tasks like morning briefings, news summaries, weather updates, and calendar digests. Jobs can run at specific times, deliver output to any configured channel, and use different AI models for different tasks.</p>
+        
+        <p><strong>Why it's useful:</strong></p>
+        <ul>
+            <li>Start your day with a personalized summary without lifting a finger</li>
+            <li>Consolidate information from multiple sources into one digest</li>
+            <li>Schedule reminders and check-ins automatically</li>
+            <li>Run background research tasks during off-hours</li>
+            <li>Persist jobs across gateway restarts</li>
+        </ul>
+
+        <h3 id="uc2-prerequisites">Prerequisites</h3>
+        <ul class="prereq-list">
+            <li><span class="icon">🖥️</span> ClawdBot Gateway running continuously</li>
+            <li><span class="icon">📱</span> At least one channel configured (Telegram/Discord/etc.)</li>
+            <li><span class="icon">🌐</span> Web search enabled (for news/weather)</li>
+            <li><span class="icon">📅</span> Calendar integration (optional, for digests)</li>
+        </ul>
+
+        <h3 id="uc2-setup">Step-by-Step Setup</h3>
+
+        <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-content">
+                <h4>Ensure Cron is Enabled</h4>
+                <p>Cron is enabled by default. Verify in your config or check status:</p>
+                <pre><code>clawdbot cron list</code></pre>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-content">
+                <h4>Create a Morning Briefing Job</h4>
+                <p>Use the CLI to add a cron job that runs every morning:</p>
+                <pre><code>clawdbot cron add \
+  --name "Morning Briefing" \
+  --cron "0 7 * * *" \
+  --tz "America/New_York" \
+  --session isolated \
+  --message "Create a morning briefing with: 1) Today's weather forecast 2) Top 3 news headlines 3) My calendar events for today" \
+  --deliver \
+  --channel telegram \
+  --to "123456789"</code></pre>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-content">
+                <h4>Test the Job</h4>
+                <p>Force-run to verify it works:</p>
+                <pre><code>clawdbot cron run &lt;jobId&gt; --force</code></pre>
+            </div>
+        </div>
+
+        <h3 id="uc2-config">Configuration Examples</h3>
+
+        <h4>Cron Configuration in clawdbot.json</h4>
+        <pre><code>{
+  <span class="property">"cron"</span>: {
+    <span class="property">"enabled"</span>: <span class="boolean">true</span>,
+    <span class="property">"store"</span>: <span class="string">"~/.clawdbot/cron/jobs.json"</span>,
+    <span class="property">"maxConcurrentRuns"</span>: <span class="value">1</span>
+  }
+}</code></pre>
+
+        <h4>CLI Examples for Different Briefings</h4>
+
+        <p><strong>Weekly Summary (Every Monday at 9 AM):</strong></p>
+        <pre><code>clawdbot cron add \
+  --name "Weekly Summary" \
+  --cron "0 9 * * 1" \
+  --tz "America/Los_Angeles" \
+  --session isolated \
+  --message "Summarize my week: review calendar, check pending tasks, suggest priorities" \
+  --model "opus" \
+  --thinking high \
+  --deliver \
+  --channel telegram \
+  --to "123456789"</code></pre>
+
+        <p><strong>Evening News Digest (Daily at 6 PM):</strong></p>
+        <pre><code>clawdbot cron add \
+  --name "Evening News" \
+  --cron "0 18 * * *" \
+  --tz "Europe/London" \
+  --session isolated \
+  --message "Search for today's top tech news and give me a 5-bullet summary" \
+  --deliver \
+  --channel discord \
+  --to "channel:123456789"</code></pre>
+
+        <p><strong>One-Shot Reminder (Auto-delete after run):</strong></p>
+        <pre><code>clawdbot cron add \
+  --name "Meeting Reminder" \
+  --at "2025-01-15T14:30:00Z" \
+  --session main \
+  --system-event "Reminder: Team standup in 30 minutes!" \
+  --wake now \
+  --delete-after-run</code></pre>
+
+        <h3 id="uc2-usage">Usage Examples</h3>
+
+        <div class="conversation">
+            <div class="conversation-title">📬 Automated Morning Briefing (7:00 AM)</div>
+            <div class="msg msg-bot">
+                <div class="msg-label">Clawd 🦞 • Morning Briefing</div>
+                <strong>☀️ Good morning! Here's your daily briefing:</strong><br><br>
+                <strong>🌤️ Weather:</strong> 72°F, partly cloudy. High of 78°F expected. No rain in forecast.<br><br>
+                <strong>📰 Top Headlines:</strong><br>
+                1. Tech giants announce AI collaboration framework<br>
+                2. Global markets show steady growth<br>
+                3. New climate initiative gains momentum<br><br>
+                <strong>📅 Today's Calendar:</strong><br>
+                • 9:00 AM - Team standup<br>
+                • 2:00 PM - Client call<br>
+                • 4:30 PM - Code review<br><br>
+                Have a productive day! 🚀
+            </div>
+        </div>
+
+        <h4>Managing Cron Jobs</h4>
+        <pre><code><span class="comment"># List all jobs</span>
+clawdbot cron list
+
+<span class="comment"># View job details</span>
+clawdbot cron status &lt;jobId&gt;
+
+<span class="comment"># Edit an existing job</span>
+clawdbot cron edit &lt;jobId&gt; --message "Updated prompt"
+
+<span class="comment"># View run history</span>
+clawdbot cron runs --id &lt;jobId&gt; --limit 10
+
+<span class="comment"># Remove a job</span>
+clawdbot cron remove &lt;jobId&gt;</code></pre>
+
+        <h3 id="uc2-tips">Tips & Best Practices</h3>
+
+        <div class="callout callout-tip">
+            Use <code>--session isolated</code> for briefings to keep them separate from your main conversation history. This also prevents noisy jobs from cluttering your chat context.
+        </div>
+
+        <div class="callout callout-info">
+            Cron expressions use 5 fields: minute, hour, day-of-month, month, day-of-week. Example: <code>0 7 * * 1-5</code> = 7 AM on weekdays only.
+        </div>
+
+        <ul>
+            <li><strong>Set timezone explicitly</strong> — Use <code>--tz</code> to avoid confusion with server timezone</li>
+            <li><strong>Use model overrides wisely</strong> — Save costs with smaller models for simple briefings</li>
+            <li><strong>Enable web search</strong> — Required for news and weather lookups</li>
+            <li><strong>Review run history</strong> — Check <code>~/.clawdbot/cron/runs/</code> for debugging</li>
+            <li><strong>Batch similar tasks</strong> — Combine related checks into one briefing to reduce API calls</li>
+        </ul>
+    </div>
+
+    <!-- Use Case 3: GitHub Integration -->
+    <div class="container use-case" id="usecase3">
+        <div class="use-case-header">
+            <span class="use-case-number">USE CASE 3</span>
+            <h2>GitHub & Developer Workflow</h2>
+            <p>Supercharge your development workflow with AI-powered GitHub integration</p>
+        </div>
+
+        <h3 id="uc3-overview">Overview</h3>
+        <p>ClawdBot can interact with GitHub repositories using the <code>gh</code> CLI, enabling you to check PR status, review code changes, monitor CI/CD pipelines, manage issues, and get coding assistance—all through natural conversation.</p>
+        
+        <p><strong>Why it's useful:</strong></p>
+        <ul>
+            <li>Check CI status and review PRs without leaving your chat</li>
+            <li>Get instant notifications on workflow failures</li>
+            <li>Ask questions about code changes and get AI explanations</li>
+            <li>Automate issue triage and labeling</li>
+            <li>Generate release notes and changelogs</li>
+        </ul>
+
+        <h3 id="uc3-prerequisites">Prerequisites</h3>
+        <ul class="prereq-list">
+            <li><span class="icon">🐙</span> GitHub account with repository access</li>
+            <li><span class="icon">⚙️</span> <code>gh</code> CLI installed and authenticated</li>
+            <li><span class="icon">🖥️</span> ClawdBot with exec tool enabled</li>
+            <li><span class="icon">🔑</span> Appropriate GitHub permissions</li>
+        </ul>
+
+        <h3 id="uc3-setup">Step-by-Step Setup</h3>
+
+        <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-content">
+                <h4>Install and Authenticate GitHub CLI</h4>
+                <pre><code><span class="comment"># Install gh (varies by OS)</span>
+brew install gh  <span class="comment"># macOS</span>
+sudo apt install gh  <span class="comment"># Ubuntu/Debian</span>
+
+<span class="comment"># Authenticate</span>
+gh auth login</code></pre>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-content">
+                <h4>Enable the GitHub Skill</h4>
+                <p>The GitHub skill is built into ClawdBot. Ensure the exec tool is enabled in your security policy.</p>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-content">
+                <h4>Set Up Workspace Context (Optional)</h4>
+                <p>Add project context to your workspace's <code>AGENTS.md</code> for better assistance:</p>
+                <pre><code><span class="comment"># In ~/clawd/AGENTS.md</span>
+## GitHub Repositories
+- Main project: owner/my-project
+- Docs: owner/my-docs</code></pre>
+            </div>
+        </div>
+
+        <h3 id="uc3-config">Configuration Examples</h3>
+
+        <h4>Tool Policy Configuration</h4>
+        <pre><code>{
+  <span class="property">"tools"</span>: {
+    <span class="property">"exec"</span>: {
+      <span class="property">"enabled"</span>: <span class="boolean">true</span>,
+      <span class="property">"allowlist"</span>: [
+        <span class="string">"gh"</span>,
+        <span class="string">"git"</span>
+      ]
+    }
+  }
+}</code></pre>
+
+        <h4>GitHub Skill Reference (SKILL.md)</h4>
+        <p>ClawdBot includes a built-in GitHub skill that knows how to use the <code>gh</code> CLI:</p>
+        <pre><code><span class="comment"># Check CI status on a PR</span>
+gh pr checks 55 --repo owner/repo
+
+<span class="comment"># List recent workflow runs</span>
+gh run list --repo owner/repo --limit 10
+
+<span class="comment"># View a specific run</span>
+gh run view &lt;run-id&gt; --repo owner/repo
+
+<span class="comment"># View failed step logs</span>
+gh run view &lt;run-id&gt; --repo owner/repo --log-failed
+
+<span class="comment"># API queries with jq filtering</span>
+gh api repos/owner/repo/pulls/55 --jq '.title, .state, .user.login'
+
+<span class="comment"># JSON output with custom formatting</span>
+gh issue list --repo owner/repo --json number,title \
+  --jq '.[] | "\(.number): \(.title)"'</code></pre>
+
+        <h3 id="uc3-usage">Usage Examples</h3>
+
+        <div class="conversation">
+            <div class="conversation-title">💬 Checking PR Status</div>
+            <div class="msg msg-user">
+                <div class="msg-label">You</div>
+                What's the status of PR #42 in myorg/backend?
+            </div>
+            <div class="msg msg-bot">
+                <div class="msg-label">Clawd 🦞</div>
+                PR #42 "Add user authentication" by @developer:<br><br>
+                <strong>Status:</strong> ✅ Open, ready for review<br>
+                <strong>CI:</strong> All checks passing (5/5)<br>
+                <strong>Reviews:</strong> 1 approval, 0 changes requested<br>
+                <strong>Conflicts:</strong> None<br><br>
+                The PR adds JWT-based authentication with refresh tokens. Would you like me to summarize the code changes?
+            </div>
+        </div>
+
+        <div class="conversation">
+            <div class="conversation-title">💬 Debugging CI Failures</div>
+            <div class="msg msg-user">
+                <div class="msg-label">You</div>
+                Why did the latest workflow run fail on myorg/frontend?
+            </div>
+            <div class="msg msg-bot">
+                <div class="msg-label">Clawd 🦞</div>
+                I checked the latest failed run (#1234):<br><br>
+                <strong>Failed Step:</strong> "Run Tests"<br>
+                <strong>Error:</strong><br>
+                <code>TypeError: Cannot read property 'map' of undefined<br>at UserList.render (src/components/UserList.tsx:42)</code><br><br>
+                The test is failing because <code>users</code> is undefined. This was introduced in commit <code>abc123</code>. You need to add a null check or default value.
+            </div>
+        </div>
+
+        <div class="conversation">
+            <div class="conversation-title">💬 Issue Management</div>
+            <div class="msg msg-user">
+                <div class="msg-label">You</div>
+                Create an issue for the bug we discussed - the login timeout is too short
+            </div>
+            <div class="msg msg-bot">
+                <div class="msg-label">Clawd 🦞</div>
+                ✅ Created issue #89: "Login session timeout too aggressive"<br><br>
+                <strong>Labels:</strong> bug, auth<br>
+                <strong>Description:</strong> Users report being logged out after 15 minutes of inactivity. Consider extending timeout to 60 minutes or implementing refresh token rotation.<br><br>
+                <a href="#">View issue →</a>
+            </div>
+        </div>
+
+        <h3 id="uc3-tips">Tips & Best Practices</h3>
+
+        <div class="callout callout-tip">
+            Always specify <code>--repo owner/repo</code> when not in a git directory, or clone repositories into your ClawdBot workspace for automatic detection.
+        </div>
+
+        <ul>
+            <li><strong>Use JSON output</strong> — <code>--json</code> flag gives structured data for complex queries</li>
+            <li><strong>Filter with jq</strong> — The <code>--jq</code> flag helps extract exactly what you need</li>
+            <li><strong>Set up webhooks</strong> — Use ClawdBot's webhook feature for real-time PR notifications</li>
+            <li><strong>Create templates</strong> — Save common queries in your workspace for quick access</li>
+            <li><strong>Review permissions</strong> — Use a GitHub token with minimal required scopes</li>
+        </ul>
+
+        <h4>Automated CI Monitoring (Cron Job)</h4>
+        <pre><code>clawdbot cron add \
+  --name "CI Status Check" \
+  --cron "*/30 9-17 * * 1-5" \
+  --tz "America/New_York" \
+  --session isolated \
+  --message "Check gh run list --repo myorg/main --limit 5 for any failures and alert me" \
+  --deliver \
+  --channel telegram \
+  --to "123456789"</code></pre>
+    </div>
+
+    <!-- Use Case 4: Multi-Channel Hub -->
+    <div class="container use-case" id="usecase4">
+        <div class="use-case-header">
+            <span class="use-case-number">USE CASE 4</span>
+            <h2>Multi-Channel Communication Hub</h2>
+            <p>Connect Telegram, Discord, and Slack through a unified AI assistant</p>
+        </div>
+
+        <h3 id="uc4-overview">Overview</h3>
+        <p>ClawdBot supports multiple communication channels simultaneously. You can connect Telegram for personal use, Discord for community/team interactions, and Slack for work—all sharing the same AI brain but with channel-specific configurations and sessions.</p>
+        
+        <p><strong>Why it's useful:</strong></p>
+        <ul>
+            <li>One assistant, accessible everywhere you communicate</li>
+            <li>Channel-specific settings (mention rules, skills, prompts)</li>
+            <li>Cross-post messages between platforms</li>
+            <li>Unified notification management</li>
+            <li>Consistent AI personality across all channels</li>
+        </ul>
+
+        <h3 id="uc4-prerequisites">Prerequisites</h3>
+        <ul class="prereq-list">
+            <li><span class="icon">📱</span> Telegram bot token</li>
+            <li><span class="icon">🎮</span> Discord bot token + application</li>
+            <li><span class="icon">💼</span> Slack app + bot tokens</li>
+            <li><span class="icon">🖥️</span> ClawdBot Gateway running</li>
+        </ul>
+
+        <h3 id="uc4-setup">Step-by-Step Setup</h3>
+
+        <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-content">
+                <h4>Create Bot Accounts for Each Platform</h4>
+                <ul>
+                    <li><strong>Telegram:</strong> @BotFather → /newbot</li>
+                    <li><strong>Discord:</strong> Developer Portal → New Application → Bot</li>
+                    <li><strong>Slack:</strong> api.slack.com → Create App → Enable Socket Mode</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-content">
+                <h4>Configure Each Channel</h4>
+                <p>Add all channel configurations to your <code>clawdbot.json</code>:</p>
+            </div>
+        </div>
+
+        <h3 id="uc4-config">Configuration Examples</h3>
+
+        <h4>Complete Multi-Channel Configuration</h4>
+        <pre><code>{
+  <span class="property">"identity"</span>: {
+    <span class="property">"name"</span>: <span class="string">"Clawd"</span>,
+    <span class="property">"theme"</span>: <span class="string">"helpful AI assistant"</span>,
+    <span class="property">"emoji"</span>: <span class="string">"🦞"</span>
+  },
+  
+  <span class="property">"channels"</span>: {
+    <span class="comment">// Telegram - Personal use</span>
+    <span class="property">"telegram"</span>: {
+      <span class="property">"enabled"</span>: <span class="boolean">true</span>,
+      <span class="property">"botToken"</span>: <span class="string">"TELEGRAM_TOKEN"</span>,
+      <span class="property">"dmPolicy"</span>: <span class="string">"pairing"</span>,
+      <span class="property">"groups"</span>: {
+        <span class="property">"*"</span>: { <span class="property">"requireMention"</span>: <span class="boolean">true</span> }
+      }
+    },
+    
+    <span class="comment">// Discord - Community/Team</span>
+    <span class="property">"discord"</span>: {
+      <span class="property">"enabled"</span>: <span class="boolean">true</span>,
+      <span class="property">"token"</span>: <span class="string">"DISCORD_TOKEN"</span>,
+      <span class="property">"dm"</span>: {
+        <span class="property">"enabled"</span>: <span class="boolean">true</span>,
+        <span class="property">"policy"</span>: <span class="string">"pairing"</span>
+      },
+      <span class="property">"guilds"</span>: {
+        <span class="property">"123456789"</span>: {
+          <span class="property">"slug"</span>: <span class="string">"my-server"</span>,
+          <span class="property">"requireMention"</span>: <span class="boolean">true</span>,
+          <span class="property">"users"</span>: [<span class="string">"987654321"</span>],
+          <span class="property">"channels"</span>: {
+            <span class="property">"bot-chat"</span>: { 
+              <span class="property">"allow"</span>: <span class="boolean">true</span>, 
+              <span class="property">"requireMention"</span>: <span class="boolean">false</span>
+            },
+            <span class="property">"general"</span>: { 
+              <span class="property">"allow"</span>: <span class="boolean">true</span>, 
+              <span class="property">"requireMention"</span>: <span class="boolean">true</span>
+            }
+          }
+        }
+      }
+    },
+    
+    <span class="comment">// Slack - Work</span>
+    <span class="property">"slack"</span>: {
+      <span class="property">"enabled"</span>: <span class="boolean">true</span>,
+      <span class="property">"appToken"</span>: <span class="string">"xapp-..."</span>,
+      <span class="property">"botToken"</span>: <span class="string">"xoxb-..."</span>,
+      <span class="property">"dm"</span>: {
+        <span class="property">"enabled"</span>: <span class="boolean">true</span>,
+        <span class="property">"policy"</span>: <span class="string">"pairing"</span>
+      },
+      <span class="property">"channels"</span>: {
+        <span class="property">"#engineering"</span>: {
+          <span class="property">"allow"</span>: <span class="boolean">true</span>,
+          <span class="property">"requireMention"</span>: <span class="boolean">true</span>,
+          <span class="property">"skills"</span>: [<span class="string">"github"</span>, <span class="string">"docs"</span>]
+        }
+      },
+      <span class="property">"replyToMode"</span>: <span class="string">"all"</span>
+    }
+  },
+  
+  <span class="property">"messages"</span>: {
+    <span class="property">"groupChat"</span>: {
+      <span class="property">"mentionPatterns"</span>: [<span class="string">"@clawd"</span>, <span class="string">"hey clawd"</span>],
+      <span class="property">"historyLimit"</span>: <span class="value">50</span>
+    }
+  }
+}</code></pre>
+
+        <h4>Environment Variables (Recommended for Tokens)</h4>
+        <pre><code><span class="comment"># ~/.clawdbot/.env</span>
+TELEGRAM_BOT_TOKEN=123456789:ABCdefGHI...
+DISCORD_BOT_TOKEN=MTIz...
+SLACK_APP_TOKEN=xapp-1-A0...
+SLACK_BOT_TOKEN=xoxb-123...</code></pre>
+
+        <h3 id="uc4-usage">Usage Examples</h3>
+
+        <div class="conversation">
+            <div class="conversation-title">💬 Cross-Platform Message (from Telegram)</div>
+            <div class="msg msg-user">
+                <div class="msg-label">You (Telegram)</div>
+                Send a message to the #announcements Discord channel: "Meeting moved to 3 PM"
+            </div>
+            <div class="msg msg-bot">
+                <div class="msg-label">Clawd 🦞</div>
+                ✅ Sent to Discord #announcements: "Meeting moved to 3 PM"
+            </div>
+        </div>
+
+        <div class="conversation">
+            <div class="conversation-title">💬 Slack Thread Reply</div>
+            <div class="msg msg-user">
+                <div class="msg-label">@developer (Slack)</div>
+                @Clawd can you summarize this PR discussion?
+            </div>
+            <div class="msg msg-bot">
+                <div class="msg-label">Clawd 🦞</div>
+                Based on the thread, here are the key points:<br><br>
+                1. ✅ API changes approved by @lead<br>
+                2. ⚠️ @qa requested additional test coverage<br>
+                3. 📝 Documentation update pending<br><br>
+                Action items: Add tests for edge cases before merge.
+            </div>
+        </div>
+
+        <h4>Channel Status Check</h4>
+        <pre><code><span class="comment"># Check all channel statuses</span>
+clawdbot channels status
+
+<span class="comment"># Output example:</span>
+Channel Status:
+  telegram: ✅ Connected (long-polling)
+  discord:  ✅ Connected (gateway)
+  slack:    ✅ Connected (socket mode)</code></pre>
+
+        <h3 id="uc4-tips">Tips & Best Practices</h3>
+
+        <div class="callout callout-warning">
+            Each channel has its own session handling. DMs share the "main" session, while group/channel messages are isolated by channel ID.
+        </div>
+
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Telegram</th>
+                <th>Discord</th>
+                <th>Slack</th>
+            </tr>
+            <tr>
+                <td>Reactions</td>
+                <td>✅ Full</td>
+                <td>✅ Full + Custom</td>
+                <td>✅ Full + Custom</td>
+            </tr>
+            <tr>
+                <td>Threading</td>
+                <td>Topics</td>
+                <td>Threads</td>
+                <td>Threads</td>
+            </tr>
+            <tr>
+                <td>Native Commands</td>
+                <td>✅ Auto</td>
+                <td>✅ Auto</td>
+                <td>Manual setup</td>
+            </tr>
+            <tr>
+                <td>Inline Buttons</td>
+                <td>✅ Yes</td>
+                <td>✅ Yes</td>
+                <td>✅ Block Kit</td>
+            </tr>
+        </table>
+
+        <ul>
+            <li><strong>Use pairing</strong> — Enable pairing on all channels for security</li>
+            <li><strong>Channel-specific skills</strong> — Limit skills per channel (e.g., GitHub only in #engineering)</li>
+            <li><strong>Consistent identity</strong> — Use the same <code>identity</code> config for consistent personality</li>
+            <li><strong>Monitor status</strong> — Use <code>clawdbot channels status --probe</code> to verify connections</li>
+        </ul>
+    </div>
+
+    <!-- Use Case 5: Smart Research -->
+    <div class="container use-case" id="usecase5">
+        <div class="use-case-header">
+            <span class="use-case-number">USE CASE 5</span>
+            <h2>Smart Research & Web Automation</h2>
+            <p>Leverage AI-powered web search, content extraction, and browser automation</p>
+        </div>
+
+        <h3 id="uc5-overview">Overview</h3>
+        <p>ClawdBot includes powerful web tools: <code>web_search</code> for real-time search queries, <code>web_fetch</code> for extracting readable content from URLs, and a full browser automation system for complex tasks requiring JavaScript execution or authenticated sessions.</p>
+        
+        <p><strong>Why it's useful:</strong></p>
+        <ul>
+            <li>Research topics and get synthesized answers with citations</li>
+            <li>Extract and summarize content from any webpage</li>
+            <li>Automate browser tasks (form filling, data extraction, testing)</li>
+            <li>Generate documents from research findings</li>
+            <li>Monitor websites for changes</li>
+        </ul>
+
+        <h3 id="uc5-prerequisites">Prerequisites</h3>
+        <ul class="prereq-list">
+            <li><span class="icon">🔍</span> Brave Search API key (free tier available)</li>
+            <li><span class="icon">🌐</span> Optional: Firecrawl API key for better extraction</li>
+            <li><span class="icon">🖥️</span> Optional: Chromium browser for automation</li>
+            <li><span class="icon">🔑</span> Optional: OpenRouter/Perplexity for AI search</li>
+        </ul>
+
+        <h3 id="uc5-setup">Step-by-Step Setup</h3>
+
+        <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-content">
+                <h4>Get a Brave Search API Key</h4>
+                <p>Sign up at <a href="https://brave.com/search/api/">brave.com/search/api</a> and create an API key. The free tier includes 2,000 queries/month.</p>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-content">
+                <h4>Configure Web Tools</h4>
+                <p>Run the configure wizard or edit your config manually:</p>
+                <pre><code>clawdbot configure --section web</code></pre>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-content">
+                <h4>Enable Browser Automation (Optional)</h4>
+                <p>For advanced tasks requiring JavaScript or logins:</p>
+                <pre><code>clawdbot browser --browser-profile clawd start</code></pre>
+            </div>
+        </div>
+
+        <h3 id="uc5-config">Configuration Examples</h3>
+
+        <h4>Web Search Configuration</h4>
+        <pre><code>{
+  <span class="property">"tools"</span>: {
+    <span class="property">"web"</span>: {
+      <span class="property">"search"</span>: {
+        <span class="property">"enabled"</span>: <span class="boolean">true</span>,
+        <span class="property">"provider"</span>: <span class="string">"brave"</span>,
+        <span class="property">"apiKey"</span>: <span class="string">"BSA..."</span>,
+        <span class="property">"maxResults"</span>: <span class="value">5</span>,
+        <span class="property">"timeoutSeconds"</span>: <span class="value">30</span>,
+        <span class="property">"cacheTtlMinutes"</span>: <span class="value">15</span>
+      },
+      <span class="property">"fetch"</span>: {
+        <span class="property">"enabled"</span>: <span class="boolean">true</span>,
+        <span class="property">"maxChars"</span>: <span class="value">50000</span>,
+        <span class="property">"timeoutSeconds"</span>: <span class="value">30</span>,
+        <span class="property">"readability"</span>: <span class="boolean">true</span>
+      }
+    }
+  }
+}</code></pre>
+
+        <h4>Perplexity Search (Alternative to Brave)</h4>
+        <pre><code>{
+  <span class="property">"tools"</span>: {
+    <span class="property">"web"</span>: {
+      <span class="property">"search"</span>: {
+        <span class="property">"enabled"</span>: <span class="boolean">true</span>,
+        <span class="property">"provider"</span>: <span class="string">"perplexity"</span>,
+        <span class="property">"perplexity"</span>: {
+          <span class="property">"apiKey"</span>: <span class="string">"sk-or-v1-..."</span>,
+          <span class="property">"baseUrl"</span>: <span class="string">"https://openrouter.ai/api/v1"</span>,
+          <span class="property">"model"</span>: <span class="string">"perplexity/sonar-pro"</span>
+        }
+      }
+    }
+  }
+}</code></pre>
+
+        <h4>Browser Automation Configuration</h4>
+        <pre><code>{
+  <span class="property">"browser"</span>: {
+    <span class="property">"enabled"</span>: <span class="boolean">true</span>,
+    <span class="property">"defaultProfile"</span>: <span class="string">"clawd"</span>,
+    <span class="property">"headless"</span>: <span class="boolean">false</span>,
+    <span class="property">"profiles"</span>: {
+      <span class="property">"clawd"</span>: { 
+        <span class="property">"cdpPort"</span>: <span class="value">18800</span>, 
+        <span class="property">"color"</span>: <span class="string">"#FF4500"</span> 
+      }
+    }
+  }
+}</code></pre>
+
+        <h3 id="uc5-usage">Usage Examples</h3>
+
+        <div class="conversation">
+            <div class="conversation-title">💬 Web Research</div>
+            <div class="msg msg-user">
+                <div class="msg-label">You</div>
+                What are the latest developments in fusion energy? Search for news from the past month.
+            </div>
+            <div class="msg msg-bot">
+                <div class="msg-label">Clawd 🦞</div>
+                Here's what I found on recent fusion energy developments:<br><br>
+                <strong>1. Commonwealth Fusion's Milestone</strong><br>
+                SPARC tokamak construction progresses, with first plasma expected 2026. [Source: MIT News]<br><br>
+                <strong>2. NIF Continues Ignition Success</strong><br>
+                National Ignition Facility achieved net energy gain for the third time. [Source: LLNL]<br><br>
+                <strong>3. Private Investment Surge</strong><br>
+                Fusion startups raised $2.8B in 2024, double the previous year. [Source: Bloomberg]<br><br>
+                Would you like me to fetch the full articles for any of these?
+            </div>
+        </div>
+
+        <div class="conversation">
+            <div class="conversation-title">💬 Content Extraction</div>
+            <div class="msg msg-user">
+                <div class="msg-label">You</div>
+                Summarize this article: https://example.com/long-research-paper
+            </div>
+            <div class="msg msg-bot">
+                <div class="msg-label">Clawd 🦞</div>
+                <strong>Summary: "Advances in Neural Architecture Search"</strong><br><br>
+                <strong>Key Points:</strong><br>
+                • NAS efficiency improved 10x with weight-sharing methods<br>
+                • New benchmark shows SOTA results on ImageNet<br>
+                • Hardware-aware search reduces latency by 40%<br><br>
+                <strong>Main Findings:</strong><br>
+                The paper proposes a two-stage approach that first identifies promising architectures quickly, then fine-tunes the best candidates...<br><br>
+                <em>Full text: 12,450 characters extracted</em>
+            </div>
+        </div>
+
+        <div class="conversation">
+            <div class="conversation-title">💬 Browser Automation</div>
+            <div class="msg msg-user">
+                <div class="msg-label">You</div>
+                Open the browser and take a screenshot of weather.gov
+            </div>
+            <div class="msg msg-bot">
+                <div class="msg-label">Clawd 🦞</div>
+                ✅ Opened weather.gov in the clawd browser profile.<br><br>
+                📸 Screenshot captured. The page shows the National Weather Service homepage with current alerts for your area.<br><br>
+                <em>[Screenshot attached]</em>
+            </div>
+        </div>
+
+        <h4>Browser CLI Commands</h4>
+        <pre><code><span class="comment"># Start the managed browser</span>
+clawdbot browser --browser-profile clawd start
+
+<span class="comment"># Open a URL</span>
+clawdbot browser --browser-profile clawd open https://example.com
+
+<span class="comment"># Take a snapshot (accessibility tree)</span>
+clawdbot browser --browser-profile clawd snapshot
+
+<span class="comment"># Take a screenshot</span>
+clawdbot browser --browser-profile clawd screenshot
+
+<span class="comment"># Generate PDF</span>
+clawdbot browser --browser-profile clawd pdf --output report.pdf</code></pre>
+
+        <h3 id="uc5-tips">Tips & Best Practices</h3>
+
+        <div class="callout callout-tip">
+            Use <code>web_fetch</code> for static content and the browser tool for JavaScript-heavy sites. The browser tool is more powerful but slower and more resource-intensive.
+        </div>
+
+        <div class="callout callout-info">
+            Results from <code>web_search</code> and <code>web_fetch</code> are cached for 15 minutes by default. Adjust <code>cacheTtlMinutes</code> for time-sensitive research.
+        </div>
+
+        <table>
+            <tr>
+                <th>Tool</th>
+                <th>Best For</th>
+                <th>Limitations</th>
+            </tr>
+            <tr>
+                <td><code>web_search</code></td>
+                <td>Finding information, news, facts</td>
+                <td>Returns snippets, not full content</td>
+            </tr>
+            <tr>
+                <td><code>web_fetch</code></td>
+                <td>Reading articles, documentation</td>
+                <td>No JavaScript execution</td>
+            </tr>
+            <tr>
+                <td>Browser</td>
+                <td>Complex automation, SPAs, logins</td>
+                <td>Slower, requires more resources</td>
+            </tr>
+        </table>
+
+        <ul>
+            <li><strong>Use search parameters</strong> — Specify <code>country</code>, <code>freshness</code> for targeted results</li>
+            <li><strong>Chain tools effectively</strong> — Search → Fetch most relevant → Summarize</li>
+            <li><strong>Browser profiles</strong> — Use separate profiles for different automation tasks</li>
+            <li><strong>Respect rate limits</strong> — Brave free tier has daily limits</li>
+            <li><strong>Consider Perplexity</strong> — For synthesized answers vs. raw search results</li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p><strong>ClawdBot Documentation</strong></p>
+        <p>Version 1.0 • January 2025</p>
+        <p>For more information, visit the ClawdBot documentation or run <code>clawdbot help</code></p>
+        <p style="margin-top: 15px;">🦞 <em>"EXFOLIATE! EXFOLIATE!"</em> — A space lobster, probably</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main_v5.aux
+The style file: plain.bst
+Database file #1: references_v5.bib
+Repeated entry---line 528 of file references_v5.bib
+ : @article{lewis2020rag
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 537 of file references_v5.bib
+ : @article{karpukhin2020dpr
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 545 of file references_v5.bib
+ : @inproceedings{khattab2020colbert
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 557 of file references_v5.bib
+ : @article{fang2024amkor
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 565 of file references_v5.bib
+ : @article{wang2024kga
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 573 of file references_v5.bib
+ : @article{chen2024fairrag
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 581 of file references_v5.bib
+ : @article{li2024marag
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 589 of file references_v5.bib
+ : @article{krishna2024frames
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 597 of file references_v5.bib
+ : @article{izacard2022contriever
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 619 of file references_v5.bib
+ : @inproceedings{bordes2013transe
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 638 of file references_v5.bib
+ : @article{brown2020gpt3
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 732 of file references_v5.bib
+ : @article{johnson2019faiss
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 743 of file references_v5.bib
+ : @inproceedings{ni2022sentence_t5
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 785 of file references_v5.bib
+ : @inproceedings{post2018sacrebleu
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 797 of file references_v5.bib
+ : @inproceedings{levy2014neural
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 805 of file references_v5.bib
+ : @inproceedings{pennington2014glove
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 813 of file references_v5.bib
+ : @article{mikolov2013word2vec
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 821 of file references_v5.bib
+ : @article{church1990pmi
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 832 of file references_v5.bib
+ : @inproceedings{faruqui2015retrofitting
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 840 of file references_v5.bib
+ : @inproceedings{mrksic2016counter
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 848 of file references_v5.bib
+ : @inproceedings{zhang2019ernie
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 856 of file references_v5.bib
+ : @article{edge2024graphrag
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 863 of file references_v5.bib
+ : @misc{microsoft2024graphrag
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 871 of file references_v5.bib
+ : @techreport{motik2012owl2
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 880 of file references_v5.bib
+ : @misc{rdfox2023
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 910 of file references_v5.bib
+ : @inproceedings{izacard2021fid
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 933 of file references_v5.bib
+ : @article{jin2021medqa
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 944 of file references_v5.bib
+ : @inproceedings{karypis1998metis
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 970 of file references_v5.bib
+ : @article{edge2024graphrag
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 999 of file references_v5.bib
+ : @inproceedings{levy2014neural
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1024 of file references_v5.bib
+ : @inproceedings{faruqui2015retrofitting
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1206 of file references_v5.bib
+ : @inproceedings{zhang2019ernie
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1293 of file references_v5.bib
+ : @inproceedings{pennington2014glove
+ :                                   ,
+I'm skipping whatever remains of this entry
+Warning--can't use both volume and number fields in karypis1998metis
+You've used 35 entries,
+            2118 wiz_defined-function locations,
+            676 strings with 11042 characters,
+and the built_in function-call counts, 17146 in all, are:
+= -- 1684
+> -- 977
+< -- 23
++ -- 387
+- -- 350
+* -- 1216
+:= -- 2665
+add.period$ -- 108
+call.type$ -- 35
+change.case$ -- 277
+chr.to.int$ -- 0
+cite$ -- 36
+duplicate$ -- 639
+empty$ -- 1148
+format.name$ -- 350
+if$ -- 3668
+int.to.chr$ -- 0
+int.to.str$ -- 35
+missing$ -- 32
+newline$ -- 181
+num.names$ -- 70
+pop$ -- 308
+preamble$ -- 1
+purify$ -- 241
+quote$ -- 0
+skip$ -- 575
+stack$ -- 0
+substring$ -- 1127
+swap$ -- 279
+text.length$ -- 23
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 140
+warning$ -- 1
+while$ -- 145
+width$ -- 37
+write$ -- 388
+(There were 33 error messages)

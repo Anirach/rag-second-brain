@@ -1,0 +1,147 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{brown2020language,openai2023gpt4}
+\citation{ji2023survey,singhal2023large}
+\Newlabel{addr1}{a}
+\citation{lewis2020retrieval,gao2023retrieval}
+\citation{clark1998extended}
+\citation{hutchins1995cognition}
+\citation{kahneman2011thinking}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
+\newlabel{sec:introduction}{{1}{2}{Introduction}{section.1}{}}
+\citation{fansi2022ddxplus}
+\citation{gretelai_s2d}
+\citation{lewis2020retrieval}
+\citation{karpukhin2020dense}
+\citation{izacard2021leveraging}
+\citation{shuster2021retrieval}
+\citation{thorne2018fever}
+\citation{gao2023retrieval,zhao2024retrieval}
+\citation{bodenreider2004unified}
+\citation{santos2022knowledge,chandak2023building}
+\citation{pan2024unifying}
+\citation{he2024gretriever}
+\citation{yasunaga2022deep}
+\citation{ji2023survey,umapathi2023med}
+\citation{shuster2021retrieval}
+\citation{lu2022neurologic}
+\citation{manakul2023selfcheckgpt}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{section.2}\protected@file@percent }
+\newlabel{sec:related}{{2}{3}{Related Work}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Retrieval-Augmented Generation}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Knowledge Graphs in Biomedical AI}{3}{subsection.2.2}\protected@file@percent }
+\citation{singhal2023large}
+\citation{mcduff2023towards}
+\citation{fansi2022ddxplus}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Hallucination Mitigation}{4}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}LLM-Based Medical Diagnosis}{4}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{4}{section.3}\protected@file@percent }
+\newlabel{sec:method}{{3}{4}{Method}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Problem Formulation}{4}{subsection.3.1}\protected@file@percent }
+\citation{robertson2009probabilistic}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Conceptual overview of the multi-source RAG pipeline. Three retrieval modalities provide complementary evidence that is fused via reciprocal rank fusion before augmenting the LLM prompt.}}{5}{figure.1}\protected@file@percent }
+\newlabel{fig:architecture}{{1}{5}{Conceptual overview of the multi-source RAG pipeline. Three retrieval modalities provide complementary evidence that is fused via reciprocal rank fusion before augmenting the LLM prompt}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Architecture Overview}{5}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Dense Vector Retrieval}{5}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:dense}{{3.3}{5}{Dense Vector Retrieval}{subsection.3.3}{}}
+\citation{cormack2009reciprocal}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}BM25 with PPMI Enhancement}{6}{subsection.3.4}\protected@file@percent }
+\newlabel{sec:bm25}{{3.4}{6}{BM25 with PPMI Enhancement}{subsection.3.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Multi-Source Knowledge Graph}{6}{subsection.3.5}\protected@file@percent }
+\newlabel{sec:kg}{{3.5}{6}{Multi-Source Knowledge Graph}{subsection.3.5}{}}
+\newlabel{eq:kg_score}{{4}{6}{Multi-Source Knowledge Graph}{equation.3.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Retrieval Fusion and LLM Prompting}{7}{subsection.3.6}\protected@file@percent }
+\newlabel{sec:fusion}{{3.6}{7}{Retrieval Fusion and LLM Prompting}{subsection.3.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Prompt Template}{7}{subsection.3.7}\protected@file@percent }
+\newlabel{sec:prompt_template}{{3.7}{7}{Prompt Template}{subsection.3.7}{}}
+\citation{fansi2022ddxplus}
+\citation{gretelai_s2d}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experimental Setup}{8}{section.4}\protected@file@percent }
+\newlabel{sec:experiments}{{4}{8}{Experimental Setup}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Datasets}{8}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{DDXPlus~\cite  {fansi2022ddxplus}.}{8}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Symptom2Disease~\cite  {gretelai_s2d}.}{8}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Model Configuration}{8}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Statistical Testing}{8}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Results on DDXPlus ($n{=}1000$, 49 diseases, 223 symptoms) using GPT-4o-mini. 95\% confidence intervals shown for Top-1. Best results in \textbf  {bold}.}}{9}{table.1}\protected@file@percent }
+\newlabel{tab:ddxplus}{{1}{9}{Results on DDXPlus ($n{=}1000$, 49 diseases, 223 symptoms) using GPT-4o-mini. 95\% confidence intervals shown for Top-1. Best results in \textbf {bold}}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Traditional ML Baselines}{9}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{9}{section.5}\protected@file@percent }
+\newlabel{sec:results}{{5}{9}{Results}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}DDXPlus Benchmark Results}{9}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Statistical Significance Testing}{9}{subsection.5.2}\protected@file@percent }
+\newlabel{sec:significance}{{5.2}{9}{Statistical Significance Testing}{subsection.5.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Statistical significance testing using McNemar's test for DDXPlus Top-1 accuracy comparisons ($n{=}1000$, $\alpha {=}0.05$).}}{10}{table.2}\protected@file@percent }
+\newlabel{tab:significance}{{2}{10}{Statistical significance testing using McNemar's test for DDXPlus Top-1 accuracy comparisons ($n{=}1000$, $\alpha {=}0.05$)}{table.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Comparison with Traditional ML Baselines on DDXPlus ($n{=}1000$). 95\% confidence intervals shown for Top-1.}}{10}{table.3}\protected@file@percent }
+\newlabel{tab:ml_baselines}{{3}{10}{Comparison with Traditional ML Baselines on DDXPlus ($n{=}1000$). 95\% confidence intervals shown for Top-1}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Comparison with Traditional ML Baselines}{10}{subsection.5.3}\protected@file@percent }
+\newlabel{sec:ml_baselines}{{5.3}{10}{Comparison with Traditional ML Baselines}{subsection.5.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Error Analysis: Most frequently misdiagnosed diseases by Multi-Source RAG on DDXPlus ($n{=}1000$). Total errors: 57.}}{11}{table.4}\protected@file@percent }
+\newlabel{tab:error_analysis}{{4}{11}{Error Analysis: Most frequently misdiagnosed diseases by Multi-Source RAG on DDXPlus ($n{=}1000$). Total errors: 57}{table.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Error Analysis}{11}{subsection.5.4}\protected@file@percent }
+\newlabel{sec:error_analysis}{{5.4}{11}{Error Analysis}{subsection.5.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Model Ablation: GPT-4o vs.\ GPT-4o-mini}{11}{subsection.5.5}\protected@file@percent }
+\newlabel{sec:model_ablation}{{5.5}{11}{Model Ablation: GPT-4o vs.\ GPT-4o-mini}{subsection.5.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Model ablation on DDXPlus ($n{=}1000$) using GPT-4o. 95\% confidence intervals shown for Top-1. Compare with Table~\ref {tab:ddxplus} (GPT-4o-mini).}}{12}{table.5}\protected@file@percent }
+\newlabel{tab:gpt4o}{{5}{12}{Model ablation on DDXPlus ($n{=}1000$) using GPT-4o. 95\% confidence intervals shown for Top-1. Compare with Table~\ref {tab:ddxplus} (GPT-4o-mini)}{table.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Results on Symptom2Disease ($n{=}320$, 24 diseases) using GPT-4o-mini with a domain-specific knowledge graph built from the S2D training split.}}{12}{table.6}\protected@file@percent }
+\newlabel{tab:s2d}{{6}{12}{Results on Symptom2Disease ($n{=}320$, 24 diseases) using GPT-4o-mini with a domain-specific knowledge graph built from the S2D training split}{table.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Cross-Domain Results: Symptom2Disease}{12}{subsection.5.6}\protected@file@percent }
+\newlabel{sec:cross_domain}{{5.6}{12}{Cross-Domain Results: Symptom2Disease}{subsection.5.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Ablation: incremental contribution of each retrieval layer on DDXPlus ($n{=}1000$).}}{13}{table.7}\protected@file@percent }
+\newlabel{tab:ablation}{{7}{13}{Ablation: incremental contribution of each retrieval layer on DDXPlus ($n{=}1000$)}{table.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Hallucination rates across methods, datasets, and models.}}{13}{table.8}\protected@file@percent }
+\newlabel{tab:halluc}{{8}{13}{Hallucination rates across methods, datasets, and models}{table.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Ablation Analysis}{13}{subsection.5.7}\protected@file@percent }
+\newlabel{sec:ablation}{{5.7}{13}{Ablation Analysis}{subsection.5.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.8}Hallucination Analysis}{13}{subsection.5.8}\protected@file@percent }
+\newlabel{sec:hallucination}{{5.8}{13}{Hallucination Analysis}{subsection.5.8}{}}
+\citation{hutchins1995cognition}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{14}{section.6}\protected@file@percent }
+\newlabel{sec:discussion}{{6}{14}{Discussion}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}The Progressive Value of Multi-Source Retrieval}{14}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Model-Agnostic Retrieval: RAG as an Equalizer}{14}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Distributed Cognition and the Extended Mind}{14}{subsection.6.3}\protected@file@percent }
+\citation{clark1998extended}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Accuracy vs.\ Generalization Trade-offs}{15}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Domain Generalization and Practical Implications}{15}{subsection.6.5}\protected@file@percent }
+\citation{chen2023meditron}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Limitations}{16}{section.7}\protected@file@percent }
+\newlabel{sec:limitations}{{7}{16}{Limitations}{section.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{16}{section.8}\protected@file@percent }
+\newlabel{sec:conclusion}{{8}{16}{Conclusion}{section.8}{}}
+\bibstyle{elsarticle-num}
+\bibcite{brown2020language}{{1}{}{{}}{{}}}
+\bibcite{openai2023gpt4}{{2}{}{{}}{{}}}
+\bibcite{ji2023survey}{{3}{}{{}}{{}}}
+\bibcite{singhal2023large}{{4}{}{{}}{{}}}
+\bibcite{lewis2020retrieval}{{5}{}{{}}{{}}}
+\bibcite{gao2023retrieval}{{6}{}{{}}{{}}}
+\bibcite{clark1998extended}{{7}{}{{}}{{}}}
+\bibcite{hutchins1995cognition}{{8}{}{{}}{{}}}
+\bibcite{kahneman2011thinking}{{9}{}{{}}{{}}}
+\bibcite{robertson2009probabilistic}{{10}{}{{}}{{}}}
+\bibcite{fansi2022ddxplus}{{11}{}{{}}{{}}}
+\bibcite{gretelai_s2d}{{12}{}{{}}{{}}}
+\bibcite{santos2022knowledge}{{13}{}{{}}{{}}}
+\bibcite{chandak2023building}{{14}{}{{}}{{}}}
+\bibcite{bodenreider2004unified}{{15}{}{{}}{{}}}
+\bibcite{pan2024unifying}{{16}{}{{}}{{}}}
+\bibcite{mcduff2023towards}{{17}{}{{}}{{}}}
+\bibcite{karpukhin2020dense}{{18}{}{{}}{{}}}
+\bibcite{izacard2021leveraging}{{19}{}{{}}{{}}}
+\bibcite{shuster2021retrieval}{{20}{}{{}}{{}}}
+\bibcite{thorne2018fever}{{21}{}{{}}{{}}}
+\bibcite{zhao2024retrieval}{{22}{}{{}}{{}}}
+\bibcite{umapathi2023med}{{23}{}{{}}{{}}}
+\bibcite{lu2022neurologic}{{24}{}{{}}{{}}}
+\bibcite{manakul2023selfcheckgpt}{{25}{}{{}}{{}}}
+\bibcite{cormack2009reciprocal}{{26}{}{{}}{{}}}
+\bibcite{he2024gretriever}{{27}{}{{}}{{}}}
+\bibcite{yasunaga2022deep}{{28}{}{{}}{{}}}
+\bibcite{chen2023meditron}{{29}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\gdef \@abspage@last{19}

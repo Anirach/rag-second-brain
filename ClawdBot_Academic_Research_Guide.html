@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClawdBot for Academic Research & Writing: 5 Detailed Use Cases</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Source+Code+Pro:wght@400;500&family=Inter:wght@400;500;600&display=swap');
+
+        :root {
+            --primary-color: #1a365d;
+            --secondary-color: #2c5282;
+            --accent-color: #3182ce;
+            --text-color: #2d3748;
+            --light-bg: #f7fafc;
+            --border-color: #e2e8f0;
+            --success-color: #38a169;
+            --warning-color: #d69e2e;
+            --tip-bg: #ebf8ff;
+            --warning-bg: #fffff0;
+            --example-bg: #f0fff4;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Crimson Pro', Georgia, serif;
+            font-size: 12pt;
+            line-height: 1.7;
+            color: var(--text-color);
+            background: white;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+        }
+
+        /* Cover Page */
+        .cover-page {
+            page-break-after: always;
+            text-align: center;
+            padding-top: 80px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .cover-page h1 {
+            font-size: 32pt;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .cover-subtitle {
+            font-size: 16pt;
+            color: var(--secondary-color);
+            margin-bottom: 60px;
+            font-style: italic;
+        }
+
+        .cover-meta {
+            margin-top: 100px;
+            font-size: 11pt;
+            color: #666;
+        }
+
+        .cover-logo {
+            font-size: 48pt;
+            margin-bottom: 30px;
+        }
+
+        /* Table of Contents */
+        .toc {
+            page-break-after: always;
+            padding: 40px 0;
+        }
+
+        .toc h2 {
+            font-size: 24pt;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+
+        .toc-list {
+            list-style: none;
+        }
+
+        .toc-list li {
+            padding: 8px 0;
+            border-bottom: 1px dotted var(--border-color);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .toc-list li.section {
+            font-weight: 600;
+            font-size: 13pt;
+            margin-top: 15px;
+            color: var(--primary-color);
+        }
+
+        .toc-list li.subsection {
+            padding-left: 25px;
+            font-size: 11pt;
+        }
+
+        /* Headers */
+        h1 {
+            font-size: 26pt;
+            color: var(--primary-color);
+            margin: 40px 0 20px 0;
+            page-break-after: avoid;
+        }
+
+        h2 {
+            font-size: 20pt;
+            color: var(--primary-color);
+            margin: 35px 0 15px 0;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            font-size: 14pt;
+            color: var(--secondary-color);
+            margin: 25px 0 12px 0;
+            page-break-after: avoid;
+        }
+
+        h4 {
+            font-size: 12pt;
+            color: var(--text-color);
+            font-weight: 600;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        /* Use Case Section */
+        .use-case {
+            page-break-before: always;
+        }
+
+        .use-case-header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 30px;
+            margin: -20mm -20mm 30px -20mm;
+            text-align: center;
+        }
+
+        .use-case-header h1 {
+            color: white;
+            margin: 0;
+            font-size: 24pt;
+        }
+
+        .use-case-number {
+            font-size: 14pt;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+
+        /* Conversation Examples */
+        .conversation {
+            background: var(--light-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .conversation-title {
+            font-family: 'Inter', sans-serif;
+            font-size: 10pt;
+            font-weight: 600;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .message {
+            margin: 12px 0;
+            padding: 12px 15px;
+            border-radius: 8px;
+        }
+
+        .message.user {
+            background: white;
+            border: 1px solid var(--border-color);
+            margin-right: 30px;
+        }
+
+        .message.assistant {
+            background: #e3f2fd;
+            border: 1px solid #bbdefb;
+            margin-left: 30px;
+        }
+
+        .message-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 9pt;
+            font-weight: 600;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .message.user .message-label {
+            color: var(--secondary-color);
+        }
+
+        .message.assistant .message-label {
+            color: var(--accent-color);
+        }
+
+        /* Code Blocks */
+        pre, code {
+            font-family: 'Source Code Pro', monospace;
+        }
+
+        code {
+            background: #edf2f7;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 10pt;
+        }
+
+        pre {
+            background: #1a202c;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 15px 0;
+            font-size: 10pt;
+            line-height: 1.5;
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+            color: inherit;
+        }
+
+        /* Syntax highlighting */
+        .keyword { color: #f687b3; }
+        .string { color: #68d391; }
+        .comment { color: #718096; font-style: italic; }
+        .function { color: #63b3ed; }
+        .variable { color: #fbd38d; }
+
+        /* Callout Boxes */
+        .callout {
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        .callout-title {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 11pt;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .callout.tip {
+            background: var(--tip-bg);
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .callout.tip .callout-title {
+            color: var(--accent-color);
+        }
+
+        .callout.warning {
+            background: var(--warning-bg);
+            border-left: 4px solid var(--warning-color);
+        }
+
+        .callout.warning .callout-title {
+            color: #b7791f;
+        }
+
+        .callout.success {
+            background: var(--example-bg);
+            border-left: 4px solid var(--success-color);
+        }
+
+        .callout.success .callout-title {
+            color: var(--success-color);
+        }
+
+        /* Lists */
+        ul, ol {
+            margin: 15px 0 15px 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 11pt;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid var(--border-color);
+        }
+
+        th {
+            background: var(--primary-color);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background: var(--light-bg);
+        }
+
+        /* Prerequisites Box */
+        .prerequisites {
+            background: #faf5ff;
+            border: 1px solid #e9d8fd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .prerequisites h4 {
+            color: #6b46c1;
+            margin-top: 0;
+        }
+
+        .prerequisites ul {
+            margin-bottom: 0;
+        }
+
+        /* Step boxes */
+        .step {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            position: relative;
+            padding-left: 70px;
+        }
+
+        .step-number {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            background: var(--accent-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 14pt;
+        }
+
+        /* Footer */
+        .page-footer {
+            font-size: 9pt;
+            color: #666;
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                padding: 15mm;
+            }
+
+            .use-case {
+                page-break-before: always;
+            }
+
+            .callout, .conversation, .step {
+                page-break-inside: avoid;
+            }
+        }
+
+        /* Intro section */
+        .intro {
+            font-size: 12pt;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .feature-item {
+            background: var(--light-bg);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 3px solid var(--accent-color);
+        }
+
+        .feature-item strong {
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Cover Page -->
+<div class="cover-page">
+    <div class="cover-logo">🎓</div>
+    <h1>ClawdBot for Academic Research & Writing</h1>
+    <div class="cover-subtitle">5 Detailed Use Cases for Researchers, Academics, and PhD Students</div>
+
+    <div style="margin: 40px 0;">
+        <p style="font-size: 13pt; color: #4a5568; max-width: 500px; margin: 0 auto; text-align: center;">
+            A comprehensive guide to leveraging AI-powered assistance for literature reviews,
+            document generation, citation management, academic writing, and research planning.
+        </p>
+    </div>
+
+    <div class="cover-meta">
+        <p><strong>Version 1.0</strong></p>
+        <p>Comprehensive Reference Guide</p>
+        <p style="margin-top: 20px;">For use with ClawdBot AI Assistant</p>
+    </div>
+</div>
+
+<!-- Table of Contents -->
+<div class="toc">
+    <h2>Table of Contents</h2>
+    <ul class="toc-list">
+        <li class="section"><span>Introduction</span><span>3</span></li>
+        <li class="subsection"><span>What is ClawdBot?</span><span>3</span></li>
+        <li class="subsection"><span>Why Use AI for Academic Research?</span><span>3</span></li>
+
+        <li class="section"><span>Use Case 1: Literature Review Assistant</span><span>4</span></li>
+        <li class="subsection"><span>Overview & Value Proposition</span><span>4</span></li>
+        <li class="subsection"><span>Prerequisites & Setup</span><span>4</span></li>
+        <li class="subsection"><span>Step-by-Step Workflow</span><span>5</span></li>
+        <li class="subsection"><span>Real Examples</span><span>6</span></li>
+        <li class="subsection"><span>Pro Tips & Pitfalls</span><span>7</span></li>
+
+        <li class="section"><span>Use Case 2: Research Document Generation</span><span>8</span></li>
+        <li class="subsection"><span>Overview & Value Proposition</span><span>8</span></li>
+        <li class="subsection"><span>Prerequisites & Setup</span><span>8</span></li>
+        <li class="subsection"><span>Step-by-Step Workflow</span><span>9</span></li>
+        <li class="subsection"><span>Real Examples</span><span>10</span></li>
+        <li class="subsection"><span>Pro Tips & Pitfalls</span><span>11</span></li>
+
+        <li class="section"><span>Use Case 3: Citation & Reference Management</span><span>12</span></li>
+        <li class="subsection"><span>Overview & Value Proposition</span><span>12</span></li>
+        <li class="subsection"><span>Prerequisites & Setup</span><span>12</span></li>
+        <li class="subsection"><span>Step-by-Step Workflow</span><span>13</span></li>
+        <li class="subsection"><span>Real Examples</span><span>14</span></li>
+        <li class="subsection"><span>Pro Tips & Pitfalls</span><span>15</span></li>
+
+        <li class="section"><span>Use Case 4: Writing Assistant & Proofreader</span><span>16</span></li>
+        <li class="subsection"><span>Overview & Value Proposition</span><span>16</span></li>
+        <li class="subsection"><span>Prerequisites & Setup</span><span>16</span></li>
+        <li class="subsection"><span>Step-by-Step Workflow</span><span>17</span></li>
+        <li class="subsection"><span>Real Examples</span><span>18</span></li>
+        <li class="subsection"><span>Pro Tips & Pitfalls</span><span>19</span></li>
+
+        <li class="section"><span>Use Case 5: Research Planning & Project Management</span><span>20</span></li>
+        <li class="subsection"><span>Overview & Value Proposition</span><span>20</span></li>
+        <li class="subsection"><span>Prerequisites & Setup</span><span>20</span></li>
+        <li class="subsection"><span>Step-by-Step Workflow</span><span>21</span></li>
+        <li class="subsection"><span>Real Examples</span><span>22</span></li>
+        <li class="subsection"><span>Pro Tips & Pitfalls</span><span>23</span></li>
+
+        <li class="section"><span>Appendix: Quick Reference Card</span><span>24</span></li>
+        <li class="section"><span>Appendix: Troubleshooting</span><span>25</span></li>
+    </ul>
+</div>
+
+<!-- Introduction -->
+<section>
+    <h1>Introduction</h1>
+
+    <h3>What is ClawdBot?</h3>
+    <p class="intro">
+        ClawdBot is an AI-powered personal assistant that combines the reasoning capabilities of Claude with
+        practical tools for file management, web searching, document generation, and automated scheduling.
+        Unlike simple chatbots, ClawdBot can execute real actions: search the web, fetch and analyze documents,
+        create files, set up automated reminders, and maintain context across sessions.
+    </p>
+
+    <p>
+        For academics, ClawdBot serves as a tireless research partner that can help you discover literature,
+        organize your findings, draft documents, manage citations, improve your writing, and keep your research
+        projects on track-all through natural conversation.
+    </p>
+
+    <h3>Why Use AI for Academic Research?</h3>
+
+    <div class="feature-grid">
+        <div class="feature-item">
+            <strong>⏱️ Time Efficiency</strong><br>
+            Automate repetitive tasks like citation formatting and literature searching
+        </div>
+        <div class="feature-item">
+            <strong>📚 Comprehensive Coverage</strong><br>
+            Search across multiple sources simultaneously for thorough reviews
+        </div>
+        <div class="feature-item">
+            <strong>✍️ Writing Quality</strong><br>
+            Get instant feedback on clarity, tone, and academic conventions
+        </div>
+        <div class="feature-item">
+            <strong>📋 Organization</strong><br>
+            Maintain structured notes and never lose track of sources
+        </div>
+    </div>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Academic Integrity Notice</div>
+        <p>
+            ClawdBot is a tool to <em>assist</em> your research, not replace your intellectual contribution.
+            Always verify AI-generated content, properly cite all sources, and ensure your work reflects
+            your own analysis and insights. Check your institution's policies on AI assistance in academic work.
+        </p>
+    </div>
+</section>
+
+<!-- Use Case 1: Literature Review Assistant -->
+<section class="use-case">
+    <div class="use-case-header">
+        <div class="use-case-number">USE CASE 1</div>
+        <h1>Literature Review Assistant</h1>
+    </div>
+
+    <h1 style="color: var(--primary-color); border-bottom: 3px solid var(--accent-color); padding-bottom: 10px;">Use Case 1: Literature Review Assistant</h1>
+    
+    <h2>Overview</h2>
+    <p>
+        The Literature Review Assistant helps you discover, retrieve, and organize academic papers on any topic.
+        Using web search capabilities optimized for academic content, ClawdBot can find recent publications,
+        fetch their content, summarize key findings, and organize everything into structured notes for your review.
+    </p>
+
+    <h3>Why It's Valuable for Academics</h3>
+    <ul>
+        <li><strong>Efficient Discovery:</strong> Search multiple academic databases and sources in seconds</li>
+        <li><strong>Smart Summarization:</strong> Get concise summaries of papers without reading each one fully</li>
+        <li><strong>Structured Organization:</strong> Maintain organized notes with consistent formatting</li>
+        <li><strong>Gap Identification:</strong> Easily identify research gaps and opportunities</li>
+        <li><strong>Time Savings:</strong> Reduce initial literature scanning from days to hours</li>
+    </ul>
+
+    <div class="prerequisites">
+        <h4>📋 Prerequisites</h4>
+        <ul>
+            <li>ClawdBot installed and configured</li>
+            <li>Web search capability enabled (Brave Search API)</li>
+            <li>A workspace folder for storing literature notes</li>
+            <li>Clear research questions or topics defined</li>
+        </ul>
+    </div>
+
+    <h2>Step-by-Step Setup</h2>
+
+    <div class="step">
+        <div class="step-number">1</div>
+        <h4>Define Your Research Scope</h4>
+        <p>Before starting, clearly define your research questions, key terms, and the scope of your review (time period, disciplines, geographic focus if relevant).</p>
+    </div>
+
+    <div class="step">
+        <div class="step-number">2</div>
+        <h4>Create a Literature Notes Structure</h4>
+        <p>Set up a consistent folder structure for your findings:</p>
+        <pre><code>research/
+├── literature/
+│   ├── notes/
+│   │   ├── 2024-01-15_transformers_nlp.md
+│   │   └── 2024-01-16_attention_mechanisms.md
+│   ├── summaries/
+│   └── bibliography.md
+└── queries.md</code></pre>
+    </div>
+
+    <div class="step">
+        <div class="step-number">3</div>
+        <h4>Craft Effective Search Queries</h4>
+        <p>Use academic-specific search terms. Adding "site:arxiv.org" or "site:scholar.google.com" or "filetype:pdf" can help focus results on academic content.</p>
+    </div>
+
+    <h2>Real Examples</h2>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 1: Finding Recent Papers</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            Find recent papers on transformer architectures in NLP, focusing on efficiency improvements published in 2023-2024.
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            I'll search for recent papers on efficient transformer architectures in NLP.<br><br>
+
+            <em>[Performs web search with query: "efficient transformer architectures NLP 2023 2024 site:arxiv.org"]</em><br><br>
+
+            I found several relevant papers:<br><br>
+
+            <strong>1. "FlashAttention-2: Faster Attention with Better Parallelism"</strong><br>
+            • Authors: Dao, T. (2023)<br>
+            • Key contribution: 2x speedup over FlashAttention through better work partitioning<br>
+            • URL: arxiv.org/abs/2307.08691<br><br>
+
+            <strong>2. "Efficient Transformers: A Survey"</strong><br>
+            • Authors: Tay et al. (2023 update)<br>
+            • Comprehensive survey of efficiency methods: sparse attention, linear attention, etc.<br><br>
+
+            <strong>3. "LongNet: Scaling Transformers to 1B Tokens"</strong><br>
+            • Authors: Microsoft Research (2023)<br>
+            • Introduces dilated attention for extreme sequence lengths<br><br>
+
+            Would you like me to fetch and summarize any of these papers in detail?
+        </div>
+    </div>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 2: Fetching and Summarizing a Paper</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            Yes, please fetch and summarize the FlashAttention-2 paper. Focus on methodology and results.
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            <em>[Fetches content from arxiv.org/abs/2307.08691]</em><br><br>
+
+            <strong>Summary: FlashAttention-2</strong><br><br>
+
+            <strong>Problem Addressed:</strong><br>
+            Standard attention has O(n²) memory complexity, becoming a bottleneck for long sequences. FlashAttention-1 improved this but left performance on the table.<br><br>
+
+            <strong>Key Methodology:</strong><br>
+            • Reduced non-matmul FLOPs by optimizing the online softmax algorithm<br>
+            • Better parallelization across thread blocks (batch and head dimensions)<br>
+            • Improved work partitioning between warps to reduce shared memory access<br><br>
+
+            <strong>Results:</strong><br>
+            • 2x speedup over FlashAttention-1<br>
+            • Achieves 50-73% of theoretical max FLOPS on A100 GPUs<br>
+            • Enables training with longer context (up to 8k tokens efficiently)<br><br>
+
+            <strong>Relevance to Your Research:</strong><br>
+            Essential reading for any work on efficient transformers. The techniques are now standard in most modern implementations.<br><br>
+
+            Shall I save this summary to your literature notes?
+        </div>
+    </div>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 3: Organizing Findings</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            Yes, please save it and create a structured note with the citation information.
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            <em>[Creates file: research/literature/notes/2024-01-15_flashattention2.md]</em><br><br>
+
+            Done! I've created a structured note with:<br>
+            • Full citation (APA format)<br>
+            • Abstract summary<br>
+            • Key methodology points<br>
+            • Main results and contributions<br>
+            • Your research relevance notes<br>
+            • Tags for easy searching<br><br>
+
+            I've also added the reference to your bibliography.md file.<br><br>
+
+            Would you like me to continue searching for related papers on attention optimization?
+        </div>
+    </div>
+
+    <h2>Pro Tips</h2>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Use Boolean Search Operators</div>
+        <p>Combine terms effectively: "transformer AND (efficiency OR optimization) AND NLP -vision" helps exclude irrelevant computer vision papers when searching for NLP work.</p>
+    </div>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Search by Author</div>
+        <p>Once you identify key researchers in your area, ask ClawdBot to find recent papers by specific authors: "Find papers by Yoshua Bengio on attention mechanisms from 2023"</p>
+    </div>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Create Weekly Review Sessions</div>
+        <p>Set up a recurring search for new papers in your area. Ask ClawdBot to search for papers from the past week on your topic every Monday morning.</p>
+    </div>
+
+    <h3>Common Pitfalls to Avoid</h3>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Over-relying on Summaries</div>
+        <p>AI summaries are starting points, not substitutes for reading. Always read the full methodology and results sections of papers you plan to cite heavily.</p>
+    </div>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Not Verifying Sources</div>
+        <p>Always verify that papers exist and that the citation information is correct. Check the actual publication venue and author list.</p>
+    </div>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Missing Preprints vs Published</div>
+        <p>ArXiv papers may differ from their final published versions. Note whether you're referencing a preprint or the peer-reviewed publication.</p>
+    </div>
+</section>
+
+<!-- Use Case 2: Research Document Generation -->
+<section class="use-case">
+    <div class="use-case-header">
+        <div class="use-case-number">USE CASE 2</div>
+        <h1>Research Document Generation</h1>
+    </div>
+
+    <h1 style="color: var(--primary-color); border-bottom: 3px solid var(--accent-color); padding-bottom: 10px;">Use Case 2: Research Document Generation</h1>
+    
+    <h2>Overview</h2>
+    <p>
+        Research Document Generation enables you to create well-structured academic documents including
+        literature reviews, research proposals, methodology sections, and reports. ClawdBot can generate
+        properly formatted documents with appropriate sections, citations, and academic conventions.
+    </p>
+
+    <h3>Why It's Valuable for Academics</h3>
+    <ul>
+        <li><strong>Structural Consistency:</strong> Ensure all documents follow proper academic structure</li>
+        <li><strong>Template Efficiency:</strong> Generate standard sections (abstracts, methodology) quickly</li>
+        <li><strong>Format Flexibility:</strong> Output to Markdown, HTML, or prepare for conversion to DOCX/PDF</li>
+        <li><strong>Integration:</strong> Pull from your literature notes to create cohesive review documents</li>
+        <li><strong>Draft Generation:</strong> Create first drafts that you can refine and personalize</li>
+    </ul>
+
+    <div class="prerequisites">
+        <h4>📋 Prerequisites</h4>
+        <ul>
+            <li>ClawdBot with file write capabilities</li>
+            <li>Pandoc installed (for DOCX/PDF conversion): <code>apt install pandoc</code></li>
+            <li>LaTeX distribution for PDF generation (optional): <code>apt install texlive</code></li>
+            <li>Your institution's formatting guidelines</li>
+        </ul>
+    </div>
+
+    <h2>Step-by-Step Setup</h2>
+
+    <div class="step">
+        <div class="step-number">1</div>
+        <h4>Prepare Your Templates</h4>
+        <p>Create template files for common document types. Store these in a templates folder:</p>
+        <pre><code>templates/
+├── literature_review.md
+├── research_proposal.md
+├── methodology.md
+└── thesis_chapter.md</code></pre>
+    </div>
+
+    <div class="step">
+        <div class="step-number">2</div>
+        <h4>Define Document Requirements</h4>
+        <p>When requesting a document, specify: word count, required sections, citation style, and any institutional requirements.</p>
+    </div>
+
+    <div class="step">
+        <div class="step-number">3</div>
+        <h4>Set Up Conversion Pipeline</h4>
+        <p>For DOCX/PDF output, ensure Pandoc is configured:</p>
+        <pre><code><span class="comment"># Convert Markdown to DOCX</span>
+pandoc document.md -o document.docx --reference-doc=template.docx
+
+<span class="comment"># Convert Markdown to PDF</span>
+pandoc document.md -o document.pdf --pdf-engine=xelatex</code></pre>
+    </div>
+
+    <h2>Real Examples</h2>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 1: Creating a Literature Review Document</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            Create a literature review document on "Machine Learning Applications in Climate Science" using the papers we've collected. Target 3000 words, use APA 7th edition, and include an abstract.
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            I'll create a comprehensive literature review document. Let me first review the papers in your literature notes...<br><br>
+
+            <em>[Reads from research/literature/notes/]</em><br><br>
+
+            I've found 12 relevant papers. Creating the document now...<br><br>
+
+            <em>[Creates file: research/documents/ML_Climate_Literature_Review.md]</em><br><br>
+
+            <strong>Document Created:</strong> ML_Climate_Literature_Review.md<br><br>
+
+            <strong>Structure:</strong><br>
+            • Abstract (250 words)<br>
+            • Introduction (400 words)<br>
+            • Methodology of Review (200 words)<br>
+            • Thematic Analysis:<br>
+            &nbsp;&nbsp;- Weather Prediction Models (600 words)<br>
+            &nbsp;&nbsp;- Climate Pattern Recognition (550 words)<br>
+            &nbsp;&nbsp;- Extreme Event Detection (500 words)<br>
+            • Discussion & Research Gaps (350 words)<br>
+            • Conclusion (200 words)<br>
+            • References (12 sources, APA 7th)<br><br>
+
+            Total: 3,050 words<br><br>
+
+            Would you like me to convert this to DOCX or PDF?
+        </div>
+    </div>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 2: Research Proposal Generation</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            Help me create a research proposal for a study on "Using LLMs for Automated Code Review." Include sections for: background, research questions, methodology, timeline, and expected outcomes.
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            I'll create a structured research proposal. First, let me ask a few clarifying questions:<br><br>
+
+            1. What is the target duration of the research? (e.g., 1 year PhD project, 3-year funded study)<br>
+            2. What is your target venue/funder? (This affects formatting)<br>
+            3. Do you have specific LLMs in mind, or is model selection part of the research?<br><br>
+
+            In the meantime, I'll create a draft structure you can refine...
+        </div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            It's a 2-year postdoc project, targeting an internal university grant. Open to any LLMs but focusing on open-source options.
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            <em>[Creates file: research/documents/LLM_Code_Review_Proposal.md]</em><br><br>
+
+            <strong>Research Proposal Created</strong><br><br>
+
+            <strong>Title:</strong> "Automated Code Review Using Open-Source Large Language Models: A Comparative Study of Effectiveness and Developer Acceptance"<br><br>
+
+            <strong>Sections Included:</strong><br><br>
+
+            <strong>1. Executive Summary</strong> (1 page)<br>
+            • Problem statement<br>
+            • Proposed solution<br>
+            • Expected impact<br><br>
+
+            <strong>2. Background & Literature Review</strong> (3 pages)<br>
+            • Current code review practices<br>
+            • LLMs in software engineering<br>
+            • Gap analysis<br><br>
+
+            <strong>3. Research Questions</strong><br>
+            • RQ1: How do open-source LLMs compare to human reviewers?<br>
+            • RQ2: What types of issues are LLMs most/least effective at detecting?<br>
+            • RQ3: How do developers perceive and interact with LLM reviews?<br><br>
+
+            <strong>4. Methodology</strong> (2 pages)<br>
+            • Phase 1: Model benchmarking (Months 1-6)<br>
+            • Phase 2: Controlled experiments (Months 7-14)<br>
+            • Phase 3: User studies (Months 15-20)<br>
+            • Phase 4: Analysis & dissemination (Months 21-24)<br><br>
+
+            <strong>5. Timeline & Milestones</strong> (Gantt chart included)<br><br>
+
+            <strong>6. Budget Justification</strong><br><br>
+
+            <strong>7. Expected Outcomes & Impact</strong><br><br>
+
+            The document is ready for your review. Would you like me to expand any section or adjust the research questions?
+        </div>
+    </div>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 3: Converting to Submission Format</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            Convert the proposal to DOCX format with double spacing and Times New Roman 12pt.
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            I'll convert the document using Pandoc with your formatting requirements.<br><br>
+
+            <em>[Executes: pandoc LLM_Code_Review_Proposal.md -o LLM_Code_Review_Proposal.docx]</em><br><br>
+
+            ✅ <strong>Conversion complete!</strong><br><br>
+
+            <strong>File:</strong> research/documents/LLM_Code_Review_Proposal.docx<br><br>
+
+            <strong>Formatting applied:</strong><br>
+            • Font: Times New Roman, 12pt<br>
+            • Spacing: Double-spaced<br>
+            • Margins: 1 inch all sides<br>
+            • Page numbers: Bottom center<br><br>
+
+            Note: You may want to review the table formatting and adjust any figures manually in Word.
+        </div>
+    </div>
+
+    <h2>Pro Tips</h2>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Use Section-by-Section Generation</div>
+        <p>For complex documents, generate one section at a time. This gives you control over each part and ensures coherent flow. Say "Now write the methodology section based on what we discussed."</p>
+    </div>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Provide Examples</div>
+        <p>Share a sample of your writing style or a previously successful proposal. ClawdBot can match the tone and structure: "Here's an abstract I wrote before. Use a similar style."</p>
+    </div>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Create Custom Reference Documents</div>
+        <p>For Pandoc conversion, create a reference DOCX with your institution's exact formatting. Use: <code>pandoc --reference-doc=my_template.docx</code></p>
+    </div>
+
+    <h3>Common Pitfalls to Avoid</h3>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Submitting Without Heavy Editing</div>
+        <p>AI-generated drafts are starting points. Always extensively revise to add your unique insights, verify claims, and ensure the voice is authentically yours.</p>
+    </div>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Ignoring Field Conventions</div>
+        <p>Different disciplines have different conventions. A humanities literature review looks different from a STEM one. Specify your field explicitly.</p>
+    </div>
+</section>
+
+<!-- Use Case 3: Citation & Reference Management -->
+<section class="use-case">
+    <div class="use-case-header">
+        <div class="use-case-number">USE CASE 3</div>
+        <h1>Citation & Reference Management</h1>
+    </div>
+
+    <h1 style="color: var(--primary-color); border-bottom: 3px solid var(--accent-color); padding-bottom: 10px;">Use Case 3: Citation & Reference Management</h1>
+    
+    <h2>Overview</h2>
+    <p>
+        Citation & Reference Management helps you find citation information for papers, format references
+        in any major citation style (APA, MLA, Chicago, IEEE, Harvard), build bibliographies, and ensure
+        consistency across your documents. ClawdBot can look up DOIs, format existing references, and
+        maintain your reference library.
+    </p>
+
+    <h3>Why It's Valuable for Academics</h3>
+    <ul>
+        <li><strong>Style Accuracy:</strong> Never worry about comma placement or italicization rules again</li>
+        <li><strong>Format Conversion:</strong> Quickly convert references between citation styles</li>
+        <li><strong>DOI Lookup:</strong> Find complete citation information from just a title or partial reference</li>
+        <li><strong>Consistency:</strong> Maintain uniform formatting across all your references</li>
+        <li><strong>Time Savings:</strong> Formatting references manually takes hours; automate it in seconds</li>
+    </ul>
+
+    <div class="prerequisites">
+        <h4>📋 Prerequisites</h4>
+        <ul>
+            <li>ClawdBot with web search enabled</li>
+            <li>A reference file or bibliography to manage</li>
+            <li>Knowledge of your required citation style</li>
+        </ul>
+    </div>
+
+    <h2>Supported Citation Styles</h2>
+
+    <table>
+        <tr>
+            <th>Style</th>
+            <th>Common Use</th>
+            <th>Key Features</th>
+        </tr>
+        <tr>
+            <td>APA 7th Edition</td>
+            <td>Psychology, Social Sciences, Education</td>
+            <td>Author-date in-text; DOI included</td>
+        </tr>
+        <tr>
+            <td>MLA 9th Edition</td>
+            <td>Humanities, Literature, Languages</td>
+            <td>Author-page in-text; containers</td>
+        </tr>
+        <tr>
+            <td>Chicago (Notes)</td>
+            <td>History, Arts, Humanities</td>
+            <td>Footnotes/endnotes; bibliography</td>
+        </tr>
+        <tr>
+            <td>Chicago (Author-Date)</td>
+            <td>Sciences, Social Sciences</td>
+            <td>In-text citations like APA</td>
+        </tr>
+        <tr>
+            <td>IEEE</td>
+            <td>Engineering, Computer Science</td>
+            <td>Numbered citations; bracketed</td>
+        </tr>
+        <tr>
+            <td>Harvard</td>
+            <td>Various (UK/Australia common)</td>
+            <td>Author-date; varies by institution</td>
+        </tr>
+        <tr>
+            <td>Vancouver</td>
+            <td>Medicine, Health Sciences</td>
+            <td>Numbered; superscript in-text</td>
+        </tr>
+    </table>
+
+    <h2>Step-by-Step Setup</h2>
+
+    <div class="step">
+        <div class="step-number">1</div>
+        <h4>Create a Reference Library File</h4>
+        <p>Maintain a central file for all your references:</p>
+        <pre><code><span class="comment"># references.md</span>
+
+## References
+
+### Machine Learning
+- Vaswani et al. (2017) - Attention is All You Need
+- Devlin et al. (2019) - BERT
+
+### Climate Science
+- Smith & Jones (2022) - ML for Climate Prediction</code></pre>
+    </div>
+
+    <div class="step">
+        <div class="step-number">2</div>
+        <h4>Specify Your Default Citation Style</h4>
+        <p>Tell ClawdBot your preferred citation style so you don't have to repeat it each time.</p>
+    </div>
+
+    <h2>Real Examples</h2>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 1: Finding Citation Information</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            I need the full citation for a paper called "Attention is All You Need" by Vaswani. Format it in APA 7th edition.
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            <em>[Searches for paper details]</em><br><br>
+
+            Here's the complete APA 7th edition citation:<br><br>
+
+            <strong>Reference List Entry:</strong><br>
+            Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. In I. Guyon, U. Von Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, & R. Garnett (Eds.), <em>Advances in Neural Information Processing Systems 30</em> (pp. 5998-6008). Curran Associates. https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf<br><br>
+
+            <strong>In-Text Citation:</strong><br>
+            • Parenthetical: (Vaswani et al., 2017)<br>
+            • Narrative: Vaswani et al. (2017)<br><br>
+
+            <strong>Note:</strong> This was a conference paper in NeurIPS 2017. If your field prefers the arXiv version, let me know and I'll format that instead.
+        </div>
+    </div>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 2: Converting Citation Styles</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            I have these APA citations. Convert them all to IEEE format:<br><br>
+
+            Brown, T., et al. (2020). Language models are few-shot learners. Advances in Neural Information Processing Systems, 33, 1877-1901.<br><br>
+
+            Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of deep bidirectional transformers for language understanding. Proceedings of NAACL-HLT, 4171-4186.
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            Here are your citations converted to IEEE format:<br><br>
+
+            <strong>IEEE Format:</strong><br><br>
+
+            [1] T. Brown et al., "Language models are few-shot learners," in <em>Advances in Neural Information Processing Systems</em>, vol. 33, 2020, pp. 1877-1901.<br><br>
+
+            [2] J. Devlin, M. W. Chang, K. Lee, and K. Toutanova, "BERT: Pre-training of deep bidirectional transformers for language understanding," in <em>Proc. NAACL-HLT</em>, 2019, pp. 4171-4186.<br><br>
+
+            <strong>Key IEEE formatting changes:</strong><br>
+            • First name initials come before surnames<br>
+            • "et al." used after first author for 6+ authors<br>
+            • Title in quotation marks (not italics)<br>
+            • Journal/proceedings italicized<br>
+            • Sequential numbering in brackets<br><br>
+
+            Would you like me to add DOIs to these citations? IEEE style includes them when available.
+        </div>
+    </div>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 3: Building a Bibliography from URLs</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            Build APA citations for these papers:<br>
+            - https://arxiv.org/abs/1706.03762<br>
+            - https://arxiv.org/abs/1810.04805<br>
+            - https://doi.org/10.1038/s41586-021-03819-2
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            <em>[Fetching metadata from each source...]</em><br><br>
+
+            <strong>Generated Bibliography (APA 7th Edition):</strong><br><br>
+
+            Jumper, J., Evans, R., Pritzel, A., Green, T., Figurnov, M., Ronneberger, O., Tunyasuvunakool, K., Bates, R., Žídek, A., Potapenko, A., Bridgland, A., Meyer, C., Kohl, S. A. A., Ballard, A. J., Cowie, A., Romera-Paredes, B., Nikolov, S., Jain, R., Adler, J., ... Hassabis, D. (2021). Highly accurate protein structure prediction with AlphaFold. <em>Nature, 596</em>(7873), 583-589. https://doi.org/10.1038/s41586-021-03819-2<br><br>
+
+            Devlin, J., Chang, M.-W., Lee, K., & Toutanova, K. (2019). <em>BERT: Pre-training of deep bidirectional transformers for language understanding</em>. arXiv. https://arxiv.org/abs/1810.04805<br><br>
+
+            Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). <em>Attention is all you need</em>. arXiv. https://arxiv.org/abs/1706.03762<br><br>
+
+            <strong>Note:</strong> The arXiv papers are formatted as preprints. If these have been published in proceedings (NeurIPS for Vaswani, NAACL for Devlin), you may prefer to cite the published versions. Would you like me to look up the published citations?
+        </div>
+    </div>
+
+    <h2>Pro Tips</h2>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Keep a Style Guide Reference</div>
+        <p>Ask ClawdBot to create a quick reference for your citation style: "Give me a cheat sheet for APA 7th edition with examples of common source types."</p>
+    </div>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Batch Processing</div>
+        <p>Format multiple citations at once. Paste a list of DOIs or titles and ask for all to be formatted in your target style.</p>
+    </div>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Use DOIs When Available</div>
+        <p>DOIs provide the most reliable source for citation metadata. When you have a DOI, include it for accurate citations.</p>
+    </div>
+
+    <h3>Common Pitfalls to Avoid</h3>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Not Verifying Citations</div>
+        <p>Always verify generated citations against the original source. Check author names, publication years, and page numbers.</p>
+    </div>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Edition Confusion</div>
+        <p>APA 6th vs 7th, MLA 8th vs 9th-editions matter! Always specify the edition you need, as rules change between versions.</p>
+    </div>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Preprint vs Published</div>
+        <p>Citing an arXiv preprint when a peer-reviewed version exists may be seen as less rigorous. Check if papers have been formally published.</p>
+    </div>
+</section>
+
+<!-- Use Case 4: Writing Assistant & Proofreader -->
+<section class="use-case">
+    <div class="use-case-header">
+        <div class="use-case-number">USE CASE 4</div>
+        <h1>Writing Assistant & Proofreader</h1>
+    </div>
+
+    <h1 style="color: var(--primary-color); border-bottom: 3px solid var(--accent-color); padding-bottom: 10px;">Use Case 4: Writing Assistant & Proofreader</h1>
+    
+    <h2>Overview</h2>
+    <p>
+        The Writing Assistant helps you improve your academic writing through grammar and style checking,
+        clarity improvements, paraphrasing, and maintaining appropriate academic tone. Whether you're
+        polishing an abstract, refining a methodology section, or ensuring your thesis reads professionally,
+        ClawdBot provides constructive feedback while preserving your voice.
+    </p>
+
+    <h3>Why It's Valuable for Academics</h3>
+    <ul>
+        <li><strong>Style Consistency:</strong> Maintain formal academic tone throughout long documents</li>
+        <li><strong>Clarity Improvements:</strong> Identify and fix unclear or convoluted sentences</li>
+        <li><strong>Grammar Accuracy:</strong> Catch errors that spell-checkers miss</li>
+        <li><strong>Non-Native Support:</strong> Get help with English academic conventions</li>
+        <li><strong>Instant Feedback:</strong> Get suggestions without waiting for peer reviews</li>
+    </ul>
+
+    <div class="prerequisites">
+        <h4>📋 Prerequisites</h4>
+        <ul>
+            <li>ClawdBot running (no special configuration needed)</li>
+            <li>Your draft text ready for review</li>
+            <li>Understanding of your target journal/venue style preferences</li>
+        </ul>
+    </div>
+
+    <h2>Step-by-Step Workflow</h2>
+
+    <div class="step">
+        <div class="step-number">1</div>
+        <h4>Prepare Your Text</h4>
+        <p>Have your draft ready. You can paste text directly or ask ClawdBot to read from a file.</p>
+    </div>
+
+    <div class="step">
+        <div class="step-number">2</div>
+        <h4>Specify Your Goals</h4>
+        <p>Tell ClawdBot what kind of feedback you want: grammar only, style improvements, clarity, conciseness, or comprehensive review.</p>
+    </div>
+
+    <div class="step">
+        <div class="step-number">3</div>
+        <h4>Provide Context</h4>
+        <p>Mention your field, target audience, and any specific style guides (e.g., "This is for a Nature submission").</p>
+    </div>
+
+    <div class="step">
+        <div class="step-number">4</div>
+        <h4>Review and Accept/Modify Suggestions</h4>
+        <p>Go through suggestions critically-you know your content best.</p>
+    </div>
+
+    <h2>Real Examples</h2>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 1: Abstract Improvement</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            Please review and improve this abstract for clarity and academic tone:<br><br>
+
+            "We made a new system that uses AI to help with finding bugs in code. It works really good and is better than other tools. We tested it on many projects and developers said they liked it. The results show it can find more bugs than humans can in less time."
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            Here's a revised version with improved academic tone and clarity:<br><br>
+
+            <strong>Revised Abstract:</strong><br>
+            "We present a novel AI-assisted system for automated bug detection in software code. Our approach demonstrates significant improvements over existing static analysis tools in both precision and recall. Through empirical evaluation across 15 open-source projects comprising over 2 million lines of code, we found that our system identified 34% more defects than manual code review while reducing inspection time by 60%. A user study with 28 professional developers revealed high acceptance rates (μ = 4.2/5.0) and indicated strong potential for integration into existing development workflows."<br><br>
+
+            <strong>Changes Made:</strong><br><br>
+
+            <table>
+                <tr>
+                    <th>Original</th>
+                    <th>Revised</th>
+                    <th>Reason</th>
+                </tr>
+                <tr>
+                    <td>"made a new system"</td>
+                    <td>"present a novel system"</td>
+                    <td>Academic verb choice</td>
+                </tr>
+                <tr>
+                    <td>"works really good"</td>
+                    <td>"demonstrates significant improvements"</td>
+                    <td>Grammar + specificity</td>
+                </tr>
+                <tr>
+                    <td>"tested it on many projects"</td>
+                    <td>"empirical evaluation across 15 projects"</td>
+                    <td>Quantified claim</td>
+                </tr>
+                <tr>
+                    <td>"developers said they liked it"</td>
+                    <td>"high acceptance rates (μ = 4.2/5.0)"</td>
+                    <td>Quantified evidence</td>
+                </tr>
+            </table><br>
+
+            <strong>Note:</strong> I've added placeholder numbers-please replace with your actual data.
+        </div>
+    </div>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 2: Conciseness Editing</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            This paragraph is too long. Help me cut it by 40% while keeping the key information:<br><br>
+
+            "In order to be able to investigate the effects that climate change has been having on agricultural productivity in the region, we collected data from a total of 47 different farms that were located in various different parts of the study area. The data that we collected included information about crop yields, which we measured in metric tons per hectare, as well as information about temperature and precipitation levels that were recorded at each individual farm location over the period of time spanning from 2010 to 2023."
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            <strong>Revised (40% shorter):</strong><br><br>
+
+            "To investigate climate change effects on regional agricultural productivity, we collected data from 47 farms across the study area. Data included crop yields (metric tons/hectare) and local temperature and precipitation records from 2010-2023."<br><br>
+
+            <strong>Word count:</strong><br>
+            • Original: 97 words<br>
+            • Revised: 41 words (58% reduction)<br><br>
+
+            <strong>Cuts made:</strong><br>
+            • "In order to be able to" → "To"<br>
+            • "a total of 47 different farms that were located in various different parts" → "47 farms across"<br>
+            • "The data that we collected included information about" → "Data included"<br>
+            • "which we measured in" → parenthetical notation<br>
+            • "over the period of time spanning from" → date range format<br><br>
+
+            The key information-47 farms, crop yields, temperature, precipitation, 2010-2023 timeframe-is all preserved.
+        </div>
+    </div>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 3: Grammar and Style Check</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            Check this methodology paragraph for grammar and style issues. I'm a non-native English speaker:<br><br>
+
+            "The participants was recruited from the university student population. Each participant have completed a pre-screening questionnaire to ensure they meeting our inclusion criterias. The datas was collected over the course of 3 weeks period. We have analyzed the data using SPSS software."
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            <strong>Corrected Version:</strong><br><br>
+
+            "Participants were recruited from the university student population. Each participant completed a pre-screening questionnaire to ensure they met our inclusion criteria. Data were collected over a 3-week period. We analyzed the data using SPSS software."<br><br>
+
+            <strong>Grammar Corrections:</strong><br><br>
+
+            1. <strong>"participants was" → "Participants were"</strong><br>
+            &nbsp;&nbsp;&nbsp;Plural subjects require plural verbs<br><br>
+
+            2. <strong>"have completed" → "completed"</strong><br>
+            &nbsp;&nbsp;&nbsp;Simple past for completed actions in methodology<br><br>
+
+            3. <strong>"they meeting" → "they met"</strong><br>
+            &nbsp;&nbsp;&nbsp;Past tense required after "ensure"<br><br>
+
+            4. <strong>"criterias" → "criteria"</strong><br>
+            &nbsp;&nbsp;&nbsp;"Criteria" is already plural (singular: "criterion")<br><br>
+
+            5. <strong>"datas" → "Data"</strong><br>
+            &nbsp;&nbsp;&nbsp;"Data" is already plural (or treated as mass noun)<br><br>
+
+            6. <strong>"the course of 3 weeks period" → "a 3-week period"</strong><br>
+            &nbsp;&nbsp;&nbsp;More concise phrasing<br><br>
+
+            7. <strong>"We have analyzed" → "We analyzed"</strong><br>
+            &nbsp;&nbsp;&nbsp;Simple past is standard for methodology sections<br><br>
+
+            <strong>Style Note:</strong> Your journal may prefer "Data were collected" (treating data as plural) or "Data was collected" (mass noun). Check their style guide.
+        </div>
+    </div>
+
+    <h2>Pro Tips</h2>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Specify Your Level of Edit</div>
+        <p>
+            Be specific about what you want:<br>
+            • "Light edit-grammar only"<br>
+            • "Medium edit-grammar and clarity"<br>
+            • "Heavy edit-comprehensive rewrite for style"
+        </p>
+    </div>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Request Track Changes Format</div>
+        <p>Ask: "Show me changes in track-changes style" to see exactly what was modified. This helps you learn patterns in your writing.</p>
+    </div>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Use for Translation Polishing</div>
+        <p>If you write first in your native language and translate, ask ClawdBot to "polish this translation for native English academic style."</p>
+    </div>
+
+    <h3>Common Pitfalls to Avoid</h3>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Losing Your Voice</div>
+        <p>Don't accept all suggestions blindly. Some "improvements" may remove field-specific terminology or your intentional stylistic choices.</p>
+    </div>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Over-Polishing</div>
+        <p>Academic writing should be clear but not artificially "perfect." Some personality in writing is acceptable and even valued.</p>
+    </div>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Not Checking Technical Terms</div>
+        <p>AI may "correct" field-specific terminology it doesn't recognize. Always verify technical terms remain accurate.</p>
+    </div>
+</section>
+
+<!-- Use Case 5: Research Planning & Project Management -->
+<section class="use-case">
+    <div class="use-case-header">
+        <div class="use-case-number">USE CASE 5</div>
+        <h1>Research Planning & Project Management</h1>
+    </div>
+
+    <h1 style="color: var(--primary-color); border-bottom: 3px solid var(--accent-color); padding-bottom: 10px;">Use Case 5: Research Planning & Project Management</h1>
+    
+    <h2>Overview</h2>
+    <p>
+        Research Planning & Project Management helps you stay on track with your research through automated
+        reminders, progress tracking, and milestone management. Using ClawdBot's scheduling capabilities,
+        you can set up regular check-ins, deadline reminders, and structured workflows that keep your
+        research moving forward.
+    </p>
+
+    <h3>Why It's Valuable for Academics</h3>
+    <ul>
+        <li><strong>Consistent Progress:</strong> Regular reminders prevent tasks from falling through the cracks</li>
+        <li><strong>Deadline Management:</strong> Never miss a submission deadline or committee meeting</li>
+        <li><strong>Workload Distribution:</strong> Break large projects into manageable weekly tasks</li>
+        <li><strong>Accountability:</strong> External prompts help maintain momentum on long-term projects</li>
+        <li><strong>Documentation:</strong> Track progress over time for reports and self-assessment</li>
+    </ul>
+
+    <div class="prerequisites">
+        <h4>📋 Prerequisites</h4>
+        <ul>
+            <li>ClawdBot with cron/scheduling capabilities enabled</li>
+            <li>Clear research milestones and deadlines defined</li>
+            <li>A project tracking file or system</li>
+            <li>Telegram, Discord, or other messaging channel configured for notifications</li>
+        </ul>
+    </div>
+
+    <h2>Step-by-Step Setup</h2>
+
+    <div class="step">
+        <div class="step-number">1</div>
+        <h4>Define Your Research Milestones</h4>
+        <p>Create a project file with key milestones, deadlines, and weekly goals:</p>
+        <pre><code><span class="comment"># research_project.md</span>
+
+## PhD Year 2 - Research Plan
+
+### Major Milestones
+- [ ] Literature review draft - March 15
+- [ ] Ethics approval - April 1
+- [ ] Data collection complete - June 30
+- [ ] First paper submitted - August 15
+
+### Weekly Goals
+- Week of Jan 15: Complete Chapter 2 outline
+- Week of Jan 22: Read 10 papers on methodology</code></pre>
+    </div>
+
+    <div class="step">
+        <div class="step-number">2</div>
+        <h4>Set Up Regular Check-In Reminders</h4>
+        <p>Ask ClawdBot to create cron jobs for regular research check-ins.</p>
+    </div>
+
+    <div class="step">
+        <div class="step-number">3</div>
+        <h4>Configure Deadline Alerts</h4>
+        <p>Set up reminders for important deadlines at multiple intervals (1 month, 1 week, 3 days, 1 day before).</p>
+    </div>
+
+    <h2>Real Examples</h2>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 1: Setting Up Weekly Research Review</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            Set up a reminder for every Monday at 9 AM to review my research progress and plan the week.
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            I'll set up a weekly research review reminder for you.<br><br>
+
+            <em>[Creates cron job: "0 9 * * 1" - Every Monday at 9:00 AM]</em><br><br>
+
+            ✅ <strong>Weekly Research Review Scheduled</strong><br><br>
+
+            <strong>Schedule:</strong> Every Monday at 9:00 AM<br>
+            <strong>Notification Channel:</strong> Telegram<br><br>
+
+            <strong>The reminder will include:</strong><br>
+            • Prompt to review last week's accomplishments<br>
+            • Check on current milestone progress<br>
+            • Reminder to set this week's goals<br>
+            • Any upcoming deadlines in the next 14 days<br><br>
+
+            Would you like me to customize the reminder message or add additional prompts?
+        </div>
+    </div>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 2: Deadline Reminder Setup</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            I have a paper submission deadline on March 15th, 2024. Set up reminders at 1 month, 2 weeks, 1 week, and 1 day before.
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            I'll set up a series of deadline reminders for your March 15th paper submission.<br><br>
+
+            <em>[Creating scheduled reminders...]</em><br><br>
+
+            ✅ <strong>Deadline Reminder Series Created</strong><br><br>
+
+            <strong>Paper Submission: March 15, 2024</strong><br><br>
+
+            <table>
+                <tr>
+                    <th>Reminder</th>
+                    <th>Date</th>
+                    <th>Message Focus</th>
+                </tr>
+                <tr>
+                    <td>1 Month</td>
+                    <td>Feb 15, 9:00 AM</td>
+                    <td>Major revision plan, co-author coordination</td>
+                </tr>
+                <tr>
+                    <td>2 Weeks</td>
+                    <td>Mar 1, 9:00 AM</td>
+                    <td>Final draft deadline, figure completion</td>
+                </tr>
+                <tr>
+                    <td>1 Week</td>
+                    <td>Mar 8, 9:00 AM</td>
+                    <td>Polishing, reference check, co-author approval</td>
+                </tr>
+                <tr>
+                    <td>1 Day</td>
+                    <td>Mar 14, 9:00 AM</td>
+                    <td>Final checks, submission system prep</td>
+                </tr>
+            </table><br>
+
+            Each reminder will include:<br>
+            • Days remaining until deadline<br>
+            • Suggested tasks for that stage<br>
+            • Checklist of common submission requirements<br><br>
+
+            Would you like to add any co-authors to notify, or customize the checklist for this specific venue?
+        </div>
+    </div>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 3: Research Progress Tracking</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            Help me set up a research progress tracking system. I want to log my daily research activities and get a weekly summary.
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            I'll set up a comprehensive research progress tracking system for you.<br><br>
+
+            <strong>System Created:</strong><br><br>
+
+            <strong>1. Daily Log Structure</strong><br>
+            <em>[Created: research/logs/template.md]</em>
+            <pre><code><span class="comment"># Daily Research Log - [DATE]</span>
+
+## Tasks Completed
+- [ ] Task 1
+- [ ] Task 2
+
+## Papers Read
+-
+
+## Writing Progress
+- Words written:
+- Sections worked on:
+
+## Blockers/Challenges
+-
+
+## Tomorrow's Priority
+- </code></pre><br>
+
+            <strong>2. Daily Reminder (6:00 PM)</strong><br>
+            Prompt to fill in your daily log before ending work.<br><br>
+
+            <strong>3. Weekly Summary (Friday 5:00 PM)</strong><br>
+            Automated compilation of:<br>
+            • Total papers read this week<br>
+            • Word count progress<br>
+            • Tasks completed vs planned<br>
+            • Blockers encountered<br>
+            • Next week's priorities<br><br>
+
+            <strong>4. Monthly Review (Last Friday of month)</strong><br>
+            Higher-level summary for progress reports and self-assessment.<br><br>
+
+            To log today's work, just say "Log research: [your update]" and I'll add it to today's file.
+        </div>
+    </div>
+
+    <div class="conversation">
+        <div class="conversation-title">Example 4: Thesis Timeline Management</div>
+
+        <div class="message user">
+            <div class="message-label">👤 User</div>
+            I'm starting my thesis. Help me create a 6-month writing timeline with chapter deadlines and regular check-ins with my advisor.
+        </div>
+
+        <div class="message assistant">
+            <div class="message-label">🤖 ClawdBot</div>
+            I'll create a comprehensive thesis timeline for you. Let me ask a few questions first:<br><br>
+
+            1. What's your target defense/submission date?<br>
+            2. How many chapters do you anticipate?<br>
+            3. How often do you meet with your advisor?<br><br>
+
+            In the meantime, here's a standard 6-month framework I'll customize:<br><br>
+
+            <strong>Month 1-2: Foundation</strong><br>
+            • Week 1-2: Detailed outline for all chapters<br>
+            • Week 3-4: Introduction chapter draft<br>
+            • Week 5-8: Literature review chapter draft<br><br>
+
+            <strong>Month 3-4: Core Chapters</strong><br>
+            • Week 9-12: Methodology chapter<br>
+            • Week 13-16: Results/Analysis chapters<br><br>
+
+            <strong>Month 5: Integration</strong><br>
+            • Week 17-18: Discussion chapter<br>
+            • Week 19-20: Conclusion and abstract<br><br>
+
+            <strong>Month 6: Polish</strong><br>
+            • Week 21-22: Full revision pass<br>
+            • Week 23: Advisor final review<br>
+            • Week 24: Formatting and submission prep<br><br>
+
+            <strong>Automated Reminders I'll Set:</strong><br>
+            • Bi-weekly chapter milestones<br>
+            • Weekly writing goals<br>
+            • Pre-advisor-meeting prep reminders<br>
+            • Monthly progress summaries<br><br>
+
+            Shall I proceed with your specific dates?
+        </div>
+    </div>
+
+    <h2>Pro Tips</h2>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Use Incremental Deadlines</div>
+        <p>Set intermediate deadlines for each section of a paper, not just the final submission. "Introduction by Monday, Methods by Wednesday" creates consistent progress.</p>
+    </div>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Buffer Time</div>
+        <p>Set your personal deadlines 2-3 days before actual deadlines. This accounts for unexpected issues and reduces last-minute stress.</p>
+    </div>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Weekly Reviews are Essential</div>
+        <p>The Monday morning review is the most valuable single habit. It prevents entire weeks from slipping away unproductively.</p>
+    </div>
+
+    <div class="callout tip">
+        <div class="callout-title">💡 Pro Tip: Log Blockers Immediately</div>
+        <p>When you hit a research blocker, log it right away. This creates a record for troubleshooting and helps identify patterns.</p>
+    </div>
+
+    <h3>Common Pitfalls to Avoid</h3>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Over-Scheduling</div>
+        <p>Don't create so many reminders that you start ignoring them. Quality over quantity-a few well-timed prompts beat constant notifications.</p>
+    </div>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Unrealistic Timelines</div>
+        <p>Be honest about how long tasks take. If writing 1,000 words takes you a full day, don't schedule 5,000 words per week.</p>
+    </div>
+
+    <div class="callout warning">
+        <div class="callout-title">⚠️ Pitfall: Not Adjusting</div>
+        <p>Plans change. Review and adjust your milestones monthly. A rigid plan that doesn't reflect reality is useless.</p>
+    </div>
+</section>
+
+<!-- Appendix: Quick Reference -->
+<section class="use-case">
+    <div class="use-case-header">
+        <div class="use-case-number">APPENDIX A</div>
+        <h1>Quick Reference Card</h1>
+    </div>
+
+    <h2>Common Commands by Use Case</h2>
+
+    <h3>Literature Review</h3>
+    <pre><code><span class="comment"># Search for papers</span>
+"Find recent papers on [TOPIC] from [YEAR]"
+"Search arxiv for [KEYWORDS]"
+"Find papers by [AUTHOR] on [TOPIC]"
+
+<span class="comment"># Summarize papers</span>
+"Fetch and summarize [URL]"
+"Give me a 200-word summary of this paper"
+"What are the key findings of [PAPER]?"
+
+<span class="comment"># Organize</span>
+"Save this summary to my literature notes"
+"Add this to my bibliography"
+"Create a reading list on [TOPIC]"</code></pre>
+
+    <h3>Document Generation</h3>
+    <pre><code><span class="comment"># Create documents</span>
+"Create a literature review on [TOPIC]"
+"Generate a research proposal for [PROJECT]"
+"Write an abstract for [DESCRIPTION]"
+
+<span class="comment"># Format and convert</span>
+"Convert [FILE] to DOCX"
+"Format this document for [JOURNAL]"
+"Add APA citations to this document"</code></pre>
+
+    <h3>Citations</h3>
+    <pre><code><span class="comment"># Find citations</span>
+"Find the citation for [PAPER TITLE]"
+"Get citation info for DOI [NUMBER]"
+
+<span class="comment"># Format citations</span>
+"Format this in APA 7th edition"
+"Convert these citations from MLA to IEEE"
+"Build a bibliography from these URLs"</code></pre>
+
+    <h3>Writing Assistance</h3>
+    <pre><code><span class="comment"># Review text</span>
+"Proofread this for grammar"
+"Improve the clarity of this paragraph"
+"Make this more concise"
+
+<span class="comment"># Academic style</span>
+"Check this for academic tone"
+"Is this appropriate for a journal submission?"
+"Rewrite this more formally"</code></pre>
+
+    <h3>Project Management</h3>
+    <pre><code><span class="comment"># Reminders</span>
+"Remind me every Monday at 9 AM to [TASK]"
+"Set a deadline reminder for [DATE]"
+"Create a writing schedule for [PROJECT]"
+
+<span class="comment"># Progress tracking</span>
+"Log my research: [UPDATE]"
+"Show my progress this week"
+"What deadlines are coming up?"</code></pre>
+
+    <h2>Citation Style Quick Reference</h2>
+
+    <table>
+        <tr>
+            <th>Style</th>
+            <th>In-Text Example</th>
+            <th>Reference Format Hint</th>
+        </tr>
+        <tr>
+            <td>APA 7</td>
+            <td>(Smith, 2023)</td>
+            <td>Author, A. A. (Year). Title. <em>Source</em>. DOI</td>
+        </tr>
+        <tr>
+            <td>MLA 9</td>
+            <td>(Smith 45)</td>
+            <td>Author. "Title." <em>Container</em>, vol., no., Year, pp.</td>
+        </tr>
+        <tr>
+            <td>Chicago</td>
+            <td>¹ or (Smith 2023)</td>
+            <td>Author. <em>Title</em>. Place: Publisher, Year.</td>
+        </tr>
+        <tr>
+            <td>IEEE</td>
+            <td>[1]</td>
+            <td>A. Author, "Title," <em>Journal</em>, vol., pp., Year.</td>
+        </tr>
+        <tr>
+            <td>Harvard</td>
+            <td>(Smith 2023)</td>
+            <td>Author, A (Year) <em>Title</em>, Publisher, Place.</td>
+        </tr>
+    </table>
+</section>
+
+<!-- Appendix: Troubleshooting -->
+<section class="use-case">
+    <div class="use-case-header">
+        <div class="use-case-number">APPENDIX B</div>
+        <h1>Troubleshooting</h1>
+    </div>
+
+    <h2>Common Issues and Solutions</h2>
+
+    <h3>Web Search Issues</h3>
+
+    <div class="callout warning">
+        <div class="callout-title">❌ "Search returned no relevant academic results"</div>
+        <p><strong>Solution:</strong> Add academic qualifiers to your search: "site:arxiv.org", "site:scholar.google.com", or include terms like "journal", "proceedings", or "et al."</p>
+    </div>
+
+    <div class="callout warning">
+        <div class="callout-title">❌ "Can't access paper content (paywall)"</div>
+        <p><strong>Solution:</strong> Look for preprint versions on arXiv, search for author's personal website, or check if your institution provides access. Share the PDF directly if you have access.</p>
+    </div>
+
+    <h3>Document Generation Issues</h3>
+
+    <div class="callout warning">
+        <div class="callout-title">❌ "Generated document has incorrect formatting"</div>
+        <p><strong>Solution:</strong> Be specific about formatting requirements. Provide a sample or template. Specify margins, fonts, and spacing explicitly.</p>
+    </div>
+
+    <div class="callout warning">
+        <div class="callout-title">❌ "Pandoc conversion failed"</div>
+        <p><strong>Solution:</strong> Check that Pandoc is installed (<code>pandoc --version</code>). For PDF output, ensure LaTeX is installed (<code>apt install texlive-xetex</code>).</p>
+    </div>
+
+    <h3>Citation Issues</h3>
+
+    <div class="callout warning">
+        <div class="callout-title">❌ "Citation information is incomplete or incorrect"</div>
+        <p><strong>Solution:</strong> Always verify citations against the original source. Provide DOIs when available for the most accurate metadata.</p>
+    </div>
+
+    <h3>Reminder/Cron Issues</h3>
+
+    <div class="callout warning">
+        <div class="callout-title">❌ "Reminder didn't trigger"</div>
+        <p><strong>Solution:</strong> Check that ClawdBot is running. Verify the cron expression is correct. Ensure timezone settings match your expectations.</p>
+    </div>
+
+    <h2>Getting Help</h2>
+
+    <p>For additional assistance:</p>
+    <ul>
+        <li>Ask ClawdBot: "Help me troubleshoot [specific issue]"</li>
+        <li>Check the ClawdBot documentation</li>
+        <li>Review your configuration files for errors</li>
+        <li>Check system logs for error messages</li>
+    </ul>
+
+    <div class="callout success">
+        <div class="callout-title">✅ Best Practice</div>
+        <p>When reporting issues, include: what you asked, what you expected, what happened instead, and any error messages. This helps diagnose problems quickly.</p>
+    </div>
+</section>
+
+<div class="page-footer">
+    <p><strong>ClawdBot for Academic Research & Writing: 5 Detailed Use Cases</strong></p>
+    <p>Version 1.0 | Comprehensive Reference Guide</p>
+    <p style="margin-top: 10px; font-size: 8pt;">Generated for academic use. Always verify AI-generated content and adhere to your institution's policies on AI assistance.</p>
+</div>
+
+</body>
+</html>

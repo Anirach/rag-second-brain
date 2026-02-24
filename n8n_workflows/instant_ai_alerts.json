@@ -1,0 +1,235 @@
+{
+  "name": "Instant AI News Alerts - High Priority",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "ai-news-alert",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-trigger",
+      "name": "AI News Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        240,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "leftValue": "={{$json.priority}}",
+            "operation": "equal",
+            "rightValue": "high"
+          }
+        }
+      },
+      "id": "filter-high-priority",
+      "name": "High Priority Only",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [
+        460,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "leftValue": "={{$json.keywords}}",
+            "operation": "contains",
+            "rightValue": "longevity|healthcare|AI|machine learning|life extension"
+          }
+        }
+      },
+      "id": "filter-relevant-topics",
+      "name": "Check Relevant Topics",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [
+        680,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.telegram.org/bot{{$credentials.telegramBot.token}}/sendMessage",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "chat_id",
+              "value": "7579913696"
+            },
+            {
+              "name": "text",
+              "value": "🚨 **URGENT AI RESEARCH ALERT**\\n\\n📰 **{{$json.title}}**\\n\\n🎯 **Category**: {{$json.category}}\\n📊 **Impact**: {{$json.impact_score}}/10\\n🏢 **Institution**: {{$json.institution}}\\n\\n📝 **Summary**:\\n{{$json.summary}}\\n\\n🔗 **Source**: {{$json.url}}\\n\\n*High-priority alert via n8n* ⚡"
+            },
+            {
+              "name": "parse_mode",
+              "value": "Markdown"
+            }
+          ]
+        }
+      },
+      "id": "urgent-telegram-alert",
+      "name": "Send Urgent Telegram Alert",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [
+        900,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "to": "anirach@your-email.com",
+        "subject": "🚨 URGENT: AI Research Breakthrough - {{$json.category}}",
+        "emailBody": "URGENT AI RESEARCH ALERT\\n\\nTitle: {{$json.title}}\\nCategory: {{$json.category}}\\nImpact Score: {{$json.impact_score}}/10\\nInstitution: {{$json.institution}}\\nPublished: {{$json.date}}\\n\\nSummary:\\n{{$json.summary}}\\n\\nFull Article: {{$json.url}}\\n\\nThis alert was triggered because the research meets your high-priority criteria for AI, longevity, or healthcare breakthroughs.\\n\\nArthur Research Assistant"
+      },
+      "id": "urgent-email-alert",
+      "name": "Send Urgent Email Alert",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2,
+      "position": [
+        900,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://your-research-database.com/api/alerts",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_DB_TOKEN"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "type",
+              "value": "urgent_alert"
+            },
+            {
+              "name": "title",
+              "value": "={{$json.title}}"
+            },
+            {
+              "name": "category",
+              "value": "={{$json.category}}"
+            },
+            {
+              "name": "impact_score",
+              "value": "={{$json.impact_score}}"
+            },
+            {
+              "name": "url",
+              "value": "={{$json.url}}"
+            },
+            {
+              "name": "timestamp",
+              "value": "={{$now}}"
+            }
+          ]
+        }
+      },
+      "id": "log-to-database",
+      "name": "Log to Research Database",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [
+        900,
+        360
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "{ \"status\": \"alert_processed\", \"timestamp\": \"{{$now}}\", \"alert_id\": \"{{$runId}}\" }"
+      },
+      "id": "webhook-response",
+      "name": "Webhook Response",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [
+        1120,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "AI News Webhook": {
+      "main": [
+        [
+          {
+            "node": "High Priority Only",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "High Priority Only": {
+      "main": [
+        [
+          {
+            "node": "Check Relevant Topics",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Relevant Topics": {
+      "main": [
+        [
+          {
+            "node": "Send Urgent Telegram Alert",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Send Urgent Email Alert",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Log to Research Database",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send Urgent Telegram Alert": {
+      "main": [
+        [
+          {
+            "node": "Webhook Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "timezone": "Asia/Bangkok"
+  },
+  "staticData": null,
+  "tags": ["alerts", "urgent", "ai", "longevity", "research"],
+  "triggerCount": 0,
+  "updatedAt": "2026-01-29T05:13:00.000Z",
+  "versionId": "1"
+}

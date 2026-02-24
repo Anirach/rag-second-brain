@@ -1,0 +1,591 @@
+{
+  "metadata": {
+    "name": "NCD-CIE Natural Language Parser Evaluation Suite",
+    "version": "1.0",
+    "date": "2026-02-18",
+    "description": "50-query test suite for evaluating the LLM-powered NL-to-do-calculus parser in the NCD-CIE system",
+    "system_context": {
+      "graph_nodes": 51,
+      "graph_edges": 107,
+      "clinical_domains": 8,
+      "endpoints": ["CVD_Risk", "T2DM_Risk", "CKD_Risk"],
+      "key_variables": ["SBP", "LDL_C", "HDL_C", "Smoking", "BMI", "eGFR", "Age", "Sex", "Exercise", "HbA1c", "Alcohol", "Statin", "HTN_med", "Diabetes"]
+    }
+  },
+  "scoring_rubric": {
+    "full_match": {
+      "score": 1.0,
+      "criteria": "Correct intervention variables AND correct values AND correct target endpoint"
+    },
+    "partial_match": {
+      "score": 0.5,
+      "criteria": "Correct intervention variables but wrong/imprecise values, OR correct variables with missing target"
+    },
+    "wrong_parse": {
+      "score": 0.0,
+      "criteria": "Incorrect intervention variables identified"
+    },
+    "correct_rejection": {
+      "score": 1.0,
+      "criteria": "Properly returns out_of_scope or clarification_needed for unparseable/invalid queries"
+    },
+    "missed_rejection": {
+      "score": 0.0,
+      "criteria": "Fails to reject an out-of-scope query, or incorrectly rejects a valid query"
+    }
+  },
+  "test_cases": [
+    {
+      "id": "S01",
+      "category": "simple_single_intervention",
+      "query": "What if this patient starts taking a statin?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "Statin", "value": 1}],
+        "target": "CVD_Risk",
+        "notes": "Statin is a binary variable; default target is CVD_Risk"
+      }
+    },
+    {
+      "id": "S02",
+      "category": "simple_single_intervention",
+      "query": "What happens if the patient quits smoking?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "Smoking", "value": 0}],
+        "target": "CVD_Risk",
+        "notes": "Smoking cessation, binary intervention"
+      }
+    },
+    {
+      "id": "S03",
+      "category": "simple_single_intervention",
+      "query": "How would starting blood pressure medication affect this patient?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "HTN_med", "value": 1}],
+        "target": "CVD_Risk",
+        "notes": "Antihypertensive initiation"
+      }
+    },
+    {
+      "id": "S04",
+      "category": "simple_single_intervention",
+      "query": "What if the patient loses 10 kg?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "BMI", "value": "-3.5"}],
+        "target": "CVD_Risk",
+        "notes": "Approximate BMI delta for 10kg loss in average adult; parser should convert weight to BMI delta"
+      }
+    },
+    {
+      "id": "S05",
+      "category": "simple_single_intervention",
+      "query": "What if the patient starts exercising regularly?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "Exercise", "value": "+7.5 MET-h/wk"}],
+        "target": "CVD_Risk",
+        "notes": "Default moderate exercise ~150 min/wk = ~7.5 MET-h/wk"
+      }
+    },
+    {
+      "id": "S06",
+      "category": "simple_single_intervention",
+      "query": "Show me the effect of reducing alcohol consumption to zero.",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "Alcohol", "value": 0}],
+        "target": "CVD_Risk",
+        "notes": "Complete alcohol cessation"
+      }
+    },
+    {
+      "id": "S07",
+      "category": "simple_single_intervention",
+      "query": "What would happen to their diabetes risk if they lost weight?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "BMI", "value": "-2.0"}],
+        "target": "T2DM_Risk",
+        "notes": "Explicit T2DM target; weight loss needs BMI delta estimation"
+      }
+    },
+    {
+      "id": "S08",
+      "category": "simple_single_intervention",
+      "query": "What if we start an SGLT2 inhibitor?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "SGLT2i", "value": 1}],
+        "target": "CKD_Risk",
+        "notes": "SGLT2i primarily impacts renal/CV endpoints"
+      }
+    },
+    {
+      "id": "S09",
+      "category": "simple_single_intervention",
+      "query": "How would controlling blood pressure to 130 mmHg affect outcomes?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "SBP", "value": 130}],
+        "target": "CVD_Risk",
+        "notes": "Absolute SBP target value"
+      }
+    },
+    {
+      "id": "S10",
+      "category": "simple_single_intervention",
+      "query": "What if the patient stops smoking completely?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "Smoking", "value": 0}],
+        "target": "CVD_Risk",
+        "notes": "Synonym for quit smoking"
+      }
+    },
+    {
+      "id": "C01",
+      "category": "compound_multi_intervention",
+      "query": "What if they quit smoking and start exercising?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [
+          {"variable": "Smoking", "value": 0},
+          {"variable": "Exercise", "value": "+7.5 MET-h/wk"}
+        ],
+        "target": "CVD_Risk",
+        "notes": "Two lifestyle interventions"
+      }
+    },
+    {
+      "id": "C02",
+      "category": "compound_multi_intervention",
+      "query": "What if the patient starts a statin and loses 5 kg?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [
+          {"variable": "Statin", "value": 1},
+          {"variable": "BMI", "value": "-1.7"}
+        ],
+        "target": "CVD_Risk",
+        "notes": "Pharmacological + lifestyle; from paper example"
+      }
+    },
+    {
+      "id": "C03",
+      "category": "compound_multi_intervention",
+      "query": "What happens if they quit smoking, start blood pressure meds, and begin exercising?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [
+          {"variable": "Smoking", "value": 0},
+          {"variable": "HTN_med", "value": 1},
+          {"variable": "Exercise", "value": "+7.5 MET-h/wk"}
+        ],
+        "target": "CVD_Risk",
+        "notes": "Triple intervention"
+      }
+    },
+    {
+      "id": "C04",
+      "category": "compound_multi_intervention",
+      "query": "What if we add a statin and an antihypertensive together?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [
+          {"variable": "Statin", "value": 1},
+          {"variable": "HTN_med", "value": 1}
+        ],
+        "target": "CVD_Risk",
+        "notes": "Two pharmacological interventions"
+      }
+    },
+    {
+      "id": "C05",
+      "category": "compound_multi_intervention",
+      "query": "How would quitting smoking and reducing alcohol affect kidney disease risk?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [
+          {"variable": "Smoking", "value": 0},
+          {"variable": "Alcohol", "value": 0}
+        ],
+        "target": "CKD_Risk",
+        "notes": "Explicit CKD target with dual lifestyle intervention"
+      }
+    },
+    {
+      "id": "C06",
+      "category": "compound_multi_intervention",
+      "query": "What if the patient starts metformin and loses 10 kg?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [
+          {"variable": "Metformin", "value": 1},
+          {"variable": "BMI", "value": "-3.5"}
+        ],
+        "target": "T2DM_Risk",
+        "notes": "Metformin implies T2DM context"
+      }
+    },
+    {
+      "id": "C07",
+      "category": "compound_multi_intervention",
+      "query": "What if they exercise daily and cut their LDL by 1 mmol/L?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [
+          {"variable": "Exercise", "value": "+7.5 MET-h/wk"},
+          {"variable": "LDL_C", "value": "-1.0 mmol/L"}
+        ],
+        "target": "CVD_Risk",
+        "notes": "Lifestyle + biomarker target"
+      }
+    },
+    {
+      "id": "C08",
+      "category": "compound_multi_intervention",
+      "query": "What would happen if they controlled blood pressure to 120 and started a statin?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [
+          {"variable": "SBP", "value": 120},
+          {"variable": "Statin", "value": 1}
+        ],
+        "target": "CVD_Risk",
+        "notes": "Absolute BP target + medication"
+      }
+    },
+    {
+      "id": "C09",
+      "category": "compound_multi_intervention",
+      "query": "What if we start SGLT2i and get blood pressure under control?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [
+          {"variable": "SGLT2i", "value": 1},
+          {"variable": "HTN_med", "value": 1}
+        ],
+        "target": "CKD_Risk",
+        "notes": "Renal-focused dual intervention"
+      }
+    },
+    {
+      "id": "C10",
+      "category": "compound_multi_intervention",
+      "query": "What if the patient quits smoking, exercises 30 minutes daily, and loses 5 kg?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [
+          {"variable": "Smoking", "value": 0},
+          {"variable": "Exercise", "value": "+3.5 MET-h/wk"},
+          {"variable": "BMI", "value": "-1.7"}
+        ],
+        "target": "CVD_Risk",
+        "notes": "From paper example; 30 min daily ≈ 3.5 MET-h/wk"
+      }
+    },
+    {
+      "id": "Q01",
+      "category": "quantitative",
+      "query": "What if LDL drops by 1.5 mmol/L?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "LDL_C", "value": "-1.5 mmol/L"}],
+        "target": "CVD_Risk",
+        "notes": "Explicit quantitative delta"
+      }
+    },
+    {
+      "id": "Q02",
+      "category": "quantitative",
+      "query": "What if systolic blood pressure is reduced to 125 mmHg?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "SBP", "value": 125}],
+        "target": "CVD_Risk",
+        "notes": "Absolute target value"
+      }
+    },
+    {
+      "id": "Q03",
+      "category": "quantitative",
+      "query": "What happens if BMI decreases from 32 to 27?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "BMI", "value": "-5.0"}],
+        "target": "CVD_Risk",
+        "notes": "Parser must compute delta from absolute values"
+      }
+    },
+    {
+      "id": "Q04",
+      "category": "quantitative",
+      "query": "What if HbA1c drops by 1.0 percentage point?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "HbA1c", "value": "-1.0 %"}],
+        "target": "T2DM_Risk",
+        "notes": "HbA1c quantitative delta"
+      }
+    },
+    {
+      "id": "Q05",
+      "category": "quantitative",
+      "query": "What if the patient exercises 150 minutes per week?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "Exercise", "value": "+7.5 MET-h/wk"}],
+        "target": "CVD_Risk",
+        "notes": "Parser must convert minutes/week to MET-h/wk"
+      }
+    },
+    {
+      "id": "Q06",
+      "category": "quantitative",
+      "query": "What if HDL-C increases by 0.3 mmol/L?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "HDL_C", "value": "+0.3 mmol/L"}],
+        "target": "CVD_Risk",
+        "notes": "Positive delta on protective variable"
+      }
+    },
+    {
+      "id": "Q07",
+      "category": "quantitative",
+      "query": "What if eGFR improves from 45 to 60 mL/min?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "eGFR", "value": "+15 mL/min"}],
+        "target": "CKD_Risk",
+        "notes": "Renal function improvement, parser computes delta"
+      }
+    },
+    {
+      "id": "Q08",
+      "category": "quantitative",
+      "query": "What if we reduce blood pressure by 20 mmHg?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "SBP", "value": "-20 mmHg"}],
+        "target": "CVD_Risk",
+        "notes": "Explicit delta in mmHg"
+      }
+    },
+    {
+      "id": "Q09",
+      "category": "quantitative",
+      "query": "What if alcohol intake drops from 21 to 7 units per week?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "Alcohol", "value": "-14 units/wk"}],
+        "target": "CVD_Risk",
+        "notes": "Alcohol reduction with specific quantities"
+      }
+    },
+    {
+      "id": "Q10",
+      "category": "quantitative",
+      "query": "What if the patient reduces body weight by 7%?",
+      "expected": {
+        "type": "intervention",
+        "do_operations": [{"variable": "BMI", "value": "-7%"}],
+        "target": "T2DM_Risk",
+        "notes": "Percentage-based weight reduction; DPP-style intervention"
+      }
+    },
+    {
+      "id": "A01",
+      "category": "ambiguous_edge_case",
+      "query": "What about improving their diet?",
+      "expected": {
+        "type": "clarification_needed",
+        "reason": "Diet is not a single variable; need specification of which dietary components (sodium, fibre, saturated fat) or proxy biomarker targets (LDL-C, BMI)",
+        "suggested_clarification": "Could you specify which dietary change? For example: reduce sodium, increase fibre, or target a specific LDL-C or BMI reduction?"
+      }
+    },
+    {
+      "id": "A02",
+      "category": "ambiguous_edge_case",
+      "query": "Can we reduce their risk factors?",
+      "expected": {
+        "type": "clarification_needed",
+        "reason": "Too vague; multiple risk factors exist. Parser cannot determine which variables to intervene on.",
+        "suggested_clarification": "Which risk factors would you like to target? For example: blood pressure, cholesterol, smoking, weight, or exercise?"
+      }
+    },
+    {
+      "id": "A03",
+      "category": "ambiguous_edge_case",
+      "query": "What if they take their medications?",
+      "expected": {
+        "type": "clarification_needed",
+        "reason": "Unspecified medication type; could be statin, antihypertensive, SGLT2i, metformin, etc.",
+        "suggested_clarification": "Which medication(s) are you referring to? For example: statin, antihypertensive, SGLT2i, or metformin?"
+      }
+    },
+    {
+      "id": "A04",
+      "category": "ambiguous_edge_case",
+      "query": "What if their labs improve?",
+      "expected": {
+        "type": "clarification_needed",
+        "reason": "Labs is too vague; many biomarkers in the graph (LDL-C, HDL-C, HbA1c, eGFR, SBP)",
+        "suggested_clarification": "Which lab values? For example: LDL-C, HbA1c, eGFR, or blood pressure?"
+      }
+    },
+    {
+      "id": "A05",
+      "category": "ambiguous_edge_case",
+      "query": "What if they get healthier?",
+      "expected": {
+        "type": "clarification_needed",
+        "reason": "Maximally vague; no actionable intervention identifiable",
+        "suggested_clarification": "Could you be more specific? For example: quit smoking, lose weight, exercise more, or start a specific medication?"
+      }
+    },
+    {
+      "id": "A06",
+      "category": "ambiguous_edge_case",
+      "query": "What if the patient is more compliant?",
+      "expected": {
+        "type": "clarification_needed",
+        "reason": "Compliance is not a variable in the causal graph; need to specify which treatment",
+        "suggested_clarification": "Compliant with which treatment? For example: statin adherence, blood pressure medication, or exercise regimen?"
+      }
+    },
+    {
+      "id": "A07",
+      "category": "ambiguous_edge_case",
+      "query": "Should we treat aggressively?",
+      "expected": {
+        "type": "clarification_needed",
+        "reason": "Not a what-if query; no specific intervention stated",
+        "suggested_clarification": "I can model specific interventions. What would aggressive treatment include? For example: intensive BP control (<120), high-dose statin, and lifestyle changes?"
+      }
+    },
+    {
+      "id": "A08",
+      "category": "ambiguous_edge_case",
+      "query": "What if stress levels decrease?",
+      "expected": {
+        "type": "clarification_needed",
+        "reason": "Stress is not directly represented in the causal graph as a node; may map indirectly to SBP or other variables",
+        "suggested_clarification": "Stress isn't directly modelled. Would you like to simulate its effects via blood pressure reduction or another proxy?"
+      }
+    },
+    {
+      "id": "A09",
+      "category": "ambiguous_edge_case",
+      "query": "Lower the cholesterol.",
+      "expected": {
+        "type": "clarification_needed",
+        "reason": "Ambiguous: cholesterol could mean LDL-C, total cholesterol, or triglycerides; no magnitude specified",
+        "suggested_clarification": "Do you mean LDL-C or total cholesterol? And by how much—for example, reduce LDL-C by 1 mmol/L?"
+      }
+    },
+    {
+      "id": "A10",
+      "category": "ambiguous_edge_case",
+      "query": "What if they do everything right?",
+      "expected": {
+        "type": "clarification_needed",
+        "reason": "Maximally ambiguous; no specific interventions identifiable",
+        "suggested_clarification": "I can model a comprehensive scenario. Would you like: quit smoking + exercise 150 min/wk + statin + BP control to 130 + BMI to 25?"
+      }
+    },
+    {
+      "id": "O01",
+      "category": "out_of_scope",
+      "query": "What's the weather like today?",
+      "expected": {
+        "type": "out_of_scope",
+        "reason": "Completely unrelated to clinical risk assessment"
+      }
+    },
+    {
+      "id": "O02",
+      "category": "out_of_scope",
+      "query": "Can you diagnose this patient?",
+      "expected": {
+        "type": "out_of_scope",
+        "reason": "System performs interventional what-if analysis, not diagnosis"
+      }
+    },
+    {
+      "id": "O03",
+      "category": "out_of_scope",
+      "query": "What's the best restaurant near the hospital?",
+      "expected": {
+        "type": "out_of_scope",
+        "reason": "Non-medical query"
+      }
+    },
+    {
+      "id": "O04",
+      "category": "out_of_scope",
+      "query": "Write me a referral letter for this patient.",
+      "expected": {
+        "type": "out_of_scope",
+        "reason": "Document generation, not causal inference"
+      }
+    },
+    {
+      "id": "O05",
+      "category": "out_of_scope",
+      "query": "What is the mechanism of action of atorvastatin?",
+      "expected": {
+        "type": "out_of_scope",
+        "reason": "Pharmacology knowledge question, not an interventional what-if query"
+      }
+    },
+    {
+      "id": "O06",
+      "category": "out_of_scope",
+      "query": "Summarize this patient's medical history.",
+      "expected": {
+        "type": "out_of_scope",
+        "reason": "EHR summarization, not causal what-if"
+      }
+    },
+    {
+      "id": "O07",
+      "category": "out_of_scope",
+      "query": "What if the patient had cancer?",
+      "expected": {
+        "type": "out_of_scope",
+        "reason": "Cancer is outside the NCD-CIE scope (CVD/T2DM/CKD)"
+      }
+    },
+    {
+      "id": "O08",
+      "category": "out_of_scope",
+      "query": "How old is the patient?",
+      "expected": {
+        "type": "out_of_scope",
+        "reason": "Factual lookup, not an interventional query"
+      }
+    },
+    {
+      "id": "O09",
+      "category": "out_of_scope",
+      "query": "What if we change the patient's age to 40?",
+      "expected": {
+        "type": "out_of_scope",
+        "reason": "Age is non-modifiable; do(Age=X) is not a valid intervention"
+      }
+    },
+    {
+      "id": "O10",
+      "category": "out_of_scope",
+      "query": "What if the patient were male instead of female?",
+      "expected": {
+        "type": "out_of_scope",
+        "reason": "Sex is non-modifiable; do(Sex=X) is not a valid intervention"
+      }
+    }
+  ]
+}

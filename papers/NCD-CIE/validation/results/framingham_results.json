@@ -1,0 +1,76 @@
+{
+  "dataset": "Framingham Heart Study",
+  "n_patients": 4240,
+  "n_chd_positive": 644,
+  "prevalence": 0.15188679245283018,
+  "metrics": {
+    "kg_only": {
+      "label": "NCD-CIE KG-only",
+      "auc": 0.6723406010128576,
+      "brier": 0.5122440494172372
+    },
+    "logistic_regression": {
+      "label": "Logistic Regression",
+      "auc": 0.7240425006390814,
+      "brier": 0.1172245948099557
+    },
+    "blended": {
+      "label": "NCD-CIE Blended (\u03b3=0.7)",
+      "auc": 0.6877690187164481,
+      "brier": 0.1410522412608814
+    }
+  },
+  "gamma_sensitivity": [
+    {
+      "gamma": 0.3,
+      "auc": 0.7138586524709996
+    },
+    {
+      "gamma": 0.5,
+      "auc": 0.7013788612606139
+    },
+    {
+      "gamma": 0.7,
+      "auc": 0.6877690187164481
+    },
+    {
+      "gamma": 0.8,
+      "auc": 0.6813246602505199
+    },
+    {
+      "gamma": 0.9,
+      "auc": 0.6761545782408336
+    },
+    {
+      "gamma": 1.0,
+      "auc": 0.6723444873185527
+    }
+  ],
+  "interventions": {
+    "statin": {
+      "n_eligible": 969,
+      "original_risk": 0.5721201963462197,
+      "predicted_post_intervention": 0.5121201963462196,
+      "predicted_reduction": -0.06,
+      "actual_chd_rate": 0.26418988648090813
+    },
+    "bp_medication": {
+      "n_eligible": 868,
+      "original_risk": 0.5765859010941121,
+      "predicted_post_intervention": 0.5315859010941121,
+      "predicted_reduction": -0.045,
+      "actual_chd_rate": 0.2730414746543779
+    },
+    "smoking_cessation": {
+      "n_eligible": 747,
+      "original_risk": 0.5807952000048577,
+      "predicted_post_intervention": 0.5407952000048577,
+      "predicted_reduction": -0.04,
+      "actual_chd_rate": 0.2570281124497992
+    }
+  },
+  "reference": {
+    "SCORE2_AUC": 0.704,
+    "DAgostino_AUC": 0.721
+  }
+}

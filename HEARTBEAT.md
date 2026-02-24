@@ -1,17 +1,26 @@
 # HEARTBEAT.md - Proactive Checks
 
-## Response Format (ALWAYS use this)
-After completing checks, ALWAYS reply with a status report like this:
+## ⚠️ STRICT Response Rules
 
-```
-⚡ Heartbeat Report ({time}):
-• Model: {your model name} ✅
-• Status: {ok or alert details}
-• Checks: {what you checked}
-{any alerts or findings}
-```
+**RULE 1: Silent when nothing is actionable**
+- If all checks pass with no issues → reply EXACTLY: `HEARTBEAT_OK`
+- That is your ENTIRE reply. No explanation. No summary. No "I checked X and Y."
+- DO NOT write anything before or after HEARTBEAT_OK
+- DO NOT say "Checking heartbeat status" or any other prefix
 
-Do NOT reply with HEARTBEAT_OK ever. Do NOT include the word HEARTBEAT_OK anywhere in your response. Always give the full status report above — OpenClaw suppresses messages containing HEARTBEAT_OK.
+**RULE 2: Alert ONLY when something needs attention**
+- Urgent email → alert
+- Calendar event < 2h → alert
+- Stuck/failed sub-agent → alert
+- Critical error found → alert
+
+**RULE 3: No status reports — EVER**
+- Do NOT narrate what you checked
+- Do NOT describe tool calls or intermediate steps
+- Do NOT send any message if you would end it with HEARTBEAT_OK anyway
+- Think of it like a smoke alarm: silent = everything fine, noise = real problem
+- WRONG: "Checking status... all good. HEARTBEAT_OK"
+- CORRECT: HEARTBEAT_OK
 
 ## Every Heartbeat (rotate 2-3 items)
 - [ ] Check `memory/heartbeat-state.json` for last check times

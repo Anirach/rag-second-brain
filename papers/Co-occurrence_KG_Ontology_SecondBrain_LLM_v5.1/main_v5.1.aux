@@ -1,0 +1,225 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{krishna2024frames}
+\citation{brown2020gpt3}
+\citation{lewis2020rag}
+\citation{edge2024graphrag}
+\citation{microsoft2024graphrag}
+\citation{lewis2020rag}
+\citation{karpukhin2020dpr}
+\citation{khattab2020colbert}
+\citation{izacard2021fid}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{fang2024amkor}
+\citation{wang2024kga}
+\citation{chen2024fairrag}
+\citation{li2024marag}
+\citation{lee2024temporalgraphrag}
+\citation{zhu2024fanoutqa}
+\citation{wu2024cofca}
+\citation{tu2022fe2h}
+\citation{church1990pmi}
+\citation{levy2014neural}
+\citation{pennington2014glove}
+\citation{mikolov2013word2vec}
+\citation{faruqui2015retrofitting}
+\citation{mrksic2016counter}
+\citation{zhang2019ernie}
+\citation{edge2024graphrag}
+\citation{microsoft2024graphrag}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Retrieval-Augmented Generation}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Recent Advanced RAG Systems}{2}{subsection.2.2}\protected@file@percent }
+\newlabel{sec:recent_rag}{{2.2}{2}{Recent Advanced RAG Systems}{subsection.2.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Conceptual comparison with GraphRAG}}{2}{table.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:graphrag_compare}{{1}{2}{Conceptual comparison with GraphRAG}{table.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Co-occurrence and Statistical Methods}{2}{subsection.2.3}\protected@file@percent }
+\newlabel{sec:cooccur_related}{{2.3}{2}{Co-occurrence and Statistical Methods}{subsection.2.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Knowledge-Enhanced Embeddings}{2}{subsection.2.4}\protected@file@percent }
+\newlabel{sec:retrofit_related}{{2.4}{2}{Knowledge-Enhanced Embeddings}{subsection.2.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Comparison with GraphRAG}{2}{subsection.2.5}\protected@file@percent }
+\newlabel{sec:graphrag}{{2.5}{2}{Comparison with GraphRAG}{subsection.2.5}{}}
+\citation{fang2024amkor}
+\citation{wang2024kga}
+\citation{chen2024fairrag}
+\citation{li2024marag}
+\citation{chen2024prism}
+\citation{lee2024temporalgraphrag}
+\citation{pennington2014glove}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{3}{section.3}\protected@file@percent }
+\newlabel{sec:method}{{3}{3}{Methodology}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Novelty Statement}{3}{subsection.3.1}\protected@file@percent }
+\newlabel{sec:novelty}{{3.1}{3}{Novelty Statement}{subsection.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Pipeline Architecture Overview}{3}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:pipeline}{{3.2}{3}{Pipeline Architecture Overview}{subsection.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Co-occurrence Module}{3}{subsection.3.3}\protected@file@percent }
+\newlabel{eq:query_proj}{{2}{3}{Co-occurrence Module}{equation.3.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Justification for Co-occurrence Module}{3}{subsubsection.3.3.1}\protected@file@percent }
+\newlabel{sec:cooc_justification}{{3.3.1}{3}{Justification for Co-occurrence Module}{subsubsection.3.3.1}{}}
+\citation{ni2022sentence_t5}
+\citation{johnson2019faiss}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Feature comparison with recent advanced RAG systems}}{4}{table.caption.3}\protected@file@percent }
+\newlabel{tab:recent_comparison}{{2}{4}{Feature comparison with recent advanced RAG systems}{table.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Complete pipeline architecture. The hybrid embedding $\mathbf  {e}_{\text  {hybrid}}$ serves dual roles: (1) guiding retrieval reranking to select top-$k$ passages, and (2) directing KG traversal to extract relevant subgraphs. Both outputs are aggregated for prompt construction.}}{4}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:pipeline}{{1}{4}{Complete pipeline architecture. The hybrid embedding $\mathbf {e}_{\text {hybrid}}$ serves dual roles: (1) guiding retrieval reranking to select top-$k$ passages, and (2) directing KG traversal to extract relevant subgraphs. Both outputs are aggregated for prompt construction}{figure.caption.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Synergy analysis: improvement over best single component}}{4}{table.caption.5}\protected@file@percent }
+\newlabel{tab:synergy}{{3}{4}{Synergy analysis: improvement over best single component}{table.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Sequence Module}{4}{subsection.3.4}\protected@file@percent }
+\citation{wu2020blink}
+\citation{motik2012owl2}
+\citation{rdfox2023}
+\citation{bordes2013transe}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Knowledge Graph Module}{5}{subsection.3.5}\protected@file@percent }
+\newlabel{sec:ontology}{{3.5}{5}{Knowledge Graph Module}{subsection.3.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.1}Graph Construction}{5}{subsubsection.3.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2}Entity Linking}{5}{subsubsection.3.5.2}\protected@file@percent }
+\newlabel{sec:entity_linking}{{3.5.2}{5}{Entity Linking}{subsubsection.3.5.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.3}OWL 2 RL Ontology Design}{5}{subsubsection.3.5.3}\protected@file@percent }
+\newlabel{sec:owl2rl}{{3.5.3}{5}{OWL 2 RL Ontology Design}{subsubsection.3.5.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.4}RDFox Materialization}{5}{subsubsection.3.5.4}\protected@file@percent }
+\newlabel{eq:rel_score}{{9}{5}{RDFox Materialization}{equation.3.9}{}}
+\citation{hu2022lora}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Bidirectional Cross-Attention Mechanism}{6}{subsection.3.6}\protected@file@percent }
+\newlabel{sec:bidirectional}{{3.6}{6}{Bidirectional Cross-Attention Mechanism}{subsection.3.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.6.1}Full Symmetrical Formulation}{6}{subsubsection.3.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.6.2}Updated Embeddings}{6}{subsubsection.3.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.6.3}Training Pipeline}{6}{subsubsection.3.6.3}\protected@file@percent }
+\newlabel{sec:training_pipeline}{{3.6.3}{6}{Training Pipeline}{subsubsection.3.6.3}{}}
+\citation{karypis1998metis}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Gating Mechanism}{7}{subsection.3.7}\protected@file@percent }
+\newlabel{sec:gating}{{3.7}{7}{Gating Mechanism}{subsection.3.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.7.1}Hybrid Embedding for Retrieval and KG Traversal}{7}{subsubsection.3.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Scalability Strategies}{7}{subsection.3.8}\protected@file@percent }
+\newlabel{sec:scale}{{3.8}{7}{Scalability Strategies}{subsection.3.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.8.1}Graph Partitioning}{7}{subsubsection.3.8.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Runtime scaling with KG size}}{7}{table.caption.6}\protected@file@percent }
+\newlabel{tab:scale}{{4}{7}{Runtime scaling with KG size}{table.caption.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.8.2}Incremental Materialization}{7}{subsubsection.3.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.8.3}Scalability Analysis}{7}{subsubsection.3.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{7}{section.4}\protected@file@percent }
+\newlabel{sec:experiments}{{4}{7}{Experiments}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Experimental Setup}{7}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}LLM Backbone}{7}{subsubsection.4.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Encoder Standardization}{7}{subsubsection.4.1.2}\protected@file@percent }
+\newlabel{sec:encoder_standard}{{4.1.2}{7}{Encoder Standardization}{subsubsection.4.1.2}{}}
+\citation{izacard2022contriever}
+\citation{he2021deberta}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Contriever encoder ablation (HotpotQA)}}{8}{table.caption.7}\protected@file@percent }
+\newlabel{tab:contriever_ablation}{{5}{8}{Contriever encoder ablation (HotpotQA)}{table.caption.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}Hardware}{8}{subsubsection.4.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.4}Data Leakage Mitigation}{8}{subsubsection.4.1.4}\protected@file@percent }
+\newlabel{sec:leakage}{{4.1.4}{8}{Data Leakage Mitigation}{subsubsection.4.1.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Evaluation Metrics}{8}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}NLI-based Evaluation Protocol}{8}{subsubsection.4.2.1}\protected@file@percent }
+\newlabel{sec:nli_protocol}{{4.2.1}{8}{NLI-based Evaluation Protocol}{subsubsection.4.2.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Error category breakdown (500 analyzed errors)}}{8}{table.caption.8}\protected@file@percent }
+\newlabel{tab:error_categories}{{6}{8}{Error category breakdown (500 analyzed errors)}{table.caption.8}{}}
+\citation{fang2024amkor}
+\citation{wang2024kga}
+\citation{chen2024fairrag}
+\citation{li2024marag}
+\citation{chen2024prism}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Main results with 95\% bootstrap confidence intervals. Faith.~= Faithfulness score (0-100).}}{9}{table.caption.9}\protected@file@percent }
+\newlabel{tab:main}{{7}{9}{Main results with 95\% bootstrap confidence intervals. Faith.~= Faithfulness score (0-100)}{table.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Comparison with recent systems (HotpotQA). Faith.~= Faithfulness.}}{9}{table.caption.10}\protected@file@percent }
+\newlabel{tab:recent_results}{{8}{9}{Comparison with recent systems (HotpotQA). Faith.~= Faithfulness}{table.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Main Results}{9}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Comparison with Recent Advanced Systems}{9}{subsection.4.4}\protected@file@percent }
+\newlabel{sec:recent_comparisons}{{4.4}{9}{Comparison with Recent Advanced Systems}{subsection.4.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces FRAMES benchmark results (EM by reasoning hops)}}{9}{table.caption.11}\protected@file@percent }
+\newlabel{tab:frames}{{9}{9}{FRAMES benchmark results (EM by reasoning hops)}{table.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}FRAMES Benchmark Evaluation}{9}{subsection.4.5}\protected@file@percent }
+\newlabel{sec:frames}{{4.5}{9}{FRAMES Benchmark Evaluation}{subsection.4.5}{}}
+\citation{zhu2024fanoutqa}
+\citation{wu2024cofca}
+\citation{lee2024temporalgraphrag}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.1}FanOutQA Evaluation}{10}{subsubsection.4.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces FanOutQA results (F1 score)}}{10}{table.caption.12}\protected@file@percent }
+\newlabel{tab:fanoutqa}{{10}{10}{FanOutQA results (F1 score)}{table.caption.12}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2}CofCA Counterfactual Evaluation}{10}{subsubsection.4.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces CofCA robustness (EM on counterfactual perturbations)}}{10}{table.caption.13}\protected@file@percent }
+\newlabel{tab:cofca}{{11}{10}{CofCA robustness (EM on counterfactual perturbations)}{table.caption.13}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.3}Temporal Reasoning}{10}{subsubsection.4.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Open Model Evaluation}{10}{subsection.4.6}\protected@file@percent }
+\newlabel{sec:open_models}{{4.6}{10}{Open Model Evaluation}{subsection.4.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Ablation Study}{10}{subsection.4.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}Query Type Analysis}{10}{subsection.4.8}\protected@file@percent }
+\newlabel{sec:query_types}{{4.8}{10}{Query Type Analysis}{subsection.4.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.8.1}Categorization Methodology}{10}{subsubsection.4.8.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Full results across models and datasets (EM scores)}}{11}{table.caption.14}\protected@file@percent }
+\newlabel{tab:open_models}{{12}{11}{Full results across models and datasets (EM scores)}{table.caption.14}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Ablation study on HotpotQA}}{11}{table.caption.15}\protected@file@percent }
+\newlabel{tab:ablation}{{13}{11}{Ablation study on HotpotQA}{table.caption.15}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Performance by query type (HotpotQA, EM)}}{11}{table.caption.16}\protected@file@percent }
+\newlabel{tab:query_type_perf}{{14}{11}{Performance by query type (HotpotQA, EM)}{table.caption.16}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces Computational cost breakdown}}{11}{table.caption.17}\protected@file@percent }
+\newlabel{tab:cost}{{15}{11}{Computational cost breakdown}{table.caption.17}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.9}Computational Cost}{11}{subsection.4.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10}Error Analysis}{11}{subsection.4.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{11}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Why Triple Sources Work}{11}{subsection.5.1}\protected@file@percent }
+\citation{jin2021medqa}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Domain Adaptation}{12}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Limitations}{12}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Ethics and Broader Impact}{12}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Knowledge Graph Sources and Licensing}{12}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Potential Biases}{12}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Maintenance and Deployment Considerations}{12}{subsection.7.3}\protected@file@percent }
+\bibstyle{plain}
+\bibdata{references_v5.1}
+\bibcite{bordes2013transe}{1}
+\bibcite{brown2020gpt3}{2}
+\bibcite{chen2024prism}{3}
+\bibcite{chen2024fairrag}{4}
+\bibcite{church1990pmi}{5}
+\bibcite{edge2024graphrag}{6}
+\bibcite{fang2024amkor}{7}
+\bibcite{faruqui2015retrofitting}{8}
+\bibcite{he2021deberta}{9}
+\bibcite{hu2022lora}{10}
+\bibcite{izacard2022contriever}{11}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{13}{section.8}\protected@file@percent }
+\bibcite{izacard2021fid}{12}
+\bibcite{jin2021medqa}{13}
+\bibcite{johnson2019faiss}{14}
+\bibcite{karpukhin2020dpr}{15}
+\bibcite{karypis1998metis}{16}
+\bibcite{khattab2020colbert}{17}
+\bibcite{krishna2024frames}{18}
+\bibcite{lee2024temporalgraphrag}{19}
+\bibcite{levy2014neural}{20}
+\bibcite{lewis2020rag}{21}
+\bibcite{li2024marag}{22}
+\bibcite{microsoft2024graphrag}{23}
+\bibcite{mikolov2013word2vec}{24}
+\bibcite{motik2012owl2}{25}
+\bibcite{mrksic2016counter}{26}
+\bibcite{ni2022sentence_t5}{27}
+\bibcite{rdfox2023}{28}
+\bibcite{pennington2014glove}{29}
+\bibcite{tu2022fe2h}{30}
+\bibcite{wang2024kga}{31}
+\bibcite{wu2020blink}{32}
+\bibcite{wu2024cofca}{33}
+\bibcite{zhang2019ernie}{34}
+\bibcite{zhu2024fanoutqa}{35}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Reproduction Guide}{15}{appendix.A}\protected@file@percent }
+\newlabel{app:repro}{{A}{15}{Reproduction Guide}{appendix.A}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Environment Setup}{15}{subsection.A.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Training}{15}{subsection.A.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Evaluation}{15}{subsection.A.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {B}Ontology Specification}{15}{appendix.B}\protected@file@percent }
+\newlabel{app:ontology}{{B}{15}{Ontology Specification}{appendix.B}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.1}Class Hierarchy}{15}{subsection.B.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.2}Example Axiom (OWL Functional Syntax)}{15}{subsection.B.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {C}Hyperparameter Sensitivity}{15}{appendix.C}\protected@file@percent }
+\newlabel{app:hyper}{{C}{15}{Hyperparameter Sensitivity}{appendix.C}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {D}Additional Experiments}{16}{appendix.D}\protected@file@percent }
+\newlabel{app:extra}{{D}{16}{Additional Experiments}{appendix.D}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.1}Full Cross-Attention Ablation}{16}{subsection.D.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces Cross-attention ablation (HotpotQA EM)}}{16}{table.caption.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.2}Extended Error Examples}{16}{subsection.D.2}\protected@file@percent }
+\gdef \@abspage@last{16}

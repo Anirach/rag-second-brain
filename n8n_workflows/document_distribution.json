@@ -1,0 +1,283 @@
+{
+  "name": "Research Document Distribution System",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "folderId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "YOUR_GOOGLE_DRIVE_FOLDER_ID"
+        },
+        "triggerOn": "fileCreated"
+      },
+      "id": "google-drive-monitor",
+      "name": "Monitor Research Reports Folder",
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        240,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "leftValue": "={{$json.name}}",
+            "operation": "contains",
+            "rightValue": "Research_Morning_Update|AI_Research|Longevity"
+          }
+        }
+      },
+      "id": "filter-research-documents",
+      "name": "Filter Research Documents",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [
+        460,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "download",
+        "fileId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "={{$json.id}}"
+        },
+        "options": {
+          "googleFileConversion": {
+            "conversion": {
+              "docsToFormat": "docx"
+            }
+          }
+        }
+      },
+      "id": "download-document",
+      "name": "Download Document",
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        680,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.telegram.org/bot{{$credentials.telegramBot.token}}/sendDocument",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "multipart/form-data"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "chat_id",
+              "value": "7579913696"
+            },
+            {
+              "name": "document",
+              "value": "={{$binary.data}}"
+            },
+            {
+              "name": "caption",
+              "value": "📊 **New Research Report**\\n\\n📁 **{{$node['google-drive-monitor'].json.name}}**\\n📅 **Generated**: {{$now.format('YYYY-MM-DD HH:mm')}} Bangkok\\n🔗 **Drive Link**: {{$node['google-drive-monitor'].json.webViewLink}}\\n\\n*Auto-distributed via n8n* 📡"
+            },
+            {
+              "name": "parse_mode",
+              "value": "Markdown"
+            }
+          ]
+        }
+      },
+      "id": "send-telegram-document",
+      "name": "Send Document via Telegram",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [
+        900,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "to": "anirach@your-email.com,colleague1@university.edu,colleague2@university.edu",
+        "subject": "📊 New Research Report: {{$node['google-drive-monitor'].json.name}}",
+        "attachments": {
+          "attachments": [
+            {
+              "name": "={{$node['google-drive-monitor'].json.name}}",
+              "data": "={{$binary.data}}",
+              "type": "attachment"
+            }
+          ]
+        },
+        "emailBody": "Dear Research Team,\\n\\nA new research report has been generated and is ready for review:\\n\\n📁 Document: {{$node['google-drive-monitor'].json.name}}\\n📅 Generated: {{$now.format('YYYY-MM-DD HH:mm')}} Bangkok Time\\n🔗 Google Drive: {{$node['google-drive-monitor'].json.webViewLink}}\\n\\nThe document has been automatically distributed to the research team. Please review and provide feedback as needed.\\n\\nKey topics covered:\\n- AI Research Developments\\n- Longevity & Healthcare Advances\\n- Technical Analysis & Recommendations\\n\\nBest regards,\\nArthur Research Assistant\\nAutomated Distribution System"
+      },
+      "id": "email-to-team",
+      "name": "Email to Research Team",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2,
+      "position": [
+        900,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "text",
+              "value": "📊 New Research Report Available"
+            },
+            {
+              "name": "attachments",
+              "value": "[{\"color\": \"good\", \"title\": \"{{$node['google-drive-monitor'].json.name}}\", \"title_link\": \"{{$node['google-drive-monitor'].json.webViewLink}}\", \"text\": \"New AI + Longevity research briefing generated\\nGenerated: {{$now.format('YYYY-MM-DD HH:mm')}} Bangkok\", \"fields\": [{\"title\": \"Topics\", \"value\": \"AI Research, Longevity, Healthcare\", \"short\": true}, {\"title\": \"Format\", \"value\": \"Professional DOCX\", \"short\": true}]}]"
+            }
+          ]
+        }
+      },
+      "id": "slack-notification",
+      "name": "Slack Team Notification",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [
+        900,
+        360
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://your-university-system.edu/api/research/documents",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_UNIVERSITY_API_KEY"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "title",
+              "value": "={{$node['google-drive-monitor'].json.name}}"
+            },
+            {
+              "name": "author",
+              "value": "Arthur Research Assistant"
+            },
+            {
+              "name": "department",
+              "value": "FITM - AI Research Lab"
+            },
+            {
+              "name": "categories",
+              "value": "=['AI Research', 'Longevity', 'Healthcare', 'Technology']"
+            },
+            {
+              "name": "drive_link",
+              "value": "={{$node['google-drive-monitor'].json.webViewLink}}"
+            },
+            {
+              "name": "generated_date",
+              "value": "={{$now}}"
+            },
+            {
+              "name": "status",
+              "value": "published"
+            }
+          ]
+        }
+      },
+      "id": "university-system-upload",
+      "name": "Log to University Research System",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [
+        900,
+        480
+      ]
+    }
+  ],
+  "connections": {
+    "Monitor Research Reports Folder": {
+      "main": [
+        [
+          {
+            "node": "Filter Research Documents",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter Research Documents": {
+      "main": [
+        [
+          {
+            "node": "Download Document",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download Document": {
+      "main": [
+        [
+          {
+            "node": "Send Document via Telegram",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Email to Research Team",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Slack Team Notification",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Log to University Research System",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "timezone": "Asia/Bangkok"
+  },
+  "staticData": null,
+  "tags": ["document", "distribution", "automation", "research"],
+  "triggerCount": 0,
+  "updatedAt": "2026-01-29T05:13:00.000Z",
+  "versionId": "1"
+}

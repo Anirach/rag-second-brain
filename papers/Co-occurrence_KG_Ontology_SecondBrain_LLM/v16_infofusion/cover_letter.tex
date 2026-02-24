@@ -1,0 +1,36 @@
+\documentclass[12pt]{letter}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+\signature{Anonymous Authors}
+\address{Department of Computer Science\\Anonymous University}
+
+\begin{document}
+
+\begin{letter}{Editorial Office\\Information Fusion\\Elsevier}
+
+\opening{Dear Editor,}
+
+We are pleased to submit our manuscript entitled ``\textbf{Multi-Source Retrieval-Augmented Generation for Personal Knowledge Management: Integrating Co-occurrence Statistics, Knowledge Graphs, and Ontological Reasoning via Learned Gating}'' for consideration in \textit{Information Fusion}.
+
+\textbf{Relevance to Information Fusion.} Our work addresses a core information fusion challenge: how to optimally combine heterogeneous information sources---dense vector retrieval, statistical co-occurrence, and knowledge graph reasoning---for retrieval-augmented generation. The learned gating mechanism we propose is directly analogous to multi-sensor fusion, dynamically weighting source contributions based on query characteristics. This falls squarely within the scope of Information Fusion's interest in novel fusion architectures and adaptive combination strategies.
+
+\textbf{Key contributions:}
+\begin{enumerate}
+    \item \textbf{Multi-source fusion architecture:} We are the first to systematically integrate all three retrieval paradigms (dense, statistical, graph-based) with OWL ontological reasoning for personal knowledge management.
+    
+    \item \textbf{Learned gating mechanism:} Our sigmoid-based gating network achieves 18.4\% improvement over heuristic reciprocal rank fusion on HotpotQA ($p<0.001$, Cohen's $d=0.475$), demonstrating the value of query-adaptive fusion.
+    
+    \item \textbf{Dual-benchmark validation:} Evaluation on both HotpotQA and MuSiQue shows consistent multi-source advantages, with larger gains on harder compositional queries---confirming that source fusion is most valuable when individual sources are insufficient.
+    
+    \item \textbf{Statistical rigor:} All results include confidence intervals, effect sizes, and significance tests.
+\end{enumerate}
+
+\textbf{Novelty.} While prior work has explored pairwise combinations (dense + sparse retrieval, or dense + knowledge graph), no existing framework combines all three paradigms with ontological reasoning and learned fusion. Our per-query-type analysis provides actionable insights into when each source dominates, contributing to the theoretical understanding of information fusion for retrieval.
+
+The manuscript has not been published or submitted elsewhere. All authors have approved the submission.
+
+\closing{Sincerely,}
+
+\end{letter}
+\end{document}

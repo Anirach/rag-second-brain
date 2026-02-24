@@ -1,0 +1,33 @@
+FROM openclaw-sandbox:bookworm-slim
+
+USER root
+
+# System packages
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3-pip python3-venv python3-dev \
+    build-essential \
+    libreoffice-writer \
+    fonts-thai-tlwg fonts-noto \
+    nodejs npm \
+    jq wget unzip \
+    && rm -rf /var/lib/apt/lists/*
+
+# Python packages (globally, so all agents get them)
+RUN pip3 install --break-system-packages --no-cache-dir \
+    python-docx \
+    lxml \
+    requests \
+    beautifulsoup4 \
+    pandas \
+    openpyxl \
+    pyyaml \
+    markdown \
+    Pillow \
+    matplotlib \
+    pydantic
+
+# Node.js global tools
+RUN npm install -g marked puppeteer pptxgenjs 2>/dev/null || true
+
+# Restore default user
+USER 1000:1000

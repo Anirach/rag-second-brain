@@ -1,0 +1,50 @@
+{
+  "subtitle": "From Idea to Submission in 7 Days",
+  "author": "Arthur AI Agent System",
+  "date": "February 17, 2026",
+  "organization": "Version 2.0 | Internal Guide",
+  "executive_summary": "This workflow replaces the ad-hoc process that produced 23 versions over 3 weeks. Based on lessons from the MKG-RAG Second Brain paper journey, it targets 3 drafts in 7 days with higher novelty and fewer iterations. Key improvements: experiments-first approach, upfront novelty validation, venue-first planning, batched reviews, and quality gates from day 1.",
+  "key_findings": [
+    "v1-v9 built on proxy/synthetic claims. Real experiments (DDXPlus) didn't arrive until v15-v17. Papers without real results get destroyed in review.",
+    "\"Second Brain\" was marketing until v23 when grounded in Extended Mind theory. Reviewers see through ungrounded framing immediately.",
+    "QUALITY_LOCKS and 3-agent review gate created AFTER the v9 crisis (score dropped from 8.5 to 4.4). Should have been there from the start.",
+    "23 versions, most were incremental patches. Each review-fix cycle costs time and introduces regression risk.",
+    "Started targeting Information Fusion, pivoted to AIiH. Format conversion (IEEE to LNCS) wasted multiple versions.",
+    "Clark & Chalmers Extended Mind, Hutchins Distributed Cognition added in final versions. Should anchor novelty claims from the beginning."
+  ],
+  "analysis": {
+    "Phase 1: Foundation (Day 1-2)": "Tasks: Pick target venue (format, page limit, scope, deadline). Literature gap analysis: define novel contribution in ONE sentence. Run \"Does this exist?\" check (Semantic Scholar, Google Scholar, arXiv). Build baseline experiments with real data. Design ablation-ready architecture (each component removable). Create comparison table: what existing methods do vs what yours adds. Anchor method in existing theory (not just a name — cite cognitive science, information theory, etc.).",
+    "Phase 2: Full Draft (Day 3-5)": "Tasks: Write complete paper with real results (not placeholders). All sections: intro, related work, method, experiments, discussion, conclusion. Include all tables, figures, equations. Apply venue format from the start (e.g., llncs.cls, IEEE template). 3-agent parallel review (peer-reviewer, methodology-expert, technical-writer). Batch ALL fixes into single revision (Draft 2). Rule: ALL THREE must pass. No exceptions. No \"ship it with one approval.\"",
+    "Phase 3: Polish & Submit (Day 6-7)": "Tasks: Apply all Draft 2 review fixes. Final 3-agent review (should be minor issues only). Format compliance check (page count, references, anonymization). Generate supplementary materials if needed. Submit.",
+    "Quality Gates (Active from Day 1)": "QUALITY_LOCKS: Lock any element praised by reviewers. Never regress. POSITIVE_FEEDBACK tracker: Cumulative praise log across review rounds. Three-Agent Review Gate: Every draft reviewed by 3 agents in parallel. Unanimous approval required. Novelty Checkpoint: Before Phase 2, verify the one-sentence novelty claim still holds after literature review. Claims-Evidence Alignment: Every claim in the paper must map to a specific experiment, table, or citation. No orphan claims.",
+    "Novelty Boosters": "Ablation-First Design: Build experiments so each component can be independently removed. Creates \"unique contribution per component\" — reviewers always ask for this. Theoretical Grounding Early: Don't just name your method — anchor it in established theory from draft 1. Examples: Extended Mind (Clark & Chalmers), Distributed Cognition (Hutchins), Information Foraging Theory. Comparison Table in Outline: Before writing, create a table of existing methods and what yours uniquely adds. If no clear gap, rethink the contribution. Real-World Framing: Position contribution as solving a real problem, not just improving metrics. \"Why does this matter to a doctor/engineer/user?\" Honest Limitations: Proactively state what your method does NOT do. Builds credibility and prevents reviewer attacks."
+  },
+  "table_data": {
+    "title": "Agent Team Roles",
+    "headers": ["Agent", "Phase", "Role", "Model"],
+    "rows": [
+      ["Paper Architect", "All", "Principal investigator, strategy", "Opus"],
+      ["Literature Lead", "Phase 1", "Gap analysis, related work", "Opus"],
+      ["Journal Scout", "Phase 1", "Venue selection, format requirements", "Opus"],
+      ["Data Analyst", "Phase 1-2", "Experiments, statistics, ablations", "Opus"],
+      ["Methodology Expert", "Phase 2-3", "Statistical rigor review", "Opus"],
+      ["Technical Writer", "Phase 2-3", "Writing quality, clarity", "Sonnet"],
+      ["Peer Reviewer", "Phase 2-3", "Tough conference reviewer simulation", "Opus"],
+      ["Ethics Reviewer", "Phase 2", "Dataset ethics, bias, double-blind", "Opus"],
+      ["Format Editor", "Phase 3", "Venue format compliance", "Sonnet"]
+    ]
+  },
+  "recommendations": [
+    "Novelty claim is one sentence, grounded in theory",
+    "All experiments use real data (no proxies)",
+    "Ablation study shows each component's unique contribution",
+    "Statistical tests applied (Wilson CIs, McNemar's, etc.)",
+    "External baselines included (not just your own variants)",
+    "All 3 reviewers gave ACCEPT",
+    "Page count within venue limit",
+    "Double-blind compliance (no author names, no self-citations revealing identity)",
+    "References complete and correctly formatted",
+    "Supplementary materials prepared (code repo, appendix)"
+  ],
+  "conclusion": "This v2 workflow addresses all major issues identified in the MKG-RAG journey: Honesty > Impressive Claims - Conceptual papers can be publishable without fake results. Quality Locks Prevent Regression - 23 locks ensured improvements were cumulative. Three Parallel Reviewers catch different issues: baselines, statistics, readability. ML Baselines Beating RAG Is Okay - Frame as accuracy vs generalization trade-off. Medical Datasets > General Benchmarks - Domain-specific data makes contribution tangible. Verify Numbers Before Locking - Wrong numbers hurt more than vague ones. Venue Selection Matters - Focused venue (AIiH) better than broad (Information Fusion). \"Second Brain\" Grounding - Marketing language became theoretical contribution when grounded in Extended Mind thesis. Never deliver without full team review - One-agent papers get rejected."
+}

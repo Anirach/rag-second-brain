@@ -1,0 +1,1421 @@
+{
+  "timestamp": "20260211_010042",
+  "user_profile": "Anirach Mingkhwan",
+  "total_papers_found": 134,
+  "relevant_papers_count": 107,
+  "relevant_papers": [
+    {
+      "arxiv_id": "2602.07275v1",
+      "title": "Evolving LLM-Derived Control Policies for Residential EV Charging and Vehicle-to-Grid Energy Optimization",
+      "authors": "Vishesh Purnananda, Benjamin John Wruck, Mingyu Guo",
+      "category": "cs.NE",
+      "published": "2026-02-06",
+      "summary": "This research presents a novel application of Evolutionary Computation to the domain of residential electric vehicle (EV) energy management. While reinforcement learning (RL) achieves high performance in vehicle-to-grid (V2G) optimization, it typically produces opaque \"black-box\" neural networks that are difficult for consumers and regulators to audit. Addressing this interpretability gap, we propose a program search framework that leverages Large Language Models (LLMs) as intelligent mutation o...",
+      "relevance_reasons": [
+        "Matches research interest: neural networks",
+        "Matches research interest: large language models",
+        "Relevant to project: ClawdBot enterprise AI deployment",
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.07275v1",
+      "relevance_score": 16
+    },
+    {
+      "arxiv_id": "2602.09015v1",
+      "title": "CIC-Trap4Phish: A Unified Multi-Format Dataset for Phishing and Quishing Attachment Detection",
+      "authors": "Fatemeh Nejati, Mahdi Rabbani, Mansur Mirani...",
+      "category": "cs.AI",
+      "published": "2026-02-09",
+      "summary": "Phishing attacks represents one of the primary attack methods which is used by cyber attackers. In many cases, attackers use deceptive emails along with malicious attachments to trick users into giving away sensitive information or installing malware while compromising entire systems. The flexibility of malicious email attachments makes them stand out as a preferred vector for attackers as they can embed harmful content such as malware or malicious URLs inside standard document formats. Although...",
+      "relevance_reasons": [
+        "Matches research interest: machine learning",
+        "Matches research interest: neural networks",
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.09015v1",
+      "relevance_score": 13
+    },
+    {
+      "arxiv_id": "2602.09003v1",
+      "title": "Data Science and Technology Towards AGI Part I: Tiered Data Management",
+      "authors": "Yudong Wang, Zixuan Fu, Hengyu Zhao...",
+      "category": "cs.AI",
+      "published": "2026-02-09",
+      "summary": "The development of artificial intelligence can be viewed as an evolution of data-driven learning paradigms, with successive shifts in data organization and utilization continuously driving advances in model capability. Current LLM research is dominated by a paradigm that relies heavily on unidirectional scaling of data size, increasingly encountering bottlenecks in data availability, acquisition cost, and training efficiency. In this work, we argue that the development of AGI is entering a new p...",
+      "relevance_reasons": [
+        "Matches research interest: artificial intelligence",
+        "Relevant to project: AI education tools",
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.09003v1",
+      "relevance_score": 13
+    },
+    {
+      "arxiv_id": "2602.09003v1",
+      "title": "Data Science and Technology Towards AGI Part I: Tiered Data Management",
+      "authors": "Yudong Wang, Zixuan Fu, Hengyu Zhao...",
+      "category": "cs.CL",
+      "published": "2026-02-09",
+      "summary": "The development of artificial intelligence can be viewed as an evolution of data-driven learning paradigms, with successive shifts in data organization and utilization continuously driving advances in model capability. Current LLM research is dominated by a paradigm that relies heavily on unidirectional scaling of data size, increasingly encountering bottlenecks in data availability, acquisition cost, and training efficiency. In this work, we argue that the development of AGI is entering a new p...",
+      "relevance_reasons": [
+        "Matches research interest: artificial intelligence",
+        "Relevant to project: AI education tools",
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.09003v1",
+      "relevance_score": 13
+    },
+    {
+      "arxiv_id": "2602.08213v1",
+      "title": "DrugR: Optimizing Molecular Drugs through LLM-based Explicit Reasoning",
+      "authors": "Haoran Liu, Zheni Zeng, Yukun Yan...",
+      "category": "q-bio.QM",
+      "published": "2026-02-09",
+      "summary": "Molecule generation and optimization is a fundamental task in chemical domain. The rapid development of intelligent tools, especially large language models (LLMs) with powerful knowledge reserves and interactive capabilities, has provided new paradigms for it. Nevertheless, the intrinsic challenge for LLMs lies in the complex implicit relationship between molecular structure and pharmacological properties and the lack of corresponding labeled data. To bridge this gap, we propose DrugR, an LLM-ba...",
+      "relevance_reasons": [
+        "Matches research interest: large language models",
+        "Relevant to project: AI education tools",
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.08213v1",
+      "relevance_score": 13
+    },
+    {
+      "arxiv_id": "2602.08580v1",
+      "title": "retinalysis-vascx: An explainable software toolbox for the extraction of retinal vascular biomarkers",
+      "authors": "Jose D. Vargas Quiros, Michael J. Beyeler, Sofia Ortin Vela...",
+      "category": "q-bio.TO",
+      "published": "2026-02-09",
+      "summary": "The automatic extraction of retinal vascular biomarkers from color fundus images (CFI) is essential for large-scale studies of the retinal vasculature. We present VascX, an open-source Python toolbox designed for the automated extraction of biomarkers from artery and vein segmentations. The VascX workflow processes vessel segmentation masks into skeletons to build undirected and directed vessel graphs, which are then used to resolve segments into continuous vessels. This architecture enables the...",
+      "relevance_reasons": [
+        "Relevant to project: ClawdBot enterprise AI deployment",
+        "Relevant to project: Local LLM implementation",
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.08580v1",
+      "relevance_score": 12
+    },
+    {
+      "arxiv_id": "2602.08280v1",
+      "title": "ClusterChirp: A GPU-accelerated Web Server for Natural Language-Guided Interactive Visualization and Analysis of Large Omics Data",
+      "authors": "Osho Rawal, Rex Lu, Edgar Gonzalez-Kozlova...",
+      "category": "q-bio.GN",
+      "published": "2026-02-09",
+      "summary": "Tabular datasets are commonly visualized as heatmaps, where data values are represented as color intensities in a matrix to reveal patterns and correlations. However, modern omics technologies increasingly generate matrices so large that existing visual exploration tools require downsampling or filtering, risking loss of biologically important patterns. Additional barriers arise from tools that require command-line expertise, or fragmented workflows for downstream biological interpretation. We p...",
+      "relevance_reasons": [
+        "Relevant to project: AI education tools",
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.08280v1",
+      "relevance_score": 10
+    },
+    {
+      "arxiv_id": "2602.08990v1",
+      "title": "InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery",
+      "authors": "Shiyang Feng, Runmin Ma, Xiangchao Yan...",
+      "category": "cs.AI",
+      "published": "2026-02-09",
+      "summary": "We introduce InternAgent-1.5, a unified system designed for end-to-end scientific discovery across computational and empirical domains. The system is built on a structured architecture composed of three coordinated subsystems for generation, verification, and evolution. These subsystems are supported by foundational capabilities for deep research, solution optimization, and long horizon memory. The architecture allows InternAgent-1.5 to operate continuously across extended discovery cycles while...",
+      "relevance_reasons": [
+        "Matches research interest: machine learning",
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.08990v1",
+      "relevance_score": 9
+    },
+    {
+      "arxiv_id": "2602.08941v1",
+      "title": "pixelLOG: Logging of Online Gameplay for Cognitive Research",
+      "authors": "Zeyu Lu, Dennis L. Barbour",
+      "category": "cs.AI",
+      "published": "2026-02-09",
+      "summary": "Traditional cognitive assessments often rely on isolated, output-focused measurements that may fail to capture the complexity of human cognition in naturalistic settings. We present pixelLOG, a high-performance data collection framework for Spigot-based Minecraft servers designed specifically for process-based cognitive research. Unlike existing frameworks tailored only for artificial intelligence agents, pixelLOG also enables human behavioral tracking in multi-player/multi-agent environments. O...",
+      "relevance_reasons": [
+        "Matches research interest: artificial intelligence",
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.08941v1",
+      "relevance_score": 9
+    },
+    {
+      "arxiv_id": "2602.08941v1",
+      "title": "pixelLOG: Logging of Online Gameplay for Cognitive Research",
+      "authors": "Zeyu Lu, Dennis L. Barbour",
+      "category": "cs.HC",
+      "published": "2026-02-09",
+      "summary": "Traditional cognitive assessments often rely on isolated, output-focused measurements that may fail to capture the complexity of human cognition in naturalistic settings. We present pixelLOG, a high-performance data collection framework for Spigot-based Minecraft servers designed specifically for process-based cognitive research. Unlike existing frameworks tailored only for artificial intelligence agents, pixelLOG also enables human behavioral tracking in multi-player/multi-agent environments. O...",
+      "relevance_reasons": [
+        "Matches research interest: artificial intelligence",
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.08941v1",
+      "relevance_score": 9
+    },
+    {
+      "arxiv_id": "2602.03824v1",
+      "title": "Deep-learning-based pan-phenomic data reveals the explosive evolution of avian visual disparity",
+      "authors": "Jiao Sun",
+      "category": "q-bio.QM",
+      "published": "2026-02-03",
+      "summary": "The evolution of biological morphology is critical for understanding the diversity of the natural world, yet traditional analyses often involve subjective biases in the selection and coding of morphological traits. This study employs deep learning techniques, utilising a ResNet34 model capable of recognising over 10,000 bird species, to explore avian morphological evolution. We extract weights from the model's final fully connected (fc) layer and investigate the semantic alignment between the hi...",
+      "relevance_reasons": [
+        "Matches research interest: deep learning",
+        "Matches research interest: neural networks",
+        "Relevant to project: Local LLM implementation"
+      ],
+      "url": "http://arxiv.org/abs/2602.03824v1",
+      "relevance_score": 9
+    },
+    {
+      "arxiv_id": "2602.07805v1",
+      "title": "MetaHQ: Harmonized, high-quality metadata annotations of public omics samples and studies",
+      "authors": "Parker Hicks, Lydia E Valtadoros, Christopher A Mancuso...",
+      "category": "q-bio.GN",
+      "published": "2026-02-08",
+      "summary": "Public omics databases like the Gene Expression Omnibus and the Sequence Read Archive offer substantial opportunities for data reuse to address novel biomedical questions. However, it is still difficult to find samples and studies of interest since they are described by free-text metadata and lack standardized annotations. To address this issue, multiple research groups have undertaken curation efforts to add standardized annotations to large collections of these data, but these annotations are ...",
+      "relevance_reasons": [
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research",
+        "Relevant to project: Biomedical AI applications"
+      ],
+      "url": "http://arxiv.org/abs/2602.07805v1",
+      "relevance_score": 9
+    },
+    {
+      "arxiv_id": "2512.13010v1",
+      "title": "Deep Learning-Driven Inversion Framework for Shear Modulus Estimation in Magnetic Resonance Elastography (DIME)",
+      "authors": "Hassan Iftikhar, Rizwan Ahmad, Arunark Kolipaka",
+      "category": "q-bio.TO",
+      "published": "2025-12-15",
+      "summary": "The Multimodal Direct Inversion (MMDI) algorithm is widely used in Magnetic Resonance Elastography (MRE) to estimate tissue shear stiffness. However, MMDI relies on the Helmholtz equation, which assumes wave propagation in a uniform, homogeneous, and infinite medium. Furthermore, the use of the Laplacian operator makes MMDI highly sensitive to noise, which compromises the accuracy and reliability of stiffness estimates. In this study, we propose the Deep-Learning driven Inversion Framework for S...",
+      "relevance_reasons": [
+        "Matches research interest: deep learning",
+        "Relevant to project: Local LLM implementation",
+        "Relevant to project: Biomedical AI applications"
+      ],
+      "url": "http://arxiv.org/abs/2512.13010v1",
+      "relevance_score": 9
+    },
+    {
+      "arxiv_id": "2602.08858v1",
+      "title": "FlattenGPT: Depth Compression for Transformer with Layer Flattening",
+      "authors": "Ruihan Xu, Qingpei Guo, Yao Zhu...",
+      "category": "cs.CV",
+      "published": "2026-02-09",
+      "summary": "Recent works have indicated redundancy across transformer blocks, prompting the research of depth compression to prune less crucial blocks. However, current ways of entire-block pruning suffer from risks of discarding meaningful cues learned in those blocks, leading to substantial performance degradation. As another line of model compression, channel pruning can better preserve performance, while it cannot reduce model depth and is challenged by inconsistent pruning ratios for individual layers....",
+      "relevance_reasons": [
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.08858v1",
+      "relevance_score": 8
+    },
+    {
+      "arxiv_id": "2602.06282v1",
+      "title": "An Interpretable Vision Transformer as a Fingerprint-Based Diagnostic Aid for Kabuki and Wiedemann-Steiner Syndromes",
+      "authors": "Marilyn Lionts, Arnhildur Tomasdottir, Viktor I. Agustsson...",
+      "category": "q-bio.QM",
+      "published": "2026-02-06",
+      "summary": "Kabuki syndrome (KS) and Wiedemann-Steiner syndrome (WSS) are rare but distinct developmental disorders that share overlapping clinical features, including neurodevelopmental delay, growth restriction, and persistent fetal fingertip pads. While genetic testing remains the diagnostic gold standard, many individuals with KS or WSS remain undiagnosed due to barriers in access to both genetic testing and expertise. Dermatoglyphic anomalies, despite being established hallmarks of several genetic synd...",
+      "relevance_reasons": [
+        "Matches research interest: artificial intelligence",
+        "Matches research interest: deep learning"
+      ],
+      "url": "http://arxiv.org/abs/2602.06282v1",
+      "relevance_score": 8
+    },
+    {
+      "arxiv_id": "2602.00156v1",
+      "title": "Accelerating De Novo Genome Assembly via Quantum-Assisted Graph Optimization with Bitstring Recovery",
+      "authors": "Jaya Vasavi Pamidimukkala, Himanshu Sahu, Ashwini Kannan...",
+      "category": "q-bio.GN",
+      "published": "2026-01-29",
+      "summary": "Genome sequencing is essential to decode genetic information, identify organisms, understand diseases and advance personalized medicine. A critical step in any genome sequencing technique is genome assembly. However, de novo genome assembly, which involves constructing an entire genome sequence from scratch without a reference genome, presents significant challenges due to its high computational complexity, affecting both time and accuracy. In this study, we propose a hybrid approach utilizing a...",
+      "relevance_reasons": [
+        "Matches research interest: personalized medicine",
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.00156v1",
+      "relevance_score": 8
+    },
+    {
+      "arxiv_id": "2601.11318v1",
+      "title": "Building Digital Twins of Different Human Organs for Personalized Healthcare",
+      "authors": "Yilin Lyu, Zhen Li, Vu Tran...",
+      "category": "q-bio.TO",
+      "published": "2026-01-16",
+      "summary": "Digital twins are virtual replicas of physical entities and are poised to transform personalized medicine through the real-time simulation and prediction of human physiology. Translating this paradigm from engineering to biomedicine requires overcoming profound challenges, including anatomical variability, multi-scale biological processes, and the integration of multi-physics phenomena. This survey systematically reviews methodologies for building digital twins of human organs, structured around...",
+      "relevance_reasons": [
+        "Matches research interest: artificial intelligence",
+        "Matches research interest: personalized medicine",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2601.11318v1",
+      "relevance_score": 8
+    },
+    {
+      "arxiv_id": "2602.08920v1",
+      "title": "Diffusion-Inspired Reconfiguration of Transformers for Uncertainty Calibration",
+      "authors": "Manh Cuong Dao, Quang Hung Pham, Phi Le Nguyen...",
+      "category": "cs.LG",
+      "published": "2026-02-09",
+      "summary": "Uncertainty calibration in pre-trained transformers is critical for their reliable deployment in risk-sensitive applications. Yet, most existing pre-trained transformers do not have a principled mechanism for uncertainty propagation through their feature transformation stack. In this work, we propose a diffusion-inspired reconfiguration of transformers in which each feature transformation block is modeled as a probabilistic mapping. Composing these probabilistic mappings reveals a probability pa...",
+      "relevance_reasons": [
+        "Relevant to project: ClawdBot enterprise AI deployment",
+        "Relevant to project: Biomedical AI applications"
+      ],
+      "url": "http://arxiv.org/abs/2602.08920v1",
+      "relevance_score": 7
+    },
+    {
+      "arxiv_id": "2602.08997v1",
+      "title": "Paradox of De-identification: A Critique of HIPAA Safe Harbour in the Age of LLMs",
+      "authors": "Lavender Y. Jiang, Xujin Chris Liu, Kyunghyun Cho...",
+      "category": "cs.CL",
+      "published": "2026-02-09",
+      "summary": "Privacy is a human right that sustains patient-provider trust. Clinical notes capture a patient's private vulnerability and individuality, which are used for care coordination and research. Under HIPAA Safe Harbor, these notes are de-identified to protect patient privacy. However, Safe Harbor was designed for an era of categorical tabular data, focusing on the removal of explicit identifiers while ignoring the latent information found in correlations between identity and quasi-identifiers, which...",
+      "relevance_reasons": [
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.08997v1",
+      "relevance_score": 7
+    },
+    {
+      "arxiv_id": "2602.08979v1",
+      "title": "Beyond Transcripts: A Renewed Perspective on Audio Chaptering",
+      "authors": "Fabian Retkowski, Maike Z\u00fcfle, Thai Binh Nguyen...",
+      "category": "cs.CL",
+      "published": "2026-02-09",
+      "summary": "Audio chaptering, the task of automatically segmenting long-form audio into coherent sections, is increasingly important for navigating podcasts, lectures, and videos. Despite its relevance, research remains limited and text-based, leaving key questions unresolved about leveraging audio information, handling ASR errors, and transcript-free evaluation. We address these gaps through three contributions: (1) a systematic comparison between text-based models with acoustic features, a novel audio-onl...",
+      "relevance_reasons": [
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.08979v1",
+      "relevance_score": 7
+    },
+    {
+      "arxiv_id": "2602.08829v1",
+      "title": "WildReward: Learning Reward Models from In-the-Wild Human Interactions",
+      "authors": "Hao Peng, Yunjia Qi, Xiaozhi Wang...",
+      "category": "cs.CL",
+      "published": "2026-02-09",
+      "summary": "Reward models (RMs) are crucial for the training of large language models (LLMs), yet they typically rely on large-scale human-annotated preference pairs. With the widespread deployment of LLMs, in-the-wild interactions have emerged as a rich source of implicit reward signals. This raises the question: Can we develop reward models directly from in-the-wild interactions? In this work, we explore this possibility by adopting WildChat as an interaction source and proposing a pipeline to extract rel...",
+      "relevance_reasons": [
+        "Matches research interest: large language models",
+        "Relevant to project: ClawdBot enterprise AI deployment"
+      ],
+      "url": "http://arxiv.org/abs/2602.08829v1",
+      "relevance_score": 7
+    },
+    {
+      "arxiv_id": "2602.06405v1",
+      "title": "A neuromorphic model of the insect visual system for natural image processing",
+      "authors": "Adam D. Hines, Karin Nordstr\u00f6m, Andrew B. Barron",
+      "category": "cs.NE",
+      "published": "2026-02-06",
+      "summary": "Insect vision supports complex behaviors including associative learning, navigation, and object detection, and has long motivated computational models for understanding biological visual processing. However, many contemporary models prioritize task performance while neglecting biologically grounded processing pathways. Here, we introduce a bio-inspired vision model that captures principles of the insect visual system to transform dense visual input into sparse, discriminative codes. The model is...",
+      "relevance_reasons": [
+        "Relevant to project: ClawdBot enterprise AI deployment",
+        "Relevant to project: Local LLM implementation"
+      ],
+      "url": "http://arxiv.org/abs/2602.06405v1",
+      "relevance_score": 7
+    },
+    {
+      "arxiv_id": "2602.08754v1",
+      "title": "Belief Offloading in Human-AI Interaction",
+      "authors": "Rose E. Guingrich, Dvija Mehta, Umang Bhatt",
+      "category": "cs.HC",
+      "published": "2026-02-09",
+      "summary": "What happens when people's beliefs are derived from information provided by an LLM? People's use of LLM chatbots as thought partners can contribute to cognitive offloading, which can have adverse effects on cognitive skills in cases of over-reliance. This paper defines and investigates a particular kind of cognitive offloading in human-AI interaction, \"belief offloading,\" in which people's processes of forming and upholding beliefs are offloaded onto an AI system with downstream consequences on ...",
+      "relevance_reasons": [
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.08754v1",
+      "relevance_score": 7
+    },
+    {
+      "arxiv_id": "2602.08751v1",
+      "title": "Central Dogma Transformer II: An AI Microscope for Understanding Cellular Regulatory Mechanisms",
+      "authors": "Nobuyuki Ota",
+      "category": "q-bio.QM",
+      "published": "2026-02-09",
+      "summary": "Current biological AI models lack interpretability -- their internal representations do not correspond to biological relationships that\n  researchers can examine. Here we present CDT-II, an \"AI microscope\" whose attention maps are directly interpretable as regulatory structure.\n  By mirroring the central dogma in its architecture, each attention mechanism corresponds to a specific biological relationship: DNA\n  self-attention for genomic relationships, RNA self-attention for gene co-regulation, ...",
+      "relevance_reasons": [
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.08751v1",
+      "relevance_score": 7
+    },
+    {
+      "arxiv_id": "2602.09009v1",
+      "title": "ANCRe: Adaptive Neural Connection Reassignment for Efficient Depth Scaling",
+      "authors": "Yilang Zhang, Bingcong Li, Niao He...",
+      "category": "cs.AI",
+      "published": "2026-02-09",
+      "summary": "Scaling network depth has been a central driver behind the success of modern foundation models, yet recent investigations suggest that deep layers are often underutilized. This paper revisits the default mechanism for deepening neural networks, namely residual connections, from an optimization perspective. Rigorous analysis proves that the layout of residual connections can fundamentally shape convergence behavior, and even induces an exponential gap in convergence rates. Prompted by this insigh...",
+      "relevance_reasons": [
+        "Matches research interest: neural networks",
+        "Matches research interest: large language models"
+      ],
+      "url": "http://arxiv.org/abs/2602.09009v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.08983v1",
+      "title": "StretchTime: Adaptive Time Series Forecasting via Symplectic Attention",
+      "authors": "Yubin Kim, Viresh Pati, Jevon Twitty...",
+      "category": "cs.AI",
+      "published": "2026-02-09",
+      "summary": "Transformer architectures have established strong baselines in time series forecasting, yet they typically rely on positional encodings that assume uniform, index-based temporal progression. However, real-world systems, from shifting financial cycles to elastic biological rhythms, frequently exhibit \"time-warped\" dynamics where the effective flow of time decouples from the sampling index. In this work, we first formalize this misalignment and prove that rotary position embedding (RoPE) is mathem...",
+      "relevance_reasons": [
+        "Matches research interest: transformer architectures",
+        "Relevant to project: Local LLM implementation"
+      ],
+      "url": "http://arxiv.org/abs/2602.08983v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.09009v1",
+      "title": "ANCRe: Adaptive Neural Connection Reassignment for Efficient Depth Scaling",
+      "authors": "Yilang Zhang, Bingcong Li, Niao He...",
+      "category": "cs.LG",
+      "published": "2026-02-09",
+      "summary": "Scaling network depth has been a central driver behind the success of modern foundation models, yet recent investigations suggest that deep layers are often underutilized. This paper revisits the default mechanism for deepening neural networks, namely residual connections, from an optimization perspective. Rigorous analysis proves that the layout of residual connections can fundamentally shape convergence behavior, and even induces an exponential gap in convergence rates. Prompted by this insigh...",
+      "relevance_reasons": [
+        "Matches research interest: neural networks",
+        "Matches research interest: large language models"
+      ],
+      "url": "http://arxiv.org/abs/2602.09009v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.08983v1",
+      "title": "StretchTime: Adaptive Time Series Forecasting via Symplectic Attention",
+      "authors": "Yubin Kim, Viresh Pati, Jevon Twitty...",
+      "category": "cs.LG",
+      "published": "2026-02-09",
+      "summary": "Transformer architectures have established strong baselines in time series forecasting, yet they typically rely on positional encodings that assume uniform, index-based temporal progression. However, real-world systems, from shifting financial cycles to elastic biological rhythms, frequently exhibit \"time-warped\" dynamics where the effective flow of time decouples from the sampling index. In this work, we first formalize this misalignment and prove that rotary position embedding (RoPE) is mathem...",
+      "relevance_reasons": [
+        "Matches research interest: transformer architectures",
+        "Relevant to project: Local LLM implementation"
+      ],
+      "url": "http://arxiv.org/abs/2602.08983v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.08933v1",
+      "title": "Provably robust learning of regression neural networks using $\u03b2$-divergences",
+      "authors": "Abhik Ghosh, Suryasis Jana",
+      "category": "cs.LG",
+      "published": "2026-02-09",
+      "summary": "Regression neural networks (NNs) are most commonly trained by minimizing the mean squared prediction error, which is highly sensitive to outliers and data contamination. Existing robust training methods for regression NNs are often limited in scope and rely primarily on empirical validation, with only a few offering partial theoretical guarantees. In this paper, we propose a new robust learning framework for regression NNs based on the $\u03b2$-divergence (also known as the density power divergence) ...",
+      "relevance_reasons": [
+        "Matches research interest: neural networks",
+        "Relevant to project: Local LLM implementation"
+      ],
+      "url": "http://arxiv.org/abs/2602.08933v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.08933v1",
+      "title": "Provably robust learning of regression neural networks using $\u03b2$-divergences",
+      "authors": "Abhik Ghosh, Suryasis Jana",
+      "category": "cs.NE",
+      "published": "2026-02-09",
+      "summary": "Regression neural networks (NNs) are most commonly trained by minimizing the mean squared prediction error, which is highly sensitive to outliers and data contamination. Existing robust training methods for regression NNs are often limited in scope and rely primarily on empirical validation, with only a few offering partial theoretical guarantees. In this paper, we propose a new robust learning framework for regression NNs based on the $\u03b2$-divergence (also known as the density power divergence) ...",
+      "relevance_reasons": [
+        "Matches research interest: neural networks",
+        "Relevant to project: Local LLM implementation"
+      ],
+      "url": "http://arxiv.org/abs/2602.08933v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.08825v1",
+      "title": "A Methodology for Effective Surrogate Learning in Complex Optimization",
+      "authors": "Tomohiro Harada, Enrique Alba, Gabriel Luque",
+      "category": "cs.NE",
+      "published": "2026-02-09",
+      "summary": "Solving complex problems requires continuous effort in developing theory and practice to cope with larger, more difficult scenarios. Working with surrogates is normal for creating a proxy that realistically models the problem into the computer. Thus, the question of how to best define and characterize such a surrogate model is of the utmost importance. In this paper, we introduce the PTME methodology to study deep learning surrogates by analyzing their Precision, Time, Memory, and Energy consump...",
+      "relevance_reasons": [
+        "Matches research interest: deep learning",
+        "Relevant to project: Biomedical AI applications"
+      ],
+      "url": "http://arxiv.org/abs/2602.08825v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.08619v1",
+      "title": "Enhancing Genetic Algorithms with Graph Neural Networks: A Timetabling Case Study",
+      "authors": "Laura-Maria Cornei, Mihaela-Elena Breab\u0103n",
+      "category": "cs.NE",
+      "published": "2026-02-09",
+      "summary": "This paper investigates the impact of hybridizing a multi-modal Genetic Algorithm with a Graph Neural Network for timetabling optimization. The Graph Neural Network is designed to encapsulate general domain knowledge to improve schedule quality, while the Genetic Algorithm explores different regions of the search space and integrates the deep learning model as an enhancement operator to guide the solution search towards optimality. Initially, both components of the hybrid technique were designed...",
+      "relevance_reasons": [
+        "Matches research interest: deep learning",
+        "Matches research interest: neural networks"
+      ],
+      "url": "http://arxiv.org/abs/2602.08619v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.07800v1",
+      "title": "Approximating Matrix Functions with Deep Neural Networks and Transformers",
+      "authors": "Rahul Padmanabhan, Simone Brugiapaglia",
+      "category": "cs.NE",
+      "published": "2026-02-08",
+      "summary": "Transformers have revolutionized natural language processing, but their use for numerical computation has received less attention. We study the approximation of matrix functions, which map scalar functions to matrices, using neural networks including transformers. We focus on functions mapping square matrices to square matrices of the same dimension. These types of matrix functions appear throughout scientific computing, e.g., the matrix exponential in continuous-time Markov chains and the matri...",
+      "relevance_reasons": [
+        "Matches research interest: natural language processing",
+        "Matches research interest: neural networks"
+      ],
+      "url": "http://arxiv.org/abs/2602.07800v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.07299v1",
+      "title": "Optimizing Chlorination in Water Distribution Systems via Surrogate-assisted Neuroevolution",
+      "authors": "Rivaaj Monsia, Daniel Young, Olivier Francon...",
+      "category": "cs.NE",
+      "published": "2026-02-07",
+      "summary": "Ensuring the microbiological safety of large, heterogeneous water distribution systems (WDS) typically requires managing appropriate levels of disinfectant residuals including chlorine. WDS include complex fluid interactions that are nonlinear and noisy, making such maintenance a challenging problem for traditional control algorithms. This paper proposes an evolutionary framework to this problem based on neuroevolution, multi-objective optimization, and surrogate modeling. Neural networks were e...",
+      "relevance_reasons": [
+        "Matches research interest: machine learning",
+        "Matches research interest: neural networks"
+      ],
+      "url": "http://arxiv.org/abs/2602.07299v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.08830v1",
+      "title": "Enhancing Generative AI Image Refinement with Scribbles and Annotations: A Comparative Study of Multimodal Prompts",
+      "authors": "Hyerim Park, Phuong Thao Tran, Andre Luckow...",
+      "category": "cs.HC",
+      "published": "2026-02-09",
+      "summary": "Generative AI (GenAI) image tools are increasingly used in design practice, enabling rapid ideation but offering limited support for refinement tasks such as adjusting layout, scale, or visual attributes. While text prompts and inpainting allow localized edits, they often remain inefficient or ambiguous for precise, in-context, and iterative refinement -- motivating the exploration of alternative methods. This work examines how pen-based scribbles and annotations can enhance GenAI image refineme...",
+      "relevance_reasons": [
+        "Relevant to project: Local LLM implementation",
+        "Relevant to project: AI education tools"
+      ],
+      "url": "http://arxiv.org/abs/2602.08830v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.08707v1",
+      "title": "Why do we Trust Chatbots? From Normative Principles to Behavioral Drivers",
+      "authors": "Aditya Gulati, Nuria Oliver",
+      "category": "cs.HC",
+      "published": "2026-02-09",
+      "summary": "As chatbots increasingly blur the boundary between automated systems and human conversation, the foundations of trust in these systems warrant closer examination. While regulatory and policy frameworks tend to define trust in normative terms, the trust users place in chatbots often emerges from behavioral mechanisms. In many cases, this trust is not earned through demonstrated trustworthiness but is instead shaped by interactional design choices that leverage cognitive biases to influence user b...",
+      "relevance_reasons": [
+        "Relevant to project: Academic research automation",
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.08707v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.08706v1",
+      "title": "Technosocial risks of ideal emotion recognition technologies: A defense of the (social) value of emotional expressions",
+      "authors": "Alexandra Pregent",
+      "category": "cs.HC",
+      "published": "2026-02-09",
+      "summary": "The prospect of AI systems that I call ideal emotion recognition technologies (ERTs) is often defended on the assumption that social life would benefit from increased affective transparency. This paper challenges that assumption by examining the technosocial risks posed by ideal ERTs, understood as multimodal systems capable of reliably inferring inner affective states in real time. Drawing on philosophical accounts of emotional expression and social practice, as well as empirical work in affect...",
+      "relevance_reasons": [
+        "Relevant to project: ClawdBot enterprise AI deployment",
+        "Relevant to project: AI education tools"
+      ],
+      "url": "http://arxiv.org/abs/2602.08706v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.08933v1",
+      "title": "Provably robust learning of regression neural networks using $\u03b2$-divergences",
+      "authors": "Abhik Ghosh, Suryasis Jana",
+      "category": "stat.ML",
+      "published": "2026-02-09",
+      "summary": "Regression neural networks (NNs) are most commonly trained by minimizing the mean squared prediction error, which is highly sensitive to outliers and data contamination. Existing robust training methods for regression NNs are often limited in scope and rely primarily on empirical validation, with only a few offering partial theoretical guarantees. In this paper, we propose a new robust learning framework for regression NNs based on the $\u03b2$-divergence (also known as the density power divergence) ...",
+      "relevance_reasons": [
+        "Matches research interest: neural networks",
+        "Relevant to project: Local LLM implementation"
+      ],
+      "url": "http://arxiv.org/abs/2602.08933v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.08782v1",
+      "title": "Amortising Inference and Meta-Learning Priors in Neural Networks",
+      "authors": "Tommy Rochussen, Vincent Fortuin",
+      "category": "stat.ML",
+      "published": "2026-02-09",
+      "summary": "One of the core facets of Bayesianism is in the updating of prior beliefs in light of new evidence$\\text{ -- }$so how can we maintain a Bayesian approach if we have no prior beliefs in the first place? This is one of the central challenges in the field of Bayesian deep learning, where it is not clear how to represent beliefs about a prediction task by prior distributions over model parameters. Bridging the fields of Bayesian deep learning and probabilistic meta-learning, we introduce a way to $\\...",
+      "relevance_reasons": [
+        "Matches research interest: deep learning",
+        "Matches research interest: neural networks"
+      ],
+      "url": "http://arxiv.org/abs/2602.08782v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.02920v1",
+      "title": "A Reproducible Framework for Bias-Resistant Machine Learning on Small-Sample Neuroimaging Data",
+      "authors": "Jagan Mohan Reddy Dwarampudi, Jennifer L Purks, Joshua Wong...",
+      "category": "q-bio.QM",
+      "published": "2026-02-02",
+      "summary": "We introduce a reproducible, bias-resistant machine learning framework that integrates domain-informed feature engineering, nested cross-validation, and calibrated decision-threshold optimization for small-sample neuroimaging data. Conventional cross-validation frameworks that reuse the same folds for both model selection and performance estimation yield optimistically biased results, limiting reproducibility and generalization. Demonstrated on a high-dimensional structural MRI dataset of deep b...",
+      "relevance_reasons": [
+        "Matches research interest: machine learning",
+        "Relevant to project: Biomedical AI applications"
+      ],
+      "url": "http://arxiv.org/abs/2602.02920v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.00586v1",
+      "title": "RAG-GNN: Integrating Retrieved Knowledge with Graph Neural Networks for Precision Medicine",
+      "authors": "Hasi Hays, William J. Richardson",
+      "category": "q-bio.MN",
+      "published": "2026-01-31",
+      "summary": "Network topology excels at structural predictions but fails to capture functional semantics encoded in biomedical literature. We present a retrieval-augmented generation (RAG) embedding framework that integrates graph neural network representations with dynamically retrieved literature-derived knowledge through contrastive learning. Benchmarking against ten embedding methods reveals task-specific complementarity: topology-focused methods achieve near-perfect link prediction (GCN: 0.983 AUROC), w...",
+      "relevance_reasons": [
+        "Matches research interest: neural networks",
+        "Relevant to project: Biomedical AI applications"
+      ],
+      "url": "http://arxiv.org/abs/2602.00586v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2601.03704v1",
+      "title": "Investigating Knowledge Distillation Through Neural Networks for Protein Binding Affinity Prediction",
+      "authors": "Wajid Arshad Abbasi, Syed Ali Abbas, Maryum Bibi...",
+      "category": "q-bio.MN",
+      "published": "2026-01-07",
+      "summary": "The trade-off between predictive accuracy and data availability makes it difficult to predict protein--protein binding affinity accurately. The lack of experimentally resolved protein structures limits the performance of structure-based machine learning models, which generally outperform sequence-based methods. In order to overcome this constraint, we suggest a regression framework based on knowledge distillation that uses protein structural data during training and only needs sequence data duri...",
+      "relevance_reasons": [
+        "Matches research interest: machine learning",
+        "Matches research interest: neural networks"
+      ],
+      "url": "http://arxiv.org/abs/2601.03704v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.01230v1",
+      "title": "Toward Interpretable and Generalizable AI in Regulatory Genomics",
+      "authors": "Masayuki Nagai, Alan E. Murphy, Kaeli Rizzo...",
+      "category": "q-bio.GN",
+      "published": "2026-02-01",
+      "summary": "Deciphering how DNA sequence encodes gene regulation remains a central challenge in biology. Advances in machine learning and functional genomics have enabled sequence-to-function (seq2func) models that predict molecular regulatory readouts directly from DNA sequence. These models are now widely used for variant effect prediction, mechanistic interpretation, and regulatory sequence design. Despite strong performance on held-out genomic regions, their ability to generalize across genetic variatio...",
+      "relevance_reasons": [
+        "Matches research interest: machine learning",
+        "Relevant to project: AI education tools"
+      ],
+      "url": "http://arxiv.org/abs/2602.01230v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2601.22866v1",
+      "title": "Classification of SARS-CoV-2 Variants through The Epistatical Circos Plots with Convolutional Neural Networks",
+      "authors": "Bo Jing, Yu-Han Huang, Hong-Li Zeng...",
+      "category": "q-bio.GN",
+      "published": "2026-01-30",
+      "summary": "The COVID-19 pandemic has profoundly affected global health, driven by the remarkable transmissibility and mutational adaptability of the SARS-CoV-2 virus. Five major variants of concern, Alpha, Beta, Gamma, Delta, and Omicron, have been identified. By August 2022, over 12.95 million full-length SARS-CoV-2 genome sequences had been deposited in the Global Initiative on Sharing Avian Influenza Data (GISAID) database, offering an unprecedented opportunity to investigate viral evolution and epistat...",
+      "relevance_reasons": [
+        "Matches research interest: neural networks",
+        "Relevant to project: AI education tools"
+      ],
+      "url": "http://arxiv.org/abs/2601.22866v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2601.18604v2",
+      "title": "LaCoGSEA: Unsupervised deep learning for pathway analysis via latent correlation",
+      "authors": "Zhiwei Zheng, Kevin Bryson",
+      "category": "q-bio.GN",
+      "published": "2026-01-26",
+      "summary": "Motivation: Pathway enrichment analysis is widely used to interpret gene expression data. Standard approaches, such as GSEA, rely on predefined phenotypic labels and pairwise comparisons, which limits their applicability in unsupervised settings. Existing unsupervised extensions, including single-sample methods, provide pathway-level summaries but primarily capture linear relationships and do not explicitly model gene-pathway associations. More recently, deep learning models have been explored t...",
+      "relevance_reasons": [
+        "Matches research interest: deep learning",
+        "Relevant to project: Local LLM implementation"
+      ],
+      "url": "http://arxiv.org/abs/2601.18604v2",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2601.17184v1",
+      "title": "FASTR: Reimagining FASTQ via Compact Image-inspired Representation",
+      "authors": "Adrian Tkachenko, Sepehr Salem, Ayotomiwa Ezekiel Adeniyi...",
+      "category": "q-bio.GN",
+      "published": "2026-01-23",
+      "summary": "Motivation: High-throughput sequencing (HTS) enables population-scale genomics but generates massive datasets, creating bottlenecks in storage, transfer, and analysis. FASTQ, the standard format for over two decades, stores one byte per base and one byte per quality score, leading to inefficient I/O, high storage costs, and redundancy. Existing compression tools can mitigate some issues, but often introduce costly decompression or complex dependency issues. Results: We introduce FASTR, a lossles...",
+      "relevance_reasons": [
+        "Relevant to project: Local LLM implementation",
+        "Relevant to project: AI education tools"
+      ],
+      "url": "http://arxiv.org/abs/2601.17184v1",
+      "relevance_score": 6
+    },
+    {
+      "arxiv_id": "2602.08636v1",
+      "title": "Supporting Effective Goal Setting with LLM-Based Chatbots",
+      "authors": "Michel Schimpf, Sebastian Maier, Anton Wyrowski...",
+      "category": "cs.HC",
+      "published": "2026-02-09",
+      "summary": "Each day, individuals set behavioral goals such as eating healthier, exercising regularly, or increasing productivity. While psychological frameworks (i.e., goal setting and implementation intentions) can be helpful, they often need structured external support, which interactive technologies can provide. We thus explored how large language model (LLM)-based chatbots can apply these frameworks to guide users in setting more effective goals. We conducted a preregistered randomized controlled exper...",
+      "relevance_reasons": [
+        "Relevant to project: Local LLM implementation"
+      ],
+      "url": "http://arxiv.org/abs/2602.08636v1",
+      "relevance_score": 5
+    },
+    {
+      "arxiv_id": "2602.04058v1",
+      "title": "RareCollab -- An Agentic System Diagnosing Mendelian Disorders with Integrated Phenotypic and Molecular Evidence",
+      "authors": "Guantong Qi, Jiasheng Wang, Mei Ling Chong...",
+      "category": "q-bio.GN",
+      "published": "2026-02-03",
+      "summary": "Millions of children worldwide are affected by severe rare Mendelian disorders, yet exome and genome sequencing still fail to provide a definitive molecular diagnosis for a large fraction of patients, prolonging the diagnostic odyssey. Bridging this gap increasingly requires transitioning from DNA-only interpretation to multi-modal diagnostic reasoning that combines genomic data, transcriptomic sequencing (RNA-seq), and phenotype information; however, computational frameworks that coherently int...",
+      "relevance_reasons": [
+        "Matches research interest: artificial intelligence"
+      ],
+      "url": "http://arxiv.org/abs/2602.04058v1",
+      "relevance_score": 5
+    },
+    {
+      "arxiv_id": "2602.09000v1",
+      "title": "iGRPO: Self-Feedback-Driven LLM Reasoning",
+      "authors": "Ali Hatamizadeh, Shrimai Prabhumoye, Igor Gitman...",
+      "category": "cs.AI",
+      "published": "2026-02-09",
+      "summary": "Large Language Models (LLMs) have shown promise in solving complex mathematical problems, yet they still fall short of producing accurate and consistent solutions. Reinforcement Learning (RL) is a framework for aligning these models with task-specific rewards, improving overall quality and reliability. Group Relative Policy Optimization (GRPO) is an efficient, value-function-free alternative to Proximal Policy Optimization (PPO) that leverages group-relative reward normalization. We introduce It...",
+      "relevance_reasons": [
+        "Matches research interest: large language models"
+      ],
+      "url": "http://arxiv.org/abs/2602.09000v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.08948v1",
+      "title": "CoRefine: Confidence-Guided Self-Refinement for Adaptive Test-Time Compute",
+      "authors": "Chen Jin, Ryutaro Tanno, Tom Diethe...",
+      "category": "cs.AI",
+      "published": "2026-02-09",
+      "summary": "Large Language Models (LLMs) often rely on test-time scaling via parallel decoding (for example, 512 samples) to boost reasoning accuracy, but this incurs substantial compute. We introduce CoRefine, a confidence-guided self-refinement method that achieves competitive accuracy using a fraction of the tokens via a lightweight 211k-parameter Conv1D controller atop a frozen LLM. The controller consumes full-trace confidence to decide whether to halt, re-examine, or try a different approach, enabling...",
+      "relevance_reasons": [
+        "Matches research interest: large language models"
+      ],
+      "url": "http://arxiv.org/abs/2602.08948v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.08948v1",
+      "title": "CoRefine: Confidence-Guided Self-Refinement for Adaptive Test-Time Compute",
+      "authors": "Chen Jin, Ryutaro Tanno, Tom Diethe...",
+      "category": "cs.CL",
+      "published": "2026-02-09",
+      "summary": "Large Language Models (LLMs) often rely on test-time scaling via parallel decoding (for example, 512 samples) to boost reasoning accuracy, but this incurs substantial compute. We introduce CoRefine, a confidence-guided self-refinement method that achieves competitive accuracy using a fraction of the tokens via a lightweight 211k-parameter Conv1D controller atop a frozen LLM. The controller consumes full-trace confidence to decide whether to halt, re-examine, or try a different approach, enabling...",
+      "relevance_reasons": [
+        "Matches research interest: large language models"
+      ],
+      "url": "http://arxiv.org/abs/2602.08948v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.08874v1",
+      "title": "Is Reasoning Capability Enough for Safety in Long-Context Language Models?",
+      "authors": "Yu Fu, Haz Sameen Shahgir, Huanli Gong...",
+      "category": "cs.CL",
+      "published": "2026-02-09",
+      "summary": "Large language models (LLMs) increasingly combine long-context processing with advanced reasoning, enabling them to retrieve and synthesize information distributed across tens of thousands of tokens. A hypothesis is that stronger reasoning capability should improve safety by helping models recognize harmful intent even when it is not stated explicitly. We test this hypothesis in long-context settings where harmful intent is implicit and must be inferred through reasoning, and find that it does n...",
+      "relevance_reasons": [
+        "Matches research interest: large language models"
+      ],
+      "url": "http://arxiv.org/abs/2602.08874v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.08872v1",
+      "title": "Large Language Models for Geolocation Extraction in Humanitarian Crisis Response",
+      "authors": "G. Cafferata, T. Demarco, K. Kalimeri...",
+      "category": "cs.CL",
+      "published": "2026-02-09",
+      "summary": "Humanitarian crises demand timely and accurate geographic information to inform effective response efforts. Yet, automated systems that extract locations from text often reproduce existing geographic and socioeconomic biases, leading to uneven visibility of crisis-affected regions. This paper investigates whether Large Language Models (LLMs) can address these geographic disparities in extracting location information from humanitarian documents. We introduce a two-step framework that combines few...",
+      "relevance_reasons": [
+        "Matches research interest: large language models"
+      ],
+      "url": "http://arxiv.org/abs/2602.08872v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.08826v1",
+      "title": "Affective Flow Language Model for Emotional Support Conversation",
+      "authors": "Chenghui Zou, Ning Wang, Tiesunlong Shen...",
+      "category": "cs.CL",
+      "published": "2026-02-09",
+      "summary": "Large language models (LLMs) have been widely applied to emotional support conversation (ESC). However, complex multi-turn support remains challenging.This is because existing alignment schemes rely on sparse outcome-level signals, thus offering limited supervision for intermediate strategy decisions. To fill this gap, this paper proposes affective flow language model for emotional support conversation (AFlow), a framework that introduces fine-grained supervision on dialogue prefixes by modeling...",
+      "relevance_reasons": [
+        "Matches research interest: large language models"
+      ],
+      "url": "http://arxiv.org/abs/2602.08826v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.08882v1",
+      "title": "Designing Multi-Robot Ground Video Sensemaking with Public Safety Professionals",
+      "authors": "Puqi Zhou, Ali Asgarov, Aafiya Hussain...",
+      "category": "cs.CV",
+      "published": "2026-02-09",
+      "summary": "Videos from fleets of ground robots can advance public safety by providing scalable situational awareness and reducing professionals' burden. Yet little is known about how to design and integrate multi-robot videos into public safety workflows. Collaborating with six police agencies, we examined how such videos could be made practical. In Study 1, we presented the first testbed for multi-robot ground video sensemaking. The testbed includes 38 events-of-interest (EoI) relevant to public safety, a...",
+      "relevance_reasons": [
+        "Relevant to project: AI education tools"
+      ],
+      "url": "http://arxiv.org/abs/2602.08882v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.08861v1",
+      "title": "TiFRe: Text-guided Video Frame Reduction for Efficient Video Multi-modal Large Language Models",
+      "authors": "Xiangtian Zheng, Zishuo Wang, Yuxin Peng",
+      "category": "cs.CV",
+      "published": "2026-02-09",
+      "summary": "With the rapid development of Large Language Models (LLMs), Video Multi-Modal Large Language Models (Video MLLMs) have achieved remarkable performance in video-language tasks such as video understanding and question answering. However, Video MLLMs face high computational costs, particularly in processing numerous video frames as input, which leads to significant attention computation overhead. A straightforward approach to reduce computational costs is to decrease the number of input video frame...",
+      "relevance_reasons": [
+        "Matches research interest: large language models"
+      ],
+      "url": "http://arxiv.org/abs/2602.08861v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.08828v1",
+      "title": "VideoVeritas: AI-Generated Video Detection via Perception Pretext Reinforcement Learning",
+      "authors": "Hao Tan, Jun Lan, Senyuan Shi...",
+      "category": "cs.CV",
+      "published": "2026-02-09",
+      "summary": "The growing capability of video generation poses escalating security risks, making reliable detection increasingly essential. In this paper, we introduce VideoVeritas, a framework that integrates fine-grained perception and fact-based reasoning. We observe that while current multi-modal large language models (MLLMs) exhibit strong reasoning capacity, their granular perception ability remains limited. To mitigate this, we introduce Joint Preference Alignment and Perception Pretext Reinforcement L...",
+      "relevance_reasons": [
+        "Matches research interest: large language models"
+      ],
+      "url": "http://arxiv.org/abs/2602.08828v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.08513v1",
+      "title": "A Multi-objective Evolutionary Algorithm Based on Bi-population with Uniform Sampling for Neural Architecture Search",
+      "authors": "Yu Xue, Pengcheng Jiang, Chenchen Zhu...",
+      "category": "cs.NE",
+      "published": "2026-02-09",
+      "summary": "Neural architecture search (NAS) automates neural network design, improving efficiency over manual approaches. However, efficiently discovering high-performance neural network architectures that simultaneously optimize multiple objectives remains a significant challenge in NAS. Existing methods often suffer from limited population diversity and inadequate exploration of the search space, particularly in regions with extreme complexity values. To address these challenges, we propose MOEA-BUS, an ...",
+      "relevance_reasons": [
+        "Matches research interest: machine learning"
+      ],
+      "url": "http://arxiv.org/abs/2602.08513v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.06610v2",
+      "title": "Green Optimization: Energy-aware Design of Metaheuristics by Using Machine Learning Surrogates to Cope with Real Problems",
+      "authors": "Tomohiro Harada, Enrique Alba, Gabriel Luque",
+      "category": "cs.NE",
+      "published": "2026-02-06",
+      "summary": "Addressing real-world optimization challenges requires not only advanced metaheuristics but also continuous refinement of their internal mechanisms. This paper explores the integration of machine learning in the form of neural surrogate models into metaheuristics through a recent lens: energy consumption. While surrogates are widely used to reduce the computational cost of expensive objective functions, their combined impact on energy efficiency, algorithmic performance, and solution accuracy re...",
+      "relevance_reasons": [
+        "Matches research interest: machine learning"
+      ],
+      "url": "http://arxiv.org/abs/2602.06610v2",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.05737v1",
+      "title": "Neuro-Inspired Visual Pattern Recognition via Biological Reservoir Computing",
+      "authors": "Luca Ciampi, Ludovico Iannello, Fabrizio Tonelli...",
+      "category": "cs.NE",
+      "published": "2026-02-05",
+      "summary": "In this paper, we present a neuro-inspired approach to reservoir computing (RC) in which a network of in vitro cultured cortical neurons serves as the physical reservoir. Rather than relying on artificial recurrent models to approximate neural dynamics, our biological reservoir computing (BRC) system leverages the spontaneous and stimulus-evoked activity of living neural circuits as its computational substrate. A high-density multi-electrode array (HD-MEA) provides simultaneous stimulation and r...",
+      "relevance_reasons": [
+        "Matches research interest: machine learning"
+      ],
+      "url": "http://arxiv.org/abs/2602.05737v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.08882v1",
+      "title": "Designing Multi-Robot Ground Video Sensemaking with Public Safety Professionals",
+      "authors": "Puqi Zhou, Ali Asgarov, Aafiya Hussain...",
+      "category": "cs.HC",
+      "published": "2026-02-09",
+      "summary": "Videos from fleets of ground robots can advance public safety by providing scalable situational awareness and reducing professionals' burden. Yet little is known about how to design and integrate multi-robot videos into public safety workflows. Collaborating with six police agencies, we examined how such videos could be made practical. In Study 1, we presented the first testbed for multi-robot ground video sensemaking. The testbed includes 38 events-of-interest (EoI) relevant to public safety, a...",
+      "relevance_reasons": [
+        "Relevant to project: AI education tools"
+      ],
+      "url": "http://arxiv.org/abs/2602.08882v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.08467v1",
+      "title": "Low Rank Transformer for Multivariate Time Series Anomaly Detection and Localization",
+      "authors": "Charalampos Shimillas, Kleanthis Malialis, Konstantinos Fokianos...",
+      "category": "stat.ML",
+      "published": "2026-02-09",
+      "summary": "Multivariate time series (MTS) anomaly diagnosis, which encompasses both anomaly detection and localization, is critical for the safety and reliability of complex, large-scale real-world systems. The vast majority of existing anomaly diagnosis methods offer limited theoretical insights, especially for anomaly localization, which is a vital but largely unexplored area. The aim of this contribution is to study the learning process of a Transformer when applied to MTS by revealing connections to st...",
+      "relevance_reasons": [
+        "Relevant to project: Local LLM implementation"
+      ],
+      "url": "http://arxiv.org/abs/2602.08467v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.07103v1",
+      "title": "scDFM: Distributional Flow Matching Model for Robust Single-Cell Perturbation Prediction",
+      "authors": "Chenglei Yu, Chuanrui Wang, Bangyan Liao...",
+      "category": "q-bio.QM",
+      "published": "2026-02-06",
+      "summary": "A central goal in systems biology and drug discovery is to predict the transcriptional response of cells to perturbations. This task is challenging due to the noisy and sparse nature of single-cell measurements, as well as the fact that perturbations often induce population-level shifts rather than changes in individual cells. Existing deep learning methods typically assume cell-level correspondences, limiting their ability to capture such global effects. We present scDFM, a generative framework...",
+      "relevance_reasons": [
+        "Matches research interest: deep learning"
+      ],
+      "url": "http://arxiv.org/abs/2602.07103v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.04916v2",
+      "title": "AFD-INSTRUCTION: A Comprehensive Antibody Instruction Dataset with Functional Annotations for LLM-Based Understanding and Design",
+      "authors": "Ling Luo, Wenbin Jiang, Hongyuan Chang...",
+      "category": "q-bio.QM",
+      "published": "2026-02-04",
+      "summary": "Large language models (LLMs) have significantly advanced protein representation learning. However, their capacity to interpret and design antibodies through natural language remains limited. To address this challenge, we present AFD-Instruction, the first large-scale instruction dataset with functional annotations tailored to antibodies. This dataset encompasses two key components: antibody understanding, which infers functional attributes directly from sequences, and antibody design, which enab...",
+      "relevance_reasons": [
+        "Matches research interest: large language models"
+      ],
+      "url": "http://arxiv.org/abs/2602.04916v2",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2601.07415v1",
+      "title": "PLANET v2.0: A comprehensive Protein-Ligand Affinity Prediction Model Based on Mixture Density Network",
+      "authors": "Haotian Gao, Xiangying Zhang, Jingyuan Li...",
+      "category": "q-bio.MN",
+      "published": "2026-01-12",
+      "summary": "Drug discovery represents a time-consuming and financially intensive process, and virtual screening can accelerate it. Scoring functions, as one of the tools guiding virtual screening, have their precision closely tied to screening efficiency. In our previous study, we developed a graph neural network model called PLANET (Protein-Ligand Affinity prediction NETwork), but it suffers from the defect in representing protein-ligand contact maps. Incorrect binding modes inevitably lead to poor affinit...",
+      "relevance_reasons": [
+        "Relevant to project: AI education tools"
+      ],
+      "url": "http://arxiv.org/abs/2601.07415v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.02918v1",
+      "title": "A Multi-scale Linear-time Encoder for Whole-Slide Image Analysis",
+      "authors": "Jagan Mohan Reddy Dwarampudi, Joshua Wong, Hien Van Nguyen...",
+      "category": "q-bio.TO",
+      "published": "2026-02-02",
+      "summary": "We introduce Multi-scale Adaptive Recurrent Biomedical Linear-time Encoder (MARBLE), the first \\textit{purely Mamba-based} multi-state multiple instance learning (MIL) framework for whole-slide image (WSI) analysis. MARBLE processes multiple magnification levels in parallel and integrates coarse-to-fine reasoning within a linear-time state-space model, efficiently capturing cross-scale dependencies with minimal parameter overhead. WSI analysis remains challenging due to gigapixel resolutions and...",
+      "relevance_reasons": [
+        "Relevant to project: Biomedical AI applications"
+      ],
+      "url": "http://arxiv.org/abs/2602.02918v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2601.14678v1",
+      "title": "Transfer Learning from One Cancer to Another via Deep Learning Domain Adaptation",
+      "authors": "Justin Cheung, Samuel Savine, Calvin Nguyen...",
+      "category": "q-bio.TO",
+      "published": "2026-01-21",
+      "summary": "Supervised deep learning models often achieve excellent performance within their training distribution but struggle to generalize beyond it. In cancer histopathology, for example, a convolutional neural network (CNN) may classify cancer severity accurately for cancer types represented in its training data, yet fail on related but unseen types. Although adenocarcinomas from different organs share morphological features that might support limited cross-domain generalization, addressing domain shif...",
+      "relevance_reasons": [
+        "Matches research interest: deep learning"
+      ],
+      "url": "http://arxiv.org/abs/2601.14678v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2601.01315v1",
+      "title": "Quantifying Local Strain Field and Deformation in Active Contraction of Bladder Using a Pretrained Transformer Model: A Speckle-Free Approach",
+      "authors": "Alireza Asadbeygi, Anne M. Robertson, Yasutaka Tobe...",
+      "category": "q-bio.TO",
+      "published": "2026-01-04",
+      "summary": "Accurate quantification of local strain fields during bladder contraction is essential for understanding the biomechanics of bladder micturition, in both health and disease. Conventional digital image correlation (DIC) methods have been successfully applied to various biological tissues; however, this approach requires artificial speckling, which can alter both passive and active properties of the tissue. In this study, we introduce a speckle-free framework for quantifying local strain fields us...",
+      "relevance_reasons": [
+        "Relevant to project: Local LLM implementation"
+      ],
+      "url": "http://arxiv.org/abs/2601.01315v1",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2602.08986v1",
+      "title": "Improving Detection of Rare Nodes in Hierarchical Multi-Label Learning",
+      "authors": "Isaac Xu, Martin Gillis, Ayushi Sharma...",
+      "category": "cs.AI",
+      "published": "2026-02-09",
+      "summary": "In hierarchical multi-label classification, a persistent challenge is enabling model predictions to reach deeper levels of the hierarchy for more detailed or fine-grained classifications. This difficulty partly arises from the natural rarity of certain classes (or hierarchical nodes) and the hierarchical constraint that ensures child nodes are almost always less frequent than their parents. To address this, we propose a weighted loss objective for neural networks that combines node-wise imbalanc...",
+      "relevance_reasons": [
+        "Matches research interest: neural networks"
+      ],
+      "url": "http://arxiv.org/abs/2602.08986v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2602.08986v1",
+      "title": "Improving Detection of Rare Nodes in Hierarchical Multi-Label Learning",
+      "authors": "Isaac Xu, Martin Gillis, Ayushi Sharma...",
+      "category": "cs.LG",
+      "published": "2026-02-09",
+      "summary": "In hierarchical multi-label classification, a persistent challenge is enabling model predictions to reach deeper levels of the hierarchy for more detailed or fine-grained classifications. This difficulty partly arises from the natural rarity of certain classes (or hierarchical nodes) and the hierarchical constraint that ensures child nodes are almost always less frequent than their parents. To address this, we propose a weighted loss objective for neural networks that combines node-wise imbalanc...",
+      "relevance_reasons": [
+        "Matches research interest: neural networks"
+      ],
+      "url": "http://arxiv.org/abs/2602.08986v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2602.08822v1",
+      "title": "Any-to-All MRI Synthesis: A Unified Foundation Model for Nasopharyngeal Carcinoma and Its Downstream Applications",
+      "authors": "Yao Pu, Yiming Shi, Zhenxi Zhang...",
+      "category": "cs.CV",
+      "published": "2026-02-09",
+      "summary": "Magnetic resonance imaging (MRI) is essential for nasopharyngeal carcinoma (NPC) radiotherapy (RT), but practical constraints, such as patient discomfort, long scan times, and high costs often lead to incomplete modalities in clinical practice, compromising RT planning accuracy. Traditional MRI synthesis methods are modality-specific, limited in anatomical adaptability, and lack clinical interpretability-failing to meet NPC's RT needs. Here, we developed a unified foundation model integrating co...",
+      "relevance_reasons": [
+        "Relevant to project: Biomedical AI applications"
+      ],
+      "url": "http://arxiv.org/abs/2602.08822v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2602.08515v1",
+      "title": "Do physics-informed neural networks (PINNs) need to be deep? Shallow PINNs using the Levenberg-Marquardt algorithm",
+      "authors": "Muhammad Luthfi Shahab, Imam Mukhlash, Hadi Susanto",
+      "category": "cs.NE",
+      "published": "2026-02-09",
+      "summary": "This work investigates the use of shallow physics-informed neural networks (PINNs) for solving forward and inverse problems of nonlinear partial differential equations (PDEs). By reformulating PINNs as nonlinear systems, the Levenberg-Marquardt (LM) algorithm is employed to efficiently optimize the network parameters. Analytical expressions for the neural network derivatives with respect to the input variables are derived, enabling accurate and efficient computation of the Jacobian matrix requir...",
+      "relevance_reasons": [
+        "Matches research interest: neural networks"
+      ],
+      "url": "http://arxiv.org/abs/2602.08515v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2602.06766v1",
+      "title": "Sparse Spike Encoding of Channel Responses for Energy Efficient Human Activity Recognition",
+      "authors": "Eleonora Cicciarella, Riccardo Mazzieri, Jacopo Pegoraro...",
+      "category": "cs.NE",
+      "published": "2026-02-06",
+      "summary": "ISAC enables pervasive monitoring, but modern sensing algorithms are often too complex for energy-constrained edge devices. This motivates the development of learning techniques that balance accuracy performance and energy efficiency. Spiking Neural Networks (SNNs) are a promising alternative, processing information as sparse binary spike trains and potentially reducing energy consumption by orders of magnitude. In this work, we propose a spiking convolutional autoencoder (SCAE) that learns tail...",
+      "relevance_reasons": [
+        "Matches research interest: neural networks"
+      ],
+      "url": "http://arxiv.org/abs/2602.06766v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2602.08994v1",
+      "title": "Rhythms of Recovery: Patient-Centered Virtual Reality Exergame for Physical Rehabilitation in the Intensive Care Unit",
+      "authors": "Sangjun Eom, Tianyi Hu, Wenyi Xu...",
+      "category": "cs.HC",
+      "published": "2026-02-09",
+      "summary": "Early mobilization is a structured protocol designed to facilitate motor recovery in intensive care unit (ICU) patients with ICU-acquired weakness. This process is typically implemented by an interdisciplinary team of nurses, physical therapists, and other healthcare professionals. However, its application is often constrained by the patients' critical conditions, limited mobility, and the challenges of coordinating care within resource-intensive ICU environments. In this study, we developed a p...",
+      "relevance_reasons": [
+        "Relevant to project: Longevity healthcare AI research"
+      ],
+      "url": "http://arxiv.org/abs/2602.08994v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2602.08907v1",
+      "title": "Positive Distribution Shift as a Framework for Understanding Tractable Learning",
+      "authors": "Marko Medvedev, Idan Attias, Elisabetta Cornacchia...",
+      "category": "stat.ML",
+      "published": "2026-02-09",
+      "summary": "We study a setting where the goal is to learn a target function f(x) with respect to a target distribution D(x), but training is done on i.i.d. samples from a different training distribution D'(x), labeled by the true target f(x). Such a distribution shift (here in the form of covariate shift) is usually viewed negatively, as hurting or making learning harder, and the traditional distribution shift literature is mostly concerned with limiting or avoiding this negative effect. In contrast, we arg...",
+      "relevance_reasons": [
+        "Matches research interest: machine learning"
+      ],
+      "url": "http://arxiv.org/abs/2602.08907v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2602.08849v1",
+      "title": "Cutting Through the Noise: On-the-fly Outlier Detection for Robust Training of Machine Learning Interatomic Potentials",
+      "authors": "Terry C. W. Lam, Niamh O'Neill, Christoph Schran...",
+      "category": "stat.ML",
+      "published": "2026-02-09",
+      "summary": "The accuracy of machine learning interatomic potentials suffers from reference data that contains numerical noise. Often originating from unconverged or inconsistent electronic-structure calculations, this noise is challenging to identify. Existing mitigation strategies such as manual filtering or iterative refinement of outliers, require either substantial expert effort or multiple expensive retraining cycles, making them difficult to scale to large datasets. Here, we introduce an on-the-fly ou...",
+      "relevance_reasons": [
+        "Matches research interest: machine learning"
+      ],
+      "url": "http://arxiv.org/abs/2602.08849v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2602.06296v1",
+      "title": "Internalized Morphogenesis: A Self-Organizing Model for Growth, Replication, and Regeneration via Local Token Exchange in Modular Systems",
+      "authors": "Takeshi Ishida",
+      "category": "q-bio.QM",
+      "published": "2026-02-06",
+      "summary": "This study presents an internalized morphogenesis model for autonomous systems, such as swarm robotics and micro-nanomachines, that eliminates the need for external spatial computation. Traditional self-organizing models often require calculations across the entire coordinate space, including empty areas, which is impractical for resource-constrained physical modules. Our proposed model achieves complex morphogenesis through strictly local interactions between adjacent modules within the \"body.\"...",
+      "relevance_reasons": [
+        "Relevant to project: Local LLM implementation"
+      ],
+      "url": "http://arxiv.org/abs/2602.06296v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2602.03998v1",
+      "title": "AtlasPatch: An Efficient and Scalable Tool for Whole Slide Image Preprocessing in Computational Pathology",
+      "authors": "Ahmed Alagha, Christopher Leclerc, Yousef Kotp...",
+      "category": "q-bio.QM",
+      "published": "2026-02-03",
+      "summary": "Whole-slide image (WSI) preprocessing, typically comprising tissue detection followed by patch extraction, is foundational to AI-driven computational pathology workflows. This remains a major computational bottleneck as existing tools either rely on inaccurate heuristic thresholding for tissue detection, or adopt AI-based approaches trained on limited-diversity data that operate at the patch level, incurring substantial computational complexity. We present AtlasPatch, an efficient and scalable s...",
+      "relevance_reasons": [
+        "Relevant to project: AI education tools"
+      ],
+      "url": "http://arxiv.org/abs/2602.03998v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2602.03886v2",
+      "title": "Prenatal Stress Detection from Electrocardiography Using Self-Supervised Deep Learning: Development and External Validation",
+      "authors": "Martin G. Frasch, Marlene J. E. Mayer, Clara Becker...",
+      "category": "q-bio.QM",
+      "published": "2026-02-03",
+      "summary": "Prenatal psychological stress affects 15-25% of pregnancies and increases risks of preterm birth, low birth weight, and adverse neurodevelopmental outcomes. Current screening relies on subjective questionnaires (PSS-10), limiting continuous monitoring. We developed deep learning models for stress detection from electrocardiography (ECG) using the FELICITy 1 cohort (151 pregnant women, 32-38 weeks gestation). A ResNet-34 encoder was pretrained via SimCLR contrastive learning on 40,692 ECG segment...",
+      "relevance_reasons": [
+        "Matches research interest: deep learning"
+      ],
+      "url": "http://arxiv.org/abs/2602.03886v2",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2602.07257v1",
+      "title": "A Modular Mechanistic In Silico Model for In Vitro Transcription Process Yield and Product Quality Prediction",
+      "authors": "Keqi Wang, Keilung Choy, Eli Reiser...",
+      "category": "q-bio.MN",
+      "published": "2026-02-06",
+      "summary": "In vitro transcription (IVT) plays a critical role in the manufacture of mRNA vaccines and therapeutics. Optimizing mRNA yield and ensuring product quality, such as capping efficiency and integrity, are essential but mechanistically complex. This study presents a modular mechanistic model of the IVT process to advance scientific understanding and improve predictive capability. The IVT reaction network is decomposed into interconnected modules describing (1) initiation and capping, (2) elongation...",
+      "relevance_reasons": [
+        "Matches research interest: machine learning"
+      ],
+      "url": "http://arxiv.org/abs/2602.07257v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2602.02374v1",
+      "title": "Recurrent neural chemical reaction networks trained to switch dynamical behaviours through learned bifurcations",
+      "authors": "Alexander Dack, Tomislav Plesa, Thomas E. Ouldridge",
+      "category": "q-bio.MN",
+      "published": "2026-02-02",
+      "summary": "Both natural and synthetic chemical systems not only exhibit a range of non-trivial dynamics, but also transition between qualitatively different dynamical behaviours as environmental parameters change. Such transitions are called bifurcations. Here, we show that recurrent neural chemical reaction networks (RNCRNs), a class of chemical reaction networks based on recurrent artificial neural networks that can be trained to reproduce a given dynamical behaviour, can also be trained to exhibit bifur...",
+      "relevance_reasons": [
+        "Matches research interest: neural networks"
+      ],
+      "url": "http://arxiv.org/abs/2602.02374v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2601.06712v1",
+      "title": "In-context learning emerges in chemical reaction networks without attention",
+      "authors": "Carlos Floyd, Hector Manuel Lopez Rios, Aaron R. Dinner...",
+      "category": "q-bio.MN",
+      "published": "2026-01-10",
+      "summary": "We investigate whether chemical processes can perform in-context learning (ICL), a mode of computation typically associated with transformer architectures. ICL allows a system to infer task-specific rules from a sequence of examples without relying solely on fixed parameters. Traditional ICL relies on a pairwise attention mechanism which is not obviously implementable in chemical systems. However, we show theoretically and numerically that chemical processes can achieve ICL through a mechanism w...",
+      "relevance_reasons": [
+        "Matches research interest: transformer architectures"
+      ],
+      "url": "http://arxiv.org/abs/2601.06712v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2512.11651v1",
+      "title": "Nano-engineered surface enhanced Raman spectroscopy substrates for probing tissue-material interactions",
+      "authors": "Connie M. Wang, Roberta M. Sabino, Aditya Garg...",
+      "category": "q-bio.TO",
+      "published": "2025-12-12",
+      "summary": "Innovation in biomaterials has brought both breakthroughs and new challenges in medicine, as implant materials have become increasingly multifunctional and complex. One of the greatest issues is the difficulty in assessing the temporal and multidimensional dynamics of tissue-implant interactions. Implant biology remains hard to decipher without a noninvasive and multiplexed technique that can accurately monitor real-time biological processes. To address this, we developed a multifunctional, self...",
+      "relevance_reasons": [
+        "Matches research interest: machine learning"
+      ],
+      "url": "http://arxiv.org/abs/2512.11651v1",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2602.08964v1",
+      "title": "A Behavioural and Representational Evaluation of Goal-Directedness in Language Model Agents",
+      "authors": "Raghu Arghal, Fade Chen, Niall Dalton...",
+      "category": "cs.AI",
+      "published": "2026-02-09",
+      "summary": "Understanding an agent's goals helps explain and predict its behaviour, yet there is no established methodology for reliably attributing goals to agentic systems. We propose a framework for evaluating goal-directedness that integrates behavioural evaluation with interpretability-based analyses of models' internal representations. As a case study, we examine an LLM agent navigating a 2D grid world toward a goal state. Behaviourally, we evaluate the agent against an optimal policy across varying g...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.08964v1",
+      "relevance_score": 2
+    },
+    {
+      "arxiv_id": "2602.08964v1",
+      "title": "A Behavioural and Representational Evaluation of Goal-Directedness in Language Model Agents",
+      "authors": "Raghu Arghal, Fade Chen, Niall Dalton...",
+      "category": "cs.LG",
+      "published": "2026-02-09",
+      "summary": "Understanding an agent's goals helps explain and predict its behaviour, yet there is no established methodology for reliably attributing goals to agentic systems. We propose a framework for evaluating goal-directedness that integrates behavioural evaluation with interpretability-based analyses of models' internal representations. As a case study, we examine an LLM agent navigating a 2D grid world toward a goal state. Behaviourally, we evaluate the agent against an optimal policy across varying g...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.08964v1",
+      "relevance_score": 2
+    },
+    {
+      "arxiv_id": "2602.08964v1",
+      "title": "A Behavioural and Representational Evaluation of Goal-Directedness in Language Model Agents",
+      "authors": "Raghu Arghal, Fade Chen, Niall Dalton...",
+      "category": "cs.CL",
+      "published": "2026-02-09",
+      "summary": "Understanding an agent's goals helps explain and predict its behaviour, yet there is no established methodology for reliably attributing goals to agentic systems. We propose a framework for evaluating goal-directedness that integrates behavioural evaluation with interpretability-based analyses of models' internal representations. As a case study, we examine an LLM agent navigating a 2D grid world toward a goal state. Behaviourally, we evaluate the agent against an optimal policy across varying g...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.08964v1",
+      "relevance_score": 2
+    },
+    {
+      "arxiv_id": "2602.09013v1",
+      "title": "Dexterous Manipulation Policies from RGB Human Videos via 4D Hand-Object Trajectory Reconstruction",
+      "authors": "Hongyi Chen, Tony Dong, Tiancheng Wu...",
+      "category": "cs.CV",
+      "published": "2026-02-09",
+      "summary": "Multi-finger robotic hand manipulation and grasping are challenging due to the high-dimensional action space and the difficulty of acquiring large-scale training data. Existing approaches largely rely on human teleoperation with wearable devices or specialized sensing equipment to capture hand-object interactions, which limits scalability. In this work, we propose VIDEOMANIP, a device-free framework that learns dexterous manipulation directly from RGB human videos. Leveraging recent advances in ...",
+      "relevance_reasons": [
+        "Matches research interest: computer vision"
+      ],
+      "url": "http://arxiv.org/abs/2602.09013v1",
+      "relevance_score": 2
+    },
+    {
+      "arxiv_id": "2602.08820v1",
+      "title": "Omni-Video 2: Scaling MLLM-Conditioned Diffusion for Unified Video Generation and Editing",
+      "authors": "Hao Yang, Zhiyu Tan, Jia Gong...",
+      "category": "cs.CV",
+      "published": "2026-02-09",
+      "summary": "We present Omni-Video 2, a scalable and computationally efficient model that connects pretrained multimodal large-language models (MLLMs) with video diffusion models for unified video generation and editing. Our key idea is to exploit the understanding and reasoning capabilities of MLLMs to produce explicit target captions to interpret user instructions. In this way, the rich contextual representations from the understanding model are directly used to guide the generative process, thereby improv...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.08820v1",
+      "relevance_score": 2
+    },
+    {
+      "arxiv_id": "2601.22684v1",
+      "title": "BioModelsRAG: A Biological Modeling Assistant Using RAG (Retrieval Augmented Generation)",
+      "authors": "Bhavyahshree Navaneetha Krishnan, Adel Heydarabadipour, Herbert Sauro",
+      "category": "q-bio.MN",
+      "published": "2026-01-30",
+      "summary": "The BioModels database is one of the premier databases for computational models in systems biology. The database contains over 1000 curated models and an even larger number of non-curated models. All the models are stored in the machine-readable format, SBML. Although SBML can be translated into the human readable Antimony format, analyzing the models can still be time consuming. In order to bridge this gap, a LLM (large language model) assistant was created to analyze the BioModels and allow in...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2601.22684v1",
+      "relevance_score": 2
+    },
+    {
+      "arxiv_id": "2602.09006v1",
+      "title": "ARO: A New Lens On Matrix Optimization For Large Models",
+      "authors": "Wenbo Gong, Javier Zazo, Qijun Luo...",
+      "category": "cs.AI",
+      "published": "2026-02-09",
+      "summary": "Matrix-based optimizers have attracted growing interest for improving LLM training efficiency, with significant progress centered on orthogonalization/whitening based methods. While yielding substantial performance gains, a fundamental question arises: can we develop new paradigms beyond orthogonalization, pushing the efficiency frontier further? We present \\textbf{Adaptively Rotated Optimization (ARO}, a new matrix optimization framework that treats gradient rotation as a first class design pri...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.09006v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.09002v1",
+      "title": "From Obstacles to Etiquette: Robot Social Navigation with VLM-Informed Path Selection",
+      "authors": "Zilin Fang, Anxing Xiao, David Hsu...",
+      "category": "cs.AI",
+      "published": "2026-02-09",
+      "summary": "Navigating socially in human environments requires more than satisfying geometric constraints, as collision-free paths may still interfere with ongoing activities or conflict with social norms. Addressing this challenge calls for analyzing interactions between agents and incorporating common-sense reasoning into planning. This paper presents a social robot navigation framework that integrates geometric planning with contextual social reasoning. The system first extracts obstacles and human dynam...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.09002v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.08984v1",
+      "title": "Next Concept Prediction in Discrete Latent Space Leads to Stronger Language Models",
+      "authors": "Yuliang Liu, Yunchong Song, Yixuan Wang...",
+      "category": "cs.AI",
+      "published": "2026-02-09",
+      "summary": "We propose Next Concept Prediction (NCP), a generative pretraining paradigm built on top of Next Token Prediction (NTP). NCP predicts discrete concepts that span multiple tokens, thereby forming a more challenging pretraining objective. Our model, ConceptLM, quantizes hidden states using Vector Quantization and constructs a concept vocabulary. It leverages both NCP and NTP to drive parameter updates and generates a concept to guide the generation of the following tokens. We train ConceptLM from ...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.08984v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.09006v1",
+      "title": "ARO: A New Lens On Matrix Optimization For Large Models",
+      "authors": "Wenbo Gong, Javier Zazo, Qijun Luo...",
+      "category": "cs.LG",
+      "published": "2026-02-09",
+      "summary": "Matrix-based optimizers have attracted growing interest for improving LLM training efficiency, with significant progress centered on orthogonalization/whitening based methods. While yielding substantial performance gains, a fundamental question arises: can we develop new paradigms beyond orthogonalization, pushing the efficiency frontier further? We present \\textbf{Adaptively Rotated Optimization (ARO}, a new matrix optimization framework that treats gradient rotation as a first class design pri...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.09006v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.08934v1",
+      "title": "StealthRL: Reinforcement Learning Paraphrase Attacks for Multi-Detector Evasion of AI-Text Detectors",
+      "authors": "Suraj Ranganath, Atharv Ramesh",
+      "category": "cs.LG",
+      "published": "2026-02-09",
+      "summary": "AI-text detectors face a critical robustness challenge: adversarial paraphrasing attacks that preserve semantics while evading detection. We introduce StealthRL, a reinforcement learning framework that stress-tests detector robustness under realistic adversarial conditions. StealthRL trains a paraphrase policy against a multi-detector ensemble using Group Relative Policy Optimization (GRPO) with LoRA adapters on Qwen3-4B, optimizing a composite reward that balances detector evasion with semantic...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.08934v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.08923v1",
+      "title": "DynamiQ: Accelerating Gradient Synchronization using Compressed Multi-hop All-reduce",
+      "authors": "Wenchen Han, Shay Vargaftik, Michael Mitzenmacher...",
+      "category": "cs.LG",
+      "published": "2026-02-09",
+      "summary": "Multi-hop all-reduce is the de facto backbone of large model training. As the training scale increases, the network often becomes a bottleneck, motivating reducing the volume of transmitted data. Accordingly, recent systems demonstrated significant acceleration of the training process using gradient quantization. However, these systems are not optimized for multi-hop aggregation, where entries are partially summed multiple times along their aggregation topology.\n  This paper presents DynamiQ, a ...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.08923v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.08984v1",
+      "title": "Next Concept Prediction in Discrete Latent Space Leads to Stronger Language Models",
+      "authors": "Yuliang Liu, Yunchong Song, Yixuan Wang...",
+      "category": "cs.CL",
+      "published": "2026-02-09",
+      "summary": "We propose Next Concept Prediction (NCP), a generative pretraining paradigm built on top of Next Token Prediction (NTP). NCP predicts discrete concepts that span multiple tokens, thereby forming a more challenging pretraining objective. Our model, ConceptLM, quantizes hidden states using Vector Quantization and constructs a concept vocabulary. It leverages both NCP and NTP to drive parameter updates and generates a concept to guide the generation of the following tokens. We train ConceptLM from ...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.08984v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.08864v1",
+      "title": "Understanding Dynamic Compute Allocation in Recurrent Transformers",
+      "authors": "Ibraheem Muhammad Moosa, Suhas Lohit, Ye Wang...",
+      "category": "cs.CL",
+      "published": "2026-02-09",
+      "summary": "Token-level adaptive computation seeks to reduce inference cost by allocating more computation to harder tokens and less to easier ones. However, prior work is primarily evaluated on natural-language benchmarks using task-level metrics, where token-level difficulty is unobservable and confounded with architectural factors, making it unclear whether compute allocation truly aligns with underlying complexity. We address this gap through three contributions. First, we introduce a complexity-control...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.08864v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.08857v1",
+      "title": "Discovering Interpretable Algorithms by Decompiling Transformers to RASP",
+      "authors": "Xinting Huang, Aleksandra Bakalova, Satwik Bhattamishra...",
+      "category": "cs.CL",
+      "published": "2026-02-09",
+      "summary": "Recent work has shown that the computations of Transformers can be simulated in the RASP family of programming languages. These findings have enabled improved understanding of the expressive capacity and generalization abilities of Transformers. In particular, Transformers have been suggested to length-generalize exactly on problems that have simple RASP programs. However, it remains open whether trained models actually implement simple interpretable programs. In this paper, we present a general...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.08857v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.08793v1",
+      "title": "LakeHopper: Cross Data Lakes Column Type Annotation through Model Adaptation",
+      "authors": "Yushi Sun, Xujia Li, Nan Tang...",
+      "category": "cs.CL",
+      "published": "2026-02-09",
+      "summary": "Column type annotation is vital for tasks like data cleaning, integration, and visualization. Recent solutions rely on resource-intensive language models fine-tuned on well-annotated columns from a particular set of tables, i.e., a source data lake. In this paper, we study whether we can adapt an existing pre-trained LM-based model to a new (i.e., target) data lake to minimize the annotations required on the new data lake. However, challenges include the source-target knowledge gap, selecting in...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.08793v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.09024v1",
+      "title": "Autoregressive Image Generation with Masked Bit Modeling",
+      "authors": "Qihang Yu, Qihao Liu, Ju He...",
+      "category": "cs.CV",
+      "published": "2026-02-09",
+      "summary": "This paper challenges the dominance of continuous pipelines in visual generation. We systematically investigate the performance gap between discrete and continuous methods. Contrary to the belief that discrete tokenizers are intrinsically inferior, we demonstrate that the disparity arises primarily from the total number of bits allocated in the latent space (i.e., the compression ratio). We show that scaling up the codebook size effectively bridges this gap, allowing discrete tokenizers to match...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.09024v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.08996v1",
+      "title": "Generalizing Sports Feedback Generation by Watching Competitions and Reading Books: A Rock Climbing Case Study",
+      "authors": "Arushi Rai, Adriana Kovashka",
+      "category": "cs.CV",
+      "published": "2026-02-09",
+      "summary": "While there is rapid progress in video-LLMs with advanced reasoning capabilities, prior work shows that these models struggle on the challenging task of sports feedback generation and require expensive and difficult-to-collect finetuning feedback data for each sport. This limitation is evident from the poor generalization to sports unseen during finetuning. Furthermore, traditional text generation evaluation metrics (e.g., BLEU-4, METEOR, ROUGE-L, BERTScore), originally developed for machine tra...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.08996v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.08701v1",
+      "title": "LLM-Enhanced Wearables for Comprehensible Health Guidance in LMICs",
+      "authors": "Mohammad Shaharyar Ahsan, Areeba Shahzad Shaikh, Maham Zahid...",
+      "category": "cs.HC",
+      "published": "2026-02-09",
+      "summary": "Personal health monitoring via IoT in LMICs is limited by affordability, low digital literacy, and limited health data comprehension. We present Guardian Angel, a low-cost, screenless wearable paired with a WhatsApp-based LLM agent that delivers plain-language, personalized insights. The LLM operates directly on raw, noisy sensor waveforms and is robust to the poor signal quality of low-cost hardware. On a benchmark dataset, a standard open-source algorithm produced valid outputs for only 70.29%...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.08701v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.04883v1",
+      "title": "Protein Autoregressive Modeling via Multiscale Structure Generation",
+      "authors": "Yanru Qu, Cheng-Yen Hsieh, Zaixiang Zheng...",
+      "category": "q-bio.QM",
+      "published": "2026-02-04",
+      "summary": "We present protein autoregressive modeling (PAR), the first multi-scale autoregressive framework for protein backbone generation via coarse-to-fine next-scale prediction. Using the hierarchical nature of proteins, PAR generates structures that mimic sculpting a statue, forming a coarse topology and refining structural details over scales. To achieve this, PAR consists of three key components: (i) multi-scale downsampling operations that represent protein structures across multiple scales during ...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.04883v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2601.04016v1",
+      "title": "Restoring information in aged gene regulatory networks by single knock-ins",
+      "authors": "Ryan LeFebre, Fabrisia Ambrosio, Andrew Mugler",
+      "category": "q-bio.MN",
+      "published": "2026-01-07",
+      "summary": "A hallmark of aging is loss of information in gene regulatory networks. These networks are tightly connected, raising the question of whether information could be restored by perturbing single genes. We develop a simple theoretical framework for information transmission in gene regulatory networks that describes the information gained or lost when a gene is \"knocked in\" (exogenously expressed). Applying the framework to gene expression data from muscle cells in young and old mice, we find that s...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2601.04016v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2602.07475v1",
+      "title": "Bipartite Graph Attention-based Clustering for Large-scale scRNA-seq Data",
+      "authors": "Zhuomin Liang, Liang Bai, Xian Yang",
+      "category": "q-bio.GN",
+      "published": "2026-02-07",
+      "summary": "scRNA-seq clustering is a critical task for analyzing single-cell RNA sequencing (scRNA-seq) data, as it groups cells with similar gene expression profiles. Transformers, as powerful foundational models, have been applied to scRNA-seq clustering. Their self-attention mechanism automatically assigns higher attention weights to cells within the same cluster, enhancing the distinction between clusters. Existing methods for scRNA-seq clustering, such as graph transformer-based models, treat each cel...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2602.07475v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2601.22203v1",
+      "title": "Beyond Conditional Computation: Retrieval-Augmented Genomic Foundation Models with Gengram",
+      "authors": "Huinan Xu, Xuyang Feng, Junhong Chen...",
+      "category": "q-bio.GN",
+      "published": "2026-01-29",
+      "summary": "Current genomic foundation models (GFMs) rely on extensive neural computation to implicitly approximate conserved biological motifs from single-nucleotide inputs. We propose Gengram, a conditional memory module that introduces an explicit and highly efficient lookup primitive for multi-base motifs via a genomic-specific hashing scheme, establishing genomic \"syntax\". Integrated into the backbone of state-of-the-art GFMs, Gengram achieves substantial gains (up to 14%) across several functional gen...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2601.22203v1",
+      "relevance_score": 1
+    },
+    {
+      "arxiv_id": "2601.09767v1",
+      "title": "From the Hallmarks of Cancer to the Survival System: Integration and Paradigmatic Reconstruction of Classical Oncology Theories by the Tumor Existential Crisis-Driven Survival (ECDS) Theory",
+      "authors": "Yuxuan Zhang, Lijun Jia",
+      "category": "q-bio.TO",
+      "published": "2026-01-14",
+      "summary": "Malignant tumors are defined by extraordinarily intricate pathogenic mechanisms, yet classical oncological theories remain fragmented in an archipelagic state-lacking a unifying framework to integrate the processes of tumor initiation, progression, metastasis, and therapeutic resistance. This theoretical disjuncture constrains the efficacy of the confront-and-eradicate paradigm, culminating in limited therapeutic breakthroughs, recurrent drug resistance, and substantial host toxicity. We herein ...",
+      "relevance_reasons": [],
+      "url": "http://arxiv.org/abs/2601.09767v1",
+      "relevance_score": 1
+    }
+  ]
+}

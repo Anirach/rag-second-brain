@@ -1,0 +1,565 @@
+{
+  "name": "Enhanced Multi-Agent Research with Links and References",
+  "nodes": [
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "researchTopic",
+              "value": "Last 7 days Update on  🎯 Research Interest Areas (17 topics):  🤖 Artificial Intelligence & Machine Learning:  • artificial intelligence • machine learning • deep learning • transformer architectures • neural networks • AI engineering 💬 Natural Language Processing:  • natural language processing • large language models • AI applications in education 👁️ Computer Vision:  • computer vision 🧬 Longevity & Healthcare:  • longevity research • healthcare AI • biomedical AI • digital health • personalized medicine • aging research • life extension",
+              "type": "string"
+            },
+            {
+              "id": "id-2",
+              "name": "recipientEmail",
+              "value": "anirach.m@fitm.kmutnb.ac.th",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "483501cd-8296-4396-badd-4fe4b72185ba",
+      "name": "Workflow Configuration",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        720,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $('Workflow Configuration').first().json.researchTopic }}",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "=You are an orchestrator that coordinates specialized AI agents to research topics, fact-check findings, write reports, and send them via email.\n\nYour task is to:\n1. Call the Research Agent Tool to gather recent, credible information with COMPLETE URLs\n2. Call the Fact-Check Agent Tool to verify findings with 2+ independent sources AND their URLs\n3. Call the Report Writer Agent Tool to create a report with inline citations and a dedicated References section\n4. Call the HTML Editor Agent Tool to format with CLICKABLE href links and proper References section\n5. Call the Gmail Send Tool to send the HTML report to the recipient\n6. Return ONLY the final result confirming the email was sent\n\nEnsure ALL stages capture and preserve source URLs for the final References section."
+        }
+      },
+      "id": "44502d20-916f-46cf-b1e0-38db20be0c90",
+      "name": "Orchestrator Agent",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        1168,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "id",
+          "value": "gpt-4.1-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "id": "d3841e3c-0598-449d-90ad-ac8cbb324bd0",
+      "name": "OpenAI GPT-4.1-mini (Orchestrator)",
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        448,
+        224
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "9n64bDdi7oMbwoym",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "toolDescription": "Gathers recent, credible information with COMPLETE source URLs for href links",
+        "text": "={{ $fromAI(\"topic\", \"The research topic to investigate\", \"string\") }}",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "=You are a research specialist focused on gathering recent, credible information WITH COMPLETE SOURCE URLs.\n\nYour task is to:\n1. Research the provided topic thoroughly for the Last 7 days from today\n2. Focus on credible sources (academic papers, reputable news outlets, official reports, industry publications)\n3. For EVERY finding, you MUST include the COMPLETE URL (not just domain name)\n4. Gather key facts, statistics, trends, and expert opinions\n5. CRITICAL: Capture the full source URL for each piece of information\n6. Return structured research findings with COMPLETE URLs for each source\n\nExample format:\n- Fact: \"Stanford developed AI that predicts diseases from sleep patterns\"\n- URL: \"https://www.sciencedaily.com/releases/2026/01/260109023114.htm\"\n- Date: \"January 9, 2026\"\n\nEnsure every single finding has its complete, clickable source URL."
+        }
+      },
+      "id": "1a170a89-0bdc-418f-b929-1929f0625c66",
+      "name": "Research Agent Tool",
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 3,
+      "position": [
+        576,
+        224
+      ]
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "id",
+          "value": "gpt-4.1-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "id": "9385dde1-6fde-404b-8234-7fd5c0f644de",
+      "name": "OpenAI GPT-4.1-mini (Research)",
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        592,
+        432
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "9n64bDdi7oMbwoym",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "toolDescription": "Verifies facts with 2+ independent sources AND preserves all source URLs",
+        "text": "={{ $fromAI(\"researchFindings\", \"Research findings with URLs to fact-check\", \"json\") }}",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "=You are a fact-checking specialist with rigorous verification standards.\n\nYour task is to:\n1. Review the provided research findings with their URLs\n2. Verify each fact by checking if it appears in at least TWO independent sources\n3. Mark facts as \"verified\" ONLY if they meet the 2+ source requirement\n4. Mark facts as \"unverified\" if they appear in fewer than 2 sources\n5. PRESERVE ALL SOURCE URLs for verified facts\n6. For verified facts, provide ALL confirming source URLs\n7. Return structured fact-check results with verification status and COMPLETE URLs\n\nCRITICAL: Keep all URLs intact for the References section. Never lose source URLs during fact-checking."
+        }
+      },
+      "id": "817e224e-7063-4f6c-bdf9-afe2e0ef923e",
+      "name": "Fact-Check Agent Tool",
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 3,
+      "position": [
+        864,
+        224
+      ]
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "id",
+          "value": "gpt-4.1-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "id": "a7045393-d8be-435b-aa0c-393126c2db30",
+      "name": "OpenAI GPT-4.1-mini (Fact-Check)",
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        864,
+        432
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "9n64bDdi7oMbwoym",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "toolDescription": "Writes report with inline citations and dedicated References section",
+        "text": "={{ $fromAI(\"verifiedFindings\", \"Verified research findings with URLs\", \"json\") }}",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "=You are a professional report writer specializing in academic-style reports with proper citations.\n\nYour task is to:\n1. Write a clear, well-organized report under 3,000 words from verified findings\n2. Structure the report with:\n   - Executive Summary\n   - Key Findings (organized by theme with inline citations like [1], [2])\n   - Analysis and Insights\n   - Conclusion\n   - **REFERENCES** (numbered list with full citations and URLs)\n3. Use inline citation numbers [1], [2], [3] throughout the text\n4. Create a dedicated REFERENCES section at the end with:\n   [1] Source Title. Institution. Date. URL\n   [2] Source Title. Institution. Date. URL\n5. Maintain all source URLs for the References section\n6. Return the complete report with inline citations and References section\n\nEXAMPLE:\n\"Stanford developed breakthrough AI technology [1] that shows promise for healthcare applications [2].\"\n\nREFERENCES:\n[1] Stanford's AI spots hidden disease warnings. ScienceDaily. Jan 9, 2026. https://www.sciencedaily.com/releases/2026/01/260109023114.htm\n[2] AI model predicts disease risk while you sleep. Stanford Report. Jan 2026. https://news.stanford.edu/stories/2026/01/ai-model-sleep-disease-risk"
+        }
+      },
+      "id": "9c166909-1053-4ef2-bf8e-65dc8d78caf7",
+      "name": "Report Writer Agent Tool",
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 3,
+      "position": [
+        1152,
+        224
+      ]
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "id",
+          "value": "gpt-4.1-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "id": "c22c721a-cad7-472b-ba08-c9d05d3b1bf4",
+      "name": "OpenAI GPT-4.1-mini (Report Writer)",
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        1152,
+        432
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "9n64bDdi7oMbwoym",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "toolDescription": "Formats report as professional HTML with CLICKABLE href links and References section",
+        "text": "={{ $fromAI(\"reportText\", \"Report with inline citations and References section\", \"string\") }}",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "=You are an HTML editor specializing in professional email formatting with CLICKABLE LINKS.\n\nYour task is to:\n1. Convert the text report to professional HTML\n2. CRITICAL: Convert ALL URLs in the References section to CLICKABLE href links\n3. Format the References section with proper styling\n4. Use professional styling:\n   - Modern fonts (Arial, Helvetica, sans-serif)\n   - Proper heading hierarchy (h1, h2, h3)\n   - Professional colors (#2E86AB for headings, #333 for text)\n   - Proper spacing and line heights\n5. Make inline citations clickable links to the References section\n6. Style the References section prominently\n\nHTML EXAMPLE for References:\n```html\n<h2 style=\"color: #2E86AB; margin-top: 30px; border-bottom: 2px solid #2E86AB;\">References</h2>\n<ol style=\"line-height: 1.8;\">\n<li><strong>Stanford's AI spots hidden disease warnings.</strong> ScienceDaily. Jan 9, 2026. \n<a href=\"https://www.sciencedaily.com/releases/2026/01/260109023114.htm\" style=\"color: #2E86AB; text-decoration: underline;\">View Source</a></li>\n<li><strong>AI model predicts disease risk.</strong> Stanford Report. Jan 2026. \n<a href=\"https://news.stanford.edu/stories/2026/01/ai-model-sleep-disease-risk\" style=\"color: #2E86AB; text-decoration: underline;\">View Source</a></li>\n</ol>\n```\n\nEnsure ALL URLs become clickable href links with \"View Source\" text."
+        }
+      },
+      "id": "e9a486cb-f69f-4fad-9378-11e615349066",
+      "name": "HTML Editor Agent Tool",
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 3,
+      "position": [
+        1440,
+        224
+      ]
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "id",
+          "value": "gpt-4.1-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "id": "84af2825-7e00-4293-bb21-0ac224a22195",
+      "name": "OpenAI GPT-4.1-mini (HTML Editor)",
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        1440,
+        432
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "9n64bDdi7oMbwoym",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "schemaType": "manual",
+        "inputSchema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"Status of the workflow execution\"\n    },\n    \"emailSent\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the email was successfully sent\"\n    },\n    \"summary\": {\n      \"type\": \"string\",\n      \"description\": \"Brief summary of what was accomplished\"\n    },\n    \"sourcesCount\": {\n      \"type\": \"number\",\n      \"description\": \"Number of sources included in References\"\n    }\n  }\n}"
+      },
+      "id": "de996ec0-0f75-43ba-b933-7058d7cd1688",
+      "name": "Orchestrator Output Parser",
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        1904,
+        224
+      ]
+    },
+    {
+      "parameters": {
+        "schemaType": "manual",
+        "inputSchema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"findings\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"fact\": {\n            \"type\": \"string\",\n            \"description\": \"The research finding or fact\"\n          },\n          \"source\": {\n            \"type\": \"string\",\n            \"description\": \"Source name or publication\"\n          },\n          \"url\": {\n            \"type\": \"string\",\n            \"description\": \"COMPLETE URL to the specific article\"\n          },\n          \"date\": {\n            \"type\": \"string\",\n            \"description\": \"Date of publication\"\n          },\n          \"institution\": {\n            \"type\": \"string\",\n            \"description\": \"Research institution or organization\"\n          }\n        }\n      }\n    }\n  }\n}"
+      },
+      "id": "4c0a05b5-8a91-40a4-8719-1ee605044bb5",
+      "name": "Research Output Parser",
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        736,
+        432
+      ]
+    },
+    {
+      "parameters": {
+        "schemaType": "manual",
+        "inputSchema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"verifiedFacts\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"fact\": {\n            \"type\": \"string\",\n            \"description\": \"The verified fact\"\n          },\n          \"verified\": {\n            \"type\": \"boolean\",\n            \"description\": \"Whether the fact is verified (appears in 2+ sources)\"\n          },\n          \"sources\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"name\": {\n                  \"type\": \"string\",\n                  \"description\": \"Source name\"\n                },\n                \"url\": {\n                  \"type\": \"string\",\n                  \"description\": \"Complete URL to source\"\n                },\n                \"date\": {\n                  \"type\": \"string\",\n                  \"description\": \"Publication date\"\n                }\n              }\n            },\n            \"description\": \"List of sources with URLs that confirm this fact\"\n          }\n        }\n      }\n    }\n  }\n}"
+      },
+      "id": "f510827d-0fd4-4840-bea9-46c02f4169df",
+      "name": "Fact-Check Output Parser",
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        1024,
+        432
+      ]
+    },
+    {
+      "parameters": {
+        "schemaType": "manual",
+        "inputSchema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"report\": {\n      \"type\": \"string\",\n      \"description\": \"Complete report with inline citations and References section\"\n    },\n    \"wordCount\": {\n      \"type\": \"number\",\n      \"description\": \"Word count of the report\"\n    },\n    \"referencesCount\": {\n      \"type\": \"number\",\n      \"description\": \"Number of references included\"\n    },\n    \"hasReferencesSection\": {\n      \"type\": \"boolean\",\n      \"description\": \"Confirms References section is included\"\n    }\n  }\n}"
+      },
+      "id": "064dee94-685a-4941-9ece-402d62bd75c6",
+      "name": "Report Writer Output Parser",
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        1312,
+        432
+      ]
+    },
+    {
+      "parameters": {
+        "schemaType": "manual",
+        "inputSchema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"htmlContent\": {\n      \"type\": \"string\",\n      \"description\": \"Complete HTML with clickable href links and styled References section\"\n    },\n    \"linkCount\": {\n      \"type\": \"number\",\n      \"description\": \"Number of clickable links created\"\n    },\n    \"hasClickableReferences\": {\n      \"type\": \"boolean\",\n      \"description\": \"Confirms all references have clickable links\"\n    }\n  }\n}"
+      },
+      "id": "8a22d092-a7d6-4a0d-a89a-76e639db6702",
+      "name": "HTML Editor Output Parser",
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        1584,
+        432
+      ]
+    },
+    {
+      "parameters": {
+        "descriptionType": "manual",
+        "toolDescription": "Sends the HTML report with clickable references via Gmail",
+        "sendTo": "={{ $json.recipientEmail }}",
+        "subject": "📊 Weekly AI & Longevity Research Update - {{ new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }) }}",
+        "message": "={{ $fromAI(\"htmlContent\", \"HTML content with clickable references\", \"string\") }}",
+        "options": {}
+      },
+      "id": "076ea0a1-af31-4e04-84dc-05e199957d94",
+      "name": "Gmail Send Tool",
+      "type": "n8n-nodes-base.gmailTool",
+      "typeVersion": 2.2,
+      "position": [
+        1728,
+        224
+      ],
+      "webhookId": "ba727ebe-a2fe-4823-b7f0-10fe221d8165",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "7WHqjXNY2dD6J5it",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "daysInterval": 7
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        368,
+        0
+      ],
+      "id": "54e559ce-2be1-4c6e-b6b7-be6a7247929f",
+      "name": "Schedule Trigger"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Workflow Configuration": {
+      "main": [
+        [
+          {
+            "node": "Orchestrator Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI GPT-4.1-mini (Orchestrator)": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Orchestrator Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Orchestrator Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Orchestrator Agent",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Research Agent Tool": {
+      "ai_tool": [
+        [
+          {
+            "node": "Orchestrator Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fact-Check Agent Tool": {
+      "ai_tool": [
+        [
+          {
+            "node": "Orchestrator Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Report Writer Agent Tool": {
+      "ai_tool": [
+        [
+          {
+            "node": "Orchestrator Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTML Editor Agent Tool": {
+      "ai_tool": [
+        [
+          {
+            "node": "Orchestrator Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail Send Tool": {
+      "ai_tool": [
+        [
+          {
+            "node": "Orchestrator Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI GPT-4.1-mini (Research)": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Research Agent Tool",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Research Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Research Agent Tool",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI GPT-4.1-mini (Fact-Check)": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Fact-Check Agent Tool",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fact-Check Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Fact-Check Agent Tool",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI GPT-4.1-mini (Report Writer)": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Report Writer Agent Tool",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Report Writer Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Report Writer Agent Tool",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI GPT-4.1-mini (HTML Editor)": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "HTML Editor Agent Tool",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTML Editor Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "HTML Editor Agent Tool",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Workflow Configuration",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "versionId": "enhanced-with-refs-v1",
+  "meta": {
+    "instanceId": "781c44eee3fdff4c2c786723494d7db24e457afee6e77c3b7f3a0147361d0306"
+  },
+  "id": "enhanced-research-workflow",
+  "tags": ["research", "references", "href-links", "enhanced"]
+}

@@ -2,7 +2,7 @@
 
 > **Security:** Only load in main session with Anirach. Never in group chats or shared contexts.
 
-*Last reviewed: 2026-02-22*
+*Last reviewed: 2026-02-24*
 
 ---
 
@@ -128,7 +128,7 @@ orchestrator, code-review, pr-agent, testing, docs, ux-designer, devops, db-spec
 
 **Cron note:** Cron jobs targeting "Anirach" fail — use chat_id `7579913696` or `delivery.mode: "announce"`.
 
-### Installed Skills (68 total)
+### Installed Skills (90 total, updated 2026-02-24)
 Research, Analysis, Documents, Content, Coding, DevOps, Education, Media, Automation, Health, Security — full list in Obsidian vault.
 
 ---
@@ -279,7 +279,14 @@ curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendDocument" \
 ---
 
 ## 💡 Lessons Learned
+- **2026-02-24:** Arscontexta's /remember command can inspire session_remember.py for better session memory management
+- **[2026-02-24]** HA database VPN fix: wait_for_vpn() must check 3 things before any query: (1) ppp0 interface is up, (2) route to 192.168.88.11 goes via ppp0 not eth0, (3) TCP port 30503 is actually reachable. VPN wait timeout should be 40s + 2s stabilization delay. Without this, traffic routes via eth0 and psql fails silently.
+- **2026-02-23:** Always check cron delivery settings when creating new jobs to avoid notification spam
+- **[2026-02-23]** Anirach loves the DOCX style from Arthur_Memory_System_v1.docx — use this as the default style for all future DOCX reports. Built from scratch with python-docx: Navy #1B3A5C H1 16pt bold, Blue #2A6496 H2 13pt bold, DarkGray #2C3E50 H3 12pt bold, Arial throughout, body 11pt justified #333333, Page X of Y footer, navy-header tables with alternating row shading #F8F9FA, code blocks with light blue background, cover page with metadata table and accent bars.
+- **2026-02-23:** Ensure sandbox Docker user settings match workspace file ownership to enable proper write access
+- **2026-02-23:** De-identify all HA query results with identifiable data before entering LLM context to maintain privacy
 - **2026-02-22:** Always spawn sub-agents for tasks longer than 30 seconds to prevent failures
+- **[2026-02-22]** Heartbeat responses should be HEARTBEAT_OK (silent) unless something needs attention. No status reports when nothing happened. Anirach explicitly requested this on 2026-02-22.
 - **[2026-02-22]** Sandbox sub-agents cannot run openclaw CLI commands (cron add, gateway restart, etc). Always handle those in main agent after sub-agent completes file creation.
 - **2026-02-22:** Ensure sandbox Docker user matches workspace file ownership to enable write access
 - **2026-02-22:** De-identify all HA query results with identifiable data before entering LLM context

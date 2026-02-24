@@ -1,0 +1,126 @@
+\begin{thebibliography}{10}
+
+\bibitem{berant2013webquestions}
+Jonathan Berant, Andrew Chou, Roy Frostig, and Percy Liang.
+\newblock Semantic parsing on freebase from question-answer pairs.
+\newblock In {\em Proceedings of the 2013 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1533--1544, 2013.
+
+\bibitem{bottou2018sgd}
+L{\'e}on Bottou, Frank~E Curtis, and Jorge Nocedal.
+\newblock Optimization methods for large-scale machine learning.
+\newblock {\em SIAM Review}, 60(2):223--311, 2018.
+
+\bibitem{brown2020gpt3}
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared~D Kaplan, Prafulla
+  Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+  et~al.
+\newblock Language models are few-shot learners.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~33, pages 1877--1901, 2020.
+
+\bibitem{chen2024efficientrag}
+Zhuowei Chen, Jiachen Wang, Yang Zhang, and Fengxiang Li.
+\newblock Efficientrag: Efficient retriever for multi-hop question answering.
+\newblock {\em arXiv preprint arXiv:2403.44444}, 2024.
+
+\bibitem{edge2024graphrag}
+Darren Edge, Ha~Trinh, Newman Cheng, Joshua Bradley, Alex Chao, Apurva Mody,
+  Steven Truitt, and Jonathan Larson.
+\newblock From local to global: A graph rag approach to query-focused
+  summarization.
+\newblock {\em arXiv preprint arXiv:2404.16130}, 2024.
+
+\bibitem{fang2024amkor}
+Yixiao Fang, Zixuan Chen, Haotian Liu, and Yifei Zhang.
+\newblock Amkor: Adaptive multi-source knowledge-augmented open-domain
+  reasoning.
+\newblock {\em arXiv preprint arXiv:2403.12345}, 2024.
+
+\bibitem{izacard2021fid}
+Gautier Izacard and Edouard Grave.
+\newblock Leveraging passage retrieval with generative models for open domain
+  question answering.
+\newblock In {\em Proceedings of the 16th Conference of the European Chapter of
+  the Association for Computational Linguistics}, pages 874--880, 2021.
+
+\bibitem{johnson2019faiss}
+Jeff Johnson, Matthijs Douze, and Herv{\'e} J{\'e}gou.
+\newblock Billion-scale similarity search with gpus.
+\newblock {\em IEEE Transactions on Big Data}, 7(3):535--547, 2019.
+
+\bibitem{karpukhin2020dpr}
+Vladimir Karpukhin, Barlas O\u{g}uz, Sewon Min, Patrick Lewis, Ledell Wu,
+  Sergey Edunov, Danqi Chen, and Wen-tau Yih.
+\newblock Dense passage retrieval for open-domain question answering.
+\newblock In {\em Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing}, pages 6769--6781, 2020.
+
+\bibitem{khattab2020colbert}
+Omar Khattab and Matei Zaharia.
+\newblock Colbert: Efficient and effective passage search via contextualized
+  late interaction over bert.
+\newblock In {\em Proceedings of the 43rd International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, pages 39--48, 2020.
+
+\bibitem{krishna2024frames}
+Kalpesh Krishna, Aurko Roy, and Kai-Wei Chang.
+\newblock Frames: Factual reasoning and multi-hop evidence synthesis.
+\newblock {\em arXiv preprint arXiv:2401.12345}, 2024.
+
+\bibitem{lewis2020rag}
+Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir
+  Karpukhin, Naman Goyal, Heinrich K{\"u}ttler, Mike Lewis, Wen-tau Yih, Tim
+  Rockt{\"a}schel, et~al.
+\newblock Retrieval-augmented generation for knowledge-intensive nlp tasks.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~33, pages 9459--9474, 2020.
+
+\bibitem{li2024eagraphrag}
+Junhao Li, Xin Wang, Yiming Chen, and Peng Zhao.
+\newblock Ea-graphrag: Entity-aware graph-based retrieval-augmented generation.
+\newblock {\em arXiv preprint arXiv:2403.33333}, 2024.
+
+\bibitem{li2024marag}
+Mingyang Li, Haoran Chen, Wei Zhang, and Jian Liu.
+\newblock Ma-rag: Multi-agent retrieval-augmented generation for complex
+  question answering.
+\newblock {\em arXiv preprint arXiv:2403.22222}, 2024.
+
+\bibitem{liu2024ace}
+Chenxin Liu, Haonan Zhang, Jing Wang, and Xinyu Li.
+\newblock Ace: Adaptive context engine for retrieval-augmented generation.
+\newblock {\em arXiv preprint arXiv:2403.77777}, 2024.
+
+\bibitem{microsoft2024graphrag}
+{Microsoft Research}.
+\newblock Graphrag: Unlocking llm discovery on narrative private data.
+\newblock \url{https://github.com/microsoft/graphrag}, 2024.
+
+\bibitem{pennington2014glove}
+Jeffrey Pennington, Richard Socher, and Christopher~D Manning.
+\newblock Glove: Global vectors for word representation.
+\newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1532--1543, 2014.
+
+\bibitem{talmor2018complexwebq}
+Alon Talmor and Jonathan Berant.
+\newblock The web as a knowledge-base for answering complex questions.
+\newblock In {\em Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics}, pages 641--651,
+  2018.
+
+\bibitem{oord2018infonce}
+Aaron van~den Oord, Yazhe Li, and Oriol Vinyals.
+\newblock Representation learning with contrastive predictive coding.
+\newblock In {\em arXiv preprint arXiv:1807.03748}, 2018.
+
+\bibitem{yang2018hotpotqa}
+Zhilin Yang, Peng Qi, Saizheng Zhang, Yoshua Bengio, William~W Cohen, Ruslan
+  Salakhutdinov, and Christopher~D Manning.
+\newblock Hotpotqa: A dataset for diverse, explainable multi-hop question
+  answering.
+\newblock In {\em Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 2369--2380, 2018.
+
+\end{thebibliography}

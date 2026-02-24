@@ -66,14 +66,26 @@ def is_pure_aggregate(sql):
     return has_agg and not has_star and not selects_sensitive
 
 
-def wait_for_vpn(timeout=15):
-    """Wait for ppp0 interface to come up."""
+def wait_for_vpn(timeout=30):
+    """Wait for ppp0 interface AND route to DB subnet to be active."""
+    import socket
     start = time.time()
     while time.time() - start < timeout:
-        result = subprocess.run(['ip', 'link', 'show', 'ppp0'], 
-                              capture_output=True, text=True)
-        if result.returncode == 0:
-            return True
+        # Check ppp0 exists
+        r1 = subprocess.run(['ip', 'link', 'show', 'ppp0'], capture_output=True, text=True)
+        if r1.returncode != 0:
+            time.sleep(1)
+            continue
+        # Check route to DB host goes via ppp0 (not eth0)
+        r2 = subprocess.run(['ip', 'route', 'get', DB_HOST], capture_output=True, text=True)
+        if 'ppp0' in r2.stdout:
+            # Also verify TCP port is reachable
+            try:
+                s = socket.create_connection((DB_HOST, int(DB_PORT)), timeout=3)
+                s.close()
+                return True
+            except (socket.timeout, ConnectionRefusedError, OSError):
+                pass
         time.sleep(1)
     return False
 
@@ -90,12 +102,12 @@ def run_query(sql, timeout=30):
             stdin=subprocess.DEVNULL
         )
         
-        # Wait for VPN
-        if not wait_for_vpn(timeout=15):
-            raise RuntimeError("VPN failed to connect (ppp0 not up after 15s)")
+        # Wait for VPN + route + TCP reachability
+        if not wait_for_vpn(timeout=40):
+            raise RuntimeError("VPN failed to connect (ppp0 + route + TCP not ready after 40s)")
         
-        # Small delay for route stabilization
-        time.sleep(1)
+        # Extra stabilization delay
+        time.sleep(2)
         
         # Run query
         env = os.environ.copy()

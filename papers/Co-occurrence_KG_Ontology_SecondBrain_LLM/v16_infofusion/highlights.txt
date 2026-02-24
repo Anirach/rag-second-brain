@@ -1,0 +1,7 @@
+Highlights for Information Fusion submission:
+
+- Multi-source RAG fuses dense, co-occurrence, and KG retrieval for PKM
+- Learned sigmoid gating achieves 18.4% improvement over RRF baselines
+- Ontological reasoning via OWL materialization enhances KG traversal
+- Validated on HotpotQA and MuSiQue with statistical significance
+- Framework enables personalized Second Brain knowledge management

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Paper Production Workflow v2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.4;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 1in;
+            color: #333333;
+            background: white;
+        }
+        
+        /* Cover page styles */
+        .cover-page {
+            text-align: center;
+            page-break-after: always;
+            padding-top: 2in;
+        }
+        
+        .cover-title {
+            font-size: 24pt;
+            font-weight: bold;
+            color: #1B3A5C;
+            margin-bottom: 16px;
+        }
+        
+        .cover-subtitle {
+            font-size: 18pt;
+            color: #2A6496;
+            margin-bottom: 16px;
+        }
+        
+        .cover-description {
+            font-size: 15pt;
+            color: #666666;
+            margin-bottom: 48px;
+        }
+        
+        .cover-divider {
+            font-size: 12pt;
+            color: #E67E22;
+            margin-bottom: 24px;
+        }
+        
+        .cover-metadata {
+            font-size: 11pt;
+            color: #666666;
+            line-height: 1.6;
+        }
+        
+        /* Heading styles */
+        .heading1 {
+            font-size: 16pt;
+            font-weight: bold;
+            color: #1B3A5C;
+            border-bottom: 1px solid #1B3A5C;
+            margin-top: 18pt;
+            margin-bottom: 8pt;
+            padding-bottom: 4pt;
+        }
+        
+        .heading2 {
+            font-size: 13pt;
+            font-weight: bold;
+            color: #2A6496;
+            margin-top: 12pt;
+            margin-bottom: 6pt;
+        }
+        
+        .heading3 {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #2C3E50;
+            margin-top: 8pt;
+            margin-bottom: 4pt;
+        }
+        
+        /* Body text */
+        .body-text {
+            font-size: 11pt;
+            text-align: justify;
+            margin-bottom: 6pt;
+            color: #333333;
+        }
+        
+        /* Bullet lists */
+        .bullet-list {
+            margin-left: 0.5in;
+            margin-bottom: 6pt;
+        }
+        
+        .bullet-item {
+            font-size: 11pt;
+            margin-bottom: 3pt;
+            color: #333333;
+        }
+        
+        /* Numbered lists */
+        .numbered-list {
+            margin-left: 0.5in;
+            margin-bottom: 6pt;
+        }
+        
+        .numbered-item {
+            font-size: 11pt;
+            margin-bottom: 3pt;
+            color: #333333;
+        }
+        
+        /* Tables */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12pt 0;
+            font-size: 10pt;
+        }
+        
+        .data-table th {
+            background-color: #1B3A5C;
+            color: white;
+            font-weight: bold;
+            padding: 8pt;
+            border: 1px solid #CCCCCC;
+            text-align: center;
+        }
+        
+        .data-table td {
+            padding: 6pt;
+            border: 1px solid #CCCCCC;
+            text-align: left;
+        }
+        
+        .data-table tr:nth-child(even) td {
+            background-color: #F8F9FA;
+        }
+        
+        /* Page break */
+        .page-break {
+            page-break-before: always;
+        }
+        
+        /* Footer simulation */
+        .footer-text {
+            text-align: center;
+            font-size: 9pt;
+            color: #666666;
+            margin-top: 2in;
+        }
+        
+        /* Print styles */
+        @media print {
+            body {
+                margin: 1in;
+                font-size: 11pt;
+            }
+            .page-break {
+                page-break-before: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Cover Page -->
+    <div class="cover-page">
+        <div style="margin-bottom: 60px;"></div>
+        <div style="margin-bottom: 60px;"></div>
+        <div style="margin-bottom: 60px;"></div>
+        
+        <div class="cover-title">Academic Paper Production Workflow v2</div>
+        <div class="cover-subtitle">From Idea to Submission in 7 Days</div>
+        <div class="cover-description">Lessons Learned from 23 Versions of MKG-RAG Second Brain Paper</div>
+        
+        <div class="cover-divider">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+        
+        <div class="cover-metadata">
+            Prepared by: Arthur AI Agent System<br>
+            Date: February 17, 2026<br>
+            Version 2.0 | Internal Guide
+        </div>
+    </div>
+    
+    <!-- Content -->
+    <div class="page-break"></div>
+    
+    <h1 class="heading1">1. Executive Summary</h1>
+    <p class="body-text">This workflow replaces the ad-hoc process that produced 23 versions over 3 weeks. Based on lessons from the MKG-RAG Second Brain paper journey, it targets 3 drafts in 7 days with higher novelty and fewer iterations.</p>
+    <p class="body-text">Key improvements: experiments-first approach, upfront novelty validation, venue-first planning, batched reviews, and quality gates from day 1.</p>
+    
+    <h1 class="heading1">2. Problems with the Old Workflow</h1>
+    
+    <h2 class="heading2">2.1 Experiments Came Too Late</h2>
+    <p class="body-text">v1-v9 built on proxy/synthetic claims. Real experiments (DDXPlus) didn't arrive until v15-v17. Papers without real results get destroyed in review.</p>
+    
+    <h2 class="heading2">2.2 No Novelty Validation Upfront</h2>
+    <p class="body-text">"Second Brain" was marketing until v23 when grounded in Extended Mind theory. Reviewers see through ungrounded framing immediately.</p>
+    
+    <h2 class="heading2">2.3 Quality System Was Reactive</h2>
+    <p class="body-text">QUALITY_LOCKS and 3-agent review gate created AFTER the v9 crisis (score dropped from 8.5 to 4.4). Should have been there from the start.</p>
+    
+    <h2 class="heading2">2.4 Too Many Small Iterations</h2>
+    <p class="body-text">23 versions, most were incremental patches. Each review-fix cycle costs time and introduces regression risk.</p>
+    
+    <h2 class="heading2">2.5 Venue Selected Late</h2>
+    <p class="body-text">Started targeting Information Fusion, pivoted to AIiH. Format conversion (IEEE to LNCS) wasted multiple versions.</p>
+    
+    <h2 class="heading2">2.6 Theoretical Grounding Added Last</h2>
+    <p class="body-text">Clark & Chalmers Extended Mind, Hutchins Distributed Cognition added in final versions. Should anchor novelty claims from the beginning.</p>
+    
+    <h1 class="heading1">3. The New Workflow: 3 Phases, 7 Days</h1>
+    
+    <h2 class="heading2">3.1 Phase 1: Foundation (Day 1-2)</h2>
+    <p class="body-text">Tasks:</p>
+    <ul class="bullet-list">
+        <li class="bullet-item">Pick target venue (format, page limit, scope, deadline)</li>
+        <li class="bullet-item">Literature gap analysis: define novel contribution in ONE sentence</li>
+        <li class="bullet-item">Run "Does this exist?" check (Semantic Scholar, Google Scholar, arXiv)</li>
+        <li class="bullet-item">Build baseline experiments with real data</li>
+        <li class="bullet-item">Design ablation-ready architecture (each component removable)</li>
+        <li class="bullet-item">Create comparison table: what existing methods do vs what yours adds</li>
+        <li class="bullet-item">Anchor method in existing theory (not just a name — cite cognitive science, information theory, etc.)</li>
+    </ul>
+    
+    <p class="body-text">Deliverables table:</p>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Deliverable</th>
+                <th>Description</th>
+                <th>Owner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Venue Brief</td>
+                <td>Target venue, format, page limit, scope</td>
+                <td>Journal Scout</td>
+            </tr>
+            <tr>
+                <td>Novelty Statement</td>
+                <td>One sentence, grounded in theory</td>
+                <td>Paper Architect</td>
+            </tr>
+            <tr>
+                <td>Literature Gap Table</td>
+                <td>Existing methods vs yours</td>
+                <td>Literature Lead</td>
+            </tr>
+            <tr>
+                <td>Baseline Results</td>
+                <td>Real experiments, real data</td>
+                <td>Data Analyst</td>
+            </tr>
+            <tr>
+                <td>Ablation Design</td>
+                <td>Component removal plan</td>
+                <td>Methodology Expert</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2 class="heading2">3.2 Phase 2: Full Draft (Day 3-5)</h2>
+    <p class="body-text">Tasks:</p>
+    <ul class="bullet-list">
+        <li class="bullet-item">Write complete paper with real results (not placeholders)</li>
+        <li class="bullet-item">All sections: intro, related work, method, experiments, discussion, conclusion</li>
+        <li class="bullet-item">Include all tables, figures, equations</li>
+        <li class="bullet-item">Apply venue format from the start (e.g., llncs.cls, IEEE template)</li>
+        <li class="bullet-item">3-agent parallel review (peer-reviewer, methodology-expert, technical-writer)</li>
+        <li class="bullet-item">Batch ALL fixes into single revision (Draft 2)</li>
+    </ul>
+    
+    <p class="body-text">Review gate table:</p>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Reviewer</th>
+                <th>Focus</th>
+                <th>Pass Criteria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Peer Reviewer</td>
+                <td>Baselines, novelty, claims vs evidence</td>
+                <td>No unsupported claims</td>
+            </tr>
+            <tr>
+                <td>Methodology Expert</td>
+                <td>Statistical rigor, reproducibility</td>
+                <td>Proper CIs, tests, caveats</td>
+            </tr>
+            <tr>
+                <td>Technical Writer</td>
+                <td>Clarity, flow, readability</td>
+                <td>Score ≥ 4.0/5.0</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <p class="body-text">Rule: ALL THREE must pass. No exceptions. No "ship it with one approval."</p>
+    
+    <h2 class="heading2">3.3 Phase 3: Polish & Submit (Day 6-7)</h2>
+    <p class="body-text">Tasks:</p>
+    <ul class="bullet-list">
+        <li class="bullet-item">Apply all Draft 2 review fixes</li>
+        <li class="bullet-item">Final 3-agent review (should be minor issues only)</li>
+        <li class="bullet-item">Format compliance check (page count, references, anonymization)</li>
+        <li class="bullet-item">Generate supplementary materials if needed</li>
+        <li class="bullet-item">Submit</li>
+    </ul>
+    
+    <h1 class="heading1">4. Quality Gates (Active from Day 1)</h1>
+    
+    <h3 class="heading3">4.1 QUALITY_LOCKS</h3>
+    <p class="body-text">Lock any element praised by reviewers. Never regress.</p>
+    
+    <h3 class="heading3">4.2 POSITIVE_FEEDBACK tracker</h3>
+    <p class="body-text">Cumulative praise log across review rounds.</p>
+    
+    <h3 class="heading3">4.3 Three-Agent Review Gate</h3>
+    <p class="body-text">Every draft reviewed by 3 agents in parallel. Unanimous approval required.</p>
+    
+    <h3 class="heading3">4.4 Novelty Checkpoint</h3>
+    <p class="body-text">Before Phase 2, verify the one-sentence novelty claim still holds after literature review.</p>
+    
+    <h3 class="heading3">4.5 Claims-Evidence Alignment</h3>
+    <p class="body-text">Every claim in the paper must map to a specific experiment, table, or citation. No orphan claims.</p>
+    
+    <h1 class="heading1">5. Consensus Checkpoints</h1>
+    
+    <p class="body-text">The team operates on a "consult before act" principle. No agent proceeds to the next phase or major decision without consulting relevant team members first.</p>
+    
+    <h2 class="heading2">5.1 Phase 1: Novelty Summit (Day 1)</h2>
+    <p class="body-text">Before any writing begins, Literature Lead + Journal Scout + Paper Architect hold a Novelty Summit:</p>
+    <ul class="bullet-list">
+        <li class="bullet-item">Literature Lead presents gap analysis findings</li>
+        <li class="bullet-item">Journal Scout presents venue fit assessment</li>
+        <li class="bullet-item">Paper Architect proposes the novelty statement</li>
+        <li class="bullet-item">ALL THREE must agree the gap is real and the venue is right</li>
+        <li class="bullet-item">If disagreement: iterate until consensus or escalate to human</li>
+    </ul>
+    
+    <h2 class="heading2">5.2 Phase 2: Cross-Consultation Gates</h2>
+    <p class="body-text">Build consultation into the drafting process, not just at the end:</p>
+    
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Gate</th>
+                <th>Before</th>
+                <th>Consultants</th>
+                <th>Must Agree On</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Experiment Design</td>
+                <td>Running experiments</td>
+                <td>Methodology Expert + Data Analyst + Peer Reviewer</td>
+                <td>Variables, baselines, metrics are sound</td>
+            </tr>
+            <tr>
+                <td>Claims Check</td>
+                <td>Writing discussion</td>
+                <td>Peer Reviewer + Paper Architect + Methodology Expert</td>
+                <td>Every claim maps to evidence</td>
+            </tr>
+            <tr>
+                <td>Ethics Screen</td>
+                <td>Finalizing method section</td>
+                <td>Ethics Reviewer + Methodology Expert</td>
+                <td>No bias, proper consent, reproducibility</td>
+            </tr>
+            <tr>
+                <td>Writing Quality</td>
+                <td>Completing each section</td>
+                <td>Technical Writer + Paper Architect</td>
+                <td>Clarity, flow, no unsupported claims</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <p class="body-text">Rule: If ANY consultant raises a blocking concern, work stops until resolved. No "I'll fix it later."</p>
+    
+    <h2 class="heading2">5.3 Phase 3: Consensus Review</h2>
+    <p class="body-text">Instead of 3 independent reviews:</p>
+    <ol class="numbered-list">
+        <li class="numbered-item">All 3 reviewers (Peer Reviewer, Methodology Expert, Technical Writer) submit independent reviews</li>
+        <li class="numbered-item">Paper Architect compiles all feedback into a single conflict-resolution document</li>
+        <li class="numbered-item">Where reviewers disagree, they discuss and reach consensus</li>
+        <li class="numbered-item">ONE unified revision plan is created (not 3 separate fix lists)</li>
+        <li class="numbered-item">Fixes applied once, reviewed once → submit</li>
+    </ol>
+    
+    <h2 class="heading2">5.4 Escalation Protocol</h2>
+    <ul class="bullet-list">
+        <li class="bullet-item"><strong>Minor disagreement (formatting, wording):</strong> Paper Architect decides</li>
+        <li class="bullet-item"><strong>Major disagreement (methodology, claims, novelty):</strong> Human (Anirach) consulted</li>
+        <li class="bullet-item"><strong>Deadlock (2+ agents can't agree after discussion):</strong> Human makes final call</li>
+    </ul>
+    
+    <p class="body-text">This prevents the old pattern where one agent's fix broke another agent's approved work.</p>
+    
+    <h1 class="heading1">6. Novelty Boosters</h1>
+    
+    <h3 class="heading3">6.1 Ablation-First Design</h3>
+    <p class="body-text">Build experiments so each component can be independently removed. Creates "unique contribution per component" — reviewers always ask for this.</p>
+    
+    <h3 class="heading3">6.2 Theoretical Grounding Early</h3>
+    <p class="body-text">Don't just name your method — anchor it in established theory from draft 1. Examples: Extended Mind (Clark & Chalmers), Distributed Cognition (Hutchins), Information Foraging Theory.</p>
+    
+    <h3 class="heading3">6.3 Comparison Table in Outline</h3>
+    <p class="body-text">Before writing, create a table of existing methods and what yours uniquely adds. If no clear gap, rethink the contribution.</p>
+    
+    <h3 class="heading3">6.4 Real-World Framing</h3>
+    <p class="body-text">Position contribution as solving a real problem, not just improving metrics. "Why does this matter to a doctor/engineer/user?"</p>
+    
+    <h3 class="heading3">6.5 Honest Limitations</h3>
+    <p class="body-text">Proactively state what your method does NOT do. Builds credibility and prevents reviewer attacks.</p>
+    
+    <h1 class="heading1">7. Agent Team Roles</h1>
+    
+    <p class="body-text">Table of all 9 agents:</p>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Agent</th>
+                <th>Phase</th>
+                <th>Role</th>
+                <th>Model</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paper Architect</td>
+                <td>All</td>
+                <td>Principal investigator, strategy</td>
+                <td>Opus</td>
+            </tr>
+            <tr>
+                <td>Literature Lead</td>
+                <td>Phase 1</td>
+                <td>Gap analysis, related work</td>
+                <td>Opus</td>
+            </tr>
+            <tr>
+                <td>Journal Scout</td>
+                <td>Phase 1</td>
+                <td>Venue selection, format requirements</td>
+                <td>Opus</td>
+            </tr>
+            <tr>
+                <td>Data Analyst</td>
+                <td>Phase 1-2</td>
+                <td>Experiments, statistics, ablations</td>
+                <td>Opus</td>
+            </tr>
+            <tr>
+                <td>Methodology Expert</td>
+                <td>Phase 2-3</td>
+                <td>Statistical rigor review</td>
+                <td>Opus</td>
+            </tr>
+            <tr>
+                <td>Technical Writer</td>
+                <td>Phase 2-3</td>
+                <td>Writing quality, clarity</td>
+                <td>Sonnet</td>
+            </tr>
+            <tr>
+                <td>Peer Reviewer</td>
+                <td>Phase 2-3</td>
+                <td>Tough conference reviewer simulation</td>
+                <td>Opus</td>
+            </tr>
+            <tr>
+                <td>Ethics Reviewer</td>
+                <td>Phase 2</td>
+                <td>Dataset ethics, bias, double-blind</td>
+                <td>Opus</td>
+            </tr>
+            <tr>
+                <td>Format Editor</td>
+                <td>Phase 3</td>
+                <td>Venue format compliance</td>
+                <td>Sonnet</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h1 class="heading1">8. Checklist: Before Submitting</h1>
+    
+    <p class="body-text">Numbered checklist:</p>
+    <ol class="numbered-list">
+        <li class="numbered-item">Novelty claim is one sentence, grounded in theory</li>
+        <li class="numbered-item">All experiments use real data (no proxies)</li>
+        <li class="numbered-item">Ablation study shows each component's unique contribution</li>
+        <li class="numbered-item">Statistical tests applied (Wilson CIs, McNemar's, etc.)</li>
+        <li class="numbered-item">External baselines included (not just your own variants)</li>
+        <li class="numbered-item">All 3 reviewers gave ACCEPT</li>
+        <li class="numbered-item">Page count within venue limit</li>
+        <li class="numbered-item">Double-blind compliance (no author names, no self-citations revealing identity)</li>
+        <li class="numbered-item">References complete and correctly formatted</li>
+        <li class="numbered-item">Supplementary materials prepared (code repo, appendix)</li>
+    </ol>
+    
+    <h1 class="heading1">9. Timeline Comparison</h1>
+    
+    <p class="body-text">Table:</p>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Aspect</th>
+                <th>Old (MKG-RAG)</th>
+                <th>New (v2 Workflow)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Duration</td>
+                <td>~21 days</td>
+                <td>7 days target</td>
+            </tr>
+            <tr>
+                <td>Versions</td>
+                <td>23</td>
+                <td>3 drafts</td>
+            </tr>
+            <tr>
+                <td>Real experiments</td>
+                <td>Added at v15</td>
+                <td>From Day 1</td>
+            </tr>
+            <tr>
+                <td>Novelty validation</td>
+                <td>v23 (last minute)</td>
+                <td>Day 1</td>
+            </tr>
+            <tr>
+                <td>Venue format</td>
+                <td>Converted mid-way</td>
+                <td>Applied from start</td>
+            </tr>
+            <tr>
+                <td>Quality gates</td>
+                <td>Added at v9 crisis</td>
+                <td>Active from Day 1</td>
+            </tr>
+            <tr>
+                <td>Review rounds</td>
+                <td>10+</td>
+                <td>2 (Phase 2 + Phase 3)</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h1 class="heading1">10. Lessons from the MKG-RAG Journey</h1>
+    
+    <p class="body-text">Bullet points:</p>
+    <ul class="bullet-list">
+        <li class="bullet-item"><strong>Honesty > Impressive Claims:</strong> Conceptual papers can be publishable without fake results</li>
+        <li class="bullet-item"><strong>Quality Locks Prevent Regression:</strong> 23 locks ensured improvements were cumulative</li>
+        <li class="bullet-item"><strong>Three Parallel Reviewers catch different issues:</strong> baselines, statistics, readability</li>
+        <li class="bullet-item"><strong>ML Baselines Beating RAG Is Okay:</strong> Frame as accuracy vs generalization trade-off</li>
+        <li class="bullet-item"><strong>Medical Datasets > General Benchmarks:</strong> Domain-specific data makes contribution tangible</li>
+        <li class="bullet-item"><strong>Verify Numbers Before Locking:</strong> Wrong numbers hurt more than vague ones</li>
+        <li class="bullet-item"><strong>Venue Selection Matters:</strong> Focused venue (AIiH) better than broad (Information Fusion)</li>
+        <li class="bullet-item"><strong>"Second Brain" Grounding:</strong> Marketing language became theoretical contribution when grounded in Extended Mind thesis</li>
+        <li class="bullet-item"><strong>Never deliver without full team review:</strong> One-agent papers get rejected</li>
+    </ul>
+    
+    <div class="footer-text">
+        Page 1 of 1 | Generated February 17, 2026
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+Table 1: Main Results on Benchmark Datasets
+Method,NQ EM,NQ F1,TriviaQA EM,HotpotQA F1,FEVER Acc,TruthfulQA
+Vanilla LLM,29.3,38.7,52.1,31.2,71.4,38.2
+RAG,41.2,52.3,65.8,42.5,79.8,51.6
+KG-RAG,43.7,54.1,67.2,47.3,82.1,55.3
+MemoryBank,42.8,53.6,66.4,45.1,80.9,53.8
+Ours (Cooc only),38.9,49.8,62.3,39.7,77.2,48.9
+Ours (Seq only),42.1,53.2,66.1,44.8,80.5,52.7
+Ours (KG only),44.2,54.8,67.9,48.1,82.8,56.1
+Ours (Cooc+Seq),44.8,55.6,68.7,47.9,82.3,55.8
+Ours (Cooc+KG),46.3,57.1,70.2,50.6,84.2,58.9
+Ours (Seq+KG),47.1,57.8,71.0,51.8,84.7,59.4
+Ours (Full),49.4,60.2,73.5,55.2,86.9,63.1
+
+Table 2: Factual Consistency Metrics
+Method,Consistency (%),Hallucination (%)
+Vanilla LLM,62.3,24.7
+RAG,74.5,16.2
+KG-RAG,78.2,13.8
+MemoryBank,76.1,15.1
+Ours (Full),80.6,9.5
+
+Table 3: Multi-hop Reasoning Accuracy by Number of Hops
+Method,1-hop,2-hop,3-hop,4-hop
+RAG,72.3,55.1,38.7,28.9
+KG-RAG,74.8,61.2,49.3,41.2
+Ours (Full),78.2,68.7,58.4,51.6
+
+Table 4: Average Gating Weights by Query Type
+Query Type,alpha (Cooc),beta (Seq),gamma (KG)
+Factual,0.18,0.22,0.60
+Semantic similarity,0.45,0.28,0.27
+Temporal,0.21,0.52,0.27
+Multi-hop reasoning,0.15,0.18,0.67
+
+Table 5: Effect of Co-occurrence Window Size
+Window Size,NQ F1,Semantic Similarity
+2,57.3,0.72
+5,60.2,0.78
+10,59.1,0.81
+20,57.8,0.76
+
+Table 6: Inference Efficiency Comparison
+Method,Latency (ms),Memory (GB)
+Vanilla LLM,127,2.1
+RAG,183,4.7
+KG-RAG,241,6.2
+Ours (Full),198,5.8
+
+Table 7: Complexity Analysis of Core Operations
+Operation,Time Complexity,Space Complexity
+Co-occurrence build,O(Dk),O(|V|^2)
+PPMI computation,O(nnz),O(nnz)
+SVD (truncated),O(|V|^2 d),O(|V| d)
+KG extraction,O(D * T_model),O(|E|)
+Graph embedding,O(|E| * epochs),O(|V|d + |R|d)
+Ontology reasoning,O(|E|^2),O(|E|)
+Hybrid query,O(k log n),O(k)

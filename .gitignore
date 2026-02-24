@@ -24,3 +24,20 @@ node_modules/
 
 # Docker build artifacts
 docker/*.tar
+
+# Hidden dirs (credentials, cache, managed packages)
+.cache/
+.clawdhub/
+.clawhub/
+.credentials/
+.local/
+.npm/
+.openclaw/
+
+# Old/generated files in root
+*.docx
+*.pdf
+*.pptx
+*.xlsx
+chartsense-ai/
+test-claude-code/
