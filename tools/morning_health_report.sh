@@ -29,13 +29,6 @@ else
     gw_icon="❌"; gw_detail="Unreachable"
 fi
 
-# ─── CRABWALK (3333) — OpenClaw companion ──────────────────────────────────
-cw_code=$(check_http "http://127.0.0.1:3333/" 3)
-if [[ "$cw_code" == "200" ]]; then
-    cw_icon="✅"; cw_detail="Online"
-else
-    cw_icon="❌"; cw_detail="Down (HTTP $cw_code)"
-fi
 
 # ─── YOUTUBESTUDY (5179) ───────────────────────────────────────────────────
 yt_code=$(check_http "http://127.0.0.1:5179/" 3)
@@ -89,7 +82,6 @@ mem_pct=$(free | awk '/^Mem:/{printf "%.0f", $3/$2*100}')
 # ─── ISSUES ────────────────────────────────────────────────────────────────
 issues=()
 [[ "$gw_icon"   == "❌" ]] && issues+=("OpenClaw Gateway unreachable")
-[[ "$cw_icon"   == "❌" ]] && issues+=("Crabwalk is down (port 3333)")
 [[ "$yt_icon"   == "❌" ]] && issues+=("YouTubeStudy is down (port 5179)")
 [[ "$lb_icon"   == "❌" ]] && issues+=("LobsterBoard is down (port 8080)")
 [[ "$node_icon" == "❌" ]] && issues+=("Gateway Node unreachable (port 18792)")
@@ -114,7 +106,6 @@ REPORT="📊 *Daily System Health Report*
 | Service | Status | Details |
 |---|---|---|
 | OpenClaw Gateway | ${gw_icon} | ${gw_detail} |
-| Crabwalk UI | ${cw_icon} | ${cw_detail} |
 | YouTubeStudy | ${yt_icon} | ${yt_detail} |
 | LobsterBoard | ${lb_icon} | ${lb_detail} |
 | Gateway Node | ${node_icon} | ${node_detail} |

@@ -1,9 +1,9 @@
 {
   "lastChecks": {
-    "email": 1771819363,
-    "calendar": 1771857915,
+    "email": 1771984665,
+    "calendar": 1771930864,
     "weather": null,
-    "subagents": 1771730307,
+    "subagents": 1771930864,
     "memory_review": 1771653738,
     "tmp_cleanup": 1771371000,
     "memory_audit": 1771746596,
@@ -11,6 +11,6 @@
     "auto_reflection": 1771873207,
     "gateway_boot": 1771858048
   },
-  "lastHeartbeat": 1771730307,
+  "lastHeartbeat": 1771930864,
   "notes": "10AM: email tool broken (gog not configured), no urgent items visible. Memory audit completed 2026-02-22."
 }
