@@ -236,6 +236,12 @@ If Anirach says yes, proceed. If unclear or no response, don't do it.
 python3 /home/clawdbot/clawd/gdrive/gdrive_upload.py /path/to/file.docx --folder "Papers/RAG-Second-Brain" "RAG_SecondBrain_AIiH2026_v23.1.pdf"
 ```
 
+> ⛔ **NEVER upload without `--folder`** — uploading to root is forbidden. Every file MUST go into a subfolder. No exceptions.
+> Cost reports → `--folder "Daily-Reports/Cost-Reports"`
+> AI news → `--folder "Daily-Reports/AI-News"`
+> HA/project docs → `--folder "Projects/HA-Analysis"` (or relevant project)
+> Course slides → `--folder "Courses/DevOps-VibeCoding"` (or relevant course)
+
 ## External vs Internal
 
 **Safe to do freely:**

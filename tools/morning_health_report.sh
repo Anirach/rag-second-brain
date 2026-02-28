@@ -30,8 +30,8 @@ else
 fi
 
 
-# ─── YOUTUBESTUDY (5179) ───────────────────────────────────────────────────
-yt_code=$(check_http "http://127.0.0.1:5179/" 3)
+# ─── YOUTUBESTUDY (3101) ───────────────────────────────────────────────────
+yt_code=$(check_http "http://127.0.0.1:3101/" 3)
 if [[ "$yt_code" == "200" ]]; then
     yt_icon="✅"; yt_detail="Online"
 else
@@ -82,7 +82,7 @@ mem_pct=$(free | awk '/^Mem:/{printf "%.0f", $3/$2*100}')
 # ─── ISSUES ────────────────────────────────────────────────────────────────
 issues=()
 [[ "$gw_icon"   == "❌" ]] && issues+=("OpenClaw Gateway unreachable")
-[[ "$yt_icon"   == "❌" ]] && issues+=("YouTubeStudy is down (port 5179)")
+[[ "$yt_icon"   == "❌" ]] && issues+=("YouTubeStudy is down (port 3101)")
 [[ "$lb_icon"   == "❌" ]] && issues+=("LobsterBoard is down (port 8080)")
 [[ "$node_icon" == "❌" ]] && issues+=("Gateway Node unreachable (port 18792)")
 [[ "$docker_icon" == "⚠️" ]] && issues+=("Docker: $running/$total containers running")

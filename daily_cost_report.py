@@ -193,12 +193,12 @@ def create_report(data):
     return doc
 
 def upload_to_gdrive(file_path):
-    """Upload file to Google Drive ArthurBotData folder"""
+    """Upload file to Google Drive — Cost Reports subfolder"""
     try:
         import sys
         sys.path.insert(0, '/home/clawdbot/clawd/gdrive')
         from gdrive_upload import upload_file
-        result = upload_file(file_path)
+        result = upload_file(file_path, subfolder='Daily-Reports/Cost-Reports')
         print(f"Uploaded to Google Drive: {result['link']}")
         return result
     except Exception as e:
