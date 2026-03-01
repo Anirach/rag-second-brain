@@ -2,7 +2,7 @@
 
 > **Security:** Only load in main session with Anirach. Never in group chats or shared contexts.
 
-*Last reviewed: 2026-02-24*
+*Last reviewed: 2026-03-01*
 
 ---
 
@@ -79,7 +79,7 @@
 ## 🛠️ System Configuration
 
 ### Current Setup
-- **Platform:** OpenClaw v2026.2.19-2 (updated 2026-02-20; package name changed `clawdbot` → `openclaw`)
+- **Platform:** OpenClaw v2026.2.26 (updated 2026-03-01; prev v2026.2.21-2)
 - **Service:** `openclaw-gateway.service`
 - **Workspace:** `/home/clawdbot/clawd`
 - **Migration:** Clawdbot → OpenClaw on 2026-02-01
@@ -98,7 +98,7 @@
 - Added `anthropic` provider with `claude-opus-4-6` and `claude-sonnet-4-6`
 - Removed stale `anthropic/claude-opus-4` (404 error) — only `claude-opus-4-6` remains as `opus` alias
 
-### Agent Teams (Updated 2026-02-12)
+### Agent Teams (Updated 2026-03-01)
 
 **Total: 45 agents across 5 teams**
 
@@ -114,8 +114,10 @@ translation-architect, thai-linguist, cultural-adapter, style-polisher, document
 **Course Team (10 agents):**
 course-architect, curriculum-designer, content-writer, slide-designer, assessment-creator, book-compiler, course-reviewer, video-script-writer, lab-designer, accessibility-checker
 
-**Coding Team (8 agents):**
-orchestrator, code-review, pr-agent, testing, docs, ux-designer, devops, db-specialist
+**Coding Team (8 agents) — FULLY CONFIGURED 2026-03-01:**
+orchestrator (Nexus🎯 Opus), code-review (Argus🔍 Opus), pr-agent (Merge🔀 Sonnet), testing (Probe🧪 Sonnet), docs (Scribe📝 Sonnet), ux-designer (Canvas🎨 Sonnet), devops (Forge⚙️ Sonnet), db-specialist (Schema🗄️ Opus)
+- Orchestrator AGENTS.md has all 4 modes: Assessment, Solo, Team, Human Collaboration + PROJECT_LOCK protocol
+- Models: orchestrator/code-review/db-specialist=Opus, rest=Sonnet
 
 ### Active Cron Jobs
 | Job | Schedule | Purpose |
@@ -199,6 +201,8 @@ Research, Analysis, Documents, Content, Coding, DevOps, Education, Media, Automa
 | 2026-02-20 | OpenClaw updated to v2026.2.19-2 |
 | 2026-02-21 | Sandbox upgraded (python-docx + LibreOffice); DevOps VibeCoding course generated; DevOps PPTX Weeks 1-5 done |
 | 2026-02-22 | Sandbox uid fix (1001); SQLite memory DB built; HA reports generated; PPTX Week 6 failed |
+| 2026-02-28 | Coding team fully rebuilt: all 8 agents configured with correct models + identities |
+| 2026-03-01 | OpenClaw updated v2026.2.21-2 → v2026.2.26 (security fixes); orchestrator 4 modes wired in |
 
 ---
 
@@ -279,6 +283,10 @@ curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendDocument" \
 ---
 
 ## 💡 Lessons Learned
+- **2026-03-01:** Coding team setup guide (v4.0) is the canonical reference for deploying the team on other OpenClaw bots
+- **2026-03-01:** Orchestrator auto-detects mode from task keywords — Assessment/Solo/Team/HumanCollab — no need to ask
+- **2026-03-01:** Recommended model split: Opus for orchestrator+code-review+db-specialist, Sonnet for rest (cost/quality balance)
+- **2026-03-01:** fb-ai-news-post cron fails on write to /tmp — needs investigation
 - **2026-02-24:** Arscontexta's /remember command can inspire session_remember.py for better session memory management
 - **[2026-02-24]** HA database VPN fix: wait_for_vpn() must check 3 things before any query: (1) ppp0 interface is up, (2) route to 192.168.88.11 goes via ppp0 not eth0, (3) TCP port 30503 is actually reachable. VPN wait timeout should be 40s + 2s stabilization delay. Without this, traffic routes via eth0 and psql fails silently.
 - **2026-02-23:** Always check cron delivery settings when creating new jobs to avoid notification spam
