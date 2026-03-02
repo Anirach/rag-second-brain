@@ -1,16 +1,16 @@
 {
   "lastChecks": {
-    "email": 1772330256,
-    "calendar": 1772294920,
+    "email": 1772416778,
+    "calendar": 1772409633,
     "weather": null,
     "subagents": 1771930864,
     "memory_review": 1771653738,
     "tmp_cleanup": 1771371000,
     "memory_audit": 1771746596,
-    "memory_maintenance": 1771873207,
-    "auto_reflection": 1771873207,
-    "gateway_boot": 1772294920
+    "memory_maintenance": 1772391704,
+    "auto_reflection": 1772391704,
+    "gateway_boot": 1772377770
   },
-  "lastHeartbeat": 1772260838,
-  "notes": "10AM: email tool broken (gog not configured), no urgent items visible. Memory audit completed 2026-02-22."
+  "lastHeartbeat": 1772409633,
+  "notes": "GOG env vars configured in systemd. Calendar+email working."
 }

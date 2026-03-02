@@ -46,3 +46,13 @@ Auto-updated daily by auto_reflection.py
 **Decisions:**
 - Implement session_remember.py inspired by Arscontexta /remember command
 
+
+---
+## 2026-03-02 (02:01 BKK)
+
+**Files reviewed:** 2026-03-01
+
+**Lessons:**
+- - "https://unused"`, changed to `https://generativelanguage.googleapis.com/v1beta`
+- — 2026-03-01 23:00 BKK
+

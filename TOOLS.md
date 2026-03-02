@@ -4,7 +4,7 @@ Skills define *how* tools work. This file is for *your* specifics — the stuff 
 
 ## Nano Banana Pro (Google AI Image Generation)
 
-**API Key:** `AIzaSyCNTELmQROMXC67W115YevDvKZmx0t-NpM`
+**API Key:** `AIzaSyC1BLzV7El8nNV5hqeCdo4R32Cd2HydyNk`
 **Model:** `gemini-2.0-flash-exp-image-generation`
 
 **Usage:**
