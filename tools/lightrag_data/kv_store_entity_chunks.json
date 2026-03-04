@@ -1,0 +1,7068 @@
+{
+  "Anirach": {
+    "chunk_ids": [
+      "chunk-2971afaa4a866697c2a2055c8cd288d2",
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3",
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d",
+      "chunk-70c5932aa815cd6eef3ea2972206ea5b",
+      "chunk-a52871670ef07a5a1ba116162391d222",
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb",
+      "chunk-31b6d14f3a78565ad12596af516da470",
+      "chunk-be6aab37bfb99aded14c2c91c9d5ad36",
+      "chunk-7b3316dd810af55db2c42342b95d278e",
+      "chunk-4cfb904110c88a597561e8879c2ca0b9",
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929",
+      "chunk-7347a0c6ac17d9cb58ce4f8eb857eb12",
+      "chunk-113056c9501e9b2d79be577e20d93410",
+      "chunk-f35a0c6a0244897333e1e1091f4a3eb2",
+      "chunk-8983e2b4c186fcc645136f51f241d354",
+      "chunk-a738f505c3e1573b43b49a1c3bf45d9d"
+    ],
+    "count": 16,
+    "update_time": 1772585789,
+    "_id": "Anirach"
+  },
+  "Dark Themes": {
+    "chunk_ids": [
+      "chunk-2971afaa4a866697c2a2055c8cd288d2"
+    ],
+    "count": 1,
+    "create_time": 1772583896,
+    "update_time": 1772583896,
+    "_id": "Dark Themes"
+  },
+  "PPTX Slides": {
+    "chunk_ids": [
+      "chunk-2971afaa4a866697c2a2055c8cd288d2"
+    ],
+    "count": 1,
+    "create_time": 1772583896,
+    "update_time": 1772583896,
+    "_id": "PPTX Slides"
+  },
+  "RAG Second Brain Paper": {
+    "chunk_ids": [
+      "chunk-2971afaa4a866697c2a2055c8cd288d2",
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-5a199a577367afc1799777199de40b72",
+      "chunk-fa0b04516491978cd7f2fd3497bd74a6",
+      "chunk-e570c762971c4d1a558761ca3b304a6e",
+      "chunk-505a6de49a4e71323e53e984bc770e7f",
+      "chunk-f483ffe5746e330a5d767b70d856c97b",
+      "chunk-46d5184a8d46c47ab7401afbdefd9125",
+      "chunk-cbbf68c07d5785152cb568cb44c097d2",
+      "chunk-1263f6dcbc96b0cd91f9ce4b885f6881"
+    ],
+    "count": 10,
+    "update_time": 1772585610,
+    "_id": "RAG Second Brain Paper"
+  },
+  "AIiH 2026": {
+    "chunk_ids": [
+      "chunk-2971afaa4a866697c2a2055c8cd288d2",
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-c2cf3a796b09887b7b8355de43da736f",
+      "chunk-f483ffe5746e330a5d767b70d856c97b",
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 5,
+    "update_time": 1772585506,
+    "_id": "AIiH 2026"
+  },
+  "OpenClaw": {
+    "chunk_ids": [
+      "chunk-2971afaa4a866697c2a2055c8cd288d2",
+      "chunk-1bd439d8f06d579d7e29f33a3a379bf3",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-7b3316dd810af55db2c42342b95d278e",
+      "chunk-6a5125c828cf8928c4d9f36005ee5a06",
+      "chunk-a4b9540765c9116547992f4b4a476e1a",
+      "chunk-5612c5c9efe47f2a4c36a48a45336086",
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+    ],
+    "count": 8,
+    "update_time": 1772585345,
+    "_id": "OpenClaw"
+  },
+  "Arthur": {
+    "chunk_ids": [
+      "chunk-2971afaa4a866697c2a2055c8cd288d2",
+      "chunk-c2cf3a796b09887b7b8355de43da736f",
+      "chunk-0f077cc9ec87b144f1c492fa97cab376",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-7b3316dd810af55db2c42342b95d278e",
+      "chunk-6a5125c828cf8928c4d9f36005ee5a06",
+      "chunk-a4b9540765c9116547992f4b4a476e1a",
+      "chunk-d113e8b1edad4ebb129a2a094a883e18",
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 9,
+    "update_time": 1772585314,
+    "_id": "Arthur"
+  },
+  "Hospital_001": {
+    "chunk_ids": [
+      "chunk-2971afaa4a866697c2a2055c8cd288d2"
+    ],
+    "count": 1,
+    "create_time": 1772583897,
+    "update_time": 1772583897,
+    "_id": "Hospital_001"
+  },
+  "Hospital_002": {
+    "chunk_ids": [
+      "chunk-2971afaa4a866697c2a2055c8cd288d2"
+    ],
+    "count": 1,
+    "create_time": 1772583897,
+    "update_time": 1772583897,
+    "_id": "Hospital_002"
+  },
+  "Healthcare AI": {
+    "chunk_ids": [
+      "chunk-2971afaa4a866697c2a2055c8cd288d2",
+      "chunk-97fe0dddb24f17a6ff26b65970479fd5",
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 3,
+    "update_time": 1772585610,
+    "_id": "Healthcare AI"
+  },
+  "Teaching & Courses": {
+    "chunk_ids": [
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3"
+    ],
+    "count": 1,
+    "create_time": 1772584035,
+    "update_time": 1772584035,
+    "_id": "Teaching & Courses"
+  },
+  "Course Development": {
+    "chunk_ids": [
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3"
+    ],
+    "count": 1,
+    "create_time": 1772584035,
+    "update_time": 1772584035,
+    "_id": "Course Development"
+  },
+  "Education Technology": {
+    "chunk_ids": [
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3",
+      "chunk-2952aa4f91af10dd793cdcbd918a60a2"
+    ],
+    "count": 2,
+    "update_time": 1772584371,
+    "_id": "Education Technology"
+  },
+  "Vibe Coding": {
+    "chunk_ids": [
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3"
+    ],
+    "count": 1,
+    "create_time": 1772584035,
+    "update_time": 1772584035,
+    "_id": "Vibe Coding"
+  },
+  "Course Preparation Team": {
+    "chunk_ids": [
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3"
+    ],
+    "count": 1,
+    "create_time": 1772584035,
+    "update_time": 1772584035,
+    "_id": "Course Preparation Team"
+  },
+  "King Mongkut's University of Technology North Bangkok (KMUTNB)": {
+    "chunk_ids": [
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3"
+    ],
+    "count": 1,
+    "create_time": 1772584035,
+    "update_time": 1772584035,
+    "_id": "King Mongkut's University of Technology North Bangkok (KMUTNB)"
+  },
+  "Research": {
+    "chunk_ids": [
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3",
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9",
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c",
+      "chunk-dbfecb1c1a2bb83afc8f0f8178ad4c06",
+      "chunk-2952aa4f91af10dd793cdcbd918a60a2"
+    ],
+    "count": 6,
+    "update_time": 1772584371,
+    "_id": "Research"
+  },
+  "MOC Document Type": {
+    "chunk_ids": [
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3"
+    ],
+    "count": 1,
+    "create_time": 1772584036,
+    "update_time": 1772584036,
+    "_id": "MOC Document Type"
+  },
+  "Document Update Date 2026-02-16": {
+    "chunk_ids": [
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3"
+    ],
+    "count": 1,
+    "create_time": 1772584036,
+    "update_time": 1772584036,
+    "_id": "Document Update Date 2026-02-16"
+  },
+  "Teaching Concept": {
+    "chunk_ids": [
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3"
+    ],
+    "count": 1,
+    "create_time": 1772584036,
+    "update_time": 1772584036,
+    "_id": "Teaching Concept"
+  },
+  "Education Concept": {
+    "chunk_ids": [
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3"
+    ],
+    "count": 1,
+    "create_time": 1772584036,
+    "update_time": 1772584036,
+    "_id": "Education Concept"
+  },
+  "Home": {
+    "chunk_ids": [
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3",
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c",
+      "chunk-2952aa4f91af10dd793cdcbd918a60a2"
+    ],
+    "count": 3,
+    "update_time": 1772584372,
+    "_id": "Home"
+  },
+  "Antigravity": {
+    "chunk_ids": [
+      "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3"
+    ],
+    "count": 1,
+    "create_time": 1772584036,
+    "update_time": 1772584036,
+    "_id": "Antigravity"
+  },
+  "NCD-CIE Paper": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-5a199a577367afc1799777199de40b72",
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 3,
+    "update_time": 1772585505,
+    "_id": "NCD-CIE Paper"
+  },
+  "Knowledge Graphs": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91"
+    ],
+    "count": 1,
+    "create_time": 1772584038,
+    "update_time": 1772584038,
+    "_id": "Knowledge Graphs"
+  },
+  "Ontology": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91"
+    ],
+    "count": 1,
+    "create_time": 1772584038,
+    "update_time": 1772584038,
+    "_id": "Ontology"
+  },
+  "Clinical Decision Support": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-209a10793a38ab9ffb1236b426b5f37a"
+    ],
+    "count": 2,
+    "update_time": 1772584606,
+    "_id": "Clinical Decision Support"
+  },
+  "Causal Inference": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91"
+    ],
+    "count": 1,
+    "create_time": 1772584038,
+    "update_time": 1772584038,
+    "_id": "Causal Inference"
+  },
+  "Longevity": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9"
+    ],
+    "count": 2,
+    "update_time": 1772584091,
+    "_id": "Longevity"
+  },
+  "Biomedical AI": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-97fe0dddb24f17a6ff26b65970479fd5",
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 3,
+    "update_time": 1772585611,
+    "_id": "Biomedical AI"
+  },
+  "Anirach Mingkhwan": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-5a199a577367afc1799777199de40b72",
+      "chunk-dbddb0cc8f3daa198946451856e988a7",
+      "chunk-209a10793a38ab9ffb1236b426b5f37a",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-7b3316dd810af55db2c42342b95d278e",
+      "chunk-6a5125c828cf8928c4d9f36005ee5a06",
+      "chunk-838a7372037dd9d7583be5b6dfb14047",
+      "chunk-a4b9540765c9116547992f4b4a476e1a",
+      "chunk-5612c5c9efe47f2a4c36a48a45336086",
+      "chunk-46d5184a8d46c47ab7401afbdefd9125",
+      "chunk-88e992b721430779160720a86027f0b5"
+    ],
+    "count": 12,
+    "update_time": 1772585675,
+    "_id": "Anirach Mingkhwan"
+  },
+  "DuckMan": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb"
+    ],
+    "count": 2,
+    "update_time": 1772584777,
+    "_id": "DuckMan"
+  },
+  "ChartSense AI": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c",
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-838a7372037dd9d7583be5b6dfb14047"
+    ],
+    "count": 5,
+    "update_time": 1772585113,
+    "_id": "ChartSense AI"
+  },
+  "Imperial College London": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-5a199a577367afc1799777199de40b72",
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 3,
+    "update_time": 1772585505,
+    "_id": "Imperial College London"
+  },
+  "ArXiv": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-a52871670ef07a5a1ba116162391d222"
+    ],
+    "count": 2,
+    "update_time": 1772584610,
+    "_id": "ArXiv"
+  },
+  "Infrastructure": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 2,
+    "update_time": 1772585752,
+    "_id": "Infrastructure"
+  },
+  "Medical Diagnosis": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91",
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 2,
+    "update_time": 1772585506,
+    "_id": "Medical Diagnosis"
+  },
+  "NCD Risk Assessment": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91"
+    ],
+    "count": 1,
+    "create_time": 1772584041,
+    "update_time": 1772584041,
+    "_id": "NCD Risk Assessment"
+  },
+  "Medical Knowledge": {
+    "chunk_ids": [
+      "chunk-19a30e0d2c5e415e011c673f18e44e91"
+    ],
+    "count": 1,
+    "create_time": 1772584041,
+    "update_time": 1772584041,
+    "_id": "Medical Knowledge"
+  },
+  "Healthcare": {
+    "chunk_ids": [
+      "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9"
+    ],
+    "count": 1,
+    "create_time": 1772584091,
+    "update_time": 1772584091,
+    "_id": "Healthcare"
+  },
+  "Aging Biology": {
+    "chunk_ids": [
+      "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9"
+    ],
+    "count": 1,
+    "create_time": 1772584091,
+    "update_time": 1772584091,
+    "_id": "Aging Biology"
+  },
+  "Interventions & Supplements": {
+    "chunk_ids": [
+      "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9"
+    ],
+    "count": 1,
+    "create_time": 1772584091,
+    "update_time": 1772584091,
+    "_id": "Interventions & Supplements"
+  },
+  "Biomarkers": {
+    "chunk_ids": [
+      "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9"
+    ],
+    "count": 1,
+    "create_time": 1772584092,
+    "update_time": 1772584092,
+    "_id": "Biomarkers"
+  },
+  "Clinical Trials": {
+    "chunk_ids": [
+      "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9"
+    ],
+    "count": 1,
+    "create_time": 1772584092,
+    "update_time": 1772584092,
+    "_id": "Clinical Trials"
+  },
+  "Healthspan": {
+    "chunk_ids": [
+      "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9"
+    ],
+    "count": 1,
+    "create_time": 1772584092,
+    "update_time": 1772584092,
+    "_id": "Healthspan"
+  },
+  "Lifespan": {
+    "chunk_ids": [
+      "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9"
+    ],
+    "count": 1,
+    "create_time": 1772584092,
+    "update_time": 1772584092,
+    "_id": "Lifespan"
+  },
+  "Research Index": {
+    "chunk_ids": [
+      "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9",
+      "chunk-dbfecb1c1a2bb83afc8f0f8178ad4c06"
+    ],
+    "count": 2,
+    "update_time": 1772584172,
+    "_id": "Research Index"
+  },
+  "Longevity Markdown Document": {
+    "chunk_ids": [
+      "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9"
+    ],
+    "count": 1,
+    "create_time": 1772584092,
+    "update_time": 1772584092,
+    "_id": "Longevity Markdown Document"
+  },
+  "Dataview Query": {
+    "chunk_ids": [
+      "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9",
+      "chunk-dbfecb1c1a2bb83afc8f0f8178ad4c06"
+    ],
+    "count": 2,
+    "update_time": 1772584172,
+    "_id": "Dataview Query"
+  },
+  "Tools & Infrastructure": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584139,
+    "update_time": 1772584139,
+    "_id": "Tools & Infrastructure"
+  },
+  "AI/ML Stack": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c",
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 2,
+    "update_time": 1772585751,
+    "_id": "AI/ML Stack"
+  },
+  "GPT / LLMs": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c",
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 2,
+    "update_time": 1772585752,
+    "_id": "GPT / LLMs"
+  },
+  "Machine Learning": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c",
+      "chunk-dbfecb1c1a2bb83afc8f0f8178ad4c06",
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 3,
+    "update_time": 1772585752,
+    "_id": "Machine Learning"
+  },
+  "Artificial Intelligence": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c",
+      "chunk-dbfecb1c1a2bb83afc8f0f8178ad4c06",
+      "chunk-2952aa4f91af10dd793cdcbd918a60a2",
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 4,
+    "update_time": 1772585751,
+    "_id": "Artificial Intelligence"
+  },
+  "Databases & Storage": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584139,
+    "update_time": 1772584139,
+    "_id": "Databases & Storage"
+  },
+  "Neo4j": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584139,
+    "update_time": 1772584139,
+    "_id": "Neo4j"
+  },
+  "Knowledge Graph": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c",
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
+      "chunk-481427393c6695a98dde842249c71ce5",
+      "chunk-02c142cb55bfe21786326d82ec655339",
+      "chunk-54584911fe0f3952d96167d568620e03",
+      "chunk-e064beaa9addbc9ee14f687e59311381",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-de7d2b034444ef30c5cd263afdaf88fd",
+      "chunk-2904f3bace1d2ba9a708fff21ef75bd7",
+      "chunk-209a10793a38ab9ffb1236b426b5f37a",
+      "chunk-9391d10439e81889f9b12beddd037977",
+      "chunk-fa0b04516491978cd7f2fd3497bd74a6",
+      "chunk-2f30a8d91993f68af9395b1e286ae615",
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362",
+      "chunk-b305d4fb2e0053a2c1d60fafeff74829",
+      "chunk-ad0e1255b938172ca134381d029ccfab",
+      "chunk-31b6d14f3a78565ad12596af516da470",
+      "chunk-0f077cc9ec87b144f1c492fa97cab376",
+      "chunk-4cfb904110c88a597561e8879c2ca0b9",
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50",
+      "chunk-2684aef6fa11b1b9c4f0d254b34263ec",
+      "chunk-505a6de49a4e71323e53e984bc770e7f",
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0",
+      "chunk-f483ffe5746e330a5d767b70d856c97b",
+      "chunk-46d5184a8d46c47ab7401afbdefd9125",
+      "chunk-f35a0c6a0244897333e1e1091f4a3eb2",
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-88e992b721430779160720a86027f0b5",
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1",
+      "chunk-a738f505c3e1573b43b49a1c3bf45d9d"
+    ],
+    "count": 30,
+    "update_time": 1772585790,
+    "_id": "Knowledge Graph"
+  },
+  "PostgreSQL": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584140,
+    "update_time": 1772584140,
+    "_id": "PostgreSQL"
+  },
+  "VPIPE": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584140,
+    "update_time": 1772584140,
+    "_id": "VPIPE"
+  },
+  "ChromaDB": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584140,
+    "update_time": 1772584140,
+    "_id": "ChromaDB"
+  },
+  "Embeddings": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584140,
+    "update_time": 1772584140,
+    "_id": "Embeddings"
+  },
+  "Data Warehouse": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584140,
+    "update_time": 1772584140,
+    "_id": "Data Warehouse"
+  },
+  "Development": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584140,
+    "update_time": 1772584140,
+    "_id": "Development"
+  },
+  "Next.js": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584140,
+    "update_time": 1772584140,
+    "_id": "Next.js"
+  },
+  "Docker": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c",
+      "chunk-36c79333e70770b079d3c8c754308f31"
+    ],
+    "count": 2,
+    "update_time": 1772584952,
+    "_id": "Docker"
+  },
+  "Containerization": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c",
+      "chunk-36c79333e70770b079d3c8c754308f31"
+    ],
+    "count": 2,
+    "update_time": 1772584952,
+    "_id": "Containerization"
+  },
+  "Obsidian": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c",
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af",
+      "chunk-481427393c6695a98dde842249c71ce5",
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-dbddb0cc8f3daa198946451856e988a7",
+      "chunk-02c142cb55bfe21786326d82ec655339",
+      "chunk-54584911fe0f3952d96167d568620e03",
+      "chunk-e064beaa9addbc9ee14f687e59311381",
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-de7d2b034444ef30c5cd263afdaf88fd",
+      "chunk-2904f3bace1d2ba9a708fff21ef75bd7",
+      "chunk-209a10793a38ab9ffb1236b426b5f37a",
+      "chunk-5ffee7e99a39b11f6d9d6277ba5594d0",
+      "chunk-2bd095e771c06f111cee69eae6903528",
+      "chunk-9391d10439e81889f9b12beddd037977",
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf",
+      "chunk-fa0b04516491978cd7f2fd3497bd74a6",
+      "chunk-2f30a8d91993f68af9395b1e286ae615",
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362",
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb",
+      "chunk-8f9f63c5b94225c308595bfb9786f642",
+      "chunk-9a2626ac3c4b4db2e1bb9274c8b58fa8",
+      "chunk-b305d4fb2e0053a2c1d60fafeff74829",
+      "chunk-2df7e45fa50bcc56ec15623582e80a51",
+      "chunk-31b6d14f3a78565ad12596af516da470",
+      "chunk-c73f87c648644d0f5886df071cfc4b6b",
+      "chunk-2e6c0f12f725a7b639074653a878c82f",
+      "chunk-be6aab37bfb99aded14c2c91c9d5ad36",
+      "chunk-576fa1ed41557cc09379e9532cd8fc48",
+      "chunk-0f077cc9ec87b144f1c492fa97cab376",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-6a5125c828cf8928c4d9f36005ee5a06",
+      "chunk-4cfb904110c88a597561e8879c2ca0b9",
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929",
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50",
+      "chunk-2684aef6fa11b1b9c4f0d254b34263ec",
+      "chunk-a4b9540765c9116547992f4b4a476e1a",
+      "chunk-57ca52f28d5bc68f21ab7c9caf670243",
+      "chunk-ea5150e6fca2cc266a2614914dfb7239",
+      "chunk-d113e8b1edad4ebb129a2a094a883e18",
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada",
+      "chunk-e570c762971c4d1a558761ca3b304a6e",
+      "chunk-505a6de49a4e71323e53e984bc770e7f",
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0",
+      "chunk-1fd7088becf52bb8a5c2ed784265260d",
+      "chunk-f483ffe5746e330a5d767b70d856c97b",
+      "chunk-747382645d4ed066b3e5ef8307a73acd",
+      "chunk-46d5184a8d46c47ab7401afbdefd9125",
+      "chunk-cbbf68c07d5785152cb568cb44c097d2",
+      "chunk-7347a0c6ac17d9cb58ce4f8eb857eb12",
+      "chunk-113056c9501e9b2d79be577e20d93410",
+      "chunk-40fa075485b63447273b59dcdd10fadb",
+      "chunk-1263f6dcbc96b0cd91f9ce4b885f6881",
+      "chunk-f35a0c6a0244897333e1e1091f4a3eb2",
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-88e992b721430779160720a86027f0b5",
+      "chunk-771986aa17685fe6999e419c1c67ae69",
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1",
+      "chunk-a738f505c3e1573b43b49a1c3bf45d9d"
+    ],
+    "count": 60,
+    "update_time": 1772585788,
+    "_id": "Obsidian"
+  },
+  "Knowledge Management": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584141,
+    "update_time": 1772584141,
+    "_id": "Knowledge Management"
+  },
+  "Services": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584141,
+    "update_time": 1772584141,
+    "_id": "Services"
+  },
+  "LobsterBoard": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c",
+      "chunk-0f077cc9ec87b144f1c492fa97cab376",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-838a7372037dd9d7583be5b6dfb14047",
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 5,
+    "update_time": 1772585314,
+    "_id": "LobsterBoard"
+  },
+  "Sales Pipeline DB": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584142,
+    "update_time": 1772584142,
+    "_id": "Sales Pipeline DB"
+  },
+  "OpenClaw Web UI": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584142,
+    "update_time": 1772584142,
+    "_id": "OpenClaw Web UI"
+  },
+  "Remote Access": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584142,
+    "update_time": 1772584142,
+    "_id": "Remote Access"
+  },
+  "Server Dashboard": {
+    "chunk_ids": [
+      "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+    ],
+    "count": 1,
+    "create_time": 1772584147,
+    "update_time": 1772584147,
+    "_id": "Server Dashboard"
+  },
+  "Large Language Models": {
+    "chunk_ids": [
+      "chunk-dbfecb1c1a2bb83afc8f0f8178ad4c06"
+    ],
+    "count": 1,
+    "create_time": 1772584171,
+    "update_time": 1772584171,
+    "_id": "Large Language Models"
+  },
+  "AI Agents": {
+    "chunk_ids": [
+      "chunk-dbfecb1c1a2bb83afc8f0f8178ad4c06"
+    ],
+    "count": 1,
+    "create_time": 1772584171,
+    "update_time": 1772584171,
+    "_id": "AI Agents"
+  },
+  "Computer Vision": {
+    "chunk_ids": [
+      "chunk-dbfecb1c1a2bb83afc8f0f8178ad4c06"
+    ],
+    "count": 1,
+    "create_time": 1772584172,
+    "update_time": 1772584172,
+    "_id": "Computer Vision"
+  },
+  "NLP": {
+    "chunk_ids": [
+      "chunk-dbfecb1c1a2bb83afc8f0f8178ad4c06"
+    ],
+    "count": 1,
+    "create_time": 1772584172,
+    "update_time": 1772584172,
+    "_id": "NLP"
+  },
+  "AI Document": {
+    "chunk_ids": [
+      "chunk-dbfecb1c1a2bb83afc8f0f8178ad4c06"
+    ],
+    "count": 1,
+    "create_time": 1772584172,
+    "update_time": 1772584172,
+    "_id": "AI Document"
+  },
+  "AI": {
+    "chunk_ids": [
+      "chunk-dbfecb1c1a2bb83afc8f0f8178ad4c06"
+    ],
+    "count": 1,
+    "create_time": 1772584172,
+    "update_time": 1772584172,
+    "_id": "AI"
+  },
+  "DevOps VibeCoding Course": {
+    "chunk_ids": [
+      "chunk-8012e399d9e5ea3f933ec3b0fee8988d",
+      "chunk-5a199a577367afc1799777199de40b72",
+      "chunk-36c79333e70770b079d3c8c754308f31"
+    ],
+    "count": 3,
+    "update_time": 1772584952,
+    "_id": "DevOps VibeCoding Course"
+  },
+  "VPIPE Guide": {
+    "chunk_ids": [
+      "chunk-8012e399d9e5ea3f933ec3b0fee8988d"
+    ],
+    "count": 1,
+    "create_time": 1772584191,
+    "update_time": 1772584191,
+    "_id": "VPIPE Guide"
+  },
+  "Week 1": {
+    "chunk_ids": [
+      "chunk-8012e399d9e5ea3f933ec3b0fee8988d",
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 2,
+    "create_time": 1772584191,
+    "update_time": 1772584191,
+    "_id": "Week 1"
+  },
+  "Week 2": {
+    "chunk_ids": [
+      "chunk-8012e399d9e5ea3f933ec3b0fee8988d",
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 2,
+    "create_time": 1772584191,
+    "update_time": 1772584191,
+    "_id": "Week 2"
+  },
+  "Week 3": {
+    "chunk_ids": [
+      "chunk-8012e399d9e5ea3f933ec3b0fee8988d"
+    ],
+    "count": 1,
+    "create_time": 1772584191,
+    "update_time": 1772584191,
+    "_id": "Week 3"
+  },
+  "Week 4": {
+    "chunk_ids": [
+      "chunk-8012e399d9e5ea3f933ec3b0fee8988d"
+    ],
+    "count": 1,
+    "create_time": 1772584191,
+    "update_time": 1772584191,
+    "_id": "Week 4"
+  },
+  "Week 5": {
+    "chunk_ids": [
+      "chunk-8012e399d9e5ea3f933ec3b0fee8988d"
+    ],
+    "count": 1,
+    "create_time": 1772584191,
+    "update_time": 1772584191,
+    "_id": "Week 5"
+  },
+  "PPTX ID": {
+    "chunk_ids": [
+      "chunk-8012e399d9e5ea3f933ec3b0fee8988d"
+    ],
+    "count": 1,
+    "create_time": 1772584191,
+    "update_time": 1772584191,
+    "_id": "PPTX ID"
+  },
+  "Handout ID": {
+    "chunk_ids": [
+      "chunk-8012e399d9e5ea3f933ec3b0fee8988d"
+    ],
+    "count": 1,
+    "create_time": 1772584191,
+    "update_time": 1772584191,
+    "_id": "Handout ID"
+  },
+  "FITM": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584192,
+    "update_time": 1772584192,
+    "_id": "FITM"
+  },
+  "KMUTNB": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584192,
+    "update_time": 1772584192,
+    "_id": "KMUTNB"
+  },
+  "Quick Reference Document": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584192,
+    "update_time": 1772584192,
+    "_id": "Quick Reference Document"
+  },
+  "Telegram ID (7579913696)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584192,
+    "update_time": 1772584192,
+    "_id": "Telegram ID (7579913696)"
+  },
+  "Email (anirach.m@fitm.kmutnb.ac.th)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584192,
+    "update_time": 1772584192,
+    "_id": "Email (anirach.m@fitm.kmutnb.ac.th)"
+  },
+  "Timezone (Asia/Bangkok)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584192,
+    "update_time": 1772584192,
+    "_id": "Timezone (Asia/Bangkok)"
+  },
+  "UTC+7": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584192,
+    "update_time": 1772584192,
+    "_id": "UTC+7"
+  },
+  "Multi-Source Knowledge Graph Retrieval-Augmented Generation as a Second Brain for LLM-Based Medical Diagnosis": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584193,
+    "update_time": 1772584193,
+    "_id": "Multi-Source Knowledge Graph Retrieval-Augmented Generation as a Second Brain for LLM-Based Medical Diagnosis"
+  },
+  "AIiH 2026 Conference": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584193,
+    "update_time": 1772584193,
+    "_id": "AIiH 2026 Conference"
+  },
+  "CMT Paper ID 18": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584193,
+    "update_time": 1772584193,
+    "_id": "CMT Paper ID 18"
+  },
+  "CMT Platform": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584193,
+    "update_time": 1772584193,
+    "_id": "CMT Platform"
+  },
+  "Submitted (v23.1) Status": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584193,
+    "update_time": 1772584193,
+    "_id": "Submitted (v23.1) Status"
+  },
+  "MKG-RAG-SecondBrain-v23.1.pdf File": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584193,
+    "update_time": 1772584193,
+    "_id": "MKG-RAG-SecondBrain-v23.1.pdf File"
+  },
+  "Full-Length Paper Track (AIiH 2026)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584194,
+    "update_time": 1772584194,
+    "_id": "Full-Length Paper Track (AIiH 2026)"
+  },
+  "Springer LNCS Format": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584194,
+    "update_time": 1772584194,
+    "_id": "Springer LNCS Format"
+  },
+  "LaTeX Template (llncs.cls, splncs04.bst)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584194,
+    "update_time": 1772584194,
+    "_id": "LaTeX Template (llncs.cls, splncs04.bst)"
+  },
+  "Word Template (svlnproc1104.dot)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584194,
+    "update_time": 1772584194,
+    "_id": "Word Template (svlnproc1104.dot)"
+  },
+  "GitHub Repository (Anirach/rag-second-brain)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584194,
+    "update_time": 1772584194,
+    "_id": "GitHub Repository (Anirach/rag-second-brain)"
+  },
+  "GitHub Repository (Anirach/MKG-RAG-MedicalDiag)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584194,
+    "update_time": 1772584194,
+    "_id": "GitHub Repository (Anirach/MKG-RAG-MedicalDiag)"
+  },
+  "ArthurBotData Google Drive Folder": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584194,
+    "update_time": 1772584194,
+    "_id": "ArthurBotData Google Drive Folder"
+  },
+  "Three Old Men Book": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584195,
+    "update_time": 1772584195,
+    "_id": "Three Old Men Book"
+  },
+  "GitHub Repository (Anirach/three-old-men)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584195,
+    "update_time": 1772584195,
+    "_id": "GitHub Repository (Anirach/three-old-men)"
+  },
+  "ChartSense AI Project": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72",
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 2,
+    "update_time": 1772584228,
+    "_id": "ChartSense AI Project"
+  },
+  "GitHub Repository (Anirach/chartsense-ai)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584195,
+    "update_time": 1772584195,
+    "_id": "GitHub Repository (Anirach/chartsense-ai)"
+  },
+  "Next.js 14 Framework": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584195,
+    "update_time": 1772584195,
+    "_id": "Next.js 14 Framework"
+  },
+  "FastAPI Framework": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584195,
+    "update_time": 1772584195,
+    "_id": "FastAPI Framework"
+  },
+  "PostgreSQL Database": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584195,
+    "update_time": 1772584195,
+    "_id": "PostgreSQL Database"
+  },
+  "Redis Data Store": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584195,
+    "update_time": 1772584195,
+    "_id": "Redis Data Store"
+  },
+  "Neo4j Database": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584196,
+    "update_time": 1772584196,
+    "_id": "Neo4j Database"
+  },
+  "LobsterBoard Service": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584196,
+    "update_time": 1772584196,
+    "_id": "LobsterBoard Service"
+  },
+  "lobsterboard.service Process": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584196,
+    "update_time": 1772584196,
+    "_id": "lobsterboard.service Process"
+  },
+  "VPIPE Database": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72",
+      "chunk-2e6c0f12f725a7b639074653a878c82f",
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50"
+    ],
+    "count": 3,
+    "update_time": 1772585160,
+    "_id": "VPIPE Database"
+  },
+  "VPIPE Database Host (node55136-vpipe2production.googlejp.app.ruk-com.cloud:11334)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584196,
+    "update_time": 1772584196,
+    "_id": "VPIPE Database Host (node55136-vpipe2production.googlejp.app.ruk-com.cloud:11334)"
+  },
+  "PGP Key (Pgvx-20231234)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584196,
+    "update_time": 1772584196,
+    "_id": "PGP Key (Pgvx-20231234)"
+  },
+  "VPIPE Query Prefix": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584196,
+    "update_time": 1772584196,
+    "_id": "VPIPE Query Prefix"
+  },
+  "Document Templates Directory (/home/clawdbot/clawd/templates/)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584196,
+    "update_time": 1772584196,
+    "_id": "Document Templates Directory (/home/clawdbot/clawd/templates/)"
+  },
+  "General Report Template (docx)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584197,
+    "update_time": 1772584197,
+    "_id": "General Report Template (docx)"
+  },
+  "Academic Templates Directory (/home/clawdbot/clawd/templates/academic/)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584197,
+    "update_time": 1772584197,
+    "_id": "Academic Templates Directory (/home/clawdbot/clawd/templates/academic/)"
+  },
+  "Springer LNCS LaTeX Templates Path": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584197,
+    "update_time": 1772584197,
+    "_id": "Springer LNCS LaTeX Templates Path"
+  },
+  "Springer LNCS Word Templates Path": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584197,
+    "update_time": 1772584197,
+    "_id": "Springer LNCS Word Templates Path"
+  },
+  "Google Drive Token (token.json)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584197,
+    "update_time": 1772584197,
+    "_id": "Google Drive Token (token.json)"
+  },
+  "Google Drive Token Path (/home/clawdbot/clawd/gdrive/)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584197,
+    "update_time": 1772584197,
+    "_id": "Google Drive Token Path (/home/clawdbot/clawd/gdrive/)"
+  },
+  "Google AI (Nano Banana) API Key": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584197,
+    "update_time": 1772584197,
+    "_id": "Google AI (Nano Banana) API Key"
+  },
+  "TOOLS.md Document": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584197,
+    "update_time": 1772584197,
+    "_id": "TOOLS.md Document"
+  },
+  "OpenRouter Configuration (openclaw.json)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584198,
+    "update_time": 1772584198,
+    "_id": "OpenRouter Configuration (openclaw.json)"
+  },
+  "OpenRouter Configuration Path (~/.openclaw/)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584198,
+    "update_time": 1772584198,
+    "_id": "OpenRouter Configuration Path (~/.openclaw/)"
+  },
+  "gog CLI Tool": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584198,
+    "update_time": 1772584198,
+    "_id": "gog CLI Tool"
+  },
+  "GOG_KEYRING_PASSWORD": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584198,
+    "update_time": 1772584198,
+    "_id": "GOG_KEYRING_PASSWORD"
+  },
+  "Server srv1297304": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584198,
+    "update_time": 1772584198,
+    "_id": "Server srv1297304"
+  },
+  "OpenClaw Application": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584198,
+    "update_time": 1772584198,
+    "_id": "OpenClaw Application"
+  },
+  "v2026.2.26 Version": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584198,
+    "update_time": 1772584198,
+    "_id": "v2026.2.26 Version"
+  },
+  "Coding Team Setup Guide Document": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584198,
+    "update_time": 1772584198,
+    "_id": "Coding Team Setup Guide Document"
+  },
+  "Coding Team Setup Guide Path (/home/clawdbot/clawd/tmp/)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584199,
+    "update_time": 1772584199,
+    "_id": "Coding Team Setup Guide Path (/home/clawdbot/clawd/tmp/)"
+  },
+  "Coding Team Models Concept": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584199,
+    "update_time": 1772584199,
+    "_id": "Coding Team Models Concept"
+  },
+  "Opus Model": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72",
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 3,
+    "update_time": 1772585752,
+    "_id": "Opus Model"
+  },
+  "Sonnet Model": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584199,
+    "update_time": 1772584199,
+    "_id": "Sonnet Model"
+  },
+  "Workspace Directory (/home/clawdbot/clawd)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584199,
+    "update_time": 1772584199,
+    "_id": "Workspace Directory (/home/clawdbot/clawd)"
+  },
+  "Obsidian Vault": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584199,
+    "update_time": 1772584199,
+    "_id": "Obsidian Vault"
+  },
+  "Obsidian Vault Path (/home/clawdbot/obsidian-vault)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584199,
+    "update_time": 1772584199,
+    "_id": "Obsidian Vault Path (/home/clawdbot/obsidian-vault)"
+  },
+  "GitHub Repository (Anirach/obsidian-vault)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584199,
+    "update_time": 1772584199,
+    "_id": "GitHub Repository (Anirach/obsidian-vault)"
+  },
+  "Medication Reminders Schedule": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584199,
+    "update_time": 1772584199,
+    "_id": "Medication Reminders Schedule"
+  },
+  "Home Dashboard Link": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584200,
+    "update_time": 1772584200,
+    "_id": "Home Dashboard Link"
+  },
+  "Research MOC Link": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584200,
+    "update_time": 1772584200,
+    "_id": "Research MOC Link"
+  },
+  "Drive Convention Link": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584200,
+    "update_time": 1772584200,
+    "_id": "Drive Convention Link"
+  },
+  "VPIPE Database Guide Link": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584200,
+    "update_time": 1772584200,
+    "_id": "VPIPE Database Guide Link"
+  },
+  "Week 1 PPTX ID": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584201,
+    "update_time": 1772584201,
+    "_id": "Week 1 PPTX ID"
+  },
+  "Week 1 Handout ID": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584201,
+    "update_time": 1772584201,
+    "_id": "Week 1 Handout ID"
+  },
+  "Week 2 PPTX ID": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584201,
+    "update_time": 1772584201,
+    "_id": "Week 2 PPTX ID"
+  },
+  "April 10, 2026 Deadline": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584201,
+    "update_time": 1772584201,
+    "_id": "April 10, 2026 Deadline"
+  },
+  "August 26-28, 2026 Event Date": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584201,
+    "update_time": 1772584201,
+    "_id": "August 26-28, 2026 Event Date"
+  },
+  "Quick-Reference.md": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584201,
+    "update_time": 1772584201,
+    "_id": "Quick-Reference.md"
+  },
+  "2026-02-17 Update Date": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584201,
+    "update_time": 1772584201,
+    "_id": "2026-02-17 Update Date"
+  },
+  "Pinned Tag": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584201,
+    "update_time": 1772584201,
+    "_id": "Pinned Tag"
+  },
+  "Reference Tag": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72",
+      "chunk-2e6c0f12f725a7b639074653a878c82f"
+    ],
+    "count": 2,
+    "update_time": 1772584921,
+    "_id": "Reference Tag"
+  },
+  "Always-Load Tag": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584202,
+    "update_time": 1772584202,
+    "_id": "Always-Load Tag"
+  },
+  "Critical IDs": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584202,
+    "update_time": 1772584202,
+    "_id": "Critical IDs"
+  },
+  "Links": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584202,
+    "update_time": 1772584202,
+    "_id": "Links"
+  },
+  "Facts": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72",
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 2,
+    "update_time": 1772584341,
+    "_id": "Facts"
+  },
+  "Session Start": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584202,
+    "update_time": 1772584202,
+    "_id": "Session Start"
+  },
+  "LLM-Based Medical Diagnosis": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584202,
+    "update_time": 1772584202,
+    "_id": "LLM-Based Medical Diagnosis"
+  },
+  "Nobel Edition": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584202,
+    "update_time": 1772584202,
+    "_id": "Nobel Edition"
+  },
+  "Thai Translation (Three Old Men)": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584203,
+    "update_time": 1772584203,
+    "_id": "Thai Translation (Three Old Men)"
+  },
+  "MVP Status": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584203,
+    "update_time": 1772584203,
+    "_id": "MVP Status"
+  },
+  "72.62.251.68 IP Address": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584203,
+    "update_time": 1772584203,
+    "_id": "72.62.251.68 IP Address"
+  },
+  "Clawdbot System": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584203,
+    "update_time": 1772584203,
+    "_id": "Clawdbot System"
+  },
+  "Clawd Project Directory": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584204,
+    "update_time": 1772584204,
+    "_id": "Clawd Project Directory"
+  },
+  "Google Drive Service": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584204,
+    "update_time": 1772584204,
+    "_id": "Google Drive Service"
+  },
+  "Google AI Service": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584204,
+    "update_time": 1772584204,
+    "_id": "Google AI Service"
+  },
+  "Nano Banana Model": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584204,
+    "update_time": 1772584204,
+    "_id": "Nano Banana Model"
+  },
+  "OpenRouter Service": {
+    "chunk_ids": [
+      "chunk-5a199a577367afc1799777199de40b72"
+    ],
+    "count": 1,
+    "create_time": 1772584204,
+    "update_time": 1772584204,
+    "_id": "OpenRouter Service"
+  },
+  "Home Dashboard": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f",
+      "chunk-57ca52f28d5bc68f21ab7c9caf670243"
+    ],
+    "count": 2,
+    "update_time": 1772585226,
+    "_id": "Home Dashboard"
+  },
+  "RAG Second Brain Paper Project": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584228,
+    "update_time": 1772584228,
+    "_id": "RAG Second Brain Paper Project"
+  },
+  "GitHub": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f",
+      "chunk-0f077cc9ec87b144f1c492fa97cab376",
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 3,
+    "update_time": 1772585316,
+    "_id": "GitHub"
+  },
+  "Three Old Men Project": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584229,
+    "update_time": 1772584229,
+    "_id": "Three Old Men Project"
+  },
+  "LobsterBoard Project": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584229,
+    "update_time": 1772584229,
+    "_id": "LobsterBoard Project"
+  },
+  "VPIPE Database Project": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584229,
+    "update_time": 1772584229,
+    "_id": "VPIPE Database Project"
+  },
+  "OpenClaw Web UI Project": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584229,
+    "update_time": 1772584229,
+    "_id": "OpenClaw Web UI Project"
+  },
+  "Academic Paper Team": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584230,
+    "update_time": 1772584230,
+    "_id": "Academic Paper Team"
+  },
+  "Writing Team": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f",
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 2,
+    "update_time": 1772584378,
+    "_id": "Writing Team"
+  },
+  "Translation Team": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584230,
+    "update_time": 1772584230,
+    "_id": "Translation Team"
+  },
+  "Course Prep Team": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584231,
+    "update_time": 1772584231,
+    "_id": "Course Prep Team"
+  },
+  "Coding Team": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f",
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 3,
+    "update_time": 1772585752,
+    "_id": "Coding Team"
+  },
+  "Agent Teams (Overview)": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584231,
+    "update_time": 1772584231,
+    "_id": "Agent Teams (Overview)"
+  },
+  "Knowledge Graph System": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584231,
+    "update_time": 1772584231,
+    "_id": "Knowledge Graph System"
+  },
+  "Knowledge Graph People Section": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584232,
+    "update_time": 1772584232,
+    "_id": "Knowledge Graph People Section"
+  },
+  "Knowledge Graph Projects Section": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584232,
+    "update_time": 1772584232,
+    "_id": "Knowledge Graph Projects Section"
+  },
+  "Knowledge Graph Topics Section": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584232,
+    "update_time": 1772584232,
+    "_id": "Knowledge Graph Topics Section"
+  },
+  "Knowledge Graph Documents Section": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584232,
+    "update_time": 1772584232,
+    "_id": "Knowledge Graph Documents Section"
+  },
+  "Knowledge Graph Decisions Section": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584233,
+    "update_time": 1772584233,
+    "_id": "Knowledge Graph Decisions Section"
+  },
+  "Knowledge Graph Action Items Section": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584234,
+    "update_time": 1772584234,
+    "_id": "Knowledge Graph Action Items Section"
+  },
+  "MOC Research & Papers": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584234,
+    "update_time": 1772584234,
+    "_id": "MOC Research & Papers"
+  },
+  "MOC Tools & Infrastructure": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584234,
+    "update_time": 1772584234,
+    "_id": "MOC Tools & Infrastructure"
+  },
+  "MOC Teaching & Courses": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584235,
+    "update_time": 1772584235,
+    "_id": "MOC Teaching & Courses"
+  },
+  "Today's Daily Note": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584235,
+    "update_time": 1772584235,
+    "_id": "Today's Daily Note"
+  },
+  "Daily Notes Collection": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584235,
+    "update_time": 1772584235,
+    "_id": "Daily Notes Collection"
+  },
+  "Quick Reference Guide": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584235,
+    "update_time": 1772584235,
+    "_id": "Quick Reference Guide"
+  },
+  "Quick Facts Collection": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584235,
+    "update_time": 1772584235,
+    "_id": "Quick Facts Collection"
+  },
+  "Resources Collection": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584235,
+    "update_time": 1772584235,
+    "_id": "Resources Collection"
+  },
+  "Templates Collection": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584236,
+    "update_time": 1772584236,
+    "_id": "Templates Collection"
+  },
+  "Archive Collection": {
+    "chunk_ids": [
+      "chunk-c2cf3a796b09887b7b8355de43da736f"
+    ],
+    "count": 1,
+    "create_time": 1772584236,
+    "update_time": 1772584236,
+    "_id": "Archive Collection"
+  },
+  "Knowledge Graph Index": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-dbddb0cc8f3daa198946451856e988a7",
+      "chunk-ad0e1255b938172ca134381d029ccfab"
+    ],
+    "count": 4,
+    "update_time": 1772584870,
+    "_id": "Knowledge Graph Index"
+  },
+  "People Category": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-e064beaa9addbc9ee14f687e59311381",
+      "chunk-ad0e1255b938172ca134381d029ccfab",
+      "chunk-57ca52f28d5bc68f21ab7c9caf670243"
+    ],
+    "count": 5,
+    "update_time": 1772585227,
+    "_id": "People Category"
+  },
+  "Projects Category": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-ad0e1255b938172ca134381d029ccfab",
+      "chunk-57ca52f28d5bc68f21ab7c9caf670243"
+    ],
+    "count": 4,
+    "update_time": 1772585227,
+    "_id": "Projects Category"
+  },
+  "Decisions Category": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-ad0e1255b938172ca134381d029ccfab",
+      "chunk-57ca52f28d5bc68f21ab7c9caf670243"
+    ],
+    "count": 4,
+    "update_time": 1772585227,
+    "_id": "Decisions Category"
+  },
+  "Action Items Category": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
+      "chunk-ad0e1255b938172ca134381d029ccfab"
+    ],
+    "count": 2,
+    "update_time": 1772584870,
+    "_id": "Action Items Category"
+  },
+  "Documents Category": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
+      "chunk-57ca52f28d5bc68f21ab7c9caf670243"
+    ],
+    "count": 2,
+    "update_time": 1772585227,
+    "_id": "Documents Category"
+  },
+  "First-Novel": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584340,
+    "update_time": 1772584340,
+    "_id": "First-Novel"
+  },
+  "Session-Major": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584340,
+    "update_time": 1772584340,
+    "_id": "Session-Major"
+  },
+  "System-Optimization": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584340,
+    "update_time": 1772584340,
+    "_id": "System-Optimization"
+  },
+  "2026-03-03-Items--153": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584340,
+    "update_time": 1772584340,
+    "_id": "2026-03-03-Items--153"
+  },
+  "2026-03-03--Items": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584340,
+    "update_time": 1772584340,
+    "_id": "2026-03-03--Items"
+  },
+  "2026-03-03-Items--152": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584341,
+    "update_time": 1772584341,
+    "_id": "2026-03-03-Items--152"
+  },
+  "2026-03-01-Httpsunused--Likely-From-A-Config-Wizard-Pla": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584341,
+    "update_time": 1772584341,
+    "_id": "2026-03-01-Httpsunused--Likely-From-A-Config-Wizard-Pla"
+  },
+  "DevOps-VibeCoding-Course": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584341,
+    "update_time": 1772584341,
+    "_id": "DevOps-VibeCoding-Course"
+  },
+  "RAG-Second-Brain-Paper": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584341,
+    "update_time": 1772584341,
+    "_id": "RAG-Second-Brain-Paper"
+  },
+  "2026-03-03 23:00 Update": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584341,
+    "update_time": 1772584341,
+    "_id": "2026-03-03 23:00 Update"
+  },
+  "2026-03-03 18:00 Activity": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584341,
+    "update_time": 1772584341,
+    "_id": "2026-03-03 18:00 Activity"
+  },
+  "2026-03-01 16:00 Activity": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584341,
+    "update_time": 1772584341,
+    "_id": "2026-03-01 16:00 Activity"
+  },
+  "2026-02-28 20:01 Activity": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584342,
+    "update_time": 1772584342,
+    "_id": "2026-02-28 20:01 Activity"
+  },
+  "2026-02-23 18:03 Activity": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584342,
+    "update_time": 1772584342,
+    "_id": "2026-02-23 18:03 Activity"
+  },
+  "KnowledgeGraph/_Index.md": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af"
+    ],
+    "count": 2,
+    "update_time": 1772584378,
+    "_id": "KnowledgeGraph/_Index.md"
+  },
+  "Type Index": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584342,
+    "update_time": 1772584342,
+    "_id": "Type Index"
+  },
+  "Knowledge-Graph Tag": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584342,
+    "update_time": 1772584342,
+    "_id": "Knowledge-Graph Tag"
+  },
+  "Index Tag": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584342,
+    "update_time": 1772584342,
+    "_id": "Index Tag"
+  },
+  "People Count": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584343,
+    "update_time": 1772584343,
+    "_id": "People Count"
+  },
+  "Projects Count": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584343,
+    "update_time": 1772584343,
+    "_id": "Projects Count"
+  },
+  "Decisions Count": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584343,
+    "update_time": 1772584343,
+    "_id": "Decisions Count"
+  },
+  "Action Items Count": {
+    "chunk_ids": [
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+    ],
+    "count": 1,
+    "create_time": 1772584343,
+    "update_time": 1772584343,
+    "_id": "Action Items Count"
+  },
+  "Longevity & Healthcare": {
+    "chunk_ids": [
+      "chunk-2952aa4f91af10dd793cdcbd918a60a2"
+    ],
+    "count": 1,
+    "create_time": 1772584371,
+    "update_time": 1772584371,
+    "_id": "Longevity & Healthcare"
+  },
+  "Recent Notes": {
+    "chunk_ids": [
+      "chunk-2952aa4f91af10dd793cdcbd918a60a2"
+    ],
+    "count": 1,
+    "create_time": 1772584372,
+    "update_time": 1772584372,
+    "_id": "Recent Notes"
+  },
+  "Dataview": {
+    "chunk_ids": [
+      "chunk-2952aa4f91af10dd793cdcbd918a60a2"
+    ],
+    "count": 1,
+    "create_time": 1772584372,
+    "update_time": 1772584372,
+    "_id": "Dataview"
+  },
+  "Research Tag": {
+    "chunk_ids": [
+      "chunk-2952aa4f91af10dd793cdcbd918a60a2"
+    ],
+    "count": 1,
+    "create_time": 1772584372,
+    "update_time": 1772584372,
+    "_id": "Research Tag"
+  },
+  "File Modification Time": {
+    "chunk_ids": [
+      "chunk-2952aa4f91af10dd793cdcbd918a60a2"
+    ],
+    "count": 1,
+    "create_time": 1772584372,
+    "update_time": 1772584372,
+    "_id": "File Modification Time"
+  },
+  "Tags (Data Attribute)": {
+    "chunk_ids": [
+      "chunk-2952aa4f91af10dd793cdcbd918a60a2"
+    ],
+    "count": 1,
+    "create_time": 1772584372,
+    "update_time": 1772584372,
+    "_id": "Tags (Data Attribute)"
+  },
+  "Modified (Column)": {
+    "chunk_ids": [
+      "chunk-2952aa4f91af10dd793cdcbd918a60a2"
+    ],
+    "count": 1,
+    "create_time": 1772584372,
+    "update_time": 1772584372,
+    "_id": "Modified (Column)"
+  },
+  "By Topic": {
+    "chunk_ids": [
+      "chunk-2952aa4f91af10dd793cdcbd918a60a2"
+    ],
+    "count": 1,
+    "create_time": 1772584372,
+    "update_time": 1772584372,
+    "_id": "By Topic"
+  },
+  "System Optimization Session": {
+    "chunk_ids": [
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af",
+      "chunk-dbddb0cc8f3daa198946451856e988a7"
+    ],
+    "count": 2,
+    "create_time": 1772584376,
+    "update_time": 1772584376,
+    "_id": "System Optimization Session"
+  },
+  "Memory Search": {
+    "chunk_ids": [
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af",
+      "chunk-dbddb0cc8f3daa198946451856e988a7",
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 3,
+    "update_time": 1772585268,
+    "_id": "Memory Search"
+  },
+  "Google Embedding Provider": {
+    "chunk_ids": [
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af",
+      "chunk-dbddb0cc8f3daa198946451856e988a7",
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 3,
+    "update_time": 1772585268,
+    "_id": "Google Embedding Provider"
+  },
+  "Generative Language API": {
+    "chunk_ids": [
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af",
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 2,
+    "update_time": 1772585269,
+    "_id": "Generative Language API"
+  },
+  "BKK": {
+    "chunk_ids": [
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 3,
+    "update_time": 1772584707,
+    "_id": "BKK"
+  },
+  "Session Snapshot": {
+    "chunk_ids": [
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af",
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 2,
+    "update_time": 1772585271,
+    "_id": "Session Snapshot"
+  },
+  "Agent: Chapter-Writer: Main": {
+    "chunk_ids": [
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af"
+    ],
+    "count": 1,
+    "create_time": 1772584377,
+    "update_time": 1772584377,
+    "_id": "Agent: Chapter-Writer: Main"
+  },
+  "Telegram User": {
+    "chunk_ids": [
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af"
+    ],
+    "count": 1,
+    "create_time": 1772584377,
+    "update_time": 1772584377,
+    "_id": "Telegram User"
+  },
+  "Restart Command": {
+    "chunk_ids": [
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af"
+    ],
+    "count": 1,
+    "create_time": 1772584377,
+    "update_time": 1772584377,
+    "_id": "Restart Command"
+  },
+  "Auto-Snapshot": {
+    "chunk_ids": [
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af"
+    ],
+    "count": 1,
+    "create_time": 1772584377,
+    "update_time": 1772584377,
+    "_id": "Auto-Snapshot"
+  },
+  "Daily Notes": {
+    "chunk_ids": [
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 3,
+    "update_time": 1772585271,
+    "_id": "Daily Notes"
+  },
+  "Memory": {
+    "chunk_ids": [
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af",
+      "chunk-54584911fe0f3952d96167d568620e03",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-2f30a8d91993f68af9395b1e286ae615",
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 5,
+    "update_time": 1772585270,
+    "_id": "Memory"
+  },
+  "First Novel": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5",
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-02c142cb55bfe21786326d82ec655339"
+    ],
+    "count": 3,
+    "create_time": 1772584378,
+    "update_time": 1772584378,
+    "_id": "First Novel"
+  },
+  "Book-Architect": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 1,
+    "create_time": 1772584378,
+    "update_time": 1772584378,
+    "_id": "Book-Architect"
+  },
+  "Research-Lead": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 1,
+    "create_time": 1772584378,
+    "update_time": 1772584378,
+    "_id": "Research-Lead"
+  },
+  "Chapter-Writer": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 1,
+    "create_time": 1772584379,
+    "update_time": 1772584379,
+    "_id": "Chapter-Writer"
+  },
+  "Dev-Editor": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 1,
+    "create_time": 1772584379,
+    "update_time": 1772584379,
+    "_id": "Dev-Editor"
+  },
+  "Copy-Editor": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 1,
+    "create_time": 1772584379,
+    "update_time": 1772584379,
+    "_id": "Copy-Editor"
+  },
+  "Publisher": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 1,
+    "create_time": 1772584379,
+    "update_time": 1772584379,
+    "_id": "Publisher"
+  },
+  "Opus": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 1,
+    "create_time": 1772584379,
+    "update_time": 1772584379,
+    "_id": "Opus"
+  },
+  "Workspaces": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 1,
+    "create_time": 1772584379,
+    "update_time": 1772584379,
+    "_id": "Workspaces"
+  },
+  "Obsidian Daily/2026-02-05.md": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 1,
+    "create_time": 1772584379,
+    "update_time": 1772584379,
+    "_id": "Obsidian Daily/2026-02-05.md"
+  },
+  "Memory Log - 2026-02-05": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5",
+      "chunk-02c142cb55bfe21786326d82ec655339"
+    ],
+    "count": 2,
+    "create_time": 1772584379,
+    "update_time": 1772584379,
+    "_id": "Memory Log - 2026-02-05"
+  },
+  "Obsidian KnowledgeGraph/People/First-Novel.md": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 1,
+    "create_time": 1772584380,
+    "update_time": 1772584380,
+    "_id": "Obsidian KnowledgeGraph/People/First-Novel.md"
+  },
+  "Major Accomplishments": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 1,
+    "create_time": 1772584380,
+    "update_time": 1772584380,
+    "_id": "Major Accomplishments"
+  },
+  "Thinking": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 1,
+    "create_time": 1772584380,
+    "update_time": 1772584380,
+    "_id": "Thinking"
+  },
+  "Openclaw": {
+    "chunk_ids": [
+      "chunk-481427393c6695a98dde842249c71ce5"
+    ],
+    "count": 1,
+    "create_time": 1772584380,
+    "update_time": 1772584380,
+    "_id": "Openclaw"
+  },
+  "Memory Log": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4"
+    ],
+    "count": 2,
+    "update_time": 1772585081,
+    "_id": "Memory Log"
+  },
+  "Workflow": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 3,
+    "update_time": 1772584706,
+    "_id": "Workflow"
+  },
+  "Cron Delivery Settings": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 3,
+    "update_time": 1772584706,
+    "_id": "Cron Delivery Settings"
+  },
+  "New Jobs": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 3,
+    "update_time": 1772584706,
+    "_id": "New Jobs"
+  },
+  "Notification Spam": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 3,
+    "update_time": 1772584707,
+    "_id": "Notification Spam"
+  },
+  "Session Remember.py": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-2f30a8d91993f68af9395b1e286ae615",
+      "chunk-6a5125c828cf8928c4d9f36005ee5a06"
+    ],
+    "count": 3,
+    "update_time": 1772585082,
+    "_id": "Session Remember.py"
+  },
+  "Arscontexta": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 3,
+    "update_time": 1772584707,
+    "_id": "Arscontexta"
+  },
+  "/Remember Command": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103"
+    ],
+    "count": 1,
+    "create_time": 1772584381,
+    "update_time": 1772584381,
+    "_id": "/Remember Command"
+  },
+  "Memory (Source)": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103"
+    ],
+    "count": 1,
+    "create_time": 1772584382,
+    "update_time": 1772584382,
+    "_id": "Memory (Source)"
+  },
+  "Obsidian Daily Note File": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103"
+    ],
+    "count": 1,
+    "create_time": 1772584382,
+    "update_time": 1772584382,
+    "_id": "Obsidian Daily Note File"
+  },
+  "Obsidian People File": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103"
+    ],
+    "count": 1,
+    "create_time": 1772584382,
+    "update_time": 1772584382,
+    "_id": "Obsidian People File"
+  },
+  "Obsidian Index File": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103"
+    ],
+    "count": 1,
+    "create_time": 1772584382,
+    "update_time": 1772584382,
+    "_id": "Obsidian Index File"
+  },
+  "Batch Process": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 3,
+    "update_time": 1772585271,
+    "_id": "Batch Process"
+  },
+  "Session Learnings": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 3,
+    "update_time": 1772584707,
+    "_id": "Session Learnings"
+  },
+  "Decisions Made": {
+    "chunk_ids": [
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 3,
+    "update_time": 1772584707,
+    "_id": "Decisions Made"
+  },
+  "People": {
+    "chunk_ids": [
+      "chunk-dbddb0cc8f3daa198946451856e988a7",
+      "chunk-576fa1ed41557cc09379e9532cd8fc48"
+    ],
+    "count": 2,
+    "update_time": 1772585000,
+    "_id": "People"
+  },
+  "Projects": {
+    "chunk_ids": [
+      "chunk-dbddb0cc8f3daa198946451856e988a7",
+      "chunk-54584911fe0f3952d96167d568620e03",
+      "chunk-576fa1ed41557cc09379e9532cd8fc48"
+    ],
+    "count": 3,
+    "update_time": 1772584996,
+    "_id": "Projects"
+  },
+  "Decisions": {
+    "chunk_ids": [
+      "chunk-dbddb0cc8f3daa198946451856e988a7"
+    ],
+    "count": 1,
+    "create_time": 1772584383,
+    "update_time": 1772584383,
+    "_id": "Decisions"
+  },
+  "Quick Reference": {
+    "chunk_ids": [
+      "chunk-dbddb0cc8f3daa198946451856e988a7",
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 2,
+    "update_time": 1772585504,
+    "_id": "Quick Reference"
+  },
+  "Telegram ID": {
+    "chunk_ids": [
+      "chunk-dbddb0cc8f3daa198946451856e988a7"
+    ],
+    "count": 1,
+    "create_time": 1772584384,
+    "update_time": 1772584384,
+    "_id": "Telegram ID"
+  },
+  "7579913696": {
+    "chunk_ids": [
+      "chunk-dbddb0cc8f3daa198946451856e988a7"
+    ],
+    "count": 1,
+    "create_time": 1772584384,
+    "update_time": 1772584384,
+    "_id": "7579913696"
+  },
+  "Base URL": {
+    "chunk_ids": [
+      "chunk-dbddb0cc8f3daa198946451856e988a7",
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 2,
+    "update_time": 1772585271,
+    "_id": "Base URL"
+  },
+  "https://generativelanguage.googleapis.com/v1beta": {
+    "chunk_ids": [
+      "chunk-dbddb0cc8f3daa198946451856e988a7"
+    ],
+    "count": 1,
+    "create_time": 1772584384,
+    "update_time": 1772584384,
+    "_id": "https://generativelanguage.googleapis.com/v1beta"
+  },
+  "Daily Notes 2026-03-01": {
+    "chunk_ids": [
+      "chunk-dbddb0cc8f3daa198946451856e988a7"
+    ],
+    "count": 1,
+    "create_time": 1772584384,
+    "update_time": 1772584384,
+    "_id": "Daily Notes 2026-03-01"
+  },
+  "KnowledgeGraph/People/First-Novel.md": {
+    "chunk_ids": [
+      "chunk-02c142cb55bfe21786326d82ec655339"
+    ],
+    "count": 1,
+    "create_time": 1772584384,
+    "update_time": 1772584384,
+    "_id": "KnowledgeGraph/People/First-Novel.md"
+  },
+  "Daily/2026-02-05.md": {
+    "chunk_ids": [
+      "chunk-02c142cb55bfe21786326d82ec655339"
+    ],
+    "count": 1,
+    "create_time": 1772584385,
+    "update_time": 1772584385,
+    "_id": "Daily/2026-02-05.md"
+  },
+  "Compaction Summary": {
+    "chunk_ids": [
+      "chunk-54584911fe0f3952d96167d568620e03",
+      "chunk-e064beaa9addbc9ee14f687e59311381"
+    ],
+    "count": 2,
+    "create_time": 1772584492,
+    "update_time": 1772584492,
+    "_id": "Compaction Summary"
+  },
+  "Compaction Summary Document": {
+    "chunk_ids": [
+      "chunk-54584911fe0f3952d96167d568620e03"
+    ],
+    "count": 1,
+    "create_time": 1772584492,
+    "update_time": 1772584492,
+    "_id": "Compaction Summary Document"
+  },
+  "Session Notes": {
+    "chunk_ids": [
+      "chunk-54584911fe0f3952d96167d568620e03"
+    ],
+    "count": 1,
+    "create_time": 1772584492,
+    "update_time": 1772584492,
+    "_id": "Session Notes"
+  },
+  "Paper V23.1": {
+    "chunk_ids": [
+      "chunk-54584911fe0f3952d96167d568620e03"
+    ],
+    "count": 1,
+    "create_time": 1772584492,
+    "update_time": 1772584492,
+    "_id": "Paper V23.1"
+  },
+  "Role": {
+    "chunk_ids": [
+      "chunk-54584911fe0f3952d96167d568620e03",
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 2,
+    "update_time": 1772584708,
+    "_id": "Role"
+  },
+  "Organization": {
+    "chunk_ids": [
+      "chunk-54584911fe0f3952d96167d568620e03"
+    ],
+    "count": 1,
+    "create_time": 1772584493,
+    "update_time": 1772584493,
+    "_id": "Organization"
+  },
+  "Pre-Compaction Summary (5:49 AM)": {
+    "chunk_ids": [
+      "chunk-54584911fe0f3952d96167d568620e03"
+    ],
+    "count": 1,
+    "create_time": 1772584493,
+    "update_time": 1772584493,
+    "_id": "Pre-Compaction Summary (5:49 AM)"
+  },
+  "Interaction Section": {
+    "chunk_ids": [
+      "chunk-54584911fe0f3952d96167d568620e03"
+    ],
+    "count": 1,
+    "create_time": 1772584493,
+    "update_time": 1772584493,
+    "_id": "Interaction Section"
+  },
+  "Flush Trigger": {
+    "chunk_ids": [
+      "chunk-54584911fe0f3952d96167d568620e03"
+    ],
+    "count": 1,
+    "create_time": 1772584494,
+    "update_time": 1772584494,
+    "_id": "Flush Trigger"
+  },
+  "Summary Compaction": {
+    "chunk_ids": [
+      "chunk-54584911fe0f3952d96167d568620e03"
+    ],
+    "count": 1,
+    "create_time": 1772584494,
+    "update_time": 1772584494,
+    "_id": "Summary Compaction"
+  },
+  "Context Loading": {
+    "chunk_ids": [
+      "chunk-54584911fe0f3952d96167d568620e03"
+    ],
+    "count": 1,
+    "create_time": 1772584494,
+    "update_time": 1772584494,
+    "_id": "Context Loading"
+  },
+  "Memory Interaction": {
+    "chunk_ids": [
+      "chunk-e064beaa9addbc9ee14f687e59311381"
+    ],
+    "count": 1,
+    "create_time": 1772584494,
+    "update_time": 1772584494,
+    "_id": "Memory Interaction"
+  },
+  "Session N Interaction": {
+    "chunk_ids": [
+      "chunk-e064beaa9addbc9ee14f687e59311381"
+    ],
+    "count": 1,
+    "create_time": 1772584494,
+    "update_time": 1772584494,
+    "_id": "Session N Interaction"
+  },
+  "Compaction-Summary.md File": {
+    "chunk_ids": [
+      "chunk-e064beaa9addbc9ee14f687e59311381"
+    ],
+    "count": 1,
+    "create_time": 1772584494,
+    "update_time": 1772584494,
+    "_id": "Compaction-Summary.md File"
+  },
+  "2026-02-20 Log Event": {
+    "chunk_ids": [
+      "chunk-e064beaa9addbc9ee14f687e59311381"
+    ],
+    "count": 1,
+    "create_time": 1772584495,
+    "update_time": 1772584495,
+    "_id": "2026-02-20 Log Event"
+  },
+  "2026-02-21 Log Event": {
+    "chunk_ids": [
+      "chunk-e064beaa9addbc9ee14f687e59311381"
+    ],
+    "count": 1,
+    "create_time": 1772584495,
+    "update_time": 1772584495,
+    "_id": "2026-02-21 Log Event"
+  },
+  "2026-02-22 Log Event": {
+    "chunk_ids": [
+      "chunk-e064beaa9addbc9ee14f687e59311381"
+    ],
+    "count": 1,
+    "create_time": 1772584495,
+    "update_time": 1772584495,
+    "_id": "2026-02-22 Log Event"
+  },
+  "2026-02-23 Log Event": {
+    "chunk_ids": [
+      "chunk-e064beaa9addbc9ee14f687e59311381"
+    ],
+    "count": 1,
+    "create_time": 1772584495,
+    "update_time": 1772584495,
+    "_id": "2026-02-23 Log Event"
+  },
+  "Unknown": {
+    "chunk_ids": [
+      "chunk-e064beaa9addbc9ee14f687e59311381",
+      "chunk-ad0e1255b938172ca134381d029ccfab"
+    ],
+    "count": 2,
+    "update_time": 1772584873,
+    "_id": "Unknown"
+  },
+  "Skills Installed": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d",
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-de7d2b034444ef30c5cd263afdaf88fd"
+    ],
+    "count": 3,
+    "create_time": 1772584527,
+    "update_time": 1772584527,
+    "_id": "Skills Installed"
+  },
+  "ClawHub": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d",
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929"
+    ],
+    "count": 2,
+    "update_time": 1772585142,
+    "_id": "ClawHub"
+  },
+  "ClawHub CLI": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d",
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929"
+    ],
+    "count": 2,
+    "update_time": 1772585143,
+    "_id": "ClawHub CLI"
+  },
+  "Npm": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d",
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929"
+    ],
+    "count": 2,
+    "update_time": 1772585143,
+    "_id": "Npm"
+  },
+  "Google Drive": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d",
+      "chunk-747382645d4ed066b3e5ef8307a73acd",
+      "chunk-771986aa17685fe6999e419c1c67ae69"
+    ],
+    "count": 3,
+    "update_time": 1772585697,
+    "_id": "Google Drive"
+  },
+  "Paper Revisions": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584528,
+    "update_time": 1772584528,
+    "_id": "Paper Revisions"
+  },
+  "Version 7 Paper": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584528,
+    "update_time": 1772584528,
+    "_id": "Version 7 Paper"
+  },
+  "Version 8 Paper": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584528,
+    "update_time": 1772584528,
+    "_id": "Version 8 Paper"
+  },
+  "Differentiability": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584528,
+    "update_time": 1772584528,
+    "_id": "Differentiability"
+  },
+  "Compute Feasibility": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584529,
+    "update_time": 1772584529,
+    "_id": "Compute Feasibility"
+  },
+  "Knowledge Graph Snapshot Dates": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584529,
+    "update_time": 1772584529,
+    "_id": "Knowledge Graph Snapshot Dates"
+  },
+  "Reviewer Concerns": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584529,
+    "update_time": 1772584529,
+    "_id": "Reviewer Concerns"
+  },
+  "Language Preference": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584529,
+    "update_time": 1772584529,
+    "_id": "Language Preference"
+  },
+  "USER.md": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d",
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929"
+    ],
+    "count": 2,
+    "update_time": 1772585143,
+    "_id": "USER.md"
+  },
+  "Frontend Design": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d",
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929"
+    ],
+    "count": 2,
+    "update_time": 1772585143,
+    "_id": "Frontend Design"
+  },
+  "UI-UX-P": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584530,
+    "update_time": 1772584530,
+    "_id": "UI-UX-P"
+  },
+  "Bookshelf App Project": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584530,
+    "update_time": 1772584530,
+    "_id": "Bookshelf App Project"
+  },
+  "/home/clawdbot/Projects/bookshelf": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584530,
+    "update_time": 1772584530,
+    "_id": "/home/clawdbot/Projects/bookshelf"
+  },
+  "Next.js 14": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d",
+      "chunk-9a2626ac3c4b4db2e1bb9274c8b58fa8",
+      "chunk-1fd7088becf52bb8a5c2ed784265260d"
+    ],
+    "count": 3,
+    "update_time": 1772585430,
+    "_id": "Next.js 14"
+  },
+  "Shadcn/UI": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d",
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 3,
+    "update_time": 1772585753,
+    "_id": "Shadcn/UI"
+  },
+  "Prisma 5": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584530,
+    "update_time": 1772584530,
+    "_id": "Prisma 5"
+  },
+  "SQLite": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d",
+      "chunk-9a2626ac3c4b4db2e1bb9274c8b58fa8",
+      "chunk-4cfb904110c88a597561e8879c2ca0b9",
+      "chunk-1fd7088becf52bb8a5c2ed784265260d"
+    ],
+    "count": 4,
+    "update_time": 1772585431,
+    "_id": "SQLite"
+  },
+  "Database Schema": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584530,
+    "update_time": 1772584530,
+    "_id": "Database Schema"
+  },
+  "Book Model": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584531,
+    "update_time": 1772584531,
+    "_id": "Book Model"
+  },
+  "Author Model": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584531,
+    "update_time": 1772584531,
+    "_id": "Author Model"
+  },
+  "Genre Model": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584531,
+    "update_time": 1772584531,
+    "_id": "Genre Model"
+  },
+  "1984 (Book)": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584531,
+    "update_time": 1772584531,
+    "_id": "1984 (Book)"
+  },
+  "Foundation (Book)": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584531,
+    "update_time": 1772584531,
+    "_id": "Foundation (Book)"
+  },
+  "Atomic Habits (Book)": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584531,
+    "update_time": 1772584531,
+    "_id": "Atomic Habits (Book)"
+  },
+  "Stev (Book)": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584531,
+    "update_time": 1772584531,
+    "_id": "Stev (Book)"
+  },
+  "Daily Log 2026-02-09": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584532,
+    "update_time": 1772584532,
+    "_id": "Daily Log 2026-02-09"
+  },
+  "Daily Notes 2026-02-03": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584532,
+    "update_time": 1772584532,
+    "_id": "Daily Notes 2026-02-03"
+  },
+  "Memory Log 2026-02-04": {
+    "chunk_ids": [
+      "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+    ],
+    "count": 1,
+    "create_time": 1772584532,
+    "update_time": 1772584532,
+    "_id": "Memory Log 2026-02-04"
+  },
+  "2026-02-09": {
+    "chunk_ids": [
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-de7d2b034444ef30c5cd263afdaf88fd"
+    ],
+    "count": 2,
+    "create_time": 1772584532,
+    "update_time": 1772584532,
+    "_id": "2026-02-09"
+  },
+  "2026-02-23": {
+    "chunk_ids": [
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-de7d2b034444ef30c5cd263afdaf88fd"
+    ],
+    "count": 2,
+    "create_time": 1772584533,
+    "update_time": 1772584533,
+    "_id": "2026-02-23"
+  },
+  "session_remember.py": {
+    "chunk_ids": [
+      "chunk-ada2e9500cf083516501a8b590959545"
+    ],
+    "count": 1,
+    "create_time": 1772584534,
+    "update_time": 1772584534,
+    "_id": "session_remember.py"
+  },
+  "/remember Command": {
+    "chunk_ids": [
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 2,
+    "update_time": 1772584707,
+    "_id": "/remember Command"
+  },
+  "2026-02-17": {
+    "chunk_ids": [
+      "chunk-ada2e9500cf083516501a8b590959545",
+      "chunk-de7d2b034444ef30c5cd263afdaf88fd",
+      "chunk-9391d10439e81889f9b12beddd037977",
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362",
+      "chunk-8f9f63c5b94225c308595bfb9786f642",
+      "chunk-0f077cc9ec87b144f1c492fa97cab376",
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada",
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 8,
+    "update_time": 1772585433,
+    "_id": "2026-02-17"
+  },
+  "Obsidian People File (Skills-Installed)": {
+    "chunk_ids": [
+      "chunk-de7d2b034444ef30c5cd263afdaf88fd"
+    ],
+    "count": 1,
+    "create_time": 1772584535,
+    "update_time": 1772584535,
+    "_id": "Obsidian People File (Skills-Installed)"
+  },
+  "Obsidian Daily Note (2026-02-09)": {
+    "chunk_ids": [
+      "chunk-de7d2b034444ef30c5cd263afdaf88fd"
+    ],
+    "count": 1,
+    "create_time": 1772584535,
+    "update_time": 1772584535,
+    "_id": "Obsidian Daily Note (2026-02-09)"
+  },
+  "2026-02-20": {
+    "chunk_ids": [
+      "chunk-de7d2b034444ef30c5cd263afdaf88fd"
+    ],
+    "count": 1,
+    "create_time": 1772584535,
+    "update_time": 1772584535,
+    "_id": "2026-02-20"
+  },
+  "2026-02-21": {
+    "chunk_ids": [
+      "chunk-de7d2b034444ef30c5cd263afdaf88fd"
+    ],
+    "count": 1,
+    "create_time": 1772584535,
+    "update_time": 1772584535,
+    "_id": "2026-02-21"
+  },
+  "2026-02-22": {
+    "chunk_ids": [
+      "chunk-de7d2b034444ef30c5cd263afdaf88fd",
+      "chunk-36c79333e70770b079d3c8c754308f31"
+    ],
+    "count": 2,
+    "update_time": 1772584953,
+    "_id": "2026-02-22"
+  },
+  "Authorization Code": {
+    "chunk_ids": [
+      "chunk-2904f3bace1d2ba9a708fff21ef75bd7",
+      "chunk-70c5932aa815cd6eef3ea2972206ea5b"
+    ],
+    "count": 2,
+    "create_time": 1772584564,
+    "update_time": 1772584564,
+    "_id": "Authorization Code"
+  },
+  "Daily Memor": {
+    "chunk_ids": [
+      "chunk-2904f3bace1d2ba9a708fff21ef75bd7"
+    ],
+    "count": 1,
+    "create_time": 1772584564,
+    "update_time": 1772584564,
+    "_id": "Daily Memor"
+  },
+  "2026-02-17 04:03 Interaction": {
+    "chunk_ids": [
+      "chunk-2904f3bace1d2ba9a708fff21ef75bd7",
+      "chunk-97fe0dddb24f17a6ff26b65970479fd5",
+      "chunk-b305d4fb2e0053a2c1d60fafeff74829",
+      "chunk-2e6c0f12f725a7b639074653a878c82f",
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 5,
+    "update_time": 1772585612,
+    "_id": "2026-02-17 04:03 Interaction"
+  },
+  "2026-02-22 04:02 Log Entry": {
+    "chunk_ids": [
+      "chunk-2904f3bace1d2ba9a708fff21ef75bd7"
+    ],
+    "count": 1,
+    "create_time": 1772584565,
+    "update_time": 1772584565,
+    "_id": "2026-02-22 04:02 Log Entry"
+  },
+  "2026-02-17 Creation Date": {
+    "chunk_ids": [
+      "chunk-2904f3bace1d2ba9a708fff21ef75bd7"
+    ],
+    "count": 1,
+    "create_time": 1772584565,
+    "update_time": 1772584565,
+    "_id": "2026-02-17 Creation Date"
+  },
+  "Daily Note 2026-01-28": {
+    "chunk_ids": [
+      "chunk-2904f3bace1d2ba9a708fff21ef75bd7"
+    ],
+    "count": 1,
+    "create_time": 1772584565,
+    "update_time": 1772584565,
+    "_id": "Daily Note 2026-01-28"
+  },
+  "Authorization Code File": {
+    "chunk_ids": [
+      "chunk-2904f3bace1d2ba9a708fff21ef75bd7"
+    ],
+    "count": 1,
+    "create_time": 1772584565,
+    "update_time": 1772584565,
+    "_id": "Authorization Code File"
+  },
+  "Authorization Code Exchange": {
+    "chunk_ids": [
+      "chunk-70c5932aa815cd6eef3ea2972206ea5b",
+      "chunk-113056c9501e9b2d79be577e20d93410"
+    ],
+    "count": 2,
+    "update_time": 1772585570,
+    "_id": "Authorization Code Exchange"
+  },
+  "Google Calendar Integration": {
+    "chunk_ids": [
+      "chunk-70c5932aa815cd6eef3ea2972206ea5b",
+      "chunk-113056c9501e9b2d79be577e20d93410"
+    ],
+    "count": 2,
+    "update_time": 1772585570,
+    "_id": "Google Calendar Integration"
+  },
+  "Google OAuth Credentials": {
+    "chunk_ids": [
+      "chunk-70c5932aa815cd6eef3ea2972206ea5b",
+      "chunk-113056c9501e9b2d79be577e20d93410"
+    ],
+    "count": 2,
+    "update_time": 1772585570,
+    "_id": "Google OAuth Credentials"
+  },
+  "Authorization URL": {
+    "chunk_ids": [
+      "chunk-70c5932aa815cd6eef3ea2972206ea5b"
+    ],
+    "count": 1,
+    "create_time": 1772584566,
+    "update_time": 1772584566,
+    "_id": "Authorization URL"
+  },
+  "Code Suggestion": {
+    "chunk_ids": [
+      "chunk-209a10793a38ab9ffb1236b426b5f37a",
+      "chunk-5ffee7e99a39b11f6d9d6277ba5594d0"
+    ],
+    "count": 2,
+    "create_time": 1772584605,
+    "update_time": 1772584605,
+    "_id": "Code Suggestion"
+  },
+  "ChartSense AI MVP": {
+    "chunk_ids": [
+      "chunk-209a10793a38ab9ffb1236b426b5f37a",
+      "chunk-88e992b721430779160720a86027f0b5"
+    ],
+    "count": 2,
+    "update_time": 1772585675,
+    "_id": "ChartSense AI MVP"
+  },
+  "Thai Hospitals": {
+    "chunk_ids": [
+      "chunk-209a10793a38ab9ffb1236b426b5f37a",
+      "chunk-88e992b721430779160720a86027f0b5"
+    ],
+    "count": 2,
+    "update_time": 1772585675,
+    "_id": "Thai Hospitals"
+  },
+  "Decision To Build Chartsense AI MVP": {
+    "chunk_ids": [
+      "chunk-209a10793a38ab9ffb1236b426b5f37a"
+    ],
+    "count": 1,
+    "create_time": 1772584606,
+    "update_time": 1772584606,
+    "_id": "Decision To Build Chartsense AI MVP"
+  },
+  "KnowledgeGraph": {
+    "chunk_ids": [
+      "chunk-5ffee7e99a39b11f6d9d6277ba5594d0",
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf",
+      "chunk-9a2626ac3c4b4db2e1bb9274c8b58fa8",
+      "chunk-576fa1ed41557cc09379e9532cd8fc48",
+      "chunk-57ca52f28d5bc68f21ab7c9caf670243",
+      "chunk-ea5150e6fca2cc266a2614914dfb7239",
+      "chunk-1fd7088becf52bb8a5c2ed784265260d",
+      "chunk-cbbf68c07d5785152cb568cb44c097d2",
+      "chunk-7347a0c6ac17d9cb58ce4f8eb857eb12",
+      "chunk-771986aa17685fe6999e419c1c67ae69"
+    ],
+    "count": 10,
+    "update_time": 1772585698,
+    "_id": "KnowledgeGraph"
+  },
+  "2026-02-14-cha": {
+    "chunk_ids": [
+      "chunk-5ffee7e99a39b11f6d9d6277ba5594d0"
+    ],
+    "count": 1,
+    "create_time": 1772584606,
+    "update_time": 1772584606,
+    "_id": "2026-02-14-cha"
+  },
+  "Date 2026-02-17": {
+    "chunk_ids": [
+      "chunk-5ffee7e99a39b11f6d9d6277ba5594d0",
+      "chunk-1fd7088becf52bb8a5c2ed784265260d",
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 3,
+    "update_time": 1772585755,
+    "_id": "Date 2026-02-17"
+  },
+  "Date 2026-02-22": {
+    "chunk_ids": [
+      "chunk-5ffee7e99a39b11f6d9d6277ba5594d0"
+    ],
+    "count": 1,
+    "create_time": 1772584606,
+    "update_time": 1772584606,
+    "_id": "Date 2026-02-22"
+  },
+  "Workflow Automation": {
+    "chunk_ids": [
+      "chunk-2bd095e771c06f111cee69eae6903528",
+      "chunk-a52871670ef07a5a1ba116162391d222",
+      "chunk-2684aef6fa11b1b9c4f0d254b34263ec"
+    ],
+    "count": 3,
+    "update_time": 1772585183,
+    "_id": "Workflow Automation"
+  },
+  "Daily Mem": {
+    "chunk_ids": [
+      "chunk-2bd095e771c06f111cee69eae6903528",
+      "chunk-2684aef6fa11b1b9c4f0d254b34263ec"
+    ],
+    "count": 2,
+    "update_time": 1772585183,
+    "_id": "Daily Mem"
+  },
+  "Workflow-Automation.md": {
+    "chunk_ids": [
+      "chunk-2bd095e771c06f111cee69eae6903528"
+    ],
+    "count": 1,
+    "create_time": 1772584609,
+    "update_time": 1772584609,
+    "_id": "Workflow-Automation.md"
+  },
+  "Daily/2026-01-29.md": {
+    "chunk_ids": [
+      "chunk-2bd095e771c06f111cee69eae6903528"
+    ],
+    "count": 1,
+    "create_time": 1772584610,
+    "update_time": 1772584610,
+    "_id": "Daily/2026-01-29.md"
+  },
+  "Academic Research Workflow Automation System": {
+    "chunk_ids": [
+      "chunk-a52871670ef07a5a1ba116162391d222",
+      "chunk-8983e2b4c186fcc645136f51f241d354"
+    ],
+    "count": 2,
+    "update_time": 1772585706,
+    "_id": "Academic Research Workflow Automation System"
+  },
+  "Daily ArXiv Monitoring": {
+    "chunk_ids": [
+      "chunk-a52871670ef07a5a1ba116162391d222",
+      "chunk-8983e2b4c186fcc645136f51f241d354"
+    ],
+    "count": 2,
+    "update_time": 1772585706,
+    "_id": "Daily ArXiv Monitoring"
+  },
+  "Computer Science and Machine Learning Categories": {
+    "chunk_ids": [
+      "chunk-a52871670ef07a5a1ba116162391d222"
+    ],
+    "count": 1,
+    "create_time": 1772584610,
+    "update_time": 1772584610,
+    "_id": "Computer Science and Machine Learning Categories"
+  },
+  "DOCX Reports": {
+    "chunk_ids": [
+      "chunk-a52871670ef07a5a1ba116162391d222"
+    ],
+    "count": 1,
+    "create_time": 1772584611,
+    "update_time": 1772584611,
+    "_id": "DOCX Reports"
+  },
+  "Google": {
+    "chunk_ids": [
+      "chunk-a52871670ef07a5a1ba116162391d222",
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 2,
+    "update_time": 1772585505,
+    "_id": "Google"
+  },
+  "New Ar": {
+    "chunk_ids": [
+      "chunk-97fe0dddb24f17a6ff26b65970479fd5",
+      "chunk-9391d10439e81889f9b12beddd037977"
+    ],
+    "count": 2,
+    "create_time": 1772584680,
+    "update_time": 1772584680,
+    "_id": "New Ar"
+  },
+  "Obsidian: Daily/2026-01-29-Longevity-Update.md": {
+    "chunk_ids": [
+      "chunk-97fe0dddb24f17a6ff26b65970479fd5"
+    ],
+    "count": 1,
+    "create_time": 1772584680,
+    "update_time": 1772584680,
+    "_id": "Obsidian: Daily/2026-01-29-Longevity-Update.md"
+  },
+  "Longevity Healthcare Research": {
+    "chunk_ids": [
+      "chunk-97fe0dddb24f17a6ff26b65970479fd5"
+    ],
+    "count": 1,
+    "create_time": 1772584680,
+    "update_time": 1772584680,
+    "_id": "Longevity Healthcare Research"
+  },
+  "Longevity Research": {
+    "chunk_ids": [
+      "chunk-97fe0dddb24f17a6ff26b65970479fd5",
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 2,
+    "update_time": 1772585610,
+    "_id": "Longevity Research"
+  },
+  "Life Extension And Aging Studies": {
+    "chunk_ids": [
+      "chunk-97fe0dddb24f17a6ff26b65970479fd5",
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 2,
+    "update_time": 1772585610,
+    "_id": "Life Extension And Aging Studies"
+  },
+  "AI Applications In Medical Diagnostics And Treatment": {
+    "chunk_ids": [
+      "chunk-97fe0dddb24f17a6ff26b65970479fd5",
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 2,
+    "update_time": 1772585611,
+    "_id": "AI Applications In Medical Diagnostics And Treatment"
+  },
+  "Research Topic Update - January 29, 2026": {
+    "chunk_ids": [
+      "chunk-97fe0dddb24f17a6ff26b65970479fd5",
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 2,
+    "update_time": 1772585609,
+    "_id": "Research Topic Update - January 29, 2026"
+  },
+  "Obsidian: KnowledgeGraph/People/New-Ar.md": {
+    "chunk_ids": [
+      "chunk-97fe0dddb24f17a6ff26b65970479fd5"
+    ],
+    "count": 1,
+    "create_time": 1772584681,
+    "update_time": 1772584681,
+    "_id": "Obsidian: KnowledgeGraph/People/New-Ar.md"
+  },
+  "KnowledgeGraph/People/New-Ar.md": {
+    "chunk_ids": [
+      "chunk-9391d10439e81889f9b12beddd037977"
+    ],
+    "count": 1,
+    "create_time": 1772584681,
+    "update_time": 1772584681,
+    "_id": "KnowledgeGraph/People/New-Ar.md"
+  },
+  "Daily/2026-01-29-Longevity-Update.md": {
+    "chunk_ids": [
+      "chunk-9391d10439e81889f9b12beddd037977",
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 2,
+    "update_time": 1772585609,
+    "_id": "Daily/2026-01-29-Longevity-Update.md"
+  },
+  "Research Topic Upd": {
+    "chunk_ids": [
+      "chunk-9391d10439e81889f9b12beddd037977"
+    ],
+    "count": 1,
+    "create_time": 1772584682,
+    "update_time": 1772584682,
+    "_id": "Research Topic Upd"
+  },
+  "Longevity Update": {
+    "chunk_ids": [
+      "chunk-9391d10439e81889f9b12beddd037977"
+    ],
+    "count": 1,
+    "create_time": 1772584682,
+    "update_time": 1772584682,
+    "_id": "Longevity Update"
+  },
+  "Added Limitations": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf",
+      "chunk-fa0b04516491978cd7f2fd3497bd74a6",
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 3,
+    "create_time": 1772584703,
+    "update_time": 1772584703,
+    "_id": "Added Limitations"
+  },
+  "RAG Second Br": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf",
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 2,
+    "create_time": 1772584703,
+    "update_time": 1772584703,
+    "_id": "RAG Second Br"
+  },
+  "Entry Creation Event": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf"
+    ],
+    "count": 1,
+    "create_time": 1772584704,
+    "update_time": 1772584704,
+    "_id": "Entry Creation Event"
+  },
+  "Obsidian Interaction 2026-02-17 04:03": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf"
+    ],
+    "count": 1,
+    "create_time": 1772584704,
+    "update_time": 1772584704,
+    "_id": "Obsidian Interaction 2026-02-17 04:03"
+  },
+  "Obsidian File Log 2026-02-21 04:00": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf"
+    ],
+    "count": 1,
+    "create_time": 1772584704,
+    "update_time": 1772584704,
+    "_id": "Obsidian File Log 2026-02-21 04:00"
+  },
+  "Obsidian File Log 2026-02-22 04:00": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf"
+    ],
+    "count": 1,
+    "create_time": 1772584704,
+    "update_time": 1772584704,
+    "_id": "Obsidian File Log 2026-02-22 04:00"
+  },
+  "Obsidian File Log 2026-02-22 04:02": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf"
+    ],
+    "count": 1,
+    "create_time": 1772584705,
+    "update_time": 1772584705,
+    "_id": "Obsidian File Log 2026-02-22 04:02"
+  },
+  "Obsidian File Log 2026-02-22 18:00": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf"
+    ],
+    "count": 1,
+    "create_time": 1772584705,
+    "update_time": 1772584705,
+    "_id": "Obsidian File Log 2026-02-22 18:00"
+  },
+  "Obsidian File Log 2026-02-22 23:00": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf"
+    ],
+    "count": 1,
+    "create_time": 1772584705,
+    "update_time": 1772584705,
+    "_id": "Obsidian File Log 2026-02-22 23:00"
+  },
+  "Obsidian File Log 2026-02-23 04:00": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf"
+    ],
+    "count": 1,
+    "create_time": 1772584705,
+    "update_time": 1772584705,
+    "_id": "Obsidian File Log 2026-02-23 04:00"
+  },
+  "Obsidian File Log 2026-02-23 04:01": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf"
+    ],
+    "count": 1,
+    "create_time": 1772584705,
+    "update_time": 1772584705,
+    "_id": "Obsidian File Log 2026-02-23 04:01"
+  },
+  "Obsidian File Log 2026-02-23 18:00": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf"
+    ],
+    "count": 1,
+    "create_time": 1772584705,
+    "update_time": 1772584705,
+    "_id": "Obsidian File Log 2026-02-23 18:00"
+  },
+  "Obsidian File Log 2026-02-23 18:01": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf"
+    ],
+    "count": 1,
+    "create_time": 1772584705,
+    "update_time": 1772584705,
+    "_id": "Obsidian File Log 2026-02-23 18:01"
+  },
+  "Obsidian Batch Log 2026-02-23 18:03": {
+    "chunk_ids": [
+      "chunk-6af547d3e45d8ad51a44b6437545d4bf"
+    ],
+    "count": 1,
+    "create_time": 1772584705,
+    "update_time": 1772584705,
+    "_id": "Obsidian Batch Log 2026-02-23 18:03"
+  },
+  "Multi-Source RAG Framework": {
+    "chunk_ids": [
+      "chunk-fa0b04516491978cd7f2fd3497bd74a6",
+      "chunk-cbbf68c07d5785152cb568cb44c097d2"
+    ],
+    "count": 2,
+    "update_time": 1772585533,
+    "_id": "Multi-Source RAG Framework"
+  },
+  "Batch": {
+    "chunk_ids": [
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 1,
+    "create_time": 1772584706,
+    "update_time": 1772584706,
+    "_id": "Batch"
+  },
+  "Interactions": {
+    "chunk_ids": [
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 1,
+    "create_time": 1772584707,
+    "update_time": 1772584707,
+    "_id": "Interactions"
+  },
+  "Org": {
+    "chunk_ids": [
+      "chunk-2f30a8d91993f68af9395b1e286ae615"
+    ],
+    "count": 1,
+    "create_time": 1772584708,
+    "update_time": 1772584708,
+    "_id": "Org"
+  },
+  "Cron Fix": {
+    "chunk_ids": [
+      "chunk-1bd439d8f06d579d7e29f33a3a379bf3",
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362"
+    ],
+    "count": 2,
+    "create_time": 1772584742,
+    "update_time": 1772584742,
+    "_id": "Cron Fix"
+  },
+  "OpenClaw Migration": {
+    "chunk_ids": [
+      "chunk-1bd439d8f06d579d7e29f33a3a379bf3",
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+    ],
+    "count": 2,
+    "update_time": 1772585345,
+    "_id": "OpenClaw Migration"
+  },
+  "Clawdbot V2026.1.24-3": {
+    "chunk_ids": [
+      "chunk-1bd439d8f06d579d7e29f33a3a379bf3",
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+    ],
+    "count": 2,
+    "update_time": 1772585345,
+    "_id": "Clawdbot V2026.1.24-3"
+  },
+  "OpenClaw V2026.1.30": {
+    "chunk_ids": [
+      "chunk-1bd439d8f06d579d7e29f33a3a379bf3",
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+    ],
+    "count": 2,
+    "update_time": 1772585345,
+    "_id": "OpenClaw V2026.1.30"
+  },
+  "Clawdbot": {
+    "chunk_ids": [
+      "chunk-1bd439d8f06d579d7e29f33a3a379bf3",
+      "chunk-36c79333e70770b079d3c8c754308f31",
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+    ],
+    "count": 3,
+    "update_time": 1772585345,
+    "_id": "Clawdbot"
+  },
+  "Moltbot": {
+    "chunk_ids": [
+      "chunk-1bd439d8f06d579d7e29f33a3a379bf3",
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+    ],
+    "count": 2,
+    "update_time": 1772585345,
+    "_id": "Moltbot"
+  },
+  "NPM": {
+    "chunk_ids": [
+      "chunk-1bd439d8f06d579d7e29f33a3a379bf3"
+    ],
+    "count": 1,
+    "create_time": 1772584742,
+    "update_time": 1772584742,
+    "_id": "NPM"
+  },
+  "2026-02-01": {
+    "chunk_ids": [
+      "chunk-1bd439d8f06d579d7e29f33a3a379bf3",
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362",
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+    ],
+    "count": 3,
+    "update_time": 1772585345,
+    "_id": "2026-02-01"
+  },
+  "Trademark Issues": {
+    "chunk_ids": [
+      "chunk-1bd439d8f06d579d7e29f33a3a379bf3",
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+    ],
+    "count": 2,
+    "update_time": 1772585346,
+    "_id": "Trademark Issues"
+  },
+  "Security Hardening": {
+    "chunk_ids": [
+      "chunk-1bd439d8f06d579d7e29f33a3a379bf3",
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+    ],
+    "count": 2,
+    "update_time": 1772585346,
+    "_id": "Security Hardening"
+  },
+  "Daily/2026-02-01.md": {
+    "chunk_ids": [
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362",
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+    ],
+    "count": 2,
+    "update_time": 1772585346,
+    "_id": "Daily/2026-02-01.md"
+  },
+  "KnowledgeGraph/People/Cron-Fix.md": {
+    "chunk_ids": [
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362"
+    ],
+    "count": 1,
+    "create_time": 1772584743,
+    "update_time": 1772584743,
+    "_id": "KnowledgeGraph/People/Cron-Fix.md"
+  },
+  "2026-02-17 04:03": {
+    "chunk_ids": [
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362",
+      "chunk-8f9f63c5b94225c308595bfb9786f642",
+      "chunk-7347a0c6ac17d9cb58ce4f8eb857eb12"
+    ],
+    "count": 3,
+    "update_time": 1772585543,
+    "_id": "2026-02-17 04:03"
+  },
+  "2026-02-20 23:26": {
+    "chunk_ids": [
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362",
+      "chunk-8f9f63c5b94225c308595bfb9786f642"
+    ],
+    "count": 2,
+    "update_time": 1772584779,
+    "_id": "2026-02-20 23:26"
+  },
+  "2026-02-21 04:00": {
+    "chunk_ids": [
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362",
+      "chunk-8f9f63c5b94225c308595bfb9786f642"
+    ],
+    "count": 2,
+    "update_time": 1772584780,
+    "_id": "2026-02-21 04:00"
+  },
+  "2026-02-22 04:00": {
+    "chunk_ids": [
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362",
+      "chunk-8f9f63c5b94225c308595bfb9786f642"
+    ],
+    "count": 2,
+    "update_time": 1772584780,
+    "_id": "2026-02-22 04:00"
+  },
+  "2026-02-22 04:02": {
+    "chunk_ids": [
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362",
+      "chunk-8f9f63c5b94225c308595bfb9786f642"
+    ],
+    "count": 2,
+    "update_time": 1772584780,
+    "_id": "2026-02-22 04:02"
+  },
+  "2026-02-23 04:00": {
+    "chunk_ids": [
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362",
+      "chunk-8f9f63c5b94225c308595bfb9786f642"
+    ],
+    "count": 2,
+    "update_time": 1772584780,
+    "_id": "2026-02-23 04:00"
+  },
+  "2026-02-23 18:01": {
+    "chunk_ids": [
+      "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362",
+      "chunk-8f9f63c5b94225c308595bfb9786f642"
+    ],
+    "count": 2,
+    "update_time": 1772584780,
+    "_id": "2026-02-23 18:01"
+  },
+  "Memory Maintenance": {
+    "chunk_ids": [
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb",
+      "chunk-8f9f63c5b94225c308595bfb9786f642",
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 3,
+    "update_time": 1772585432,
+    "_id": "Memory Maintenance"
+  },
+  "MEMORY.md": {
+    "chunk_ids": [
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb",
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 2,
+    "update_time": 1772585432,
+    "_id": "MEMORY.md"
+  },
+  "Weekly Memory Maintenance": {
+    "chunk_ids": [
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb"
+    ],
+    "count": 1,
+    "create_time": 1772584777,
+    "update_time": 1772584777,
+    "_id": "Weekly Memory Maintenance"
+  },
+  "Memory Files From Feb 12-14": {
+    "chunk_ids": [
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb"
+    ],
+    "count": 1,
+    "create_time": 1772584777,
+    "update_time": 1772584777,
+    "_id": "Memory Files From Feb 12-14"
+  },
+  "Full Installed Skills List": {
+    "chunk_ids": [
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb",
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 2,
+    "update_time": 1772585433,
+    "_id": "Full Installed Skills List"
+  },
+  "Important Events For Feb 12-14": {
+    "chunk_ids": [
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb",
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 2,
+    "update_time": 1772585433,
+    "_id": "Important Events For Feb 12-14"
+  },
+  "Daily/2026-02-15.md": {
+    "chunk_ids": [
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb",
+      "chunk-8f9f63c5b94225c308595bfb9786f642",
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 3,
+    "update_time": 1772585431,
+    "_id": "Daily/2026-02-15.md"
+  },
+  "KnowledgeGraph/People/DuckMan.md": {
+    "chunk_ids": [
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb"
+    ],
+    "count": 1,
+    "create_time": 1772584778,
+    "update_time": 1772584778,
+    "_id": "KnowledgeGraph/People/DuckMan.md"
+  },
+  "KnowledgeGraph/People/Anirach.md": {
+    "chunk_ids": [
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb"
+    ],
+    "count": 1,
+    "create_time": 1772584778,
+    "update_time": 1772584778,
+    "_id": "KnowledgeGraph/People/Anirach.md"
+  },
+  "Arthur's Daily Notes (2026-02-16)": {
+    "chunk_ids": [
+      "chunk-c758a8c08dcaf507d7e3c18d75d2cefb"
+    ],
+    "count": 1,
+    "create_time": 1772584778,
+    "update_time": 1772584778,
+    "_id": "Arthur's Daily Notes (2026-02-16)"
+  },
+  "KnowledgeGraph/People/Memory-Maintenance.md": {
+    "chunk_ids": [
+      "chunk-8f9f63c5b94225c308595bfb9786f642"
+    ],
+    "count": 1,
+    "create_time": 1772584779,
+    "update_time": 1772584779,
+    "_id": "KnowledgeGraph/People/Memory-Maintenance.md"
+  },
+  "2026-02-15": {
+    "chunk_ids": [
+      "chunk-8f9f63c5b94225c308595bfb9786f642",
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 2,
+    "update_time": 1772585434,
+    "_id": "2026-02-15"
+  },
+  "2026-02-20 04:02": {
+    "chunk_ids": [
+      "chunk-8f9f63c5b94225c308595bfb9786f642"
+    ],
+    "count": 1,
+    "create_time": 1772584779,
+    "update_time": 1772584779,
+    "_id": "2026-02-20 04:02"
+  },
+  "Complete Books": {
+    "chunk_ids": [
+      "chunk-9a2626ac3c4b4db2e1bb9274c8b58fa8",
+      "chunk-b305d4fb2e0053a2c1d60fafeff74829"
+    ],
+    "count": 2,
+    "create_time": 1772584809,
+    "update_time": 1772584809,
+    "_id": "Complete Books"
+  },
+  "Personal Books Management System": {
+    "chunk_ids": [
+      "chunk-9a2626ac3c4b4db2e1bb9274c8b58fa8"
+    ],
+    "count": 1,
+    "create_time": 1772584809,
+    "update_time": 1772584809,
+    "_id": "Personal Books Management System"
+  },
+  "Shadcn/Ui": {
+    "chunk_ids": [
+      "chunk-9a2626ac3c4b4db2e1bb9274c8b58fa8"
+    ],
+    "count": 1,
+    "create_time": 1772584810,
+    "update_time": 1772584810,
+    "_id": "Shadcn/Ui"
+  },
+  "Tailwind": {
+    "chunk_ids": [
+      "chunk-9a2626ac3c4b4db2e1bb9274c8b58fa8"
+    ],
+    "count": 1,
+    "create_time": 1772584810,
+    "update_time": 1772584810,
+    "_id": "Tailwind"
+  },
+  "Prisma": {
+    "chunk_ids": [
+      "chunk-9a2626ac3c4b4db2e1bb9274c8b58fa8",
+      "chunk-1fd7088becf52bb8a5c2ed784265260d"
+    ],
+    "count": 2,
+    "update_time": 1772585431,
+    "_id": "Prisma"
+  },
+  "Personal Books Management Project": {
+    "chunk_ids": [
+      "chunk-b305d4fb2e0053a2c1d60fafeff74829"
+    ],
+    "count": 1,
+    "create_time": 1772584810,
+    "update_time": 1772584810,
+    "_id": "Personal Books Management Project"
+  },
+  "2026-02-21 04:00 Interaction": {
+    "chunk_ids": [
+      "chunk-b305d4fb2e0053a2c1d60fafeff74829"
+    ],
+    "count": 1,
+    "create_time": 1772584811,
+    "update_time": 1772584811,
+    "_id": "2026-02-21 04:00 Interaction"
+  },
+  "2026-02-22 04:00 Interaction": {
+    "chunk_ids": [
+      "chunk-b305d4fb2e0053a2c1d60fafeff74829"
+    ],
+    "count": 1,
+    "create_time": 1772584811,
+    "update_time": 1772584811,
+    "_id": "2026-02-22 04:00 Interaction"
+  },
+  "2026-02-22 04:02 Interaction": {
+    "chunk_ids": [
+      "chunk-b305d4fb2e0053a2c1d60fafeff74829"
+    ],
+    "count": 1,
+    "create_time": 1772584811,
+    "update_time": 1772584811,
+    "_id": "2026-02-22 04:02 Interaction"
+  },
+  "2026-02-23 04:00 Interaction": {
+    "chunk_ids": [
+      "chunk-b305d4fb2e0053a2c1d60fafeff74829"
+    ],
+    "count": 1,
+    "create_time": 1772584811,
+    "update_time": 1772584811,
+    "_id": "2026-02-23 04:00 Interaction"
+  },
+  "2026-02-23 18:00 Interaction": {
+    "chunk_ids": [
+      "chunk-b305d4fb2e0053a2c1d60fafeff74829"
+    ],
+    "count": 1,
+    "create_time": 1772584811,
+    "update_time": 1772584811,
+    "_id": "2026-02-23 18:00 Interaction"
+  },
+  "2026-02-23 18:01 Interaction": {
+    "chunk_ids": [
+      "chunk-b305d4fb2e0053a2c1d60fafeff74829"
+    ],
+    "count": 1,
+    "create_time": 1772584811,
+    "update_time": 1772584811,
+    "_id": "2026-02-23 18:01 Interaction"
+  },
+  "Identity-Verification": {
+    "chunk_ids": [
+      "chunk-2df7e45fa50bcc56ec15623582e80a51",
+      "chunk-ad0e1255b938172ca134381d029ccfab"
+    ],
+    "count": 2,
+    "create_time": 1772584868,
+    "update_time": 1772584868,
+    "_id": "Identity-Verification"
+  },
+  "KnowledgeGraph/_index.md": {
+    "chunk_ids": [
+      "chunk-2df7e45fa50bcc56ec15623582e80a51"
+    ],
+    "count": 1,
+    "create_time": 1772584868,
+    "update_time": 1772584868,
+    "_id": "KnowledgeGraph/_index.md"
+  },
+  "KnowledgeGraph/People/Identity-Verification.md": {
+    "chunk_ids": [
+      "chunk-2df7e45fa50bcc56ec15623582e80a51"
+    ],
+    "count": 1,
+    "create_time": 1772584868,
+    "update_time": 1772584868,
+    "_id": "KnowledgeGraph/People/Identity-Verification.md"
+  },
+  "Interaction Event 2026-02-17 18:02": {
+    "chunk_ids": [
+      "chunk-2df7e45fa50bcc56ec15623582e80a51"
+    ],
+    "count": 1,
+    "create_time": 1772584869,
+    "update_time": 1772584869,
+    "_id": "Interaction Event 2026-02-17 18:02"
+  },
+  "File Entry Event 2026-02-21 04:00": {
+    "chunk_ids": [
+      "chunk-2df7e45fa50bcc56ec15623582e80a51"
+    ],
+    "count": 1,
+    "create_time": 1772584869,
+    "update_time": 1772584869,
+    "_id": "File Entry Event 2026-02-21 04:00"
+  },
+  "File Entry Event 2026-02-22 04:00": {
+    "chunk_ids": [
+      "chunk-2df7e45fa50bcc56ec15623582e80a51"
+    ],
+    "count": 1,
+    "create_time": 1772584869,
+    "update_time": 1772584869,
+    "_id": "File Entry Event 2026-02-22 04:00"
+  },
+  "Creation Event 2026-02-17": {
+    "chunk_ids": [
+      "chunk-2df7e45fa50bcc56ec15623582e80a51"
+    ],
+    "count": 1,
+    "create_time": 1772584869,
+    "update_time": 1772584869,
+    "_id": "Creation Event 2026-02-17"
+  },
+  "Obsidian: KnowledgeGraph/People/Identity-Verification.md": {
+    "chunk_ids": [
+      "chunk-ad0e1255b938172ca134381d029ccfab"
+    ],
+    "count": 1,
+    "create_time": 1772584869,
+    "update_time": 1772584869,
+    "_id": "Obsidian: KnowledgeGraph/People/Identity-Verification.md"
+  },
+  "Obsidian: KnowledgeGraph/_index.md": {
+    "chunk_ids": [
+      "chunk-ad0e1255b938172ca134381d029ccfab"
+    ],
+    "count": 1,
+    "create_time": 1772584869,
+    "update_time": 1772584869,
+    "_id": "Obsidian: KnowledgeGraph/_index.md"
+  },
+  "Quick Status": {
+    "chunk_ids": [
+      "chunk-31b6d14f3a78565ad12596af516da470"
+    ],
+    "count": 1,
+    "create_time": 1772584879,
+    "update_time": 1772584879,
+    "_id": "Quick Status"
+  },
+  "Quick-Status.md": {
+    "chunk_ids": [
+      "chunk-31b6d14f3a78565ad12596af516da470"
+    ],
+    "count": 1,
+    "create_time": 1772584879,
+    "update_time": 1772584879,
+    "_id": "Quick-Status.md"
+  },
+  "_Topics-Index.md": {
+    "chunk_ids": [
+      "chunk-31b6d14f3a78565ad12596af516da470"
+    ],
+    "count": 1,
+    "create_time": 1772584879,
+    "update_time": 1772584879,
+    "_id": "_Topics-Index.md"
+  },
+  "Topic Index": {
+    "chunk_ids": [
+      "chunk-31b6d14f3a78565ad12596af516da470",
+      "chunk-7347a0c6ac17d9cb58ce4f8eb857eb12"
+    ],
+    "count": 2,
+    "update_time": 1772585543,
+    "_id": "Topic Index"
+  },
+  "Research & Papers": {
+    "chunk_ids": [
+      "chunk-31b6d14f3a78565ad12596af516da470",
+      "chunk-cbbf68c07d5785152cb568cb44c097d2"
+    ],
+    "count": 2,
+    "update_time": 1772585534,
+    "_id": "Research & Papers"
+  },
+  "Quick Status Legend": {
+    "chunk_ids": [
+      "chunk-31b6d14f3a78565ad12596af516da470"
+    ],
+    "count": 1,
+    "create_time": 1772584880,
+    "update_time": 1772584880,
+    "_id": "Quick Status Legend"
+  },
+  "Management Testing": {
+    "chunk_ids": [
+      "chunk-c73f87c648644d0f5886df071cfc4b6b"
+    ],
+    "count": 1,
+    "create_time": 1772584909,
+    "update_time": 1772584909,
+    "_id": "Management Testing"
+  },
+  "PPlus": {
+    "chunk_ids": [
+      "chunk-c73f87c648644d0f5886df071cfc4b6b"
+    ],
+    "count": 1,
+    "create_time": 1772584909,
+    "update_time": 1772584909,
+    "_id": "PPlus"
+  },
+  "Project Management Testing": {
+    "chunk_ids": [
+      "chunk-c73f87c648644d0f5886df071cfc4b6b"
+    ],
+    "count": 1,
+    "create_time": 1772584909,
+    "update_time": 1772584909,
+    "_id": "Project Management Testing"
+  },
+  "Mobile App Development Project": {
+    "chunk_ids": [
+      "chunk-c73f87c648644d0f5886df071cfc4b6b"
+    ],
+    "count": 1,
+    "create_time": 1772584909,
+    "update_time": 1772584909,
+    "_id": "Mobile App Development Project"
+  },
+  "PPLUS Workspace": {
+    "chunk_ids": [
+      "chunk-c73f87c648644d0f5886df071cfc4b6b"
+    ],
+    "count": 1,
+    "create_time": 1772584910,
+    "update_time": 1772584910,
+    "_id": "PPLUS Workspace"
+  },
+  "Content Creation Template": {
+    "chunk_ids": [
+      "chunk-c73f87c648644d0f5886df071cfc4b6b"
+    ],
+    "count": 1,
+    "create_time": 1772584910,
+    "update_time": 1772584910,
+    "_id": "Content Creation Template"
+  },
+  "Daily Notes 2026-02-02": {
+    "chunk_ids": [
+      "chunk-c73f87c648644d0f5886df071cfc4b6b"
+    ],
+    "count": 1,
+    "create_time": 1772584910,
+    "update_time": 1772584910,
+    "_id": "Daily Notes 2026-02-02"
+  },
+  "KnowledgeGraph/People/Management-Testing.md": {
+    "chunk_ids": [
+      "chunk-c73f87c648644d0f5886df071cfc4b6b"
+    ],
+    "count": 1,
+    "create_time": 1772584910,
+    "update_time": 1772584910,
+    "_id": "KnowledgeGraph/People/Management-Testing.md"
+  },
+  "Test Session 2": {
+    "chunk_ids": [
+      "chunk-c73f87c648644d0f5886df071cfc4b6b"
+    ],
+    "count": 1,
+    "create_time": 1772584910,
+    "update_time": 1772584910,
+    "_id": "Test Session 2"
+  },
+  "My Workspace": {
+    "chunk_ids": [
+      "chunk-c73f87c648644d0f5886df071cfc4b6b"
+    ],
+    "count": 1,
+    "create_time": 1772584910,
+    "update_time": 1772584910,
+    "_id": "My Workspace"
+  },
+  "Decryption Key": {
+    "chunk_ids": [
+      "chunk-2e6c0f12f725a7b639074653a878c82f"
+    ],
+    "count": 1,
+    "create_time": 1772584919,
+    "update_time": 1772584919,
+    "_id": "Decryption Key"
+  },
+  "VPIPE Database Query Guide": {
+    "chunk_ids": [
+      "chunk-2e6c0f12f725a7b639074653a878c82f",
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50"
+    ],
+    "count": 2,
+    "update_time": 1772585160,
+    "_id": "VPIPE Database Query Guide"
+  },
+  "PGP Decryption Key": {
+    "chunk_ids": [
+      "chunk-2e6c0f12f725a7b639074653a878c82f"
+    ],
+    "count": 1,
+    "create_time": 1772584920,
+    "update_time": 1772584920,
+    "_id": "PGP Decryption Key"
+  },
+  "Readonly_User": {
+    "chunk_ids": [
+      "chunk-2e6c0f12f725a7b639074653a878c82f",
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50"
+    ],
+    "count": 2,
+    "update_time": 1772585160,
+    "_id": "Readonly_User"
+  },
+  "Node55136-VPIPE2Production.Googlejp.App.Ruk-Com.Cloud": {
+    "chunk_ids": [
+      "chunk-2e6c0f12f725a7b639074653a878c82f"
+    ],
+    "count": 1,
+    "create_time": 1772584920,
+    "update_time": 1772584920,
+    "_id": "Node55136-VPIPE2Production.Googlejp.App.Ruk-Com.Cloud"
+  },
+  "Port 11334": {
+    "chunk_ids": [
+      "chunk-2e6c0f12f725a7b639074653a878c82f"
+    ],
+    "count": 1,
+    "create_time": 1772584921,
+    "update_time": 1772584921,
+    "_id": "Port 11334"
+  },
+  "Vpipe2026": {
+    "chunk_ids": [
+      "chunk-2e6c0f12f725a7b639074653a878c82f",
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50"
+    ],
+    "count": 2,
+    "update_time": 1772585161,
+    "_id": "Vpipe2026"
+  },
+  "Database Tag": {
+    "chunk_ids": [
+      "chunk-2e6c0f12f725a7b639074653a878c82f"
+    ],
+    "count": 1,
+    "create_time": 1772584921,
+    "update_time": 1772584921,
+    "_id": "Database Tag"
+  },
+  "VPIPE Tag": {
+    "chunk_ids": [
+      "chunk-2e6c0f12f725a7b639074653a878c82f"
+    ],
+    "count": 1,
+    "create_time": 1772584921,
+    "update_time": 1772584921,
+    "_id": "VPIPE Tag"
+  },
+  "Sales Tag": {
+    "chunk_ids": [
+      "chunk-2e6c0f12f725a7b639074653a878c82f"
+    ],
+    "count": 1,
+    "create_time": 1772584921,
+    "update_time": 1772584921,
+    "_id": "Sales Tag"
+  },
+  "Knowledge Graph Tag": {
+    "chunk_ids": [
+      "chunk-2e6c0f12f725a7b639074653a878c82f",
+      "chunk-cbbf68c07d5785152cb568cb44c097d2"
+    ],
+    "count": 2,
+    "update_time": 1772585535,
+    "_id": "Knowledge Graph Tag"
+  },
+  "2026-02-18 04:02 Interaction": {
+    "chunk_ids": [
+      "chunk-2e6c0f12f725a7b639074653a878c82f"
+    ],
+    "count": 1,
+    "create_time": 1772584922,
+    "update_time": 1772584922,
+    "_id": "2026-02-18 04:02 Interaction"
+  },
+  "2026-02-18 23:00 Interaction": {
+    "chunk_ids": [
+      "chunk-2e6c0f12f725a7b639074653a878c82f"
+    ],
+    "count": 1,
+    "create_time": 1772584922,
+    "update_time": 1772584922,
+    "_id": "2026-02-18 23:00 Interaction"
+  },
+  "Week 4 Handout DOCX": {
+    "chunk_ids": [
+      "chunk-36c79333e70770b079d3c8c754308f31"
+    ],
+    "count": 1,
+    "create_time": 1772584952,
+    "update_time": 1772584952,
+    "_id": "Week 4 Handout DOCX"
+  },
+  "Week 5 PPTX + Handout": {
+    "chunk_ids": [
+      "chunk-36c79333e70770b079d3c8c754308f31"
+    ],
+    "count": 1,
+    "create_time": 1772584952,
+    "update_time": 1772584952,
+    "_id": "Week 5 PPTX + Handout"
+  },
+  "Kubernetes": {
+    "chunk_ids": [
+      "chunk-36c79333e70770b079d3c8c754308f31"
+    ],
+    "count": 1,
+    "create_time": 1772584952,
+    "update_time": 1772584952,
+    "_id": "Kubernetes"
+  },
+  "Drive": {
+    "chunk_ids": [
+      "chunk-36c79333e70770b079d3c8c754308f31"
+    ],
+    "count": 1,
+    "create_time": 1772584952,
+    "update_time": 1772584952,
+    "_id": "Drive"
+  },
+  "Telegram": {
+    "chunk_ids": [
+      "chunk-36c79333e70770b079d3c8c754308f31",
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 2,
+    "update_time": 1772585269,
+    "_id": "Telegram"
+  },
+  "Week 6 Sub-Agent Failure": {
+    "chunk_ids": [
+      "chunk-36c79333e70770b079d3c8c754308f31"
+    ],
+    "count": 1,
+    "create_time": 1772584953,
+    "update_time": 1772584953,
+    "_id": "Week 6 Sub-Agent Failure"
+  },
+  "PPTX": {
+    "chunk_ids": [
+      "chunk-36c79333e70770b079d3c8c754308f31"
+    ],
+    "count": 1,
+    "create_time": 1772584953,
+    "update_time": 1772584953,
+    "_id": "PPTX"
+  },
+  "KnowledgeGraph/People/Clawdbot.md": {
+    "chunk_ids": [
+      "chunk-36c79333e70770b079d3c8c754308f31"
+    ],
+    "count": 1,
+    "create_time": 1772584953,
+    "update_time": 1772584953,
+    "_id": "KnowledgeGraph/People/Clawdbot.md"
+  },
+  "Add Longevity": {
+    "chunk_ids": [
+      "chunk-be6aab37bfb99aded14c2c91c9d5ad36"
+    ],
+    "count": 1,
+    "create_time": 1772584967,
+    "update_time": 1772584967,
+    "_id": "Add Longevity"
+  },
+  "Longevity Healthcare": {
+    "chunk_ids": [
+      "chunk-be6aab37bfb99aded14c2c91c9d5ad36"
+    ],
+    "count": 1,
+    "create_time": 1772584967,
+    "update_time": 1772584967,
+    "_id": "Longevity Healthcare"
+  },
+  "Decision: Add Longevity Healthcare To Topic": {
+    "chunk_ids": [
+      "chunk-be6aab37bfb99aded14c2c91c9d5ad36"
+    ],
+    "count": 1,
+    "create_time": 1772584967,
+    "update_time": 1772584967,
+    "_id": "Decision: Add Longevity Healthcare To Topic"
+  },
+  "Knowledge Graph People: Add Longevity Document": {
+    "chunk_ids": [
+      "chunk-be6aab37bfb99aded14c2c91c9d5ad36"
+    ],
+    "count": 1,
+    "create_time": 1772584967,
+    "update_time": 1772584967,
+    "_id": "Knowledge Graph People: Add Longevity Document"
+  },
+  "Knowledge Graph Decisions: Add Longevity Healthcare Document": {
+    "chunk_ids": [
+      "chunk-be6aab37bfb99aded14c2c91c9d5ad36"
+    ],
+    "count": 1,
+    "create_time": 1772584967,
+    "update_time": 1772584967,
+    "_id": "Knowledge Graph Decisions: Add Longevity Healthcare Document"
+  },
+  "Daily Longevity Update Document": {
+    "chunk_ids": [
+      "chunk-be6aab37bfb99aded14c2c91c9d5ad36"
+    ],
+    "count": 1,
+    "create_time": 1772584967,
+    "update_time": 1772584967,
+    "_id": "Daily Longevity Update Document"
+  },
+  "Skills Integration (Person)": {
+    "chunk_ids": [
+      "chunk-445f91c1f526e727ece45cf9f6b3aacb"
+    ],
+    "count": 1,
+    "create_time": 1772584996,
+    "update_time": 1772584996,
+    "_id": "Skills Integration (Person)"
+  },
+  "Skills Integration (Project)": {
+    "chunk_ids": [
+      "chunk-445f91c1f526e727ece45cf9f6b3aacb"
+    ],
+    "count": 1,
+    "create_time": 1772584996,
+    "update_time": 1772584996,
+    "_id": "Skills Integration (Project)"
+  },
+  "Skills Integration": {
+    "chunk_ids": [
+      "chunk-576fa1ed41557cc09379e9532cd8fc48"
+    ],
+    "count": 1,
+    "create_time": 1772584996,
+    "update_time": 1772584996,
+    "_id": "Skills Integration"
+  },
+  "Skills-In": {
+    "chunk_ids": [
+      "chunk-576fa1ed41557cc09379e9532cd8fc48"
+    ],
+    "count": 1,
+    "create_time": 1772585005,
+    "update_time": 1772585005,
+    "_id": "Skills-In"
+  },
+  "All Reviewers": {
+    "chunk_ids": [
+      "chunk-0f077cc9ec87b144f1c492fa97cab376"
+    ],
+    "count": 1,
+    "create_time": 1772585070,
+    "update_time": 1772585070,
+    "_id": "All Reviewers"
+  },
+  "Curbob": {
+    "chunk_ids": [
+      "chunk-0f077cc9ec87b144f1c492fa97cab376",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 3,
+    "update_time": 1772585316,
+    "_id": "Curbob"
+  },
+  "LobsterBoard.service": {
+    "chunk_ids": [
+      "chunk-0f077cc9ec87b144f1c492fa97cab376"
+    ],
+    "count": 1,
+    "create_time": 1772585070,
+    "update_time": 1772585070,
+    "_id": "LobsterBoard.service"
+  },
+  "Server": {
+    "chunk_ids": [
+      "chunk-0f077cc9ec87b144f1c492fa97cab376",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 3,
+    "update_time": 1772585314,
+    "_id": "Server"
+  },
+  "72.62.251.68:8080": {
+    "chunk_ids": [
+      "chunk-0f077cc9ec87b144f1c492fa97cab376",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4"
+    ],
+    "count": 2,
+    "update_time": 1772585081,
+    "_id": "72.62.251.68:8080"
+  },
+  "Atlanta": {
+    "chunk_ids": [
+      "chunk-0f077cc9ec87b144f1c492fa97cab376",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 3,
+    "update_time": 1772585315,
+    "_id": "Atlanta"
+  },
+  "Bangkok": {
+    "chunk_ids": [
+      "chunk-0f077cc9ec87b144f1c492fa97cab376",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 3,
+    "update_time": 1772585315,
+    "_id": "Bangkok"
+  },
+  "2026-02-16": {
+    "chunk_ids": [
+      "chunk-0f077cc9ec87b144f1c492fa97cab376"
+    ],
+    "count": 1,
+    "create_time": 1772585071,
+    "update_time": 1772585071,
+    "_id": "2026-02-16"
+  },
+  "Weather Widget": {
+    "chunk_ids": [
+      "chunk-0f077cc9ec87b144f1c492fa97cab376",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 3,
+    "update_time": 1772585316,
+    "_id": "Weather Widget"
+  },
+  "KnowledgeGraph/People/All-Reviewers.md": {
+    "chunk_ids": [
+      "chunk-0f077cc9ec87b144f1c492fa97cab376"
+    ],
+    "count": 1,
+    "create_time": 1772585071,
+    "update_time": 1772585071,
+    "_id": "KnowledgeGraph/People/All-Reviewers.md"
+  },
+  "Arthur's Daily Notes": {
+    "chunk_ids": [
+      "chunk-0f077cc9ec87b144f1c492fa97cab376",
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4"
+    ],
+    "count": 2,
+    "update_time": 1772585080,
+    "_id": "Arthur's Daily Notes"
+  },
+  "RAG Second Brain": {
+    "chunk_ids": [
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-838a7372037dd9d7583be5b6dfb14047",
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 3,
+    "update_time": 1772585315,
+    "_id": "RAG Second Brain"
+  },
+  "Three Old Men": {
+    "chunk_ids": [
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-838a7372037dd9d7583be5b6dfb14047"
+    ],
+    "count": 2,
+    "update_time": 1772585113,
+    "_id": "Three Old Men"
+  },
+  "Systemd Service": {
+    "chunk_ids": [
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4"
+    ],
+    "count": 1,
+    "create_time": 1772585079,
+    "update_time": 1772585079,
+    "_id": "Systemd Service"
+  },
+  "RAG Second Brain Paper V15": {
+    "chunk_ids": [
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4"
+    ],
+    "count": 1,
+    "create_time": 1772585080,
+    "update_time": 1772585080,
+    "_id": "RAG Second Brain Paper V15"
+  },
+  "Sigmoid R@10": {
+    "chunk_ids": [
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-a4b9540765c9116547992f4b4a476e1a",
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 3,
+    "update_time": 1772585273,
+    "_id": "Sigmoid R@10"
+  },
+  "Softmax R@10": {
+    "chunk_ids": [
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-a4b9540765c9116547992f4b4a476e1a",
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 3,
+    "update_time": 1772585273,
+    "_id": "Softmax R@10"
+  },
+  "RRF Baseline": {
+    "chunk_ids": [
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-a4b9540765c9116547992f4b4a476e1a",
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 3,
+    "update_time": 1772585274,
+    "_id": "RRF Baseline"
+  },
+  "Statistical Significance": {
+    "chunk_ids": [
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-a4b9540765c9116547992f4b4a476e1a",
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 3,
+    "update_time": 1772585276,
+    "_id": "Statistical Significance"
+  },
+  "Learned Gating": {
+    "chunk_ids": [
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-a4b9540765c9116547992f4b4a476e1a",
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 3,
+    "update_time": 1772585273,
+    "_id": "Learned Gating"
+  },
+  "Bootstrap": {
+    "chunk_ids": [
+      "chunk-698aa50ab28f0e3566cb6e574a6621f4",
+      "chunk-a4b9540765c9116547992f4b4a476e1a"
+    ],
+    "count": 2,
+    "update_time": 1772585219,
+    "_id": "Bootstrap"
+  },
+  "RAG Second Bra": {
+    "chunk_ids": [
+      "chunk-7b3316dd810af55db2c42342b95d278e",
+      "chunk-6a5125c828cf8928c4d9f36005ee5a06"
+    ],
+    "count": 2,
+    "create_time": 1772585081,
+    "update_time": 1772585081,
+    "_id": "RAG Second Bra"
+  },
+  "Condensed Design": {
+    "chunk_ids": [
+      "chunk-7b3316dd810af55db2c42342b95d278e",
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 2,
+    "update_time": 1772585273,
+    "_id": "Condensed Design"
+  },
+  "Arscontexta /Remember Command": {
+    "chunk_ids": [
+      "chunk-6a5125c828cf8928c4d9f36005ee5a06"
+    ],
+    "count": 1,
+    "create_time": 1772585081,
+    "update_time": 1772585081,
+    "_id": "Arscontexta /Remember Command"
+  },
+  "Labrador": {
+    "chunk_ids": [
+      "chunk-6a5125c828cf8928c4d9f36005ee5a06",
+      "chunk-a4b9540765c9116547992f4b4a476e1a"
+    ],
+    "count": 2,
+    "update_time": 1772585218,
+    "_id": "Labrador"
+  },
+  "Modify Prisma": {
+    "chunk_ids": [
+      "chunk-4cfb904110c88a597561e8879c2ca0b9"
+    ],
+    "count": 1,
+    "create_time": 1772585095,
+    "update_time": 1772585095,
+    "_id": "Modify Prisma"
+  },
+  "Prisma Schema": {
+    "chunk_ids": [
+      "chunk-4cfb904110c88a597561e8879c2ca0b9"
+    ],
+    "count": 1,
+    "create_time": 1772585095,
+    "update_time": 1772585095,
+    "_id": "Prisma Schema"
+  },
+  "Decision To Modify Prisma Schema": {
+    "chunk_ids": [
+      "chunk-4cfb904110c88a597561e8879c2ca0b9"
+    ],
+    "count": 1,
+    "create_time": 1772585095,
+    "update_time": 1772585095,
+    "_id": "Decision To Modify Prisma Schema"
+  },
+  "String Array Data Type": {
+    "chunk_ids": [
+      "chunk-4cfb904110c88a597561e8879c2ca0b9"
+    ],
+    "count": 1,
+    "create_time": 1772585095,
+    "update_time": 1772585095,
+    "_id": "String Array Data Type"
+  },
+  "String Data Type": {
+    "chunk_ids": [
+      "chunk-4cfb904110c88a597561e8879c2ca0b9"
+    ],
+    "count": 1,
+    "create_time": 1772585096,
+    "update_time": 1772585096,
+    "_id": "String Data Type"
+  },
+  "Modify Prisma Markdown Document": {
+    "chunk_ids": [
+      "chunk-4cfb904110c88a597561e8879c2ca0b9"
+    ],
+    "count": 1,
+    "create_time": 1772585096,
+    "update_time": 1772585096,
+    "_id": "Modify Prisma Markdown Document"
+  },
+  "Prisma Schema Decision Document": {
+    "chunk_ids": [
+      "chunk-4cfb904110c88a597561e8879c2ca0b9"
+    ],
+    "count": 1,
+    "create_time": 1772585096,
+    "update_time": 1772585096,
+    "_id": "Prisma Schema Decision Document"
+  },
+  "Daily Notes Markdown Document": {
+    "chunk_ids": [
+      "chunk-4cfb904110c88a597561e8879c2ca0b9"
+    ],
+    "count": 1,
+    "create_time": 1772585096,
+    "update_time": 1772585096,
+    "_id": "Daily Notes Markdown Document"
+  },
+  "King Mongkut's University of Technology North Bangkok": {
+    "chunk_ids": [
+      "chunk-838a7372037dd9d7583be5b6dfb14047"
+    ],
+    "count": 1,
+    "create_time": 1772585113,
+    "update_time": 1772585113,
+    "_id": "King Mongkut's University of Technology North Bangkok"
+  },
+  "NCD-CIE": {
+    "chunk_ids": [
+      "chunk-838a7372037dd9d7583be5b6dfb14047"
+    ],
+    "count": 1,
+    "create_time": 1772585113,
+    "update_time": 1772585113,
+    "_id": "NCD-CIE"
+  },
+  "Bookshelf App": {
+    "chunk_ids": [
+      "chunk-838a7372037dd9d7583be5b6dfb14047"
+    ],
+    "count": 1,
+    "create_time": 1772585114,
+    "update_time": 1772585114,
+    "_id": "Bookshelf App"
+  },
+  "Helpdesk Booking": {
+    "chunk_ids": [
+      "chunk-838a7372037dd9d7583be5b6dfb14047"
+    ],
+    "count": 1,
+    "create_time": 1772585114,
+    "update_time": 1772585114,
+    "_id": "Helpdesk Booking"
+  },
+  "Bookshelf": {
+    "chunk_ids": [
+      "chunk-838a7372037dd9d7583be5b6dfb14047"
+    ],
+    "count": 1,
+    "create_time": 1772585114,
+    "update_time": 1772585114,
+    "_id": "Bookshelf"
+  },
+  "Claude-Skills": {
+    "chunk_ids": [
+      "chunk-838a7372037dd9d7583be5b6dfb14047"
+    ],
+    "count": 1,
+    "create_time": 1772585114,
+    "update_time": 1772585114,
+    "_id": "Claude-Skills"
+  },
+  "AI-Research-Dashboard": {
+    "chunk_ids": [
+      "chunk-838a7372037dd9d7583be5b6dfb14047"
+    ],
+    "count": 1,
+    "create_time": 1772585114,
+    "update_time": 1772585114,
+    "_id": "AI-Research-Dashboard"
+  },
+  "Obsidian-Vault": {
+    "chunk_ids": [
+      "chunk-838a7372037dd9d7583be5b6dfb14047"
+    ],
+    "count": 1,
+    "create_time": 1772585114,
+    "update_time": 1772585114,
+    "_id": "Obsidian-Vault"
+  },
+  "Installed Claw": {
+    "chunk_ids": [
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929"
+    ],
+    "count": 1,
+    "create_time": 1772585142,
+    "update_time": 1772585142,
+    "_id": "Installed Claw"
+  },
+  "Skills": {
+    "chunk_ids": [
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929"
+    ],
+    "count": 1,
+    "create_time": 1772585143,
+    "update_time": 1772585143,
+    "_id": "Skills"
+  },
+  "2026-02-03 Daily Notes": {
+    "chunk_ids": [
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929"
+    ],
+    "count": 1,
+    "create_time": 1772585143,
+    "update_time": 1772585143,
+    "_id": "2026-02-03 Daily Notes"
+  },
+  "Language Preference Update": {
+    "chunk_ids": [
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929"
+    ],
+    "count": 1,
+    "create_time": 1772585143,
+    "update_time": 1772585143,
+    "_id": "Language Preference Update"
+  },
+  "Npm Install -G ClawHub": {
+    "chunk_ids": [
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929"
+    ],
+    "count": 1,
+    "create_time": 1772585143,
+    "update_time": 1772585143,
+    "_id": "Npm Install -G ClawHub"
+  },
+  "Daily/2026-02-03.md": {
+    "chunk_ids": [
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929"
+    ],
+    "count": 1,
+    "create_time": 1772585144,
+    "update_time": 1772585144,
+    "_id": "Daily/2026-02-03.md"
+  },
+  "KnowledgeGraph/People/Installed-Claw.md": {
+    "chunk_ids": [
+      "chunk-d3ad29c3ef4ea9d4073b8f21e15af929"
+    ],
+    "count": 1,
+    "create_time": 1772585144,
+    "update_time": 1772585144,
+    "_id": "KnowledgeGraph/People/Installed-Claw.md"
+  },
+  "Sales Pipeline": {
+    "chunk_ids": [
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50"
+    ],
+    "count": 1,
+    "create_time": 1772585160,
+    "update_time": 1772585160,
+    "_id": "Sales Pipeline"
+  },
+  "Node55136-Vpipe2production.Googlejp.App.Ruk-Com.Cloud": {
+    "chunk_ids": [
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50"
+    ],
+    "count": 1,
+    "create_time": 1772585160,
+    "update_time": 1772585160,
+    "_id": "Node55136-Vpipe2production.Googlejp.App.Ruk-Com.Cloud"
+  },
+  "Pgvx-20231234": {
+    "chunk_ids": [
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50"
+    ],
+    "count": 1,
+    "create_time": 1772585160,
+    "update_time": 1772585160,
+    "_id": "Pgvx-20231234"
+  },
+  "Googlejp": {
+    "chunk_ids": [
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50"
+    ],
+    "count": 1,
+    "create_time": 1772585161,
+    "update_time": 1772585161,
+    "_id": "Googlejp"
+  },
+  "Ruk-Com.Cloud": {
+    "chunk_ids": [
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50"
+    ],
+    "count": 1,
+    "create_time": 1772585161,
+    "update_time": 1772585161,
+    "_id": "Ruk-Com.Cloud"
+  },
+  "11334": {
+    "chunk_ids": [
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50"
+    ],
+    "count": 1,
+    "create_time": 1772585161,
+    "update_time": 1772585161,
+    "_id": "11334"
+  },
+  "KnowledgeGraph/People/Sales-Pipeline.md": {
+    "chunk_ids": [
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50"
+    ],
+    "count": 1,
+    "create_time": 1772585161,
+    "update_time": 1772585161,
+    "_id": "KnowledgeGraph/People/Sales-Pipeline.md"
+  },
+  "Agents/Shared/VPIPE-Database-Guide.md": {
+    "chunk_ids": [
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50"
+    ],
+    "count": 1,
+    "create_time": 1772585162,
+    "update_time": 1772585162,
+    "_id": "Agents/Shared/VPIPE-Database-Guide.md"
+  },
+  "Interaction 2026-02-17": {
+    "chunk_ids": [
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50",
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 2,
+    "update_time": 1772585274,
+    "_id": "Interaction 2026-02-17"
+  },
+  "Interaction 2026-02-18": {
+    "chunk_ids": [
+      "chunk-dc7921c12728ce1b4fa1b4948ee21d50",
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 2,
+    "update_time": 1772585275,
+    "_id": "Interaction 2026-02-18"
+  },
+  "Interaction 2026-02-20 23:26": {
+    "chunk_ids": [
+      "chunk-2684aef6fa11b1b9c4f0d254b34263ec"
+    ],
+    "count": 1,
+    "create_time": 1772585183,
+    "update_time": 1772585183,
+    "_id": "Interaction 2026-02-20 23:26"
+  },
+  "Interaction 2026-02-17 04:03": {
+    "chunk_ids": [
+      "chunk-2684aef6fa11b1b9c4f0d254b34263ec",
+      "chunk-1fd7088becf52bb8a5c2ed784265260d"
+    ],
+    "count": 2,
+    "update_time": 1772585433,
+    "_id": "Interaction 2026-02-17 04:03"
+  },
+  "Profile Creation (2026-02-20)": {
+    "chunk_ids": [
+      "chunk-2684aef6fa11b1b9c4f0d254b34263ec"
+    ],
+    "count": 1,
+    "create_time": 1772585183,
+    "update_time": 1772585183,
+    "_id": "Profile Creation (2026-02-20)"
+  },
+  "Profile Creation (2026-02-17)": {
+    "chunk_ids": [
+      "chunk-2684aef6fa11b1b9c4f0d254b34263ec"
+    ],
+    "count": 1,
+    "create_time": 1772585184,
+    "update_time": 1772585184,
+    "_id": "Profile Creation (2026-02-17)"
+  },
+  "RAG Second Brain Paper v15": {
+    "chunk_ids": [
+      "chunk-a4b9540765c9116547992f4b4a476e1a",
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 2,
+    "update_time": 1772585273,
+    "_id": "RAG Second Brain Paper v15"
+  },
+  "Daily/2026-02-10.md": {
+    "chunk_ids": [
+      "chunk-a4b9540765c9116547992f4b4a476e1a"
+    ],
+    "count": 1,
+    "create_time": 1772585217,
+    "update_time": 1772585217,
+    "_id": "Daily/2026-02-10.md"
+  },
+  "KnowledgeGraph/People/Arthur.md": {
+    "chunk_ids": [
+      "chunk-a4b9540765c9116547992f4b4a476e1a"
+    ],
+    "count": 1,
+    "create_time": 1772585218,
+    "update_time": 1772585218,
+    "_id": "KnowledgeGraph/People/Arthur.md"
+  },
+  "AI Agent": {
+    "chunk_ids": [
+      "chunk-a4b9540765c9116547992f4b4a476e1a"
+    ],
+    "count": 1,
+    "create_time": 1772585218,
+    "update_time": 1772585218,
+    "_id": "AI Agent"
+  },
+  "Projects/RAG Second Brain": {
+    "chunk_ids": [
+      "chunk-a4b9540765c9116547992f4b4a476e1a"
+    ],
+    "count": 1,
+    "create_time": 1772585218,
+    "update_time": 1772585218,
+    "_id": "Projects/RAG Second Brain"
+  },
+  "Final Results": {
+    "chunk_ids": [
+      "chunk-a4b9540765c9116547992f4b4a476e1a"
+    ],
+    "count": 1,
+    "create_time": 1772585218,
+    "update_time": 1772585218,
+    "_id": "Final Results"
+  },
+  "Arthur's Daily Log": {
+    "chunk_ids": [
+      "chunk-a4b9540765c9116547992f4b4a476e1a"
+    ],
+    "count": 1,
+    "create_time": 1772585219,
+    "update_time": 1772585219,
+    "_id": "Arthur's Daily Log"
+  },
+  "KnowledgeGraph/People/Learned-Gating.md": {
+    "chunk_ids": [
+      "chunk-a4b9540765c9116547992f4b4a476e1a"
+    ],
+    "count": 1,
+    "create_time": 1772585219,
+    "update_time": 1772585219,
+    "_id": "KnowledgeGraph/People/Learned-Gating.md"
+  },
+  "Agent Teams": {
+    "chunk_ids": [
+      "chunk-57ca52f28d5bc68f21ab7c9caf670243",
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 2,
+    "update_time": 1772585751,
+    "_id": "Agent Teams"
+  },
+  "Topics Category": {
+    "chunk_ids": [
+      "chunk-57ca52f28d5bc68f21ab7c9caf670243"
+    ],
+    "count": 1,
+    "create_time": 1772585227,
+    "update_time": 1772585227,
+    "_id": "Topics Category"
+  },
+  "Markdown": {
+    "chunk_ids": [
+      "chunk-57ca52f28d5bc68f21ab7c9caf670243"
+    ],
+    "count": 1,
+    "create_time": 1772585227,
+    "update_time": 1772585227,
+    "_id": "Markdown"
+  },
+  "Bidirectional Linking": {
+    "chunk_ids": [
+      "chunk-57ca52f28d5bc68f21ab7c9caf670243"
+    ],
+    "count": 1,
+    "create_time": 1772585227,
+    "update_time": 1772585227,
+    "_id": "Bidirectional Linking"
+  },
+  "Session Major": {
+    "chunk_ids": [
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 1,
+    "create_time": 1772585268,
+    "update_time": 1772585268,
+    "_id": "Session Major"
+  },
+  "System Optimization": {
+    "chunk_ids": [
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 1,
+    "create_time": 1772585268,
+    "update_time": 1772585268,
+    "_id": "System Optimization"
+  },
+  "Agent:Chapter-Writer:Main": {
+    "chunk_ids": [
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 1,
+    "create_time": 1772585269,
+    "update_time": 1772585269,
+    "_id": "Agent:Chapter-Writer:Main"
+  },
+  "2026-03-01": {
+    "chunk_ids": [
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 1,
+    "create_time": 1772585270,
+    "update_time": 1772585270,
+    "_id": "2026-03-01"
+  },
+  "2026-03-02": {
+    "chunk_ids": [
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 1,
+    "create_time": 1772585270,
+    "update_time": 1772585270,
+    "_id": "2026-03-02"
+  },
+  "2026-03-03": {
+    "chunk_ids": [
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 1,
+    "create_time": 1772585270,
+    "update_time": 1772585270,
+    "_id": "2026-03-03"
+  },
+  "Telegram User ID 7579913696": {
+    "chunk_ids": [
+      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+    ],
+    "count": 1,
+    "create_time": 1772585271,
+    "update_time": 1772585271,
+    "_id": "Telegram User ID 7579913696"
+  },
+  "Daily Log 2026-02-10": {
+    "chunk_ids": [
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 1,
+    "create_time": 1772585274,
+    "update_time": 1772585274,
+    "_id": "Daily Log 2026-02-10"
+  },
+  "KnowledgeGraph People Condensed-Design.md": {
+    "chunk_ids": [
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 1,
+    "create_time": 1772585275,
+    "update_time": 1772585275,
+    "_id": "KnowledgeGraph People Condensed-Design.md"
+  },
+  "Daily 2026-02-10.md": {
+    "chunk_ids": [
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 1,
+    "create_time": 1772585275,
+    "update_time": 1772585275,
+    "_id": "Daily 2026-02-10.md"
+  },
+  "P-Value": {
+    "chunk_ids": [
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 1,
+    "create_time": 1772585276,
+    "update_time": 1772585276,
+    "_id": "P-Value"
+  },
+  "Bootstrap Method": {
+    "chunk_ids": [
+      "chunk-d113e8b1edad4ebb129a2a094a883e18"
+    ],
+    "count": 1,
+    "create_time": 1772585276,
+    "update_time": 1772585276,
+    "_id": "Bootstrap Method"
+  },
+  "Board Dashboard": {
+    "chunk_ids": [
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 1,
+    "create_time": 1772585314,
+    "update_time": 1772585314,
+    "_id": "Board Dashboard"
+  },
+  "Systemd Service Lobsterboard.service": {
+    "chunk_ids": [
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 1,
+    "create_time": 1772585315,
+    "update_time": 1772585315,
+    "_id": "Systemd Service Lobsterboard.service"
+  },
+  "IP Address 72.62.251.68:8080": {
+    "chunk_ids": [
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 1,
+    "create_time": 1772585315,
+    "update_time": 1772585315,
+    "_id": "IP Address 72.62.251.68:8080"
+  },
+  "LobsterBoard Dashboard (Project)": {
+    "chunk_ids": [
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 1,
+    "create_time": 1772585315,
+    "update_time": 1772585315,
+    "_id": "LobsterBoard Dashboard (Project)"
+  },
+  "Degree Fahrenheit": {
+    "chunk_ids": [
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 1,
+    "create_time": 1772585316,
+    "update_time": 1772585316,
+    "_id": "Degree Fahrenheit"
+  },
+  "Degree Celsius": {
+    "chunk_ids": [
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 1,
+    "create_time": 1772585316,
+    "update_time": 1772585316,
+    "_id": "Degree Celsius"
+  },
+  "GitHub Widget": {
+    "chunk_ids": [
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 1,
+    "create_time": 1772585316,
+    "update_time": 1772585316,
+    "_id": "GitHub Widget"
+  },
+  "Clock Settings": {
+    "chunk_ids": [
+      "chunk-5612c5c9efe47f2a4c36a48a45336086"
+    ],
+    "count": 1,
+    "create_time": 1772585316,
+    "update_time": 1772585316,
+    "_id": "Clock Settings"
+  },
+  "New Skills": {
+    "chunk_ids": [
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+    ],
+    "count": 1,
+    "create_time": 1772585345,
+    "update_time": 1772585345,
+    "_id": "New Skills"
+  },
+  "Npm Install -G OpenClaw": {
+    "chunk_ids": [
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+    ],
+    "count": 1,
+    "create_time": 1772585346,
+    "update_time": 1772585346,
+    "_id": "Npm Install -G OpenClaw"
+  },
+  "KnowledgeGraph/People/New-Skills.md": {
+    "chunk_ids": [
+      "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+    ],
+    "count": 1,
+    "create_time": 1772585346,
+    "update_time": 1772585346,
+    "_id": "KnowledgeGraph/People/New-Skills.md"
+  },
+  "Related Work": {
+    "chunk_ids": [
+      "chunk-e570c762971c4d1a558761ca3b304a6e"
+    ],
+    "count": 1,
+    "create_time": 1772585379,
+    "update_time": 1772585379,
+    "_id": "Related Work"
+  },
+  "Academic Team": {
+    "chunk_ids": [
+      "chunk-e570c762971c4d1a558761ca3b304a6e",
+      "chunk-1263f6dcbc96b0cd91f9ce4b885f6881"
+    ],
+    "count": 2,
+    "update_time": 1772585609,
+    "_id": "Academic Team"
+  },
+  "Paper Architect": {
+    "chunk_ids": [
+      "chunk-e570c762971c4d1a558761ca3b304a6e",
+      "chunk-1263f6dcbc96b0cd91f9ce4b885f6881"
+    ],
+    "count": 2,
+    "update_time": 1772585610,
+    "_id": "Paper Architect"
+  },
+  "CMT Reviewer Concerns": {
+    "chunk_ids": [
+      "chunk-e570c762971c4d1a558761ca3b304a6e",
+      "chunk-1263f6dcbc96b0cd91f9ce4b885f6881"
+    ],
+    "count": 2,
+    "update_time": 1772585610,
+    "_id": "CMT Reviewer Concerns"
+  },
+  "Work Log 2026-02-16": {
+    "chunk_ids": [
+      "chunk-e570c762971c4d1a558761ca3b304a6e",
+      "chunk-1263f6dcbc96b0cd91f9ce4b885f6881"
+    ],
+    "count": 2,
+    "update_time": 1772585609,
+    "_id": "Work Log 2026-02-16"
+  },
+  "KnowledgeGraph/People/Related-Work.md": {
+    "chunk_ids": [
+      "chunk-e570c762971c4d1a558761ca3b304a6e"
+    ],
+    "count": 1,
+    "create_time": 1772585380,
+    "update_time": 1772585380,
+    "_id": "KnowledgeGraph/People/Related-Work.md"
+  },
+  "Added Design": {
+    "chunk_ids": [
+      "chunk-505a6de49a4e71323e53e984bc770e7f"
+    ],
+    "count": 1,
+    "create_time": 1772585380,
+    "update_time": 1772585380,
+    "_id": "Added Design"
+  },
+  "Dense Vector Retrieval": {
+    "chunk_ids": [
+      "chunk-505a6de49a4e71323e53e984bc770e7f",
+      "chunk-cbbf68c07d5785152cb568cb44c097d2"
+    ],
+    "count": 2,
+    "update_time": 1772585533,
+    "_id": "Dense Vector Retrieval"
+  },
+  "Co-occurrence-based Statistical Retrieval": {
+    "chunk_ids": [
+      "chunk-505a6de49a4e71323e53e984bc770e7f"
+    ],
+    "count": 1,
+    "create_time": 1772585381,
+    "update_time": 1772585381,
+    "_id": "Co-occurrence-based Statistical Retrieval"
+  },
+  "PPMI": {
+    "chunk_ids": [
+      "chunk-505a6de49a4e71323e53e984bc770e7f"
+    ],
+    "count": 1,
+    "create_time": 1772585381,
+    "update_time": 1772585381,
+    "_id": "PPMI"
+  },
+  "RAG Framework": {
+    "chunk_ids": [
+      "chunk-505a6de49a4e71323e53e984bc770e7f"
+    ],
+    "count": 1,
+    "create_time": 1772585381,
+    "update_time": 1772585381,
+    "_id": "RAG Framework"
+  },
+  "Research Dashboard": {
+    "chunk_ids": [
+      "chunk-1fd7088becf52bb8a5c2ed784265260d"
+    ],
+    "count": 1,
+    "create_time": 1772585430,
+    "update_time": 1772585430,
+    "_id": "Research Dashboard"
+  },
+  "AI Research Dashboard": {
+    "chunk_ids": [
+      "chunk-1fd7088becf52bb8a5c2ed784265260d"
+    ],
+    "count": 1,
+    "create_time": 1772585430,
+    "update_time": 1772585430,
+    "_id": "AI Research Dashboard"
+  },
+  "TypeScript": {
+    "chunk_ids": [
+      "chunk-1fd7088becf52bb8a5c2ed784265260d"
+    ],
+    "count": 1,
+    "create_time": 1772585430,
+    "update_time": 1772585430,
+    "_id": "TypeScript"
+  },
+  "Skills Installation": {
+    "chunk_ids": [
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 1,
+    "create_time": 1772585431,
+    "update_time": 1772585431,
+    "_id": "Skills Installation"
+  },
+  "Skills Installation Document": {
+    "chunk_ids": [
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 1,
+    "create_time": 1772585431,
+    "update_time": 1772585431,
+    "_id": "Skills Installation Document"
+  },
+  "Feb 12-14": {
+    "chunk_ids": [
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 1,
+    "create_time": 1772585432,
+    "update_time": 1772585432,
+    "_id": "Feb 12-14"
+  },
+  "Memory Files": {
+    "chunk_ids": [
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 1,
+    "create_time": 1772585432,
+    "update_time": 1772585432,
+    "_id": "Memory Files"
+  },
+  "Deployed & Live": {
+    "chunk_ids": [
+      "chunk-1fd7088becf52bb8a5c2ed784265260d"
+    ],
+    "count": 1,
+    "create_time": 1772585432,
+    "update_time": 1772585432,
+    "_id": "Deployed & Live"
+  },
+  "Research Dashboard Markdown": {
+    "chunk_ids": [
+      "chunk-1fd7088becf52bb8a5c2ed784265260d"
+    ],
+    "count": 1,
+    "create_time": 1772585432,
+    "update_time": 1772585432,
+    "_id": "Research Dashboard Markdown"
+  },
+  "AI Research Dashboard Markdown": {
+    "chunk_ids": [
+      "chunk-1fd7088becf52bb8a5c2ed784265260d"
+    ],
+    "count": 1,
+    "create_time": 1772585432,
+    "update_time": 1772585432,
+    "_id": "AI Research Dashboard Markdown"
+  },
+  "Daily Log Markdown": {
+    "chunk_ids": [
+      "chunk-1fd7088becf52bb8a5c2ed784265260d"
+    ],
+    "count": 1,
+    "create_time": 1772585432,
+    "update_time": 1772585432,
+    "_id": "Daily Log Markdown"
+  },
+  "ChartSense AI Project Details": {
+    "chunk_ids": [
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 1,
+    "create_time": 1772585433,
+    "update_time": 1772585433,
+    "_id": "ChartSense AI Project Details"
+  },
+  "Date 2026-02-16": {
+    "chunk_ids": [
+      "chunk-1fd7088becf52bb8a5c2ed784265260d",
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 2,
+    "update_time": 1772585755,
+    "_id": "Date 2026-02-16"
+  },
+  "Update 2026-02-16 23:01": {
+    "chunk_ids": [
+      "chunk-1fd7088becf52bb8a5c2ed784265260d"
+    ],
+    "count": 1,
+    "create_time": 1772585433,
+    "update_time": 1772585433,
+    "_id": "Update 2026-02-16 23:01"
+  },
+  "Review Date": {
+    "chunk_ids": [
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 1,
+    "create_time": 1772585434,
+    "update_time": 1772585434,
+    "_id": "Review Date"
+  },
+  "Weekly": {
+    "chunk_ids": [
+      "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+    ],
+    "count": 1,
+    "create_time": 1772585434,
+    "update_time": 1772585434,
+    "_id": "Weekly"
+  },
+  "Academic Paper": {
+    "chunk_ids": [
+      "chunk-f483ffe5746e330a5d767b70d856c97b"
+    ],
+    "count": 1,
+    "create_time": 1772585466,
+    "update_time": 1772585466,
+    "_id": "Academic Paper"
+  },
+  "Home.md": {
+    "chunk_ids": [
+      "chunk-f483ffe5746e330a5d767b70d856c97b"
+    ],
+    "count": 1,
+    "create_time": 1772585466,
+    "update_time": 1772585466,
+    "_id": "Home.md"
+  },
+  "Dashboard": {
+    "chunk_ids": [
+      "chunk-f483ffe5746e330a5d767b70d856c97b"
+    ],
+    "count": 1,
+    "create_time": 1772585466,
+    "update_time": 1772585466,
+    "_id": "Dashboard"
+  },
+  "Version V23.1": {
+    "chunk_ids": [
+      "chunk-f483ffe5746e330a5d767b70d856c97b"
+    ],
+    "count": 1,
+    "create_time": 1772585466,
+    "update_time": 1772585466,
+    "_id": "Version V23.1"
+  },
+  "Soul Format": {
+    "chunk_ids": [
+      "chunk-747382645d4ed066b3e5ef8307a73acd"
+    ],
+    "count": 1,
+    "create_time": 1772585496,
+    "update_time": 1772585496,
+    "_id": "Soul Format"
+  },
+  "Team Guides & Coding Manual v3": {
+    "chunk_ids": [
+      "chunk-747382645d4ed066b3e5ef8307a73acd"
+    ],
+    "count": 1,
+    "create_time": 1772585496,
+    "update_time": 1772585496,
+    "_id": "Team Guides & Coding Manual v3"
+  },
+  "ArthurBotData": {
+    "chunk_ids": [
+      "chunk-747382645d4ed066b3e5ef8307a73acd"
+    ],
+    "count": 1,
+    "create_time": 1772585496,
+    "update_time": 1772585496,
+    "_id": "ArthurBotData"
+  },
+  "Enhanced Agent Soul Format": {
+    "chunk_ids": [
+      "chunk-747382645d4ed066b3e5ef8307a73acd"
+    ],
+    "count": 1,
+    "create_time": 1772585496,
+    "update_time": 1772585496,
+    "_id": "Enhanced Agent Soul Format"
+  },
+  "Agent Souls": {
+    "chunk_ids": [
+      "chunk-747382645d4ed066b3e5ef8307a73acd"
+    ],
+    "count": 1,
+    "create_time": 1772585496,
+    "update_time": 1772585496,
+    "_id": "Agent Souls"
+  },
+  "Identity": {
+    "chunk_ids": [
+      "chunk-747382645d4ed066b3e5ef8307a73acd"
+    ],
+    "count": 1,
+    "create_time": 1772585496,
+    "update_time": 1772585496,
+    "_id": "Identity"
+  },
+  "Personality": {
+    "chunk_ids": [
+      "chunk-747382645d4ed066b3e5ef8307a73acd"
+    ],
+    "count": 1,
+    "create_time": 1772585497,
+    "update_time": 1772585497,
+    "_id": "Personality"
+  },
+  "Philosophy": {
+    "chunk_ids": [
+      "chunk-747382645d4ed066b3e5ef8307a73acd"
+    ],
+    "count": 1,
+    "create_time": 1772585497,
+    "update_time": 1772585497,
+    "_id": "Philosophy"
+  },
+  "What I Embrace": {
+    "chunk_ids": [
+      "chunk-747382645d4ed066b3e5ef8307a73acd"
+    ],
+    "count": 1,
+    "create_time": 1772585497,
+    "update_time": 1772585497,
+    "_id": "What I Embrace"
+  },
+  "What I Reject": {
+    "chunk_ids": [
+      "chunk-747382645d4ed066b3e5ef8307a73acd"
+    ],
+    "count": 1,
+    "create_time": 1772585497,
+    "update_time": 1772585497,
+    "_id": "What I Reject"
+  },
+  "Imperial College": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585503,
+    "update_time": 1772585503,
+    "_id": "Imperial College"
+  },
+  "Telegram ID 7579913696": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585503,
+    "update_time": 1772585503,
+    "_id": "Telegram ID 7579913696"
+  },
+  "Anirach Mingkhwan's Email": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585503,
+    "update_time": 1772585503,
+    "_id": "Anirach Mingkhwan's Email"
+  },
+  "MOC-Research": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585504,
+    "update_time": 1772585504,
+    "_id": "MOC-Research"
+  },
+  "Organizations Index": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585504,
+    "update_time": 1772585504,
+    "_id": "Organizations Index"
+  },
+  "ACM": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585505,
+    "update_time": 1772585505,
+    "_id": "ACM"
+  },
+  "IEEE": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585505,
+    "update_time": 1772585505,
+    "_id": "IEEE"
+  },
+  "RAG": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585505,
+    "update_time": 1772585505,
+    "_id": "RAG"
+  },
+  "Causal Knowledge": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585506,
+    "update_time": 1772585506,
+    "_id": "Causal Knowledge"
+  },
+  "Anirach Mingkhwan Email Address": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585506,
+    "update_time": 1772585506,
+    "_id": "Anirach Mingkhwan Email Address"
+  },
+  "Imperial-College.md": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585506,
+    "update_time": 1772585506,
+    "_id": "Imperial-College.md"
+  },
+  "RAG Second Brain Project": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585506,
+    "update_time": 1772585506,
+    "_id": "RAG Second Brain Project"
+  },
+  "NCD-CIE Project": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585507,
+    "update_time": 1772585507,
+    "_id": "NCD-CIE Project"
+  },
+  "Active Research": {
+    "chunk_ids": [
+      "chunk-46d5184a8d46c47ab7401afbdefd9125"
+    ],
+    "count": 1,
+    "create_time": 1772585507,
+    "update_time": 1772585507,
+    "_id": "Active Research"
+  },
+  "Demoted Theorems": {
+    "chunk_ids": [
+      "chunk-cbbf68c07d5785152cb568cb44c097d2"
+    ],
+    "count": 1,
+    "create_time": 1772585533,
+    "update_time": 1772585533,
+    "_id": "Demoted Theorems"
+  },
+  "Co-occurrence-Based Statistical Retrieval (PPMI)": {
+    "chunk_ids": [
+      "chunk-cbbf68c07d5785152cb568cb44c097d2"
+    ],
+    "count": 1,
+    "create_time": 1772585533,
+    "update_time": 1772585533,
+    "_id": "Co-occurrence-Based Statistical Retrieval (PPMI)"
+  },
+  "Demoted Theorems Entry Creation Date": {
+    "chunk_ids": [
+      "chunk-cbbf68c07d5785152cb568cb44c097d2"
+    ],
+    "count": 1,
+    "create_time": 1772585533,
+    "update_time": 1772585533,
+    "_id": "Demoted Theorems Entry Creation Date"
+  },
+  "Interaction Timestamp": {
+    "chunk_ids": [
+      "chunk-cbbf68c07d5785152cb568cb44c097d2"
+    ],
+    "count": 1,
+    "create_time": 1772585534,
+    "update_time": 1772585534,
+    "_id": "Interaction Timestamp"
+  },
+  "Paper Status Active": {
+    "chunk_ids": [
+      "chunk-cbbf68c07d5785152cb568cb44c097d2"
+    ],
+    "count": 1,
+    "create_time": 1772585534,
+    "update_time": 1772585534,
+    "_id": "Paper Status Active"
+  },
+  "Paper Started Date": {
+    "chunk_ids": [
+      "chunk-cbbf68c07d5785152cb568cb44c097d2"
+    ],
+    "count": 1,
+    "create_time": 1772585535,
+    "update_time": 1772585535,
+    "_id": "Paper Started Date"
+  },
+  "Paper Last Updated Date": {
+    "chunk_ids": [
+      "chunk-cbbf68c07d5785152cb568cb44c097d2"
+    ],
+    "count": 1,
+    "create_time": 1772585535,
+    "update_time": 1772585535,
+    "_id": "Paper Last Updated Date"
+  },
+  "Person Tag": {
+    "chunk_ids": [
+      "chunk-cbbf68c07d5785152cb568cb44c097d2"
+    ],
+    "count": 1,
+    "create_time": 1772585535,
+    "update_time": 1772585535,
+    "_id": "Person Tag"
+  },
+  "Not Started": {
+    "chunk_ids": [
+      "chunk-7347a0c6ac17d9cb58ce4f8eb857eb12"
+    ],
+    "count": 1,
+    "create_time": 1772585542,
+    "update_time": 1772585542,
+    "_id": "Not Started"
+  },
+  "People Section": {
+    "chunk_ids": [
+      "chunk-7347a0c6ac17d9cb58ce4f8eb857eb12"
+    ],
+    "count": 1,
+    "create_time": 1772585543,
+    "update_time": 1772585543,
+    "_id": "People Section"
+  },
+  "Topics Section": {
+    "chunk_ids": [
+      "chunk-7347a0c6ac17d9cb58ce4f8eb857eb12"
+    ],
+    "count": 1,
+    "create_time": 1772585543,
+    "update_time": 1772585543,
+    "_id": "Topics Section"
+  },
+  "Research & Papers Section": {
+    "chunk_ids": [
+      "chunk-7347a0c6ac17d9cb58ce4f8eb857eb12"
+    ],
+    "count": 1,
+    "create_time": 1772585544,
+    "update_time": 1772585544,
+    "_id": "Research & Papers Section"
+  },
+  "Status Legend": {
+    "chunk_ids": [
+      "chunk-7347a0c6ac17d9cb58ce4f8eb857eb12"
+    ],
+    "count": 1,
+    "create_time": 1772585544,
+    "update_time": 1772585544,
+    "_id": "Status Legend"
+  },
+  "Current Calendar": {
+    "chunk_ids": [
+      "chunk-113056c9501e9b2d79be577e20d93410"
+    ],
+    "count": 1,
+    "create_time": 1772585570,
+    "update_time": 1772585570,
+    "_id": "Current Calendar"
+  },
+  "Daily Memory - January 28, 2026": {
+    "chunk_ids": [
+      "chunk-113056c9501e9b2d79be577e20d93410"
+    ],
+    "count": 1,
+    "create_time": 1772585570,
+    "update_time": 1772585570,
+    "_id": "Daily Memory - January 28, 2026"
+  },
+  "Google Calendar": {
+    "chunk_ids": [
+      "chunk-113056c9501e9b2d79be577e20d93410"
+    ],
+    "count": 1,
+    "create_time": 1772585570,
+    "update_time": 1772585570,
+    "_id": "Google Calendar"
+  },
+  "Setup Process": {
+    "chunk_ids": [
+      "chunk-113056c9501e9b2d79be577e20d93410"
+    ],
+    "count": 1,
+    "create_time": 1772585571,
+    "update_time": 1772585571,
+    "_id": "Setup Process"
+  },
+  "Added Longevity": {
+    "chunk_ids": [
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 1,
+    "create_time": 1772585609,
+    "update_time": 1772585609,
+    "_id": "Added Longevity"
+  },
+  "Peer Reviewer": {
+    "chunk_ids": [
+      "chunk-1263f6dcbc96b0cd91f9ce4b885f6881"
+    ],
+    "count": 1,
+    "create_time": 1772585609,
+    "update_time": 1772585609,
+    "_id": "Peer Reviewer"
+  },
+  "Added Longevity Healthcare Research": {
+    "chunk_ids": [
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 1,
+    "create_time": 1772585610,
+    "update_time": 1772585610,
+    "_id": "Added Longevity Healthcare Research"
+  },
+  "V23 Revision": {
+    "chunk_ids": [
+      "chunk-1263f6dcbc96b0cd91f9ce4b885f6881"
+    ],
+    "count": 1,
+    "create_time": 1772585610,
+    "update_time": 1772585610,
+    "_id": "V23 Revision"
+  },
+  "AI For Biological And Medical": {
+    "chunk_ids": [
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 1,
+    "create_time": 1772585611,
+    "update_time": 1772585611,
+    "_id": "AI For Biological And Medical"
+  },
+  "Life Extension and Aging Studies": {
+    "chunk_ids": [
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 1,
+    "create_time": 1772585611,
+    "update_time": 1772585611,
+    "_id": "Life Extension and Aging Studies"
+  },
+  "CMT Reviewer": {
+    "chunk_ids": [
+      "chunk-1263f6dcbc96b0cd91f9ce4b885f6881"
+    ],
+    "count": 1,
+    "create_time": 1772585611,
+    "update_time": 1772585611,
+    "_id": "CMT Reviewer"
+  },
+  "February 16, 2026": {
+    "chunk_ids": [
+      "chunk-1263f6dcbc96b0cd91f9ce4b885f6881"
+    ],
+    "count": 1,
+    "create_time": 1772585611,
+    "update_time": 1772585611,
+    "_id": "February 16, 2026"
+  },
+  "February 17, 2026": {
+    "chunk_ids": [
+      "chunk-1263f6dcbc96b0cd91f9ce4b885f6881"
+    ],
+    "count": 1,
+    "create_time": 1772585611,
+    "update_time": 1772585611,
+    "_id": "February 17, 2026"
+  },
+  "AI Applications in Medical Diagnostics and Treatment": {
+    "chunk_ids": [
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 1,
+    "create_time": 1772585612,
+    "update_time": 1772585612,
+    "_id": "AI Applications in Medical Diagnostics and Treatment"
+  },
+  "AI for Biological and Medical": {
+    "chunk_ids": [
+      "chunk-40fa075485b63447273b59dcdd10fadb"
+    ],
+    "count": 1,
+    "create_time": 1772585612,
+    "update_time": 1772585612,
+    "_id": "AI for Biological and Medical"
+  },
+  "Improve Git": {
+    "chunk_ids": [
+      "chunk-f35a0c6a0244897333e1e1091f4a3eb2"
+    ],
+    "count": 1,
+    "create_time": 1772585644,
+    "update_time": 1772585644,
+    "_id": "Improve Git"
+  },
+  "Action Item: Improve GitHub Repo": {
+    "chunk_ids": [
+      "chunk-f35a0c6a0244897333e1e1091f4a3eb2"
+    ],
+    "count": 1,
+    "create_time": 1772585645,
+    "update_time": 1772585645,
+    "_id": "Action Item: Improve GitHub Repo"
+  },
+  "GitHub Repo": {
+    "chunk_ids": [
+      "chunk-f35a0c6a0244897333e1e1091f4a3eb2"
+    ],
+    "count": 1,
+    "create_time": 1772585645,
+    "update_time": 1772585645,
+    "_id": "GitHub Repo"
+  },
+  "Paper Iterations": {
+    "chunk_ids": [
+      "chunk-f35a0c6a0244897333e1e1091f4a3eb2"
+    ],
+    "count": 1,
+    "create_time": 1772585645,
+    "update_time": 1772585645,
+    "_id": "Paper Iterations"
+  },
+  "Course Team": {
+    "chunk_ids": [
+      "chunk-d395d729f7f4af176337bfefc3a79dd0"
+    ],
+    "count": 1,
+    "create_time": 1772585645,
+    "update_time": 1772585645,
+    "_id": "Course Team"
+  },
+  "UX/UI Designer Agent": {
+    "chunk_ids": [
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 2,
+    "update_time": 1772585752,
+    "_id": "UX/UI Designer Agent"
+  },
+  "Interface Design": {
+    "chunk_ids": [
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 2,
+    "update_time": 1772585753,
+    "_id": "Interface Design"
+  },
+  "Visual Polish": {
+    "chunk_ids": [
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 2,
+    "update_time": 1772585753,
+    "_id": "Visual Polish"
+  },
+  "Usability": {
+    "chunk_ids": [
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 2,
+    "update_time": 1772585754,
+    "_id": "Usability"
+  },
+  "Responsive Design": {
+    "chunk_ids": [
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 2,
+    "update_time": 1772585754,
+    "_id": "Responsive Design"
+  },
+  "Tailwind CSS": {
+    "chunk_ids": [
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 2,
+    "update_time": 1772585753,
+    "_id": "Tailwind CSS"
+  },
+  "Anti-AI-Slop Design Principles": {
+    "chunk_ids": [
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 2,
+    "update_time": 1772585753,
+    "_id": "Anti-AI-Slop Design Principles"
+  },
+  "UI Polish": {
+    "chunk_ids": [
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 2,
+    "update_time": 1772585754,
+    "_id": "UI Polish"
+  },
+  "New Screens": {
+    "chunk_ids": [
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 2,
+    "update_time": 1772585754,
+    "_id": "New Screens"
+  },
+  "UX Reviews": {
+    "chunk_ids": [
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 2,
+    "update_time": 1772585754,
+    "_id": "UX Reviews"
+  },
+  "Design Systems": {
+    "chunk_ids": [
+      "chunk-d395d729f7f4af176337bfefc3a79dd0",
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 2,
+    "update_time": 1772585755,
+    "_id": "Design Systems"
+  },
+  "UX/UI Designer Agent Added Event": {
+    "chunk_ids": [
+      "chunk-d395d729f7f4af176337bfefc3a79dd0"
+    ],
+    "count": 1,
+    "create_time": 1772585648,
+    "update_time": 1772585648,
+    "_id": "UX/UI Designer Agent Added Event"
+  },
+  "Heart Failure": {
+    "chunk_ids": [
+      "chunk-88e992b721430779160720a86027f0b5"
+    ],
+    "count": 1,
+    "create_time": 1772585675,
+    "update_time": 1772585675,
+    "_id": "Heart Failure"
+  },
+  "2026-02-14-Chartsense-Ai-Mvp.Md": {
+    "chunk_ids": [
+      "chunk-88e992b721430779160720a86027f0b5"
+    ],
+    "count": 1,
+    "create_time": 1772585676,
+    "update_time": 1772585676,
+    "_id": "2026-02-14-Chartsense-Ai-Mvp.Md"
+  },
+  "Coding Manual": {
+    "chunk_ids": [
+      "chunk-771986aa17685fe6999e419c1c67ae69"
+    ],
+    "count": 1,
+    "create_time": 1772585697,
+    "update_time": 1772585697,
+    "_id": "Coding Manual"
+  },
+  "Daily/2026-02-12.md": {
+    "chunk_ids": [
+      "chunk-771986aa17685fe6999e419c1c67ae69"
+    ],
+    "count": 1,
+    "create_time": 1772585697,
+    "update_time": 1772585697,
+    "_id": "Daily/2026-02-12.md"
+  },
+  "Team Guides": {
+    "chunk_ids": [
+      "chunk-771986aa17685fe6999e419c1c67ae69"
+    ],
+    "count": 1,
+    "create_time": 1772585697,
+    "update_time": 1772585697,
+    "_id": "Team Guides"
+  },
+  "ArthurBotData/Team Manuals/": {
+    "chunk_ids": [
+      "chunk-771986aa17685fe6999e419c1c67ae69"
+    ],
+    "count": 1,
+    "create_time": 1772585697,
+    "update_time": 1772585697,
+    "_id": "ArthurBotData/Team Manuals/"
+  },
+  "DOCX Guides": {
+    "chunk_ids": [
+      "chunk-771986aa17685fe6999e419c1c67ae69"
+    ],
+    "count": 1,
+    "create_time": 1772585697,
+    "update_time": 1772585697,
+    "_id": "DOCX Guides"
+  },
+  "อนิราช มิ่งขวัญ": {
+    "chunk_ids": [
+      "chunk-771986aa17685fe6999e419c1c67ae69"
+    ],
+    "count": 1,
+    "create_time": 1772585698,
+    "update_time": 1772585698,
+    "_id": "อนิราช มิ่งขวัญ"
+  },
+  "Coding Manual V3": {
+    "chunk_ids": [
+      "chunk-771986aa17685fe6999e419c1c67ae69"
+    ],
+    "count": 1,
+    "create_time": 1772585698,
+    "update_time": 1772585698,
+    "_id": "Coding Manual V3"
+  },
+  "Combine V1's Professional Styling With V2's Collaboration Workflows For Coding Manual V3": {
+    "chunk_ids": [
+      "chunk-771986aa17685fe6999e419c1c67ae69"
+    ],
+    "count": 1,
+    "create_time": 1772585698,
+    "update_time": 1772585698,
+    "_id": "Combine V1's Professional Styling With V2's Collaboration Workflows For Coding Manual V3"
+  },
+  "Coding Manual v3": {
+    "chunk_ids": [
+      "chunk-771986aa17685fe6999e419c1c67ae69"
+    ],
+    "count": 1,
+    "create_time": 1772585698,
+    "update_time": 1772585698,
+    "_id": "Coding Manual v3"
+  },
+  "Combine v1's Professional Styling With v2's Collaboration Workflows For Coding Manual v3": {
+    "chunk_ids": [
+      "chunk-771986aa17685fe6999e419c1c67ae69"
+    ],
+    "count": 1,
+    "create_time": 1772585698,
+    "update_time": 1772585698,
+    "_id": "Combine v1's Professional Styling With v2's Collaboration Workflows For Coding Manual v3"
+  },
+  "Professional Digest": {
+    "chunk_ids": [
+      "chunk-8983e2b4c186fcc645136f51f241d354"
+    ],
+    "count": 1,
+    "create_time": 1772585706,
+    "update_time": 1772585706,
+    "_id": "Professional Digest"
+  },
+  "cs.AI": {
+    "chunk_ids": [
+      "chunk-8983e2b4c186fcc645136f51f241d354"
+    ],
+    "count": 1,
+    "create_time": 1772585707,
+    "update_time": 1772585707,
+    "_id": "cs.AI"
+  },
+  "cs.LG": {
+    "chunk_ids": [
+      "chunk-8983e2b4c186fcc645136f51f241d354"
+    ],
+    "count": 1,
+    "create_time": 1772585707,
+    "update_time": 1772585707,
+    "_id": "cs.LG"
+  },
+  "cs.CL": {
+    "chunk_ids": [
+      "chunk-8983e2b4c186fcc645136f51f241d354"
+    ],
+    "count": 1,
+    "create_time": 1772585707,
+    "update_time": 1772585707,
+    "_id": "cs.CL"
+  },
+  "cs.CV": {
+    "chunk_ids": [
+      "chunk-8983e2b4c186fcc645136f51f241d354"
+    ],
+    "count": 1,
+    "create_time": 1772585707,
+    "update_time": 1772585707,
+    "_id": "cs.CV"
+  },
+  "cs.NE": {
+    "chunk_ids": [
+      "chunk-8983e2b4c186fcc645136f51f241d354"
+    ],
+    "count": 1,
+    "create_time": 1772585707,
+    "update_time": 1772585707,
+    "_id": "cs.NE"
+  },
+  "cs.HC": {
+    "chunk_ids": [
+      "chunk-8983e2b4c186fcc645136f51f241d354"
+    ],
+    "count": 1,
+    "create_time": 1772585707,
+    "update_time": 1772585707,
+    "_id": "cs.HC"
+  },
+  "stat.ML": {
+    "chunk_ids": [
+      "chunk-8983e2b4c186fcc645136f51f241d354"
+    ],
+    "count": 1,
+    "create_time": 1772585708,
+    "update_time": 1772585708,
+    "_id": "stat.ML"
+  },
+  "Obsidian Daily Note 2026-01-29": {
+    "chunk_ids": [
+      "chunk-8983e2b4c186fcc645136f51f241d354"
+    ],
+    "count": 1,
+    "create_time": 1772585708,
+    "update_time": 1772585708,
+    "_id": "Obsidian Daily Note 2026-01-29"
+  },
+  "Clinical Decision": {
+    "chunk_ids": [
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 1,
+    "create_time": 1772585751,
+    "update_time": 1772585751,
+    "_id": "Clinical Decision"
+  },
+  "Designer Agent": {
+    "chunk_ids": [
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 1,
+    "create_time": 1772585752,
+    "update_time": 1772585752,
+    "_id": "Designer Agent"
+  },
+  "MOC": {
+    "chunk_ids": [
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 1,
+    "create_time": 1772585753,
+    "update_time": 1772585753,
+    "_id": "MOC"
+  },
+  "MOC-Infrastructure.md": {
+    "chunk_ids": [
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 1,
+    "create_time": 1772585753,
+    "update_time": 1772585753,
+    "_id": "MOC-Infrastructure.md"
+  },
+  "Research Automation": {
+    "chunk_ids": [
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 1,
+    "create_time": 1772585754,
+    "update_time": 1772585754,
+    "_id": "Research Automation"
+  },
+  "Topics/AI.md": {
+    "chunk_ids": [
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 1,
+    "create_time": 1772585754,
+    "update_time": 1772585754,
+    "_id": "Topics/AI.md"
+  },
+  "Tools": {
+    "chunk_ids": [
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 1,
+    "create_time": 1772585754,
+    "update_time": 1772585754,
+    "_id": "Tools"
+  },
+  "Topic": {
+    "chunk_ids": [
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 1,
+    "create_time": 1772585755,
+    "update_time": 1772585755,
+    "_id": "Topic"
+  },
+  "KnowledgeGraph/People/Artificial-Intelligence.md": {
+    "chunk_ids": [
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 1,
+    "create_time": 1772585755,
+    "update_time": 1772585755,
+    "_id": "KnowledgeGraph/People/Artificial-Intelligence.md"
+  },
+  "Daily Note 2026-02-11": {
+    "chunk_ids": [
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 1,
+    "create_time": 1772585755,
+    "update_time": 1772585755,
+    "_id": "Daily Note 2026-02-11"
+  },
+  "Agent Creation Event 2026-02-17": {
+    "chunk_ids": [
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 1,
+    "create_time": 1772585755,
+    "update_time": 1772585755,
+    "_id": "Agent Creation Event 2026-02-17"
+  },
+  "Agent Interaction Event 2026-02-17 04:03": {
+    "chunk_ids": [
+      "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+    ],
+    "count": 1,
+    "create_time": 1772585755,
+    "update_time": 1772585755,
+    "_id": "Agent Interaction Event 2026-02-17 04:03"
+  },
+  "Date 2026-02-15": {
+    "chunk_ids": [
+      "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+    ],
+    "count": 1,
+    "create_time": 1772585756,
+    "update_time": 1772585756,
+    "_id": "Date 2026-02-15"
+  },
+  "Tasks Completed": {
+    "chunk_ids": [
+      "chunk-a738f505c3e1573b43b49a1c3bf45d9d"
+    ],
+    "count": 1,
+    "create_time": 1772585788,
+    "update_time": 1772585788,
+    "_id": "Tasks Completed"
+  },
+  "Daily/2026-01-26.md": {
+    "chunk_ids": [
+      "chunk-a738f505c3e1573b43b49a1c3bf45d9d"
+    ],
+    "count": 1,
+    "create_time": 1772585788,
+    "update_time": 1772585788,
+    "_id": "Daily/2026-01-26.md"
+  },
+  "White Paper for Executive Strategic Development Class": {
+    "chunk_ids": [
+      "chunk-a738f505c3e1573b43b49a1c3bf45d9d"
+    ],
+    "count": 1,
+    "create_time": 1772585788,
+    "update_time": 1772585788,
+    "_id": "White Paper for Executive Strategic Development Class"
+  },
+  "Executive Strategic Development Class": {
+    "chunk_ids": [
+      "chunk-a738f505c3e1573b43b49a1c3bf45d9d"
+    ],
+    "count": 1,
+    "create_time": 1772585789,
+    "update_time": 1772585789,
+    "_id": "Executive Strategic Development Class"
+  },
+  "Literature": {
+    "chunk_ids": [
+      "chunk-a738f505c3e1573b43b49a1c3bf45d9d"
+    ],
+    "count": 1,
+    "create_time": 1772585789,
+    "update_time": 1772585789,
+    "_id": "Literature"
+  },
+  "Strategic Thinking Under Uncertainty": {
+    "chunk_ids": [
+      "chunk-a738f505c3e1573b43b49a1c3bf45d9d"
+    ],
+    "count": 1,
+    "create_time": 1772585789,
+    "update_time": 1772585789,
+    "_id": "Strategic Thinking Under Uncertainty"
+  },
+  "Tolerance for Ambiguity": {
+    "chunk_ids": [
+      "chunk-a738f505c3e1573b43b49a1c3bf45d9d"
+    ],
+    "count": 1,
+    "create_time": 1772585790,
+    "update_time": 1772585790,
+    "_id": "Tolerance for Ambiguity"
+  },
+  "Long-Horizon Thinking": {
+    "chunk_ids": [
+      "chunk-a738f505c3e1573b43b49a1c3bf45d9d"
+    ],
+    "count": 1,
+    "create_time": 1772585790,
+    "update_time": 1772585790,
+    "_id": "Long-Horizon Thinking"
+  },
+  "Second-Order Consequence": {
+    "chunk_ids": [
+      "chunk-a738f505c3e1573b43b49a1c3bf45d9d"
+    ],
+    "count": 1,
+    "create_time": 1772585790,
+    "update_time": 1772585790,
+    "_id": "Second-Order Consequence"
+  }
+}

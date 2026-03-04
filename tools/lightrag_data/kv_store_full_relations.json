@@ -1,0 +1,5566 @@
+{
+  "doc-2971afaa4a866697c2a2055c8cd288d2": {
+    "relation_pairs": [
+      [
+        "Anirach",
+        "Hospital_001"
+      ],
+      [
+        "Anirach",
+        "Healthcare AI"
+      ],
+      [
+        "Healthcare AI",
+        "Hospital_001"
+      ],
+      [
+        "Anirach",
+        "Hospital_002"
+      ],
+      [
+        "Healthcare AI",
+        "Hospital_002"
+      ],
+      [
+        "Dark Themes",
+        "PPTX Slides"
+      ],
+      [
+        "Anirach",
+        "Arthur"
+      ],
+      [
+        "Arthur",
+        "OpenClaw"
+      ],
+      [
+        "Anirach",
+        "OpenClaw"
+      ],
+      [
+        "AIiH 2026",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Anirach",
+        "Dark Themes"
+      ],
+      [
+        "Anirach",
+        "RAG Second Brain Paper"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772583902,
+    "update_time": 1772583902,
+    "_id": "doc-2971afaa4a866697c2a2055c8cd288d2"
+  },
+  "doc-2f77abe8ec47d9bbe58f0df8cc9c74c3": {
+    "relation_pairs": [
+      [
+        "Course Development",
+        "Course Preparation Team"
+      ],
+      [
+        "Course Development",
+        "Education Technology"
+      ],
+      [
+        "Research",
+        "Teaching & Courses"
+      ],
+      [
+        "Education Concept",
+        "Teaching & Courses"
+      ],
+      [
+        "MOC Document Type",
+        "Teaching & Courses"
+      ],
+      [
+        "Course Development",
+        "Teaching & Courses"
+      ],
+      [
+        "Teaching & Courses",
+        "Teaching Concept"
+      ],
+      [
+        "Document Update Date 2026-02-16",
+        "Teaching & Courses"
+      ],
+      [
+        "Anirach",
+        "King Mongkut's University of Technology North Bangkok (KMUTNB)"
+      ],
+      [
+        "Course Development",
+        "Vibe Coding"
+      ],
+      [
+        "Antigravity",
+        "Vibe Coding"
+      ],
+      [
+        "Home",
+        "Teaching & Courses"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772584042,
+    "update_time": 1772584042,
+    "_id": "doc-2f77abe8ec47d9bbe58f0df8cc9c74c3"
+  },
+  "doc-19a30e0d2c5e415e011c673f18e44e91": {
+    "relation_pairs": [
+      [
+        "AIiH 2026",
+        "Imperial College London"
+      ],
+      [
+        "ArXiv",
+        "Research"
+      ],
+      [
+        "Knowledge Graphs",
+        "NCD-CIE Paper"
+      ],
+      [
+        "DuckMan",
+        "Research"
+      ],
+      [
+        "Causal Inference",
+        "Research"
+      ],
+      [
+        "Medical Knowledge",
+        "Ontology"
+      ],
+      [
+        "Causal Inference",
+        "NCD-CIE Paper"
+      ],
+      [
+        "ChartSense AI",
+        "DuckMan"
+      ],
+      [
+        "Knowledge Graphs",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Longevity",
+        "Research"
+      ],
+      [
+        "NCD Risk Assessment",
+        "NCD-CIE Paper"
+      ],
+      [
+        "Biomedical AI",
+        "Research"
+      ],
+      [
+        "Knowledge Graphs",
+        "Research"
+      ],
+      [
+        "Medical Diagnosis",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "AIiH 2026",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Infrastructure",
+        "Research"
+      ],
+      [
+        "Ontology",
+        "Research"
+      ],
+      [
+        "Clinical Decision Support",
+        "Research"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Research"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1772584046,
+    "update_time": 1772584046,
+    "_id": "doc-19a30e0d2c5e415e011c673f18e44e91"
+  },
+  "doc-7ce65e3ed28ee6a9ba6ab730d1a787b9": {
+    "relation_pairs": [
+      [
+        "Biomarkers",
+        "Longevity"
+      ],
+      [
+        "Dataview Query",
+        "Longevity Markdown Document"
+      ],
+      [
+        "Healthcare",
+        "Interventions & Supplements"
+      ],
+      [
+        "Dataview Query",
+        "Research"
+      ],
+      [
+        "Aging Biology",
+        "Longevity"
+      ],
+      [
+        "Clinical Trials",
+        "Healthcare"
+      ],
+      [
+        "Research",
+        "Research Index"
+      ],
+      [
+        "Healthcare",
+        "Longevity"
+      ],
+      [
+        "Clinical Trials",
+        "Longevity"
+      ],
+      [
+        "Healthspan",
+        "Lifespan"
+      ],
+      [
+        "Lifespan",
+        "Longevity"
+      ],
+      [
+        "Longevity",
+        "Longevity Markdown Document"
+      ],
+      [
+        "Longevity",
+        "Research"
+      ],
+      [
+        "Healthcare",
+        "Healthspan"
+      ],
+      [
+        "Healthcare",
+        "Research"
+      ],
+      [
+        "Healthcare",
+        "Longevity Markdown Document"
+      ],
+      [
+        "Healthspan",
+        "Longevity"
+      ],
+      [
+        "Dataview Query",
+        "Longevity"
+      ],
+      [
+        "Interventions & Supplements",
+        "Longevity"
+      ],
+      [
+        "Biomarkers",
+        "Healthcare"
+      ],
+      [
+        "Aging Biology",
+        "Healthcare"
+      ],
+      [
+        "Healthcare",
+        "Lifespan"
+      ]
+    ],
+    "count": 22,
+    "create_time": 1772584104,
+    "update_time": 1772584104,
+    "_id": "doc-7ce65e3ed28ee6a9ba6ab730d1a787b9"
+  },
+  "doc-28fc80c7abcbb7c8f3a3662eecaddd9c": {
+    "relation_pairs": [
+      [
+        "Development",
+        "Docker"
+      ],
+      [
+        "Knowledge Management",
+        "Obsidian"
+      ],
+      [
+        "LobsterBoard",
+        "Services"
+      ],
+      [
+        "ChartSense AI",
+        "Next.js"
+      ],
+      [
+        "AI/ML Stack",
+        "Machine Learning"
+      ],
+      [
+        "AI/ML Stack",
+        "GPT / LLMs"
+      ],
+      [
+        "Containerization",
+        "Docker"
+      ],
+      [
+        "Knowledge Graph",
+        "Neo4j"
+      ],
+      [
+        "Databases & Storage",
+        "PostgreSQL"
+      ],
+      [
+        "Home",
+        "Tools & Infrastructure"
+      ],
+      [
+        "Services",
+        "VPIPE"
+      ],
+      [
+        "Services",
+        "Tools & Infrastructure"
+      ],
+      [
+        "OpenClaw Web UI",
+        "Remote Access"
+      ],
+      [
+        "PostgreSQL",
+        "VPIPE"
+      ],
+      [
+        "AI/ML Stack",
+        "Artificial Intelligence"
+      ],
+      [
+        "OpenClaw Web UI",
+        "Services"
+      ],
+      [
+        "Sales Pipeline DB",
+        "VPIPE"
+      ],
+      [
+        "Data Warehouse",
+        "Databases & Storage"
+      ],
+      [
+        "ChromaDB",
+        "Embeddings"
+      ],
+      [
+        "LobsterBoard",
+        "Server Dashboard"
+      ],
+      [
+        "ChromaDB",
+        "Databases & Storage"
+      ],
+      [
+        "Databases & Storage",
+        "Tools & Infrastructure"
+      ],
+      [
+        "AI/ML Stack",
+        "Tools & Infrastructure"
+      ],
+      [
+        "Development",
+        "Tools & Infrastructure"
+      ],
+      [
+        "Development",
+        "Obsidian"
+      ],
+      [
+        "Development",
+        "Next.js"
+      ],
+      [
+        "Research",
+        "Tools & Infrastructure"
+      ],
+      [
+        "Databases & Storage",
+        "Neo4j"
+      ]
+    ],
+    "count": 28,
+    "create_time": 1772584148,
+    "update_time": 1772584148,
+    "_id": "doc-28fc80c7abcbb7c8f3a3662eecaddd9c"
+  },
+  "doc-dbfecb1c1a2bb83afc8f0f8178ad4c06": {
+    "relation_pairs": [
+      [
+        "AI",
+        "AI Document"
+      ],
+      [
+        "Artificial Intelligence",
+        "NLP"
+      ],
+      [
+        "AI Agents",
+        "Artificial Intelligence"
+      ],
+      [
+        "Artificial Intelligence",
+        "Large Language Models"
+      ],
+      [
+        "Artificial Intelligence",
+        "Computer Vision"
+      ],
+      [
+        "AI",
+        "Dataview Query"
+      ],
+      [
+        "Dataview Query",
+        "Research"
+      ],
+      [
+        "Artificial Intelligence",
+        "Machine Learning"
+      ],
+      [
+        "AI Document",
+        "Artificial Intelligence"
+      ],
+      [
+        "AI Document",
+        "Dataview Query"
+      ],
+      [
+        "AI Document",
+        "Research Index"
+      ],
+      [
+        "AI Document",
+        "Research"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772584176,
+    "update_time": 1772584176,
+    "_id": "doc-dbfecb1c1a2bb83afc8f0f8178ad4c06"
+  },
+  "doc-4017fd9b5fb442d685f03551434caf4b": {
+    "relation_pairs": [
+      [
+        "GitHub Repository (Anirach/three-old-men)",
+        "Three Old Men Book"
+      ],
+      [
+        "OpenRouter Configuration (openclaw.json)",
+        "OpenRouter Service"
+      ],
+      [
+        "ChartSense AI Project",
+        "Redis Data Store"
+      ],
+      [
+        "Google Drive Service",
+        "Google Drive Token (token.json)"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "Week 2 PPTX ID"
+      ],
+      [
+        "Full-Length Paper Track (AIiH 2026)",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Academic Templates Directory (/home/clawdbot/clawd/templates/academic/)",
+        "Document Templates Directory (/home/clawdbot/clawd/templates/)"
+      ],
+      [
+        "Google AI (Nano Banana) API Key",
+        "Google AI Service"
+      ],
+      [
+        "Google AI (Nano Banana) API Key",
+        "TOOLS.md Document"
+      ],
+      [
+        "Handout ID",
+        "Week 5"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "Week 2"
+      ],
+      [
+        "OpenRouter Configuration Path (~/.openclaw/)",
+        "OpenRouter Service"
+      ],
+      [
+        "OpenClaw Application",
+        "v2026.2.26 Version"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "ChartSense AI Project"
+      ],
+      [
+        "Quick Reference Document",
+        "Reference Tag"
+      ],
+      [
+        "Thai Translation (Three Old Men)",
+        "Three Old Men Book"
+      ],
+      [
+        "Multi-Source Knowledge Graph Retrieval-Augmented Generation as a Second Brain for LLM-Based Medical Diagnosis",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "OpenClaw Application",
+        "Workspace Directory (/home/clawdbot/clawd)"
+      ],
+      [
+        "Academic Templates Directory (/home/clawdbot/clawd/templates/academic/)",
+        "Springer LNCS Word Templates Path"
+      ],
+      [
+        "GOG_KEYRING_PASSWORD",
+        "gog CLI Tool"
+      ],
+      [
+        "Coding Team Setup Guide Document",
+        "Coding Team Setup Guide Path (/home/clawdbot/clawd/tmp/)"
+      ],
+      [
+        "PPTX ID",
+        "Week 5"
+      ],
+      [
+        "Drive Convention Link",
+        "Quick Reference Document"
+      ],
+      [
+        "Pinned Tag",
+        "Quick Reference Document"
+      ],
+      [
+        "Obsidian Vault",
+        "Obsidian Vault Path (/home/clawdbot/obsidian-vault)"
+      ],
+      [
+        "ChartSense AI Project",
+        "GitHub Repository (Anirach/chartsense-ai)"
+      ],
+      [
+        "Always-Load Tag",
+        "Quick Reference Document"
+      ],
+      [
+        "Quick Reference Document",
+        "VPIPE Database Guide Link"
+      ],
+      [
+        "RAG Second Brain Paper",
+        "Springer LNCS Format"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Three Old Men Book"
+      ],
+      [
+        "ArthurBotData Google Drive Folder",
+        "Three Old Men Book"
+      ],
+      [
+        "Clawd Project Directory",
+        "OpenClaw Application"
+      ],
+      [
+        "AIiH 2026 Conference",
+        "April 10, 2026 Deadline"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "VPIPE Guide"
+      ],
+      [
+        "Clawd Project Directory",
+        "Clawdbot System"
+      ],
+      [
+        "Academic Templates Directory (/home/clawdbot/clawd/templates/academic/)",
+        "Springer LNCS LaTeX Templates Path"
+      ],
+      [
+        "Week 1",
+        "Week 1 Handout ID"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "Week 3"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "NCD-CIE Paper"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "Week 1"
+      ],
+      [
+        "ChartSense AI Project",
+        "Neo4j Database"
+      ],
+      [
+        "FITM",
+        "KMUTNB"
+      ],
+      [
+        "Springer LNCS Word Templates Path",
+        "Word Template (svlnproc1104.dot)"
+      ],
+      [
+        "ArthurBotData Google Drive Folder",
+        "NCD-CIE Paper"
+      ],
+      [
+        "VPIPE Database",
+        "VPIPE Database Host (node55136-vpipe2production.googlejp.app.ruk-com.cloud:11334)"
+      ],
+      [
+        "OpenRouter Configuration (openclaw.json)",
+        "OpenRouter Configuration Path (~/.openclaw/)"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "Week 1 PPTX ID"
+      ],
+      [
+        "Handout ID",
+        "Week 4"
+      ],
+      [
+        "GitHub Repository (Anirach/rag-second-brain)",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Medication Reminders Schedule"
+      ],
+      [
+        "Quick Reference Document",
+        "Research MOC Link"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Timezone (Asia/Bangkok)"
+      ],
+      [
+        "Week 2",
+        "Week 2 PPTX ID"
+      ],
+      [
+        "ArthurBotData Google Drive Folder",
+        "Google Drive Service"
+      ],
+      [
+        "Nobel Edition",
+        "Three Old Men Book"
+      ],
+      [
+        "Week 1",
+        "Week 1 PPTX ID"
+      ],
+      [
+        "PPTX ID",
+        "Week 4"
+      ],
+      [
+        "PGP Key (Pgvx-20231234)",
+        "VPIPE Database"
+      ],
+      [
+        "Coding Team Models Concept",
+        "Sonnet Model"
+      ],
+      [
+        "Clawd Project Directory",
+        "Coding Team Setup Guide Path (/home/clawdbot/clawd/tmp/)"
+      ],
+      [
+        "ChartSense AI Project",
+        "PostgreSQL Database"
+      ],
+      [
+        "LobsterBoard Service",
+        "Server srv1297304"
+      ],
+      [
+        "VPIPE Database",
+        "VPIPE Query Prefix"
+      ],
+      [
+        "2026-02-17 Update Date",
+        "Quick Reference Document"
+      ],
+      [
+        "LobsterBoard Service",
+        "lobsterboard.service Process"
+      ],
+      [
+        "Google AI Service",
+        "Nano Banana Model"
+      ],
+      [
+        "Home Dashboard Link",
+        "Quick Reference Document"
+      ],
+      [
+        "Clawd Project Directory",
+        "Document Templates Directory (/home/clawdbot/clawd/templates/)"
+      ],
+      [
+        "CMT Paper ID 18",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Handout ID",
+        "Week 3"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Email (anirach.m@fitm.kmutnb.ac.th)"
+      ],
+      [
+        "RAG Second Brain Paper",
+        "Word Template (svlnproc1104.dot)"
+      ],
+      [
+        "Clawd Project Directory",
+        "Google Drive Token Path (/home/clawdbot/clawd/gdrive/)"
+      ],
+      [
+        "72.62.251.68 IP Address",
+        "Server srv1297304"
+      ],
+      [
+        "Handout ID",
+        "Week 2"
+      ],
+      [
+        "ChartSense AI Project",
+        "Next.js 14 Framework"
+      ],
+      [
+        "MKG-RAG-SecondBrain-v23.1.pdf File",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "PPTX ID",
+        "Week 3"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Quick Reference Document",
+        "Quick-Reference.md"
+      ],
+      [
+        "Timezone (Asia/Bangkok)",
+        "UTC+7"
+      ],
+      [
+        "ArthurBotData Google Drive Folder",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Document Templates Directory (/home/clawdbot/clawd/templates/)",
+        "General Report Template (docx)"
+      ],
+      [
+        "AIiH 2026 Conference",
+        "August 26-28, 2026 Event Date"
+      ],
+      [
+        "PPTX ID",
+        "Week 2"
+      ],
+      [
+        "Links",
+        "Quick Reference Document"
+      ],
+      [
+        "AIiH 2026 Conference",
+        "CMT Platform"
+      ],
+      [
+        "OpenClaw Application",
+        "Server srv1297304"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "FITM"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "Week 5"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "KMUTNB"
+      ],
+      [
+        "ChartSense AI Project",
+        "MVP Status"
+      ],
+      [
+        "Facts",
+        "Quick Reference Document"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "Week 4"
+      ],
+      [
+        "GitHub Repository (Anirach/obsidian-vault)",
+        "Obsidian Vault"
+      ],
+      [
+        "Handout ID",
+        "Week 1"
+      ],
+      [
+        "Coding Team Models Concept",
+        "Opus Model"
+      ],
+      [
+        "Google Drive Token (token.json)",
+        "Google Drive Token Path (/home/clawdbot/clawd/gdrive/)"
+      ],
+      [
+        "AIiH 2026 Conference",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "LaTeX Template (llncs.cls, splncs04.bst)",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "LaTeX Template (llncs.cls, splncs04.bst)",
+        "Springer LNCS LaTeX Templates Path"
+      ],
+      [
+        "AIiH 2026 Conference",
+        "Imperial College London"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "Week 1 Handout ID"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Telegram ID (7579913696)"
+      ],
+      [
+        "Quick Reference Document",
+        "Session Start"
+      ],
+      [
+        "Critical IDs",
+        "Quick Reference Document"
+      ],
+      [
+        "ChartSense AI Project",
+        "FastAPI Framework"
+      ],
+      [
+        "PPTX ID",
+        "Week 1"
+      ],
+      [
+        "LLM-Based Medical Diagnosis",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "RAG Second Brain Paper",
+        "Submitted (v23.1) Status"
+      ]
+    ],
+    "count": 110,
+    "create_time": 1772584239,
+    "update_time": 1772584239,
+    "_id": "doc-4017fd9b5fb442d685f03551434caf4b"
+  },
+  "doc-c2cf3a796b09887b7b8355de43da736f": {
+    "relation_pairs": [
+      [
+        "Agent Teams (Overview)",
+        "Home Dashboard"
+      ],
+      [
+        "Home Dashboard",
+        "VPIPE Database Project"
+      ],
+      [
+        "Knowledge Graph Decisions Section",
+        "Knowledge Graph System"
+      ],
+      [
+        "Home Dashboard",
+        "LobsterBoard Project"
+      ],
+      [
+        "Knowledge Graph Projects Section",
+        "Knowledge Graph System"
+      ],
+      [
+        "Agent Teams (Overview)",
+        "Arthur"
+      ],
+      [
+        "Academic Paper Team",
+        "Agent Teams (Overview)"
+      ],
+      [
+        "Home Dashboard",
+        "MOC Teaching & Courses"
+      ],
+      [
+        "Home Dashboard",
+        "MOC Tools & Infrastructure"
+      ],
+      [
+        "Agent Teams (Overview)",
+        "Writing Team"
+      ],
+      [
+        "Archive Collection",
+        "Home Dashboard"
+      ],
+      [
+        "Home Dashboard",
+        "OpenClaw Web UI Project"
+      ],
+      [
+        "Agent Teams (Overview)",
+        "Coding Team"
+      ],
+      [
+        "Home Dashboard",
+        "Resources Collection"
+      ],
+      [
+        "Home Dashboard",
+        "Templates Collection"
+      ],
+      [
+        "Home Dashboard",
+        "Three Old Men Project"
+      ],
+      [
+        "AIiH 2026",
+        "RAG Second Brain Paper Project"
+      ],
+      [
+        "Home Dashboard",
+        "MOC Research & Papers"
+      ],
+      [
+        "Home Dashboard",
+        "RAG Second Brain Paper Project"
+      ],
+      [
+        "ChartSense AI Project",
+        "Home Dashboard"
+      ],
+      [
+        "Home Dashboard",
+        "Quick Reference Guide"
+      ],
+      [
+        "Home Dashboard",
+        "Quick Facts Collection"
+      ],
+      [
+        "Knowledge Graph Action Items Section",
+        "Knowledge Graph System"
+      ],
+      [
+        "Agent Teams (Overview)",
+        "Translation Team"
+      ],
+      [
+        "Knowledge Graph Documents Section",
+        "Knowledge Graph System"
+      ],
+      [
+        "Home Dashboard",
+        "Today's Daily Note"
+      ],
+      [
+        "Daily Notes Collection",
+        "Home Dashboard"
+      ],
+      [
+        "ChartSense AI Project",
+        "GitHub"
+      ],
+      [
+        "Knowledge Graph System",
+        "Knowledge Graph Topics Section"
+      ],
+      [
+        "Agent Teams (Overview)",
+        "Course Prep Team"
+      ],
+      [
+        "Home Dashboard",
+        "Knowledge Graph System"
+      ],
+      [
+        "Knowledge Graph People Section",
+        "Knowledge Graph System"
+      ]
+    ],
+    "count": 32,
+    "create_time": 1772584257,
+    "update_time": 1772584257,
+    "_id": "doc-c2cf3a796b09887b7b8355de43da736f"
+  },
+  "doc-110b96b0a13f8b8ff5b33a4018cb7b9f": {
+    "relation_pairs": [
+      [
+        "2026-03-03 23:00 Update",
+        "First-Novel"
+      ],
+      [
+        "Decisions Category",
+        "Decisions Count"
+      ],
+      [
+        "People Category",
+        "People Count"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "DevOps-VibeCoding-Course",
+        "Projects Category"
+      ],
+      [
+        "2026-03-01-Httpsunused--Likely-From-A-Config-Wizard-Pla",
+        "Decisions Category"
+      ],
+      [
+        "Projects Category",
+        "Projects Count"
+      ],
+      [
+        "2026-03-03 23:00 Update",
+        "Session-Major"
+      ],
+      [
+        "2026-02-28 20:01 Activity",
+        "Facts"
+      ],
+      [
+        "2026-03-03 23:00 Update",
+        "System-Optimization"
+      ],
+      [
+        "2026-03-03-Items--152",
+        "Action Items Category"
+      ],
+      [
+        "2026-02-23 18:03 Activity",
+        "RAG-Second-Brain-Paper"
+      ],
+      [
+        "2026-03-01 16:00 Activity",
+        "2026-03-01-Httpsunused--Likely-From-A-Config-Wizard-Pla"
+      ],
+      [
+        "2026-03-03-Items--153",
+        "Action Items Category"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "2026-03-03 18:00 Activity",
+        "2026-03-03-Items--152"
+      ],
+      [
+        "People Category",
+        "System-Optimization"
+      ],
+      [
+        "People Category",
+        "Session-Major"
+      ],
+      [
+        "Documents Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Type Index"
+      ],
+      [
+        "Projects Category",
+        "RAG-Second-Brain-Paper"
+      ],
+      [
+        "Action Items Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-03 23:00 Update",
+        "2026-03-03--Items"
+      ],
+      [
+        "2026-02-23 18:03 Activity",
+        "DevOps-VibeCoding-Course"
+      ],
+      [
+        "Knowledge Graph",
+        "Knowledge Graph Index"
+      ],
+      [
+        "First-Novel",
+        "People Category"
+      ],
+      [
+        "2026-03-03--Items",
+        "Action Items Category"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-03 23:00 Update",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Documents Category",
+        "Facts"
+      ],
+      [
+        "2026-03-03 23:00 Update",
+        "2026-03-03-Items--153"
+      ],
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Action Items Category",
+        "Action Items Count"
+      ]
+    ],
+    "count": 35,
+    "create_time": 1772584352,
+    "update_time": 1772584352,
+    "_id": "doc-110b96b0a13f8b8ff5b33a4018cb7b9f"
+  },
+  "doc-2952aa4f91af10dd793cdcbd918a60a2": {
+    "relation_pairs": [
+      [
+        "Dataview",
+        "File Modification Time"
+      ],
+      [
+        "Dataview",
+        "Tags (Data Attribute)"
+      ],
+      [
+        "Artificial Intelligence",
+        "Research"
+      ],
+      [
+        "Recent Notes",
+        "Research"
+      ],
+      [
+        "Dataview",
+        "Research Tag"
+      ],
+      [
+        "Education Technology",
+        "Research"
+      ],
+      [
+        "File Modification Time",
+        "Modified (Column)"
+      ],
+      [
+        "By Topic",
+        "Longevity & Healthcare"
+      ],
+      [
+        "By Topic",
+        "Research"
+      ],
+      [
+        "By Topic",
+        "Education Technology"
+      ],
+      [
+        "Longevity & Healthcare",
+        "Research"
+      ],
+      [
+        "Home",
+        "Research"
+      ],
+      [
+        "Artificial Intelligence",
+        "By Topic"
+      ],
+      [
+        "Dataview",
+        "Recent Notes"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1772584378,
+    "update_time": 1772584378,
+    "_id": "doc-2952aa4f91af10dd793cdcbd918a60a2"
+  },
+  "doc-2d9ee28f21365e98a3f09a45d61f2a31": {
+    "relation_pairs": [
+      [
+        "Obsidian",
+        "Quick Reference"
+      ],
+      [
+        "First Novel",
+        "KnowledgeGraph/People/First-Novel.md"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Daily Note File"
+      ],
+      [
+        "Major Accomplishments",
+        "Writing Team"
+      ],
+      [
+        "Research-Lead",
+        "Writing Team"
+      ],
+      [
+        "Base URL",
+        "Google Embedding Provider"
+      ],
+      [
+        "Daily Notes",
+        "Memory"
+      ],
+      [
+        "Opus",
+        "Thinking"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Memory",
+        "Session Snapshot"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Index File"
+      ],
+      [
+        "/Remember Command",
+        "Decisions Made"
+      ],
+      [
+        "Restart Command",
+        "Telegram User"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Obsidian"
+      ],
+      [
+        "Generative Language API",
+        "Google Embedding Provider"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Daily/2026-02-05.md"
+      ],
+      [
+        "BKK",
+        "Session Snapshot"
+      ],
+      [
+        "First Novel",
+        "Knowledge Graph"
+      ],
+      [
+        "First Novel",
+        "Obsidian People File"
+      ],
+      [
+        "Memory (Source)",
+        "Session Learnings"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Quick Reference"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Memory Log - 2026-02-05"
+      ],
+      [
+        "/Remember Command",
+        "Batch Process"
+      ],
+      [
+        "First Novel",
+        "Writing Team"
+      ],
+      [
+        "Daily Notes 2026-03-01",
+        "System Optimization Session"
+      ],
+      [
+        "Daily Notes",
+        "System Optimization Session"
+      ],
+      [
+        "Copy-Editor",
+        "Writing Team"
+      ],
+      [
+        "Dev-Editor",
+        "Writing Team"
+      ],
+      [
+        "Decisions",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Chapter-Writer",
+        "Writing Team"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects"
+      ],
+      [
+        "Auto-Snapshot",
+        "Session Snapshot"
+      ],
+      [
+        "Agent: Chapter-Writer: Main",
+        "Telegram User"
+      ],
+      [
+        "Memory Log",
+        "Obsidian Daily Note File"
+      ],
+      [
+        "KnowledgeGraph/People/First-Novel.md",
+        "Obsidian"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Workflow"
+      ],
+      [
+        "Decisions Made",
+        "Memory (Source)"
+      ],
+      [
+        "7579913696",
+        "Telegram ID"
+      ],
+      [
+        "Book-Architect",
+        "Writing Team"
+      ],
+      [
+        "Google Embedding Provider",
+        "System Optimization Session"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People"
+      ],
+      [
+        "Major Accomplishments",
+        "Memory Log - 2026-02-05"
+      ],
+      [
+        "Publisher",
+        "Writing Team"
+      ],
+      [
+        "First Novel",
+        "Obsidian"
+      ],
+      [
+        "Arscontexta",
+        "Session Remember.py"
+      ],
+      [
+        "Opus",
+        "Writing Team"
+      ],
+      [
+        "Decisions Category",
+        "Session Remember.py"
+      ],
+      [
+        "Obsidian",
+        "Obsidian KnowledgeGraph/People/First-Novel.md"
+      ],
+      [
+        "Memory Log",
+        "Obsidian"
+      ],
+      [
+        "Memory Search",
+        "System Optimization Session"
+      ],
+      [
+        "/Remember Command",
+        "Session Learnings"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Telegram ID"
+      ],
+      [
+        "/Remember Command",
+        "Session Remember.py"
+      ],
+      [
+        "Workspaces",
+        "Writing Team"
+      ],
+      [
+        "Memory Log - 2026-02-05",
+        "Obsidian Daily/2026-02-05.md"
+      ],
+      [
+        "Cron Delivery Settings",
+        "New Jobs"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Notification Spam"
+      ],
+      [
+        "Openclaw",
+        "Workspaces"
+      ],
+      [
+        "Agent: Chapter-Writer: Main",
+        "Session Snapshot"
+      ],
+      [
+        "Obsidian",
+        "Obsidian People File"
+      ],
+      [
+        "Batch Process",
+        "Obsidian Index File"
+      ],
+      [
+        "/Remember Command",
+        "Memory (Source)"
+      ],
+      [
+        "KnowledgeGraph/_Index.md",
+        "Obsidian"
+      ],
+      [
+        "First Novel",
+        "Obsidian KnowledgeGraph/People/First-Novel.md"
+      ],
+      [
+        "Base URL",
+        "https://generativelanguage.googleapis.com/v1beta"
+      ]
+    ],
+    "count": 70,
+    "create_time": 1772584415,
+    "update_time": 1772584415,
+    "_id": "doc-2d9ee28f21365e98a3f09a45d61f2a31"
+  },
+  "doc-99782f5b4284c7bbac36007f373405e6": {
+    "relation_pairs": [
+      [
+        "Memory",
+        "Session Notes"
+      ],
+      [
+        "2026-02-22 Log Event",
+        "Compaction-Summary.md File"
+      ],
+      [
+        "Compaction Summary",
+        "Role"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "Compaction Summary",
+        "Unknown"
+      ],
+      [
+        "Compaction-Summary.md File",
+        "Knowledge Graph"
+      ],
+      [
+        "Paper V23.1",
+        "Session Notes"
+      ],
+      [
+        "Compaction Summary",
+        "Organization"
+      ],
+      [
+        "Compaction Summary",
+        "Knowledge Graph"
+      ],
+      [
+        "Projects",
+        "Session Notes"
+      ],
+      [
+        "Flush Trigger",
+        "Session Notes"
+      ],
+      [
+        "Compaction-Summary.md File",
+        "People Category"
+      ],
+      [
+        "Compaction Summary",
+        "People Category"
+      ],
+      [
+        "Compaction Summary Document",
+        "Knowledge Graph"
+      ],
+      [
+        "Compaction Summary",
+        "Session N Interaction"
+      ],
+      [
+        "Compaction Summary Document",
+        "Interaction Section"
+      ],
+      [
+        "Session Notes",
+        "Summary Compaction"
+      ],
+      [
+        "Compaction Summary",
+        "Compaction Summary Document"
+      ],
+      [
+        "Compaction-Summary.md File",
+        "Obsidian"
+      ],
+      [
+        "Pre-Compaction Summary (5:49 AM)",
+        "Session Notes"
+      ],
+      [
+        "Compaction Summary",
+        "Compaction-Summary.md File"
+      ],
+      [
+        "2026-02-20 Log Event",
+        "Compaction-Summary.md File"
+      ],
+      [
+        "Compaction Summary",
+        "Memory Interaction"
+      ],
+      [
+        "Compaction Summary Document",
+        "Obsidian"
+      ],
+      [
+        "2026-02-21 Log Event",
+        "Compaction-Summary.md File"
+      ],
+      [
+        "Compaction Summary Document",
+        "Session Notes"
+      ],
+      [
+        "Context Loading",
+        "Session Notes"
+      ],
+      [
+        "2026-02-23 Log Event",
+        "Compaction-Summary.md File"
+      ],
+      [
+        "Knowledge Graph",
+        "People Category"
+      ]
+    ],
+    "count": 29,
+    "create_time": 1772584514,
+    "update_time": 1772584514,
+    "_id": "doc-99782f5b4284c7bbac36007f373405e6"
+  },
+  "doc-d9ba7b1ffed6748d118a41ffce0c63f8": {
+    "relation_pairs": [
+      [
+        "Obsidian Daily Note (2026-02-09)",
+        "Skills Installed"
+      ],
+      [
+        "2026-02-23",
+        "Memory"
+      ],
+      [
+        "Session Learnings",
+        "Workflow"
+      ],
+      [
+        "Bookshelf App Project",
+        "Prisma 5"
+      ],
+      [
+        "Atomic Habits (Book)",
+        "Bookshelf App Project"
+      ],
+      [
+        "Bookshelf App Project",
+        "Stev (Book)"
+      ],
+      [
+        "Daily Notes 2026-02-03",
+        "Language Preference"
+      ],
+      [
+        "Author Model",
+        "Database Schema"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "2026-02-23",
+        "Decisions Made"
+      ],
+      [
+        "1984 (Book)",
+        "Bookshelf App Project"
+      ],
+      [
+        "Frontend Design",
+        "UI-UX-P"
+      ],
+      [
+        "Daily Notes 2026-02-03",
+        "Obsidian"
+      ],
+      [
+        "2026-02-09",
+        "Obsidian Daily Note (2026-02-09)"
+      ],
+      [
+        "/remember Command",
+        "session_remember.py"
+      ],
+      [
+        "Database Schema",
+        "Genre Model"
+      ],
+      [
+        "2026-02-23",
+        "BKK"
+      ],
+      [
+        "2026-02-17",
+        "Skills Installed"
+      ],
+      [
+        "2026-02-23",
+        "Batch Process"
+      ],
+      [
+        "Batch Process",
+        "Memory"
+      ],
+      [
+        "Google Drive",
+        "Version 8 Paper"
+      ],
+      [
+        "Knowledge Graph",
+        "Skills Installed"
+      ],
+      [
+        "Language Preference",
+        "Skills Installed"
+      ],
+      [
+        "Bookshelf App Project",
+        "Shadcn/UI"
+      ],
+      [
+        "Bookshelf App Project",
+        "Foundation (Book)"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Workflow"
+      ],
+      [
+        "Knowledge Graph Snapshot Dates",
+        "Version 7 Paper"
+      ],
+      [
+        "Obsidian",
+        "Obsidian People File (Skills-Installed)"
+      ],
+      [
+        "Memory Log 2026-02-04",
+        "Obsidian"
+      ],
+      [
+        "Obsidian People File (Skills-Installed)",
+        "Skills Installed"
+      ],
+      [
+        "ClawHub CLI",
+        "Daily Notes 2026-02-03"
+      ],
+      [
+        "Skills Installed",
+        "Version 8 Paper"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Daily Note (2026-02-09)"
+      ],
+      [
+        "Reviewer Concerns",
+        "Version 8 Paper"
+      ],
+      [
+        "ClawHub CLI",
+        "Skills Installed"
+      ],
+      [
+        "Bookshelf App Project",
+        "Next.js 14"
+      ],
+      [
+        "Differentiability",
+        "Version 7 Paper"
+      ],
+      [
+        "Bookshelf App Project",
+        "Skills Installed"
+      ],
+      [
+        "ClawHub CLI",
+        "Npm"
+      ],
+      [
+        "Anirach",
+        "Language Preference"
+      ],
+      [
+        "Daily Log 2026-02-09",
+        "Obsidian"
+      ],
+      [
+        "Google Drive",
+        "Version 7 Paper"
+      ],
+      [
+        "Obsidian",
+        "Skills Installed"
+      ],
+      [
+        "Language Preference",
+        "USER.md"
+      ],
+      [
+        "Compute Feasibility",
+        "Version 7 Paper"
+      ],
+      [
+        "/home/clawdbot/Projects/bookshelf",
+        "Bookshelf App Project"
+      ],
+      [
+        "Bookshelf App Project",
+        "Database Schema"
+      ],
+      [
+        "Daily Log 2026-02-09",
+        "Paper Revisions"
+      ],
+      [
+        "Frontend Design",
+        "Skills Installed"
+      ],
+      [
+        "Cron Delivery Settings",
+        "New Jobs"
+      ],
+      [
+        "2026-02-22",
+        "Obsidian People File (Skills-Installed)"
+      ],
+      [
+        "Skills Installed",
+        "Version 7 Paper"
+      ],
+      [
+        "2026-02-09",
+        "Daily Notes"
+      ],
+      [
+        "Daily Notes",
+        "Obsidian"
+      ],
+      [
+        "2026-02-23",
+        "Session Learnings"
+      ],
+      [
+        "2026-02-20",
+        "Obsidian People File (Skills-Installed)"
+      ],
+      [
+        "Bookshelf App Project",
+        "Memory Log 2026-02-04"
+      ],
+      [
+        "2026-02-23",
+        "Obsidian People File (Skills-Installed)"
+      ],
+      [
+        "Book Model",
+        "Database Schema"
+      ],
+      [
+        "/remember Command",
+        "Arscontexta"
+      ],
+      [
+        "2026-02-21",
+        "Obsidian People File (Skills-Installed)"
+      ],
+      [
+        "Notification Spam",
+        "Workflow"
+      ],
+      [
+        "Bookshelf App Project",
+        "SQLite"
+      ],
+      [
+        "Decisions Made",
+        "session_remember.py"
+      ]
+    ],
+    "count": 64,
+    "create_time": 1772584557,
+    "update_time": 1772584557,
+    "_id": "doc-d9ba7b1ffed6748d118a41ffce0c63f8"
+  },
+  "doc-b45ff7ae62d6f52265c90021cf0674b5": {
+    "relation_pairs": [
+      [
+        "Anirach",
+        "Google OAuth Credentials"
+      ],
+      [
+        "2026-02-17 04:03 Interaction",
+        "Obsidian"
+      ],
+      [
+        "Authorization URL",
+        "Google OAuth Credentials"
+      ],
+      [
+        "2026-02-17 Creation Date",
+        "Authorization Code"
+      ],
+      [
+        "Authorization Code Exchange",
+        "Google OAuth Credentials"
+      ],
+      [
+        "2026-02-22 04:02 Log Entry",
+        "Authorization Code"
+      ],
+      [
+        "Authorization Code File",
+        "Obsidian"
+      ],
+      [
+        "Daily Memor",
+        "Obsidian"
+      ],
+      [
+        "Authorization Code",
+        "Knowledge Graph"
+      ],
+      [
+        "2026-02-17 04:03 Interaction",
+        "Authorization Code"
+      ],
+      [
+        "2026-02-17 04:03 Interaction",
+        "Daily Note 2026-01-28"
+      ],
+      [
+        "2026-02-17 04:03 Interaction",
+        "Daily Memor"
+      ],
+      [
+        "Authorization Code",
+        "Authorization Code File"
+      ],
+      [
+        "2026-02-22 04:02 Log Entry",
+        "Authorization Code File"
+      ],
+      [
+        "Anirach",
+        "Google Calendar Integration"
+      ],
+      [
+        "Authorization Code Exchange",
+        "Google Calendar Integration"
+      ],
+      [
+        "Authorization Code",
+        "Obsidian"
+      ],
+      [
+        "Daily Note 2026-01-28",
+        "Obsidian"
+      ],
+      [
+        "Daily Memor",
+        "Daily Note 2026-01-28"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1772584572,
+    "update_time": 1772584572,
+    "_id": "doc-b45ff7ae62d6f52265c90021cf0674b5"
+  },
+  "doc-a4ff273a02db98fa8d6a7c506019d758": {
+    "relation_pairs": [
+      [
+        "ChartSense AI MVP",
+        "Decision To Build Chartsense AI MVP"
+      ],
+      [
+        "Code Suggestion",
+        "Knowledge Graph"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Decision To Build Chartsense AI MVP"
+      ],
+      [
+        "Code Suggestion",
+        "Date 2026-02-22"
+      ],
+      [
+        "Code Suggestion",
+        "Date 2026-02-17"
+      ],
+      [
+        "ChartSense AI MVP",
+        "Clinical Decision Support"
+      ],
+      [
+        "Code Suggestion",
+        "Decision To Build Chartsense AI MVP"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "2026-02-14-cha",
+        "KnowledgeGraph"
+      ],
+      [
+        "2026-02-14-cha",
+        "Code Suggestion"
+      ],
+      [
+        "ChartSense AI MVP",
+        "Thai Hospitals"
+      ],
+      [
+        "2026-02-14-cha",
+        "Date 2026-02-17"
+      ],
+      [
+        "Code Suggestion",
+        "KnowledgeGraph"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1772584611,
+    "update_time": 1772584611,
+    "_id": "doc-a4ff273a02db98fa8d6a7c506019d758"
+  },
+  "doc-9c90d0e4d7de0b84993193181312128c": {
+    "relation_pairs": [
+      [
+        "Daily/2026-01-29.md",
+        "Obsidian"
+      ],
+      [
+        "Academic Research Workflow Automation System",
+        "DOCX Reports"
+      ],
+      [
+        "ArXiv",
+        "Daily ArXiv Monitoring"
+      ],
+      [
+        "Academic Research Workflow Automation System",
+        "Workflow Automation"
+      ],
+      [
+        "Daily Mem",
+        "Daily/2026-01-29.md"
+      ],
+      [
+        "Obsidian",
+        "Workflow-Automation.md"
+      ],
+      [
+        "Computer Science and Machine Learning Categories",
+        "Daily ArXiv Monitoring"
+      ],
+      [
+        "Daily/2026-01-29.md",
+        "Workflow Automation"
+      ],
+      [
+        "Academic Research Workflow Automation System",
+        "Daily ArXiv Monitoring"
+      ],
+      [
+        "Academic Research Workflow Automation System",
+        "Anirach"
+      ],
+      [
+        "Workflow Automation",
+        "Workflow-Automation.md"
+      ],
+      [
+        "Academic Research Workflow Automation System",
+        "Google"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772584618,
+    "update_time": 1772584618,
+    "_id": "doc-9c90d0e4d7de0b84993193181312128c"
+  },
+  "doc-86b7b9ff805b331d686da4f61dfee0c2": {
+    "relation_pairs": [
+      [
+        "Daily/2026-01-29-Longevity-Update.md",
+        "Research Topic Upd"
+      ],
+      [
+        "AI Applications In Medical Diagnostics And Treatment",
+        "Healthcare AI"
+      ],
+      [
+        "Life Extension And Aging Studies",
+        "Longevity Research"
+      ],
+      [
+        "New Ar",
+        "Obsidian: Daily/2026-01-29-Longevity-Update.md"
+      ],
+      [
+        "Daily/2026-01-29-Longevity-Update.md",
+        "New Ar"
+      ],
+      [
+        "Biomedical AI",
+        "Longevity Healthcare Research"
+      ],
+      [
+        "2026-02-17 04:03 Interaction",
+        "New Ar"
+      ],
+      [
+        "2026-02-17",
+        "New Ar"
+      ],
+      [
+        "Knowledge Graph",
+        "New Ar"
+      ],
+      [
+        "New Ar",
+        "Obsidian: KnowledgeGraph/People/New-Ar.md"
+      ],
+      [
+        "Healthcare AI",
+        "Longevity Healthcare Research"
+      ],
+      [
+        "Longevity Healthcare Research",
+        "Obsidian: Daily/2026-01-29-Longevity-Update.md"
+      ],
+      [
+        "2026-02-17 04:03 Interaction",
+        "Obsidian: Daily/2026-01-29-Longevity-Update.md"
+      ],
+      [
+        "Daily/2026-01-29-Longevity-Update.md",
+        "Longevity Update"
+      ],
+      [
+        "Longevity Update",
+        "Research Topic Upd"
+      ],
+      [
+        "KnowledgeGraph/People/New-Ar.md",
+        "Obsidian"
+      ],
+      [
+        "KnowledgeGraph/People/New-Ar.md",
+        "New Ar"
+      ],
+      [
+        "Daily/2026-01-29-Longevity-Update.md",
+        "Obsidian"
+      ],
+      [
+        "Obsidian: Daily/2026-01-29-Longevity-Update.md",
+        "Research Topic Update - January 29, 2026"
+      ],
+      [
+        "Longevity Healthcare Research",
+        "Longevity Research"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1772584688,
+    "update_time": 1772584688,
+    "_id": "doc-86b7b9ff805b331d686da4f61dfee0c2"
+  },
+  "doc-3f1f292cb7e71f8ac5fb58a08cca3272": {
+    "relation_pairs": [
+      [
+        "Obsidian",
+        "Obsidian File Log 2026-02-22 04:00"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian File Log 2026-02-23 04:00"
+      ],
+      [
+        "Added Limitations",
+        "Obsidian File Log 2026-02-22 04:00"
+      ],
+      [
+        "Obsidian Interaction 2026-02-17 04:03",
+        "RAG Second Br"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian File Log 2026-02-23 18:01"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian File Log 2026-02-22 18:00"
+      ],
+      [
+        "Added Limitations",
+        "Obsidian File Log 2026-02-21 04:00"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian"
+      ],
+      [
+        "Obsidian",
+        "Obsidian File Log 2026-02-21 04:00"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "Added Limitations",
+        "Obsidian File Log 2026-02-23 04:00"
+      ],
+      [
+        "Obsidian",
+        "Obsidian File Log 2026-02-22 18:00"
+      ],
+      [
+        "Obsidian",
+        "Obsidian File Log 2026-02-23 04:00"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian Interaction 2026-02-17 04:03"
+      ],
+      [
+        "Added Limitations",
+        "Obsidian File Log 2026-02-22 18:00"
+      ],
+      [
+        "Obsidian",
+        "Obsidian File Log 2026-02-23 18:01"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian File Log 2026-02-22 23:00"
+      ],
+      [
+        "Added Limitations",
+        "Obsidian File Log 2026-02-23 18:01"
+      ],
+      [
+        "Knowledge Graph",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Batch",
+        "Memory"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian File Log 2026-02-23 18:00"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Interaction 2026-02-17 04:03"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Workflow"
+      ],
+      [
+        "Added Limitations",
+        "Obsidian File Log 2026-02-22 23:00"
+      ],
+      [
+        "KnowledgeGraph",
+        "RAG Second Br"
+      ],
+      [
+        "Obsidian",
+        "Obsidian File Log 2026-02-22 23:00"
+      ],
+      [
+        "Knowledge Graph",
+        "RAG Second Br"
+      ],
+      [
+        "Added Limitations",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian File Log 2026-02-22 04:02"
+      ],
+      [
+        "/remember Command",
+        "Session Remember.py"
+      ],
+      [
+        "Obsidian",
+        "Obsidian File Log 2026-02-23 18:00"
+      ],
+      [
+        "Added Limitations",
+        "Entry Creation Event"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian File Log 2026-02-23 04:01"
+      ],
+      [
+        "Entry Creation Event",
+        "KnowledgeGraph"
+      ],
+      [
+        "Added Limitations",
+        "Obsidian File Log 2026-02-23 18:00"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Batch Log 2026-02-23 18:03"
+      ],
+      [
+        "Obsidian",
+        "RAG Second Br"
+      ],
+      [
+        "Arscontexta",
+        "Session Remember.py"
+      ],
+      [
+        "Added Limitations",
+        "KnowledgeGraph"
+      ],
+      [
+        "Obsidian",
+        "Obsidian File Log 2026-02-22 04:02"
+      ],
+      [
+        "Added Limitations",
+        "Obsidian File Log 2026-02-22 04:02"
+      ],
+      [
+        "Added Limitations",
+        "Obsidian File Log 2026-02-23 04:01"
+      ],
+      [
+        "Obsidian",
+        "Obsidian File Log 2026-02-23 04:01"
+      ],
+      [
+        "Cron Delivery Settings",
+        "New Jobs"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Notification Spam"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian File Log 2026-02-22 04:00"
+      ],
+      [
+        "Multi-Source RAG Framework",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "/remember Command",
+        "Arscontexta"
+      ],
+      [
+        "Added Limitations",
+        "Knowledge Graph"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian File Log 2026-02-21 04:00"
+      ]
+    ],
+    "count": 50,
+    "create_time": 1772584720,
+    "update_time": 1772584720,
+    "_id": "doc-3f1f292cb7e71f8ac5fb58a08cca3272"
+  },
+  "doc-3a3866ceb56d1c7183947f17b088214c": {
+    "relation_pairs": [
+      [
+        "2026-02-01",
+        "OpenClaw Migration"
+      ],
+      [
+        "2026-02-21 04:00",
+        "KnowledgeGraph/People/Cron-Fix.md"
+      ],
+      [
+        "Cron Fix",
+        "Knowledge Graph"
+      ],
+      [
+        "2026-02-23 04:00",
+        "KnowledgeGraph/People/Cron-Fix.md"
+      ],
+      [
+        "Cron Fix",
+        "KnowledgeGraph/People/Cron-Fix.md"
+      ],
+      [
+        "2026-02-20 23:26",
+        "KnowledgeGraph/People/Cron-Fix.md"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "Clawdbot",
+        "Clawdbot V2026.1.24-3"
+      ],
+      [
+        "Daily/2026-02-01.md",
+        "Obsidian"
+      ],
+      [
+        "OpenClaw Migration",
+        "OpenClaw V2026.1.30"
+      ],
+      [
+        "OpenClaw",
+        "Trademark Issues"
+      ],
+      [
+        "2026-02-01",
+        "Daily/2026-02-01.md"
+      ],
+      [
+        "Cron Fix",
+        "OpenClaw Migration"
+      ],
+      [
+        "Cron Fix",
+        "NPM"
+      ],
+      [
+        "Clawdbot V2026.1.24-3",
+        "OpenClaw Migration"
+      ],
+      [
+        "2026-02-17 04:03",
+        "Daily/2026-02-01.md"
+      ],
+      [
+        "OpenClaw",
+        "Security Hardening"
+      ],
+      [
+        "OpenClaw",
+        "OpenClaw V2026.1.30"
+      ],
+      [
+        "2026-02-22 04:00",
+        "KnowledgeGraph/People/Cron-Fix.md"
+      ],
+      [
+        "2026-02-22 04:02",
+        "KnowledgeGraph/People/Cron-Fix.md"
+      ],
+      [
+        "KnowledgeGraph/People/Cron-Fix.md",
+        "Obsidian"
+      ],
+      [
+        "2026-02-17",
+        "Cron Fix"
+      ],
+      [
+        "Moltbot",
+        "OpenClaw"
+      ],
+      [
+        "Clawdbot",
+        "OpenClaw"
+      ],
+      [
+        "2026-02-23 18:01",
+        "KnowledgeGraph/People/Cron-Fix.md"
+      ],
+      [
+        "Cron Fix",
+        "Daily/2026-02-01.md"
+      ],
+      [
+        "2026-02-17 04:03",
+        "Cron Fix"
+      ]
+    ],
+    "count": 27,
+    "create_time": 1772584764,
+    "update_time": 1772584764,
+    "_id": "doc-3a3866ceb56d1c7183947f17b088214c"
+  },
+  "doc-51ed265a77fc38751e46f3827486a8e1": {
+    "relation_pairs": [
+      [
+        "2026-02-21 04:00",
+        "KnowledgeGraph/People/Memory-Maintenance.md"
+      ],
+      [
+        "2026-02-15",
+        "Daily/2026-02-15.md"
+      ],
+      [
+        "MEMORY.md",
+        "Weekly Memory Maintenance"
+      ],
+      [
+        "Daily/2026-02-15.md",
+        "KnowledgeGraph/People/Memory-Maintenance.md"
+      ],
+      [
+        "2026-02-17",
+        "Memory Maintenance"
+      ],
+      [
+        "2026-02-23 04:00",
+        "KnowledgeGraph/People/Memory-Maintenance.md"
+      ],
+      [
+        "Memory Maintenance",
+        "Weekly Memory Maintenance"
+      ],
+      [
+        "2026-02-20 23:26",
+        "KnowledgeGraph/People/Memory-Maintenance.md"
+      ],
+      [
+        "KnowledgeGraph/People/Anirach.md",
+        "Obsidian"
+      ],
+      [
+        "KnowledgeGraph/People/Memory-Maintenance.md",
+        "Obsidian"
+      ],
+      [
+        "Anirach",
+        "Arthur's Daily Notes (2026-02-16)"
+      ],
+      [
+        "KnowledgeGraph/People/Memory-Maintenance.md",
+        "Memory Maintenance"
+      ],
+      [
+        "ChartSense AI",
+        "MEMORY.md"
+      ],
+      [
+        "2026-02-17 04:03",
+        "Daily/2026-02-15.md"
+      ],
+      [
+        "Full Installed Skills List",
+        "MEMORY.md"
+      ],
+      [
+        "Important Events For Feb 12-14",
+        "MEMORY.md"
+      ],
+      [
+        "2026-02-22 04:00",
+        "KnowledgeGraph/People/Memory-Maintenance.md"
+      ],
+      [
+        "Daily/2026-02-15.md",
+        "Obsidian"
+      ],
+      [
+        "ChartSense AI",
+        "DuckMan"
+      ],
+      [
+        "2026-02-20 04:02",
+        "KnowledgeGraph/People/Memory-Maintenance.md"
+      ],
+      [
+        "2026-02-22 04:02",
+        "KnowledgeGraph/People/Memory-Maintenance.md"
+      ],
+      [
+        "Daily/2026-02-15.md",
+        "Weekly Memory Maintenance"
+      ],
+      [
+        "2026-02-23 18:01",
+        "KnowledgeGraph/People/Memory-Maintenance.md"
+      ],
+      [
+        "Memory Files From Feb 12-14",
+        "Weekly Memory Maintenance"
+      ],
+      [
+        "2026-02-17 04:03",
+        "KnowledgeGraph/People/Memory-Maintenance.md"
+      ],
+      [
+        "KnowledgeGraph/People/DuckMan.md",
+        "Obsidian"
+      ]
+    ],
+    "count": 26,
+    "create_time": 1772584798,
+    "update_time": 1772584798,
+    "_id": "doc-51ed265a77fc38751e46f3827486a8e1"
+  },
+  "doc-7a30149a05dacff8878a5847f1fb2c60": {
+    "relation_pairs": [
+      [
+        "Complete Books",
+        "KnowledgeGraph"
+      ],
+      [
+        "2026-02-21 04:00 Interaction",
+        "Obsidian"
+      ],
+      [
+        "2026-02-23 18:00 Interaction",
+        "Knowledge Graph"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "Next.js 14",
+        "Personal Books Management System"
+      ],
+      [
+        "Complete Books",
+        "Personal Books Management System"
+      ],
+      [
+        "Personal Books Management System",
+        "SQLite"
+      ],
+      [
+        "2026-02-22 04:00 Interaction",
+        "Complete Books"
+      ],
+      [
+        "2026-02-23 04:00 Interaction",
+        "Obsidian"
+      ],
+      [
+        "2026-02-23 18:01 Interaction",
+        "Complete Books"
+      ],
+      [
+        "Complete Books",
+        "Knowledge Graph"
+      ],
+      [
+        "2026-02-22 04:00 Interaction",
+        "Knowledge Graph"
+      ],
+      [
+        "2026-02-23 18:01 Interaction",
+        "Knowledge Graph"
+      ],
+      [
+        "2026-02-22 04:02 Interaction",
+        "Complete Books"
+      ],
+      [
+        "2026-02-23 18:00 Interaction",
+        "Obsidian"
+      ],
+      [
+        "2026-02-17 04:03 Interaction",
+        "Complete Books"
+      ],
+      [
+        "KnowledgeGraph",
+        "Personal Books Management System"
+      ],
+      [
+        "2026-02-21 04:00 Interaction",
+        "Complete Books"
+      ],
+      [
+        "2026-02-22 04:02 Interaction",
+        "Knowledge Graph"
+      ],
+      [
+        "2026-02-17 04:03 Interaction",
+        "Personal Books Management Project"
+      ],
+      [
+        "Personal Books Management System",
+        "Tailwind"
+      ],
+      [
+        "Personal Books Management System",
+        "Shadcn/Ui"
+      ],
+      [
+        "2026-02-21 04:00 Interaction",
+        "Knowledge Graph"
+      ],
+      [
+        "Knowledge Graph",
+        "Personal Books Management Project"
+      ],
+      [
+        "Personal Books Management System",
+        "Prisma"
+      ],
+      [
+        "2026-02-23 04:00 Interaction",
+        "Complete Books"
+      ],
+      [
+        "Complete Books",
+        "Obsidian"
+      ],
+      [
+        "2026-02-22 04:00 Interaction",
+        "Obsidian"
+      ],
+      [
+        "2026-02-23 18:01 Interaction",
+        "Obsidian"
+      ],
+      [
+        "2026-02-23 04:00 Interaction",
+        "Knowledge Graph"
+      ],
+      [
+        "2026-02-22 04:02 Interaction",
+        "Obsidian"
+      ],
+      [
+        "2026-02-23 18:00 Interaction",
+        "Complete Books"
+      ]
+    ],
+    "count": 33,
+    "create_time": 1772584832,
+    "update_time": 1772584832,
+    "_id": "doc-7a30149a05dacff8878a5847f1fb2c60"
+  },
+  "doc-1a7cbc8a5b92ce3577ba0e85e31b3437": {
+    "relation_pairs": [
+      [
+        "KnowledgeGraph/_index.md",
+        "Obsidian"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian: KnowledgeGraph/People/Identity-Verification.md"
+      ],
+      [
+        "Obsidian: KnowledgeGraph/People/Identity-Verification.md",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Identity-Verification",
+        "KnowledgeGraph/People/Identity-Verification.md"
+      ],
+      [
+        "Identity-Verification",
+        "Obsidian: KnowledgeGraph/People/Identity-Verification.md"
+      ],
+      [
+        "Creation Event 2026-02-17",
+        "KnowledgeGraph/People/Identity-Verification.md"
+      ],
+      [
+        "Identity-Verification",
+        "Obsidian"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Creation Event 2026-02-17",
+        "Identity-Verification"
+      ],
+      [
+        "Identity-Verification",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "Action Items Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Interaction Event 2026-02-17 18:02",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "KnowledgeGraph/People/Identity-Verification.md",
+        "Obsidian"
+      ],
+      [
+        "File Entry Event 2026-02-22 04:00",
+        "KnowledgeGraph/People/Identity-Verification.md"
+      ],
+      [
+        "Identity-Verification",
+        "Unknown"
+      ],
+      [
+        "File Entry Event 2026-02-21 04:00",
+        "KnowledgeGraph/People/Identity-Verification.md"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1772584876,
+    "update_time": 1772584876,
+    "_id": "doc-1a7cbc8a5b92ce3577ba0e85e31b3437"
+  },
+  "doc-31b6d14f3a78565ad12596af516da470": {
+    "relation_pairs": [
+      [
+        "Quick Status",
+        "Quick-Status.md"
+      ],
+      [
+        "Research & Papers",
+        "Topic Index"
+      ],
+      [
+        "Obsidian",
+        "_Topics-Index.md"
+      ],
+      [
+        "Quick Status Legend",
+        "Topic Index"
+      ],
+      [
+        "Anirach",
+        "Topic Index"
+      ],
+      [
+        "Obsidian",
+        "Quick-Status.md"
+      ],
+      [
+        "Knowledge Graph",
+        "_Topics-Index.md"
+      ],
+      [
+        "Topic Index",
+        "_Topics-Index.md"
+      ],
+      [
+        "Knowledge Graph",
+        "Quick-Status.md"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772584882,
+    "update_time": 1772584882,
+    "_id": "doc-31b6d14f3a78565ad12596af516da470"
+  },
+  "doc-c73f87c648644d0f5886df071cfc4b6b": {
+    "relation_pairs": [
+      [
+        "Management Testing",
+        "Project Management Testing"
+      ],
+      [
+        "PPlus",
+        "Project Management Testing"
+      ],
+      [
+        "My Workspace",
+        "PPLUS Workspace"
+      ],
+      [
+        "Content Creation Template",
+        "Mobile App Development Project"
+      ],
+      [
+        "Mobile App Development Project",
+        "Project Management Testing"
+      ],
+      [
+        "Mobile App Development Project",
+        "Test Session 2"
+      ],
+      [
+        "Daily Notes 2026-02-02",
+        "Project Management Testing"
+      ],
+      [
+        "KnowledgeGraph/People/Management-Testing.md",
+        "Obsidian"
+      ],
+      [
+        "Mobile App Development Project",
+        "PPLUS Workspace"
+      ],
+      [
+        "KnowledgeGraph/People/Management-Testing.md",
+        "Management Testing"
+      ],
+      [
+        "Daily Notes 2026-02-02",
+        "Obsidian"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1772584917,
+    "update_time": 1772584917,
+    "_id": "doc-c73f87c648644d0f5886df071cfc4b6b"
+  },
+  "doc-2e6c0f12f725a7b639074653a878c82f": {
+    "relation_pairs": [
+      [
+        "Port 11334",
+        "VPIPE Database Query Guide"
+      ],
+      [
+        "PGP Decryption Key",
+        "VPIPE Database"
+      ],
+      [
+        "2026-02-18 04:02 Interaction",
+        "VPIPE Database Query Guide"
+      ],
+      [
+        "2026-02-17 04:03 Interaction",
+        "VPIPE Database Query Guide"
+      ],
+      [
+        "2026-02-18 04:02 Interaction",
+        "Decryption Key"
+      ],
+      [
+        "Reference Tag",
+        "VPIPE Database Query Guide"
+      ],
+      [
+        "2026-02-17 04:03 Interaction",
+        "Decryption Key"
+      ],
+      [
+        "Node55136-VPIPE2Production.Googlejp.App.Ruk-Com.Cloud",
+        "VPIPE Database"
+      ],
+      [
+        "Decryption Key",
+        "Knowledge Graph Tag"
+      ],
+      [
+        "Obsidian",
+        "VPIPE Database Query Guide"
+      ],
+      [
+        "VPIPE Database",
+        "VPIPE Database Query Guide"
+      ],
+      [
+        "VPIPE Database Query Guide",
+        "VPIPE Tag"
+      ],
+      [
+        "Readonly_User",
+        "VPIPE Database"
+      ],
+      [
+        "2026-02-18 23:00 Interaction",
+        "VPIPE Database Query Guide"
+      ],
+      [
+        "Decryption Key",
+        "Obsidian"
+      ],
+      [
+        "2026-02-18 23:00 Interaction",
+        "Decryption Key"
+      ],
+      [
+        "Decryption Key",
+        "VPIPE Database Query Guide"
+      ],
+      [
+        "Sales Tag",
+        "VPIPE Database Query Guide"
+      ],
+      [
+        "Database Tag",
+        "VPIPE Database Query Guide"
+      ],
+      [
+        "VPIPE Database Query Guide",
+        "Vpipe2026"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1772584940,
+    "update_time": 1772584940,
+    "_id": "doc-2e6c0f12f725a7b639074653a878c82f"
+  },
+  "doc-36c79333e70770b079d3c8c754308f31": {
+    "relation_pairs": [
+      [
+        "Clawdbot",
+        "Week 6 Sub-Agent Failure"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "Docker"
+      ],
+      [
+        "Clawdbot",
+        "DevOps VibeCoding Course"
+      ],
+      [
+        "Telegram",
+        "Week 5 PPTX + Handout"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "Kubernetes"
+      ],
+      [
+        "Containerization",
+        "DevOps VibeCoding Course"
+      ],
+      [
+        "PPTX",
+        "Week 5 PPTX + Handout"
+      ],
+      [
+        "2026-02-22",
+        "Clawdbot"
+      ],
+      [
+        "PPTX",
+        "Week 6 Sub-Agent Failure"
+      ],
+      [
+        "2026-02-22",
+        "DevOps VibeCoding Course"
+      ],
+      [
+        "Drive",
+        "Week 5 PPTX + Handout"
+      ],
+      [
+        "Clawdbot",
+        "KnowledgeGraph/People/Clawdbot.md"
+      ],
+      [
+        "Clawdbot",
+        "Week 4 Handout DOCX"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "Week 4 Handout DOCX"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "Week 5 PPTX + Handout"
+      ],
+      [
+        "DevOps VibeCoding Course",
+        "Week 6 Sub-Agent Failure"
+      ],
+      [
+        "Clawdbot",
+        "Week 5 PPTX + Handout"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1772584958,
+    "update_time": 1772584958,
+    "_id": "doc-36c79333e70770b079d3c8c754308f31"
+  },
+  "doc-be6aab37bfb99aded14c2c91c9d5ad36": {
+    "relation_pairs": [
+      [
+        "Knowledge Graph People: Add Longevity Document",
+        "Obsidian"
+      ],
+      [
+        "Anirach",
+        "Decision: Add Longevity Healthcare To Topic"
+      ],
+      [
+        "Decision: Add Longevity Healthcare To Topic",
+        "Knowledge Graph Decisions: Add Longevity Healthcare Document"
+      ],
+      [
+        "Daily Longevity Update Document",
+        "Obsidian"
+      ],
+      [
+        "Decision: Add Longevity Healthcare To Topic",
+        "Longevity Healthcare"
+      ],
+      [
+        "Add Longevity",
+        "Knowledge Graph People: Add Longevity Document"
+      ],
+      [
+        "Daily Longevity Update Document",
+        "Decision: Add Longevity Healthcare To Topic"
+      ],
+      [
+        "Knowledge Graph Decisions: Add Longevity Healthcare Document",
+        "Obsidian"
+      ],
+      [
+        "Add Longevity",
+        "Decision: Add Longevity Healthcare To Topic"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772585014,
+    "update_time": 1772585014,
+    "_id": "doc-be6aab37bfb99aded14c2c91c9d5ad36"
+  },
+  "doc-615f3ca14aa4b54dc5c6ca47b2ae9ed0": {
+    "relation_pairs": [
+      [
+        "Skills Integration (Person)",
+        "Skills Integration (Project)"
+      ],
+      [
+        "KnowledgeGraph",
+        "People"
+      ],
+      [
+        "People",
+        "Skills Integration"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian"
+      ],
+      [
+        "Obsidian",
+        "Skills-In"
+      ],
+      [
+        "KnowledgeGraph",
+        "Skills Integration"
+      ],
+      [
+        "Projects",
+        "Skills Integration"
+      ],
+      [
+        "KnowledgeGraph",
+        "Skills-In"
+      ],
+      [
+        "Projects",
+        "Skills-In"
+      ],
+      [
+        "KnowledgeGraph",
+        "Projects"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1772585019,
+    "update_time": 1772585019,
+    "_id": "doc-615f3ca14aa4b54dc5c6ca47b2ae9ed0"
+  },
+  "doc-0f077cc9ec87b144f1c492fa97cab376": {
+    "relation_pairs": [
+      [
+        "LobsterBoard",
+        "Weather Widget"
+      ],
+      [
+        "Arthur",
+        "Arthur's Daily Notes"
+      ],
+      [
+        "2026-02-16",
+        "Arthur"
+      ],
+      [
+        "Arthur's Daily Notes",
+        "LobsterBoard"
+      ],
+      [
+        "KnowledgeGraph/People/All-Reviewers.md",
+        "Obsidian"
+      ],
+      [
+        "Bangkok",
+        "Weather Widget"
+      ],
+      [
+        "72.62.251.68:8080",
+        "LobsterBoard"
+      ],
+      [
+        "All Reviewers",
+        "Knowledge Graph"
+      ],
+      [
+        "2026-02-16",
+        "Arthur's Daily Notes"
+      ],
+      [
+        "Curbob",
+        "LobsterBoard"
+      ],
+      [
+        "Arthur",
+        "LobsterBoard"
+      ],
+      [
+        "All Reviewers",
+        "KnowledgeGraph/People/All-Reviewers.md"
+      ],
+      [
+        "2026-02-17",
+        "All Reviewers"
+      ],
+      [
+        "LobsterBoard",
+        "LobsterBoard.service"
+      ],
+      [
+        "GitHub",
+        "LobsterBoard"
+      ],
+      [
+        "LobsterBoard",
+        "Server"
+      ],
+      [
+        "Atlanta",
+        "Weather Widget"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1772585076,
+    "update_time": 1772585076,
+    "_id": "doc-0f077cc9ec87b144f1c492fa97cab376"
+  },
+  "doc-8dbdba9b621d5279f95dfd3fc1871222": {
+    "relation_pairs": [
+      [
+        "Arthur",
+        "Three Old Men"
+      ],
+      [
+        "Arthur",
+        "RAG Second Bra"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Arthur"
+      ],
+      [
+        "Arthur",
+        "Memory Log"
+      ],
+      [
+        "Learned Gating",
+        "RAG Second Brain Paper V15"
+      ],
+      [
+        "Arscontexta /Remember Command",
+        "Session Remember.py"
+      ],
+      [
+        "RAG Second Brain Paper V15",
+        "RRF Baseline"
+      ],
+      [
+        "Arthur's Daily Notes",
+        "Obsidian"
+      ],
+      [
+        "Arthur",
+        "RAG Second Brain"
+      ],
+      [
+        "Arthur",
+        "Arthur's Daily Notes"
+      ],
+      [
+        "72.62.251.68:8080",
+        "LobsterBoard"
+      ],
+      [
+        "Bootstrap",
+        "Statistical Significance"
+      ],
+      [
+        "Arthur",
+        "ChartSense AI"
+      ],
+      [
+        "Arthur",
+        "Labrador"
+      ],
+      [
+        "RRF Baseline",
+        "Softmax R@10"
+      ],
+      [
+        "LobsterBoard",
+        "Server"
+      ],
+      [
+        "Arthur",
+        "Obsidian"
+      ],
+      [
+        "RAG Second Brain Paper V15",
+        "Statistical Significance"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Obsidian"
+      ],
+      [
+        "RRF Baseline",
+        "Sigmoid R@10"
+      ],
+      [
+        "Curbob",
+        "LobsterBoard"
+      ],
+      [
+        "Arthur",
+        "OpenClaw"
+      ],
+      [
+        "Arthur",
+        "LobsterBoard"
+      ],
+      [
+        "RAG Second Brain",
+        "RAG Second Brain Paper V15"
+      ],
+      [
+        "Memory Log",
+        "Obsidian"
+      ],
+      [
+        "Arthur",
+        "Systemd Service"
+      ],
+      [
+        "Arthur",
+        "Weather Widget"
+      ],
+      [
+        "RAG Second Brain Paper V15",
+        "Softmax R@10"
+      ],
+      [
+        "Bangkok",
+        "Weather Widget"
+      ],
+      [
+        "RAG Second Brain Paper V15",
+        "Sigmoid R@10"
+      ],
+      [
+        "Atlanta",
+        "Weather Widget"
+      ]
+    ],
+    "count": 31,
+    "create_time": 1772585089,
+    "update_time": 1772585089,
+    "_id": "doc-8dbdba9b621d5279f95dfd3fc1871222"
+  },
+  "doc-4cfb904110c88a597561e8879c2ca0b9": {
+    "relation_pairs": [
+      [
+        "Decision To Modify Prisma Schema",
+        "Prisma Schema Decision Document"
+      ],
+      [
+        "Decision To Modify Prisma Schema",
+        "Knowledge Graph"
+      ],
+      [
+        "Modify Prisma",
+        "Modify Prisma Markdown Document"
+      ],
+      [
+        "Decision To Modify Prisma Schema",
+        "Modify Prisma"
+      ],
+      [
+        "Decision To Modify Prisma Schema",
+        "String Data Type"
+      ],
+      [
+        "Decision To Modify Prisma Schema",
+        "SQLite"
+      ],
+      [
+        "Prisma Schema",
+        "String Array Data Type"
+      ],
+      [
+        "Decision To Modify Prisma Schema",
+        "Obsidian"
+      ],
+      [
+        "Decision To Modify Prisma Schema",
+        "Prisma Schema"
+      ],
+      [
+        "Anirach",
+        "Decision To Modify Prisma Schema"
+      ],
+      [
+        "Daily Notes Markdown Document",
+        "Decision To Modify Prisma Schema"
+      ],
+      [
+        "Prisma Schema",
+        "String Data Type"
+      ],
+      [
+        "Decision To Modify Prisma Schema",
+        "String Array Data Type"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1772585100,
+    "update_time": 1772585100,
+    "_id": "doc-4cfb904110c88a597561e8879c2ca0b9"
+  },
+  "doc-838a7372037dd9d7583be5b6dfb14047": {
+    "relation_pairs": [
+      [
+        "Anirach Mingkhwan",
+        "Bookshelf"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Helpdesk Booking"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Bookshelf App"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Three Old Men"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "RAG Second Brain"
+      ],
+      [
+        "AI-Research-Dashboard",
+        "Anirach Mingkhwan"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "NCD-CIE"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "King Mongkut's University of Technology North Bangkok"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Obsidian-Vault"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Claude-Skills"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "ChartSense AI"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "LobsterBoard"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772585122,
+    "update_time": 1772585122,
+    "_id": "doc-838a7372037dd9d7583be5b6dfb14047"
+  },
+  "doc-d3ad29c3ef4ea9d4073b8f21e15af929": {
+    "relation_pairs": [
+      [
+        "Installed Claw",
+        "KnowledgeGraph/People/Installed-Claw.md"
+      ],
+      [
+        "2026-02-03 Daily Notes",
+        "Obsidian"
+      ],
+      [
+        "ClawHub",
+        "ClawHub CLI"
+      ],
+      [
+        "Daily/2026-02-03.md",
+        "Obsidian"
+      ],
+      [
+        "2026-02-03 Daily Notes",
+        "Daily/2026-02-03.md"
+      ],
+      [
+        "ClawHub CLI",
+        "Installed Claw"
+      ],
+      [
+        "Npm",
+        "Npm Install -G ClawHub"
+      ],
+      [
+        "Daily/2026-02-03.md",
+        "Language Preference Update"
+      ],
+      [
+        "KnowledgeGraph/People/Installed-Claw.md",
+        "Obsidian"
+      ],
+      [
+        "2026-02-03 Daily Notes",
+        "Language Preference Update"
+      ],
+      [
+        "Frontend Design",
+        "Skills"
+      ],
+      [
+        "Installed Claw",
+        "Skills"
+      ],
+      [
+        "Installed Claw",
+        "Obsidian"
+      ],
+      [
+        "Language Preference Update",
+        "USER.md"
+      ],
+      [
+        "Anirach",
+        "Language Preference Update"
+      ],
+      [
+        "2026-02-03 Daily Notes",
+        "Skills"
+      ],
+      [
+        "ClawHub CLI",
+        "Npm Install -G ClawHub"
+      ],
+      [
+        "Daily/2026-02-03.md",
+        "Skills"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1772585155,
+    "update_time": 1772585155,
+    "_id": "doc-d3ad29c3ef4ea9d4073b8f21e15af929"
+  },
+  "doc-dc7921c12728ce1b4fa1b4948ee21d50": {
+    "relation_pairs": [
+      [
+        "Pgvx-20231234",
+        "VPIPE Database"
+      ],
+      [
+        "Node55136-Vpipe2production.Googlejp.App.Ruk-Com.Cloud",
+        "VPIPE Database"
+      ],
+      [
+        "Interaction 2026-02-18",
+        "Sales Pipeline"
+      ],
+      [
+        "Agents/Shared/VPIPE-Database-Guide.md",
+        "Interaction 2026-02-17"
+      ],
+      [
+        "Readonly_User",
+        "VPIPE Database"
+      ],
+      [
+        "Agents/Shared/VPIPE-Database-Guide.md",
+        "Obsidian"
+      ],
+      [
+        "Knowledge Graph",
+        "Sales Pipeline"
+      ],
+      [
+        "Googlejp",
+        "Node55136-Vpipe2production.Googlejp.App.Ruk-Com.Cloud"
+      ],
+      [
+        "VPIPE Database",
+        "Vpipe2026"
+      ],
+      [
+        "Sales Pipeline",
+        "VPIPE Database Query Guide"
+      ],
+      [
+        "11334",
+        "VPIPE Database"
+      ],
+      [
+        "KnowledgeGraph/People/Sales-Pipeline.md",
+        "Obsidian"
+      ],
+      [
+        "Interaction 2026-02-18",
+        "KnowledgeGraph/People/Sales-Pipeline.md"
+      ],
+      [
+        "Node55136-Vpipe2production.Googlejp.App.Ruk-Com.Cloud",
+        "Ruk-Com.Cloud"
+      ],
+      [
+        "Interaction 2026-02-17",
+        "Sales Pipeline"
+      ],
+      [
+        "Obsidian",
+        "VPIPE Database Query Guide"
+      ],
+      [
+        "VPIPE Database",
+        "VPIPE Database Query Guide"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1772585173,
+    "update_time": 1772585173,
+    "_id": "doc-dc7921c12728ce1b4fa1b4948ee21d50"
+  },
+  "doc-2684aef6fa11b1b9c4f0d254b34263ec": {
+    "relation_pairs": [
+      [
+        "Daily Mem",
+        "Knowledge Graph"
+      ],
+      [
+        "Daily Mem",
+        "Workflow Automation"
+      ],
+      [
+        "Interaction 2026-02-20 23:26",
+        "Obsidian"
+      ],
+      [
+        "Daily Mem",
+        "Interaction 2026-02-20 23:26"
+      ],
+      [
+        "Interaction 2026-02-20 23:26",
+        "Workflow Automation"
+      ],
+      [
+        "Profile Creation (2026-02-17)",
+        "Workflow Automation"
+      ],
+      [
+        "Interaction 2026-02-17 04:03",
+        "Obsidian"
+      ],
+      [
+        "Obsidian",
+        "Workflow Automation"
+      ],
+      [
+        "Daily Mem",
+        "Obsidian"
+      ],
+      [
+        "Daily Mem",
+        "Interaction 2026-02-17 04:03"
+      ],
+      [
+        "Interaction 2026-02-17 04:03",
+        "Workflow Automation"
+      ],
+      [
+        "Daily Mem",
+        "Profile Creation (2026-02-20)"
+      ],
+      [
+        "Knowledge Graph",
+        "Workflow Automation"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1772585203,
+    "update_time": 1772585203,
+    "_id": "doc-2684aef6fa11b1b9c4f0d254b34263ec"
+  },
+  "doc-a4b9540765c9116547992f4b4a476e1a": {
+    "relation_pairs": [
+      [
+        "Final Results",
+        "Statistical Significance"
+      ],
+      [
+        "Arthur",
+        "Projects/RAG Second Brain"
+      ],
+      [
+        "Arthur's Daily Log",
+        "Final Results"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Arthur"
+      ],
+      [
+        "Arthur",
+        "KnowledgeGraph/People/Arthur.md"
+      ],
+      [
+        "RAG Second Brain Paper v15",
+        "RRF Baseline"
+      ],
+      [
+        "Arthur",
+        "Arthur's Daily Log"
+      ],
+      [
+        "Arthur",
+        "Daily/2026-02-10.md"
+      ],
+      [
+        "Final Results",
+        "Softmax R@10"
+      ],
+      [
+        "Final Results",
+        "RAG Second Brain Paper v15"
+      ],
+      [
+        "Bootstrap",
+        "Statistical Significance"
+      ],
+      [
+        "Arthur",
+        "Labrador"
+      ],
+      [
+        "KnowledgeGraph/People/Learned-Gating.md",
+        "Obsidian"
+      ],
+      [
+        "Final Results",
+        "Sigmoid R@10"
+      ],
+      [
+        "Final Results",
+        "Learned Gating"
+      ],
+      [
+        "Daily/2026-02-10.md",
+        "Obsidian"
+      ],
+      [
+        "RRF Baseline",
+        "Sigmoid R@10"
+      ],
+      [
+        "Arthur",
+        "OpenClaw"
+      ],
+      [
+        "Arthur's Daily Log",
+        "Daily/2026-02-10.md"
+      ],
+      [
+        "KnowledgeGraph/People/Learned-Gating.md",
+        "Learned Gating"
+      ],
+      [
+        "Daily/2026-02-10.md",
+        "RAG Second Brain Paper v15"
+      ],
+      [
+        "Final Results",
+        "RRF Baseline"
+      ],
+      [
+        "RAG Second Brain Paper v15",
+        "Softmax R@10"
+      ],
+      [
+        "AI Agent",
+        "Arthur"
+      ],
+      [
+        "Arthur's Daily Log",
+        "RAG Second Brain Paper v15"
+      ],
+      [
+        "RAG Second Brain Paper v15",
+        "Sigmoid R@10"
+      ],
+      [
+        "KnowledgeGraph/People/Arthur.md",
+        "Obsidian"
+      ],
+      [
+        "Learned Gating",
+        "RAG Second Brain Paper v15"
+      ]
+    ],
+    "count": 28,
+    "create_time": 1772585229,
+    "update_time": 1772585229,
+    "_id": "doc-a4b9540765c9116547992f4b4a476e1a"
+  },
+  "doc-57ca52f28d5bc68f21ab7c9caf670243": {
+    "relation_pairs": [
+      [
+        "Markdown",
+        "Obsidian"
+      ],
+      [
+        "Home Dashboard",
+        "Obsidian"
+      ],
+      [
+        "Documents Category",
+        "KnowledgeGraph"
+      ],
+      [
+        "Agent Teams",
+        "Obsidian"
+      ],
+      [
+        "KnowledgeGraph",
+        "People Category"
+      ],
+      [
+        "Home Dashboard",
+        "KnowledgeGraph"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian"
+      ],
+      [
+        "KnowledgeGraph",
+        "Projects Category"
+      ],
+      [
+        "Decisions Category",
+        "KnowledgeGraph"
+      ],
+      [
+        "KnowledgeGraph",
+        "Topics Category"
+      ],
+      [
+        "Home Dashboard",
+        "People Category"
+      ],
+      [
+        "Bidirectional Linking",
+        "Obsidian"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772585232,
+    "update_time": 1772585232,
+    "_id": "doc-57ca52f28d5bc68f21ab7c9caf670243"
+  },
+  "doc-ea5150e6fca2cc266a2614914dfb7239": {
+    "relation_pairs": [
+      [
+        "Base URL",
+        "Google Embedding Provider"
+      ],
+      [
+        "Daily Notes",
+        "Memory"
+      ],
+      [
+        "Memory",
+        "Session Snapshot"
+      ],
+      [
+        "Daily Notes",
+        "System Optimization"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian"
+      ],
+      [
+        "Generative Language API",
+        "Google Embedding Provider"
+      ],
+      [
+        "Base URL",
+        "Memory Search"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search"
+      ],
+      [
+        "2026-03-02",
+        "Session Snapshot"
+      ],
+      [
+        "Session Major",
+        "System Optimization"
+      ],
+      [
+        "Agent:Chapter-Writer:Main",
+        "Telegram User ID 7579913696"
+      ],
+      [
+        "Agent:Chapter-Writer:Main",
+        "Session Snapshot"
+      ],
+      [
+        "Memory Search",
+        "System Optimization"
+      ],
+      [
+        "KnowledgeGraph",
+        "Session Major"
+      ],
+      [
+        "Telegram",
+        "Telegram User ID 7579913696"
+      ],
+      [
+        "Agent:Chapter-Writer:Main",
+        "Telegram"
+      ],
+      [
+        "2026-03-02",
+        "Agent:Chapter-Writer:Main"
+      ],
+      [
+        "2026-03-02",
+        "2026-03-03"
+      ],
+      [
+        "2026-03-03",
+        "Batch Process"
+      ],
+      [
+        "2026-03-01",
+        "Batch Process"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1772585276,
+    "update_time": 1772585276,
+    "_id": "doc-ea5150e6fca2cc266a2614914dfb7239"
+  },
+  "doc-d113e8b1edad4ebb129a2a094a883e18": {
+    "relation_pairs": [
+      [
+        "Condensed Design",
+        "Interaction 2026-02-18"
+      ],
+      [
+        "KnowledgeGraph People Condensed-Design.md",
+        "Obsidian"
+      ],
+      [
+        "RAG Second Brain Paper v15",
+        "RRF Baseline"
+      ],
+      [
+        "Learned Gating",
+        "Sigmoid R@10"
+      ],
+      [
+        "Condensed Design",
+        "KnowledgeGraph People Condensed-Design.md"
+      ],
+      [
+        "Interaction 2026-02-18",
+        "Obsidian"
+      ],
+      [
+        "Daily Log 2026-02-10",
+        "Interaction 2026-02-17"
+      ],
+      [
+        "Bootstrap Method",
+        "P-Value"
+      ],
+      [
+        "RRF Baseline",
+        "Softmax R@10"
+      ],
+      [
+        "Daily Log 2026-02-10",
+        "Obsidian"
+      ],
+      [
+        "Arthur",
+        "Daily Log 2026-02-10"
+      ],
+      [
+        "Interaction 2026-02-17",
+        "Obsidian"
+      ],
+      [
+        "Daily Log 2026-02-10",
+        "RAG Second Brain Paper v15"
+      ],
+      [
+        "Daily 2026-02-10.md",
+        "Obsidian"
+      ],
+      [
+        "RRF Baseline",
+        "Sigmoid R@10"
+      ],
+      [
+        "Daily 2026-02-10.md",
+        "Daily Log 2026-02-10"
+      ],
+      [
+        "P-Value",
+        "Statistical Significance"
+      ],
+      [
+        "Learned Gating",
+        "Softmax R@10"
+      ],
+      [
+        "Learned Gating",
+        "RAG Second Brain Paper v15"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1772585286,
+    "update_time": 1772585286,
+    "_id": "doc-d113e8b1edad4ebb129a2a094a883e18"
+  },
+  "doc-5612c5c9efe47f2a4c36a48a45336086": {
+    "relation_pairs": [
+      [
+        "Arthur",
+        "GitHub Widget"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Arthur"
+      ],
+      [
+        "Degree Fahrenheit",
+        "Weather Widget"
+      ],
+      [
+        "LobsterBoard",
+        "Systemd Service Lobsterboard.service"
+      ],
+      [
+        "Degree Celsius",
+        "Weather Widget"
+      ],
+      [
+        "Arthur",
+        "RAG Second Brain"
+      ],
+      [
+        "GitHub Widget",
+        "LobsterBoard Dashboard (Project)"
+      ],
+      [
+        "IP Address 72.62.251.68:8080",
+        "LobsterBoard"
+      ],
+      [
+        "GitHub",
+        "LobsterBoard"
+      ],
+      [
+        "Clock Settings",
+        "LobsterBoard Dashboard (Project)"
+      ],
+      [
+        "LobsterBoard",
+        "Server"
+      ],
+      [
+        "Arthur",
+        "LobsterBoard Dashboard (Project)"
+      ],
+      [
+        "Curbob",
+        "LobsterBoard"
+      ],
+      [
+        "Arthur",
+        "OpenClaw"
+      ],
+      [
+        "Arthur",
+        "LobsterBoard"
+      ],
+      [
+        "Arthur",
+        "Clock Settings"
+      ],
+      [
+        "Arthur",
+        "Weather Widget"
+      ],
+      [
+        "LobsterBoard",
+        "LobsterBoard Dashboard (Project)"
+      ],
+      [
+        "Bangkok",
+        "Weather Widget"
+      ],
+      [
+        "Arthur",
+        "Systemd Service Lobsterboard.service"
+      ],
+      [
+        "Atlanta",
+        "Weather Widget"
+      ]
+    ],
+    "count": 21,
+    "create_time": 1772585322,
+    "update_time": 1772585322,
+    "_id": "doc-5612c5c9efe47f2a4c36a48a45336086"
+  },
+  "doc-9d2f1db37d977a9d5337beaf2f8c2ada": {
+    "relation_pairs": [
+      [
+        "OpenClaw",
+        "Security Hardening"
+      ],
+      [
+        "OpenClaw",
+        "OpenClaw V2026.1.30"
+      ],
+      [
+        "2026-02-17",
+        "New Skills"
+      ],
+      [
+        "2026-02-17",
+        "Daily/2026-02-01.md"
+      ],
+      [
+        "Clawdbot",
+        "Moltbot"
+      ],
+      [
+        "New Skills",
+        "OpenClaw Migration"
+      ],
+      [
+        "2026-02-01",
+        "OpenClaw Migration"
+      ],
+      [
+        "OpenClaw",
+        "Trademark Issues"
+      ],
+      [
+        "New Skills",
+        "Npm Install -G OpenClaw"
+      ],
+      [
+        "Daily/2026-02-01.md",
+        "OpenClaw Migration"
+      ],
+      [
+        "KnowledgeGraph/People/New-Skills.md",
+        "New Skills"
+      ],
+      [
+        "OpenClaw Migration",
+        "OpenClaw V2026.1.30"
+      ],
+      [
+        "KnowledgeGraph/People/New-Skills.md",
+        "Obsidian"
+      ],
+      [
+        "Moltbot",
+        "OpenClaw"
+      ],
+      [
+        "Clawdbot",
+        "Clawdbot V2026.1.24-3"
+      ],
+      [
+        "Daily/2026-02-01.md",
+        "Obsidian"
+      ],
+      [
+        "Clawdbot V2026.1.24-3",
+        "OpenClaw Migration"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1772585354,
+    "update_time": 1772585354,
+    "_id": "doc-9d2f1db37d977a9d5337beaf2f8c2ada"
+  },
+  "doc-e570c762971c4d1a558761ca3b304a6e": {
+    "relation_pairs": [
+      [
+        "KnowledgeGraph/People/Related-Work.md",
+        "Related Work"
+      ],
+      [
+        "Obsidian",
+        "Work Log 2026-02-16"
+      ],
+      [
+        "CMT Reviewer Concerns",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Paper Architect",
+        "Work Log 2026-02-16"
+      ],
+      [
+        "Academic Team",
+        "Work Log 2026-02-16"
+      ],
+      [
+        "Paper Architect",
+        "RAG Second Brain Paper"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772585389,
+    "update_time": 1772585389,
+    "_id": "doc-e570c762971c4d1a558761ca3b304a6e"
+  },
+  "doc-505a6de49a4e71323e53e984bc770e7f": {
+    "relation_pairs": [
+      [
+        "Added Design",
+        "Knowledge Graph"
+      ],
+      [
+        "Co-occurrence-based Statistical Retrieval",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Obsidian",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Dense Vector Retrieval",
+        "RAG Framework"
+      ],
+      [
+        "RAG Framework",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "Added Design",
+        "Obsidian"
+      ],
+      [
+        "Dense Vector Retrieval",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Co-occurrence-based Statistical Retrieval",
+        "PPMI"
+      ],
+      [
+        "Co-occurrence-based Statistical Retrieval",
+        "RAG Framework"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1772585391,
+    "update_time": 1772585391,
+    "_id": "doc-505a6de49a4e71323e53e984bc770e7f"
+  },
+  "doc-1fd7088becf52bb8a5c2ed784265260d": {
+    "relation_pairs": [
+      [
+        "AI Research Dashboard",
+        "AI Research Dashboard Markdown"
+      ],
+      [
+        "Date 2026-02-17",
+        "Research Dashboard"
+      ],
+      [
+        "AI Research Dashboard",
+        "Interaction 2026-02-17 04:03"
+      ],
+      [
+        "Daily Log Markdown",
+        "Update 2026-02-16 23:01"
+      ],
+      [
+        "Research Dashboard",
+        "Research Dashboard Markdown"
+      ],
+      [
+        "AI Research Dashboard Markdown",
+        "Obsidian"
+      ],
+      [
+        "AI Research Dashboard",
+        "Prisma"
+      ],
+      [
+        "KnowledgeGraph",
+        "Research Dashboard"
+      ],
+      [
+        "AI Research Dashboard",
+        "Research Dashboard"
+      ],
+      [
+        "AI Research Dashboard",
+        "Date 2026-02-16"
+      ],
+      [
+        "AI Research Dashboard",
+        "Next.js 14"
+      ],
+      [
+        "Obsidian",
+        "Research Dashboard"
+      ],
+      [
+        "AI Research Dashboard",
+        "KnowledgeGraph"
+      ],
+      [
+        "Obsidian",
+        "Research Dashboard Markdown"
+      ],
+      [
+        "AI Research Dashboard",
+        "Update 2026-02-16 23:01"
+      ],
+      [
+        "AI Research Dashboard",
+        "Deployed & Live"
+      ],
+      [
+        "Daily Log Markdown",
+        "Obsidian"
+      ],
+      [
+        "Interaction 2026-02-17 04:03",
+        "Research Dashboard"
+      ],
+      [
+        "AI Research Dashboard",
+        "TypeScript"
+      ],
+      [
+        "AI Research Dashboard",
+        "SQLite"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1772585439,
+    "update_time": 1772585439,
+    "_id": "doc-1fd7088becf52bb8a5c2ed784265260d"
+  },
+  "doc-356a7e2f722bc7cd4054e7e8e11265a0": {
+    "relation_pairs": [
+      [
+        "2026-02-15",
+        "Memory Maintenance"
+      ],
+      [
+        "Daily/2026-02-15.md",
+        "Memory Maintenance"
+      ],
+      [
+        "Memory Maintenance",
+        "Weekly"
+      ],
+      [
+        "Feb 12-14",
+        "Memory Files"
+      ],
+      [
+        "Daily/2026-02-15.md",
+        "Skills Installation Document"
+      ],
+      [
+        "Full Installed Skills List",
+        "MEMORY.md"
+      ],
+      [
+        "Skills Installation",
+        "Skills Installation Document"
+      ],
+      [
+        "Knowledge Graph",
+        "Skills Installation"
+      ],
+      [
+        "MEMORY.md",
+        "Review Date"
+      ],
+      [
+        "MEMORY.md",
+        "Memory Maintenance"
+      ],
+      [
+        "Important Events For Feb 12-14",
+        "MEMORY.md"
+      ],
+      [
+        "ChartSense AI Project Details",
+        "MEMORY.md"
+      ],
+      [
+        "2026-02-17",
+        "Skills Installation Document"
+      ],
+      [
+        "Memory Files",
+        "Memory Maintenance"
+      ],
+      [
+        "Daily/2026-02-15.md",
+        "Obsidian"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1772585446,
+    "update_time": 1772585446,
+    "_id": "doc-356a7e2f722bc7cd4054e7e8e11265a0"
+  },
+  "doc-f483ffe5746e330a5d767b70d856c97b": {
+    "relation_pairs": [
+      [
+        "Academic Paper",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Home.md",
+        "Obsidian"
+      ],
+      [
+        "Knowledge Graph",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "AIiH 2026",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Academic Paper",
+        "Home.md"
+      ],
+      [
+        "Academic Paper",
+        "Knowledge Graph"
+      ],
+      [
+        "RAG Second Brain Paper",
+        "Version V23.1"
+      ],
+      [
+        "Dashboard",
+        "Home.md"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772585469,
+    "update_time": 1772585469,
+    "_id": "doc-f483ffe5746e330a5d767b70d856c97b"
+  },
+  "doc-747382645d4ed066b3e5ef8307a73acd": {
+    "relation_pairs": [
+      [
+        "Agent Souls",
+        "Philosophy"
+      ],
+      [
+        "Agent Souls",
+        "What I Reject"
+      ],
+      [
+        "Agent Souls",
+        "Identity"
+      ],
+      [
+        "Enhanced Agent Soul Format",
+        "Soul Format"
+      ],
+      [
+        "Obsidian",
+        "Soul Format"
+      ],
+      [
+        "Agent Souls",
+        "What I Embrace"
+      ],
+      [
+        "Agent Souls",
+        "Personality"
+      ],
+      [
+        "Google Drive",
+        "Team Guides & Coding Manual v3"
+      ],
+      [
+        "ArthurBotData",
+        "Team Guides & Coding Manual v3"
+      ],
+      [
+        "Agent Souls",
+        "Enhanced Agent Soul Format"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1772585500,
+    "update_time": 1772585500,
+    "_id": "doc-747382645d4ed066b3e5ef8307a73acd"
+  },
+  "doc-46d5184a8d46c47ab7401afbdefd9125": {
+    "relation_pairs": [
+      [
+        "Obsidian",
+        "Quick Reference"
+      ],
+      [
+        "Imperial College London",
+        "Organizations Index"
+      ],
+      [
+        "Active Research",
+        "MOC-Research"
+      ],
+      [
+        "Google",
+        "Organizations Index"
+      ],
+      [
+        "Imperial College",
+        "Knowledge Graph"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Anirach Mingkhwan Email Address"
+      ],
+      [
+        "MOC-Research",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Quick Reference"
+      ],
+      [
+        "Knowledge Graph",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Anirach Mingkhwan's Email"
+      ],
+      [
+        "Imperial College",
+        "Imperial-College.md"
+      ],
+      [
+        "Active Research",
+        "NCD-CIE Paper"
+      ],
+      [
+        "Obsidian",
+        "Organizations Index"
+      ],
+      [
+        "Imperial College",
+        "Obsidian"
+      ],
+      [
+        "NCD-CIE Paper",
+        "NCD-CIE Project"
+      ],
+      [
+        "Causal Knowledge",
+        "NCD-CIE Paper"
+      ],
+      [
+        "MOC-Research",
+        "NCD-CIE Paper"
+      ],
+      [
+        "RAG Second Brain Paper",
+        "RAG Second Brain Project"
+      ],
+      [
+        "IEEE",
+        "Organizations Index"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Telegram ID 7579913696"
+      ],
+      [
+        "ACM",
+        "Organizations Index"
+      ],
+      [
+        "Medical Diagnosis",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "RAG",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "AIiH 2026",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Active Research",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "MOC-Research",
+        "Obsidian"
+      ]
+    ],
+    "count": 26,
+    "create_time": 1772585516,
+    "update_time": 1772585516,
+    "_id": "doc-46d5184a8d46c47ab7401afbdefd9125"
+  },
+  "doc-7347a0c6ac17d9cb58ce4f8eb857eb12": {
+    "relation_pairs": [
+      [
+        "Not Started",
+        "People Section"
+      ],
+      [
+        "2026-02-17 04:03",
+        "Obsidian"
+      ],
+      [
+        "KnowledgeGraph",
+        "Not Started"
+      ],
+      [
+        "KnowledgeGraph",
+        "People Section"
+      ],
+      [
+        "KnowledgeGraph",
+        "Topic Index"
+      ],
+      [
+        "KnowledgeGraph",
+        "Topics Section"
+      ],
+      [
+        "Research & Papers Section",
+        "Topic Index"
+      ],
+      [
+        "Anirach",
+        "Topic Index"
+      ],
+      [
+        "Topic Index",
+        "Topics Section"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian"
+      ],
+      [
+        "Status Legend",
+        "Topic Index"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1772585551,
+    "update_time": 1772585551,
+    "_id": "doc-7347a0c6ac17d9cb58ce4f8eb857eb12"
+  },
+  "doc-cbbf68c07d5785152cb568cb44c097d2": {
+    "relation_pairs": [
+      [
+        "Demoted Theorems",
+        "KnowledgeGraph"
+      ],
+      [
+        "Paper Started Date",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Dense Vector Retrieval",
+        "Multi-Source RAG Framework"
+      ],
+      [
+        "Paper Last Updated Date",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "RAG Second Brain Paper",
+        "Research & Papers"
+      ],
+      [
+        "Paper Status Active",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "KnowledgeGraph",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Co-occurrence-Based Statistical Retrieval (PPMI)",
+        "Multi-Source RAG Framework"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian"
+      ],
+      [
+        "Multi-Source RAG Framework",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Demoted Theorems",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Demoted Theorems",
+        "Obsidian"
+      ],
+      [
+        "Demoted Theorems",
+        "Demoted Theorems Entry Creation Date"
+      ],
+      [
+        "Demoted Theorems",
+        "Person Tag"
+      ],
+      [
+        "Demoted Theorems",
+        "Interaction Timestamp"
+      ],
+      [
+        "Demoted Theorems",
+        "Knowledge Graph Tag"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1772585553,
+    "update_time": 1772585553,
+    "_id": "doc-cbbf68c07d5785152cb568cb44c097d2"
+  },
+  "doc-113056c9501e9b2d79be577e20d93410": {
+    "relation_pairs": [
+      [
+        "Google Calendar Integration",
+        "Setup Process"
+      ],
+      [
+        "Authorization Code Exchange",
+        "Google Calendar Integration"
+      ],
+      [
+        "Anirach",
+        "Google OAuth Credentials"
+      ],
+      [
+        "Current Calendar",
+        "Daily Memory - January 28, 2026"
+      ],
+      [
+        "Current Calendar",
+        "Obsidian"
+      ],
+      [
+        "Anirach",
+        "Google Calendar Integration"
+      ],
+      [
+        "Google Calendar",
+        "Google Calendar Integration"
+      ],
+      [
+        "Authorization Code Exchange",
+        "Setup Process"
+      ],
+      [
+        "Authorization Code Exchange",
+        "Google OAuth Credentials"
+      ],
+      [
+        "Daily Memory - January 28, 2026",
+        "Google Calendar Integration"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1772585574,
+    "update_time": 1772585574,
+    "_id": "doc-113056c9501e9b2d79be577e20d93410"
+  },
+  "doc-1263f6dcbc96b0cd91f9ce4b885f6881": {
+    "relation_pairs": [
+      [
+        "Academic Team",
+        "Work Log 2026-02-16"
+      ],
+      [
+        "Obsidian",
+        "Work Log 2026-02-16"
+      ],
+      [
+        "CMT Reviewer Concerns",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "CMT Reviewer",
+        "CMT Reviewer Concerns"
+      ],
+      [
+        "February 16, 2026",
+        "Work Log 2026-02-16"
+      ],
+      [
+        "February 17, 2026",
+        "Work Log 2026-02-16"
+      ],
+      [
+        "CMT Reviewer Concerns",
+        "Paper Architect"
+      ],
+      [
+        "Paper Architect",
+        "V23 Revision"
+      ],
+      [
+        "RAG Second Brain Paper",
+        "V23 Revision"
+      ],
+      [
+        "February 17, 2026",
+        "Peer Reviewer"
+      ],
+      [
+        "Academic Team",
+        "Paper Architect"
+      ],
+      [
+        "Paper Architect",
+        "RAG Second Brain Paper"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772585616,
+    "update_time": 1772585616,
+    "_id": "doc-1263f6dcbc96b0cd91f9ce4b885f6881"
+  },
+  "doc-40fa075485b63447273b59dcdd10fadb": {
+    "relation_pairs": [
+      [
+        "2026-02-17 04:03 Interaction",
+        "Daily/2026-01-29-Longevity-Update.md"
+      ],
+      [
+        "AI for Biological and Medical",
+        "Biomedical AI"
+      ],
+      [
+        "2026-02-17 04:03 Interaction",
+        "Obsidian"
+      ],
+      [
+        "Added Longevity Healthcare Research",
+        "Biomedical AI"
+      ],
+      [
+        "Added Longevity Healthcare Research",
+        "Research Topic Update - January 29, 2026"
+      ],
+      [
+        "Added Longevity",
+        "Added Longevity Healthcare Research"
+      ],
+      [
+        "Daily/2026-01-29-Longevity-Update.md",
+        "Research Topic Update - January 29, 2026"
+      ],
+      [
+        "AI Applications In Medical Diagnostics And Treatment",
+        "Healthcare AI"
+      ],
+      [
+        "Life Extension And Aging Studies",
+        "Longevity Research"
+      ],
+      [
+        "AI For Biological And Medical",
+        "Biomedical AI"
+      ],
+      [
+        "Added Longevity Healthcare Research",
+        "Longevity Research"
+      ],
+      [
+        "Added Longevity Healthcare Research",
+        "Healthcare AI"
+      ],
+      [
+        "Daily/2026-01-29-Longevity-Update.md",
+        "Obsidian"
+      ],
+      [
+        "Life Extension and Aging Studies",
+        "Longevity Research"
+      ],
+      [
+        "AI Applications in Medical Diagnostics and Treatment",
+        "Healthcare AI"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1772585616,
+    "update_time": 1772585616,
+    "_id": "doc-40fa075485b63447273b59dcdd10fadb"
+  },
+  "doc-f35a0c6a0244897333e1e1091f4a3eb2": {
+    "relation_pairs": [
+      [
+        "Action Item: Improve GitHub Repo",
+        "Improve Git"
+      ],
+      [
+        "Action Item: Improve GitHub Repo",
+        "Knowledge Graph"
+      ],
+      [
+        "Action Item: Improve GitHub Repo",
+        "GitHub Repo"
+      ],
+      [
+        "Action Item: Improve GitHub Repo",
+        "Paper Iterations"
+      ],
+      [
+        "Action Item: Improve GitHub Repo",
+        "Anirach"
+      ],
+      [
+        "Improve Git",
+        "Knowledge Graph"
+      ],
+      [
+        "Action Item: Improve GitHub Repo",
+        "Obsidian"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1772585650,
+    "update_time": 1772585650,
+    "_id": "doc-f35a0c6a0244897333e1e1091f4a3eb2"
+  },
+  "doc-d395d729f7f4af176337bfefc3a79dd0": {
+    "relation_pairs": [
+      [
+        "New Screens",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "UX/UI Designer Agent",
+        "Visual Polish"
+      ],
+      [
+        "Responsive Design",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Anti-AI-Slop Design Principles",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "UX Reviews",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Obsidian",
+        "UX/UI Designer Agent Added Event"
+      ],
+      [
+        "Tailwind CSS",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Interface Design",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "UX/UI Designer Agent",
+        "Usability"
+      ],
+      [
+        "UX/UI Designer Agent",
+        "UX/UI Designer Agent Added Event"
+      ],
+      [
+        "Coding Team",
+        "UX/UI Designer Agent Added Event"
+      ],
+      [
+        "Shadcn/UI",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Opus Model",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Course Team",
+        "Knowledge Graph"
+      ],
+      [
+        "UI Polish",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Design Systems",
+        "UX/UI Designer Agent"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1772585654,
+    "update_time": 1772585654,
+    "_id": "doc-d395d729f7f4af176337bfefc3a79dd0"
+  },
+  "doc-88e992b721430779160720a86027f0b5": {
+    "relation_pairs": [
+      [
+        "2026-02-14-Chartsense-Ai-Mvp.Md",
+        "Obsidian"
+      ],
+      [
+        "2026-02-14-Chartsense-Ai-Mvp.Md",
+        "ChartSense AI MVP"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "ChartSense AI MVP"
+      ],
+      [
+        "Heart Failure",
+        "Knowledge Graph"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "2026-02-14-Chartsense-Ai-Mvp.Md",
+        "Heart Failure"
+      ],
+      [
+        "ChartSense AI MVP",
+        "Thai Hospitals"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1772585689,
+    "update_time": 1772585689,
+    "_id": "doc-88e992b721430779160720a86027f0b5"
+  },
+  "doc-771986aa17685fe6999e419c1c67ae69": {
+    "relation_pairs": [
+      [
+        "Coding Manual",
+        "อนิราช มิ่งขวัญ"
+      ],
+      [
+        "Combine V1's Professional Styling With V2's Collaboration Workflows For Coding Manual V3",
+        "Daily/2026-02-12.md"
+      ],
+      [
+        "Coding Manual",
+        "Daily/2026-02-12.md"
+      ],
+      [
+        "KnowledgeGraph",
+        "Obsidian"
+      ],
+      [
+        "Coding Manual v3",
+        "Combine v1's Professional Styling With v2's Collaboration Workflows For Coding Manual v3"
+      ],
+      [
+        "Daily/2026-02-12.md",
+        "Obsidian"
+      ],
+      [
+        "Combine v1's Professional Styling With v2's Collaboration Workflows For Coding Manual v3",
+        "Daily/2026-02-12.md"
+      ],
+      [
+        "Coding Manual v3",
+        "Daily/2026-02-12.md"
+      ],
+      [
+        "Coding Manual V3",
+        "Daily/2026-02-12.md"
+      ],
+      [
+        "Coding Manual",
+        "Coding Manual v3"
+      ],
+      [
+        "Google Drive",
+        "Team Guides"
+      ],
+      [
+        "ArthurBotData/Team Manuals/",
+        "Team Guides"
+      ],
+      [
+        "DOCX Guides",
+        "Team Guides"
+      ],
+      [
+        "Coding Manual",
+        "KnowledgeGraph"
+      ],
+      [
+        "Coding Manual V3",
+        "Combine V1's Professional Styling With V2's Collaboration Workflows For Coding Manual V3"
+      ],
+      [
+        "KnowledgeGraph",
+        "อนิราช มิ่งขวัญ"
+      ],
+      [
+        "Daily/2026-02-12.md",
+        "อนิราช มิ่งขวัญ"
+      ],
+      [
+        "Coding Manual",
+        "Combine v1's Professional Styling With v2's Collaboration Workflows For Coding Manual v3"
+      ],
+      [
+        "Coding Manual v3",
+        "KnowledgeGraph"
+      ],
+      [
+        "Combine v1's Professional Styling With v2's Collaboration Workflows For Coding Manual v3",
+        "KnowledgeGraph"
+      ],
+      [
+        "Daily/2026-02-12.md",
+        "Team Guides"
+      ]
+    ],
+    "count": 21,
+    "create_time": 1772585705,
+    "update_time": 1772585705,
+    "_id": "doc-771986aa17685fe6999e419c1c67ae69"
+  },
+  "doc-8983e2b4c186fcc645136f51f241d354": {
+    "relation_pairs": [
+      [
+        "Daily ArXiv Monitoring",
+        "cs.HC"
+      ],
+      [
+        "Obsidian Daily Note 2026-01-29",
+        "Professional Digest"
+      ],
+      [
+        "Daily ArXiv Monitoring",
+        "cs.LG"
+      ],
+      [
+        "Daily ArXiv Monitoring",
+        "cs.CV"
+      ],
+      [
+        "Academic Research Workflow Automation System",
+        "Daily ArXiv Monitoring"
+      ],
+      [
+        "Academic Research Workflow Automation System",
+        "Professional Digest"
+      ],
+      [
+        "Daily ArXiv Monitoring",
+        "stat.ML"
+      ],
+      [
+        "Academic Research Workflow Automation System",
+        "Obsidian Daily Note 2026-01-29"
+      ],
+      [
+        "Daily ArXiv Monitoring",
+        "cs.CL"
+      ],
+      [
+        "Daily ArXiv Monitoring",
+        "cs.NE"
+      ],
+      [
+        "Academic Research Workflow Automation System",
+        "Anirach"
+      ],
+      [
+        "Daily ArXiv Monitoring",
+        "cs.AI"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772585714,
+    "update_time": 1772585714,
+    "_id": "doc-8983e2b4c186fcc645136f51f241d354"
+  },
+  "doc-e4c9f0047cf0851b406258ad13a0ecf3": {
+    "relation_pairs": [
+      [
+        "New Screens",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "UX/UI Designer Agent",
+        "Visual Polish"
+      ],
+      [
+        "Responsive Design",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Coding Team",
+        "Designer Agent"
+      ],
+      [
+        "Anti-AI-Slop Design Principles",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Agent Interaction Event 2026-02-17 04:03",
+        "Daily Note 2026-02-11"
+      ],
+      [
+        "UX Reviews",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Agent Creation Event 2026-02-17",
+        "Designer Agent"
+      ],
+      [
+        "UX/UI Designer Agent",
+        "Usability"
+      ],
+      [
+        "Tailwind CSS",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Interface Design",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Shadcn/UI",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Opus Model",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Agent Interaction Event 2026-02-17 04:03",
+        "Designer Agent"
+      ],
+      [
+        "UI Polish",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Designer Agent",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Design Systems",
+        "UX/UI Designer Agent"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1772585762,
+    "update_time": 1772585762,
+    "_id": "doc-e4c9f0047cf0851b406258ad13a0ecf3"
+  },
+  "doc-d4a764628ee2a0d96bcbab465f3adff1": {
+    "relation_pairs": [
+      [
+        "Artificial Intelligence",
+        "Topics/AI.md"
+      ],
+      [
+        "Knowledge Graph",
+        "Topics/AI.md"
+      ],
+      [
+        "Date 2026-02-17",
+        "KnowledgeGraph/People/Artificial-Intelligence.md"
+      ],
+      [
+        "Date 2026-02-15",
+        "Topics/AI.md"
+      ],
+      [
+        "MOC-Infrastructure.md",
+        "Obsidian"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "Agent Teams",
+        "Artificial Intelligence"
+      ],
+      [
+        "MOC-Infrastructure.md",
+        "Tools"
+      ],
+      [
+        "Obsidian",
+        "Topics/AI.md"
+      ],
+      [
+        "Date 2026-02-16",
+        "Topics/AI.md"
+      ],
+      [
+        "AI/ML Stack",
+        "MOC-Infrastructure.md"
+      ],
+      [
+        "AI/ML Stack",
+        "Machine Learning"
+      ],
+      [
+        "AI/ML Stack",
+        "GPT / LLMs"
+      ],
+      [
+        "Artificial Intelligence",
+        "KnowledgeGraph/People/Artificial-Intelligence.md"
+      ],
+      [
+        "MOC",
+        "MOC-Infrastructure.md"
+      ],
+      [
+        "Infrastructure",
+        "Tools"
+      ],
+      [
+        "AI/ML Stack",
+        "Artificial Intelligence"
+      ],
+      [
+        "Knowledge Graph",
+        "MOC-Infrastructure.md"
+      ],
+      [
+        "Topic",
+        "Topics/AI.md"
+      ],
+      [
+        "Artificial Intelligence",
+        "Research Automation"
+      ],
+      [
+        "Artificial Intelligence",
+        "Knowledge Graph"
+      ],
+      [
+        "Artificial Intelligence",
+        "Clinical Decision"
+      ],
+      [
+        "Date 2026-02-16",
+        "MOC-Infrastructure.md"
+      ],
+      [
+        "Infrastructure",
+        "MOC-Infrastructure.md"
+      ]
+    ],
+    "count": 24,
+    "create_time": 1772585767,
+    "update_time": 1772585767,
+    "_id": "doc-d4a764628ee2a0d96bcbab465f3adff1"
+  },
+  "doc-a738f505c3e1573b43b49a1c3bf45d9d": {
+    "relation_pairs": [
+      [
+        "Tolerance for Ambiguity",
+        "White Paper for Executive Strategic Development Class"
+      ],
+      [
+        "Executive Strategic Development Class",
+        "White Paper for Executive Strategic Development Class"
+      ],
+      [
+        "Tasks Completed",
+        "White Paper for Executive Strategic Development Class"
+      ],
+      [
+        "Daily/2026-01-26.md",
+        "Obsidian"
+      ],
+      [
+        "Long-Horizon Thinking",
+        "White Paper for Executive Strategic Development Class"
+      ],
+      [
+        "Daily/2026-01-26.md",
+        "White Paper for Executive Strategic Development Class"
+      ],
+      [
+        "Daily/2026-01-26.md",
+        "Tasks Completed"
+      ],
+      [
+        "Strategic Thinking Under Uncertainty",
+        "White Paper for Executive Strategic Development Class"
+      ],
+      [
+        "Anirach",
+        "White Paper for Executive Strategic Development Class"
+      ],
+      [
+        "Knowledge Graph",
+        "Tasks Completed"
+      ],
+      [
+        "Second-Order Consequence",
+        "White Paper for Executive Strategic Development Class"
+      ],
+      [
+        "Literature",
+        "White Paper for Executive Strategic Development Class"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1772585794,
+    "update_time": 1772585794,
+    "_id": "doc-a738f505c3e1573b43b49a1c3bf45d9d"
+  }
+}

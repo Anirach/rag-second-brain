@@ -1,0 +1,1150 @@
+{
+  "chunk-2971afaa4a866697c2a2055c8cd288d2": {
+    "tokens": 77,
+    "content": "[Source: test.md]\nAnirach is a university lecturer and AI engineer. He prefers dark themes (#0D1229) for PPTX slides. He works on RAG Second Brain paper for AIiH 2026. He uses OpenClaw with Arthur (an AI assistant). Anirach collaborates with Hospital_001 and Hospital_002 on healthcare AI.",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2971afaa4a866697c2a2055c8cd288d2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:828a6591efcdc3632b61d3e4b1002f9f",
+      "default:extract:de053a29be7dffdb46b1dd4164f186ac"
+    ],
+    "create_time": 1772583869,
+    "update_time": 1772583896,
+    "_id": "chunk-2971afaa4a866697c2a2055c8cd288d2"
+  },
+  "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3": {
+    "tokens": 176,
+    "content": "[Source: KnowledgeGraph/MOC-Teaching.md]\n---\ntype: moc\nupdated: 2026-02-16\ntags: [moc, teaching, education]\n---\n\n# 📚 Teaching & Courses\n\n## Course Development\n- [[KnowledgeGraph/Topics/education technology\\|Education Technology]] — EdTech methods\n- [[KnowledgeGraph/Topics/Vibe Coding with Antigravity\\|Vibe Coding]] — Planned course\n\n## Agent Team\n- [[Agents/Course Prep Team\\|Course Preparation Team]] — 10 agents for course creation\n\n## Institution\n- [[KnowledgeGraph/Organizations/King Mongkut's University of Technology North Bangkok\\|KMUTNB]] — Anirach's university\n\n## Related\n- [[KnowledgeGraph/MOC-Research\\|Research]] — Research feeds into teaching\n- [[Home\\|← Home]]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2f77abe8ec47d9bbe58f0df8cc9c74c3",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:2cec03655b63be10e2e3f06715817512",
+      "default:extract:a6b50c18cf21d5849701c54a3e652aab"
+    ],
+    "create_time": 1772584004,
+    "update_time": 1772584035,
+    "_id": "chunk-2f77abe8ec47d9bbe58f0df8cc9c74c3"
+  },
+  "chunk-19a30e0d2c5e415e011c673f18e44e91": {
+    "tokens": 368,
+    "content": "[Source: KnowledgeGraph/MOC-Research.md]\n---\ntype: moc\nupdated: 2026-02-16\ntags: [moc, research]\n---\n\n# 🔬 Research & Papers\n\n## Active Research\n- [[KnowledgeGraph/Projects/RAG Second Brain\\|RAG Second Brain Paper]] — Multi-source KG RAG for medical diagnosis (AIiH 2026)\n- [[KnowledgeGraph/Projects/NCD-CIE\\|NCD-CIE Paper]] — Causal knowledge graph for NCD risk assessment\n\n## Research Areas\n- [[KnowledgeGraph/Topics/knowledge graph\\|Knowledge Graphs]] — Core methodology\n- [[KnowledgeGraph/Topics/ontology\\|Ontology]] — Structured medical knowledge\n- [[KnowledgeGraph/Topics/clinical decision support\\|Clinical Decision Support]] — Application domain\n- [[KnowledgeGraph/Topics/causal inference\\|Causal Inference]] — NCD-CIE methodology\n- [[KnowledgeGraph/Topics/longevity\\|Longevity]] — Research interest\n- [[KnowledgeGraph/Topics/biomedical\\|Biomedical AI]] — Research interest\n\n## Key People\n- [[KnowledgeGraph/People/Anirach Mingkhwan\\|Anirach Mingkhwan]] — Principal investigator\n- [[KnowledgeGraph/People/DuckMan\\|DuckMan]] — ChartSense AI collaborator\n\n## Venues & Events\n- [[KnowledgeGraph/Events/AIiH 2026\\|AIiH 2026]] — Imperial College London, Aug 26-28\n- [[KnowledgeGraph/Topics/arXiv\\|arXiv]] — Preprint server\n\n## Related\n- [[KnowledgeGraph/MOC-Infrastructure\\|Infrastructure]] — Tools used in research\n- [[Home\\|← Home]]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-19a30e0d2c5e415e011c673f18e44e91",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6948a7eb47d3be39997d198399c0db04",
+      "default:extract:ba5de8d3565477ed2daa57bcbaf34aa7"
+    ],
+    "create_time": 1772584004,
+    "update_time": 1772584038,
+    "_id": "chunk-19a30e0d2c5e415e011c673f18e44e91"
+  },
+  "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9": {
+    "tokens": 92,
+    "content": "[Source: Research/Longevity.md]\n# Longevity & Healthcare\n\n## Notes\n```dataview\nLIST FROM #research AND #longevity\nSORT file.mtime DESC\n```\n\n## Key Topics\n- Aging Biology\n- Interventions & Supplements\n- Biomarkers\n- Clinical Trials\n- Healthspan vs Lifespan\n\n## Resources\n- \n\n---\n#research #longevity\n[[Research/Index|← Back to Research]]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-7ce65e3ed28ee6a9ba6ab730d1a787b9",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:eadd28e545d65cb7bfc7354660e54437",
+      "default:extract:aa6d1c577eb288334b7a0ec06244eb41"
+    ],
+    "create_time": 1772584043,
+    "update_time": 1772584091,
+    "_id": "chunk-7ce65e3ed28ee6a9ba6ab730d1a787b9"
+  },
+  "chunk-5a199a577367afc1799777199de40b72": {
+    "tokens": 1200,
+    "content": "[Source: Quick-Reference.md]\n---\ntype: reference\nupdated: 2026-02-17\ntags: [pinned, reference, always-load]\n---\n\n# ⚡ Quick Reference\n\n> **Always loaded at session start.** Critical IDs, links, and facts.\n\n## 🧑 Identity\n- **Human:** Anirach Mingkhwan\n- **Telegram ID:** 7579913696\n- **Email:** anirach.m@fitm.kmutnb.ac.th\n- **Timezone:** Asia/Bangkok (UTC+7)\n- **Org:** FITM, KMUTNB\n\n## 📄 Active Papers\n\n### RAG Second Brain (AIiH 2026)\n- **CMT Paper ID:** 18\n- **CMT URL:** https://cmt3.research.microsoft.com/AIiH2026\n- **Title:** \"Multi-Source Knowledge Graph Retrieval-Augmented Generation as a Second Brain for LLM-Based Medical Diagnosis\"\n- **Status:** Submitted (v23.1) ✅\n- **File on CMT:** MKG-RAG-SecondBrain-v23.1.pdf\n- **Track:** Full-length Paper (Main Sessions)\n- **Conference:** AIiH 2026, Imperial College London, Aug 26-28, 2026\n- **Deadline:** April 10, 2026 (11:59 PM Pacific)\n- **Format:** Springer LNCS, 12+2 pages, double-blind\n- **Templates:** `/home/clawdbot/clawd/templates/AIiH-2026/` (LaTeX: `llncs.cls`, `splncs04.bst` | Word: `svlnproc1104.dot`)\n- **GitHub:** https://github.com/Anirach/rag-second-brain (public)\n- **App:** https://github.com/Anirach/MKG-RAG-MedicalDiag (private)\n- **Drive:** `Papers/RAG-Second-Brain/` in ArthurBotData\n\n### NCD-CIE Paper\n- **Status:** v4 final, delivered\n- **Drive:** `Papers/NCD-CIE/` in ArthurBotData\n\n## 📚 Books\n\n### Three Old Men\n- **GitHub:** https://github.com/Anirach/three-old-men\n- **English:** Nobel Edition (complete)\n- **Thai:** Full translation complete (7 chapters + afterword)\n- **Drive:** `Books/Three-Old-Men/` in ArthurBotData\n\n## 🏥 Projects\n\n### ChartSense AI\n- **GitHub:** https://github.com/Anirach/chartsense-ai\n- **Status:** MVP complete\n- **Stack:** Next.js 14 + FastAPI + PostgreSQL + Redis + Neo4j\n\n### LobsterBoard\n- **URL:** http://72.62.251.68:8080\n- **Service:** `lobsterboard.service`\n\n### VPIPE Database\n- **Host:** `node55136-vpipe2production.googlejp.app.ruk-com.cloud:11334`\n- **DB:** `vpipe`\n- **User:** `readonly_user`\n- **PGP Key:** `Pgvx-20231234`\n- **Prefix:** `VPIPE:` triggers queries\n\n## 📝 Document Templates (`/home/clawdbot/clawd/templates/`)\n- **General Reports:** `reports/General_Report_Template.docx` — cover page, TOC, 3 heading levels, tables\n- **Springer LNCS LaTeX:** `academic/springer-lncs/latex/` (llncs.cls, splncs04.bst) — AIiH 2026 etc.\n- **Springer LNCS Word:** `academic/springer-lncs/word/` (svlnproc1104.dot)\n\n## 🔑 Key Credentials Locations\n- **Google Drive:** `/home/clawdbot/clawd/gdrive/token.json`\n- **Google AI (Nano Banana):** API key in TOOLS.md\n- **OpenRouter:** `~/.openclaw/openclaw.json`\n- **gog CLI:** needs `GOG_KEYRING_PASSWORD` (not yet configured)\n\n## 🖥️ Infrastructure\n- **Server:** srv1297304 (72.62.251.68)\n- **OpenClaw:** v2026.2.26\n- **Coding Team Setup Guide:** `/home/clawdbot/clawd/tmp/CODING_TEAM_SETUP_v4.md` (canonical reference)\n- **Coding Team Models:** orchestrator/code-review/db-specialist=Opus, rest=Sonnet\n- **Workspace:** `/home/clawdbot/clawd`\n- **Obsidian Vault:** `/home/clawdbot/obsidian-vault` → github.com/Anirach/obsidian-vault\n- **Google Drive:** ArthurBotData folder\n\n## 💊 Medication Reminders\n- 8:00 AM, 8:00 PM, 10:00 PM daily\n\n## 🔗 Quick Links\n- [[Home|Home Dashboard]]\n- [[KnowledgeGraph/MOC-Research|Research MOC]]\n- [[Agents/Shared/Google-Drive-Convention|Drive Convention]]\n- [[Agents/Shared/VPIPE-Database-Guide|VPIPE Guide]]\n\n## DevOps VibeCoding Course — Drive IDs\n| Week | PPTX ID | Handout ID |\n|------|---------|------------|\n| Week 1 | 1JqeT-ffxswG8IvLg6-oyiY6MWFQq20KC | 1uZeBvQjDU_QB9fSFU_Fh1IulDqYLSjsv |\n| Week 2 | 12",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-4017fd9b5fb442d685f03551434caf4b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:7cb3fbef54b813a840df628f8a9be978",
+      "default:extract:1bb62a09b76b903e5382567a84eb4bdc"
+    ],
+    "create_time": 1772584046,
+    "update_time": 1772584191,
+    "_id": "chunk-5a199a577367afc1799777199de40b72"
+  },
+  "chunk-8012e399d9e5ea3f933ec3b0fee8988d": {
+    "tokens": 316,
+    "content": "-Guide|VPIPE Guide]]\n\n## DevOps VibeCoding Course — Drive IDs\n| Week | PPTX ID | Handout ID |\n|------|---------|------------|\n| Week 1 | 1JqeT-ffxswG8IvLg6-oyiY6MWFQq20KC | 1uZeBvQjDU_QB9fSFU_Fh1IulDqYLSjsv |\n| Week 2 | 12dvquytK5Yv1psJBXAPtbZahbMUbPJhq | 1-2kjiee4p7pSunMA0Y6SRrT7RRGlWjuG |\n| Week 3 | 16yF2sjlCmCjafQSzBaF1O18rmBjUUlle | 1d5oNxlpot2c6cw6I9y2A1k1mQ6YOuTMI |\n| Week 4 | 1FHUgU-aYi-7MSw3wTC6-_1Etq9cPyxg7 | 1SJGgLHT6GOS6UahedSklCM5X2NTr8DuM |\n| Week 5 | 1I7E3T1cBq4QDnUBHmK0EFxtV15if9gAM | 1ZAAFbhy9KzdjI8kpASomrB00OBmoUDvj |",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-4017fd9b5fb442d685f03551434caf4b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:46a07b407789aa5c1135a2004ee89b26",
+      "default:extract:85060d525938b738bb97349b6518427f"
+    ],
+    "create_time": 1772584046,
+    "update_time": 1772584095,
+    "_id": "chunk-8012e399d9e5ea3f933ec3b0fee8988d"
+  },
+  "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c": {
+    "tokens": 356,
+    "content": "[Source: KnowledgeGraph/MOC-Infrastructure.md]\n---\ntype: moc\nupdated: 2026-02-16\ntags: [moc, infrastructure]\n---\n\n# 🛠️ Tools & Infrastructure\n\n## AI/ML Stack\n- [[KnowledgeGraph/Topics/GPT\\|GPT / LLMs]] — Core language models\n- [[KnowledgeGraph/Topics/machine learning\\|Machine Learning]] — Broad ML techniques\n- [[KnowledgeGraph/Topics/AI\\|Artificial Intelligence]] — General AI\n\n## Databases & Storage\n- [[KnowledgeGraph/Topics/Neo4j\\|Neo4j]] — Graph database for KG\n- [[KnowledgeGraph/Topics/PostgreSQL\\|PostgreSQL]] — Relational database (VPIPE)\n- [[KnowledgeGraph/Topics/ChromaDB\\|ChromaDB]] — Vector database for embeddings\n- [[KnowledgeGraph/Topics/data warehouse\\|Data Warehouse]] — Analytics infrastructure\n\n## Development\n- [[KnowledgeGraph/Topics/Next.js\\|Next.js]] — Frontend framework (ChartSense AI)\n- [[KnowledgeGraph/Topics/Docker\\|Docker]] — Containerization\n- [[KnowledgeGraph/Topics/Obsidian\\|Obsidian]] — Knowledge management\n\n## Services\n- [[KnowledgeGraph/Projects/LobsterBoard\\|LobsterBoard]] — Server dashboard\n- [[KnowledgeGraph/Projects/VPIPE\\|VPIPE]] — Sales pipeline DB\n- [[KnowledgeGraph/Projects/OpenClaw-Web-UI\\|OpenClaw Web UI]] — Remote access\n\n## Related\n- [[KnowledgeGraph/MOC-Research\\|Research]] — What we build with these tools\n- [[Home\\|← Home]]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-28fc80c7abcbb7c8f3a3662eecaddd9c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:2fd2443f4547f87b356c9f08bcf46f63",
+      "default:extract:81dc592a2494fa86ce169888bc6941fe"
+    ],
+    "create_time": 1772584104,
+    "update_time": 1772584139,
+    "_id": "chunk-28fc80c7abcbb7c8f3a3662eecaddd9c"
+  },
+  "chunk-dbfecb1c1a2bb83afc8f0f8178ad4c06": {
+    "tokens": 81,
+    "content": "[Source: Research/AI.md]\n# Artificial Intelligence\n\n## Notes\n```dataview\nLIST FROM #research AND #ai\nSORT file.mtime DESC\n```\n\n## Key Topics\n- Machine Learning\n- Large Language Models\n- AI Agents\n- Computer Vision\n- NLP\n\n## Resources\n- \n\n---\n#research #ai\n[[Research/Index|← Back to Research]]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-dbfecb1c1a2bb83afc8f0f8178ad4c06",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:0e79134cef89b03c01cb71b38a59c7ab",
+      "default:extract:23d39ba72bd12ae4639bad67107af995"
+    ],
+    "create_time": 1772584148,
+    "update_time": 1772584171,
+    "_id": "chunk-dbfecb1c1a2bb83afc8f0f8178ad4c06"
+  },
+  "chunk-c2cf3a796b09887b7b8355de43da736f": {
+    "tokens": 597,
+    "content": "[Source: Home.md]\n---\ntype: dashboard\nupdated: 2026-02-16\ntags: [home, dashboard]\n---\n\n# 🏠 Home\n\n## 📊 Active Projects\n\n| Project | Status | Last Update |\n|---------|--------|------------|\n| [[KnowledgeGraph/Projects/RAG Second Brain\\|RAG Second Brain Paper]] | v23.1 submitted to AIiH 2026 | Feb 16 |\n| [[KnowledgeGraph/Projects/ChartSense AI\\|ChartSense AI]] | MVP complete, on GitHub | Feb 14 |\n| [[KnowledgeGraph/Projects/Three Old Men\\|Three Old Men]] | Thai translation complete | Feb 14 |\n| [[KnowledgeGraph/Projects/LobsterBoard\\|LobsterBoard]] | Live at :8080 | Feb 16 |\n| [[KnowledgeGraph/Projects/VPIPE\\|VPIPE Database]] | Active, reports generated | Feb 16 |\n| [[KnowledgeGraph/Projects/OpenClaw-Web-UI\\|OpenClaw Web UI]] | Pending decision | Feb 16 |\n\n## 🤖 Agent Teams\n**[[Agents/Index\\|View All Teams]]** — 44 agents across 5 teams\n- [[Agents/Arthur\\|Arthur]] 🐕 — Personal AI assistant\n- [[Agents/Academic Paper Team\\|Academic]] (9) · [[Agents/Writing Team\\|Writing]] (8) · [[Agents/Translation Team\\|Translation]] (8) · [[Agents/Course Prep Team\\|Courses]] (10) · [[Agents/Coding Team\\|Coding]] (8)\n\n## 🧠 Knowledge Graph\n- [[KnowledgeGraph/People/_index\\|People]] — Key collaborators and contacts\n- [[KnowledgeGraph/Projects/_index\\|Projects]] — All active and completed projects\n- [[KnowledgeGraph/Topics/_index\\|Topics]] — Research areas and technologies\n- [[KnowledgeGraph/Documents/_index\\|Documents]] — Papers, guides, reports\n- [[KnowledgeGraph/Decisions/_index\\|Decisions]] — Key decisions with context\n- [[KnowledgeGraph/Action-Items/_index\\|Action Items]] — Open tasks\n\n## 🗺️ Maps of Content\n- [[KnowledgeGraph/MOC-Research\\|Research & Papers]]\n- [[KnowledgeGraph/MOC-Infrastructure\\|Tools & Infrastructure]]\n- [[KnowledgeGraph/MOC-Teaching\\|Teaching & Courses]]\n\n## 📝 Daily Notes\n- [[Daily/2026-02-16\\|Today's Note]]\n- [[Daily/Index\\|Browse All Notes]]\n\n## 🔗 Quick Links\n- [[Quick-Reference\\|⚡ Quick Reference]] · [[KnowledgeGraph/Documents/Facts\\|📌 Quick Facts]]\n- [[Resources/Index\\|Resources]] · [[Templates/Index\\|Templates]] · [[Archive/Index\\|Archive]]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-c2cf3a796b09887b7b8355de43da736f",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:05e81bd773ef6271ee0562b92e450979",
+      "default:extract:26198446e2f01c6f214d15897a2bf935"
+    ],
+    "create_time": 1772584176,
+    "update_time": 1772584228,
+    "_id": "chunk-c2cf3a796b09887b7b8355de43da736f"
+  },
+  "chunk-481427393c6695a98dde842249c71ce5": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/First-Novel.md]\n---\nname: \"First Novel\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# First Novel\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md\n# Memory Log — 2026-02-05  ## Major Accomplishments  ### 1. Writing Team Setup - Created 6-agent professional writing team (book-architect, research-lead, chapter-writer, dev-editor, copy-editor, publisher) - Workspaces at `~/.openclaw/workspace-{agent-name}` - Model allocation: Opus for thinking-he\n\n\n## 2026-02-17 23:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2d9ee28f21365e98a3f09a45d61f2a31",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:2df0dddb2cd257c182c0e738a47763d7",
+      "default:extract:6c2e596e3fc3ac4c11113304155931b7"
+    ],
+    "create_time": 1772584239,
+    "update_time": 1772584294,
+    "_id": "chunk-481427393c6695a98dde842249c71ce5"
+  },
+  "chunk-02c142cb55bfe21786326d82ec655339": {
+    "tokens": 1200,
+    "content": "Memory Log — 2026-02-05  \n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-22 18:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-22 23:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-23 04:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-23 04:01 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-23 18:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n##",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-2d9ee28f21365e98a3f09a45d61f2a31",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:c6ff5c311cf2badba6775c29ccba592c",
+      "default:extract:58c6b0ba0bdb2e10c46539220bdec48b"
+    ],
+    "create_time": 1772584239,
+    "update_time": 1772584280,
+    "_id": "chunk-02c142cb55bfe21786326d82ec655339"
+  },
+  "chunk-dc6fcf70267592172f417dccb380b103": {
+    "tokens": 1200,
+    "content": "\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-23 18:01 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-23 18:03 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-23 23:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 04:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 18:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 23:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-25 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-24 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-24 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  >",
+    "chunk_order_index": 2,
+    "full_doc_id": "doc-2d9ee28f21365e98a3f09a45d61f2a31",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:83fde1c8664ae097a21003fd7ae5f2ff",
+      "default:extract:4650b60ab4db9261e05cb446d2bb41f2"
+    ],
+    "create_time": 1772584239,
+    "update_time": 1772584336,
+    "_id": "chunk-dc6fcf70267592172f417dccb380b103"
+  },
+  "chunk-dbddb0cc8f3daa198946451856e988a7": {
+    "tokens": 1200,
+    "content": "25 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-28 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-28 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 23:00 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 04:40 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 18:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n##",
+    "chunk_order_index": 3,
+    "full_doc_id": "doc-2d9ee28f21365e98a3f09a45d61f2a31",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:9fe78044681baac2b81fe3be924c8b66",
+      "default:extract:681deb9f3733f77c25d14e8ac73cf01f"
+    ],
+    "create_time": 1772584239,
+    "update_time": 1772584350,
+    "_id": "chunk-dbddb0cc8f3daa198946451856e988a7"
+  },
+  "chunk-94a2fbefdc9f95d4468f72555b31c9af": {
+    "tokens": 742,
+    "content": "/v1beta\n\n\n## 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-02 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 23:23 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i",
+    "chunk_order_index": 4,
+    "full_doc_id": "doc-2d9ee28f21365e98a3f09a45d61f2a31",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:35e0ca0c3e6acf4a5736a7fff9c2904e",
+      "default:extract:2a8eaf24a1acf57cd5993ab32240d597"
+    ],
+    "create_time": 1772584239,
+    "update_time": 1772584376,
+    "_id": "chunk-94a2fbefdc9f95d4468f72555b31c9af"
+  },
+  "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f": {
+    "tokens": 369,
+    "content": "[Source: KnowledgeGraph/_index.md]\n---\ntype: index\nupdated: 2026-03-03 23:00\ntags: [knowledge-graph, index]\n---\n\n# Knowledge Graph Index\n\n> Auto-generated on 2026-03-03 23:00\n\n## Overview\n\n| Category | Count |\n|----------|-------|\n| People | 315 |\n| Projects | 127 |\n| Decisions | 65 |\n| Action Items | 155 |\n\n## Recent Activity\n\n- `2026-03-03 23:00` — [[First-Novel]] (People)\n- `2026-03-03 23:00` — [[Session-Major]] (People)\n- `2026-03-03 23:00` — [[System-Optimization]] (People)\n- `2026-03-03 23:00` — [[2026-03-03-Items--153]] (Action-Items)\n- `2026-03-03 23:00` — [[2026-03-03--Items]] (Action-Items)\n- `2026-03-03 18:00` — [[2026-03-03-Items--152]] (Action-Items)\n- `2026-03-01 16:00` — [[2026-03-01-httpsunused--likely-from-a-config-wizard-pla]] (Decisions)\n- `2026-02-28 20:01` — [[Facts]] (Documents)\n- `2026-02-23 18:03` — [[DevOps-VibeCoding-Course]] (Projects)\n- `2026-02-23 18:03` — [[RAG-Second-Brain-Paper]] (Projects)",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-110b96b0a13f8b8ff5b33a4018cb7b9f",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b6aaedcb95af63a52080803de988a7b3",
+      "default:extract:573964e1fc1ce4a19ba10c2755de729b"
+    ],
+    "create_time": 1772584257,
+    "update_time": 1772584339,
+    "_id": "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+  },
+  "chunk-2952aa4f91af10dd793cdcbd918a60a2": {
+    "tokens": 91,
+    "content": "[Source: Research/Index.md]\n# 🔬 Research\n\n## Recent Notes\n```dataview\nTABLE file.mtime as \"Modified\", tags\nFROM #research\nSORT file.mtime DESC\nLIMIT 20\n```\n\n## By Topic\n- [[Research/AI|Artificial Intelligence]]\n- [[Research/Longevity|Longevity & Healthcare]]\n- [[Research/Education|Education Technology]]\n\n---\n[[Home|← Back to Home]]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2952aa4f91af10dd793cdcbd918a60a2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:ac66fa767304f3aaaa6fa8d3bb461aa0",
+      "default:extract:0ffb07e4c28ed3e40df9d11cde33877c"
+    ],
+    "create_time": 1772584352,
+    "update_time": 1772584371,
+    "_id": "chunk-2952aa4f91af10dd793cdcbd918a60a2"
+  },
+  "chunk-33c82f85cdf1f3f6b459569c71f52f6d": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Skills-Installed.md]\n---\nname: \"Skills Installed\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Skills Installed\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md\n# 2026-02-09 — Daily Log  ## Paper Revisions  ### v7 & v8 Completed - **v7**: Fixed differentiability with two-stage training, compute feasibility, KG snapshot dates - **v8**: All 9 reviewer concerns addressed, estimated 8.5/10 (target: 8/10) - Both versions uploaded to Google Drive  ### ⚠️ v8 Revie\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/2026-02-03.md\n# 2026-02-03 — Daily Notes  ## Language Preference Update - **Anirach confirmed: Always reply in English** unless told otherwise - Updated USER.md with this preference  ## Skills Installed via ClawHub Installed ClawHub CLI (`npm install -g clawhub`) and added skills:  **Frontend Design:** - `ui-ux-p\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/2026-02-04.md\n# 2026-02-04 — Memory Log  ## Bookshelf App Project  **Location:** `/home/clawdbot/Projects/bookshelf` **Stack:** Next.js 14 + shadcn/ui + Prisma 5 + SQLite  ### Setup Complete - Database schema: Book, Author, Genre models with relations - Seeded 5 sample books: 1984, Foundation, Atomic Habits, Stev\n\n\n## 2026-02-17 23:00 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n##",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d9ba7b1ffed6748d118a41ffce0c63f8",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d4c4b1b9a83abecccf256ff47ed7ccdf",
+      "default:extract:38ad35d37b23d14df13d8b568298d2ba"
+    ],
+    "create_time": 1772584415,
+    "update_time": 1772584497,
+    "_id": "chunk-33c82f85cdf1f3f6b459569c71f52f6d"
+  },
+  "chunk-de7d2b034444ef30c5cd263afdaf88fd": {
+    "tokens": 1200,
+    "content": "\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-22 18:00 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-22 23:00 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-23 04:00 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-23 18:00 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created:",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-d9ba7b1ffed6748d118a41ffce0c63f8",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b99ec90cea38cf92c61e73b4dd3ce3f1",
+      "default:extract:f78b3a14a4ef53f394d4e4e23ac3cab7"
+    ],
+    "create_time": 1772584415,
+    "update_time": 1772584483,
+    "_id": "chunk-de7d2b034444ef30c5cd263afdaf88fd"
+  },
+  "chunk-ada2e9500cf083516501a8b590959545": {
+    "tokens": 401,
+    "content": "| Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-23 18:00 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-23 18:01 — Obsidian: KnowledgeGraph/People/Skills-Installed.md\n--- name: \"Skills Installed\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Installed  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md # 2026-02-09 — Da\n\n\n## 2026-02-23 18:03 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (",
+    "chunk_order_index": 2,
+    "full_doc_id": "doc-d9ba7b1ffed6748d118a41ffce0c63f8",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:729bf7a3f15d1d60c344047a52300bdd",
+      "default:extract:0989bd70070f66daacbee737dd86aedf"
+    ],
+    "create_time": 1772584415,
+    "update_time": 1772584527,
+    "_id": "chunk-ada2e9500cf083516501a8b590959545"
+  },
+  "chunk-54584911fe0f3952d96167d568620e03": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Compaction-Summary.md]\n---\nname: \"Compaction Summary\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Compaction Summary\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Memory: 2026-02-17\n# 2026-02-17 — Session Notes  ## Pre-Compaction Summary (5:49 AM)  Session covered extensive work across multiple projects. Key state captured in summary compaction. No new work done in this session beyond context loading — this was a flush trigger.  ### Active State Reminders - **Paper v23.1**: ✅ S\n\n\n## 2026-02-17 18:01 — Memory: 2026-02-17\n# 2026-02-17 — Session Notes  ## Pre-Compaction Summary (5:49 AM)  Session covered extensive work across multiple projects. Key state captured in summary compaction. No new work done in this session beyond context loading — this was a flush trigger.  ### Active State Reminders - **Paper v23.1**: ✅ S\n\n\n## 2026-02-17 18:02 — Memory: 2026-02-17\n# 2026-02-17 — Session Notes  ## Pre-Compaction Summary (5:49 AM)  Session covered extensive work across multiple projects. Key state captured in summary compaction. No new work done in this session beyond context loading — this was a flush trigger.  ### Active State Reminders - **Paper v23.1**: ✅ S\n\n\n## 2026-02-17 23:00 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction Summary\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N\n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction Summary\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction Summary\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction Summary\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N\n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction Summary\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N\n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction Summary\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-99782f5b4284c7bbac36007f373405e6",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:80c83c92558eada31942ae419e6fbff9",
+      "default:extract:5daa8dcc462e4a17ad4239d32ef493b4"
+    ],
+    "create_time": 1772584415,
+    "update_time": 1772584492,
+    "_id": "chunk-54584911fe0f3952d96167d568620e03"
+  },
+  "chunk-e064beaa9addbc9ee14f687e59311381": {
+    "tokens": 982,
+    "content": "# Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction Summary\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N\n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction Summary\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction Summary\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N\n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction Summary\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N\n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction Summary\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N\n\n\n## 2026-02-23 04:00 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction Summary\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N\n\n\n## 2026-02-23 18:01 — Obsidian: KnowledgeGraph/People/Compaction-Summary.md\n--- name: \"Compaction Summary\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Compaction Summary  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-17 # 2026-02-17 — Session N",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-99782f5b4284c7bbac36007f373405e6",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:21c894e45b3a11a3e185366376b6ce91",
+      "default:extract:33bdb4efcc0f9f299ff7d21c9730fecb"
+    ],
+    "create_time": 1772584415,
+    "update_time": 1772584474,
+    "_id": "chunk-e064beaa9addbc9ee14f687e59311381"
+  },
+  "chunk-70c5932aa815cd6eef3ea2972206ea5b": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Authorization-Code.md]\n---\nname: \"Authorization Code\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Authorization Code\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-01-28.md\n# Daily Memory - January 28, 2026  ## Google Calendar Integration - COMPLETED ✅  Successfully set up Google Calendar integration for Anirach through step-by-step chat process:  ### Setup Process: 1. **Authorization Code Exchange**: Used Anirach's Google OAuth credentials to generate authorization UR\n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/Authorization-Code.md\n--- name: \"Authorization Code\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Authorization Code  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-28.md # Daily Memor\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Authorization-Code.md\n--- name: \"Authorization Code\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Authorization Code  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-28.md # Daily Memor\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Authorization-Code.md\n--- name: \"Authorization Code\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Authorization Code  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-28.md # Daily Memor\n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/Authorization-Code.md\n--- name: \"Authorization Code\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Authorization Code  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-28.md # Daily Memor\n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/Authorization-Code.md\n--- name: \"Authorization Code\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Authorization Code  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-28.md # Daily Memor\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Authorization-Code.md\n--- name: \"Authorization Code\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Authorization Code  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-28.md # Daily Memor\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Authorization-Code.md\n--- name: \"Authorization Code\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Authorization Code  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-28.md # Daily Memor\n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/Authorization-Code.md\n--- name: \"Authorization Code\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Authorization Code  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-28.md # Daily Memor\n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/Authorization-Code.md\n--- name: \"Authorization Code\" type: person role: \"\" org: \"\" tags: [",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-b45ff7ae62d6f52265c90021cf0674b5",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:09564608471e2cb2549888f7d44ef275",
+      "default:extract:27bd8b1ec0c6708714652804c06bf760"
+    ],
+    "create_time": 1772584514,
+    "update_time": 1772584537,
+    "_id": "chunk-70c5932aa815cd6eef3ea2972206ea5b"
+  },
+  "chunk-2904f3bace1d2ba9a708fff21ef75bd7": {
+    "tokens": 177,
+    "content": "| Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-28.md # Daily Memor\n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/Authorization-Code.md\n--- name: \"Authorization Code\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Authorization Code  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-28.md # Daily Memor",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-b45ff7ae62d6f52265c90021cf0674b5",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3c7802b6575e8ea24e19250de54e9464",
+      "default:extract:3961ba439accacbdd670e30770c6344a"
+    ],
+    "create_time": 1772584514,
+    "update_time": 1772584564,
+    "_id": "chunk-2904f3bace1d2ba9a708fff21ef75bd7"
+  },
+  "chunk-209a10793a38ab9ffb1236b426b5f37a": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Code-Suggestion.md]\n---\nname: \"Code Suggestion\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Code Suggestion\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-14-chartsense-ai-mvp.md\n--- type: decision date: 2026-02-14 updated: 2026-02-16 tags: [decision, project, healthcare] ---  # Build ChartSense AI MVP  **Date:** 2026-02-14 **Decision:** Build full-stack clinical decision support MVP for Thai hospitals **Decided by:** [[KnowledgeGraph/People/Anirach Mingkhwan\\|Anirach]], [[K\n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/Code-Suggestion.md\n--- name: \"Code Suggestion\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Code Suggestion  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-14-cha\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Code-Suggestion.md\n--- name: \"Code Suggestion\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Code Suggestion  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-14-cha\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Code-Suggestion.md\n--- name: \"Code Suggestion\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Code Suggestion  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-14-cha\n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/Code-Suggestion.md\n--- name: \"Code Suggestion\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Code Suggestion  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-14-cha\n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/Code-Suggestion.md\n--- name: \"Code Suggestion\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Code Suggestion  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-14-cha\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Code-Suggestion.md\n--- name: \"Code Suggestion\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Code Suggestion  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-14-cha\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Code-Suggestion.md\n--- name: \"Code Suggestion\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Code Suggestion  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-14-cha\n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/Code-Suggestion.md\n--- name: \"Code Suggestion\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Code Suggestion  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-a4ff273a02db98fa8d6a7c506019d758",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:2cfd2651b177f4b3e03ac96ad5567953",
+      "default:extract:f3637d8362eb781e2a472c38321c820c"
+    ],
+    "create_time": 1772584557,
+    "update_time": 1772584583,
+    "_id": "chunk-209a10793a38ab9ffb1236b426b5f37a"
+  },
+  "chunk-5ffee7e99a39b11f6d9d6277ba5594d0": {
+    "tokens": 250,
+    "content": "6-02-22 04:00 — Obsidian: KnowledgeGraph/People/Code-Suggestion.md\n--- name: \"Code Suggestion\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Code Suggestion  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-14-cha\n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/Code-Suggestion.md\n--- name: \"Code Suggestion\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Code Suggestion  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-14-cha",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-a4ff273a02db98fa8d6a7c506019d758",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f6382cb7b3743c956aa043e7a1184bca",
+      "default:extract:e56c9fa00e13bd2f11a1193135281153"
+    ],
+    "create_time": 1772584557,
+    "update_time": 1772584605,
+    "_id": "chunk-5ffee7e99a39b11f6d9d6277ba5594d0"
+  },
+  "chunk-a52871670ef07a5a1ba116162391d222": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Workflow-Automation.md]\n---\nname: \"Workflow Automation\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Workflow Automation\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md\n# Daily Memory - January 29, 2026  ## Academic Research Workflow Automation - COMPLETED ✅  Successfully set up complete academic research automation system for Anirach:  ### System Components: 1. **Daily ArXiv Monitoring**: Automated scanning of cs.AI, cs.LG, cs.CL, cs.CV, cs.NE, cs.HC, stat.ML 2. *\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Academic-Research-Workflow-Automation.md\n--- name: \"Academic Research Workflow Automation\" type: project status: \"COMPLETED\" tags: [project, knowledge-graph] created: 2026-02-16 ---  # Academic Research Workflow Automation  Automated system for scanning ArXiv, analyzing relevance, generating weekly DOCX reports, and integrating with Google\n\n\n## 2026-02-17 23:00 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem\n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem\n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem\n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem\n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-9c90d0e4d7de0b84993193181312128c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:841da010a412190f51ad011aca29ba84",
+      "default:extract:7fec4ac39e03c3a9cf624c52a51b870e"
+    ],
+    "create_time": 1772584572,
+    "update_time": 1772584601,
+    "_id": "chunk-a52871670ef07a5a1ba116162391d222"
+  },
+  "chunk-2bd095e771c06f111cee69eae6903528": {
+    "tokens": 815,
+    "content": "02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem\n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem\n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem\n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem\n\n\n## 2026-02-23 04:00 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem\n\n\n## 2026-02-23 18:01 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-9c90d0e4d7de0b84993193181312128c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:934eb8e39201f9ef6d097f2d7da1bc64",
+      "default:extract:d2472f4156079966028cc4d8359c3ea1"
+    ],
+    "create_time": 1772584572,
+    "update_time": 1772584609,
+    "_id": "chunk-2bd095e771c06f111cee69eae6903528"
+  },
+  "chunk-fa0b04516491978cd7f2fd3497bd74a6": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Added-Limitations.md]\n---\nname: \"Added Limitations\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Added Limitations\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Brain Paper.md\n# RAG Second Brain Paper  **Status:** 🟢 Active   **Category:** Research & Papers   **Started:** 2026-02-08   **Last Updated:** 2026-02-10  ---  ## Overview  Research paper proposing a multi-source RAG framework integrating: 1. Dense vector retrieval 2. Co-occurrence-based statistical retrieval (PPMI\n\n\n## 2026-02-17 23:00 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Added-Limit",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-3f1f292cb7e71f8ac5fb58a08cca3272",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:99c8b79cf4adabd55ff202ae050d9fd6",
+      "default:extract:6f29424a70f100d2a4d6d9ebae7aa944"
+    ],
+    "create_time": 1772584611,
+    "update_time": 1772584651,
+    "_id": "chunk-fa0b04516491978cd7f2fd3497bd74a6"
+  },
+  "chunk-6af547d3e45d8ad51a44b6437545d4bf": {
+    "tokens": 1200,
+    "content": "person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-22 18:00 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-22 23:00 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-23 04:00 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-23 04:01 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-23 18:00 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-23 18:01 — Obsidian: KnowledgeGraph/People/Added-Limitations.md\n--- name: \"Added Limitations\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-23 18:03 — batch\n  --- Source",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-3f1f292cb7e71f8ac5fb58a08cca3272",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:72d56371a194634e05092b243879cae2",
+      "default:extract:cb264d3c85a08b91f020fac09ea8fcc6"
+    ],
+    "create_time": 1772584611,
+    "update_time": 1772584692,
+    "_id": "chunk-6af547d3e45d8ad51a44b6437545d4bf"
+  },
+  "chunk-2f30a8d91993f68af9395b1e286ae615": {
+    "tokens": 269,
+    "content": "\"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Added Limitations  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Br\n\n\n## 2026-02-23 18:03 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-23 23:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (",
+    "chunk_order_index": 2,
+    "full_doc_id": "doc-3f1f292cb7e71f8ac5fb58a08cca3272",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f6c5ee49d60872f4cea230f6c66eee3c",
+      "default:extract:b6cbf6755872d2f1d50adc14a012449d"
+    ],
+    "create_time": 1772584611,
+    "update_time": 1772584703,
+    "_id": "chunk-2f30a8d91993f68af9395b1e286ae615"
+  },
+  "chunk-97fe0dddb24f17a6ff26b65970479fd5": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/New-Ar.md]\n---\nname: \"New Ar\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# New Ar\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md\n# Research Topic Update - January 29, 2026  ## Added Longevity Healthcare Research ✅  ### New Research Areas Added: - **Longevity research** - Life extension and aging studies - **Healthcare AI** - AI applications in medical diagnostics and treatment - **Biomedical AI** - AI for biological and medic\n\n\n## 2026-02-17 23:00 — Obsidian: KnowledgeGraph/People/New-Ar.md\n--- name: \"New Ar\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd\n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/New-Ar.md\n--- name: \"New Ar\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/New-Ar.md\n--- name: \"New Ar\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/New-Ar.md\n--- name: \"New Ar\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd\n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/New-Ar.md\n--- name: \"New Ar\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd\n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/New-Ar.md\n--- name: \"New Ar\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/New-Ar.md\n--- name: \"New Ar\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd\n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/New-Ar.md\n--- name: \"New Ar\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd\n\n\n## 202",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-86b7b9ff805b331d686da4f61dfee0c2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:97c329283eab81f3fca4b1381761c40d",
+      "default:extract:be97b53105a696911c691eea92d279ea"
+    ],
+    "create_time": 1772584618,
+    "update_time": 1772584669,
+    "_id": "chunk-97fe0dddb24f17a6ff26b65970479fd5"
+  },
+  "chunk-9391d10439e81889f9b12beddd037977": {
+    "tokens": 736,
+    "content": "\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/New-Ar.md\n--- name: \"New Ar\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd\n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/New-Ar.md\n--- name: \"New Ar\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd\n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/New-Ar.md\n--- name: \"New Ar\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd\n\n\n## 2026-02-23 04:00 — Obsidian: KnowledgeGraph/People/New-Ar.md\n--- name: \"New Ar\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd\n\n\n## 2026-02-23 18:01 — Obsidian: KnowledgeGraph/People/New-Ar.md\n--- name: \"New Ar\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Ar  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md # Research Topic Upd",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-86b7b9ff805b331d686da4f61dfee0c2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d8365297922decd04d02a4c9b9da2616",
+      "default:extract:7355424a2ebd03d9bffde1ece98a85aa"
+    ],
+    "create_time": 1772584618,
+    "update_time": 1772584680,
+    "_id": "chunk-9391d10439e81889f9b12beddd037977"
+  },
+  "chunk-1bd439d8f06d579d7e29f33a3a379bf3": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Cron-Fix.md]\n---\nname: \"Cron Fix\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Cron Fix\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md\n# 2026-02-01 (Saturday)  ## Major: OpenClaw Migration ✅ - Successfully migrated from Clawdbot v2026.1.24-3 to **OpenClaw v2026.1.30** - **Rebrand history**: Clawdbot → Moltbot → OpenClaw (trademark issues + security hardening) - Ran the migration myself mid-conversation:   - `npm install -g openclaw\n\n\n## 2026-02-17 23:00 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Cron Fix  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major\n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Cron Fix  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Cron Fix  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Cron Fix  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major\n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Cron Fix  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major\n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Cron Fix  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Cron Fix  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major\n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-3a3866ceb56d1c7183947f17b088214c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:012fa959ea8d5f23cbdda494b43a82d7",
+      "default:extract:d2deaf465731fe40d4d9b95c2c3e4984"
+    ],
+    "create_time": 1772584688,
+    "update_time": 1772584720,
+    "_id": "chunk-1bd439d8f06d579d7e29f33a3a379bf3"
+  },
+  "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362": {
+    "tokens": 859,
+    "content": "| Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major\n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Cron Fix  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Cron Fix  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major\n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Cron Fix  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major\n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Cron Fix  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major\n\n\n## 2026-02-23 04:00 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Cron Fix  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major\n\n\n## 2026-02-23 18:01 — Obsidian: KnowledgeGraph/People/Cron-Fix.md\n--- name: \"Cron Fix\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Cron Fix  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## Major",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-3a3866ceb56d1c7183947f17b088214c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5d5519520952683a47563cfd4356dc78",
+      "default:extract:6163798247803e6394547199f7e30364"
+    ],
+    "create_time": 1772584688,
+    "update_time": 1772584742,
+    "_id": "chunk-7d6c77d7d3fec1f1b3a7f55eae6a5362"
+  },
+  "chunk-c758a8c08dcaf507d7e3c18d75d2cefb": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Memory-Maintenance.md]\n---\nname: \"Memory Maintenance\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Memory Maintenance\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md\n# 2026-02-15 — Memory Maintenance  ## Weekly Memory Maintenance (3 AM) - Reviewed memory files from Feb 12-14 - Updated MEMORY.md with:   - ChartSense AI project details   - Full installed skills list (68 total)   - Important events for Feb 12-14   - Updated review date - No outdated info removed (a\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/DuckMan.md\n--- type: \"Person\" id: \"person:duckman\" tags: [person] date: \"2026-02-15\" role: \"collaborator\" ---  # DuckMan  ## Connections  - → **collaborates_on**: [[Projects/ChartSense AI|ChartSense AI]]  ## Attributes  - **role:** collaborator   ## Related  ### See Also - [[KnowledgeGraph/People/Anirach Mingk\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Anirach.md\n--- name: \"Anirach\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Anirach  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:00 — Memory: 2026-02-16 # 2026-02-16 — Arthur's Daily Notes  ## Lobste\n\n\n## 2026-02-17 23:00 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md # 2026-02-15 \n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md # 2026-02-15 \n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md # 2026-02-15 \n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md # 2026-02-15 \n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md # 2026-02-15 \n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsid",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-51ed265a77fc38751e46f3827486a8e1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:a09f48a738c2604b7f080a59f2c49eea",
+      "default:extract:3f7ee5d0e3771807b2b9f3601e5107a3"
+    ],
+    "create_time": 1772584720,
+    "update_time": 1772584757,
+    "_id": "chunk-c758a8c08dcaf507d7e3c18d75d2cefb"
+  },
+  "chunk-8f9f63c5b94225c308595bfb9786f642": {
+    "tokens": 1029,
+    "content": ":00 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md # 2026-02-15 \n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md # 2026-02-15 \n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md # 2026-02-15 \n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md # 2026-02-15 \n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md # 2026-02-15 \n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md # 2026-02-15 \n\n\n## 2026-02-23 04:00 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md # 2026-02-15 \n\n\n## 2026-02-23 18:01 — Obsidian: KnowledgeGraph/People/Memory-Maintenance.md\n--- name: \"Memory Maintenance\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Memory Maintenance  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md # 2026-02-15",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-51ed265a77fc38751e46f3827486a8e1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b1d8b9432f11a342868fdc1db9bd7019",
+      "default:extract:64b1f0c398f44b7aa1d46b1ee94cdf20"
+    ],
+    "create_time": 1772584720,
+    "update_time": 1772584777,
+    "_id": "chunk-8f9f63c5b94225c308595bfb9786f642"
+  },
+  "chunk-9a2626ac3c4b4db2e1bb9274c8b58fa8": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Complete-Books.md]\n---\nname: \"Complete Books\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Complete Books\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Management-System.md\n--- name: \"Personal Books Management System\" type: project status: \"deployed\" tags: [project, knowledge-graph] created: 2026-02-16 ---  # Personal Books Management System  Next.js 14 + shadcn/ui + Tailwind + Prisma + SQLite stack with dashboard, books list, add/edit forms, book detail with reading p\n\n\n## 2026-02-17 23:00 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-7a30149a05dacff8878a5847f1fb2c60",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:54aebf910dfdd04101f6e9b25abcd1bf",
+      "default:extract:2b7ff3643fd7eb15ff33be9b13b7d1ee"
+    ],
+    "create_time": 1772584764,
+    "update_time": 1772584785,
+    "_id": "chunk-9a2626ac3c4b4db2e1bb9274c8b58fa8"
+  },
+  "chunk-b305d4fb2e0053a2c1d60fafeff74829": {
+    "tokens": 794,
+    "content": "-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-23 04:00 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-23 18:00 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma\n\n\n## 2026-02-23 18:01 — Obsidian: KnowledgeGraph/People/Complete-Books.md\n--- name: \"Complete Books\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Complete Books  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Personal-Books-Ma",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-7a30149a05dacff8878a5847f1fb2c60",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:489a91c976e62c6d03a71c72bc724a1d",
+      "default:extract:4d97a55875d915f5ff6313cdf2f3be36"
+    ],
+    "create_time": 1772584764,
+    "update_time": 1772584809,
+    "_id": "chunk-b305d4fb2e0053a2c1d60fafeff74829"
+  },
+  "chunk-ad0e1255b938172ca134381d029ccfab": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Identity-Verification.md]\n---\nname: \"Identity-Verification\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Identity-Verification\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 18:02 — Obsidian: KnowledgeGraph/_index.md\n--- type: index updated: 2026-02-17 04:03 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-17 04:03  ## Overview  | Category | Count | |----------|-------| | People | 319 | | Projects | 77 | | Decisions | 32 | | Action Items | 174 |  ## Recent Activity  - `202\n\n\n## 2026-02-17 23:00 — Obsidian: KnowledgeGraph/_index.md\n--- type: index updated: 2026-02-17 04:03 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-17 04:03  ## Overview  | Category | Count | |----------|-------| | People | 319 | | Projects | 77 | | Decisions | 32 | | Action Items | 174 |  ## Recent Activity  - `202\n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/_index.md\n--- type: index updated: 2026-02-17 04:03 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-17 04:03  ## Overview  | Category | Count | |----------|-------| | People | 319 | | Projects | 77 | | Decisions | 32 | | Action Items | 174 |  ## Recent Activity  - `202\n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/Identity-Verification.md\n--- name: \"Identity-Verification\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Identity-Verification  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 18:02 — Obsidian: KnowledgeGraph/_index.md --\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Identity-Verification.md\n--- name: \"Identity-Verification\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Identity-Verification  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 18:02 — Obsidian: KnowledgeGraph/_index.md --\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Identity-Verification.md\n--- name: \"Identity-Verification\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Identity-Verification  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 18:02 — Obsidian: KnowledgeGraph/_index.md --\n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/Identity-Verification.md\n--- name: \"Identity-Verification\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Identity-Verification  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 18:02 — Obsidian: KnowledgeGraph/_index.md --\n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/Identity-Verification.md\n--- name: \"Identity-Verification\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Identity-Verification  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 18:02 — Obsidian: KnowledgeGraph/_index.md --\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Identity-Verification.md\n--- name: \"Identity-Verification\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Identity-Verification  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 18:02 — Obsidian: KnowledgeGraph/_index.md --\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Identity-Verification.md\n--- name: \"Identity-Verification\" type: person role: \"\"",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-1a7cbc8a5b92ce3577ba0e85e31b3437",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:248562a40154c828d2db74c7af2e4042",
+      "default:extract:47c6a82f17fbe2c77c4217a0096d6eb7"
+    ],
+    "create_time": 1772584832,
+    "update_time": 1772584868,
+    "_id": "chunk-ad0e1255b938172ca134381d029ccfab"
+  },
+  "chunk-2df7e45fa50bcc56ec15623582e80a51": {
+    "tokens": 298,
+    "content": "17 ---  # Identity-Verification  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 18:02 — Obsidian: KnowledgeGraph/_index.md --\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Identity-Verification.md\n--- name: \"Identity-Verification\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Identity-Verification  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 18:02 — Obsidian: KnowledgeGraph/_index.md --\n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/Identity-Verification.md\n--- name: \"Identity-Verification\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Identity-Verification  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 18:02 — Obsidian: KnowledgeGraph/_index.md --",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-1a7cbc8a5b92ce3577ba0e85e31b3437",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f7807aef6fd6503df137cd68749eb357",
+      "default:extract:21ad8ababc52eb96c6e608edcb28177e"
+    ],
+    "create_time": 1772584832,
+    "update_time": 1772584868,
+    "_id": "chunk-2df7e45fa50bcc56ec15623582e80a51"
+  },
+  "chunk-31b6d14f3a78565ad12596af516da470": {
+    "tokens": 439,
+    "content": "[Source: KnowledgeGraph/People/Quick-Status.md]\n---\nname: \"Quick Status\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Quick Status\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/_topics-index.md\n# 📚 Topic Index  > Track all discussion topics with Anirach. Use `[[Topic Name]]` to link.  ## Quick Status Legend - 🟢 Active / In Progress - ✅ Completed - ⏸️ Paused / On Hold - 📋 Planned / Not Started  ---  ## 📑 Research & Papers  | Topic | Status | Last Updated | Notes | |-------|--------|--------\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Quick-Status.md\n--- name: \"Quick Status\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Quick Status  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/_topics-index.md # 📚 To\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Quick-Status.md\n--- name: \"Quick Status\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Quick Status  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/_topics-index.md # 📚 To",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-31b6d14f3a78565ad12596af516da470",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:675c8cf4e63febb81621aefc66b726e9",
+      "default:extract:b552c53776d9eb372a8247fac7d37805"
+    ],
+    "create_time": 1772584832,
+    "update_time": 1772584879,
+    "_id": "chunk-31b6d14f3a78565ad12596af516da470"
+  },
+  "chunk-c73f87c648644d0f5886df071cfc4b6b": {
+    "tokens": 313,
+    "content": "[Source: KnowledgeGraph/People/Management-Testing.md]\n---\nname: \"Management Testing\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Management Testing\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-02.md\n# 2026-02-02 — Daily Notes  ## PPlus Project Management Testing (Continued)  ### Test Session 2 - Mobile App Development Project - **Workspace:** PPLUS (different from previous My Workspace test) - **Project:** \"Mobile App Development\" - **Dates:** Feb 1-28, 2026 - **Template:** Content Creation (gr\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Management-Testing.md\n--- name: \"Management Testing\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Management Testing  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-02.md # 2026-02-02",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-c73f87c648644d0f5886df071cfc4b6b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:44a949df7adba946bdd7a066fee2d116",
+      "default:extract:a85a923d04178e904df5d67da54b9340"
+    ],
+    "create_time": 1772584876,
+    "update_time": 1772584909,
+    "_id": "chunk-c73f87c648644d0f5886df071cfc4b6b"
+  },
+  "chunk-2e6c0f12f725a7b639074653a878c82f": {
+    "tokens": 442,
+    "content": "[Source: KnowledgeGraph/People/Decryption-Key.md]\n---\nname: \"Decryption Key\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Decryption Key\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Agents/Shared/VPIPE-Database-Guide.md\n# VPIPE Database Query Guide  #reference #database #vpipe #sales  ## Connection Details  ``` Host: node55136-vpipe2production.googlejp.app.ruk-com.cloud Port: 11334 Database: vpipe Username: readonly_user Password: vpipe2026 PGP Decryption Key: Pgvx-20231234 ```  ### Connection Command  ```bash PGPA\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Decryption-Key.md\n--- name: \"Decryption Key\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Decryption Key  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Agents/Shared/VPIPE-Database-Guide.md # V\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Decryption-Key.md\n--- name: \"Decryption Key\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Decryption Key  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Agents/Shared/VPIPE-Database-Guide.md # V",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2e6c0f12f725a7b639074653a878c82f",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:ac6f212527018e30e4abfe7a5d0aa398",
+      "default:extract:dae61d7ae067bb0293fc07f1d14a484c"
+    ],
+    "create_time": 1772584882,
+    "update_time": 1772584919,
+    "_id": "chunk-2e6c0f12f725a7b639074653a878c82f"
+  },
+  "chunk-36c79333e70770b079d3c8c754308f31": {
+    "tokens": 308,
+    "content": "[Source: KnowledgeGraph/People/clawdbot.md]\n---\nname: \"clawdbot\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-22\n---\n\n# clawdbot\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-22 04:02 — Memory: 2026-02-22\n ### 2026-02-22 (Early Morning Session ~12AM-8AM)  #### DevOps VibeCoding Course Progress - **Week 4 handout DOCX** built and delivered (Docker & Containerization) - **Week 5 PPTX + handout** built inline (Kubernetes, 42 slides) — delivered to Drive + Telegram - **Week 6 sub-agent failed** (PPTX) — \n\n\n## 2026-02-22 23:00 — Memory: 2026-02-22\n ### 2026-02-22 (Early Morning Session ~12AM-8AM)  #### DevOps VibeCoding Course Progress - **Week 4 handout DOCX** built and delivered (Docker & Containerization) - **Week 5 PPTX + handout** built inline (Kubernetes, 42 slides) — delivered to Drive + Telegram - **Week 6 sub-agent failed** (PPTX) —",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-36c79333e70770b079d3c8c754308f31",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1f491ba5ff703bab500d6f9337e1f0ff",
+      "default:extract:7bc6b044469581d8ee80c4c1981faf29"
+    ],
+    "create_time": 1772584917,
+    "update_time": 1772584952,
+    "_id": "chunk-36c79333e70770b079d3c8c754308f31"
+  },
+  "chunk-be6aab37bfb99aded14c2c91c9d5ad36": {
+    "tokens": 485,
+    "content": "[Source: KnowledgeGraph/People/Add-Longevity.md]\n---\nname: \"Add Longevity\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Add Longevity\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-16-Add-Longevity-Healthcare-to-the-topic.md\n--- type: decision date: 2026-02-16 owners: [\"Anirach\"] tags: [decision, knowledge-graph] source: \"Obsidian: Daily/2026-01-29-longevity-update.md\" ---  # Decision: Add Longevity Healthcare to the topic  - **Date:** 2026-02-16 - **Owners:** [[Anirach]] - **Source:** Obsidian: Daily/2026-01-29-longevi\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Add-Longevity.md\n--- name: \"Add Longevity\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Add Longevity  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-16-Add-Lon\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Add-Longevity.md\n--- name: \"Add Longevity\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Add Longevity  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-16-Add-Lon",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-be6aab37bfb99aded14c2c91c9d5ad36",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:bdf80ec5e354f6677ec9ac1864b3082f",
+      "default:extract:a3a603830feaa2514ab9d34827015838"
+    ],
+    "create_time": 1772584940,
+    "update_time": 1772584967,
+    "_id": "chunk-be6aab37bfb99aded14c2c91c9d5ad36"
+  },
+  "chunk-445f91c1f526e727ece45cf9f6b3aacb": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Skills-Integration.md]\n---\nname: \"Skills Integration\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Skills Integration\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Skills-Integration.md\n--- name: \"Skills Integration\" type: project status: \"Updated\" tags: [project, knowledge-graph] created: 2026-02-16 ---  # Skills Integration  Updated all 5 team workflows with skills matrix, enhanced pipelines, quality gates  ## Updates  ### 2026-02-16 23:01 — Memory: 2026-02-15 Status: Updated \n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/Skills-Integration.md\n--- name: \"Skills Integration\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Integration  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Skills-In\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Skills-Integration.md\n--- name: \"Skills Integration\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Integration  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Skills-In\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Skills-Integration.md\n--- name: \"Skills Integration\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Integration  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Skills-In\n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/Skills-Integration.md\n--- name: \"Skills Integration\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Integration  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Skills-In\n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/Skills-Integration.md\n--- name: \"Skills Integration\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Integration  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Skills-In\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Skills-Integration.md\n--- name: \"Skills Integration\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Integration  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Skills-In\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Skills-Integration.md\n--- name: \"Skills Integration\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Integration  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Skills-In\n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/Skills-Integration.md\n--- name: \"Skills Integration\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Integration  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Skills-In\n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/Skills-Integration.md\n--- name: \"Skills Integration\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-615f3ca14aa4b54dc5c6ca47b2ae9ed0",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:bc9add074d86127c61ad1b3b3dbbe1f1",
+      "default:extract:5f33d69e2fdd13bf90c346735ba80171"
+    ],
+    "create_time": 1772584958,
+    "update_time": 1772584975,
+    "_id": "chunk-445f91c1f526e727ece45cf9f6b3aacb"
+  },
+  "chunk-576fa1ed41557cc09379e9532cd8fc48": {
+    "tokens": 161,
+    "content": "| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Skills-In\n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/Skills-Integration.md\n--- name: \"Skills Integration\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Skills Integration  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Skills-In",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-615f3ca14aa4b54dc5c6ca47b2ae9ed0",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:38dfb727c10f5311730656e48494849c",
+      "default:extract:bd90c59e4272aa2efcbce0ac076bd491"
+    ],
+    "create_time": 1772584958,
+    "update_time": 1772584996,
+    "_id": "chunk-576fa1ed41557cc09379e9532cd8fc48"
+  },
+  "chunk-0f077cc9ec87b144f1c492fa97cab376": {
+    "tokens": 460,
+    "content": "[Source: KnowledgeGraph/People/All-Reviewers.md]\n---\nname: \"All Reviewers\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# All Reviewers\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Memory: 2026-02-16\n# 2026-02-16 — Arthur's Daily Notes  ## LobsterBoard Dashboard - Installed LobsterBoard (https://github.com/Curbob/LobsterBoard) on server - Accessible at http://72.62.251.68:8080 - Created systemd service `lobsterboard.service` (auto-start on boot) - Fixed weather widget (Atlanta→Bangkok, °F→°C), G\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/All-Reviewers.md\n--- name: \"All Reviewers\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # All Reviewers  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-16 # 2026-02-16 — Arthur's Daily Note\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/All-Reviewers.md\n--- name: \"All Reviewers\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # All Reviewers  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Memory: 2026-02-16 # 2026-02-16 — Arthur's Daily Note",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-0f077cc9ec87b144f1c492fa97cab376",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:38873b00a0d8d6a9a209a6df78b3c4ce",
+      "default:extract:a789d2c978e7418dad5b440391efaf42"
+    ],
+    "create_time": 1772585014,
+    "update_time": 1772585070,
+    "_id": "chunk-0f077cc9ec87b144f1c492fa97cab376"
+  },
+  "chunk-698aa50ab28f0e3566cb6e574a6621f4": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Arthur.md]\n---\ntype: \"Person\"\nid: \"person:arthur\"\ntags: [person, agent]\ndate: \"2026-01-26\"\nrole: \"AI Assistant\"\n---\n\n# Arthur\n\nAI agent (Labrador 🐕) running on OpenClaw. Born 2026-01-26.\n\n## Connections\n\n- → **assists**: [[People/Anirach Mingkhwan|Anirach Mingkhwan]]\n- → **works_on**: [[Projects/RAG Second Brain|RAG Second Brain]]\n- → **works_on**: [[Projects/ChartSense AI|ChartSense AI]]\n- → **works_on**: [[Projects/Three Old Men|Three Old Men]]\n\n\n## 2026-02-16 23:00 — Obsidian: Daily/2026-02-16.md\n# 2026-02-16 — Arthur's Daily Notes  ## LobsterBoard Dashboard - Installed LobsterBoard (https://github.com/Curbob/LobsterBoard) on server - Accessible at http://72.62.251.68:8080 - Created systemd service `lobsterboard.service` (auto-start on boot) - Fixed weather widget (Atlanta→Bangkok, °F→°C), G\n\n\n## 2026-02-16 23:01 — Obsidian: Daily/2026-02-16.md\n# 2026-02-16 — Arthur's Daily Notes  ## LobsterBoard Dashboard - Installed LobsterBoard (https://github.com/Curbob/LobsterBoard) on server - Accessible at http://72.62.251.68:8080 - Created systemd service `lobsterboard.service` (auto-start on boot) - Fixed weather widget (Atlanta→Bangkok, °F→°C), G\n\n\n## 2026-02-17 04:00 — Memory: 2026-02-16\n# 2026-02-16 — Arthur's Daily Notes  ## LobsterBoard Dashboard - Installed LobsterBoard (https://github.com/Curbob/LobsterBoard) on server - Accessible at http://72.62.251.68:8080 - Created systemd service `lobsterboard.service` (auto-start on boot) - Fixed weather widget (Atlanta→Bangkok, °F→°C), G\n\n\n## 2026-02-17 04:00 — Obsidian: Daily/2026-02-16.md\n# 2026-02-16 — Arthur's Daily Notes  ## LobsterBoard Dashboard - Installed LobsterBoard (https://github.com/Curbob/LobsterBoard) on server - Accessible at http://72.62.251.68:8080 - Created systemd service `lobsterboard.service` (auto-start on boot) - Fixed weather widget (Atlanta→Bangkok, °F→°C), G\n\n\n## 2026-02-17 04:00 — Obsidian: Daily/2026-02-10.md\n# 2026-02-10 — Arthur's Daily Log  ## RAG Second Brain Paper v15  ### Final Results (Learned Gating) - **Sigmoid R@10:** 0.923 [0.889, 0.950] — **+18.4% over RRF** - **Softmax R@10:** 0.911 [0.874, 0.939] - **RRF Baseline:** 0.779 [0.730, 0.823] - **Statistical significance:** p < 0.001 (bootstrap) \n\n\n## 2026-02-17 18:01 — Memory: 2026-02-16\n# 2026-02-16 — Arthur's Daily Notes  ## LobsterBoard Dashboard - Installed LobsterBoard (https://github.com/Curbob/LobsterBoard) on server - Accessible at http://72.62.251.68:8080 - Created systemd service `lobsterboard.service` (auto-start on boot) - Fixed weather widget (Atlanta→Bangkok, °F→°C), G\n\n\n## 2026-02-17 18:02 — Memory: 2026-02-16\n# 2026-02-16 — Arthur's Daily Notes  ## LobsterBoard Dashboard - Installed LobsterBoard (https://github.com/Curbob/LobsterBoard) on server - Accessible at http://72.62.251.68:8080 - Created systemd service `lobsterboard.service` (auto-start on boot) - Fixed weather widget (Atlanta→Bangkok, °F→°C), G\n\n\n## 2026-02-17 23:00 — Memory: 2026-02-16\n# 2026-02-16 — Arthur's Daily Notes  ## LobsterBoard Dashboard - Installed LobsterBoard (https://github.com/Curbob/LobsterBoard) on server - Accessible at http://72.62.251.68:8080 - Created systemd service `lobsterboard.service` (auto-start on boot) - Fixed weather widget (Atlanta→Bangkok, °F→°C), G\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Arthur.md\n--- type: \"Person\" id: \"person:arthur\" tags: [person, agent] date: \"2026-01-26\" role: \"AI Assistant\" ---  # Arthur  AI agent (Labrador 🐕) running on OpenClaw. Born 2026-01-26.",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8dbdba9b621d5279f95dfd3fc1871222",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3d8a94ce74807188e26c9a07767c362c",
+      "default:extract:965d83af4d36a746f8ad5f4623a764c7"
+    ],
+    "create_time": 1772585019,
+    "update_time": 1772585061,
+    "_id": "chunk-698aa50ab28f0e3566cb6e574a6621f4"
+  },
+  "chunk-7b3316dd810af55db2c42342b95d278e": {
+    "tokens": 1200,
+    "content": "F→°C), G\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Arthur.md\n--- type: \"Person\" id: \"person:arthur\" tags: [person, agent] date: \"2026-01-26\" role: \"AI Assistant\" ---  # Arthur  AI agent (Labrador 🐕) running on OpenClaw. Born 2026-01-26.  ## Connections  - → **assists**: [[People/Anirach Mingkhwan|Anirach Mingkhwan]] - → **works_on**: [[Projects/RAG Second Bra\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Condensed-Design.md\n--- name: \"Condensed Design\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Condensed Design  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-10.md # 2026-02-10 — Ar\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Arthur.md\n--- type: \"Person\" id: \"person:arthur\" tags: [person, agent] date: \"2026-01-26\" role: \"AI Assistant\" ---  # Arthur  AI agent (Labrador 🐕) running on OpenClaw. Born 2026-01-26.  ## Connections  - → **assists**: [[People/Anirach Mingkhwan|Anirach Mingkhwan]] - → **works_on**: [[Projects/RAG Second Bra\n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/Anirach.md\n--- name: \"Anirach\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Anirach  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:00 — Memory: 2026-02-16 # 2026-02-16 — Arthur's Daily Notes  ## Lobste\n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/Anirach-Mingkhwan.md\n--- name: \"Anirach Mingkhwan\" type: person role: \"Principal investigator\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Anirach Mingkhwan  | Field | Value | |-------|-------| | Role  | Principal investigator | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:00 — Obsidian\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Arthur.md\n--- type: \"Person\" id: \"person:arthur\" tags: [person, agent] date: \"2026-01-26\" role: \"AI Assistant\" ---  # Arthur  AI agent (Labrador 🐕) running on OpenClaw. Born 2026-01-26.  ## Connections  - → **assists**: [[People/Anirach Mingkhwan|Anirach Mingkhwan]] - → **works_on**: [[Projects/RAG Second Bra\n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/Anirach-Mingkhwan.md\n--- name: \"Anirach Mingkhwan\" type: person role: \"Principal investigator\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Anirach Mingkhwan  | Field | Value | |-------|-------| | Role  | Principal investigator | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:00 — Obsidian\n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/Arthur.md\n--- type: \"Person\" id: \"person:arthur\" tags: [person, agent] date: \"2026-01-26\" role: \"AI Assistant\" ---  # Arthur  AI agent (Labrador 🐕) running on OpenClaw. Born 2026-01-26.  ## Connections  - → **assists**: [[People/Anirach Mingkhwan|Anirach Mingkhwan]] - → **works_on**: [[Projects/RAG Second Bra\n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/Arthur.md\n--- type: \"Person\" id: \"person:arthur\" tags: [person, agent] date: \"2026-01-26\" role: \"AI Assistant\" ---  # Arthur  AI agent (Labrador 🐕) running on OpenClaw. Born 2026-01-26.  ## Connections  - → **assists**: [[People/Anirach Mingkhwan|Anirach Mingkhwan]] - → **works_on**: [[Projects/RAG Second Bra",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-8dbdba9b621d5279f95dfd3fc1871222",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:4bb720bfdf629c3822ae977c1ebebdea",
+      "default:extract:77894bbcf610f856e3946c24eb9820b6"
+    ],
+    "create_time": 1772585019,
+    "update_time": 1772585049,
+    "_id": "chunk-7b3316dd810af55db2c42342b95d278e"
+  },
+  "chunk-6a5125c828cf8928c4d9f36005ee5a06": {
+    "tokens": 745,
+    "content": "\"person:arthur\" tags: [person, agent] date: \"2026-01-26\" role: \"AI Assistant\" ---  # Arthur  AI agent (Labrador 🐕) running on OpenClaw. Born 2026-01-26.  ## Connections  - → **assists**: [[People/Anirach Mingkhwan|Anirach Mingkhwan]] - → **works_on**: [[Projects/RAG Second Bra\n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/Anirach.md\n--- name: \"Anirach\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Anirach  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:00 — Memory: 2026-02-16 # 2026-02-16 — Arthur's Daily Notes  ## Lobste\n\n\n## 2026-02-23 04:00 — Obsidian: Agents/Arthur.md\n# 🐕 Arthur  > Personal AI assistant. Labrador personality. Loyal, friendly, helpful.  ## Identity  - **Name:** Arthur - **Creature:** Labrador 🐕 - **Vibe:** Loyal, friendly, helpful — maybe a bit goofy. Eager to fetch whatever's needed. Tail always wagging. - **Born:** 2026-01-26  ## Core Truths  ##\n\n\n## 2026-02-23 04:01 — Obsidian: Agents/Arthur.md\n# 🐕 Arthur  > Personal AI assistant. Labrador personality. Loyal, friendly, helpful.  ## Identity  - **Name:** Arthur - **Creature:** Labrador 🐕 - **Vibe:** Loyal, friendly, helpful — maybe a bit goofy. Eager to fetch whatever's needed. Tail always wagging. - **Born:** 2026-01-26  ## Core Truths  ##\n\n\n## 2026-02-23 18:01 — Obsidian: Agents/Arthur.md\n# 🐕 Arthur  > Personal AI assistant. Labrador personality. Loyal, friendly, helpful.  ## Identity  - **Name:** Arthur - **Creature:** Labrador 🐕 - **Vibe:** Loyal, friendly, helpful — maybe a bit goofy. Eager to fetch whatever's needed. Tail always wagging. - **Born:** 2026-01-26  ## Core Truths  ##\n\n\n## 2026-02-23 18:03 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-23 23:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (",
+    "chunk_order_index": 2,
+    "full_doc_id": "doc-8dbdba9b621d5279f95dfd3fc1871222",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d55f076b0075a35962a51d3fbc4f8b8f",
+      "default:extract:451668c79278bf573e797320e52aea49"
+    ],
+    "create_time": 1772585019,
+    "update_time": 1772585078,
+    "_id": "chunk-6a5125c828cf8928c4d9f36005ee5a06"
+  },
+  "chunk-4cfb904110c88a597561e8879c2ca0b9": {
+    "tokens": 480,
+    "content": "[Source: KnowledgeGraph/People/Modify-Prisma.md]\n---\nname: \"Modify Prisma\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Modify Prisma\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-17-Modify-Prisma-schema-to-change-String-to-String-for-SQLite-compatibility.md\n--- type: decision date: 2026-02-17 owners: [\"Anirach\"] tags: [decision, knowledge-graph] source: \"Obsidian: Daily/2026-02-10.md\" ---  # Decision: Modify Prisma schema to change `String[]` to `String` for SQLite compatibility  - **Date:** 2026-02-17 - **Owners:** [[Anirach]] - **Source:** Obsidian: \n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Modify-Prisma.md\n--- name: \"Modify Prisma\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Modify Prisma  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-17-Modify-\n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/Modify-Prisma.md\n--- name: \"Modify Prisma\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Modify Prisma  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-17-Modify-",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-4cfb904110c88a597561e8879c2ca0b9",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:df84324d1e467440d921b1b2f3af0cd3",
+      "default:extract:8ea5e021eeaa3db402f7e9923d13e100"
+    ],
+    "create_time": 1772585077,
+    "update_time": 1772585095,
+    "_id": "chunk-4cfb904110c88a597561e8879c2ca0b9"
+  },
+  "chunk-838a7372037dd9d7583be5b6dfb14047": {
+    "tokens": 322,
+    "content": "[Source: KnowledgeGraph/People/Anirach Mingkhwan.md]\n---\ntype: \"Person\"\nid: \"person:anirach\"\ntags: [person]\ndate: \"2026-02-22\"\norg: \"KMUTNB\"\nrole: \"lecturer\"\n---\n\n# Anirach Mingkhwan\n\n## Connections\n\n- → **affiliated_with**: [[Organizations/King Mongkut's University of Technology North Bangkok|King Mongkut's University of Technology North Bangkok]]\n- → **works_on**: [[Projects/RAG Second Brain|RAG Second Brain]]\n- → **works_on**: [[Projects/Three Old Men|Three Old Men]]\n- → **works_on**: [[Projects/NCD-CIE|NCD-CIE]]\n- → **works_on**: [[Projects/ChartSense AI|ChartSense AI]]\n- → **works_on**: [[Projects/Bookshelf App|Bookshelf App]]\n- → **works_on**: [[Projects/Helpdesk Booking|Helpdesk Booking]]\n- → **works_on**: [[Projects/bookshelf|bookshelf]]\n- → **works_on**: [[Projects/claude-skills|claude-skills]]\n- → **works_on**: [[Projects/ai-research-dashboard|ai-research-dashboard]]\n- → **works_on**: [[Projects/obsidian-vault|obsidian-vault]]\n- → **works_on**: [[Projects/LobsterBoard|LobsterBoard]]\n\n## Attributes\n\n- **org:** KMUTNB\n- **role:** lecturer",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-838a7372037dd9d7583be5b6dfb14047",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:0020b68d0331bb46f3eebbac4a4df3c6",
+      "default:extract:353a07c3b374a1c65461ac95781269b5"
+    ],
+    "create_time": 1772585101,
+    "update_time": 1772585113,
+    "_id": "chunk-838a7372037dd9d7583be5b6dfb14047"
+  },
+  "chunk-d3ad29c3ef4ea9d4073b8f21e15af929": {
+    "tokens": 316,
+    "content": "[Source: KnowledgeGraph/People/Installed-Claw.md]\n---\nname: \"Installed Claw\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Installed Claw\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-03.md\n# 2026-02-03 — Daily Notes  ## Language Preference Update - **Anirach confirmed: Always reply in English** unless told otherwise - Updated USER.md with this preference  ## Skills Installed via ClawHub Installed ClawHub CLI (`npm install -g clawhub`) and added skills:  **Frontend Design:** - `ui-ux-p\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Installed-Claw.md\n--- name: \"Installed Claw\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Installed Claw  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-03.md # 2026-02-03 — Daily",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d3ad29c3ef4ea9d4073b8f21e15af929",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:4934d31c7f7d073d204d0f1782e5cbcf",
+      "default:extract:cdce593f6263095cc892774e28867612"
+    ],
+    "create_time": 1772585101,
+    "update_time": 1772585142,
+    "_id": "chunk-d3ad29c3ef4ea9d4073b8f21e15af929"
+  },
+  "chunk-dc7921c12728ce1b4fa1b4948ee21d50": {
+    "tokens": 312,
+    "content": "[Source: KnowledgeGraph/People/Sales-Pipeline.md]\n---\nname: \"Sales Pipeline\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Sales Pipeline\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Agents/Shared/VPIPE-Database-Guide.md\n# VPIPE Database Query Guide  #reference #database #vpipe #sales  ## Connection Details  ``` Host: node55136-vpipe2production.googlejp.app.ruk-com.cloud Port: 11334 Database: vpipe Username: readonly_user Password: vpipe2026 PGP Decryption Key: Pgvx-20231234 ```  ### Connection Command  ```bash PGPA\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Sales-Pipeline.md\n--- name: \"Sales Pipeline\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Sales Pipeline  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Agents/Shared/VPIPE-Database-Guide.md # V",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-dc7921c12728ce1b4fa1b4948ee21d50",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:988512cbcb4a526e3a6c529e603f7490",
+      "default:extract:d87ce7117d83679e2fdbff3deca2e6cb"
+    ],
+    "create_time": 1772585123,
+    "update_time": 1772585160,
+    "_id": "chunk-dc7921c12728ce1b4fa1b4948ee21d50"
+  },
+  "chunk-2684aef6fa11b1b9c4f0d254b34263ec": {
+    "tokens": 204,
+    "content": "[Source: KnowledgeGraph/People/Daily-Mem.md]\n---\nname: \"Daily Mem\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-20\n---\n\n# Daily Mem\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/Workflow-Automation.md\n--- name: \"Workflow Automation\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Workflow Automation  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md # Daily Mem",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2684aef6fa11b1b9c4f0d254b34263ec",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:2bc372fac13c3d1130e3458feb105d2e",
+      "default:extract:ff679136893d1ca9394acd97a1717198"
+    ],
+    "create_time": 1772585155,
+    "update_time": 1772585183,
+    "_id": "chunk-2684aef6fa11b1b9c4f0d254b34263ec"
+  },
+  "chunk-a4b9540765c9116547992f4b4a476e1a": {
+    "tokens": 367,
+    "content": "[Source: KnowledgeGraph/People/Learned-Gating.md]\n---\nname: \"Learned Gating\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Learned Gating\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-10.md\n# 2026-02-10 — Arthur's Daily Log  ## RAG Second Brain Paper v15  ### Final Results (Learned Gating) - **Sigmoid R@10:** 0.923 [0.889, 0.950] — **+18.4% over RRF** - **Softmax R@10:** 0.911 [0.874, 0.939] - **RRF Baseline:** 0.779 [0.730, 0.823] - **Statistical significance:** p < 0.001 (bootstrap) \n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Arthur.md\n--- type: \"Person\" id: \"person:arthur\" tags: [person, agent] date: \"2026-01-26\" role: \"AI Assistant\" ---  # Arthur  AI agent (Labrador 🐕) running on OpenClaw. Born 2026-01-26.  ## Connections  - → **assists**: [[People/Anirach Mingkhwan|Anirach Mingkhwan]] - → **works_on**: [[Projects/RAG Second Bra",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-a4b9540765c9116547992f4b4a476e1a",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:4a912f18ef6c8c07e77553ec6b8f2342",
+      "default:extract:5192e68e2f92768d1122b4fb9a899b3b"
+    ],
+    "create_time": 1772585173,
+    "update_time": 1772585217,
+    "_id": "chunk-a4b9540765c9116547992f4b4a476e1a"
+  },
+  "chunk-57ca52f28d5bc68f21ab7c9caf670243": {
+    "tokens": 302,
+    "content": "[Source: KnowledgeGraph/People/Home-Dashboard.md]\n---\nname: \"Home Dashboard\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Home Dashboard\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/Obsidian.md\n--- type: topic status: active tags: [topic] created: 2026-02-15 updated: 2026-02-16 ---  # Obsidian  Markdown-based knowledge management with bidirectional linking. This vault serves as the shared knowledge base for all agent teams.  Structure: KnowledgeGraph (People/Projects/Topics/Documents/Decis\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Home-Dashboard.md\n--- name: \"Home Dashboard\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Home Dashboard  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/Obsidian.md --- typ",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-57ca52f28d5bc68f21ab7c9caf670243",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:bd0f3861343586df39d871ead156aeaa",
+      "default:extract:2baf77cb88dabd8a68553c8dc658be77"
+    ],
+    "create_time": 1772585203,
+    "update_time": 1772585226,
+    "_id": "chunk-57ca52f28d5bc68f21ab7c9caf670243"
+  },
+  "chunk-ea5150e6fca2cc266a2614914dfb7239": {
+    "tokens": 485,
+    "content": "[Source: KnowledgeGraph/People/Session-Major.md]\n---\nname: \"Session Major\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-03-01\n---\n\n# Session Major\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-ea5150e6fca2cc266a2614914dfb7239",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:e7fa29b24051be28deef85f0c1ff908b",
+      "default:extract:79dd14ea168836f510e46944921feb4f"
+    ],
+    "create_time": 1772585229,
+    "update_time": 1772585268,
+    "_id": "chunk-ea5150e6fca2cc266a2614914dfb7239"
+  },
+  "chunk-d113e8b1edad4ebb129a2a094a883e18": {
+    "tokens": 367,
+    "content": "[Source: KnowledgeGraph/People/Condensed-Design.md]\n---\nname: \"Condensed Design\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Condensed Design\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-10.md\n# 2026-02-10 — Arthur's Daily Log  ## RAG Second Brain Paper v15  ### Final Results (Learned Gating) - **Sigmoid R@10:** 0.923 [0.889, 0.950] — **+18.4% over RRF** - **Softmax R@10:** 0.911 [0.874, 0.939] - **RRF Baseline:** 0.779 [0.730, 0.823] - **Statistical significance:** p < 0.001 (bootstrap) \n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/Condensed-Design.md\n--- name: \"Condensed Design\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Condensed Design  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-10.md # 2026-02-10 — Ar",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d113e8b1edad4ebb129a2a094a883e18",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:aa47d76b983ce37bfa7da077dbefb1da",
+      "default:extract:277c6dde44e1c3179b60be8559faf70f"
+    ],
+    "create_time": 1772585232,
+    "update_time": 1772585273,
+    "_id": "chunk-d113e8b1edad4ebb129a2a094a883e18"
+  },
+  "chunk-5612c5c9efe47f2a4c36a48a45336086": {
+    "tokens": 696,
+    "content": "[Source: KnowledgeGraph/People/Board-Dashboard.md]\n---\nname: \"Board Dashboard\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Board Dashboard\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Memory: 2026-02-16\n# 2026-02-16 — Arthur's Daily Notes  ## LobsterBoard Dashboard - Installed LobsterBoard (https://github.com/Curbob/LobsterBoard) on server - Accessible at http://72.62.251.68:8080 - Created systemd service `lobsterboard.service` (auto-start on boot) - Fixed weather widget (Atlanta→Bangkok, °F→°C), G\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/2026-02-16.md\n# 2026-02-16 — Arthur's Daily Notes  ## LobsterBoard Dashboard - Installed LobsterBoard (https://github.com/Curbob/LobsterBoard) on server - Accessible at http://72.62.251.68:8080 - Created systemd service `lobsterboard.service` (auto-start on boot) - Fixed weather widget (Atlanta→Bangkok, °F→°C), G\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Arthur.md\n--- type: \"Person\" id: \"person:arthur\" tags: [person, agent] date: \"2026-01-26\" role: \"AI Assistant\" ---  # Arthur  AI agent (Labrador 🐕) running on OpenClaw. Born 2026-01-26.  ## Connections  - → **assists**: [[People/Anirach Mingkhwan|Anirach Mingkhwan]] - → **works_on**: [[Projects/RAG Second Bra\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Anirach.md\n--- name: \"Anirach\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Anirach  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:00 — Memory: 2026-02-16 # 2026-02-16 — Arthur's Daily Notes  ## Lobste\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/LobsterBoard-Dashboard.md\n--- name: \"LobsterBoard Dashboard\" type: project status: \"\" tags: [project, knowledge-graph] created: 2026-02-16 ---  # LobsterBoard Dashboard  Installed LobsterBoard on server, fixed weather widget, GitHub widget, and clock settings.  ## Updates  ### 2026-02-16 23:00 — Memory: 2026-02-16 Status:",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5612c5c9efe47f2a4c36a48a45336086",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3d6380a761a6efe93c18ae979994fb4c",
+      "default:extract:b614e1c453bfe5fbfdf0ed1baf04bc95"
+    ],
+    "create_time": 1772585276,
+    "update_time": 1772585314,
+    "_id": "chunk-5612c5c9efe47f2a4c36a48a45336086"
+  },
+  "chunk-9d2f1db37d977a9d5337beaf2f8c2ada": {
+    "tokens": 337,
+    "content": "[Source: KnowledgeGraph/People/New-Skills.md]\n---\nname: \"New Skills\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# New Skills\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md\n# 2026-02-01 (Saturday)  ## Major: OpenClaw Migration ✅ - Successfully migrated from Clawdbot v2026.1.24-3 to **OpenClaw v2026.1.30** - **Rebrand history**: Clawdbot → Moltbot → OpenClaw (trademark issues + security hardening) - Ran the migration myself mid-conversation:   - `npm install -g openclaw\n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/New-Skills.md\n--- name: \"New Skills\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # New Skills  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-01.md # 2026-02-01 (Saturday)  ## M",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-9d2f1db37d977a9d5337beaf2f8c2ada",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:2ae5861ed198b1314856f3fd2028e2f0",
+      "default:extract:18e385dd5e84855506d140ff6f72007a"
+    ],
+    "create_time": 1772585286,
+    "update_time": 1772585345,
+    "_id": "chunk-9d2f1db37d977a9d5337beaf2f8c2ada"
+  },
+  "chunk-505a6de49a4e71323e53e984bc770e7f": {
+    "tokens": 187,
+    "content": "[Source: KnowledgeGraph/People/Added-Design.md]\n---\nname: \"Added Design\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Added Design\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Brain Paper.md\n# RAG Second Brain Paper  **Status:** 🟢 Active   **Category:** Research & Papers   **Started:** 2026-02-08   **Last Updated:** 2026-02-10  ---  ## Overview  Research paper proposing a multi-source RAG framework integrating: 1. Dense vector retrieval 2. Co-occurrence-based statistical retrieval (PPMI",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-505a6de49a4e71323e53e984bc770e7f",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5592405e8d761d3b567f2ea2fc4f9dff",
+      "default:extract:9b40ba15d323578ffc0d2bb5cd0fba72"
+    ],
+    "create_time": 1772585354,
+    "update_time": 1772585380,
+    "_id": "chunk-505a6de49a4e71323e53e984bc770e7f"
+  },
+  "chunk-e570c762971c4d1a558761ca3b304a6e": {
+    "tokens": 200,
+    "content": "[Source: KnowledgeGraph/People/Related-Work.md]\n---\nname: \"Related Work\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Related Work\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Agents/Academic/Work-Log-2026-02-16.md\n--- type: work-log team: Academic date: 2026-02-16 updated: 2026-02-17 tags: [work-log, academic] ---  # Academic Team — Work Log 2026-02-16  ### 20:17 — Paper Architect **Task:** Create v23 revision of RAG Second Brain paper addressing 4 CMT reviewer concerns **Result:** v23 created with leakage-fr",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e570c762971c4d1a558761ca3b304a6e",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f2523820236da392cc8bfeadecd4cef3",
+      "default:extract:ca630446bb440eccf76412739d89b856"
+    ],
+    "create_time": 1772585354,
+    "update_time": 1772585379,
+    "_id": "chunk-e570c762971c4d1a558761ca3b304a6e"
+  },
+  "chunk-1fd7088becf52bb8a5c2ed784265260d": {
+    "tokens": 202,
+    "content": "[Source: KnowledgeGraph/People/Research-Dashboard.md]\n---\nname: \"Research Dashboard\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Research Dashboard\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/AI-Research-Dashboard.md\n--- name: \"AI Research Dashboard\" type: project status: \"Deployed & Live\" tags: [project, knowledge-graph] created: 2026-02-16 ---  # AI Research Dashboard  Built and deployed using Next.js 14, TypeScript, Prisma, and SQLite.  ## Updates  ### 2026-02-16 23:01 — Obsidian: Daily/2026-02-10.md Status:",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-1fd7088becf52bb8a5c2ed784265260d",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:06ee04ea43c704b84ea70ce56f280eac",
+      "default:extract:3220234d174e16c63f71365c6c61412a"
+    ],
+    "create_time": 1772585389,
+    "update_time": 1772585430,
+    "_id": "chunk-1fd7088becf52bb8a5c2ed784265260d"
+  },
+  "chunk-356a7e2f722bc7cd4054e7e8e11265a0": {
+    "tokens": 182,
+    "content": "[Source: KnowledgeGraph/People/Skills-Installation.md]\n---\nname: \"Skills Installation\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Skills Installation\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md\n# 2026-02-15 — Memory Maintenance  ## Weekly Memory Maintenance (3 AM) - Reviewed memory files from Feb 12-14 - Updated MEMORY.md with:   - ChartSense AI project details   - Full installed skills list (68 total)   - Important events for Feb 12-14   - Updated review date - No outdated info removed (a",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-356a7e2f722bc7cd4054e7e8e11265a0",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:9d97fd63bdc8b9a2c24ac935084d2426",
+      "default:extract:ba5cb82913891b8f026e0b21398c6bd0"
+    ],
+    "create_time": 1772585392,
+    "update_time": 1772585431,
+    "_id": "chunk-356a7e2f722bc7cd4054e7e8e11265a0"
+  },
+  "chunk-46d5184a8d46c47ab7401afbdefd9125": {
+    "tokens": 420,
+    "content": "[Source: KnowledgeGraph/People/Imperial-College.md]\n---\nname: \"Imperial College\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Imperial College\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Quick-Reference.md\n--- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - **Email:** anirach.m@fitm.kmutnb.ac.th - **Time\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/MOC-Research.md\n--- type: moc updated: 2026-02-16 tags: [moc, research] ---  # 🔬 Research & Papers  ## Active Research - [[KnowledgeGraph/Projects/RAG Second Brain\\|RAG Second Brain Paper]] — Multi-source KG RAG for medical diagnosis (AIiH 2026) - [[KnowledgeGraph/Projects/NCD-CIE\\|NCD-CIE Paper]] — Causal knowledg\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Organizations/_index.md\n--- type: index updated: 2026-02-16 tags: [index, organizations] ---  # Organizations (9 entries)  - [[KnowledgeGraph/Organizations/ACM|ACM]] - [[KnowledgeGraph/Organizations/Google|Google]] - [[KnowledgeGraph/Organizations/IEEE|IEEE]] - [[KnowledgeGraph/Organizations/Imperial College London|Imperia",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-46d5184a8d46c47ab7401afbdefd9125",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b6ee75f308ed619b000bc109e8772305",
+      "default:extract:49a422ca2807084efb2fcfd59f1d0a82"
+    ],
+    "create_time": 1772585440,
+    "update_time": 1772585503,
+    "_id": "chunk-46d5184a8d46c47ab7401afbdefd9125"
+  },
+  "chunk-f483ffe5746e330a5d767b70d856c97b": {
+    "tokens": 190,
+    "content": "[Source: KnowledgeGraph/People/Academic-Paper.md]\n---\nname: \"Academic Paper\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Academic Paper\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Home.md\n--- type: dashboard updated: 2026-02-16 tags: [home, dashboard] ---  # 🏠 Home  ## 📊 Active Projects  | Project | Status | Last Update | |---------|--------|------------| | [[KnowledgeGraph/Projects/RAG Second Brain\\|RAG Second Brain Paper]] | v23.1 submitted to AIiH 2026 | Feb 16 | | [[KnowledgeGrap",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-f483ffe5746e330a5d767b70d856c97b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:89e80719c248976328232fab6f144463",
+      "default:extract:d7f2c0dba720e14dd06e3ebb9263b375"
+    ],
+    "create_time": 1772585446,
+    "update_time": 1772585466,
+    "_id": "chunk-f483ffe5746e330a5d767b70d856c97b"
+  },
+  "chunk-747382645d4ed066b3e5ef8307a73acd": {
+    "tokens": 300,
+    "content": "[Source: KnowledgeGraph/People/Soul-Format.md]\n---\nname: \"Soul Format\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Soul Format\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-12.md\n# 2026-02-12 — Team Guides & Coding Manual v3  ## Summary Major documentation day. All 5 team guides now on Google Drive with professional formatting.  ## Key Accomplishments  ### Team Manuals Complete (v3) All professional DOCX guides uploaded to `ArthurBotData/Team Manuals/`:  | Team | Agents | Go\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Enhanced-Agent-Soul-Format.md\n--- name: \"Enhanced Agent Soul Format\" type: project status: \"complete\" tags: [project, knowledge-graph] created: 2026-02-16 ---  # Enhanced Agent Soul Format  All guides now include per-agent souls with IDENTITY, PERSONALITY, PHILOSOPHY, WHAT I EMBRACE, WHAT I REJECT  ## Updates  ### 2026-02-16 23:",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-747382645d4ed066b3e5ef8307a73acd",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:02411c0dde2c6e9b7446cc2fc51f8187",
+      "default:extract:cf34f07125ffb41935cb801fcbd0df52"
+    ],
+    "create_time": 1772585469,
+    "update_time": 1772585496,
+    "_id": "chunk-747382645d4ed066b3e5ef8307a73acd"
+  },
+  "chunk-cbbf68c07d5785152cb568cb44c097d2": {
+    "tokens": 195,
+    "content": "[Source: KnowledgeGraph/People/Demoted-Theorems.md]\n---\nname: \"Demoted Theorems\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Demoted Theorems\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/RAG Second Brain Paper.md\n# RAG Second Brain Paper  **Status:** 🟢 Active   **Category:** Research & Papers   **Started:** 2026-02-08   **Last Updated:** 2026-02-10  ---  ## Overview  Research paper proposing a multi-source RAG framework integrating: 1. Dense vector retrieval 2. Co-occurrence-based statistical retrieval (PPMI",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-cbbf68c07d5785152cb568cb44c097d2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f303f1e404a51d1bc4b7488b952888d2",
+      "default:extract:10caee8136a92ea34aeae80511143614"
+    ],
+    "create_time": 1772585501,
+    "update_time": 1772585533,
+    "_id": "chunk-cbbf68c07d5785152cb568cb44c097d2"
+  },
+  "chunk-7347a0c6ac17d9cb58ce4f8eb857eb12": {
+    "tokens": 191,
+    "content": "[Source: KnowledgeGraph/People/Not-Started.md]\n---\nname: \"Not Started\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Not Started\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/_topics-index.md\n# 📚 Topic Index  > Track all discussion topics with Anirach. Use `[[Topic Name]]` to link.  ## Quick Status Legend - 🟢 Active / In Progress - ✅ Completed - ⏸️ Paused / On Hold - 📋 Planned / Not Started  ---  ## 📑 Research & Papers  | Topic | Status | Last Updated | Notes | |-------|--------|--------",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-7347a0c6ac17d9cb58ce4f8eb857eb12",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:fe889da382f868b7c4f101d17c3e689d",
+      "default:extract:17b35134c484a26b048f21b0df856157"
+    ],
+    "create_time": 1772585516,
+    "update_time": 1772585542,
+    "_id": "chunk-7347a0c6ac17d9cb58ce4f8eb857eb12"
+  },
+  "chunk-113056c9501e9b2d79be577e20d93410": {
+    "tokens": 171,
+    "content": "[Source: KnowledgeGraph/People/Current-Calendar.md]\n---\nname: \"Current Calendar\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Current Calendar\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-01-28.md\n# Daily Memory - January 28, 2026  ## Google Calendar Integration - COMPLETED ✅  Successfully set up Google Calendar integration for Anirach through step-by-step chat process:  ### Setup Process: 1. **Authorization Code Exchange**: Used Anirach's Google OAuth credentials to generate authorization UR",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-113056c9501e9b2d79be577e20d93410",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f00d0203d6541976ce52bca942c66c66",
+      "default:extract:fc52efdc6a9bd2cfd8db1176abd66077"
+    ],
+    "create_time": 1772585551,
+    "update_time": 1772585570,
+    "_id": "chunk-113056c9501e9b2d79be577e20d93410"
+  },
+  "chunk-1263f6dcbc96b0cd91f9ce4b885f6881": {
+    "tokens": 200,
+    "content": "[Source: KnowledgeGraph/People/Peer-Reviewer.md]\n---\nname: \"Peer Reviewer\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Peer Reviewer\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Agents/Academic/Work-Log-2026-02-16.md\n--- type: work-log team: Academic date: 2026-02-16 updated: 2026-02-17 tags: [work-log, academic] ---  # Academic Team — Work Log 2026-02-16  ### 20:17 — Paper Architect **Task:** Create v23 revision of RAG Second Brain paper addressing 4 CMT reviewer concerns **Result:** v23 created with leakage-fr",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-1263f6dcbc96b0cd91f9ce4b885f6881",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5721405985d930631a9a23544e408d60",
+      "default:extract:69b4645c4bd723d43553ad37fa9395ee"
+    ],
+    "create_time": 1772585574,
+    "update_time": 1772585609,
+    "_id": "chunk-1263f6dcbc96b0cd91f9ce4b885f6881"
+  },
+  "chunk-40fa075485b63447273b59dcdd10fadb": {
+    "tokens": 177,
+    "content": "[Source: KnowledgeGraph/People/Added-Longevity.md]\n---\nname: \"Added Longevity\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Added Longevity\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29-longevity-update.md\n# Research Topic Update - January 29, 2026  ## Added Longevity Healthcare Research ✅  ### New Research Areas Added: - **Longevity research** - Life extension and aging studies - **Healthcare AI** - AI applications in medical diagnostics and treatment - **Biomedical AI** - AI for biological and medic",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-40fa075485b63447273b59dcdd10fadb",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:2e437c4ab776e769c80a7486f78eb55e",
+      "default:extract:2d36ad04a64e158b8e81f9a5afb6af6f"
+    ],
+    "create_time": 1772585574,
+    "update_time": 1772585609,
+    "_id": "chunk-40fa075485b63447273b59dcdd10fadb"
+  },
+  "chunk-f35a0c6a0244897333e1e1091f4a3eb2": {
+    "tokens": 219,
+    "content": "[Source: KnowledgeGraph/People/Improve-Git.md]\n---\nname: \"Improve Git\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Improve Git\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Action-Items/2026-02-16-Improve-GitHub-repo-alongside-paper-iterations.md\n--- type: action-item date: 2026-02-16 owner: \"Anirach\" deadline: \"\" status: \"open\" tags: [action-item, knowledge-graph] source: \"Obsidian: Daily/2026-02-09.md\" ---  # Improve GitHub repo alongside paper iterations  - **Owner:** [[Anirach]] - **Deadline:**  - **Status:** open - **Source:** Obsidian:",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-f35a0c6a0244897333e1e1091f4a3eb2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:57f1f53fa8906aad67db5839b06cf5ef",
+      "default:extract:fa269f5bcb2c1f29749a518344fbaeb6"
+    ],
+    "create_time": 1772585616,
+    "update_time": 1772585644,
+    "_id": "chunk-f35a0c6a0244897333e1e1091f4a3eb2"
+  },
+  "chunk-d395d729f7f4af176337bfefc3a79dd0": {
+    "tokens": 177,
+    "content": "[Source: KnowledgeGraph/People/Course-Team.md]\n---\nname: \"Course Team\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Course Team\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-11.md\n  ### UX/UI Designer Agent Added to Coding Team - Added **ux-designer** agent (Opus model) - Focus: Interface design, visual polish, usability, responsive design - Uses shadcn/ui, Tailwind CSS expertise - Anti-AI-slop design principles - Spawns for: UI polish, new screens, UX reviews, design systems",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d395d729f7f4af176337bfefc3a79dd0",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:c4b032fb60e4232174d070e159633889",
+      "default:extract:e1bb26487687b323220c63a5cff92ddc"
+    ],
+    "create_time": 1772585617,
+    "update_time": 1772585645,
+    "_id": "chunk-d395d729f7f4af176337bfefc3a79dd0"
+  },
+  "chunk-771986aa17685fe6999e419c1c67ae69": {
+    "tokens": 589,
+    "content": "[Source: KnowledgeGraph/People/Coding-Manual.md]\n---\nname: \"Coding Manual\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Coding Manual\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-12.md\n# 2026-02-12 — Team Guides & Coding Manual v3  ## Summary Major documentation day. All 5 team guides now on Google Drive with professional formatting.  ## Key Accomplishments  ### Team Manuals Complete (v3) All professional DOCX guides uploaded to `ArthurBotData/Team Manuals/`:  | Team | Agents | Go\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/อนราช-มงขวญ.md\n--- name: \"อนิราช มิ่งขวัญ\" type: person role: \"Thai author\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # อนิราช มิ่งขวัญ  | Field | Value | |-------|-------| | Role  | Thai author | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:01 — Obsidian: Daily/2026-02-12.md # 20\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Coding-Manual-v3.md\n--- name: \"Coding Manual v3\" type: project status: \"in progress\" tags: [project, knowledge-graph] created: 2026-02-16 ---  # Coding Manual v3  Combining v1's professional styling with v2's collaboration workflows  ## Updates  ### 2026-02-16 23:01 — Obsidian: Daily/2026-02-12.md Status: in progress  \n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Action-Items/2026-02-17-Combine-v1s-professional-styling-with-v2s-collaboration-workflows-for-Coding-Man.md\n--- type: action-item date: 2026-02-17 owner: \"\" deadline: \"\" status: \"open\" tags: [action-item, knowledge-graph] source: \"Obsidian: Daily/2026-02-12.md\" ---  # Combine v1's professional styling with v2's collaboration workflows for Coding Manual v3  - **Owner:** Unknown - **Deadline:**  - **Status:",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-771986aa17685fe6999e419c1c67ae69",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:19167032126a5706c982859a5fe10135",
+      "default:extract:06d483e0f6989be4c76fbf09eb38b102"
+    ],
+    "create_time": 1772585650,
+    "update_time": 1772585697,
+    "_id": "chunk-771986aa17685fe6999e419c1c67ae69"
+  },
+  "chunk-88e992b721430779160720a86027f0b5": {
+    "tokens": 205,
+    "content": "[Source: KnowledgeGraph/People/Heart-Failure.md]\n---\nname: \"Heart Failure\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Heart Failure\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Decisions/2026-02-14-chartsense-ai-mvp.md\n--- type: decision date: 2026-02-14 updated: 2026-02-16 tags: [decision, project, healthcare] ---  # Build ChartSense AI MVP  **Date:** 2026-02-14 **Decision:** Build full-stack clinical decision support MVP for Thai hospitals **Decided by:** [[KnowledgeGraph/People/Anirach Mingkhwan\\|Anirach]], [[K",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-88e992b721430779160720a86027f0b5",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:46642e4bc87ef7378560415b3de98e76",
+      "default:extract:6f175a1a1ecf6fec4cc6885508c3bd9c"
+    ],
+    "create_time": 1772585654,
+    "update_time": 1772585675,
+    "_id": "chunk-88e992b721430779160720a86027f0b5"
+  },
+  "chunk-8983e2b4c186fcc645136f51f241d354": {
+    "tokens": 191,
+    "content": "[Source: KnowledgeGraph/People/Professional-Digest.md]\n---\nname: \"Professional Digest\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Professional Digest\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-01-29.md\n# Daily Memory - January 29, 2026  ## Academic Research Workflow Automation - COMPLETED ✅  Successfully set up complete academic research automation system for Anirach:  ### System Components: 1. **Daily ArXiv Monitoring**: Automated scanning of cs.AI, cs.LG, cs.CL, cs.CV, cs.NE, cs.HC, stat.ML 2. *",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8983e2b4c186fcc645136f51f241d354",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:4f07a02c03f260169a636a8642c91eeb",
+      "default:extract:ea94eed9a347c9be0cdb7015b18905ec"
+    ],
+    "create_time": 1772585689,
+    "update_time": 1772585706,
+    "_id": "chunk-8983e2b4c186fcc645136f51f241d354"
+  },
+  "chunk-d4a764628ee2a0d96bcbab465f3adff1": {
+    "tokens": 285,
+    "content": "[Source: KnowledgeGraph/People/Artificial-Intelligence.md]\n---\nname: \"Artificial Intelligence\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Artificial Intelligence\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: KnowledgeGraph/MOC-Infrastructure.md\n--- type: moc updated: 2026-02-16 tags: [moc, infrastructure] ---  # 🛠️ Tools & Infrastructure  ## AI/ML Stack - [[KnowledgeGraph/Topics/GPT\\|GPT / LLMs]] — Core language models - [[KnowledgeGraph/Topics/machine learning\\|Machine Learning]] — Broad ML techniques - [[KnowledgeGraph/Topics/AI\\|Artific\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/AI.md\n--- type: topic status: active tags: [topic] created: 2026-02-15 updated: 2026-02-16 ---  # Artificial Intelligence  Artificial Intelligence encompasses systems that can perform tasks requiring human-like intelligence. In our work, AI drives the agent teams, research automation, and clinical decisio",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d4a764628ee2a0d96bcbab465f3adff1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5d517079bcd525d7e6348bad741f394b",
+      "default:extract:8946c79fbad852fd582bd7d2b6582ff0"
+    ],
+    "create_time": 1772585705,
+    "update_time": 1772585751,
+    "_id": "chunk-d4a764628ee2a0d96bcbab465f3adff1"
+  },
+  "chunk-e4c9f0047cf0851b406258ad13a0ecf3": {
+    "tokens": 177,
+    "content": "[Source: KnowledgeGraph/People/Designer-Agent.md]\n---\nname: \"Designer Agent\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Designer Agent\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-11.md\n  ### UX/UI Designer Agent Added to Coding Team - Added **ux-designer** agent (Opus model) - Focus: Interface design, visual polish, usability, responsive design - Uses shadcn/ui, Tailwind CSS expertise - Anti-AI-slop design principles - Spawns for: UI polish, new screens, UX reviews, design systems",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e4c9f0047cf0851b406258ad13a0ecf3",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:7be1ea8fb3e8cb2b16d53c81e8f791c8",
+      "default:extract:fc585de2699882e895a0c4ea18f80c5d"
+    ],
+    "create_time": 1772585714,
+    "update_time": 1772585752,
+    "_id": "chunk-e4c9f0047cf0851b406258ad13a0ecf3"
+  },
+  "chunk-a738f505c3e1573b43b49a1c3bf45d9d": {
+    "tokens": 167,
+    "content": "[Source: KnowledgeGraph/People/Tasks-Completed.md]\n---\nname: \"Tasks Completed\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Tasks Completed\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-01-26.md\n# 2026-01-26  ## Tasks Completed  ### White Paper for Executive Strategic Development Class - Anirach requested an article/white paper about why executives should read literature - Key themes: Strategic Thinking Under Uncertainty, tolerance for ambiguity, long-horizon thinking, second-order conseque",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-a738f505c3e1573b43b49a1c3bf45d9d",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:c27b13ee165bf46531a3157a2554c25e",
+      "default:extract:0650686e001f6a5026b3e19e26feafd7"
+    ],
+    "create_time": 1772585762,
+    "update_time": 1772585788,
+    "_id": "chunk-a738f505c3e1573b43b49a1c3bf45d9d"
+  }
+}

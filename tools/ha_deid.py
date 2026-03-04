@@ -30,7 +30,15 @@ SENSITIVE_FIELDS = {
     'name', 'employee_name', 'surveyor_name', 'speaker_name',
     'full_name', 'first_name', 'last_name', 'nickname',
     'email', 'phone', 'mobile', 'address',
-    # Any field with "name" in it
+    # Contact & communication
+    'phone_number', 'telephone', 'tel', 'fax', 'contact',
+    'contact_name', 'contact_person', 'contact_phone', 'contact_email',
+    'contact_number', 'contact_info', 'contact_detail',
+    'line_id', 'social_media',
+    # ID numbers
+    'citizen_id', 'national_id', 'id_card', 'passport',
+    'license_number', 'registration_number',
+    # Any field with "name", "phone", "contact", "email" in it
 }
 
 # Fields that are safe (aggregated/categorical)
@@ -86,6 +94,33 @@ class DeIdentifier:
             self.code_map[code] = f"CODE_{self.counters['code']:03d}"
         return self.code_map[code]
 
+    def mask_phone(self, phone):
+        if not phone or str(phone).strip() == '':
+            return phone
+        phone = str(phone).strip()
+        if phone not in self.person_map:
+            self.counters['person'] += 1
+            self.person_map[phone] = f"PHONE_{self.counters['person']:03d}"
+        return self.person_map[phone]
+
+    def mask_email(self, email):
+        if not email or str(email).strip() == '':
+            return email
+        email = str(email).strip()
+        if email not in self.person_map:
+            self.counters['person'] += 1
+            self.person_map[email] = f"EMAIL_{self.counters['person']:03d}"
+        return self.person_map[email]
+
+    def mask_id(self, id_val):
+        if not id_val or str(id_val).strip() == '':
+            return id_val
+        id_val = str(id_val).strip()
+        if id_val not in self.code_map:
+            self.counters['code'] += 1
+            self.code_map[id_val] = f"ID_{self.counters['code']:03d}"
+        return self.code_map[id_val]
+
     def mask_field(self, field_name, value):
         """Mask a value based on its field name."""
         if value is None or str(value).strip() == '':
@@ -94,12 +129,18 @@ class DeIdentifier:
         fn = field_name.lower().strip()
 
         # Check if it's a sensitive field
-        if fn in SENSITIVE_FIELDS or any(s in fn for s in ['name', 'note', 'email', 'phone', 'address']):
+        if fn in SENSITIVE_FIELDS or any(s in fn for s in ['name', 'note', 'email', 'phone', 'address', 'contact', 'mobile', 'tel', 'fax']):
             if 'hospital' in fn or fn == 'organization_name':
                 return self.mask_hospital(str(value))
-            elif 'code' in fn:
-                return self.mask_code(str(value))
+            elif 'code' in fn or 'license' in fn or 'registration' in fn or 'citizen' in fn or 'national_id' in fn or 'passport' in fn or 'id_card' in fn:
+                return self.mask_id(str(value))
+            elif 'email' in fn:
+                return self.mask_email(str(value))
+            elif any(p in fn for p in ['phone', 'mobile', 'tel', 'fax', 'contact_number']):
+                return self.mask_phone(str(value))
             elif 'note' in fn:
+                return '[REDACTED]'
+            elif 'contact' in fn or 'address' in fn or 'line_id' in fn or 'social' in fn:
                 return '[REDACTED]'
             else:
                 return self.mask_person(str(value))
@@ -163,12 +204,17 @@ class DeIdentifier:
         return '\n'.join(result_lines)
 
     def _redact_thai_names(self, text):
-        """Fallback: redact patterns that look like Thai hospital names."""
+        """Fallback: redact patterns that look like Thai hospital names, phones, emails."""
         # Redact Thai text that might be hospital names (sequences of Thai chars > 5)
-        # This is aggressive but safe
         result = re.sub(r'[ก-๙]{5,}(?:\s+[ก-๙]{2,})*', '[THAI_REDACTED]', text)
         # Redact hospital codes like DS 02003, PS 25001
         result = re.sub(r'\b[A-Z]{2}\s?\d{4,5}\b', '[CODE_REDACTED]', result)
+        # Redact Thai phone numbers (0x-xxx-xxxx, 0xx-xxx-xxxx, +66...)
+        result = re.sub(r'(?:\+66|0)\d[\d\s\-]{7,12}', '[PHONE_REDACTED]', result)
+        # Redact email addresses
+        result = re.sub(r'[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}', '[EMAIL_REDACTED]', result)
+        # Redact Thai citizen IDs (13 digits, sometimes with dashes)
+        result = re.sub(r'\b\d[\-\s]?\d{4}[\-\s]?\d{5}[\-\s]?\d{2}[\-\s]?\d\b', '[CITIZEN_ID_REDACTED]', result)
         return result
 
     def stats(self):

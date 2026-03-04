@@ -1,16 +1,16 @@
 {
   "lastChecks": {
-    "email": 1772416778,
-    "calendar": 1772409633,
-    "weather": null,
-    "subagents": 1771930864,
+    "email": 1772589507,
+    "calendar": 1772567606,
+    "weather": 1772656800,
+    "subagents": 1772582522,
     "memory_review": 1771653738,
     "tmp_cleanup": 1771371000,
     "memory_audit": 1771746596,
-    "memory_maintenance": 1772391704,
-    "auto_reflection": 1772391704,
-    "gateway_boot": 1772377770
+    "memory_maintenance": 1772478015,
+    "auto_reflection": 1772478015,
+    "gateway_boot": 1772511593
   },
-  "lastHeartbeat": 1772409633,
-  "notes": "GOG env vars configured in systemd. Calendar+email working."
+  "lastHeartbeat": 1772582522,
+  "notes": "7:01 AM check - subagents: none active, email service unavailable"
 }

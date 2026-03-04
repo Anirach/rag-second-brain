@@ -38,6 +38,20 @@ One spawn → Complete publication-ready paper with full verification.
 
 **⚠️ CRITICAL: Do NOT deliver until verification passes!**
 
+### 📐 Paper Structure Template (MANDATORY)
+
+**Every paper MUST follow the structure defined in:**
+```
+/home/clawdbot/clawd/templates/ACADEMIC_PAPER_PROMPT.md
+```
+
+This template defines exact section structure, math notation rules, quality gates, anti-patterns to avoid, and style rules. Read it before starting any paper. All agents in the academic team must comply with its rules — especially:
+- Number verification protocol (no unverified quantitative claims)
+- Citation completeness (real, verifiable, complete bibliographic data)
+- Statistical evidence requirements (mean + std dev + run count)
+- Abstract–body consistency check
+- Anti-pattern avoidance list (10 items from production experience)
+
 **To produce a paper:**
 ```
 Arthur, write an academic paper on [TOPIC].
