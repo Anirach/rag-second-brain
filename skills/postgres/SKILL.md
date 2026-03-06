@@ -1,6 +1,6 @@
 ---
 name: postgres
-description: PostgreSQL database management. Run queries, manage schemas, and monitor performance.
+description: PostgreSQL-specific database administration. Advanced features: replication, extensions, pg_dump/pg_restore, VACUUM, connection pooling, and PostgreSQL-specific optimization. Use for PostgreSQL admin tasks beyond basic SQL. NOT for: general SQL queries, schema design, or multi-database work (use sql-toolkit).
 metadata: {"clawdbot":{"emoji":"🐘","always":true,"requires":{"bins":["curl","jq"]}}}
 ---
 

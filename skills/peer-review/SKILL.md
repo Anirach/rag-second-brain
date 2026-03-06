@@ -1,25 +1,6 @@
 ---
 name: peer-review
-description: |
-  Multi-model peer review layer using local LLMs via Ollama to catch errors in cloud model output.
-  Fan-out critiques to 2-3 local models, aggregate flags, synthesize consensus.
-
-  Use when: validating trade analyses, reviewing agent output quality, testing local model accuracy,
-  checking any high-stakes Claude output before publishing or acting on it.
-
-  Don't use when: simple fact-checking (just search the web), tasks that don't benefit from
-  multi-model consensus, time-critical decisions where 60s latency is unacceptable,
-  reviewing trivial or low-stakes content.
-
-  Negative examples:
-  - "Check if this date is correct" → No. Just web search it.
-  - "Review my grocery list" → No. Not worth multi-model inference.
-  - "I need this answer in 5 seconds" → No. Peer review adds 30-60s latency.
-
-  Edge cases:
-  - Short text (<50 words) → Models may not find meaningful issues. Consider skipping.
-  - Highly technical domain → Local models may lack domain knowledge. Weight flags lower.
-  - Creative writing → Factual review doesn't apply well. Use only for logical consistency.
+description: Conduct academic peer review of research papers. Evaluate methodology, contributions, writing quality, and provide structured reviewer feedback. Use when reviewing a paper draft or simulating conference review. NOT for: writing papers (use academic-writing-refiner).
 version: "1.0"
 ---
 

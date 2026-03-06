@@ -1,6 +1,6 @@
 ---
 name: content-quality-auditor
-description: 'Use when the user asks to "audit content quality", "EEAT score", "content quality check", "CORE-EEAT audit", "how good is my content", "is my content good enough to rank", "EEAT check", or "rate my content quality". Runs a full CORE-EEAT 80-item content quality audit, scoring content across 8 dimensions with weighted scoring by content type. Produces a detailed report with per-item scores, dimension analysis, and a prioritized action plan. For SEO-specific page checks, see on-page-seo-auditor. For domain-level assessment, see domain-authority-auditor.'
+description: 'Run CORE-EEAT 80-item content quality audit with weighted scoring across 8 dimensions. Use when user asks to "audit content quality", "EEAT score", "rate my content", or "is my content good enough to rank". Produces detailed scores and prioritized action plan. NOT for: writing new content (use seo-content-writer or copywriting), page-level SEO checks, or domain authority analysis.'
 license: Apache-2.0
 metadata:
   author: aaron-he-zhu

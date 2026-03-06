@@ -1,7 +1,7 @@
 ---
 name: deep-research-pro
 version: 1.0.0
-description: "Multi-source deep research agent. Searches the web, synthesizes findings, and delivers cited reports. No API keys required."
+description: "Fast multi-source web research agent for general topics. Searches the web, synthesizes findings, and delivers cited reports. No API keys required. Use for general research questions, market analysis, or topic exploration. NOT for: academic research with formal citations (use academic-deep-research), parallel API research (use parallel-deep-research), or finding specific papers (use literature-search)."
 homepage: https://github.com/paragshah/deep-research-pro
 metadata: {"clawdbot":{"emoji":"🔬","category":"research"}}
 ---

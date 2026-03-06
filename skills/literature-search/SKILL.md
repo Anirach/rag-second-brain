@@ -1,6 +1,6 @@
 ---
 name: literature-search
-description: Find and compile academic literature with citation lists across Google Scholar, PubMed, arXiv, IEEE, ACM, Semantic Scholar, Scopus, and Web of Science. Use for requests like “find related literature,” “related work,” “citation list,” or “key papers on a topic.”
+description: "Find and compile lists of academic papers across Google Scholar, PubMed, arXiv, IEEE, ACM, Semantic Scholar, Scopus, and Web of Science. Use for 'find papers about X', 'related work', 'citation list', or 'key papers on topic'. Returns paper lists, NOT synthesized reviews. NOT for: writing literature review prose (use literature-review), full research reports (use academic-deep-research), or web research (use deep-research-pro)."
 ---
 
 # Literature Search
@@ -18,7 +18,7 @@ Find relevant academic papers on a given topic across the major scholarly indexe
    - Prefer official APIs and publicly accessible pages.
    - **Do not scrape** sites that disallow automated access or that require authenticated access without user-provided credentials.
    - Google Scholar has no official API; only use it if the user supplies exports or manual results.
-   - Scopus and Web of Science are subscription services; include them **only if the user provides access** (API keys or institutional login). Otherwise note “not available.”
+   - Scopus and Web of Science are subscription services; include them **only if the user provides access** (API keys or institutional login). Otherwise note "not available."
 
 3. **Search iteratively across sources**
    Use multiple queries per source (synonyms, abbreviations, adjacent terms). Prioritize API-friendly/public sources:
@@ -45,9 +45,9 @@ Find relevant academic papers on a given topic across the major scholarly indexe
 
 ## Example User Prompts (trigger)
 
-- “Find the key literature on diffusion models for text-to-image generation.”
-- “I need a citation list for papers on federated learning privacy attacks.”
-- “Find recent papers on CRISPR off-target detection methods.”
-- “Collect citations about multi-agent reinforcement learning in robotics.”
-- “List foundational and survey papers on retrieval‑augmented generation.”
-- “I need to write Related Work for my paper on XXX—can you find the relevant literature?”
+- "Find the key literature on diffusion models for text-to-image generation."
+- "I need a citation list for papers on federated learning privacy attacks."
+- "Find recent papers on CRISPR off-target detection methods."
+- "Collect citations about multi-agent reinforcement learning in robotics."
+- "List foundational and survey papers on retrieval-augmented generation."
+- "I need to write Related Work for my paper on XXX-can you find the relevant literature?"

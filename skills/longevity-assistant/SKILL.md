@@ -1,6 +1,6 @@
 ---
 name: longevity
-description: Evaluates longevity interventions using evidence tiers. Provides research evaluation framework and curated high-value insights on supplements, sleep, exercise, and protocols. Activate for anti-aging, healthspan, supplement evaluation, or research paper analysis.
+description: "Evaluate longevity interventions using evidence-tier framework. Provides curated insights on supplements, sleep, exercise, and anti-aging protocols with research quality ratings. Use when user asks about anti-aging, healthspan, supplement evaluation, or longevity research. NOT for: clinical medical advice (use medicine skill), general health questions, or drug interactions."
 license: MIT
 metadata:
   version: "2.0"

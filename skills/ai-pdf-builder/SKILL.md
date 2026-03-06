@@ -1,6 +1,6 @@
 ---
 name: ai-pdf-builder
-description: Generate professional PDFs from Markdown using Pandoc and LaTeX with AI-powered content generation. Creates whitepapers, term sheets, memos, agreements, SAFEs, NDAs, and more.
+description: Generate professional PDFs from Markdown content using Pandoc and LaTeX with AI-powered content generation. Creates whitepapers, term sheets, memos, agreements, SAFEs, NDAs, and formatted documents. Use when converting Markdown/text to styled PDF documents. NOT for: editing existing PDFs (use nano-pdf), filling PDF forms (use pdf-form-filler), extracting data from PDFs (use pymupdf or pdf-to-structured).
 version: 1.1.0
 ---
 

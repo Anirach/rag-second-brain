@@ -1,6 +1,6 @@
 ---
 name: parallel-deep-research
-description: "Deep multi-source research via Parallel API. Use when user explicitly asks for thorough research, comprehensive analysis, or investigation of a topic. For quick lookups or news, use parallel-search instead."
+description: "Deep multi-source research using Parallel API for maximum speed and breadth. Use when user explicitly asks for thorough, comprehensive research and speed matters. Requires Parallel API. NOT for: quick lookups (use web_search), academic-style research (use academic-deep-research), or when Parallel API is unavailable (use deep-research-pro)."
 homepage: https://parallel.ai
 ---
 

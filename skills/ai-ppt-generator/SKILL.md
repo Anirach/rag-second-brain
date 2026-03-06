@@ -1,6 +1,6 @@
 ---
 name: ai-ppt-generator
-description: The awesome PPT format generation tool provided by baidu. 
+description: Generate complete PowerPoint presentations from a topic using Baidu's AI PPT API. Creates full slide decks with AI-generated content and layouts. Use when user wants a quick, auto-generated presentation on a topic. NOT for: manual slide-by-slide PowerPoint creation (use powerpoint-pptx), Google Slides (use google-slides), or editing existing PPTX files. 
 metadata: { "openclaw": { "emoji": "📑", "requires": { "bins": ["python3"], "env":["BAIDU_API_KEY"]},"primaryEnv":"BAIDU_API_KEY" } }
 ---
 

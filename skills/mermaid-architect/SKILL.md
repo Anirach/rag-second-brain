@@ -1,6 +1,6 @@
 ---
 name: mermaid-architect
-description: Generate beautiful, hand-drawn Mermaid diagrams with robust syntax (quoted labels, ELK layout). Use this skill when the user asks for "diagram", "flowchart", "sequence diagram", or "visualize this process".
+description: Generate polished Mermaid diagrams with hand-drawn (sketch) aesthetic, quoted labels, and ELK layout engine. Mermaid-ONLY specialist with robust syntax handling. Use when specifically asked for Mermaid diagrams or when a clean, hand-drawn look is desired. NOT for: PlantUML, ASCII diagrams, or general diagram requests (use diagram skill).
 ---
 
 # Mermaid Architect

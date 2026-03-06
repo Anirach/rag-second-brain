@@ -156,7 +156,7 @@
       "chunk-c9e9ea9f9ef3e6e49b68f230ad0b56ef"
     ],
     "count": 153,
-    "update_time": 1772610147,
+    "update_time": 1772676488,
     "_id": "Anirach"
   },
   "Dark Themes": {
@@ -231,7 +231,7 @@
       "chunk-ffed2e0d5a98ce8d9cb5106e19cdcce4"
     ],
     "count": 50,
-    "update_time": 1772608481,
+    "update_time": 1772676537,
     "_id": "RAG Second Brain Paper"
   },
   "AIiH 2026": {
@@ -279,10 +279,11 @@
       "chunk-6476f93afca3bf94d0f25d8156e76b27",
       "chunk-9e012814131f2010333e459c03c45a71",
       "chunk-e446842d3412fd960e83e17b830cf824",
-      "chunk-1eedf5e93d60ec2ab2ee6bc42ed024f3"
+      "chunk-1eedf5e93d60ec2ab2ee6bc42ed024f3",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 44,
-    "update_time": 1772609765,
+    "count": 45,
+    "update_time": 1772676675,
     "_id": "AIiH 2026"
   },
   "OpenClaw": {
@@ -330,10 +331,11 @@
       "chunk-0cea9d91f2ca3cf48f1682c604afbf73",
       "chunk-ffed2e0d5a98ce8d9cb5106e19cdcce4",
       "chunk-2ff7de3ecdbdeec06151e805c84a460f",
-      "chunk-0f87202506d912406b3336864391a105"
+      "chunk-0f87202506d912406b3336864391a105",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 44,
-    "update_time": 1772610028,
+    "count": 45,
+    "update_time": 1772676677,
     "_id": "OpenClaw"
   },
   "Arthur": {
@@ -410,7 +412,7 @@
       "chunk-0f87202506d912406b3336864391a105"
     ],
     "count": 70,
-    "update_time": 1772610028,
+    "update_time": 1772676487,
     "_id": "Arthur"
   },
   "Hospital_001": {
@@ -609,10 +611,11 @@
       "chunk-c599f91be9d0271b2f173bcfb4111a87",
       "chunk-12f048966679c5273b89937b7ee51924",
       "chunk-18589a3ae5643f849f2a1a4ec242ec03",
-      "chunk-30ae3cffd532b289cddb3021692aea5c"
+      "chunk-30ae3cffd532b289cddb3021692aea5c",
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
     ],
-    "count": 12,
-    "update_time": 1772606342,
+    "count": 13,
+    "update_time": 1772676812,
     "_id": "Home"
   },
   "Antigravity": {
@@ -838,7 +841,7 @@
       "chunk-12c372fab7384b856aeb35544c35bc93"
     ],
     "count": 86,
-    "update_time": 1772607078,
+    "update_time": 1772676698,
     "_id": "Anirach Mingkhwan"
   },
   "DuckMan": {
@@ -952,10 +955,11 @@
       "chunk-a7ce30ce20ef800d9a7bb58b9b0461c4",
       "chunk-235bc07c09f26fdcb46115a35a1fb596",
       "chunk-62b8c58cedfa24794136151188ad15e5",
-      "chunk-1eedf5e93d60ec2ab2ee6bc42ed024f3"
+      "chunk-1eedf5e93d60ec2ab2ee6bc42ed024f3",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 19,
-    "update_time": 1772609771,
+    "count": 20,
+    "update_time": 1772676681,
     "_id": "ArXiv"
   },
   "Infrastructure": {
@@ -1646,10 +1650,16 @@
       "chunk-6d02f13a15fbfbcfa3d9b1fc5422acd6",
       "chunk-0eb57ca17daeb1dd32503d612878c20c",
       "chunk-7c6144f7eea8f9ff2209417a52185401",
-      "chunk-6b833576f6ded00efd508619d87e78d6"
+      "chunk-6b833576f6ded00efd508619d87e78d6",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4",
+      "chunk-b6f9007ed37a2d2015d2723fe141f45a",
+      "chunk-624f82c2f306963511da123121ec4085",
+      "chunk-23fda636ff43924bd38d40789fc5e489"
     ],
-    "count": 452,
-    "update_time": 1772609471,
+    "count": 458,
+    "update_time": 1772676802,
     "_id": "Knowledge Graph"
   },
   "PostgreSQL": {
@@ -2206,10 +2216,17 @@
       "chunk-98485ddd02e91bf6aefef0a2711d44a4",
       "chunk-b6c15de56039236682f9856e47cab92d",
       "chunk-37056b34934d569bff0b96c6e8991103",
-      "chunk-28965c521a6b72821b06f5ed20fa322d"
+      "chunk-28965c521a6b72821b06f5ed20fa322d",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-932e70986da082d91d36bf6d3f117889",
+      "chunk-521f51cb7088ea1256e4e2e3d6ab655d",
+      "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 395,
-    "update_time": 1772609982,
+    "count": 402,
+    "update_time": 1772676687,
     "_id": "Obsidian"
   },
   "Knowledge Management": {
@@ -2256,7 +2273,7 @@
       "chunk-ffed2e0d5a98ce8d9cb5106e19cdcce4"
     ],
     "count": 21,
-    "update_time": 1772608479,
+    "update_time": 1772676487,
     "_id": "LobsterBoard"
   },
   "Sales Pipeline DB": {
@@ -2693,7 +2710,7 @@
       "chunk-61cd9e790bea697b6917062a98648fd3"
     ],
     "count": 8,
-    "update_time": 1772596295,
+    "update_time": 1772676547,
     "_id": "ChartSense AI Project"
   },
   "GitHub Repository (Anirach/chartsense-ai)": {
@@ -3013,7 +3030,7 @@
       "chunk-37056b34934d569bff0b96c6e8991103"
     ],
     "count": 19,
-    "update_time": 1772609939,
+    "update_time": 1772676545,
     "_id": "Opus Model"
   },
   "Sonnet Model": {
@@ -3186,7 +3203,7 @@
       "chunk-fd7a65285fdf36b982f20efb250e9ce9"
     ],
     "count": 11,
-    "update_time": 1772601230,
+    "update_time": 1772676188,
     "_id": "Quick-Reference.md"
   },
   "2026-02-17 Update Date": {
@@ -3206,7 +3223,7 @@
       "chunk-a06fdd29b547fa50066bbf918525b3b2"
     ],
     "count": 4,
-    "update_time": 1772596514,
+    "update_time": 1772676707,
     "_id": "Pinned Tag"
   },
   "Reference Tag": {
@@ -3218,7 +3235,7 @@
       "chunk-a06fdd29b547fa50066bbf918525b3b2"
     ],
     "count": 5,
-    "update_time": 1772596514,
+    "update_time": 1772676708,
     "_id": "Reference Tag"
   },
   "Always-Load Tag": {
@@ -3229,7 +3246,7 @@
       "chunk-a06fdd29b547fa50066bbf918525b3b2"
     ],
     "count": 4,
-    "update_time": 1772596515,
+    "update_time": 1772676708,
     "_id": "Always-Load Tag"
   },
   "Critical IDs": {
@@ -3254,10 +3271,11 @@
     "chunk_ids": [
       "chunk-5a199a577367afc1799777199de40b72",
       "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
-      "chunk-2aa4a13b1b176ed10002f4975b879bd5"
+      "chunk-2aa4a13b1b176ed10002f4975b879bd5",
+      "chunk-4a448df3934c0032a1a381293f8854d9"
     ],
-    "count": 3,
-    "update_time": 1772606197,
+    "count": 4,
+    "update_time": 1772676422,
     "_id": "Facts"
   },
   "Session Start": {
@@ -3426,7 +3444,7 @@
       "chunk-c9e9ea9f9ef3e6e49b68f230ad0b56ef"
     ],
     "count": 32,
-    "update_time": 1772610159,
+    "update_time": 1772676564,
     "_id": "GitHub"
   },
   "Three Old Men Project": {
@@ -3515,7 +3533,7 @@
       "chunk-37056b34934d569bff0b96c6e8991103"
     ],
     "count": 29,
-    "update_time": 1772609941,
+    "update_time": 1772676537,
     "_id": "Writing Team"
   },
   "Translation Team": {
@@ -3599,10 +3617,11 @@
       "chunk-572bc319ace0969403b23edbb05f1603",
       "chunk-b6c15de56039236682f9856e47cab92d",
       "chunk-61736ce38c27461a2b10ba4645d7dc0e",
-      "chunk-37056b34934d569bff0b96c6e8991103"
+      "chunk-37056b34934d569bff0b96c6e8991103",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 33,
-    "update_time": 1772609941,
+    "count": 34,
+    "update_time": 1772676678,
     "_id": "Coding Team"
   },
   "Agent Teams (Overview)": {
@@ -3791,10 +3810,23 @@
       "chunk-90a4287e7a69589023f97fe208e724fd",
       "chunk-a06fdd29b547fa50066bbf918525b3b2",
       "chunk-1f197e592637ef1737a9a8857200343b",
-      "chunk-244ad908c60805cff7ae65c455d2736f"
+      "chunk-244ad908c60805cff7ae65c455d2736f",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-932e70986da082d91d36bf6d3f117889",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d",
+      "chunk-4a448df3934c0032a1a381293f8854d9",
+      "chunk-9b3068faf3337e750644c8d7643fc411",
+      "chunk-521f51cb7088ea1256e4e2e3d6ab655d",
+      "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a",
+      "chunk-607a068b3c6e1458bfc283574e66abf1",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 23,
-    "update_time": 1772596793,
+    "count": 36,
+    "update_time": 1772676687,
     "_id": "Knowledge Graph Index"
   },
   "People Category": {
@@ -3815,10 +3847,20 @@
       "chunk-1f197e592637ef1737a9a8857200343b",
       "chunk-626897db315a02419d7fa1861812cffd",
       "chunk-244ad908c60805cff7ae65c455d2736f",
-      "chunk-fd7a65285fdf36b982f20efb250e9ce9"
+      "chunk-fd7a65285fdf36b982f20efb250e9ce9",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-932e70986da082d91d36bf6d3f117889",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d",
+      "chunk-4a448df3934c0032a1a381293f8854d9",
+      "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf",
+      "chunk-607a068b3c6e1458bfc283574e66abf1",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 17,
-    "update_time": 1772601231,
+    "count": 27,
+    "update_time": 1772676690,
     "_id": "People Category"
   },
   "Projects Category": {
@@ -3837,10 +3879,20 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f",
       "chunk-1f197e592637ef1737a9a8857200343b",
       "chunk-626897db315a02419d7fa1861812cffd",
-      "chunk-244ad908c60805cff7ae65c455d2736f"
+      "chunk-244ad908c60805cff7ae65c455d2736f",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-932e70986da082d91d36bf6d3f117889",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d",
+      "chunk-4a448df3934c0032a1a381293f8854d9",
+      "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf",
+      "chunk-607a068b3c6e1458bfc283574e66abf1",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 15,
-    "update_time": 1772596782,
+    "count": 25,
+    "update_time": 1772676690,
     "_id": "Projects Category"
   },
   "Decisions Category": {
@@ -3859,29 +3911,41 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f",
       "chunk-1f197e592637ef1737a9a8857200343b",
       "chunk-626897db315a02419d7fa1861812cffd",
-      "chunk-244ad908c60805cff7ae65c455d2736f"
+      "chunk-244ad908c60805cff7ae65c455d2736f",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-932e70986da082d91d36bf6d3f117889",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d",
+      "chunk-4a448df3934c0032a1a381293f8854d9",
+      "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf",
+      "chunk-607a068b3c6e1458bfc283574e66abf1",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 15,
-    "update_time": 1772596782,
+    "count": 25,
+    "update_time": 1772676690,
     "_id": "Decisions Category"
   },
   "Action Items Category": {
     "chunk_ids": [
       "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
       "chunk-ad0e1255b938172ca134381d029ccfab",
-      "chunk-6d02f13a15fbfbcfa3d9b1fc5422acd6"
+      "chunk-6d02f13a15fbfbcfa3d9b1fc5422acd6",
+      "chunk-4a448df3934c0032a1a381293f8854d9"
     ],
-    "count": 3,
-    "update_time": 1772605511,
+    "count": 4,
+    "update_time": 1772676420,
     "_id": "Action Items Category"
   },
   "Documents Category": {
     "chunk_ids": [
       "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
-      "chunk-57ca52f28d5bc68f21ab7c9caf670243"
+      "chunk-57ca52f28d5bc68f21ab7c9caf670243",
+      "chunk-4a448df3934c0032a1a381293f8854d9"
     ],
-    "count": 2,
-    "update_time": 1772585227,
+    "count": 3,
+    "update_time": 1772676420,
     "_id": "Documents Category"
   },
   "First-Novel": {
@@ -3895,20 +3959,20 @@
   },
   "Session-Major": {
     "chunk_ids": [
-      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
+      "chunk-4a448df3934c0032a1a381293f8854d9"
     ],
-    "count": 1,
-    "create_time": 1772584340,
-    "update_time": 1772584340,
+    "count": 2,
+    "update_time": 1772676420,
     "_id": "Session-Major"
   },
   "System-Optimization": {
     "chunk_ids": [
-      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
+      "chunk-4a448df3934c0032a1a381293f8854d9"
     ],
-    "count": 1,
-    "create_time": 1772584340,
-    "update_time": 1772584340,
+    "count": 2,
+    "update_time": 1772676421,
     "_id": "System-Optimization"
   },
   "2026-03-03-Items--153": {
@@ -3940,11 +4004,11 @@
   },
   "2026-03-01-Httpsunused--Likely-From-A-Config-Wizard-Pla": {
     "chunk_ids": [
-      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f"
+      "chunk-110b96b0a13f8b8ff5b33a4018cb7b9f",
+      "chunk-4a448df3934c0032a1a381293f8854d9"
     ],
-    "count": 1,
-    "create_time": 1772584341,
-    "update_time": 1772584341,
+    "count": 2,
+    "update_time": 1772676422,
     "_id": "2026-03-01-Httpsunused--Likely-From-A-Config-Wizard-Pla"
   },
   "DevOps-VibeCoding-Course": {
@@ -4018,7 +4082,7 @@
       "chunk-0eb57ca17daeb1dd32503d612878c20c"
     ],
     "count": 4,
-    "update_time": 1772608210,
+    "update_time": 1772676289,
     "_id": "KnowledgeGraph/_Index.md"
   },
   "Type Index": {
@@ -4038,10 +4102,15 @@
       "chunk-aed742b710d4efe2e644f95efb224333",
       "chunk-90a4287e7a69589023f97fe208e724fd",
       "chunk-a06fdd29b547fa50066bbf918525b3b2",
-      "chunk-624a958646ff967dbef13904a2c3a0ef"
+      "chunk-624a958646ff967dbef13904a2c3a0ef",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d",
+      "chunk-4a448df3934c0032a1a381293f8854d9",
+      "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
     ],
-    "count": 7,
-    "update_time": 1772601062,
+    "count": 12,
+    "update_time": 1772676701,
     "_id": "Knowledge-Graph Tag"
   },
   "Index Tag": {
@@ -4055,10 +4124,15 @@
       "chunk-a06fdd29b547fa50066bbf918525b3b2",
       "chunk-244ad908c60805cff7ae65c455d2736f",
       "chunk-465cfc7fed7647f14ac063c527100a11",
-      "chunk-c8406bef96a42a0f76c00ef965aa142a"
+      "chunk-c8406bef96a42a0f76c00ef965aa142a",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d",
+      "chunk-4a448df3934c0032a1a381293f8854d9",
+      "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
     ],
-    "count": 10,
-    "update_time": 1772609602,
+    "count": 15,
+    "update_time": 1772676707,
     "_id": "Index Tag"
   },
   "People Count": {
@@ -4069,7 +4143,7 @@
       "chunk-a06fdd29b547fa50066bbf918525b3b2"
     ],
     "count": 4,
-    "update_time": 1772596508,
+    "update_time": 1772676697,
     "_id": "People Count"
   },
   "Projects Count": {
@@ -4080,7 +4154,7 @@
       "chunk-a06fdd29b547fa50066bbf918525b3b2"
     ],
     "count": 4,
-    "update_time": 1772596508,
+    "update_time": 1772676697,
     "_id": "Projects Count"
   },
   "Decisions Count": {
@@ -4091,7 +4165,7 @@
       "chunk-a06fdd29b547fa50066bbf918525b3b2"
     ],
     "count": 4,
-    "update_time": 1772596508,
+    "update_time": 1772676698,
     "_id": "Decisions Count"
   },
   "Action Items Count": {
@@ -4190,10 +4264,14 @@
       "chunk-e8ee70ff66b5db6fafbda166046803fe",
       "chunk-4a81e082bc50b15702ab13196b65fcf7",
       "chunk-90a4287e7a69589023f97fe208e724fd",
-      "chunk-a06fdd29b547fa50066bbf918525b3b2"
+      "chunk-a06fdd29b547fa50066bbf918525b3b2",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-9b3068faf3337e750644c8d7643fc411",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
     ],
-    "count": 13,
-    "update_time": 1772596509,
+    "count": 17,
+    "update_time": 1772676698,
     "_id": "System Optimization Session"
   },
   "Memory Search": {
@@ -4210,10 +4288,13 @@
       "chunk-4a81e082bc50b15702ab13196b65fcf7",
       "chunk-90a4287e7a69589023f97fe208e724fd",
       "chunk-296f2856d7ea85e61339b7d5fc2466b9",
-      "chunk-e4652814dbdde910f7f2eb9c027d57b7"
+      "chunk-e4652814dbdde910f7f2eb9c027d57b7",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
     ],
-    "count": 13,
-    "update_time": 1772607097,
+    "count": 16,
+    "update_time": 1772676566,
     "_id": "Memory Search"
   },
   "Google Embedding Provider": {
@@ -4232,10 +4313,15 @@
       "chunk-e8ee70ff66b5db6fafbda166046803fe",
       "chunk-4a81e082bc50b15702ab13196b65fcf7",
       "chunk-90a4287e7a69589023f97fe208e724fd",
-      "chunk-a06fdd29b547fa50066bbf918525b3b2"
+      "chunk-a06fdd29b547fa50066bbf918525b3b2",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-9b3068faf3337e750644c8d7643fc411",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
     ],
-    "count": 15,
-    "update_time": 1772596510,
+    "count": 20,
+    "update_time": 1772676699,
     "_id": "Google Embedding Provider"
   },
   "Generative Language API": {
@@ -4245,7 +4331,7 @@
       "chunk-90a4287e7a69589023f97fe208e724fd"
     ],
     "count": 3,
-    "update_time": 1772595865,
+    "update_time": 1772676313,
     "_id": "Generative Language API"
   },
   "BKK": {
@@ -4260,10 +4346,15 @@
       "chunk-e32dc00afb723b10d3141d9f4653b224",
       "chunk-a0ef545088384ee9d14b145ae009a44f",
       "chunk-e320e464065b3308d7db948d1e827156",
-      "chunk-5f681751f508fd167c31bbe1d202056b"
+      "chunk-5f681751f508fd167c31bbe1d202056b",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-932e70986da082d91d36bf6d3f117889",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 11,
-    "update_time": 1772609282,
+    "count": 16,
+    "update_time": 1772676686,
     "_id": "BKK"
   },
   "Session Snapshot": {
@@ -4277,10 +4368,16 @@
       "chunk-4a81e082bc50b15702ab13196b65fcf7",
       "chunk-e320e464065b3308d7db948d1e827156",
       "chunk-90a4287e7a69589023f97fe208e724fd",
-      "chunk-a06fdd29b547fa50066bbf918525b3b2"
+      "chunk-a06fdd29b547fa50066bbf918525b3b2",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-932e70986da082d91d36bf6d3f117889",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 10,
-    "update_time": 1772596511,
+    "count": 16,
+    "update_time": 1772676685,
     "_id": "Session Snapshot"
   },
   "Agent: Chapter-Writer: Main": {
@@ -4288,10 +4385,12 @@
       "chunk-94a2fbefdc9f95d4468f72555b31c9af",
       "chunk-0a96711df30e423083e5615749406cbf",
       "chunk-e320e464065b3308d7db948d1e827156",
-      "chunk-a06fdd29b547fa50066bbf918525b3b2"
+      "chunk-a06fdd29b547fa50066bbf918525b3b2",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-9b3068faf3337e750644c8d7643fc411"
     ],
-    "count": 4,
-    "update_time": 1772596512,
+    "count": 6,
+    "update_time": 1772676700,
     "_id": "Agent: Chapter-Writer: Main"
   },
   "Telegram User": {
@@ -4310,19 +4409,22 @@
       "chunk-865b9f607b6143b2991ea86a5c2b5170",
       "chunk-e8ee70ff66b5db6fafbda166046803fe",
       "chunk-e320e464065b3308d7db948d1e827156",
-      "chunk-1804eb6932c404a91cf48d839d40b2bc"
+      "chunk-1804eb6932c404a91cf48d839d40b2bc",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-932e70986da082d91d36bf6d3f117889",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d"
     ],
-    "count": 6,
-    "update_time": 1772596507,
+    "count": 9,
+    "update_time": 1772676297,
     "_id": "Restart Command"
   },
   "Auto-Snapshot": {
     "chunk_ids": [
-      "chunk-94a2fbefdc9f95d4468f72555b31c9af"
+      "chunk-94a2fbefdc9f95d4468f72555b31c9af",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d"
     ],
-    "count": 1,
-    "create_time": 1772584377,
-    "update_time": 1772584377,
+    "count": 2,
+    "update_time": 1772676303,
     "_id": "Auto-Snapshot"
   },
   "Daily Notes": {
@@ -4344,10 +4446,12 @@
       "chunk-90a4287e7a69589023f97fe208e724fd",
       "chunk-a06fdd29b547fa50066bbf918525b3b2",
       "chunk-296f2856d7ea85e61339b7d5fc2466b9",
-      "chunk-5f681751f508fd167c31bbe1d202056b"
+      "chunk-5f681751f508fd167c31bbe1d202056b",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 18,
-    "update_time": 1772609284,
+    "count": 20,
+    "update_time": 1772676685,
     "_id": "Daily Notes"
   },
   "Memory": {
@@ -4369,7 +4473,7 @@
       "chunk-000e5cbc3c5b62de4af4981edce03d36"
     ],
     "count": 15,
-    "update_time": 1772607898,
+    "update_time": 1772676305,
     "_id": "Memory"
   },
   "First Novel": {
@@ -4379,8 +4483,7 @@
       "chunk-02c142cb55bfe21786326d82ec655339"
     ],
     "count": 3,
-    "create_time": 1772584378,
-    "update_time": 1772584378,
+    "update_time": 1772676060,
     "_id": "First Novel"
   },
   "Book-Architect": {
@@ -4402,7 +4505,7 @@
       "chunk-37056b34934d569bff0b96c6e8991103"
     ],
     "count": 15,
-    "update_time": 1772609941,
+    "update_time": 1772676256,
     "_id": "Book-Architect"
   },
   "Research-Lead": {
@@ -4424,7 +4527,7 @@
       "chunk-37056b34934d569bff0b96c6e8991103"
     ],
     "count": 15,
-    "update_time": 1772609941,
+    "update_time": 1772676257,
     "_id": "Research-Lead"
   },
   "Chapter-Writer": {
@@ -4453,7 +4556,7 @@
       "chunk-37056b34934d569bff0b96c6e8991103"
     ],
     "count": 22,
-    "update_time": 1772609947,
+    "update_time": 1772676257,
     "_id": "Chapter-Writer"
   },
   "Dev-Editor": {
@@ -4475,7 +4578,7 @@
       "chunk-37056b34934d569bff0b96c6e8991103"
     ],
     "count": 15,
-    "update_time": 1772609947,
+    "update_time": 1772676257,
     "_id": "Dev-Editor"
   },
   "Copy-Editor": {
@@ -4497,7 +4600,7 @@
       "chunk-37056b34934d569bff0b96c6e8991103"
     ],
     "count": 15,
-    "update_time": 1772609956,
+    "update_time": 1772676257,
     "_id": "Copy-Editor"
   },
   "Publisher": {
@@ -4525,7 +4628,7 @@
       "chunk-37056b34934d569bff0b96c6e8991103"
     ],
     "count": 21,
-    "update_time": 1772609962,
+    "update_time": 1772676545,
     "_id": "Publisher"
   },
   "Opus": {
@@ -4553,10 +4656,11 @@
       "chunk-b3b8b8b210560c10d99d3e258c99b2f6",
       "chunk-0262ced9e14cc732b2e81815f101cb06",
       "chunk-572bc319ace0969403b23edbb05f1603",
-      "chunk-1eedf5e93d60ec2ab2ee6bc42ed024f3"
+      "chunk-1eedf5e93d60ec2ab2ee6bc42ed024f3",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 24,
-    "update_time": 1772609759,
+    "count": 25,
+    "update_time": 1772676678,
     "_id": "Opus"
   },
   "Workspaces": {
@@ -4567,7 +4671,7 @@
       "chunk-fa3eb63b70351ba692b01c713f5ea165"
     ],
     "count": 4,
-    "update_time": 1772594237,
+    "update_time": 1772676070,
     "_id": "Workspaces"
   },
   "Obsidian Daily/2026-02-05.md": {
@@ -4577,7 +4681,7 @@
       "chunk-114148647602381f69f112362757b3b0"
     ],
     "count": 3,
-    "update_time": 1772594399,
+    "update_time": 1772676071,
     "_id": "Obsidian Daily/2026-02-05.md"
   },
   "Memory Log - 2026-02-05": {
@@ -4590,7 +4694,7 @@
       "chunk-73ac079dcb226ab3679810b297930c3b"
     ],
     "count": 6,
-    "update_time": 1772594485,
+    "update_time": 1772676071,
     "_id": "Memory Log - 2026-02-05"
   },
   "Obsidian KnowledgeGraph/People/First-Novel.md": {
@@ -4598,8 +4702,7 @@
       "chunk-481427393c6695a98dde842249c71ce5"
     ],
     "count": 1,
-    "create_time": 1772584380,
-    "update_time": 1772584380,
+    "update_time": 1772676073,
     "_id": "Obsidian KnowledgeGraph/People/First-Novel.md"
   },
   "Major Accomplishments": {
@@ -4611,7 +4714,7 @@
       "chunk-73ac079dcb226ab3679810b297930c3b"
     ],
     "count": 5,
-    "update_time": 1772594485,
+    "update_time": 1772676256,
     "_id": "Major Accomplishments"
   },
   "Thinking": {
@@ -4619,8 +4722,7 @@
       "chunk-481427393c6695a98dde842249c71ce5"
     ],
     "count": 1,
-    "create_time": 1772584380,
-    "update_time": 1772584380,
+    "update_time": 1772676074,
     "_id": "Thinking"
   },
   "Openclaw": {
@@ -4635,7 +4737,7 @@
       "chunk-cae40cb3e01f7f44617fe6efce540e24"
     ],
     "count": 8,
-    "update_time": 1772598892,
+    "update_time": 1772676258,
     "_id": "Openclaw"
   },
   "Memory Log": {
@@ -4654,7 +4756,7 @@
       "chunk-2ff7de3ecdbdeec06151e805c84a460f"
     ],
     "count": 12,
-    "update_time": 1772609492,
+    "update_time": 1772676264,
     "_id": "Memory Log"
   },
   "Workflow": {
@@ -4672,7 +4774,7 @@
       "chunk-7540722cdec2c35b0cf85a5979b43057"
     ],
     "count": 11,
-    "update_time": 1772605823,
+    "update_time": 1772676697,
     "_id": "Workflow"
   },
   "Cron Delivery Settings": {
@@ -4691,7 +4793,7 @@
       "chunk-626897db315a02419d7fa1861812cffd"
     ],
     "count": 12,
-    "update_time": 1772596781,
+    "update_time": 1772676696,
     "_id": "Cron Delivery Settings"
   },
   "New Jobs": {
@@ -4705,7 +4807,7 @@
       "chunk-626897db315a02419d7fa1861812cffd"
     ],
     "count": 7,
-    "update_time": 1772596781,
+    "update_time": 1772676288,
     "_id": "New Jobs"
   },
   "Notification Spam": {
@@ -4723,7 +4825,7 @@
       "chunk-12c372fab7384b856aeb35544c35bc93"
     ],
     "count": 11,
-    "update_time": 1772607079,
+    "update_time": 1772676696,
     "_id": "Notification Spam"
   },
   "Session Remember.py": {
@@ -4734,7 +4836,7 @@
       "chunk-08d8874cbbc7009d283a1206fbf14c31"
     ],
     "count": 4,
-    "update_time": 1772601828,
+    "update_time": 1772676061,
     "_id": "Session Remember.py"
   },
   "Arscontexta": {
@@ -4755,7 +4857,7 @@
       "chunk-08d8874cbbc7009d283a1206fbf14c31"
     ],
     "count": 14,
-    "update_time": 1772601828,
+    "update_time": 1772676697,
     "_id": "Arscontexta"
   },
   "/Remember Command": {
@@ -4767,7 +4869,7 @@
       "chunk-888fac03c77f9f66eb0e9e6ab9278488"
     ],
     "count": 5,
-    "update_time": 1772599531,
+    "update_time": 1772676165,
     "_id": "/Remember Command"
   },
   "Memory (Source)": {
@@ -4776,7 +4878,7 @@
       "chunk-6de88caa5e86668356c547bf8ad59c20"
     ],
     "count": 2,
-    "update_time": 1772595247,
+    "update_time": 1772676063,
     "_id": "Memory (Source)"
   },
   "Obsidian Daily Note File": {
@@ -4786,7 +4888,7 @@
       "chunk-0a9acf162e5acb3eb87ad704b48c1e86"
     ],
     "count": 3,
-    "update_time": 1772604173,
+    "update_time": 1772676064,
     "_id": "Obsidian Daily Note File"
   },
   "Obsidian People File": {
@@ -4794,8 +4896,7 @@
       "chunk-dc6fcf70267592172f417dccb380b103"
     ],
     "count": 1,
-    "create_time": 1772584382,
-    "update_time": 1772584382,
+    "update_time": 1772676064,
     "_id": "Obsidian People File"
   },
   "Obsidian Index File": {
@@ -4803,8 +4904,7 @@
       "chunk-dc6fcf70267592172f417dccb380b103"
     ],
     "count": 1,
-    "create_time": 1772584382,
-    "update_time": 1772584382,
+    "update_time": 1772676064,
     "_id": "Obsidian Index File"
   },
   "Batch Process": {
@@ -4814,10 +4914,13 @@
       "chunk-ea5150e6fca2cc266a2614914dfb7239",
       "chunk-ae97dcf9e925fab8d0b67acde501abdd",
       "chunk-687c7ffaca7f439954f9a043c1fd03e1",
-      "chunk-e320e464065b3308d7db948d1e827156"
+      "chunk-e320e464065b3308d7db948d1e827156",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d",
+      "chunk-9b3068faf3337e750644c8d7643fc411"
     ],
-    "count": 6,
-    "update_time": 1772595849,
+    "count": 9,
+    "update_time": 1772676431,
     "_id": "Batch Process"
   },
   "Session Learnings": {
@@ -4837,7 +4940,7 @@
       "chunk-626897db315a02419d7fa1861812cffd"
     ],
     "count": 13,
-    "update_time": 1772596780,
+    "update_time": 1772676697,
     "_id": "Session Learnings"
   },
   "Decisions Made": {
@@ -4855,7 +4958,7 @@
       "chunk-626897db315a02419d7fa1861812cffd"
     ],
     "count": 11,
-    "update_time": 1772596780,
+    "update_time": 1772676697,
     "_id": "Decisions Made"
   },
   "People": {
@@ -4868,7 +4971,7 @@
       "chunk-09d72af6b995c588bb7a33620adf0464"
     ],
     "count": 6,
-    "update_time": 1772600242,
+    "update_time": 1772676564,
     "_id": "People"
   },
   "Projects": {
@@ -4889,7 +4992,7 @@
       "chunk-69f0053f6931959de1466e84623a45a9"
     ],
     "count": 14,
-    "update_time": 1772608357,
+    "update_time": 1772676565,
     "_id": "Projects"
   },
   "Decisions": {
@@ -4905,7 +5008,7 @@
       "chunk-28965c521a6b72821b06f5ed20fa322d"
     ],
     "count": 9,
-    "update_time": 1772609990,
+    "update_time": 1772676565,
     "_id": "Decisions"
   },
   "Quick Reference": {
@@ -4922,7 +5025,7 @@
       "chunk-82bb69ddf92ab1babcdff33347dda2cd"
     ],
     "count": 10,
-    "update_time": 1772607443,
+    "update_time": 1772676701,
     "_id": "Quick Reference"
   },
   "Telegram ID": {
@@ -4934,7 +5037,7 @@
       "chunk-a06fdd29b547fa50066bbf918525b3b2"
     ],
     "count": 5,
-    "update_time": 1772596509,
+    "update_time": 1772676698,
     "_id": "Telegram ID"
   },
   "7579913696": {
@@ -4947,7 +5050,7 @@
       "chunk-a06fdd29b547fa50066bbf918525b3b2"
     ],
     "count": 6,
-    "update_time": 1772596509,
+    "update_time": 1772676698,
     "_id": "7579913696"
   },
   "Base URL": {
@@ -4957,10 +5060,11 @@
       "chunk-0a96711df30e423083e5615749406cbf",
       "chunk-90a4287e7a69589023f97fe208e724fd",
       "chunk-a06fdd29b547fa50066bbf918525b3b2",
-      "chunk-624a958646ff967dbef13904a2c3a0ef"
+      "chunk-624a958646ff967dbef13904a2c3a0ef",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
     ],
-    "count": 6,
-    "update_time": 1772601061,
+    "count": 7,
+    "update_time": 1772676699,
     "_id": "Base URL"
   },
   "https://generativelanguage.googleapis.com/v1beta": {
@@ -4969,7 +5073,7 @@
       "chunk-a987e2ef6f4df602844b47725e43fa1a"
     ],
     "count": 2,
-    "update_time": 1772590864,
+    "update_time": 1772676190,
     "_id": "https://generativelanguage.googleapis.com/v1beta"
   },
   "Daily Notes 2026-03-01": {
@@ -4978,10 +5082,14 @@
       "chunk-48404c33a0cecaca96752c576cc8ff1d",
       "chunk-507521f69f9c8fe5a17d7bff4f6b1ddf",
       "chunk-6de88caa5e86668356c547bf8ad59c20",
-      "chunk-1804eb6932c404a91cf48d839d40b2bc"
+      "chunk-1804eb6932c404a91cf48d839d40b2bc",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
     ],
-    "count": 5,
-    "update_time": 1772596507,
+    "count": 9,
+    "update_time": 1772676556,
     "_id": "Daily Notes 2026-03-01"
   },
   "KnowledgeGraph/People/First-Novel.md": {
@@ -4989,8 +5097,7 @@
       "chunk-02c142cb55bfe21786326d82ec655339"
     ],
     "count": 1,
-    "create_time": 1772584384,
-    "update_time": 1772584384,
+    "update_time": 1772676084,
     "_id": "KnowledgeGraph/People/First-Novel.md"
   },
   "Daily/2026-02-05.md": {
@@ -5005,7 +5112,7 @@
       "chunk-66b1086b8f325d2828db6e88d8e5cfaa"
     ],
     "count": 8,
-    "update_time": 1772600120,
+    "update_time": 1772676549,
     "_id": "Daily/2026-02-05.md"
   },
   "Compaction Summary": {
@@ -5040,7 +5147,7 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 7,
-    "update_time": 1772595829,
+    "update_time": 1772676286,
     "_id": "Session Notes"
   },
   "Paper V23.1": {
@@ -5056,7 +5163,7 @@
       "chunk-3b7c6e043add1924b22fb12f4a845bad"
     ],
     "count": 9,
-    "update_time": 1772605888,
+    "update_time": 1772676287,
     "_id": "Paper V23.1"
   },
   "Role": {
@@ -5246,10 +5353,11 @@
       "chunk-d68dd03cabc79b359a4f9a12e8628b7f",
       "chunk-4dfa826c7c52d66bfc6ad79969fe0987",
       "chunk-223207bb74fcb9e407f21062cc2e8466",
-      "chunk-baddfe598ce4b06af1660bd87bc93b51"
+      "chunk-baddfe598ce4b06af1660bd87bc93b51",
+      "chunk-624f82c2f306963511da123121ec4085"
     ],
-    "count": 43,
-    "update_time": 1772605467,
+    "count": 44,
+    "update_time": 1772676766,
     "_id": "Unknown"
   },
   "Skills Installed": {
@@ -5307,7 +5415,7 @@
       "chunk-5f681751f508fd167c31bbe1d202056b"
     ],
     "count": 13,
-    "update_time": 1772609275,
+    "update_time": 1772676488,
     "_id": "ClawHub CLI"
   },
   "Npm": {
@@ -5401,10 +5509,11 @@
       "chunk-e1d361334741e195fd3cc01498c5d61d",
       "chunk-0f87202506d912406b3336864391a105",
       "chunk-1bdd05384cd19411b8d7358f5ff4a53e",
-      "chunk-c9e9ea9f9ef3e6e49b68f230ad0b56ef"
+      "chunk-c9e9ea9f9ef3e6e49b68f230ad0b56ef",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 74,
-    "update_time": 1772610166,
+    "count": 75,
+    "update_time": 1772676676,
     "_id": "Google Drive"
   },
   "Paper Revisions": {
@@ -5541,7 +5650,7 @@
       "chunk-0f87202506d912406b3336864391a105"
     ],
     "count": 15,
-    "update_time": 1772610035,
+    "update_time": 1772676491,
     "_id": "USER.md"
   },
   "Frontend Design": {
@@ -5585,7 +5694,7 @@
       "chunk-e1d361334741e195fd3cc01498c5d61d"
     ],
     "count": 11,
-    "update_time": 1772609849,
+    "update_time": 1772676170,
     "_id": "Bookshelf App Project"
   },
   "/home/clawdbot/Projects/bookshelf": {
@@ -5628,7 +5737,7 @@
       "chunk-c9e9ea9f9ef3e6e49b68f230ad0b56ef"
     ],
     "count": 26,
-    "update_time": 1772610158,
+    "update_time": 1772676172,
     "_id": "Next.js 14"
   },
   "Shadcn/UI": {
@@ -5650,7 +5759,7 @@
       "chunk-5f681751f508fd167c31bbe1d202056b"
     ],
     "count": 15,
-    "update_time": 1772609275,
+    "update_time": 1772676546,
     "_id": "Shadcn/UI"
   },
   "Prisma 5": {
@@ -5671,7 +5780,7 @@
       "chunk-e1d361334741e195fd3cc01498c5d61d"
     ],
     "count": 14,
-    "update_time": 1772609849,
+    "update_time": 1772676173,
     "_id": "Prisma 5"
   },
   "SQLite": {
@@ -5705,7 +5814,7 @@
       "chunk-e1d361334741e195fd3cc01498c5d61d"
     ],
     "count": 27,
-    "update_time": 1772609849,
+    "update_time": 1772676174,
     "_id": "SQLite"
   },
   "Database Schema": {
@@ -5721,7 +5830,7 @@
       "chunk-c771a2e8e4cd46c72a573a9ec2caf7c6"
     ],
     "count": 9,
-    "update_time": 1772602361,
+    "update_time": 1772676179,
     "_id": "Database Schema"
   },
   "Book Model": {
@@ -5740,7 +5849,7 @@
       "chunk-e1d361334741e195fd3cc01498c5d61d"
     ],
     "count": 12,
-    "update_time": 1772609849,
+    "update_time": 1772676178,
     "_id": "Book Model"
   },
   "Author Model": {
@@ -5759,7 +5868,7 @@
       "chunk-e1d361334741e195fd3cc01498c5d61d"
     ],
     "count": 12,
-    "update_time": 1772609849,
+    "update_time": 1772676178,
     "_id": "Author Model"
   },
   "Genre Model": {
@@ -5778,7 +5887,7 @@
       "chunk-e1d361334741e195fd3cc01498c5d61d"
     ],
     "count": 12,
-    "update_time": 1772609850,
+    "update_time": 1772676179,
     "_id": "Genre Model"
   },
   "1984 (Book)": {
@@ -5907,7 +6016,7 @@
       "chunk-687c7ffaca7f439954f9a043c1fd03e1"
     ],
     "count": 3,
-    "update_time": 1772593963,
+    "update_time": 1772676280,
     "_id": "/remember Command"
   },
   "2026-02-17": {
@@ -6000,7 +6109,7 @@
       "chunk-98f61537e834b72ab7e7890749912feb"
     ],
     "count": 86,
-    "update_time": 1772605328,
+    "update_time": 1772676491,
     "_id": "2026-02-17"
   },
   "Obsidian People File (Skills-Installed)": {
@@ -6870,10 +6979,11 @@
       "chunk-62ea5e131e305f309112c1dee0c52336",
       "chunk-bec3af3bde15c1b64211df6fa35c0ab2",
       "chunk-90d78c13443367a6638fb67e23cf0558",
-      "chunk-5b1d23c22473007c4333aa91e8f8d366"
+      "chunk-5b1d23c22473007c4333aa91e8f8d366",
+      "chunk-624f82c2f306963511da123121ec4085"
     ],
-    "count": 27,
-    "update_time": 1772605473,
+    "count": 28,
+    "update_time": 1772676767,
     "_id": "Batch"
   },
   "Interactions": {
@@ -7201,7 +7311,7 @@
       "chunk-e1d361334741e195fd3cc01498c5d61d"
     ],
     "count": 22,
-    "update_time": 1772609860,
+    "update_time": 1772676547,
     "_id": "MEMORY.md"
   },
   "Weekly Memory Maintenance": {
@@ -7216,7 +7326,7 @@
       "chunk-83a8e6f60201fcf87759d7f20cd24e19"
     ],
     "count": 8,
-    "update_time": 1772595565,
+    "update_time": 1772676548,
     "_id": "Weekly Memory Maintenance"
   },
   "Memory Files From Feb 12-14": {
@@ -7254,7 +7364,7 @@
       "chunk-bf6ed82ad1c79555c641c9a0bfb228f9"
     ],
     "count": 6,
-    "update_time": 1772593446,
+    "update_time": 1772676548,
     "_id": "Important Events For Feb 12-14"
   },
   "Daily/2026-02-15.md": {
@@ -7273,7 +7383,7 @@
       "chunk-c9e9ea9f9ef3e6e49b68f230ad0b56ef"
     ],
     "count": 12,
-    "update_time": 1772610165,
+    "update_time": 1772676549,
     "_id": "Daily/2026-02-15.md"
   },
   "KnowledgeGraph/People/DuckMan.md": {
@@ -7385,7 +7495,7 @@
       "chunk-37056b34934d569bff0b96c6e8991103"
     ],
     "count": 11,
-    "update_time": 1772609940,
+    "update_time": 1772676173,
     "_id": "Shadcn/Ui"
   },
   "Tailwind": {
@@ -7504,10 +7614,13 @@
       "chunk-3681d76e566b4d7959ebff2e17fcfb77",
       "chunk-43ef6afccf813cd51132383190fec7d6",
       "chunk-b72c9581d600c3f20a8bdb9ee8741deb",
-      "chunk-4dfa826c7c52d66bfc6ad79969fe0987"
+      "chunk-4dfa826c7c52d66bfc6ad79969fe0987",
+      "chunk-4a448df3934c0032a1a381293f8854d9",
+      "chunk-521f51cb7088ea1256e4e2e3d6ab655d",
+      "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf"
     ],
-    "count": 9,
-    "update_time": 1772605380,
+    "count": 12,
+    "update_time": 1772676498,
     "_id": "KnowledgeGraph/_index.md"
   },
   "KnowledgeGraph/People/Identity-Verification.md": {
@@ -7575,10 +7688,12 @@
       "chunk-7a3798f4a234fcc46c4df14537567aed",
       "chunk-2948e4d867e4934b354be8aaec232e61",
       "chunk-e32b91efbe6e5718dfa15ab0b00ab7fa",
-      "chunk-1ddd46500b014c2c543df74acf13acc5"
+      "chunk-1ddd46500b014c2c543df74acf13acc5",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
     ],
-    "count": 10,
-    "update_time": 1772604470,
+    "count": 12,
+    "update_time": 1772676696,
     "_id": "Obsidian: KnowledgeGraph/_index.md"
   },
   "Quick Status": {
@@ -7700,7 +7815,7 @@
       "chunk-a12dd228152046a90cac0ca6d30ef4fd"
     ],
     "count": 10,
-    "update_time": 1772609333,
+    "update_time": 1772676489,
     "_id": "Mobile App Development Project"
   },
   "PPLUS Workspace": {
@@ -7714,7 +7829,7 @@
       "chunk-a12dd228152046a90cac0ca6d30ef4fd"
     ],
     "count": 7,
-    "update_time": 1772609333,
+    "update_time": 1772676494,
     "_id": "PPLUS Workspace"
   },
   "Content Creation Template": {
@@ -7731,7 +7846,7 @@
       "chunk-a12dd228152046a90cac0ca6d30ef4fd"
     ],
     "count": 10,
-    "update_time": 1772609334,
+    "update_time": 1772676489,
     "_id": "Content Creation Template"
   },
   "Daily Notes 2026-02-02": {
@@ -7779,7 +7894,7 @@
       "chunk-69ca7fa75b115ba43d8910bda180ebe8"
     ],
     "count": 6,
-    "update_time": 1772595620,
+    "update_time": 1772676494,
     "_id": "My Workspace"
   },
   "Decryption Key": {
@@ -7910,10 +8025,11 @@
       "chunk-ba82b9a69370aab03745d339c225f5c4",
       "chunk-9402536e9419b42ab050ff6b9aa8ad11",
       "chunk-e89d2648e975a4036194dd794a0bdc8c",
-      "chunk-2c3ae3c1ef1d49f30b2e0d1d79ff7b93"
+      "chunk-2c3ae3c1ef1d49f30b2e0d1d79ff7b93",
+      "chunk-9b3068faf3337e750644c8d7643fc411"
     ],
-    "count": 12,
-    "update_time": 1772604655,
+    "count": 13,
+    "update_time": 1772676432,
     "_id": "Knowledge Graph Tag"
   },
   "2026-02-18 04:02 Interaction": {
@@ -8053,10 +8169,11 @@
       "chunk-88ad9edeff0ea14e235ec5f6847d4160",
       "chunk-6b833576f6ded00efd508619d87e78d6",
       "chunk-b6c15de56039236682f9856e47cab92d",
-      "chunk-0f87202506d912406b3336864391a105"
+      "chunk-0f87202506d912406b3336864391a105",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892"
     ],
-    "count": 34,
-    "update_time": 1772610033,
+    "count": 35,
+    "update_time": 1772676701,
     "_id": "Telegram"
   },
   "Week 6 Sub-Agent Failure": {
@@ -8205,7 +8322,7 @@
       "chunk-ffed2e0d5a98ce8d9cb5106e19cdcce4"
     ],
     "count": 12,
-    "update_time": 1772608479,
+    "update_time": 1772676487,
     "_id": "Curbob"
   },
   "LobsterBoard.service": {
@@ -8239,7 +8356,7 @@
       "chunk-885a7b5adc99161ceaae984f236f1fa8"
     ],
     "count": 18,
-    "update_time": 1772609266,
+    "update_time": 1772676488,
     "_id": "Server"
   },
   "72.62.251.68:8080": {
@@ -8273,7 +8390,7 @@
       "chunk-ffed2e0d5a98ce8d9cb5106e19cdcce4"
     ],
     "count": 15,
-    "update_time": 1772608479,
+    "update_time": 1772676488,
     "_id": "Atlanta"
   },
   "Bangkok": {
@@ -8311,10 +8428,11 @@
       "chunk-2ff7de3ecdbdeec06151e805c84a460f",
       "chunk-1eedf5e93d60ec2ab2ee6bc42ed024f3",
       "chunk-280669fa49c70eb7ad44fa8711ecb2d2",
-      "chunk-0f87202506d912406b3336864391a105"
+      "chunk-0f87202506d912406b3336864391a105",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d"
     ],
-    "count": 34,
-    "update_time": 1772610029,
+    "count": 35,
+    "update_time": 1772676488,
     "_id": "Bangkok"
   },
   "2026-02-16": {
@@ -8388,7 +8506,7 @@
       "chunk-c0dbd2623c1412584ac614bdc4cdc4f5"
     ],
     "count": 67,
-    "update_time": 1772604940,
+    "update_time": 1772676492,
     "_id": "2026-02-16"
   },
   "Weather Widget": {
@@ -8411,7 +8529,7 @@
       "chunk-ffed2e0d5a98ce8d9cb5106e19cdcce4"
     ],
     "count": 16,
-    "update_time": 1772608485,
+    "update_time": 1772676493,
     "_id": "Weather Widget"
   },
   "KnowledgeGraph/People/All-Reviewers.md": {
@@ -8440,7 +8558,7 @@
       "chunk-d8cba83ad815daf324fb66f8121ca897"
     ],
     "count": 13,
-    "update_time": 1772595511,
+    "update_time": 1772676497,
     "_id": "Arthur's Daily Notes"
   },
   "RAG Second Brain": {
@@ -8498,7 +8616,7 @@
       "chunk-b6c15de56039236682f9856e47cab92d"
     ],
     "count": 18,
-    "update_time": 1772609695,
+    "update_time": 1772676560,
     "_id": "Three Old Men"
   },
   "Systemd Service": {
@@ -8514,7 +8632,7 @@
       "chunk-0f87202506d912406b3336864391a105"
     ],
     "count": 9,
-    "update_time": 1772610029,
+    "update_time": 1772676488,
     "_id": "Systemd Service"
   },
   "RAG Second Brain Paper V15": {
@@ -8664,7 +8782,7 @@
       "chunk-e32dc00afb723b10d3141d9f4653b224"
     ],
     "count": 3,
-    "update_time": 1772593975,
+    "update_time": 1772676263,
     "_id": "Arscontexta /Remember Command"
   },
   "Labrador": {
@@ -8677,7 +8795,7 @@
       "chunk-296f2856d7ea85e61339b7d5fc2466b9"
     ],
     "count": 6,
-    "update_time": 1772605722,
+    "update_time": 1772676496,
     "_id": "Labrador"
   },
   "Modify Prisma": {
@@ -8893,7 +9011,7 @@
       "chunk-12a77499fd86767b7b2628b024b4cadb"
     ],
     "count": 7,
-    "update_time": 1772607618,
+    "update_time": 1772676489,
     "_id": "Skills"
   },
   "2026-02-03 Daily Notes": {
@@ -9203,10 +9321,11 @@
       "chunk-e38114474628b06365321589495c1c69",
       "chunk-2534f07c3b5b1ae4a4a66caf5193b4c0",
       "chunk-9c2753f45f158b0a6204d83e9fa7880a",
-      "chunk-28965c521a6b72821b06f5ed20fa322d"
+      "chunk-28965c521a6b72821b06f5ed20fa322d",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
     ],
-    "count": 12,
-    "update_time": 1772609986,
+    "count": 13,
+    "update_time": 1772676501,
     "_id": "Agent Teams"
   },
   "Topics Category": {
@@ -9227,37 +9346,41 @@
       "chunk-0cea9d91f2ca3cf48f1682c604afbf73",
       "chunk-c054e84c33d3f105219dae9aad1c8a93",
       "chunk-598695207e8db76e95382bd769294fda",
-      "chunk-b0af26da45a964875fcf4b5dc044a80f"
+      "chunk-b0af26da45a964875fcf4b5dc044a80f",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
     ],
-    "count": 8,
-    "update_time": 1772608520,
+    "count": 9,
+    "update_time": 1772676501,
     "_id": "Markdown"
   },
   "Bidirectional Linking": {
     "chunk_ids": [
       "chunk-57ca52f28d5bc68f21ab7c9caf670243",
-      "chunk-5204e58e96ccc3f2974e3d4a25f97fde"
+      "chunk-5204e58e96ccc3f2974e3d4a25f97fde",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
     ],
-    "count": 2,
-    "update_time": 1772596027,
+    "count": 3,
+    "update_time": 1772676502,
     "_id": "Bidirectional Linking"
   },
   "Session Major": {
     "chunk_ids": [
-      "chunk-ea5150e6fca2cc266a2614914dfb7239"
+      "chunk-ea5150e6fca2cc266a2614914dfb7239",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892"
     ],
-    "count": 1,
-    "create_time": 1772585268,
-    "update_time": 1772585268,
+    "count": 2,
+    "update_time": 1772676054,
     "_id": "Session Major"
   },
   "System Optimization": {
     "chunk_ids": [
       "chunk-ea5150e6fca2cc266a2614914dfb7239",
-      "chunk-0a96711df30e423083e5615749406cbf"
+      "chunk-0a96711df30e423083e5615749406cbf",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892",
+      "chunk-9b3068faf3337e750644c8d7643fc411"
     ],
-    "count": 2,
-    "update_time": 1772589636,
+    "count": 4,
+    "update_time": 1772676428,
     "_id": "System Optimization"
   },
   "Agent:Chapter-Writer:Main": {
@@ -9266,10 +9389,11 @@
       "chunk-aed742b710d4efe2e644f95efb224333",
       "chunk-865b9f607b6143b2991ea86a5c2b5170",
       "chunk-72b7dfdcc2716241ee671013bd06e74c",
-      "chunk-34d4b2ec7ee0c088af57b411041ae5e1"
+      "chunk-34d4b2ec7ee0c088af57b411041ae5e1",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892"
     ],
-    "count": 5,
-    "update_time": 1772594870,
+    "count": 6,
+    "update_time": 1772676567,
     "_id": "Agent:Chapter-Writer:Main"
   },
   "2026-03-01": {
@@ -9282,10 +9406,11 @@
       "chunk-f5f9c416cabc71161b7cb94568b677f4",
       "chunk-acebf29512b1f172151cb83a3d9c8d0f",
       "chunk-a2dce21d8f022f16327e246a33d693cf",
-      "chunk-90d78c13443367a6638fb67e23cf0558"
+      "chunk-90d78c13443367a6638fb67e23cf0558",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d"
     ],
-    "count": 9,
-    "update_time": 1772605167,
+    "count": 10,
+    "update_time": 1772676492,
     "_id": "2026-03-01"
   },
   "2026-03-02": {
@@ -9296,29 +9421,34 @@
       "chunk-564d8cbe6d4c74180f4e5a59066a30ac",
       "chunk-613e97c0cb32aa0139261992837483ee",
       "chunk-f7a667a400dc093dec5aeac02a341e6f",
-      "chunk-744afc749372124945957d4a0fa3660b"
+      "chunk-744afc749372124945957d4a0fa3660b",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d"
     ],
-    "count": 7,
-    "update_time": 1772605240,
+    "count": 8,
+    "update_time": 1772676299,
     "_id": "2026-03-02"
   },
   "2026-03-03": {
     "chunk_ids": [
       "chunk-ea5150e6fca2cc266a2614914dfb7239",
       "chunk-17260ee92d5f2ab447bb3a042a50f2a8",
-      "chunk-0572c4108de149d5b983b26d5e40ed4a"
+      "chunk-0572c4108de149d5b983b26d5e40ed4a",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d"
     ],
-    "count": 3,
-    "update_time": 1772605081,
+    "count": 4,
+    "update_time": 1772676302,
     "_id": "2026-03-03"
   },
   "Telegram User ID 7579913696": {
     "chunk_ids": [
       "chunk-ea5150e6fca2cc266a2614914dfb7239",
-      "chunk-c00b0fb925fc0fb38b49b2e8d3100b63"
+      "chunk-c00b0fb925fc0fb38b49b2e8d3100b63",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-52e61da92e53b06903a4888daeacc373"
     ],
-    "count": 2,
-    "update_time": 1772590861,
+    "count": 5,
+    "update_time": 1772676191,
     "_id": "Telegram User ID 7579913696"
   },
   "Daily Log 2026-02-10": {
@@ -9828,7 +9958,7 @@
       "chunk-fd7a65285fdf36b982f20efb250e9ce9"
     ],
     "count": 9,
-    "update_time": 1772601230,
+    "update_time": 1772676549,
     "_id": "Home.md"
   },
   "Dashboard": {
@@ -9980,7 +10110,7 @@
       "chunk-28ab9284ac169014e9c0488fb76a8e2f"
     ],
     "count": 10,
-    "update_time": 1772596239,
+    "update_time": 1772676566,
     "_id": "Telegram ID 7579913696"
   },
   "Anirach Mingkhwan's Email": {
@@ -10110,7 +10240,7 @@
       "chunk-e2af660d98585f1bf80724aaf6b78da7"
     ],
     "count": 3,
-    "update_time": 1772597062,
+    "update_time": 1772676491,
     "_id": "RAG Second Brain Project"
   },
   "NCD-CIE Project": {
@@ -10202,10 +10332,11 @@
     "chunk_ids": [
       "chunk-cbbf68c07d5785152cb568cb44c097d2",
       "chunk-3f4a294ac24bcb979aea9c7e4c009069",
-      "chunk-617117720e00673331b8823b4df194ca"
+      "chunk-617117720e00673331b8823b4df194ca",
+      "chunk-9b3068faf3337e750644c8d7643fc411"
     ],
-    "count": 3,
-    "update_time": 1772592189,
+    "count": 4,
+    "update_time": 1772676432,
     "_id": "Person Tag"
   },
   "Not Started": {
@@ -10490,7 +10621,7 @@
       "chunk-4b4a759f0caa83cf9e50057d50a49419"
     ],
     "count": 9,
-    "update_time": 1772596746,
+    "update_time": 1772676545,
     "_id": "UX/UI Designer Agent"
   },
   "Interface Design": {
@@ -10572,7 +10703,7 @@
       "chunk-5f681751f508fd167c31bbe1d202056b"
     ],
     "count": 11,
-    "update_time": 1772609275,
+    "update_time": 1772676546,
     "_id": "Tailwind CSS"
   },
   "Anti-AI-Slop Design Principles": {
@@ -10588,7 +10719,7 @@
       "chunk-4b4a759f0caa83cf9e50057d50a49419"
     ],
     "count": 9,
-    "update_time": 1772596787,
+    "update_time": 1772676548,
     "_id": "Anti-AI-Slop Design Principles"
   },
   "UI Polish": {
@@ -11194,10 +11325,14 @@
       "chunk-72b7dfdcc2716241ee671013bd06e74c",
       "chunk-e8ee70ff66b5db6fafbda166046803fe",
       "chunk-4a81e082bc50b15702ab13196b65fcf7",
-      "chunk-1804eb6932c404a91cf48d839d40b2bc"
+      "chunk-1804eb6932c404a91cf48d839d40b2bc",
+      "chunk-932e70986da082d91d36bf6d3f117889",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d",
+      "chunk-607a068b3c6e1458bfc283574e66abf1",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 5,
-    "update_time": 1772596506,
+    "count": 9,
+    "update_time": 1772676686,
     "_id": "Telegram User 7579913696"
   },
   "Memory: 2026-03-02": {
@@ -11207,20 +11342,24 @@
       "chunk-aed742b710d4efe2e644f95efb224333",
       "chunk-865b9f607b6143b2991ea86a5c2b5170",
       "chunk-34d4b2ec7ee0c088af57b411041ae5e1",
-      "chunk-a06fdd29b547fa50066bbf918525b3b2"
+      "chunk-a06fdd29b547fa50066bbf918525b3b2",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
     ],
-    "count": 6,
-    "update_time": 1772596511,
+    "count": 9,
+    "update_time": 1772676700,
     "_id": "Memory: 2026-03-02"
   },
   "Obsidian: KnowledgeGraph/_Index.Md": {
     "chunk_ids": [
       "chunk-0a96711df30e423083e5615749406cbf",
       "chunk-865b9f607b6143b2991ea86a5c2b5170",
-      "chunk-e32b91efbe6e5718dfa15ab0b00ab7fa"
+      "chunk-e32b91efbe6e5718dfa15ab0b00ab7fa",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
     ],
-    "count": 3,
-    "update_time": 1772604444,
+    "count": 4,
+    "update_time": 1772676552,
     "_id": "Obsidian: KnowledgeGraph/_Index.Md"
   },
   "Large Language": {
@@ -11342,7 +11481,7 @@
       "chunk-046286456f91967c40b31d2460266cd8"
     ],
     "count": 6,
-    "update_time": 1772598368,
+    "update_time": 1772676259,
     "_id": "Session_Remember.py"
   },
   "Memory: 2026-02-23": {
@@ -11357,16 +11496,17 @@
       "chunk-00e7321e5c6840eded3646dcf9905cfe"
     ],
     "count": 8,
-    "update_time": 1772604694,
+    "update_time": 1772676696,
     "_id": "Memory: 2026-02-23"
   },
   "Obsidian: KnowledgeGraph/_Index.md": {
     "chunk_ids": [
-      "chunk-6624021287f55bbd038a25dfb41ea597"
+      "chunk-6624021287f55bbd038a25dfb41ea597",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-9b3068faf3337e750644c8d7643fc411"
     ],
-    "count": 1,
-    "create_time": 1772589729,
-    "update_time": 1772589729,
+    "count": 3,
+    "update_time": 1772676430,
     "_id": "Obsidian: KnowledgeGraph/_Index.md"
   },
   "Added Hotpot": {
@@ -11418,20 +11558,20 @@
   },
   "Projects Count (127)": {
     "chunk_ids": [
-      "chunk-5e964fa90440f30528a4e3fa28953961"
+      "chunk-5e964fa90440f30528a4e3fa28953961",
+      "chunk-521f51cb7088ea1256e4e2e3d6ab655d"
     ],
-    "count": 1,
-    "create_time": 1772589731,
-    "update_time": 1772589731,
+    "count": 2,
+    "update_time": 1772676434,
     "_id": "Projects Count (127)"
   },
   "Decisions Count (6)": {
     "chunk_ids": [
-      "chunk-5e964fa90440f30528a4e3fa28953961"
+      "chunk-5e964fa90440f30528a4e3fa28953961",
+      "chunk-521f51cb7088ea1256e4e2e3d6ab655d"
     ],
-    "count": 1,
-    "create_time": 1772589731,
-    "update_time": 1772589731,
+    "count": 2,
+    "update_time": 1772676434,
     "_id": "Decisions Count (6)"
   },
   "2026-02-27 04:00 Timestamp": {
@@ -11616,7 +11756,7 @@
       "chunk-66f668d2ecb13c77d9f77b2ed9d1054c"
     ],
     "count": 12,
-    "update_time": 1772596178,
+    "update_time": 1772676548,
     "_id": "Writing Team Setup"
   },
   "Professional Writing Team": {
@@ -11728,10 +11868,12 @@
       "chunk-c4e9e850cc678da23e40adf85f868cd4",
       "chunk-9697e2fcc47861d37b8694c27fdf6af2",
       "chunk-7c563a98a2ca750fd7d1430a6e4c3655",
-      "chunk-387451f490b8bbdc96813bcc96b62b0e"
+      "chunk-387451f490b8bbdc96813bcc96b62b0e",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-9b3068faf3337e750644c8d7643fc411"
     ],
-    "count": 7,
-    "update_time": 1772600601,
+    "count": 9,
+    "update_time": 1772676563,
     "_id": "Memory System"
   },
   "Session Notes 2026-02-17": {
@@ -11790,7 +11932,7 @@
       "chunk-69ca7fa75b115ba43d8910bda180ebe8"
     ],
     "count": 3,
-    "update_time": 1772595618,
+    "update_time": 1772676492,
     "_id": "2026-02-02"
   },
   "PPLUS": {
@@ -11812,7 +11954,7 @@
       "chunk-a12dd228152046a90cac0ca6d30ef4fd"
     ],
     "count": 4,
-    "update_time": 1772609334,
+    "update_time": 1772676495,
     "_id": "Feb 1-28, 2026"
   },
   "Conceptual Reframe": {
@@ -12077,7 +12219,7 @@
       "chunk-6b833576f6ded00efd508619d87e78d6"
     ],
     "count": 6,
-    "update_time": 1772609477,
+    "update_time": 1772676492,
     "_id": "2026-01-26"
   },
   "Obsidian Daily/2026-01-26.md": {
@@ -12203,7 +12345,7 @@
       "chunk-e1d361334741e195fd3cc01498c5d61d"
     ],
     "count": 10,
-    "update_time": 1772609850,
+    "update_time": 1772676174,
     "_id": "1984"
   },
   "Foundation": {
@@ -12220,7 +12362,7 @@
       "chunk-e1d361334741e195fd3cc01498c5d61d"
     ],
     "count": 10,
-    "update_time": 1772609850,
+    "update_time": 1772676175,
     "_id": "Foundation"
   },
   "Atomic Habits": {
@@ -12237,7 +12379,7 @@
       "chunk-e1d361334741e195fd3cc01498c5d61d"
     ],
     "count": 10,
-    "update_time": 1772609850,
+    "update_time": 1772676175,
     "_id": "Atomic Habits"
   },
   "King Mongkut's University Of Technology North Bangkok": {
@@ -12480,7 +12622,7 @@
       "chunk-1eedf5e93d60ec2ab2ee6bc42ed024f3"
     ],
     "count": 8,
-    "update_time": 1772609759,
+    "update_time": 1772676171,
     "_id": "Claude Opus 4-6"
   },
   "Opus 4-5": {
@@ -12491,7 +12633,7 @@
       "chunk-8cfc6c6d57918fbe9483abfa3d8a7110"
     ],
     "count": 4,
-    "update_time": 1772593133,
+    "update_time": 1772676171,
     "_id": "Opus 4-5"
   },
   "anthropic/claude-opus-4-6": {
@@ -13105,7 +13247,7 @@
       "chunk-530f04defb754836445eaef24f1c2ce6"
     ],
     "count": 4,
-    "update_time": 1772599914,
+    "update_time": 1772676698,
     "_id": "Obsidian: Quick-Reference.md"
   },
   "Anirach.m@Fitm.Kmutnb.Ac.Th": {
@@ -13133,10 +13275,13 @@
       "chunk-aed742b710d4efe2e644f95efb224333",
       "chunk-865b9f607b6143b2991ea86a5c2b5170",
       "chunk-34d4b2ec7ee0c088af57b411041ae5e1",
-      "chunk-a06fdd29b547fa50066bbf918525b3b2"
+      "chunk-a06fdd29b547fa50066bbf918525b3b2",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
     ],
-    "count": 6,
-    "update_time": 1772596510,
+    "count": 9,
+    "update_time": 1772676699,
     "_id": "Memory: 2026-03-01"
   },
   "Removed Theoretical": {
@@ -13278,7 +13423,7 @@
       "chunk-fa3eb63b70351ba692b01c713f5ea165"
     ],
     "count": 5,
-    "update_time": 1772594234,
+    "update_time": 1772676537,
     "_id": "Book Architect"
   },
   "Research Lead": {
@@ -13291,7 +13436,7 @@
       "chunk-194a851df135dc1664af9075a6ed79d1"
     ],
     "count": 6,
-    "update_time": 1772606897,
+    "update_time": 1772676537,
     "_id": "Research Lead"
   },
   "Chapter Writer": {
@@ -13304,7 +13449,7 @@
       "chunk-194a851df135dc1664af9075a6ed79d1"
     ],
     "count": 6,
-    "update_time": 1772606897,
+    "update_time": 1772676537,
     "_id": "Chapter Writer"
   },
   "Dev Editor": {
@@ -13317,7 +13462,7 @@
       "chunk-194a851df135dc1664af9075a6ed79d1"
     ],
     "count": 6,
-    "update_time": 1772606898,
+    "update_time": 1772676538,
     "_id": "Dev Editor"
   },
   "Copy Editor": {
@@ -13330,7 +13475,7 @@
       "chunk-194a851df135dc1664af9075a6ed79d1"
     ],
     "count": 6,
-    "update_time": 1772606898,
+    "update_time": 1772676542,
     "_id": "Copy Editor"
   },
   "Model Update": {
@@ -13430,7 +13575,7 @@
       "chunk-a12dd228152046a90cac0ca6d30ef4fd"
     ],
     "count": 8,
-    "update_time": 1772609333,
+    "update_time": 1772676489,
     "_id": "PPlus Project Management Testing"
   },
   "PPlus Workspace": {
@@ -13939,7 +14084,7 @@
       "chunk-2ff7de3ecdbdeec06151e805c84a460f"
     ],
     "count": 8,
-    "update_time": 1772609483,
+    "update_time": 1772676546,
     "_id": "Somchai"
   },
   "Batch Event": {
@@ -13948,7 +14093,7 @@
       "chunk-90a4287e7a69589023f97fe208e724fd"
     ],
     "count": 2,
-    "update_time": 1772595866,
+    "update_time": 1772676314,
     "_id": "Batch Event"
   },
   "Prasert": {
@@ -13961,7 +14106,7 @@
       "chunk-2ff7de3ecdbdeec06151e805c84a460f"
     ],
     "count": 6,
-    "update_time": 1772609483,
+    "update_time": 1772676546,
     "_id": "Prasert"
   },
   "Anong": {
@@ -13974,7 +14119,7 @@
       "chunk-2ff7de3ecdbdeec06151e805c84a460f"
     ],
     "count": 6,
-    "update_time": 1772609483,
+    "update_time": 1772676546,
     "_id": "Anong"
   },
   "Model Update: Claude Opus 4-6": {
@@ -13982,8 +14127,7 @@
       "chunk-71616aeafc61b899b58cf170dee71ae7"
     ],
     "count": 1,
-    "create_time": 1772590855,
-    "update_time": 1772590855,
+    "update_time": 1772676170,
     "_id": "Model Update: Claude Opus 4-6"
   },
   "2026-03-01 Memory Source": {
@@ -13997,29 +14141,32 @@
   },
   "2026-03-03 04:00 Batch": {
     "chunk_ids": [
-      "chunk-c00b0fb925fc0fb38b49b2e8d3100b63"
+      "chunk-c00b0fb925fc0fb38b49b2e8d3100b63",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
     ],
-    "count": 1,
-    "create_time": 1772590860,
-    "update_time": 1772590860,
+    "count": 3,
+    "update_time": 1772676551,
     "_id": "2026-03-03 04:00 Batch"
   },
   "2026-03-03 18:00 Batch": {
     "chunk_ids": [
-      "chunk-c00b0fb925fc0fb38b49b2e8d3100b63"
+      "chunk-c00b0fb925fc0fb38b49b2e8d3100b63",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
     ],
-    "count": 1,
-    "create_time": 1772590861,
-    "update_time": 1772590861,
+    "count": 3,
+    "update_time": 1772676551,
     "_id": "2026-03-03 18:00 Batch"
   },
   "2026-03-03 23:00 Batch": {
     "chunk_ids": [
-      "chunk-c00b0fb925fc0fb38b49b2e8d3100b63"
+      "chunk-c00b0fb925fc0fb38b49b2e8d3100b63",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
     ],
-    "count": 1,
-    "create_time": 1772590861,
-    "update_time": 1772590861,
+    "count": 3,
+    "update_time": 1772676551,
     "_id": "2026-03-03 23:00 Batch"
   },
   "2026-03-02 Memory Source": {
@@ -14043,10 +14190,12 @@
   "Agent Chapter Writer Main Session": {
     "chunk_ids": [
       "chunk-c00b0fb925fc0fb38b49b2e8d3100b63",
-      "chunk-e8ee70ff66b5db6fafbda166046803fe"
+      "chunk-e8ee70ff66b5db6fafbda166046803fe",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d"
     ],
-    "count": 2,
-    "update_time": 1772595493,
+    "count": 4,
+    "update_time": 1772676296,
     "_id": "Agent Chapter Writer Main Session"
   },
   "/Restart Command": {
@@ -14060,20 +14209,23 @@
   },
   "Obsidian KnowledgeGraph Index File": {
     "chunk_ids": [
-      "chunk-c00b0fb925fc0fb38b49b2e8d3100b63"
+      "chunk-c00b0fb925fc0fb38b49b2e8d3100b63",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 1,
-    "create_time": 1772590862,
-    "update_time": 1772590862,
+    "count": 2,
+    "update_time": 1772676687,
     "_id": "Obsidian KnowledgeGraph Index File"
   },
   "Agent:Chapter-Writer:Main Session": {
     "chunk_ids": [
       "chunk-a987e2ef6f4df602844b47725e43fa1a",
-      "chunk-4a81e082bc50b15702ab13196b65fcf7"
+      "chunk-4a81e082bc50b15702ab13196b65fcf7",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a",
+      "chunk-607a068b3c6e1458bfc283574e66abf1",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 2,
-    "update_time": 1772595521,
+    "count": 5,
+    "update_time": 1772676686,
     "_id": "Agent:Chapter-Writer:Main Session"
   },
   "Google Embedding Provider BaseUrl": {
@@ -14081,8 +14233,7 @@
       "chunk-a987e2ef6f4df602844b47725e43fa1a"
     ],
     "count": 1,
-    "create_time": 1772590863,
-    "update_time": 1772590863,
+    "update_time": 1772676181,
     "_id": "Google Embedding Provider BaseUrl"
   },
   "Memory Search Fix": {
@@ -14090,10 +14241,11 @@
       "chunk-a987e2ef6f4df602844b47725e43fa1a",
       "chunk-865b9f607b6143b2991ea86a5c2b5170",
       "chunk-e8ee70ff66b5db6fafbda166046803fe",
-      "chunk-a06fdd29b547fa50066bbf918525b3b2"
+      "chunk-a06fdd29b547fa50066bbf918525b3b2",
+      "chunk-9b3068faf3337e750644c8d7643fc411"
     ],
-    "count": 4,
-    "update_time": 1772596510,
+    "count": 5,
+    "update_time": 1772676699,
     "_id": "Memory Search Fix"
   },
   "With Experiments": {
@@ -14273,7 +14425,7 @@
       "chunk-1e66410fb2c2fa832a2c0adcd41f9368"
     ],
     "count": 4,
-    "update_time": 1772596247,
+    "update_time": 1772676492,
     "_id": "2026-02-03"
   },
   "KnowledgeGraph/People/Breyer-Capital.md": {
@@ -14636,7 +14788,7 @@
       "chunk-585ec9012778369490285b396b88b9bd"
     ],
     "count": 10,
-    "update_time": 1772609228,
+    "update_time": 1772676490,
     "_id": "Proactive Heartbeats"
   },
   "Faster Sub-Agent Spawning": {
@@ -14653,7 +14805,7 @@
       "chunk-585ec9012778369490285b396b88b9bd"
     ],
     "count": 10,
-    "update_time": 1772609229,
+    "update_time": 1772676490,
     "_id": "Faster Sub-Agent Spawning"
   },
   "HEARTBEAT.md": {
@@ -14670,7 +14822,7 @@
       "chunk-585ec9012778369490285b396b88b9bd"
     ],
     "count": 10,
-    "update_time": 1772609228,
+    "update_time": 1772676490,
     "_id": "HEARTBEAT.md"
   },
   "AGENTS.md": {
@@ -14685,10 +14837,11 @@
       "chunk-f6c64a6a2928521dc9353558ea2c8300",
       "chunk-2aa4cdee8aa3fae5d9bc03e58b2c5d48",
       "chunk-c60b689f3d71dd57c707b347058466c9",
-      "chunk-585ec9012778369490285b396b88b9bd"
+      "chunk-585ec9012778369490285b396b88b9bd",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 11,
-    "update_time": 1772609229,
+    "count": 12,
+    "update_time": 1772676680,
     "_id": "AGENTS.md"
   },
   "Opus-4-5": {
@@ -14894,7 +15047,7 @@
       "chunk-585ec9012778369490285b396b88b9bd"
     ],
     "count": 9,
-    "update_time": 1772609228,
+    "update_time": 1772676490,
     "_id": "Performance Improvements"
   },
   "2026-02-05": {
@@ -15274,10 +15427,11 @@
   "LaTeX": {
     "chunk_ids": [
       "chunk-8eb7ca5cebf42843dcb95415b20a2d8d",
-      "chunk-ffed2e0d5a98ce8d9cb5106e19cdcce4"
+      "chunk-ffed2e0d5a98ce8d9cb5106e19cdcce4",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 2,
-    "update_time": 1772608491,
+    "count": 3,
+    "update_time": 1772676675,
     "_id": "LaTeX"
   },
   "Llncs.cls": {
@@ -15619,7 +15773,7 @@
       "chunk-1fee19755a3251618ba78c3efffeb833"
     ],
     "count": 2,
-    "update_time": 1772592905,
+    "update_time": 1772676550,
     "_id": "KnowledgeGraph/People/Anong.md"
   },
   "Action Items": {
@@ -16765,10 +16919,12 @@
   "Obsidian Knowledge Graph Index File": {
     "chunk_ids": [
       "chunk-617117720e00673331b8823b4df194ca",
-      "chunk-869e83062a212366e36b56ac9e5882f9"
+      "chunk-869e83062a212366e36b56ac9e5882f9",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d"
     ],
-    "count": 2,
-    "update_time": 1772602737,
+    "count": 4,
+    "update_time": 1772676297,
     "_id": "Obsidian Knowledge Graph Index File"
   },
   "Interaction On 2026-02-17 At 18:02": {
@@ -16960,7 +17116,7 @@
       "chunk-d8cba83ad815daf324fb66f8121ca897"
     ],
     "count": 3,
-    "update_time": 1772595509,
+    "update_time": 1772676493,
     "_id": "LobsterBoard Access URL"
   },
   "Vpipe Database Integration": {
@@ -17115,7 +17271,7 @@
       "chunk-1fee19755a3251618ba78c3efffeb833"
     ],
     "count": 2,
-    "update_time": 1772592904,
+    "update_time": 1772676549,
     "_id": "Daily/2026-02-11.md"
   },
   "KnowledgeGraph/Topics/Translation.md": {
@@ -17257,7 +17413,7 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 5,
-    "update_time": 1772595829,
+    "update_time": 1772676286,
     "_id": "Pre-Compaction Summary"
   },
   "Memory Entry (2026-02-17 04:03)": {
@@ -18046,8 +18202,7 @@
       "chunk-34d9ec198ae427665d14d305ed714134"
     ],
     "count": 1,
-    "create_time": 1772592888,
-    "update_time": 1772592888,
+    "update_time": 1772676560,
     "_id": "Category People"
   },
   "Category Projects": {
@@ -18055,8 +18210,7 @@
       "chunk-34d9ec198ae427665d14d305ed714134"
     ],
     "count": 1,
-    "create_time": 1772592888,
-    "update_time": 1772592888,
+    "update_time": 1772676561,
     "_id": "Category Projects"
   },
   "Category Decisions": {
@@ -18064,8 +18218,7 @@
       "chunk-34d9ec198ae427665d14d305ed714134"
     ],
     "count": 1,
-    "create_time": 1772592888,
-    "update_time": 1772592888,
+    "update_time": 1772676561,
     "_id": "Category Decisions"
   },
   "Session_Remember.Py": {
@@ -18074,25 +18227,26 @@
       "chunk-f517a063be4077d8f0cc42d57aeb7330"
     ],
     "count": 2,
-    "update_time": 1772598458,
+    "update_time": 1772676563,
     "_id": "Session_Remember.Py"
   },
   "Batch 2026-03-02 18:00": {
     "chunk_ids": [
-      "chunk-507521f69f9c8fe5a17d7bff4f6b1ddf"
+      "chunk-507521f69f9c8fe5a17d7bff4f6b1ddf",
+      "chunk-3e824642b3bf777770bb81a52dbade87"
     ],
-    "count": 1,
-    "create_time": 1772592891,
-    "update_time": 1772592891,
+    "count": 2,
+    "update_time": 1772676189,
     "_id": "Batch 2026-03-02 18:00"
   },
   "Memory Source 2026-03-02": {
     "chunk_ids": [
       "chunk-507521f69f9c8fe5a17d7bff4f6b1ddf",
-      "chunk-e320e464065b3308d7db948d1e827156"
+      "chunk-e320e464065b3308d7db948d1e827156",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892"
     ],
-    "count": 2,
-    "update_time": 1772595851,
+    "count": 3,
+    "update_time": 1772676057,
     "_id": "Memory Source 2026-03-02"
   },
   "Session Snapshot 09:31 BKK": {
@@ -18124,48 +18278,51 @@
   },
   "Restart Snippet": {
     "chunk_ids": [
-      "chunk-507521f69f9c8fe5a17d7bff4f6b1ddf"
+      "chunk-507521f69f9c8fe5a17d7bff4f6b1ddf",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
     ],
-    "count": 1,
-    "create_time": 1772592893,
-    "update_time": 1772592893,
+    "count": 2,
+    "update_time": 1772676509,
     "_id": "Restart Snippet"
   },
   "Session Active Status": {
     "chunk_ids": [
       "chunk-507521f69f9c8fe5a17d7bff4f6b1ddf",
-      "chunk-72b7dfdcc2716241ee671013bd06e74c"
+      "chunk-72b7dfdcc2716241ee671013bd06e74c",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892"
     ],
-    "count": 2,
-    "update_time": 1772593978,
+    "count": 3,
+    "update_time": 1772676057,
     "_id": "Session Active Status"
   },
   "20 Messages Exchanged": {
     "chunk_ids": [
       "chunk-507521f69f9c8fe5a17d7bff4f6b1ddf",
-      "chunk-72b7dfdcc2716241ee671013bd06e74c"
+      "chunk-72b7dfdcc2716241ee671013bd06e74c",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 2,
-    "update_time": 1772593978,
+    "count": 3,
+    "update_time": 1772676686,
     "_id": "20 Messages Exchanged"
   },
   "Memory Source 2026-03-01": {
     "chunk_ids": [
       "chunk-507521f69f9c8fe5a17d7bff4f6b1ddf",
       "chunk-e320e464065b3308d7db948d1e827156",
-      "chunk-1804eb6932c404a91cf48d839d40b2bc"
+      "chunk-1804eb6932c404a91cf48d839d40b2bc",
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892"
     ],
-    "count": 3,
-    "update_time": 1772596507,
+    "count": 4,
+    "update_time": 1772676056,
     "_id": "Memory Source 2026-03-01"
   },
   "Batch 2026-03-02 23:23": {
     "chunk_ids": [
-      "chunk-507521f69f9c8fe5a17d7bff4f6b1ddf"
+      "chunk-507521f69f9c8fe5a17d7bff4f6b1ddf",
+      "chunk-3e824642b3bf777770bb81a52dbade87"
     ],
-    "count": 1,
-    "create_time": 1772592893,
-    "update_time": 1772592893,
+    "count": 2,
+    "update_time": 1772676189,
     "_id": "Batch 2026-03-02 23:23"
   },
   "Batch 2026-03-03 04:00": {
@@ -18213,7 +18370,7 @@
       "chunk-c9e9ea9f9ef3e6e49b68f230ad0b56ef"
     ],
     "count": 5,
-    "update_time": 1772610146,
+    "update_time": 1772676547,
     "_id": "Installed Skills List"
   },
   "Flight Info": {
@@ -18239,8 +18396,7 @@
       "chunk-1fee19755a3251618ba78c3efffeb833"
     ],
     "count": 1,
-    "create_time": 1772592904,
-    "update_time": 1772592904,
+    "update_time": 1772676550,
     "_id": "KnowledgeGraph/People/Prasert-ประเสรฐ.md"
   },
   "KnowledgeGraph/People/Anong-อนงค.md": {
@@ -18248,8 +18404,7 @@
       "chunk-1fee19755a3251618ba78c3efffeb833"
     ],
     "count": 1,
-    "create_time": 1772592905,
-    "update_time": 1772592905,
+    "update_time": 1772676550,
     "_id": "KnowledgeGraph/People/Anong-อนงค.md"
   },
   "KnowledgeGraph/People/Prasert.md": {
@@ -18258,7 +18413,7 @@
       "chunk-fa3eb63b70351ba692b01c713f5ea165"
     ],
     "count": 2,
-    "update_time": 1772594236,
+    "update_time": 1772676550,
     "_id": "KnowledgeGraph/People/Prasert.md"
   },
   "KnowledgeGraph/People/Somchai-สมชาย.md": {
@@ -18266,8 +18421,7 @@
       "chunk-1fee19755a3251618ba78c3efffeb833"
     ],
     "count": 1,
-    "create_time": 1772592905,
-    "update_time": 1772592905,
+    "update_time": 1772676550,
     "_id": "KnowledgeGraph/People/Somchai-สมชาย.md"
   },
   "KnowledgeGraph/People/Somchai.md": {
@@ -18275,8 +18429,7 @@
       "chunk-1fee19755a3251618ba78c3efffeb833"
     ],
     "count": 1,
-    "create_time": 1772592906,
-    "update_time": 1772592906,
+    "update_time": 1772676551,
     "_id": "KnowledgeGraph/People/Somchai.md"
   },
   "Workspace": {
@@ -18285,7 +18438,7 @@
       "chunk-0a9fcedefe1caec0abb90a436c17c478"
     ],
     "count": 2,
-    "update_time": 1772602470,
+    "update_time": 1772676551,
     "_id": "Workspace"
   },
   "KnowledgeGraph/_Index.Md": {
@@ -18293,8 +18446,7 @@
       "chunk-aed742b710d4efe2e644f95efb224333"
     ],
     "count": 1,
-    "create_time": 1772592906,
-    "update_time": 1772592906,
+    "update_time": 1772676564,
     "_id": "KnowledgeGraph/_Index.Md"
   },
   "Interaction Log Entry (2026-02-17 04:03)": {
@@ -18320,8 +18472,7 @@
       "chunk-aed742b710d4efe2e644f95efb224333"
     ],
     "count": 1,
-    "create_time": 1772592907,
-    "update_time": 1772592907,
+    "update_time": 1772676565,
     "_id": "Quick-Reference.Md"
   },
   "BaseUrl Configuration": {
@@ -18329,17 +18480,18 @@
       "chunk-aed742b710d4efe2e644f95efb224333"
     ],
     "count": 1,
-    "create_time": 1772592909,
-    "update_time": 1772592909,
+    "update_time": 1772676566,
     "_id": "BaseUrl Configuration"
   },
   "Session Snapshot (Msg #20)": {
     "chunk_ids": [
       "chunk-aed742b710d4efe2e644f95efb224333",
-      "chunk-e8ee70ff66b5db6fafbda166046803fe"
+      "chunk-e8ee70ff66b5db6fafbda166046803fe",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-52e61da92e53b06903a4888daeacc373"
     ],
-    "count": 2,
-    "update_time": 1772595492,
+    "count": 4,
+    "update_time": 1772676566,
     "_id": "Session Snapshot (Msg #20)"
   },
   "Unused BaseUrl": {
@@ -18347,8 +18499,7 @@
       "chunk-aed742b710d4efe2e644f95efb224333"
     ],
     "count": 1,
-    "create_time": 1772592910,
-    "update_time": 1772592910,
+    "update_time": 1772676568,
     "_id": "Unused BaseUrl"
   },
   "Corrected BaseUrl": {
@@ -18356,8 +18507,7 @@
       "chunk-aed742b710d4efe2e644f95efb224333"
     ],
     "count": 1,
-    "create_time": 1772592910,
-    "update_time": 1772592910,
+    "update_time": 1772676568,
     "_id": "Corrected BaseUrl"
   },
   "skeptical engineer": {
@@ -18510,7 +18660,7 @@
       "chunk-baddfe598ce4b06af1660bd87bc93b51"
     ],
     "count": 25,
-    "update_time": 1772605467,
+    "update_time": 1772676286,
     "_id": "Memory: 2026-02-17"
   },
   "Active State Reminders": {
@@ -20318,8 +20468,7 @@
       "chunk-687c7ffaca7f439954f9a043c1fd03e1"
     ],
     "count": 1,
-    "create_time": 1772593955,
-    "update_time": 1772593955,
+    "update_time": 1772676278,
     "_id": "2026-02-23 12:51 BKK Session"
   },
   "Implement Session_remember.py": {
@@ -20328,7 +20477,7 @@
       "chunk-626897db315a02419d7fa1861812cffd"
     ],
     "count": 2,
-    "update_time": 1772596781,
+    "update_time": 1772676279,
     "_id": "Implement Session_remember.py"
   },
   "Session_remember.py": {
@@ -20339,7 +20488,7 @@
       "chunk-888fac03c77f9f66eb0e9e6ab9278488"
     ],
     "count": 4,
-    "update_time": 1772599530,
+    "update_time": 1772676696,
     "_id": "Session_remember.py"
   },
   "Installed Lobster": {
@@ -20383,10 +20532,11 @@
       "chunk-687c7ffaca7f439954f9a043c1fd03e1",
       "chunk-9c873675c6edca93a36f5e9b64698f44",
       "chunk-e3f7905621f5bc1f742d393b17f19249",
-      "chunk-614be20b6b5d9a223ad1f1221a3397aa"
+      "chunk-614be20b6b5d9a223ad1f1221a3397aa",
+      "chunk-932e70986da082d91d36bf6d3f117889"
     ],
-    "count": 4,
-    "update_time": 1772603666,
+    "count": 5,
+    "update_time": 1772676275,
     "_id": "Memory Source"
   },
   "Knowledge Graph Index Generation": {
@@ -20394,8 +20544,7 @@
       "chunk-687c7ffaca7f439954f9a043c1fd03e1"
     ],
     "count": 1,
-    "create_time": 1772593964,
-    "update_time": 1772593964,
+    "update_time": 1772676281,
     "_id": "Knowledge Graph Index Generation"
   },
   "Obsidian: Quick-Reference.Md": {
@@ -20403,8 +20552,7 @@
       "chunk-865b9f607b6143b2991ea86a5c2b5170"
     ],
     "count": 1,
-    "create_time": 1772593969,
-    "update_time": 1772593969,
+    "update_time": 1772676272,
     "_id": "Obsidian: Quick-Reference.Md"
   },
   "Cron Job": {
@@ -20413,7 +20561,7 @@
       "chunk-570c1687de41e99a692ad24992a2accd"
     ],
     "count": 2,
-    "update_time": 1772606984,
+    "update_time": 1772676269,
     "_id": "Cron Job"
   },
   "2026-02-23 12:51 BKK": {
@@ -20421,8 +20569,7 @@
       "chunk-e32dc00afb723b10d3141d9f4653b224"
     ],
     "count": 1,
-    "create_time": 1772593976,
-    "update_time": 1772593976,
+    "update_time": 1772676270,
     "_id": "2026-02-23 12:51 BKK"
   },
   "Batch Event (2026-03-03)": {
@@ -20472,11 +20619,12 @@
   },
   "Auto-Snapshot Process": {
     "chunk_ids": [
-      "chunk-72b7dfdcc2716241ee671013bd06e74c"
+      "chunk-72b7dfdcc2716241ee671013bd06e74c",
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-932e70986da082d91d36bf6d3f117889"
     ],
-    "count": 1,
-    "create_time": 1772593977,
-    "update_time": 1772593977,
+    "count": 3,
+    "update_time": 1772676278,
     "_id": "Auto-Snapshot Process"
   },
   "Obsidian KnowledgeGraph Index": {
@@ -21627,10 +21775,14 @@
   "2026-03-01 Daily Notes": {
     "chunk_ids": [
       "chunk-ae13fa55ad806299a2566ee6c8b4e8d9",
-      "chunk-e8ee70ff66b5db6fafbda166046803fe"
+      "chunk-e8ee70ff66b5db6fafbda166046803fe",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d",
+      "chunk-9b3068faf3337e750644c8d7643fc411",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
     ],
-    "count": 2,
-    "update_time": 1772595493,
+    "count": 6,
+    "update_time": 1772676507,
     "_id": "2026-03-01 Daily Notes"
   },
   "Second Brain Knowledge Graph Entry": {
@@ -21644,11 +21796,11 @@
   },
   "Generative Language API Endpoint": {
     "chunk_ids": [
-      "chunk-ae13fa55ad806299a2566ee6c8b4e8d9"
+      "chunk-ae13fa55ad806299a2566ee6c8b4e8d9",
+      "chunk-a7fa47b70626d922608669a39522b369"
     ],
-    "count": 1,
-    "create_time": 1772594911,
-    "update_time": 1772594911,
+    "count": 2,
+    "update_time": 1772676084,
     "_id": "Generative Language API Endpoint"
   },
   "Unused Base URL": {
@@ -21756,11 +21908,11 @@
   },
   "Batch Operation": {
     "chunk_ids": [
-      "chunk-8936b50bda00582724bd2444a1cf3442"
+      "chunk-8936b50bda00582724bd2444a1cf3442",
+      "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf"
     ],
-    "count": 1,
-    "create_time": 1772595082,
-    "update_time": 1772595082,
+    "count": 2,
+    "update_time": 1772676498,
     "_id": "Batch Operation"
   },
   "Index": {
@@ -21852,7 +22004,7 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 2,
-    "update_time": 1772595843,
+    "update_time": 1772676293,
     "_id": "Interaction 2026-02-17 18:01"
   },
   "Interaction 2026-02-17 18:02": {
@@ -21861,7 +22013,7 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 2,
-    "update_time": 1772595843,
+    "update_time": 1772676294,
     "_id": "Interaction 2026-02-17 18:02"
   },
   "Decision 2026-02-14-cha": {
@@ -22045,7 +22197,7 @@
       "chunk-d8cba83ad815daf324fb66f8121ca897"
     ],
     "count": 2,
-    "update_time": 1772595510,
+    "update_time": 1772676496,
     "_id": "AI Assistant Role"
   },
   "Collaborator Role": {
@@ -22584,11 +22736,11 @@
   },
   "Bangkok (BKK)": {
     "chunk_ids": [
-      "chunk-e8ee70ff66b5db6fafbda166046803fe"
+      "chunk-e8ee70ff66b5db6fafbda166046803fe",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
     ],
-    "count": 1,
-    "create_time": 1772595493,
-    "update_time": 1772595493,
+    "count": 2,
+    "update_time": 1772676560,
     "_id": "Bangkok (BKK)"
   },
   "Base URL (Google Embedding Provider)": {
@@ -22602,11 +22754,11 @@
   },
   "Generative Language API Base URL": {
     "chunk_ids": [
-      "chunk-e8ee70ff66b5db6fafbda166046803fe"
+      "chunk-e8ee70ff66b5db6fafbda166046803fe",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
     ],
-    "count": 1,
-    "create_time": 1772595494,
-    "update_time": 1772595494,
+    "count": 2,
+    "update_time": 1772676509,
     "_id": "Generative Language API Base URL"
   },
   "2026-02-13": {
@@ -22615,7 +22767,7 @@
       "chunk-2aa4cdee8aa3fae5d9bc03e58b2c5d48"
     ],
     "count": 2,
-    "update_time": 1772596963,
+    "update_time": 1772676492,
     "_id": "2026-02-13"
   },
   "Daily Notes Index": {
@@ -22623,8 +22775,7 @@
       "chunk-d8cba83ad815daf324fb66f8121ca897"
     ],
     "count": 1,
-    "create_time": 1772595508,
-    "update_time": 1772595508,
+    "update_time": 1772676493,
     "_id": "Daily Notes Index"
   },
   "English Language": {
@@ -22635,7 +22786,7 @@
       "chunk-5f681751f508fd167c31bbe1d202056b"
     ],
     "count": 4,
-    "update_time": 1772609274,
+    "update_time": 1772676493,
     "_id": "English Language"
   },
   "Temperature Units": {
@@ -22643,8 +22794,7 @@
       "chunk-d8cba83ad815daf324fb66f8121ca897"
     ],
     "count": 1,
-    "create_time": 1772595509,
-    "update_time": 1772595509,
+    "update_time": 1772676494,
     "_id": "Temperature Units"
   },
   "ClawHub Installation Command": {
@@ -22652,8 +22802,7 @@
       "chunk-d8cba83ad815daf324fb66f8121ca897"
     ],
     "count": 1,
-    "create_time": 1772595510,
-    "update_time": 1772595510,
+    "update_time": 1772676495,
     "_id": "ClawHub Installation Command"
   },
   "Shared Knowledge Base": {
@@ -22664,7 +22813,7 @@
       "chunk-b6c15de56039236682f9856e47cab92d"
     ],
     "count": 4,
-    "update_time": 1772609694,
+    "update_time": 1772676495,
     "_id": "Shared Knowledge Base"
   },
   "Lobsterboard Service": {
@@ -22672,17 +22821,17 @@
       "chunk-d8cba83ad815daf324fb66f8121ca897"
     ],
     "count": 1,
-    "create_time": 1772595511,
-    "update_time": 1772595511,
+    "update_time": 1772676497,
     "_id": "Lobsterboard Service"
   },
   "Fixes Applied": {
     "chunk_ids": [
-      "chunk-4a81e082bc50b15702ab13196b65fcf7"
+      "chunk-4a81e082bc50b15702ab13196b65fcf7",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
     ],
-    "count": 1,
-    "create_time": 1772595521,
-    "update_time": 1772595521,
+    "count": 3,
+    "update_time": 1772676509,
     "_id": "Fixes Applied"
   },
   "Corrected Base URL": {
@@ -22922,10 +23071,11 @@
   "Batch Processing": {
     "chunk_ids": [
       "chunk-a0ef545088384ee9d14b145ae009a44f",
-      "chunk-626897db315a02419d7fa1861812cffd"
+      "chunk-626897db315a02419d7fa1861812cffd",
+      "chunk-932e70986da082d91d36bf6d3f117889"
     ],
-    "count": 2,
-    "update_time": 1772596793,
+    "count": 3,
+    "update_time": 1772676287,
     "_id": "Batch Processing"
   },
   "Remember Command": {
@@ -22936,7 +23086,7 @@
       "chunk-08d8874cbbc7009d283a1206fbf14c31"
     ],
     "count": 4,
-    "update_time": 1772601828,
+    "update_time": 1772676287,
     "_id": "Remember Command"
   },
   "Unknown Role": {
@@ -22944,8 +23094,7 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 1,
-    "create_time": 1772595842,
-    "update_time": 1772595842,
+    "update_time": 1772676292,
     "_id": "Unknown Role"
   },
   "Unknown Organization": {
@@ -22953,8 +23102,7 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 1,
-    "create_time": 1772595843,
-    "update_time": 1772595843,
+    "update_time": 1772676293,
     "_id": "Unknown Organization"
   },
   "Batch 2026-02-24 04:00": {
@@ -22962,8 +23110,7 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 1,
-    "create_time": 1772595844,
-    "update_time": 1772595844,
+    "update_time": 1772676294,
     "_id": "Batch 2026-02-24 04:00"
   },
   "Batch 2026-02-24 18:00": {
@@ -22971,8 +23118,7 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 1,
-    "create_time": 1772595844,
-    "update_time": 1772595844,
+    "update_time": 1772676294,
     "_id": "Batch 2026-02-24 18:00"
   },
   "Batch 2026-02-24 23:00": {
@@ -22980,8 +23126,7 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 1,
-    "create_time": 1772595844,
-    "update_time": 1772595844,
+    "update_time": 1772676294,
     "_id": "Batch 2026-02-24 23:00"
   },
   "Batch 2026-02-25 04:00": {
@@ -22989,8 +23134,7 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 1,
-    "create_time": 1772595845,
-    "update_time": 1772595845,
+    "update_time": 1772676295,
     "_id": "Batch 2026-02-25 04:00"
   },
   "Batch 2026-02-25 18:00": {
@@ -22998,8 +23142,7 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 1,
-    "create_time": 1772595845,
-    "update_time": 1772595845,
+    "update_time": 1772676295,
     "_id": "Batch 2026-02-25 18:00"
   },
   "Batch 2026-02-25 23:00": {
@@ -23007,8 +23150,7 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 1,
-    "create_time": 1772595845,
-    "update_time": 1772595845,
+    "update_time": 1772676295,
     "_id": "Batch 2026-02-25 23:00"
   },
   "Batch 2026-02-26 04:00": {
@@ -23016,8 +23158,7 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 1,
-    "create_time": 1772595845,
-    "update_time": 1772595845,
+    "update_time": 1772676295,
     "_id": "Batch 2026-02-26 04:00"
   },
   "Batch 2026-02-26 18:00": {
@@ -23025,17 +23166,17 @@
       "chunk-a0ef545088384ee9d14b145ae009a44f"
     ],
     "count": 1,
-    "create_time": 1772595845,
-    "update_time": 1772595845,
+    "update_time": 1772676295,
     "_id": "Batch 2026-02-26 18:00"
   },
   "Telegram:7579913696": {
     "chunk_ids": [
-      "chunk-e320e464065b3308d7db948d1e827156"
+      "chunk-e320e464065b3308d7db948d1e827156",
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
     ],
-    "count": 1,
-    "create_time": 1772595846,
-    "update_time": 1772595846,
+    "count": 3,
+    "update_time": 1772676504,
     "_id": "Telegram:7579913696"
   },
   "Memory (Data Source)": {
@@ -23134,7 +23275,7 @@
       "chunk-2ff7de3ecdbdeec06151e805c84a460f"
     ],
     "count": 2,
-    "update_time": 1772609481,
+    "update_time": 1772676313,
     "_id": "Chapter Writer Agent"
   },
   "Session": {
@@ -23146,7 +23287,7 @@
       "chunk-88ad9edeff0ea14e235ec5f6847d4160"
     ],
     "count": 5,
-    "update_time": 1772609215,
+    "update_time": 1772676313,
     "_id": "Session"
   },
   "Update Timestamp": {
@@ -23154,8 +23295,7 @@
       "chunk-90a4287e7a69589023f97fe208e724fd"
     ],
     "count": 1,
-    "create_time": 1772595866,
-    "update_time": 1772595866,
+    "update_time": 1772676314,
     "_id": "Update Timestamp"
   },
   "Generative Language API Endpoint URL": {
@@ -23163,8 +23303,7 @@
       "chunk-90a4287e7a69589023f97fe208e724fd"
     ],
     "count": 1,
-    "create_time": 1772595866,
-    "update_time": 1772595866,
+    "update_time": 1772676315,
     "_id": "Generative Language API Endpoint URL"
   },
   "Encrypted Fields": {
@@ -24109,29 +24248,29 @@
   },
   "Batch Process 2026-03-03 04:00": {
     "chunk_ids": [
-      "chunk-1804eb6932c404a91cf48d839d40b2bc"
+      "chunk-1804eb6932c404a91cf48d839d40b2bc",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 1,
-    "create_time": 1772596507,
-    "update_time": 1772596507,
+    "count": 2,
+    "update_time": 1772676687,
     "_id": "Batch Process 2026-03-03 04:00"
   },
   "Batch Process 2026-03-03 18:00": {
     "chunk_ids": [
-      "chunk-1804eb6932c404a91cf48d839d40b2bc"
+      "chunk-1804eb6932c404a91cf48d839d40b2bc",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 1,
-    "create_time": 1772596507,
-    "update_time": 1772596507,
+    "count": 2,
+    "update_time": 1772676687,
     "_id": "Batch Process 2026-03-03 18:00"
   },
   "Batch Process 2026-03-03 23:00": {
     "chunk_ids": [
-      "chunk-1804eb6932c404a91cf48d839d40b2bc"
+      "chunk-1804eb6932c404a91cf48d839d40b2bc",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
     ],
-    "count": 1,
-    "create_time": 1772596508,
-    "update_time": 1772596508,
+    "count": 2,
+    "update_time": 1772676688,
     "_id": "Batch Process 2026-03-03 23:00"
   },
   "Recent Activity": {
@@ -24139,8 +24278,7 @@
       "chunk-1f197e592637ef1737a9a8857200343b"
     ],
     "count": 1,
-    "create_time": 1772596515,
-    "update_time": 1772596515,
+    "update_time": 1772676696,
     "_id": "Recent Activity"
   },
   "The /remember Command": {
@@ -24148,8 +24286,7 @@
       "chunk-1f197e592637ef1737a9a8857200343b"
     ],
     "count": 1,
-    "create_time": 1772596516,
-    "update_time": 1772596516,
+    "update_time": 1772676697,
     "_id": "The /remember Command"
   },
   "Session Key": {
@@ -27089,11 +27226,11 @@
   },
   "AIiH 2026 Templates": {
     "chunk_ids": [
-      "chunk-c60b689f3d71dd57c707b347058466c9"
+      "chunk-c60b689f3d71dd57c707b347058466c9",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 1,
-    "create_time": 1772598047,
-    "update_time": 1772598047,
+    "count": 2,
+    "update_time": 1772676680,
     "_id": "AIiH 2026 Templates"
   },
   "/home/clawdbot/clawd/templates/AIiH-2026/": {
@@ -27107,47 +27244,47 @@
   },
   "llncs.cls": {
     "chunk_ids": [
-      "chunk-c60b689f3d71dd57c707b347058466c9"
+      "chunk-c60b689f3d71dd57c707b347058466c9",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 1,
-    "create_time": 1772598047,
-    "update_time": 1772598047,
+    "count": 2,
+    "update_time": 1772676676,
     "_id": "llncs.cls"
   },
   "splncs04.bst": {
     "chunk_ids": [
-      "chunk-c60b689f3d71dd57c707b347058466c9"
+      "chunk-c60b689f3d71dd57c707b347058466c9",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 1,
-    "create_time": 1772598047,
-    "update_time": 1772598047,
+    "count": 2,
+    "update_time": 1772676676,
     "_id": "splncs04.bst"
   },
   "samplepaper.tex": {
     "chunk_ids": [
-      "chunk-c60b689f3d71dd57c707b347058466c9"
+      "chunk-c60b689f3d71dd57c707b347058466c9",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 1,
-    "create_time": 1772598048,
-    "update_time": 1772598048,
+    "count": 2,
+    "update_time": 1772676676,
     "_id": "samplepaper.tex"
   },
   "svlnproc1104.dot": {
     "chunk_ids": [
-      "chunk-c60b689f3d71dd57c707b347058466c9"
+      "chunk-c60b689f3d71dd57c707b347058466c9",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 1,
-    "create_time": 1772598049,
-    "update_time": 1772598049,
+    "count": 2,
+    "update_time": 1772676676,
     "_id": "svlnproc1104.dot"
   },
   "Default DOCX Report Template": {
     "chunk_ids": [
-      "chunk-c60b689f3d71dd57c707b347058466c9"
+      "chunk-c60b689f3d71dd57c707b347058466c9",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 1,
-    "create_time": 1772598049,
-    "update_time": 1772598049,
+    "count": 2,
+    "update_time": 1772676676,
     "_id": "Default DOCX Report Template"
   },
   "/home/clawdbot/clawd/templates/reports/LNCS_Report_Template.docx": {
@@ -27197,11 +27334,11 @@
   },
   "SQLite FTS5 Memory System": {
     "chunk_ids": [
-      "chunk-c60b689f3d71dd57c707b347058466c9"
+      "chunk-c60b689f3d71dd57c707b347058466c9",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 1,
-    "create_time": 1772598050,
-    "update_time": 1772598050,
+    "count": 2,
+    "update_time": 1772676677,
     "_id": "SQLite FTS5 Memory System"
   },
   "/home/clawdbot/clawd/memory.db": {
@@ -27215,11 +27352,11 @@
   },
   "Obsidian Memory": {
     "chunk_ids": [
-      "chunk-c60b689f3d71dd57c707b347058466c9"
+      "chunk-c60b689f3d71dd57c707b347058466c9",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 1,
-    "create_time": 1772598050,
-    "update_time": 1772598050,
+    "count": 2,
+    "update_time": 1772676677,
     "_id": "Obsidian Memory"
   },
   "OpenClaw V2026.2.26": {
@@ -27242,11 +27379,11 @@
   },
   "Sandbox Security Fixes": {
     "chunk_ids": [
-      "chunk-c60b689f3d71dd57c707b347058466c9"
+      "chunk-c60b689f3d71dd57c707b347058466c9",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 1,
-    "create_time": 1772598050,
-    "update_time": 1772598050,
+    "count": 2,
+    "update_time": 1772676677,
     "_id": "Sandbox Security Fixes"
   },
   "Orchestrator Role": {
@@ -27288,10 +27425,11 @@
       "chunk-b3b8b8b210560c10d99d3e258c99b2f6",
       "chunk-0262ced9e14cc732b2e81815f101cb06",
       "chunk-572bc319ace0969403b23edbb05f1603",
-      "chunk-1eedf5e93d60ec2ab2ee6bc42ed024f3"
+      "chunk-1eedf5e93d60ec2ab2ee6bc42ed024f3",
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
     ],
-    "count": 11,
-    "update_time": 1772609759,
+    "count": 12,
+    "update_time": 1772676678,
     "_id": "Sonnet"
   },
   "Orchestrator Working Modes": {
@@ -28599,10 +28737,12 @@
       "chunk-0572c4108de149d5b983b26d5e40ed4a",
       "chunk-1a3e8441c4cefe10525b66c06522a219",
       "chunk-0063aebd96d2b29d64f7a455c2ad8475",
-      "chunk-6d02f13a15fbfbcfa3d9b1fc5422acd6"
+      "chunk-6d02f13a15fbfbcfa3d9b1fc5422acd6",
+      "chunk-b6f9007ed37a2d2015d2723fe141f45a",
+      "chunk-23fda636ff43924bd38d40789fc5e489"
     ],
-    "count": 57,
-    "update_time": 1772605510,
+    "count": 59,
+    "update_time": 1772676802,
     "_id": "Unknown Owner"
   },
   "KnowledgeGraph/Decisions/2026-02-16-Sub-agents-in-sandbox-cant-install-packages-or-access-Nodejs--do-DOCX-generation.md": {
@@ -29530,10 +29670,11 @@
       "chunk-6fa311d78b9573958fb29c2bb7c51579",
       "chunk-459ef2c7b16d98b43ffe6a516f9b540c",
       "chunk-29d77cee649032588ea6ec89a669b834",
-      "chunk-59cb503047ec0d9c38a7d8f33f5ddb44"
+      "chunk-59cb503047ec0d9c38a7d8f33f5ddb44",
+      "chunk-521f51cb7088ea1256e4e2e3d6ab655d"
     ],
-    "count": 4,
-    "update_time": 1772602514,
+    "count": 5,
+    "update_time": 1772676433,
     "_id": "Knowledge Graph (Concept)"
   },
   "Build Full-Stack Clinical Decision Support MVP For Thai Hospitals Decision": {
@@ -35344,10 +35485,13 @@
       "chunk-fc13ab3543f5f2091721c6c4b503b6ad",
       "chunk-baddfe598ce4b06af1660bd87bc93b51",
       "chunk-5b1d23c22473007c4333aa91e8f8d366",
-      "chunk-6d02f13a15fbfbcfa3d9b1fc5422acd6"
+      "chunk-6d02f13a15fbfbcfa3d9b1fc5422acd6",
+      "chunk-b6f9007ed37a2d2015d2723fe141f45a",
+      "chunk-624f82c2f306963511da123121ec4085",
+      "chunk-23fda636ff43924bd38d40789fc5e489"
     ],
-    "count": 119,
-    "update_time": 1772605510,
+    "count": 122,
+    "update_time": 1772676802,
     "_id": "Action Item"
   },
   "Compaction Summary File": {
@@ -35524,10 +35668,12 @@
       "chunk-0063aebd96d2b29d64f7a455c2ad8475",
       "chunk-98f61537e834b72ab7e7890749912feb",
       "chunk-4dfa826c7c52d66bfc6ad79969fe0987",
-      "chunk-6d02f13a15fbfbcfa3d9b1fc5422acd6"
+      "chunk-6d02f13a15fbfbcfa3d9b1fc5422acd6",
+      "chunk-b6f9007ed37a2d2015d2723fe141f45a",
+      "chunk-23fda636ff43924bd38d40789fc5e489"
     ],
-    "count": 83,
-    "update_time": 1772605511,
+    "count": 85,
+    "update_time": 1772676802,
     "_id": "Open Status"
   },
   "Obsidian Daily Note 2026-02-02": {
@@ -35607,10 +35753,12 @@
       "chunk-744afc749372124945957d4a0fa3660b",
       "chunk-baddfe598ce4b06af1660bd87bc93b51",
       "chunk-5b1d23c22473007c4333aa91e8f8d366",
-      "chunk-6d02f13a15fbfbcfa3d9b1fc5422acd6"
+      "chunk-6d02f13a15fbfbcfa3d9b1fc5422acd6",
+      "chunk-b6f9007ed37a2d2015d2723fe141f45a",
+      "chunk-23fda636ff43924bd38d40789fc5e489"
     ],
-    "count": 58,
-    "update_time": 1772605511,
+    "count": 60,
+    "update_time": 1772676802,
     "_id": "Deadline"
   },
   "Action Item Run Vault Overhaul": {
@@ -35745,10 +35893,11 @@
       "chunk-d68dd03cabc79b359a4f9a12e8628b7f",
       "chunk-223207bb74fcb9e407f21062cc2e8466",
       "chunk-fc13ab3543f5f2091721c6c4b503b6ad",
-      "chunk-5b1d23c22473007c4333aa91e8f8d366"
+      "chunk-5b1d23c22473007c4333aa91e8f8d366",
+      "chunk-624f82c2f306963511da123121ec4085"
     ],
-    "count": 32,
-    "update_time": 1772605473,
+    "count": 33,
+    "update_time": 1772676767,
     "_id": "Open"
   },
   "Rung-2 Validation Reframing": {
@@ -35804,10 +35953,12 @@
       "chunk-42b7afbefee15f7ec80afb1bf6ff4c56",
       "chunk-0572c4108de149d5b983b26d5e40ed4a",
       "chunk-1a3e8441c4cefe10525b66c06522a219",
-      "chunk-744afc749372124945957d4a0fa3660b"
+      "chunk-744afc749372124945957d4a0fa3660b",
+      "chunk-b6f9007ed37a2d2015d2723fe141f45a",
+      "chunk-23fda636ff43924bd38d40789fc5e489"
     ],
-    "count": 25,
-    "update_time": 1772605240,
+    "count": 27,
+    "update_time": 1772676802,
     "_id": "Batch Source"
   },
   "Action Item Markdown File": {
@@ -43375,10 +43526,11 @@
   "Vault": {
     "chunk_ids": [
       "chunk-9a901a740e740e41f51c00e228b720c8",
-      "chunk-b0af26da45a964875fcf4b5dc044a80f"
+      "chunk-b0af26da45a964875fcf4b5dc044a80f",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
     ],
-    "count": 2,
-    "update_time": 1772608520,
+    "count": 3,
+    "update_time": 1772676508,
     "_id": "Vault"
   },
   "Watch State Not Initialized": {
@@ -67231,11 +67383,12 @@
   },
   "ACADEMIC_TEAM.md": {
     "chunk_ids": [
-      "chunk-572bc319ace0969403b23edbb05f1603"
+      "chunk-572bc319ace0969403b23edbb05f1603",
+      "chunk-afdb70d2f6128c9a780b9372e68554ef",
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
     ],
-    "count": 1,
-    "create_time": 1772609152,
-    "update_time": 1772609152,
+    "count": 3,
+    "update_time": 1772676812,
     "_id": "ACADEMIC_TEAM.md"
   },
   "Regression Prevention Workflow": {
@@ -73528,5 +73681,1313 @@
     "create_time": 1772610166,
     "update_time": 1772610166,
     "_id": "Input Title and Abstract"
+  },
+  "Generativelanguage.googleapis.com/v1beta": {
+    "chunk_ids": [
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892"
+    ],
+    "count": 1,
+    "create_time": 1772676055,
+    "update_time": 1772676055,
+    "_id": "Generativelanguage.googleapis.com/v1beta"
+  },
+  "Obsidian KnowledgeGraph/_Index.md": {
+    "chunk_ids": [
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892"
+    ],
+    "count": 1,
+    "create_time": 1772676057,
+    "update_time": 1772676057,
+    "_id": "Obsidian KnowledgeGraph/_Index.md"
+  },
+  "/Restart Snippet": {
+    "chunk_ids": [
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892",
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
+    ],
+    "count": 3,
+    "update_time": 1772676556,
+    "_id": "/Restart Snippet"
+  },
+  "Messages Exchanged Count (20)": {
+    "chunk_ids": [
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892"
+    ],
+    "count": 1,
+    "create_time": 1772676057,
+    "update_time": 1772676057,
+    "_id": "Messages Exchanged Count (20)"
+  },
+  "Memory Search Functionality": {
+    "chunk_ids": [
+      "chunk-a7fa47b70626d922608669a39522b369"
+    ],
+    "count": 1,
+    "create_time": 1772676084,
+    "update_time": 1772676084,
+    "_id": "Memory Search Functionality"
+  },
+  "Performance Tuning": {
+    "chunk_ids": [
+      "chunk-a7fa47b70626d922608669a39522b369",
+      "chunk-9b3068faf3337e750644c8d7643fc411",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
+    ],
+    "count": 3,
+    "update_time": 1772676508,
+    "_id": "Performance Tuning"
+  },
+  "Base Url": {
+    "chunk_ids": [
+      "chunk-3e824642b3bf777770bb81a52dbade87"
+    ],
+    "count": 1,
+    "create_time": 1772676184,
+    "update_time": 1772676184,
+    "_id": "Base Url"
+  },
+  "KnowledgeGraph/People/Fixes-Applied.md": {
+    "chunk_ids": [
+      "chunk-3e824642b3bf777770bb81a52dbade87"
+    ],
+    "count": 1,
+    "create_time": 1772676185,
+    "update_time": 1772676185,
+    "_id": "KnowledgeGraph/People/Fixes-Applied.md"
+  },
+  "Daily Notes 2026-03-02": {
+    "chunk_ids": [
+      "chunk-3e824642b3bf777770bb81a52dbade87"
+    ],
+    "count": 1,
+    "create_time": 1772676186,
+    "update_time": 1772676186,
+    "_id": "Daily Notes 2026-03-02"
+  },
+  "Google Generative Language API V1Beta Endpoint": {
+    "chunk_ids": [
+      "chunk-3e824642b3bf777770bb81a52dbade87"
+    ],
+    "count": 1,
+    "create_time": 1772676186,
+    "update_time": 1772676186,
+    "_id": "Google Generative Language API V1Beta Endpoint"
+  },
+  "Batch 2026-03-01 18:00": {
+    "chunk_ids": [
+      "chunk-3e824642b3bf777770bb81a52dbade87"
+    ],
+    "count": 1,
+    "create_time": 1772676187,
+    "update_time": 1772676187,
+    "_id": "Batch 2026-03-01 18:00"
+  },
+  "Batch 2026-03-01 23:00": {
+    "chunk_ids": [
+      "chunk-3e824642b3bf777770bb81a52dbade87"
+    ],
+    "count": 1,
+    "create_time": 1772676188,
+    "update_time": 1772676188,
+    "_id": "Batch 2026-03-01 23:00"
+  },
+  "Batch 2026-03-02 04:00": {
+    "chunk_ids": [
+      "chunk-3e824642b3bf777770bb81a52dbade87"
+    ],
+    "count": 1,
+    "create_time": 1772676188,
+    "update_time": 1772676188,
+    "_id": "Batch 2026-03-02 04:00"
+  },
+  "Batch 2026-03-04 04:00": {
+    "chunk_ids": [
+      "chunk-3e824642b3bf777770bb81a52dbade87"
+    ],
+    "count": 1,
+    "create_time": 1772676189,
+    "update_time": 1772676189,
+    "_id": "Batch 2026-03-04 04:00"
+  },
+  "Batch 2026-03-04 18:00": {
+    "chunk_ids": [
+      "chunk-3e824642b3bf777770bb81a52dbade87"
+    ],
+    "count": 1,
+    "create_time": 1772676190,
+    "update_time": 1772676190,
+    "_id": "Batch 2026-03-04 18:00"
+  },
+  "Agent: Chapter-Writer: Main Session": {
+    "chunk_ids": [
+      "chunk-52e61da92e53b06903a4888daeacc373"
+    ],
+    "count": 1,
+    "create_time": 1772676190,
+    "update_time": 1772676190,
+    "_id": "Agent: Chapter-Writer: Main Session"
+  },
+  "Batch 2026-03-04 23:00": {
+    "chunk_ids": [
+      "chunk-3e824642b3bf777770bb81a52dbade87"
+    ],
+    "count": 1,
+    "create_time": 1772676191,
+    "update_time": 1772676191,
+    "_id": "Batch 2026-03-04 23:00"
+  },
+  "Knowledge Graph Index Update 2026-03-03 23:00": {
+    "chunk_ids": [
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "count": 2,
+    "update_time": 1772676689,
+    "_id": "Knowledge Graph Index Update 2026-03-03 23:00"
+  },
+  "Knowledge Graph Index Update 2026-03-04 04:00": {
+    "chunk_ids": [
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "count": 2,
+    "update_time": 1772676689,
+    "_id": "Knowledge Graph Index Update 2026-03-04 04:00"
+  },
+  "Knowledge Graph Index Update 2026-03-04 18:00": {
+    "chunk_ids": [
+      "chunk-3e824642b3bf777770bb81a52dbade87",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "count": 2,
+    "update_time": 1772676689,
+    "_id": "Knowledge Graph Index Update 2026-03-04 18:00"
+  },
+  "2026-03-04 04:00 Batch": {
+    "chunk_ids": [
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
+    ],
+    "count": 2,
+    "update_time": 1772676552,
+    "_id": "2026-03-04 04:00 Batch"
+  },
+  "2026-03-04 18:00 Batch": {
+    "chunk_ids": [
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
+    ],
+    "count": 2,
+    "update_time": 1772676552,
+    "_id": "2026-03-04 18:00 Batch"
+  },
+  "2026-03-04 23:00 Batch": {
+    "chunk_ids": [
+      "chunk-52e61da92e53b06903a4888daeacc373",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
+    ],
+    "count": 2,
+    "update_time": 1772676552,
+    "_id": "2026-03-04 23:00 Batch"
+  },
+  "Auto-Snapshot Method": {
+    "chunk_ids": [
+      "chunk-52e61da92e53b06903a4888daeacc373"
+    ],
+    "count": 1,
+    "create_time": 1772676193,
+    "update_time": 1772676193,
+    "_id": "Auto-Snapshot Method"
+  },
+  "Agent Chapter-Writer Main Session": {
+    "chunk_ids": [
+      "chunk-932e70986da082d91d36bf6d3f117889"
+    ],
+    "count": 1,
+    "create_time": 1772676275,
+    "update_time": 1772676275,
+    "_id": "Agent Chapter-Writer Main Session"
+  },
+  "2026-03-03 23:00": {
+    "chunk_ids": [
+      "chunk-932e70986da082d91d36bf6d3f117889"
+    ],
+    "count": 1,
+    "create_time": 1772676276,
+    "update_time": 1772676276,
+    "_id": "2026-03-03 23:00"
+  },
+  "2026-03-04 04:00": {
+    "chunk_ids": [
+      "chunk-932e70986da082d91d36bf6d3f117889",
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 2,
+    "update_time": 1772676421,
+    "_id": "2026-03-04 04:00"
+  },
+  "2026-03-04 18:00": {
+    "chunk_ids": [
+      "chunk-932e70986da082d91d36bf6d3f117889",
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 2,
+    "update_time": 1772676421,
+    "_id": "2026-03-04 18:00"
+  },
+  "2026-03-04 23:00": {
+    "chunk_ids": [
+      "chunk-932e70986da082d91d36bf6d3f117889",
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 2,
+    "update_time": 1772676420,
+    "_id": "2026-03-04 23:00"
+  },
+  "Memory Data Source": {
+    "chunk_ids": [
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d"
+    ],
+    "count": 1,
+    "create_time": 1772676296,
+    "update_time": 1772676296,
+    "_id": "Memory Data Source"
+  },
+  "2026-03-04": {
+    "chunk_ids": [
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d",
+      "chunk-624f82c2f306963511da123121ec4085",
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 3,
+    "update_time": 1772676812,
+    "_id": "2026-03-04"
+  },
+  "Message Count 20": {
+    "chunk_ids": [
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d"
+    ],
+    "count": 1,
+    "create_time": 1772676302,
+    "update_time": 1772676302,
+    "_id": "Message Count 20"
+  },
+  "Session Active State": {
+    "chunk_ids": [
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d"
+    ],
+    "count": 1,
+    "create_time": 1772676303,
+    "update_time": 1772676303,
+    "_id": "Session Active State"
+  },
+  "Writing-Team": {
+    "chunk_ids": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 1,
+    "create_time": 1772676421,
+    "update_time": 1772676421,
+    "_id": "Writing-Team"
+  },
+  "2026-03-04-Items--157": {
+    "chunk_ids": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 1,
+    "create_time": 1772676421,
+    "update_time": 1772676421,
+    "_id": "2026-03-04-Items--157"
+  },
+  "2026-03-04-Items--156": {
+    "chunk_ids": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 1,
+    "create_time": 1772676421,
+    "update_time": 1772676421,
+    "_id": "2026-03-04-Items--156"
+  },
+  "2026-03-04 04:08": {
+    "chunk_ids": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 1,
+    "create_time": 1772676421,
+    "update_time": 1772676421,
+    "_id": "2026-03-04 04:08"
+  },
+  "Implemented-All-7-Academic-Pipeline-Enhancements:-(1)-Venue-Specific-Reviewer-Personas": {
+    "chunk_ids": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 1,
+    "create_time": 1772676421,
+    "update_time": 1772676421,
+    "_id": "Implemented-All-7-Academic-Pipeline-Enhancements:-(1)-Venue-Specific-Reviewer-Personas"
+  },
+  "2026-03-04-Items--155": {
+    "chunk_ids": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 1,
+    "create_time": 1772676422,
+    "update_time": 1772676422,
+    "_id": "2026-03-04-Items--155"
+  },
+  "2026-03-04 03:44": {
+    "chunk_ids": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 1,
+    "create_time": 1772676422,
+    "update_time": 1772676422,
+    "_id": "2026-03-04 03:44"
+  },
+  "2026-03-04-Implemented-4-Improvements-To-Academicte": {
+    "chunk_ids": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 1,
+    "create_time": 1772676422,
+    "update_time": 1772676422,
+    "_id": "2026-03-04-Implemented-4-Improvements-To-Academicte"
+  },
+  "2026-03-01 16:00": {
+    "chunk_ids": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 1,
+    "create_time": 1772676422,
+    "update_time": 1772676422,
+    "_id": "2026-03-01 16:00"
+  },
+  "2026-02-28 20:01": {
+    "chunk_ids": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 1,
+    "create_time": 1772676422,
+    "update_time": 1772676422,
+    "_id": "2026-02-28 20:01"
+  },
+  "Implemented-all-7-Academic-Pipeline-Enhancements:-(1)-Venue-Specific-Reviewer-Personas": {
+    "chunk_ids": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 1,
+    "create_time": 1772676423,
+    "update_time": 1772676423,
+    "_id": "Implemented-all-7-Academic-Pipeline-Enhancements:-(1)-Venue-Specific-Reviewer-Personas"
+  },
+  "2026-03-04-Implemented-4-Improvements-to-Academicte": {
+    "chunk_ids": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 1,
+    "create_time": 1772676423,
+    "update_time": 1772676423,
+    "_id": "2026-03-04-Implemented-4-Improvements-to-Academicte"
+  },
+  "2026-03-01-HttpsUnused--Likely-from-a-Config-Wizard-Pla": {
+    "chunk_ids": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "count": 1,
+    "create_time": 1772676423,
+    "update_time": 1772676423,
+    "_id": "2026-03-01-HttpsUnused--Likely-from-a-Config-Wizard-Pla"
+  },
+  "BaseUrl \"https://unused\"": {
+    "chunk_ids": [
+      "chunk-9b3068faf3337e750644c8d7643fc411"
+    ],
+    "count": 1,
+    "create_time": 1772676429,
+    "update_time": 1772676429,
+    "_id": "BaseUrl \"https://unused\""
+  },
+  "BaseUrl \"https://generativelanguage.googleapis.com/v1beta\"": {
+    "chunk_ids": [
+      "chunk-9b3068faf3337e750644c8d7643fc411"
+    ],
+    "count": 1,
+    "create_time": 1772676429,
+    "update_time": 1772676429,
+    "_id": "BaseUrl \"https://generativelanguage.googleapis.com/v1beta\""
+  },
+  "Session Snapshot (msg #20)": {
+    "chunk_ids": [
+      "chunk-9b3068faf3337e750644c8d7643fc411"
+    ],
+    "count": 1,
+    "create_time": 1772676429,
+    "update_time": 1772676429,
+    "_id": "Session Snapshot (msg #20)"
+  },
+  "Telegram: 7579913696": {
+    "chunk_ids": [
+      "chunk-9b3068faf3337e750644c8d7643fc411"
+    ],
+    "count": 1,
+    "create_time": 1772676430,
+    "update_time": 1772676430,
+    "_id": "Telegram: 7579913696"
+  },
+  "People Category (Knowledge Graph)": {
+    "chunk_ids": [
+      "chunk-9b3068faf3337e750644c8d7643fc411"
+    ],
+    "count": 1,
+    "create_time": 1772676430,
+    "update_time": 1772676430,
+    "_id": "People Category (Knowledge Graph)"
+  },
+  "Projects Category (Knowledge Graph)": {
+    "chunk_ids": [
+      "chunk-9b3068faf3337e750644c8d7643fc411"
+    ],
+    "count": 1,
+    "create_time": 1772676430,
+    "update_time": 1772676430,
+    "_id": "Projects Category (Knowledge Graph)"
+  },
+  "Decisions Category (Knowledge Graph)": {
+    "chunk_ids": [
+      "chunk-9b3068faf3337e750644c8d7643fc411"
+    ],
+    "count": 1,
+    "create_time": 1772676431,
+    "update_time": 1772676431,
+    "_id": "Decisions Category (Knowledge Graph)"
+  },
+  "Obsidian Platform": {
+    "chunk_ids": [
+      "chunk-9b3068faf3337e750644c8d7643fc411"
+    ],
+    "count": 1,
+    "create_time": 1772676431,
+    "update_time": 1772676431,
+    "_id": "Obsidian Platform"
+  },
+  "Bangkok Time Zone (BKK)": {
+    "chunk_ids": [
+      "chunk-9b3068faf3337e750644c8d7643fc411"
+    ],
+    "count": 1,
+    "create_time": 1772676431,
+    "update_time": 1772676431,
+    "_id": "Bangkok Time Zone (BKK)"
+  },
+  "Index Type": {
+    "chunk_ids": [
+      "chunk-9b3068faf3337e750644c8d7643fc411"
+    ],
+    "count": 1,
+    "create_time": 1772676432,
+    "update_time": 1772676432,
+    "_id": "Index Type"
+  },
+  "Index Update Event": {
+    "chunk_ids": [
+      "chunk-9b3068faf3337e750644c8d7643fc411"
+    ],
+    "count": 1,
+    "create_time": 1772676432,
+    "update_time": 1772676432,
+    "_id": "Index Update Event"
+  },
+  "Batch (2026-03-04 23:00)": {
+    "chunk_ids": [
+      "chunk-521f51cb7088ea1256e4e2e3d6ab655d"
+    ],
+    "count": 1,
+    "create_time": 1772676432,
+    "update_time": 1772676432,
+    "_id": "Batch (2026-03-04 23:00)"
+  },
+  "Index Update Time (2026-03-04 18:00)": {
+    "chunk_ids": [
+      "chunk-521f51cb7088ea1256e4e2e3d6ab655d"
+    ],
+    "count": 1,
+    "create_time": 1772676433,
+    "update_time": 1772676433,
+    "_id": "Index Update Time (2026-03-04 18:00)"
+  },
+  "Index (Concept)": {
+    "chunk_ids": [
+      "chunk-521f51cb7088ea1256e4e2e3d6ab655d"
+    ],
+    "count": 1,
+    "create_time": 1772676433,
+    "update_time": 1772676433,
+    "_id": "Index (Concept)"
+  },
+  "People Count (315)": {
+    "chunk_ids": [
+      "chunk-521f51cb7088ea1256e4e2e3d6ab655d"
+    ],
+    "count": 1,
+    "create_time": 1772676433,
+    "update_time": 1772676433,
+    "_id": "People Count (315)"
+  },
+  "Projects Count (128)": {
+    "chunk_ids": [
+      "chunk-521f51cb7088ea1256e4e2e3d6ab655d"
+    ],
+    "count": 1,
+    "create_time": 1772676434,
+    "update_time": 1772676434,
+    "_id": "Projects Count (128)"
+  },
+  "Index Generation Timestamp": {
+    "chunk_ids": [
+      "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf"
+    ],
+    "count": 1,
+    "create_time": 1772676500,
+    "update_time": 1772676500,
+    "_id": "Index Generation Timestamp"
+  },
+  "Source File Update Timestamp": {
+    "chunk_ids": [
+      "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf"
+    ],
+    "count": 1,
+    "create_time": 1772676500,
+    "update_time": 1772676500,
+    "_id": "Source File Update Timestamp"
+  },
+  "Batch Processing Timestamp": {
+    "chunk_ids": [
+      "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf"
+    ],
+    "count": 1,
+    "create_time": 1772676501,
+    "update_time": 1772676501,
+    "_id": "Batch Processing Timestamp"
+  },
+  "People (Category)": {
+    "chunk_ids": [
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
+    ],
+    "count": 1,
+    "create_time": 1772676505,
+    "update_time": 1772676505,
+    "_id": "People (Category)"
+  },
+  "Projects (Category)": {
+    "chunk_ids": [
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
+    ],
+    "count": 1,
+    "create_time": 1772676506,
+    "update_time": 1772676506,
+    "_id": "Projects (Category)"
+  },
+  "Decisions (Category)": {
+    "chunk_ids": [
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
+    ],
+    "count": 1,
+    "create_time": 1772676506,
+    "update_time": 1772676506,
+    "_id": "Decisions (Category)"
+  },
+  "Topics (Category)": {
+    "chunk_ids": [
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
+    ],
+    "count": 1,
+    "create_time": 1772676507,
+    "update_time": 1772676507,
+    "_id": "Topics (Category)"
+  },
+  "Documents (Category)": {
+    "chunk_ids": [
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a"
+    ],
+    "count": 1,
+    "create_time": 1772676507,
+    "update_time": 1772676507,
+    "_id": "Documents (Category)"
+  },
+  "2026-03-02 18:00 Batch": {
+    "chunk_ids": [
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
+    ],
+    "count": 1,
+    "create_time": 1772676551,
+    "update_time": 1772676551,
+    "_id": "2026-03-02 18:00 Batch"
+  },
+  "2026-03-02 23:23 Batch": {
+    "chunk_ids": [
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
+    ],
+    "count": 1,
+    "create_time": 1772676551,
+    "update_time": 1772676551,
+    "_id": "2026-03-02 23:23 Batch"
+  },
+  "Session Snapshot 09:31 BKK (Msg #20)": {
+    "chunk_ids": [
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
+    ],
+    "count": 1,
+    "create_time": 1772676553,
+    "update_time": 1772676553,
+    "_id": "Session Snapshot 09:31 BKK (Msg #20)"
+  },
+  "2026-03-03 23:00 Generation Time": {
+    "chunk_ids": [
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
+    ],
+    "count": 1,
+    "create_time": 1772676559,
+    "update_time": 1772676559,
+    "_id": "2026-03-03 23:00 Generation Time"
+  },
+  "2026-03-04 04:00 Generation Time": {
+    "chunk_ids": [
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
+    ],
+    "count": 1,
+    "create_time": 1772676559,
+    "update_time": 1772676559,
+    "_id": "2026-03-04 04:00 Generation Time"
+  },
+  "2026-03-04 18:00 Generation Time": {
+    "chunk_ids": [
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
+    ],
+    "count": 1,
+    "create_time": 1772676559,
+    "update_time": 1772676559,
+    "_id": "2026-03-04 18:00 Generation Time"
+  },
+  "CMT Paper ID 18 - RAG Second Brain v23.1": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676675,
+    "update_time": 1772676675,
+    "_id": "CMT Paper ID 18 - RAG Second Brain v23.1"
+  },
+  "Word": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676675,
+    "update_time": 1772676675,
+    "_id": "Word"
+  },
+  "AIiH 2026 Templates Location": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676676,
+    "update_time": 1772676676,
+    "_id": "AIiH 2026 Templates Location"
+  },
+  "Default DOCX Report Template Location": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676676,
+    "update_time": 1772676676,
+    "_id": "Default DOCX Report Template Location"
+  },
+  "Google Drive Folder Naming Convention": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676677,
+    "update_time": 1772676677,
+    "_id": "Google Drive Folder Naming Convention"
+  },
+  "Google Drive LaTeX File Naming Convention": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676677,
+    "update_time": 1772676677,
+    "_id": "Google Drive LaTeX File Naming Convention"
+  },
+  "Google Drive PDF File Naming Convention": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676677,
+    "update_time": 1772676677,
+    "_id": "Google Drive PDF File Naming Convention"
+  },
+  "SQLite FTS5 Memory System Location": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676677,
+    "update_time": 1772676677,
+    "_id": "SQLite FTS5 Memory System Location"
+  },
+  "Fb-ai-news-post Cron Job": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676678,
+    "update_time": 1772676678,
+    "_id": "Fb-ai-news-post Cron Job"
+  },
+  "Fb-ai-news-post Cron Job Output Location": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676678,
+    "update_time": 1772676678,
+    "_id": "Fb-ai-news-post Cron Job Output Location"
+  },
+  "Facebook Page Token": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676678,
+    "update_time": 1772676678,
+    "_id": "Facebook Page Token"
+  },
+  "Facebook Page Token Location": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676679,
+    "update_time": 1772676679,
+    "_id": "Facebook Page Token Location"
+  },
+  "Anirach's Classes": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676679,
+    "update_time": 1772676679,
+    "_id": "Anirach's Classes"
+  },
+  "Daily ArXiv Scan": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676679,
+    "update_time": 1772676679,
+    "_id": "Daily ArXiv Scan"
+  },
+  "TrustMH-Bench Paper": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676679,
+    "update_time": 1772676679,
+    "_id": "TrustMH-Bench Paper"
+  },
+  "PrivMedChat Paper": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676679,
+    "update_time": 1772676679,
+    "_id": "PrivMedChat Paper"
+  },
+  "Type-Aware RAG Concept": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676679,
+    "update_time": 1772676679,
+    "_id": "Type-Aware RAG Concept"
+  },
+  "MoD-DPO Paper": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676679,
+    "update_time": 1772676679,
+    "_id": "MoD-DPO Paper"
+  },
+  "Neuro-Symbolic AI Survey Paper": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676680,
+    "update_time": 1772676680,
+    "_id": "Neuro-Symbolic AI Survey Paper"
+  },
+  "DOCX Report Generation": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676680,
+    "update_time": 1772676680,
+    "_id": "DOCX Report Generation"
+  },
+  "OpenClaw Update": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676680,
+    "update_time": 1772676680,
+    "_id": "OpenClaw Update"
+  },
+  "Working Modes": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676680,
+    "update_time": 1772676680,
+    "_id": "Working Modes"
+  },
+  "Write Error": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676680,
+    "update_time": 1772676680,
+    "_id": "Write Error"
+  },
+  "Investigation": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676680,
+    "update_time": 1772676680,
+    "_id": "Investigation"
+  },
+  "Facebook Page ID 115906681768742": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676681,
+    "update_time": 1772676681,
+    "_id": "Facebook Page ID 115906681768742"
+  },
+  "Fb_Post.py Script": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676681,
+    "update_time": 1772676681,
+    "_id": "Fb_Post.py Script"
+  },
+  "Data Access Expiration": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676681,
+    "update_time": 1772676681,
+    "_id": "Data Access Expiration"
+  },
+  "Relevant Papers Identified": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676681,
+    "update_time": 1772676681,
+    "_id": "Relevant Papers Identified"
+  },
+  "Total Papers Scanned": {
+    "chunk_ids": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "count": 1,
+    "create_time": 1772676681,
+    "update_time": 1772676681,
+    "_id": "Total Papers Scanned"
+  },
+  "Memory Entry 2026-03-01": {
+    "chunk_ids": [
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "count": 1,
+    "create_time": 1772676685,
+    "update_time": 1772676685,
+    "_id": "Memory Entry 2026-03-01"
+  },
+  "Memory Entry 2026-03-02": {
+    "chunk_ids": [
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "count": 1,
+    "create_time": 1772676685,
+    "update_time": 1772676685,
+    "_id": "Memory Entry 2026-03-02"
+  },
+  "\" /restart\" Snippet": {
+    "chunk_ids": [
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "count": 1,
+    "create_time": 1772676686,
+    "update_time": 1772676686,
+    "_id": "\" /restart\" Snippet"
+  },
+  "Batch Process 2026-03-04 04:00": {
+    "chunk_ids": [
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "count": 1,
+    "create_time": 1772676688,
+    "update_time": 1772676688,
+    "_id": "Batch Process 2026-03-04 04:00"
+  },
+  "Batch Process 2026-03-04 18:00": {
+    "chunk_ids": [
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "count": 1,
+    "create_time": 1772676688,
+    "update_time": 1772676688,
+    "_id": "Batch Process 2026-03-04 18:00"
+  },
+  "Batch Process 2026-03-04 23:00": {
+    "chunk_ids": [
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "count": 1,
+    "create_time": 1772676688,
+    "update_time": 1772676688,
+    "_id": "Batch Process 2026-03-04 23:00"
+  },
+  "People Count 315": {
+    "chunk_ids": [
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "count": 1,
+    "create_time": 1772676690,
+    "update_time": 1772676690,
+    "_id": "People Count 315"
+  },
+  "Projects Count 127": {
+    "chunk_ids": [
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "count": 1,
+    "create_time": 1772676691,
+    "update_time": 1772676691,
+    "_id": "Projects Count 127"
+  },
+  "Projects Count 128": {
+    "chunk_ids": [
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "count": 1,
+    "create_time": 1772676691,
+    "update_time": 1772676691,
+    "_id": "Projects Count 128"
+  },
+  "Decisions Count 6": {
+    "chunk_ids": [
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "count": 1,
+    "create_time": 1772676691,
+    "update_time": 1772676691,
+    "_id": "Decisions Count 6"
+  },
+  "Item 156": {
+    "chunk_ids": [
+      "chunk-b6f9007ed37a2d2015d2723fe141f45a"
+    ],
+    "count": 1,
+    "create_time": 1772676727,
+    "update_time": 1772676727,
+    "_id": "Item 156"
+  },
+  "March 4, 2026": {
+    "chunk_ids": [
+      "chunk-b6f9007ed37a2d2015d2723fe141f45a",
+      "chunk-23fda636ff43924bd38d40789fc5e489"
+    ],
+    "count": 2,
+    "update_time": 1772676802,
+    "_id": "March 4, 2026"
+  },
+  "KnowledgeGraph/Action-Items/2026-03-04-Items--156.md": {
+    "chunk_ids": [
+      "chunk-b6f9007ed37a2d2015d2723fe141f45a"
+    ],
+    "count": 1,
+    "create_time": 1772676728,
+    "update_time": 1772676728,
+    "_id": "KnowledgeGraph/Action-Items/2026-03-04-Items--156.md"
+  },
+  "Adversarial Red-Team Reviewer Agent": {
+    "chunk_ids": [
+      "chunk-afdb70d2f6128c9a780b9372e68554ef"
+    ],
+    "count": 1,
+    "create_time": 1772676764,
+    "update_time": 1772676764,
+    "_id": "Adversarial Red-Team Reviewer Agent"
+  },
+  "Structured Argumentation in Consensus Protocol": {
+    "chunk_ids": [
+      "chunk-afdb70d2f6128c9a780b9372e68554ef"
+    ],
+    "count": 1,
+    "create_time": 1772676764,
+    "update_time": 1772676764,
+    "_id": "Structured Argumentation in Consensus Protocol"
+  },
+  "Novelty Verification Gate": {
+    "chunk_ids": [
+      "chunk-afdb70d2f6128c9a780b9372e68554ef"
+    ],
+    "count": 1,
+    "create_time": 1772676764,
+    "update_time": 1772676764,
+    "_id": "Novelty Verification Gate"
+  },
+  "Reviewer Score Calibration System": {
+    "chunk_ids": [
+      "chunk-afdb70d2f6128c9a780b9372e68554ef"
+    ],
+    "count": 1,
+    "create_time": 1772676764,
+    "update_time": 1772676764,
+    "_id": "Reviewer Score Calibration System"
+  },
+  "CALIBRATION_DB.md": {
+    "chunk_ids": [
+      "chunk-afdb70d2f6128c9a780b9372e68554ef"
+    ],
+    "count": 1,
+    "create_time": 1772676764,
+    "update_time": 1772676764,
+    "_id": "CALIBRATION_DB.md"
+  },
+  "Academic Agents": {
+    "chunk_ids": [
+      "chunk-afdb70d2f6128c9a780b9372e68554ef"
+    ],
+    "count": 1,
+    "create_time": 1772676764,
+    "update_time": 1772676764,
+    "_id": "Academic Agents"
+  },
+  "Pipeline": {
+    "chunk_ids": [
+      "chunk-afdb70d2f6128c9a780b9372e68554ef"
+    ],
+    "count": 1,
+    "create_time": 1772676764,
+    "update_time": 1772676764,
+    "_id": "Pipeline"
+  },
+  "Decision for ACADEMIC_TEAM.md Improvements": {
+    "chunk_ids": [
+      "chunk-afdb70d2f6128c9a780b9372e68554ef"
+    ],
+    "count": 1,
+    "create_time": 1772676765,
+    "update_time": 1772676765,
+    "_id": "Decision for ACADEMIC_TEAM.md Improvements"
+  },
+  "KnowledgeGraph/Action-Items/2026-03-04-Items--157.md": {
+    "chunk_ids": [
+      "chunk-624f82c2f306963511da123121ec4085"
+    ],
+    "count": 1,
+    "create_time": 1772676766,
+    "update_time": 1772676766,
+    "_id": "KnowledgeGraph/Action-Items/2026-03-04-Items--157.md"
+  },
+  "Item 157": {
+    "chunk_ids": [
+      "chunk-624f82c2f306963511da123121ec4085"
+    ],
+    "count": 1,
+    "create_time": 1772676767,
+    "update_time": 1772676767,
+    "_id": "Item 157"
+  },
+  "Item 155": {
+    "chunk_ids": [
+      "chunk-23fda636ff43924bd38d40789fc5e489"
+    ],
+    "count": 1,
+    "create_time": 1772676802,
+    "update_time": 1772676802,
+    "_id": "Item 155"
+  },
+  "2026-03-04-Items--155.md": {
+    "chunk_ids": [
+      "chunk-23fda636ff43924bd38d40789fc5e489"
+    ],
+    "count": 1,
+    "create_time": 1772676803,
+    "update_time": 1772676803,
+    "_id": "2026-03-04-Items--155.md"
+  },
+  "Implemented All 7 Academic Pipeline Enhancements": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676810,
+    "update_time": 1772676810,
+    "_id": "Implemented All 7 Academic Pipeline Enhancements"
+  },
+  "Venue-Specific Reviewer Personas": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676810,
+    "update_time": 1772676810,
+    "_id": "Venue-Specific Reviewer Personas"
+  },
+  "Venue Profiles": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676810,
+    "update_time": 1772676810,
+    "_id": "Venue Profiles"
+  },
+  "Templates/Venue-Profiles/": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676810,
+    "update_time": 1772676810,
+    "_id": "Templates/Venue-Profiles/"
+  },
+  "Positioning Map Generator": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676810,
+    "update_time": 1772676810,
+    "_id": "Positioning Map Generator"
+  },
+  "Tools/Academic/Positioning_Map.py": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676810,
+    "update_time": 1772676810,
+    "_id": "Tools/Academic/Positioning_Map.py"
+  },
+  "Writing Style Forensics": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676810,
+    "update_time": 1772676810,
+    "_id": "Writing Style Forensics"
+  },
+  "Tools/Academic/Style_Forensics.py": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676810,
+    "update_time": 1772676810,
+    "_id": "Tools/Academic/Style_Forensics.py"
+  },
+  "Multi-Round Self-Improvement Loop": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676811,
+    "update_time": 1772676811,
+    "_id": "Multi-Round Self-Improvement Loop"
+  },
+  "Rejection Autopsy Protocol": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676811,
+    "update_time": 1772676811,
+    "_id": "Rejection Autopsy Protocol"
+  },
+  "Papers/Cross_Paper_Kb/Autopsy_Log.md": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676811,
+    "update_time": 1772676811,
+    "_id": "Papers/Cross_Paper_Kb/Autopsy_Log.md"
+  },
+  "Cross-Paper Knowledge Transfer": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676811,
+    "update_time": 1772676811,
+    "_id": "Cross-Paper Knowledge Transfer"
+  },
+  "Papers/Cross_Paper_Kb/Knowledge_Base.md": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676811,
+    "update_time": 1772676811,
+    "_id": "Papers/Cross_Paper_Kb/Knowledge_Base.md"
+  },
+  "Reviewer Comment Prediction Protocol": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676811,
+    "update_time": 1772676811,
+    "_id": "Reviewer Comment Prediction Protocol"
+  },
+  "KnowledgeGraph/Projects/Implemented-All-7-Academic-Pipeline-Enhancements:-(1)-Venue-Specific-Reviewer-Personas.md": {
+    "chunk_ids": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "count": 1,
+    "create_time": 1772676812,
+    "update_time": 1772676812,
+    "_id": "KnowledgeGraph/Projects/Implemented-All-7-Academic-Pipeline-Enhancements:-(1)-Venue-Specific-Reviewer-Personas.md"
   }
 }

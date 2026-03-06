@@ -1,6 +1,6 @@
 ---
 name: Content Repurposer
-description: Turn one piece of content into 10+ formats. Transform blog posts, podcasts, videos, or talks into tweets, LinkedIn posts, newsletters, carousels, and more.
+description: "Transform one piece of content into 10+ formats: tweets, LinkedIn posts, newsletters, carousels, threads, and more. Use when repurposing existing blog posts, podcasts, videos, or talks into multiple output formats. NOT for: writing original content (use seo-content-writer or copywriting), content workflow management (use agent-content-pipeline)."
 ---
 
 # Content Repurposer

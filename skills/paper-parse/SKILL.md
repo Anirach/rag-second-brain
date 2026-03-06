@@ -1,6 +1,6 @@
 ---
 name: paper-parse
-description: 对用户提供的任何学术论文（PDF附件或URL）进行双模式深度研读。当用户请求分析、研读、解读或总结一篇学术论文时，使用此技能。一次性生成两份报告：Part A 面向研究者的深度专业解析，Part B 面向快速理解的核心逻辑与价值提炼。
+description: Deep analysis of academic papers (PDF or URL) with dual-mode output: Part A — expert-level methodology and contribution analysis for researchers; Part B — concise core logic and value extraction for quick understanding. Use when user provides a paper and asks to analyze, summarize, or critique it. NOT for: writing papers (use academic-writing-refiner) or searching for papers (use literature-search).
 ---
 
 # Paper Parse

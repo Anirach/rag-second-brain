@@ -1,6 +1,6 @@
 ---
 name: Diagram
-description: Generate diagrams from descriptions with Mermaid, PlantUML, or ASCII for architecture, flows, sequences, and data models.
+description: Generate diagrams from descriptions using Mermaid, PlantUML, or ASCII art. Supports architecture diagrams, flowcharts, sequence diagrams, ER diagrams, and data models. Use for any diagram/visualization request. Prefer this skill for PlantUML or ASCII diagrams. NOT for: Mermaid-only diagrams needing hand-drawn aesthetic (use mermaid-architect).
 ---
 
 ## Principle

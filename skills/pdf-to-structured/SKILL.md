@@ -1,6 +1,6 @@
 ---
 name: "pdf-to-structured"
-description: "Extract structured data from construction PDFs. Convert specifications, BOMs, schedules, and reports from PDF to Excel/CSV/JSON. Use OCR for scanned documents and pdfplumber for native PDFs."
+description: "Extract structured data (tables, forms, key-value pairs) from PDF files into JSON/CSV. Use when parsing invoices, receipts, forms, or tabular PDFs. NOT for: general PDF text extraction (use pymupdf) or editing PDFs (use nano-pdf)."
 ---
 
 # PDF to Structured Data Conversion

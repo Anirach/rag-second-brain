@@ -1,6 +1,6 @@
 ---
 name: "data-evolution-analysis"
-description: "Analyze data evolution patterns in construction organizations. Assess digital maturity and data strategy for construction companies"
+description: "Track and analyze how data changes over time. Use for temporal analysis, trend detection, versioned dataset comparison, or schema evolution tracking. NOT for: one-time data analysis (use data-analysis)."
 homepage: "https://datadrivenconstruction.io"
 metadata: {"openclaw": {"emoji": "📚", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---

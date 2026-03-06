@@ -1,6 +1,6 @@
 ---
 name: voice-recognition
-description: Local speech-to-text with OpenAI Whisper CLI. Supports Chinese, English, 100+ languages with translation and summarization.
+description: Local speech-to-text using OpenAI Whisper CLI (runs on device, no API key). Supports 100+ languages with translation and summarization. Use for local/offline transcription when privacy matters or no API key available. NOT for: cloud-based transcription (use openai-whisper-api), text-to-speech (use edge-tts or sag).
 version: 1.0.0
 ---
 

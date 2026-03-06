@@ -1,3 +1,8 @@
+---
+name: pdf-gen
+description: Generate PDFs from scratch using code (reportlab, fpdf, or similar). Use when creating custom PDF layouts programmatically, generating certificates, invoices, or forms. NOT for: editing existing PDFs (use nano-pdf) or Markdown-to-PDF (use ai-pdf-builder).
+---
+
 # PDF Generation Skill
 
 Generate PDFs from text, markdown, or structured content.

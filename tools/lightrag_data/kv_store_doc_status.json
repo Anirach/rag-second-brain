@@ -15300,5 +15300,314 @@
       "processing_start_time": 1772610080,
       "processing_end_time": 1772610148
     }
+  },
+  "doc-5a062d9e10fe963a0eab42f0cb70b892": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5a062d9e10fe963a0eab42f0cb70b892"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/People/Session-Major.md]\n---\nname: \"Session Major\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-03-01\n---\n\n# Session Major\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unkno...",
+    "content_length": 2588,
+    "created_at": "2026-03-05T02:00:10.396950+00:00",
+    "updated_at": "2026-03-05T02:01:05.586886+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_020010_7ad61417",
+    "metadata": {
+      "processing_start_time": 1772676010,
+      "processing_end_time": 1772676065
+    }
+  },
+  "doc-a7fb5d32b2c808db5489dfaa0664d3ec": {
+    "status": "processed",
+    "chunks_count": 5,
+    "chunks_list": [
+      "chunk-481427393c6695a98dde842249c71ce5",
+      "chunk-02c142cb55bfe21786326d82ec655339",
+      "chunk-dc6fcf70267592172f417dccb380b103",
+      "chunk-dbddb0cc8f3daa198946451856e988a7",
+      "chunk-a7fa47b70626d922608669a39522b369"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/People/First-Novel.md]\n---\nname: \"First Novel\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# First Novel\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n...",
+    "content_length": 16543,
+    "created_at": "2026-03-05T02:00:10.396942+00:00",
+    "updated_at": "2026-03-05T02:02:09.496269+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_020010_7ad61417",
+    "metadata": {
+      "processing_start_time": 1772676010,
+      "processing_end_time": 1772676129
+    }
+  },
+  "doc-f104271d4018c0a0f78f8a7799b9d92a": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-71616aeafc61b899b58cf170dee71ae7",
+      "chunk-d38a9ea2781994983d82c56aaf21d90c",
+      "chunk-a987e2ef6f4df602844b47725e43fa1a",
+      "chunk-52e61da92e53b06903a4888daeacc373"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/People/Memory-Log.md]\n---\nname: \"Memory Log\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Memory Log\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## ...",
+    "content_length": 12156,
+    "created_at": "2026-03-05T02:00:10.396963+00:00",
+    "updated_at": "2026-03-05T02:03:55.050453+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_020010_7ad61417",
+    "metadata": {
+      "processing_start_time": 1772676069,
+      "processing_end_time": 1772676235
+    }
+  },
+  "doc-3e824642b3bf777770bb81a52dbade87": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-3e824642b3bf777770bb81a52dbade87"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/People/Fixes-Applied.md]\n---\nname: \"Fixes Applied\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-03-01\n---\n\n# Fixes Applied\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unkno...",
+    "content_length": 2919,
+    "created_at": "2026-03-05T02:00:10.397014+00:00",
+    "updated_at": "2026-03-05T02:03:23.031564+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_020010_7ad61417",
+    "metadata": {
+      "processing_start_time": 1772676132,
+      "processing_end_time": 1772676203
+    }
+  },
+  "doc-7ce0672e9945eb4a6ae2aeee86b31529": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-e32dc00afb723b10d3141d9f4653b224",
+      "chunk-687c7ffaca7f439954f9a043c1fd03e1",
+      "chunk-865b9f607b6143b2991ea86a5c2b5170",
+      "chunk-932e70986da082d91d36bf6d3f117889"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/People/Major-Accomplishments.md]\n---\nname: \"Major Accomplishments\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Major Accomplishments\n\n| Field | Value |\n|-------|-------|\n| Role  | U...",
+    "content_length": 11479,
+    "created_at": "2026-03-05T02:00:10.396994+00:00",
+    "updated_at": "2026-03-05T02:05:55.714923+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_020010_7ad61417",
+    "metadata": {
+      "processing_start_time": 1772676206,
+      "processing_end_time": 1772676355
+    }
+  },
+  "doc-1d67653ab01db992c1cb0d866d426ce4": {
+    "status": "processed",
+    "chunks_count": 3,
+    "chunks_list": [
+      "chunk-a0ef545088384ee9d14b145ae009a44f",
+      "chunk-90a4287e7a69589023f97fe208e724fd",
+      "chunk-3f98dfd0c3dfc54b13cd9aefbd42f73d"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/People/Knowledge-Graph.md]\n---\nname: \"Knowledge Graph\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Knowledge Graph\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   |...",
+    "content_length": 9902,
+    "created_at": "2026-03-05T02:00:10.397020+00:00",
+    "updated_at": "2026-03-05T02:06:07.184476+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_020010_7ad61417",
+    "metadata": {
+      "processing_start_time": 1772676238,
+      "processing_end_time": 1772676367
+    }
+  },
+  "doc-4a448df3934c0032a1a381293f8854d9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4a448df3934c0032a1a381293f8854d9"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/_index.md]\n---\ntype: index\nupdated: 2026-03-04 23:00\ntags: [knowledge-graph, index]\n---\n\n# Knowledge Graph Index\n\n> Auto-generated on 2026-03-04 23:00\n\n## Overview\n\n| Category | Count |\n|----------|-------|\n| People | 315 |\n| ...",
+    "content_length": 1032,
+    "created_at": "2026-03-05T02:00:10.396904+00:00",
+    "updated_at": "2026-03-05T02:07:19.185333+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_020010_7ad61417",
+    "metadata": {
+      "processing_start_time": 1772676358,
+      "processing_end_time": 1772676439
+    }
+  },
+  "doc-77b830ba369d6d8769ecd015a1ffb403": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-9b3068faf3337e750644c8d7643fc411",
+      "chunk-521f51cb7088ea1256e4e2e3d6ab655d"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/People/System-Optimization.md]\n---\nname: \"System Optimization\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-03-01\n---\n\n# System Optimization\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown...",
+    "content_length": 3930,
+    "created_at": "2026-03-05T02:00:10.396956+00:00",
+    "updated_at": "2026-03-05T02:07:42.972704+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_020010_7ad61417",
+    "metadata": {
+      "processing_start_time": 1772676370,
+      "processing_end_time": 1772676462
+    }
+  },
+  "doc-6c5b7693090af032c39f43275553380a": {
+    "status": "processed",
+    "chunks_count": 3,
+    "chunks_list": [
+      "chunk-d8cba83ad815daf324fb66f8121ca897",
+      "chunk-8cc0b5accf865538247068fa2c8b6f4a",
+      "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/People/Daily-Notes.md]\n---\nname: \"Daily Notes\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Daily Notes\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n...",
+    "content_length": 7124,
+    "created_at": "2026-03-05T02:00:10.397001+00:00",
+    "updated_at": "2026-03-05T02:09:13.138782+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_020010_7ad61417",
+    "metadata": {
+      "processing_start_time": 1772676442,
+      "processing_end_time": 1772676553
+    }
+  },
+  "doc-cfb78295a9119ca249b249f407bf9729": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-1fee19755a3251618ba78c3efffeb833",
+      "chunk-34d9ec198ae427665d14d305ed714134",
+      "chunk-aed742b710d4efe2e644f95efb224333",
+      "chunk-607a068b3c6e1458bfc283574e66abf1"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/People/Writing-Team.md]\n---\nname: \"Writing Team\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Writing Team\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown ...",
+    "content_length": 12881,
+    "created_at": "2026-03-05T02:00:10.396971+00:00",
+    "updated_at": "2026-03-05T02:10:10.049910+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_020010_7ad61417",
+    "metadata": {
+      "processing_start_time": 1772676465,
+      "processing_end_time": 1772676610
+    }
+  },
+  "doc-6898b27740be443e8e453b8eccb739e1": {
+    "status": "processed",
+    "chunks_count": 3,
+    "chunks_list": [
+      "chunk-1f197e592637ef1737a9a8857200343b",
+      "chunk-a06fdd29b547fa50066bbf918525b3b2",
+      "chunk-3d9fab81d1eec0211cefd1449d9763e4"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/People/Recent-Activity.md]\n---\nname: \"Recent Activity\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-24\n---\n\n# Recent Activity\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   |...",
+    "content_length": 9214,
+    "created_at": "2026-03-05T02:10:13.053928+00:00",
+    "updated_at": "2026-03-05T02:12:18.722463+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_021013_733f4ab2",
+    "metadata": {
+      "processing_start_time": 1772676613,
+      "processing_end_time": 1772676738
+    }
+  },
+  "doc-893f12cbfe862ebe1e62f29a7e11b350": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-893f12cbfe862ebe1e62f29a7e11b350"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/Documents/Facts.md]\n---\ntype: facts\nupdated: 2026-02-16\ntags: [facts, reference]\n---\n\n# 📌 Quick Facts\n\n- **[2026-02-16 23:40]** CMT Paper ID 18 - RAG Second Brain v23.1 submitted to AIiH 2026\n- **[2026-02-17 00:47]** AIiH 2026...",
+    "content_length": 1962,
+    "created_at": "2026-03-05T02:10:13.053947+00:00",
+    "updated_at": "2026-03-05T02:11:32.465700+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_021013_733f4ab2",
+    "metadata": {
+      "processing_start_time": 1772676613,
+      "processing_end_time": 1772676692
+    }
+  },
+  "doc-b6f9007ed37a2d2015d2723fe141f45a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b6f9007ed37a2d2015d2723fe141f45a"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/Action-Items/2026-03-04-Items--156.md]\n---\ntype: action-item\ndate: 2026-03-04\nowner: \"\"\ndeadline: \"\"\nstatus: \"open\"\ntags: [action-item, knowledge-graph]\nsource: \"batch\"\n---\n\n# Items | 156 |\n\n- **Owner:** Unknown\n- **Deadline:*...",
+    "content_length": 291,
+    "created_at": "2026-03-05T02:10:13.053962+00:00",
+    "updated_at": "2026-03-05T02:12:23.100964+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_021013_733f4ab2",
+    "metadata": {
+      "processing_start_time": 1772676695,
+      "processing_end_time": 1772676743
+    }
+  },
+  "doc-afdb70d2f6128c9a780b9372e68554ef": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-afdb70d2f6128c9a780b9372e68554ef"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/Decisions/2026-03-04-implemented-4-improvements-to-academicte.md]\n---\ntype: decision\ndate: 2026-03-04\ntags: [decision]\n---\n\n# Decision: Implemented 4 improvements to ACADEMIC_TEAM.md: (1) Adversarial Red-Team Reviewer agent, (...",
+    "content_length": 993,
+    "created_at": "2026-03-05T02:10:13.053953+00:00",
+    "updated_at": "2026-03-05T02:12:49.421124+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_021013_733f4ab2",
+    "metadata": {
+      "processing_start_time": 1772676741,
+      "processing_end_time": 1772676769
+    }
+  },
+  "doc-624f82c2f306963511da123121ec4085": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-624f82c2f306963511da123121ec4085"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/Action-Items/2026-03-04-Items--157.md]\n---\ntype: action-item\ndate: 2026-03-04\nowner: \"\"\ndeadline: \"\"\nstatus: \"open\"\ntags: [action-item, knowledge-graph]\nsource: \"batch\"\n---\n\n# Items | 157 |\n\n- **Owner:** Unknown\n- **Deadline:*...",
+    "content_length": 291,
+    "created_at": "2026-03-05T02:10:13.053971+00:00",
+    "updated_at": "2026-03-05T02:12:56.736625+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_021013_733f4ab2",
+    "metadata": {
+      "processing_start_time": 1772676745,
+      "processing_end_time": 1772676776
+    }
+  },
+  "doc-76ebd2fd8a6971743f9a176cc997ff13": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-76ebd2fd8a6971743f9a176cc997ff13"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/Projects/Implemented-all-7-academic-pipeline-enhancements:-(1)-Venue-Specific-Reviewer-Personas.md]\n---\ntype: project\nname: Implemented all 7 academic pipeline enhancements: (1) Venue-Specific Reviewer Personas\nstatus: active\n...",
+    "content_length": 1446,
+    "created_at": "2026-03-05T02:10:13.053958+00:00",
+    "updated_at": "2026-03-05T02:13:40.476845+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_021013_733f4ab2",
+    "metadata": {
+      "processing_start_time": 1772676772,
+      "processing_end_time": 1772676820
+    }
+  },
+  "doc-23fda636ff43924bd38d40789fc5e489": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-23fda636ff43924bd38d40789fc5e489"
+    ],
+    "content_summary": "[Source: KnowledgeGraph/Action-Items/2026-03-04-Items--155.md]\n---\ntype: action-item\ndate: 2026-03-04\nowner: \"\"\ndeadline: \"\"\nstatus: \"open\"\ntags: [action-item, knowledge-graph]\nsource: \"batch\"\n---\n\n# Items | 155 |\n\n- **Owner:** Unknown\n- **Deadline:*...",
+    "content_length": 291,
+    "created_at": "2026-03-05T02:10:13.053966+00:00",
+    "updated_at": "2026-03-05T02:13:32.381098+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260305_021013_733f4ab2",
+    "metadata": {
+      "processing_start_time": 1772676779,
+      "processing_end_time": 1772676812
+    }
   }
 }

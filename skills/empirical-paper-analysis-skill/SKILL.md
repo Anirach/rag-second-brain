@@ -1,3 +1,8 @@
+---
+name: empirical-paper-analysis-skill
+description: Analyze empirical research papers: extract methodology, assess validity, check statistical claims, and evaluate reproducibility. Use when critically reviewing empirical studies. NOT for: writing papers (use academic-writing-refiner) or literature search.
+---
+
 # Empirical Paper Analysis Skill
 
 ## Skill Description

@@ -1,6 +1,6 @@
 ---
 name: "Writing"
-description: "Auto-learns your writing style across contexts. Adapts to brands, relationships, and content types."
+description: "General-purpose writing assistant that adapts to the user's style across contexts (emails, messages, blog posts, creative writing). Auto-learns brand voice, relationship tone, and content type preferences. Use for non-academic, non-technical writing tasks. NOT for: academic papers (use academic-writing-refiner), research papers (use research-paper-writer), SEO content (use seo-content-writer), or copywriting (use copywriting)."
 ---
 
 ## Auto-Adaptive Writing Preferences

@@ -1,6 +1,6 @@
 ---
 name: office-document-specialist-suite
-description: Advanced suite for creating, editing, and analyzing Microsoft Office documents (Word, Excel, PowerPoint). Provides specialized tools for automated reporting and document management.
+description: Advanced suite for creating, editing, and analyzing Microsoft Office documents when multiple Office formats are involved (Word + Excel + PowerPoint together). Use when working across Office formats simultaneously, automated reporting with mixed formats, or batch document management. NOT for: Word-only tasks (use docx-generator-skill or word-docx), PowerPoint-only (use powerpoint-pptx), or simple single-format tasks.
 metadata:
   {
     "openclaw": {

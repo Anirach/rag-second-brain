@@ -1,6 +1,6 @@
 ---
 name: research-cog
-description: "#1 on DeepResearch Bench (Feb 2026). Deep research agent powered by CellCog. Market research, competitive analysis, stock analysis, investment research, academic research with citations."
+description: Deep research agent powered by CellCog external service. Specializes in market research, competitive analysis, stock/investment analysis. Use when user needs business intelligence, market sizing, or investment research via CellCog API. NOT for: academic research (use academic-deep-research), general web research (use deep-research-pro), or literature reviews (use literature-review).
 author: CellCog
 metadata:
   openclaw:

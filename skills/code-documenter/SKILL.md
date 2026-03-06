@@ -1,3 +1,8 @@
+---
+name: code-documenter
+description: Generate API docs, inline comments, JSDoc/docstrings, README files from code. Use when documenting code, generating API references, or adding inline documentation. NOT for: writing prose docs or user guides.
+---
+
 # Code Documenter
 
 Documentation specialist for inline documentation, API specs, documentation sites, and developer guides.

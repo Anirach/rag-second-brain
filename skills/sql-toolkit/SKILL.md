@@ -1,6 +1,6 @@
 ---
 name: sql-toolkit
-description: Query, design, migrate, and optimize SQL databases. Use when working with SQLite, PostgreSQL, or MySQL — schema design, writing queries, creating migrations, indexing, backup/restore, and debugging slow queries. No ORMs required.
+description: General SQL database toolkit for SQLite, PostgreSQL, and MySQL. Schema design, query writing, migrations, indexing, backup/restore, and debugging. Use for any SQL database work. NOT for: PostgreSQL-specific administration tasks like replication, extensions, or pg_dump workflows (use postgres skill).
 metadata: {"clawdbot":{"emoji":"🗄️","requires":{"anyBins":["sqlite3","psql","mysql"]},"os":["linux","darwin","win32"]}}
 ---
 

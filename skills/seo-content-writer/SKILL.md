@@ -1,6 +1,6 @@
 ---
 name: seo-content-writer
-description: 'Use when the user asks to "write SEO content", "create a blog post", "write an article", "content writing", "draft optimized content", "write me an article", "create a blog post about", "help me write SEO content", or "draft content for". Creates high-quality, SEO-optimized content that ranks in search engines. Applies on-page SEO best practices, keyword optimization, and content structure for maximum visibility and engagement. For AI citation optimization, see geo-content-optimizer. For updating existing content, see content-refresher.'
+description: 'Write SEO-optimized blog posts, articles, and long-form content that ranks in search engines. Applies on-page SEO, keyword optimization, and content structure for visibility. Use when writing informational articles, blog posts, or content meant to rank organically. NOT for: persuasive sales copy (use copywriting), content auditing (use content-quality-auditor), or repurposing existing content (use content-repurposing-engine).'
 license: Apache-2.0
 metadata:
   author: aaron-he-zhu

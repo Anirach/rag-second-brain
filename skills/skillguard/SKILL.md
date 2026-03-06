@@ -1,6 +1,6 @@
 ---
 name: skillguard
-description: Security scanner for AgentSkill packages. Scan skills for credential theft, code injection, prompt manipulation, data exfiltration, and evasion techniques before installing them. Use when evaluating skills from ClawHub or any untrusted source.
+description: "Security scanner specifically for AgentSkill packages (.skill files). Scans for credential theft, code injection, prompt manipulation, data exfiltration, and evasion techniques before installing skills. Use ONLY when evaluating skills from ClawHub or untrusted sources. NOT for: general prompt injection defense (use prompt-guard), code security review (use security-auditor)."
 metadata: {"openclaw": {"requires": {"bins": ["node"]}}}
 ---
 

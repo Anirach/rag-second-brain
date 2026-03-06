@@ -1,6 +1,6 @@
 ---
 name: pymupdf-pdf
-description: Fast local PDF parsing with PyMuPDF (fitz) for Markdown/JSON outputs and optional images/tables. Use when speed matters more than robustness, or as a fallback while heavier parsers are unavailable. Default to single-PDF parsing with per-document output folders.
+description: Fast local PDF text extraction and parsing with PyMuPDF (fitz). Outputs Markdown or JSON with optional images/tables. Use when reading/extracting text content from PDF files, converting PDFs to text, or as a fast parsing fallback. NOT for: creating PDFs (use ai-pdf-builder), editing PDFs (use nano-pdf), filling forms (use pdf-form-filler), or extracting structured data like invoices (use pdf-to-structured).
 ---
 
 # PyMuPDF PDF

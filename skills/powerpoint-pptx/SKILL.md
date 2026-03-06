@@ -3,7 +3,7 @@ name: PowerPoint PPTX
 slug: powerpoint-pptx
 version: 1.0.0
 homepage: https://clawic.com/skills/powerpoint-pptx
-description: Create, edit, and automate PowerPoint presentations with python-pptx for slides, layouts, charts, and batch processing.
+description: Create, edit, and automate PowerPoint presentations with python-pptx. Full control over slides, layouts, charts, images, and batch processing. PRIMARY skill for detailed PPTX creation with specific layouts and formatting. Use when building custom slide decks with precise control. NOT for: quick auto-generated presentations (use ai-ppt-generator), Google Slides (use google-slides), or PptxGenJS-based generation.
 metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":["python3"]},"os":["linux","darwin","win32"]}}
 ---
 

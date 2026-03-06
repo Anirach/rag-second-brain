@@ -1,6 +1,6 @@
 ---
 name: agent-content-pipeline
-description: Safe content workflow (drafts/reviewed/revised/approved/posted) with human-in-the-loop approval, plus CLI to list/move/review and post to LinkedIn/X. Use when setting up a content pipeline, drafting content, managing review threads, or posting approved content.
+description: "Manage a structured content workflow with stages: drafts, reviewed, revised, approved, posted. Includes human-in-the-loop approval and CLI for listing/moving/reviewing content. Use when setting up content pipelines, managing review workflows, or posting approved content to LinkedIn/X. NOT for: writing content (use copywriting or seo-content-writer), quality auditing (use content-quality-auditor)."
 ---
 
 # Content Pipeline Skill

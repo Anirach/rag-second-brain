@@ -70310,5 +70310,3361 @@
     "create_time": 1772610184,
     "update_time": 1772610184,
     "_id": "doc-c9e9ea9f9ef3e6e49b68f230ad0b56ef"
+  },
+  "doc-5a062d9e10fe963a0eab42f0cb70b892": {
+    "relation_pairs": [
+      [
+        "Session Snapshot",
+        "Telegram User ID 7579913696"
+      ],
+      [
+        "/Restart Snippet",
+        "Session Snapshot"
+      ],
+      [
+        "Session Active Status",
+        "Session Snapshot"
+      ],
+      [
+        "Generativelanguage.googleapis.com/v1beta",
+        "Google Embedding Provider"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Telegram",
+        "Telegram User ID 7579913696"
+      ],
+      [
+        "Daily Notes 2026-03-01",
+        "System Optimization"
+      ],
+      [
+        "Messages Exchanged Count (20)",
+        "Session Snapshot"
+      ],
+      [
+        "Agent:Chapter-Writer:Main",
+        "Session Snapshot"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Session Major",
+        "System Optimization"
+      ],
+      [
+        "Memory Search",
+        "System Optimization"
+      ],
+      [
+        "BKK",
+        "Session Snapshot"
+      ],
+      [
+        "Session Snapshot",
+        "Telegram"
+      ],
+      [
+        "Daily Notes 2026-03-01",
+        "Memory Source 2026-03-01"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Memory Source 2026-03-02",
+        "Session Snapshot"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1772676065,
+    "update_time": 1772676065,
+    "_id": "doc-5a062d9e10fe963a0eab42f0cb70b892"
+  },
+  "doc-a7fb5d32b2c808db5489dfaa0664d3ec": {
+    "relation_pairs": [
+      [
+        "Decisions Category",
+        "Session Remember.py"
+      ],
+      [
+        "KnowledgeGraph/People/First-Novel.md",
+        "Obsidian"
+      ],
+      [
+        "Cron Delivery Settings",
+        "New Jobs"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "Opus",
+        "Writing Team"
+      ],
+      [
+        "Publisher",
+        "Writing Team"
+      ],
+      [
+        "Decisions Made",
+        "Memory (Source)"
+      ],
+      [
+        "/Remember Command",
+        "Memory (Source)"
+      ],
+      [
+        "/Remember Command",
+        "Decisions Made"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Index File"
+      ],
+      [
+        "Obsidian",
+        "Quick Reference"
+      ],
+      [
+        "Agent Chapter Writer Main Session",
+        "Session Snapshot"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search"
+      ],
+      [
+        "Performance Tuning",
+        "System Optimization Session"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Memory Log - 2026-02-05"
+      ],
+      [
+        "Obsidian",
+        "Obsidian KnowledgeGraph/People/First-Novel.md"
+      ],
+      [
+        "Auto-Snapshot Process",
+        "Session Snapshot"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects"
+      ],
+      [
+        "/Remember Command",
+        "Session Remember.py"
+      ],
+      [
+        "Major Accomplishments",
+        "Writing Team"
+      ],
+      [
+        "Restart Command",
+        "Telegram User ID 7579913696"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Research-Lead",
+        "Writing Team"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Daily/2026-02-05.md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Workspaces",
+        "Writing Team"
+      ],
+      [
+        "First Novel",
+        "Obsidian"
+      ],
+      [
+        "First Novel",
+        "Obsidian KnowledgeGraph/People/First-Novel.md"
+      ],
+      [
+        "Base URL",
+        "https://generativelanguage.googleapis.com/v1beta"
+      ],
+      [
+        "Daily Notes 2026-03-01",
+        "System Optimization Session"
+      ],
+      [
+        "Google Embedding Provider",
+        "System Optimization Session"
+      ],
+      [
+        "Dev-Editor",
+        "Writing Team"
+      ],
+      [
+        "First Novel",
+        "Knowledge Graph"
+      ],
+      [
+        "First Novel",
+        "Writing Team"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Quick Reference"
+      ],
+      [
+        "Memory Search",
+        "System Optimization Session"
+      ],
+      [
+        "Memory Log",
+        "Obsidian Daily Note File"
+      ],
+      [
+        "BKK",
+        "Session Snapshot"
+      ],
+      [
+        "7579913696",
+        "Telegram ID"
+      ],
+      [
+        "Major Accomplishments",
+        "Memory Log - 2026-02-05"
+      ],
+      [
+        "Memory (Source)",
+        "Session Learnings"
+      ],
+      [
+        "Base URL",
+        "Google Embedding Provider"
+      ],
+      [
+        "Memory Search Functionality",
+        "System Optimization Session"
+      ],
+      [
+        "First Novel",
+        "KnowledgeGraph/People/First-Novel.md"
+      ],
+      [
+        "Obsidian",
+        "Obsidian People File"
+      ],
+      [
+        "Batch Process",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Workflow"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Obsidian"
+      ],
+      [
+        "Batch Process",
+        "System Optimization Session"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People"
+      ],
+      [
+        "Arscontexta",
+        "Session Remember.py"
+      ],
+      [
+        "Memory Log - 2026-02-05",
+        "Obsidian Daily/2026-02-05.md"
+      ],
+      [
+        "Generative Language API Endpoint",
+        "Google Embedding Provider"
+      ],
+      [
+        "Opus",
+        "Thinking"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Telegram ID"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Daily Note File"
+      ],
+      [
+        "Copy-Editor",
+        "Writing Team"
+      ],
+      [
+        "Book-Architect",
+        "Writing Team"
+      ],
+      [
+        "/Remember Command",
+        "Batch Process"
+      ],
+      [
+        "Memory Log",
+        "Obsidian"
+      ],
+      [
+        "Chapter-Writer",
+        "Writing Team"
+      ],
+      [
+        "Batch Process",
+        "Obsidian Index File"
+      ],
+      [
+        "/Remember Command",
+        "Session Learnings"
+      ],
+      [
+        "First Novel",
+        "Obsidian People File"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Notification Spam"
+      ],
+      [
+        "Batch Process",
+        "Session Snapshot"
+      ],
+      [
+        "Decisions",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Daily Notes 2026-03-01",
+        "Memory System"
+      ],
+      [
+        "Openclaw",
+        "Workspaces"
+      ]
+    ],
+    "count": 74,
+    "create_time": 1772676129,
+    "update_time": 1772676129,
+    "_id": "doc-a7fb5d32b2c808db5489dfaa0664d3ec"
+  },
+  "doc-3e824642b3bf777770bb81a52dbade87": {
+    "relation_pairs": [
+      [
+        "Batch 2026-03-04 04:00",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Base Url",
+        "Google Generative Language API V1Beta Endpoint"
+      ],
+      [
+        "Fixes Applied",
+        "KnowledgeGraph/People/Fixes-Applied.md"
+      ],
+      [
+        "Fixes Applied",
+        "System Optimization Session"
+      ],
+      [
+        "Google Generative Language API V1Beta Endpoint",
+        "Memory Search"
+      ],
+      [
+        "Batch 2026-03-04 18:00",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge Graph Index Update 2026-03-04 04:00"
+      ],
+      [
+        "Agent: Chapter-Writer: Main",
+        "Session Snapshot (Msg #20)"
+      ],
+      [
+        "Knowledge Graph Index Update 2026-03-04 18:00",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Batch 2026-03-02 04:00",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Batch 2026-03-02 23:23",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Batch 2026-03-01 23:00",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Knowledge Graph Index Update 2026-03-03 23:00",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge Graph Index Update 2026-03-04 18:00"
+      ],
+      [
+        "Daily Notes 2026-03-01",
+        "System Optimization Session"
+      ],
+      [
+        "Memory Search",
+        "System Optimization Session"
+      ],
+      [
+        "Batch 2026-03-02 18:00",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "Batch 2026-03-01 18:00",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "Daily Notes 2026-03-01",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "Knowledge Graph Index Update 2026-03-04 04:00",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Fixes Applied",
+        "Memory Search"
+      ],
+      [
+        "Daily Notes 2026-03-02",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Batch 2026-03-02 04:00",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge Graph Index Update 2026-03-03 23:00"
+      ],
+      [
+        "Base Url",
+        "Google Embedding Provider"
+      ],
+      [
+        "Batch 2026-03-02 23:23",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "Batch 2026-03-04 23:00",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Agent: Chapter-Writer: Main",
+        "Telegram:7579913696"
+      ],
+      [
+        "Batch 2026-03-02 18:00",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search"
+      ]
+    ],
+    "count": 33,
+    "create_time": 1772676203,
+    "update_time": 1772676203,
+    "_id": "doc-3e824642b3bf777770bb81a52dbade87"
+  },
+  "doc-f104271d4018c0a0f78f8a7799b9d92a": {
+    "relation_pairs": [
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "Cron Delivery Settings",
+        "New Jobs"
+      ],
+      [
+        "Auto-Snapshot Method",
+        "Session Snapshot (Msg #20)"
+      ],
+      [
+        "Agent: Chapter-Writer: Main Session",
+        "Session Snapshot (Msg #20)"
+      ],
+      [
+        "Obsidian",
+        "Somchai"
+      ],
+      [
+        "Bookshelf App Project",
+        "Database Schema"
+      ],
+      [
+        "Arscontexta",
+        "Session_Remember.py"
+      ],
+      [
+        "Decisions Count",
+        "Knowledge Graph Index"
+      ],
+      [
+        "7579913696",
+        "Session Snapshot"
+      ],
+      [
+        "Anirach",
+        "Model Update: Claude Opus 4-6"
+      ],
+      [
+        "Opus",
+        "Opus 4-5"
+      ],
+      [
+        "BKK",
+        "Session Snapshot"
+      ],
+      [
+        "Book Architect",
+        "Writing Team Setup"
+      ],
+      [
+        "Bookshelf App Project",
+        "Foundation"
+      ],
+      [
+        "Opus",
+        "Writing Team Setup"
+      ],
+      [
+        "7579913696",
+        "Agent:Chapter-Writer:Main Session"
+      ],
+      [
+        "Agent: Chapter-Writer: Main Session",
+        "Telegram User ID 7579913696"
+      ],
+      [
+        "Research Lead",
+        "Writing Team Setup"
+      ],
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "Chapter Writer",
+        "Writing Team Setup"
+      ],
+      [
+        "Bookshelf App Project",
+        "Next.js 14"
+      ],
+      [
+        "/Remember Command",
+        "Session Learnings"
+      ],
+      [
+        "Session Learnings",
+        "Workflow"
+      ],
+      [
+        "/Remember Command",
+        "Decisions Made"
+      ],
+      [
+        "Memory: 2026-03-02",
+        "Session Snapshot"
+      ],
+      [
+        "Obsidian",
+        "Quick-Reference.md"
+      ],
+      [
+        "Database Schema",
+        "Genre Model"
+      ],
+      [
+        "/Restart Snippet",
+        "Session Snapshot (Msg #20)"
+      ],
+      [
+        "2026-03-03 04:00 Batch",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search Fix"
+      ],
+      [
+        "Bookshelf App Project",
+        "Memory Log"
+      ],
+      [
+        "2026-03-03 18:00 Batch",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Quick-Reference.md"
+      ],
+      [
+        "2026-03-04 18:00 Batch",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-04 23:00 Batch",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Notification Spam",
+        "Session Learnings"
+      ],
+      [
+        "/Remember Command",
+        "Session_Remember.py"
+      ],
+      [
+        "Memory Log",
+        "Prasert"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian: KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Google Embedding Provider BaseUrl",
+        "https://generativelanguage.googleapis.com/v1beta"
+      ],
+      [
+        "Copy Editor",
+        "Writing Team Setup"
+      ],
+      [
+        "Claude Opus 4-6",
+        "Model Update: Claude Opus 4-6"
+      ],
+      [
+        "1984",
+        "Bookshelf App Project"
+      ],
+      [
+        "Bookshelf App Project",
+        "SQLite"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian"
+      ],
+      [
+        "Batch Event",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Dev Editor",
+        "Writing Team Setup"
+      ],
+      [
+        "OpenClaw",
+        "Writing Team Setup"
+      ],
+      [
+        "KnowledgeGraph/_index.md",
+        "Obsidian"
+      ],
+      [
+        "Memory: 2026-03-02",
+        "Session Snapshot (Msg #20)"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Count"
+      ],
+      [
+        "Agent:Chapter-Writer:Main Session",
+        "Session Snapshot"
+      ],
+      [
+        "Publisher",
+        "Writing Team Setup"
+      ],
+      [
+        "Author Model",
+        "Database Schema"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "/Remember Command",
+        "BKK"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Count"
+      ],
+      [
+        "Knowledge Graph",
+        "Somchai"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Session Learnings"
+      ],
+      [
+        "/Restart Snippet",
+        "Telegram User ID 7579913696"
+      ],
+      [
+        "Memory: 2026-03-01",
+        "System Optimization Session"
+      ],
+      [
+        "Anong",
+        "Memory Log"
+      ],
+      [
+        "Memory Log",
+        "Model Update: Claude Opus 4-6"
+      ],
+      [
+        "7579913696",
+        "Anirach Mingkhwan"
+      ],
+      [
+        "Bookshelf App Project",
+        "Shadcn/Ui"
+      ],
+      [
+        "2026-03-01 Daily Notes",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Bookshelf App Project",
+        "Prisma 5"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Atomic Habits",
+        "Bookshelf App Project"
+      ],
+      [
+        "2026-03-04 04:00 Batch",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Claude Opus 4-6",
+        "Opus"
+      ],
+      [
+        "Memory Log",
+        "Writing Team Setup"
+      ],
+      [
+        "Model Update: Claude Opus 4-6",
+        "Opus 4-5"
+      ],
+      [
+        "Book Model",
+        "Database Schema"
+      ],
+      [
+        "Google Embedding Provider",
+        "Google Embedding Provider BaseUrl"
+      ],
+      [
+        "Decisions Made",
+        "Session_Remember.py"
+      ],
+      [
+        "2026-03-03 23:00 Batch",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Memory Log",
+        "Somchai"
+      ],
+      [
+        "Memory Search Fix",
+        "System Optimization Session"
+      ],
+      [
+        "Batch Event",
+        "Memory"
+      ]
+    ],
+    "count": 83,
+    "create_time": 1772676235,
+    "update_time": 1772676235,
+    "_id": "doc-f104271d4018c0a0f78f8a7799b9d92a"
+  },
+  "doc-7ce0672e9945eb4a6ae2aeee86b31529": {
+    "relation_pairs": [
+      [
+        "Obsidian",
+        "Prasert"
+      ],
+      [
+        "Agent Chapter-Writer Main Session",
+        "Telegram User 7579913696"
+      ],
+      [
+        "2026-03-03 23:00",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian: KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "Publisher",
+        "Writing Team"
+      ],
+      [
+        "2026-03-03 23:00",
+        "Batch Processing"
+      ],
+      [
+        "Memory: 2026-03-01",
+        "System Optimization Session"
+      ],
+      [
+        "Arscontexta /Remember Command",
+        "Session_Remember.py"
+      ],
+      [
+        "Obsidian",
+        "Somchai"
+      ],
+      [
+        "/remember Command",
+        "Session_remember.py"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian"
+      ],
+      [
+        "Major Accomplishments",
+        "Obsidian"
+      ],
+      [
+        "Memory: 2026-03-02",
+        "Session Snapshot"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects"
+      ],
+      [
+        "Auto-Snapshot Process",
+        "Session Snapshot"
+      ],
+      [
+        "Batch Process",
+        "Knowledge Graph Index Generation"
+      ],
+      [
+        "2026-02-23 12:51 BKK Session",
+        "BKK"
+      ],
+      [
+        "2026-02-23 12:51 BKK Session",
+        "Implement Session_remember.py"
+      ],
+      [
+        "Memory Source",
+        "Session Snapshot"
+      ],
+      [
+        "Major Accomplishments",
+        "Writing Team"
+      ],
+      [
+        "Obsidian: Quick-Reference.Md",
+        "Quick Reference"
+      ],
+      [
+        "2026-03-04 04:00",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-02-23 12:51 BKK Session",
+        "Session Learnings"
+      ],
+      [
+        "Research-Lead",
+        "Writing Team"
+      ],
+      [
+        "2026-03-04 04:00",
+        "Batch Processing"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Telegram ID 7579913696"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Anong",
+        "Daily/2026-02-05.md"
+      ],
+      [
+        "Implement Session_remember.py",
+        "Session_remember.py"
+      ],
+      [
+        "Dev-Editor",
+        "Writing Team"
+      ],
+      [
+        "Batch Process",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge Graph Index Generation"
+      ],
+      [
+        "Agent:Chapter-Writer:Main",
+        "Session Snapshot"
+      ],
+      [
+        "Arscontexta",
+        "Session_remember.py"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search Fix"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Quick Reference"
+      ],
+      [
+        "Memory Search Fix",
+        "System Optimization Session"
+      ],
+      [
+        "BKK",
+        "Session Snapshot"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Cron Job"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Prasert"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Major Accomplishments"
+      ],
+      [
+        "2026-02-23 12:51 BKK",
+        "BKK"
+      ],
+      [
+        "Openclaw",
+        "Writing Team"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Somchai"
+      ],
+      [
+        "2026-03-04 18:00",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "Agent Chapter-Writer Main Session",
+        "Session Snapshot"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People"
+      ],
+      [
+        "2026-03-04 18:00",
+        "Batch Processing"
+      ],
+      [
+        "Decisions Made",
+        "Session_Remember.py"
+      ],
+      [
+        "/remember Command",
+        "Arscontexta"
+      ],
+      [
+        "2026-03-03 23:00",
+        "Session Snapshot"
+      ],
+      [
+        "2026-02-23 12:51 BKK",
+        "Session Learnings"
+      ],
+      [
+        "Session Snapshot",
+        "Telegram ID 7579913696"
+      ],
+      [
+        "Book-Architect",
+        "Writing Team"
+      ],
+      [
+        "Copy-Editor",
+        "Writing Team"
+      ],
+      [
+        "Agent Chapter-Writer Main Session",
+        "Auto-Snapshot Process"
+      ],
+      [
+        "Chapter-Writer",
+        "Writing Team"
+      ],
+      [
+        "Batch Process",
+        "Memory Source"
+      ],
+      [
+        "2026-03-04 23:00",
+        "Batch Processing"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Memory Log"
+      ],
+      [
+        "Major Accomplishments",
+        "Opus"
+      ],
+      [
+        "Decisions",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Anong",
+        "Obsidian"
+      ],
+      [
+        "Agent Chapter-Writer Main Session",
+        "Restart Command"
+      ],
+      [
+        "2026-02-23 12:51 BKK",
+        "Decisions Made"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Notification Spam"
+      ],
+      [
+        "Restart Command",
+        "Session Snapshot"
+      ],
+      [
+        "Session Learnings",
+        "Workflow"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Session Learnings"
+      ]
+    ],
+    "count": 72,
+    "create_time": 1772676355,
+    "update_time": 1772676355,
+    "_id": "doc-7ce0672e9945eb4a6ae2aeee86b31529"
+  },
+  "doc-1d67653ab01db992c1cb0d866d426ce4": {
+    "relation_pairs": [
+      [
+        "Cron Delivery Settings",
+        "New Jobs"
+      ],
+      [
+        "Batch 2026-02-25 23:00",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Obsidian",
+        "Quick Reference"
+      ],
+      [
+        "2026-03-02",
+        "Batch Process"
+      ],
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Chapter Writer Agent",
+        "Session"
+      ],
+      [
+        "Decisions Count",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Agent Chapter Writer Main Session",
+        "Restart Command"
+      ],
+      [
+        "Interaction 2026-02-17 18:01",
+        "Memory: 2026-02-17"
+      ],
+      [
+        "Batch Processing",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "Batch 2026-02-24 23:00",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Quick Reference"
+      ],
+      [
+        "Memory Search",
+        "System Optimization Session"
+      ],
+      [
+        "Daily Notes",
+        "System Optimization Session"
+      ],
+      [
+        "Memory Data Source",
+        "Session Snapshot"
+      ],
+      [
+        "2026-03-02",
+        "Session Snapshot"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "Pinned Tag",
+        "Quick Reference"
+      ],
+      [
+        "Memory",
+        "Session Snapshot"
+      ],
+      [
+        "Batch 2026-02-25 04:00",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Notification Spam"
+      ],
+      [
+        "2026-03-04",
+        "Batch Process"
+      ],
+      [
+        "Session Learnings",
+        "Workflow"
+      ],
+      [
+        "Decisions Made",
+        "Session_remember.py"
+      ],
+      [
+        "Agent Chapter Writer Main Session",
+        "Session Snapshot"
+      ],
+      [
+        "Always-Load Tag",
+        "Quick Reference"
+      ],
+      [
+        "2026-03-01 Daily Notes",
+        "Memory Data Source"
+      ],
+      [
+        "Batch Process",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Interaction 2026-02-17 18:02",
+        "Memory: 2026-02-17"
+      ],
+      [
+        "Knowledge Graph",
+        "Unknown Organization"
+      ],
+      [
+        "Google Embedding Provider",
+        "System Optimization Session"
+      ],
+      [
+        "KnowledgeGraph/_Index.md",
+        "Obsidian"
+      ],
+      [
+        "Pre-Compaction Summary",
+        "Session Notes"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Telegram ID"
+      ],
+      [
+        "Agent Chapter Writer Main Session",
+        "Message Count 20"
+      ],
+      [
+        "Session",
+        "Session Snapshot"
+      ],
+      [
+        "Batch 2026-02-24 04:00",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "Projects",
+        "Session Notes"
+      ],
+      [
+        "Bangkok",
+        "Session Snapshot"
+      ],
+      [
+        "Batch 2026-02-24 18:00",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "BKK",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian"
+      ],
+      [
+        "Batch Event",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-03",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-01",
+        "2026-03-01 Daily Notes"
+      ],
+      [
+        "Restart Command",
+        "Telegram User 7579913696"
+      ],
+      [
+        "Session",
+        "Telegram ID"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Arscontexta",
+        "Session_remember.py"
+      ],
+      [
+        "Memory: 2026-02-23",
+        "Remember Command"
+      ],
+      [
+        "Base URL",
+        "Generative Language API"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Count"
+      ],
+      [
+        "Auto-Snapshot",
+        "Session Snapshot"
+      ],
+      [
+        "Batch 2026-02-25 18:00",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Base URL",
+        "Google Embedding Provider"
+      ],
+      [
+        "Quick Reference",
+        "Update Timestamp"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Workflow"
+      ],
+      [
+        "2026-03-04",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Session Snapshot",
+        "Update Timestamp"
+      ],
+      [
+        "Batch Processing",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Count"
+      ],
+      [
+        "Batch Process",
+        "Session Snapshot"
+      ],
+      [
+        "Base URL",
+        "Generative Language API Endpoint URL"
+      ],
+      [
+        "Message Count 20",
+        "Session Snapshot"
+      ],
+      [
+        "Generative Language API",
+        "Google Embedding Provider"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "2026-03-03",
+        "Batch Process"
+      ],
+      [
+        "Knowledge Graph",
+        "Unknown Role"
+      ],
+      [
+        "Agent Chapter Writer Main Session",
+        "Session Active State"
+      ],
+      [
+        "Quick Reference",
+        "Reference Tag"
+      ],
+      [
+        "Generative Language API",
+        "Generative Language API Endpoint URL"
+      ],
+      [
+        "Telegram",
+        "Telegram ID"
+      ],
+      [
+        "Memory: 2026-02-23",
+        "Session Learnings"
+      ],
+      [
+        "Paper V23.1",
+        "Session Notes"
+      ],
+      [
+        "Auto-Snapshot",
+        "Session Active State"
+      ],
+      [
+        "Daily Notes",
+        "Memory"
+      ],
+      [
+        "Memory: 2026-02-17",
+        "Session Notes"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Update Timestamp"
+      ],
+      [
+        "Batch 2026-02-26 04:00",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Decisions Made",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "Batch 2026-02-26 18:00",
+        "KnowledgeGraph/_Index.md"
+      ]
+    ],
+    "count": 85,
+    "create_time": 1772676367,
+    "update_time": 1772676367,
+    "_id": "doc-1d67653ab01db992c1cb0d866d426ce4"
+  },
+  "doc-4a448df3934c0032a1a381293f8854d9": {
+    "relation_pairs": [
+      [
+        "People Category",
+        "Writing-Team"
+      ],
+      [
+        "People Category",
+        "Session-Major"
+      ],
+      [
+        "Implemented-All-7-Academic-Pipeline-Enhancements:-(1)-Venue-Specific-Reviewer-Personas",
+        "Projects Category"
+      ],
+      [
+        "Documents Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-01 16:00",
+        "2026-03-01-Httpsunused--Likely-From-A-Config-Wizard-Pla"
+      ],
+      [
+        "Documents Category",
+        "Facts"
+      ],
+      [
+        "2026-03-04 23:00",
+        "2026-03-04-Items--157"
+      ],
+      [
+        "2026-03-04 23:00",
+        "Writing-Team"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-04 23:00",
+        "Session-Major"
+      ],
+      [
+        "2026-02-28 20:01",
+        "Facts"
+      ],
+      [
+        "2026-03-04-Items--157",
+        "Action Items Category"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-04-Items--156",
+        "Action Items Category"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "2026-03-04 04:08",
+        "Implemented-All-7-Academic-Pipeline-Enhancements:-(1)-Venue-Specific-Reviewer-Personas"
+      ],
+      [
+        "2026-03-04-Items--155",
+        "Action Items Category"
+      ],
+      [
+        "2026-03-01-Httpsunused--Likely-From-A-Config-Wizard-Pla",
+        "Decisions Category"
+      ],
+      [
+        "People Category",
+        "System-Optimization"
+      ],
+      [
+        "2026-03-04 23:00",
+        "System-Optimization"
+      ],
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "2026-03-04 23:00",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-04-Implemented-4-Improvements-To-Academicte",
+        "Decisions Category"
+      ],
+      [
+        "2026-03-04 18:00",
+        "2026-03-04-Items--156"
+      ],
+      [
+        "2026-03-04 03:44",
+        "2026-03-04-Implemented-4-Improvements-To-Academicte"
+      ],
+      [
+        "Action Items Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-04 04:00",
+        "2026-03-04-Items--155"
+      ]
+    ],
+    "count": 29,
+    "create_time": 1772676439,
+    "update_time": 1772676439,
+    "_id": "doc-4a448df3934c0032a1a381293f8854d9"
+  },
+  "doc-77b830ba369d6d8769ecd015a1ffb403": {
+    "relation_pairs": [
+      [
+        "Index Update Event",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-01 Daily Notes",
+        "System Optimization Session"
+      ],
+      [
+        "Index (Concept)",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Performance Tuning",
+        "System Optimization Session"
+      ],
+      [
+        "Index Type",
+        "Obsidian: KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Person Tag",
+        "System Optimization"
+      ],
+      [
+        "BaseUrl \"https://generativelanguage.googleapis.com/v1beta\"",
+        "Google Embedding Provider"
+      ],
+      [
+        "Decisions Category (Knowledge Graph)",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category (Knowledge Graph)"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Count (315)"
+      ],
+      [
+        "Bangkok Time Zone (BKK)",
+        "Session Snapshot (msg #20)"
+      ],
+      [
+        "Batch (2026-03-04 23:00)",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph (Concept)",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Memory System",
+        "Session Snapshot (msg #20)"
+      ],
+      [
+        "Index Update Event",
+        "Obsidian: KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search Fix"
+      ],
+      [
+        "KnowledgeGraph/_index.md",
+        "Obsidian"
+      ],
+      [
+        "Decisions Count (6)",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Agent: Chapter-Writer: Main",
+        "Session Snapshot (msg #20)"
+      ],
+      [
+        "2026-03-01 Daily Notes",
+        "Memory System"
+      ],
+      [
+        "System Optimization",
+        "System Optimization Session"
+      ],
+      [
+        "Agent: Chapter-Writer: Main",
+        "Telegram: 7579913696"
+      ],
+      [
+        "BaseUrl \"https://unused\"",
+        "Google Embedding Provider"
+      ],
+      [
+        "Batch Process",
+        "Session Snapshot (msg #20)"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Count (127)"
+      ],
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "Batch Process",
+        "System Optimization Session"
+      ],
+      [
+        "Index Update Time (2026-03-04 18:00)",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Count (128)"
+      ],
+      [
+        "Knowledge Graph Tag",
+        "System Optimization"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian: KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category (Knowledge Graph)"
+      ],
+      [
+        "Batch (2026-03-04 23:00)",
+        "Obsidian"
+      ],
+      [
+        "Memory Search Fix",
+        "System Optimization Session"
+      ],
+      [
+        "Obsidian Platform",
+        "Obsidian: KnowledgeGraph/_Index.md"
+      ]
+    ],
+    "count": 35,
+    "create_time": 1772676462,
+    "update_time": 1772676462,
+    "_id": "doc-77b830ba369d6d8769ecd015a1ffb403"
+  },
+  "doc-6c5b7693090af032c39f43275553380a": {
+    "relation_pairs": [
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "ClawHub CLI",
+        "ClawHub Installation Command"
+      ],
+      [
+        "2026-03-01 Daily Notes",
+        "System Optimization Session"
+      ],
+      [
+        "Daily Notes",
+        "Systemd Service"
+      ],
+      [
+        "Curbob",
+        "LobsterBoard"
+      ],
+      [
+        "2026-01-26",
+        "Arthur"
+      ],
+      [
+        "LobsterBoard",
+        "Lobsterboard Service"
+      ],
+      [
+        "Documents (Category)",
+        "Knowledge Graph"
+      ],
+      [
+        "Lobsterboard Service",
+        "Systemd Service"
+      ],
+      [
+        "2026-02-16",
+        "Arthur's Daily Notes"
+      ],
+      [
+        "Atlanta",
+        "Weather Widget"
+      ],
+      [
+        "Anirach",
+        "Performance Improvements"
+      ],
+      [
+        "Arthur",
+        "RAG Second Brain Project"
+      ],
+      [
+        "Knowledge Graph",
+        "Topics (Category)"
+      ],
+      [
+        "Memory Search",
+        "System Optimization Session"
+      ],
+      [
+        "BKK",
+        "Session Snapshot"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People (Category)"
+      ],
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge-Graph Tag",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "AGENTS.md",
+        "Faster Sub-Agent Spawning"
+      ],
+      [
+        "Content Creation Template",
+        "Mobile App Development Project"
+      ],
+      [
+        "Index Generation Timestamp",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Temperature Units",
+        "Weather Widget"
+      ],
+      [
+        "2026-02-17",
+        "Daily Notes"
+      ],
+      [
+        "Daily Notes",
+        "Skills"
+      ],
+      [
+        "Decisions (Category)",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Daily Notes",
+        "Performance Improvements"
+      ],
+      [
+        "Bangkok",
+        "Weather Widget"
+      ],
+      [
+        "Bidirectional Linking",
+        "Obsidian"
+      ],
+      [
+        "Daily Notes",
+        "USER.md"
+      ],
+      [
+        "Base URL",
+        "Generative Language API Base URL"
+      ],
+      [
+        "2026-02-16",
+        "Anirach"
+      ],
+      [
+        "AI Assistant Role",
+        "Arthur"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects (Category)"
+      ],
+      [
+        "Agent Teams",
+        "Vault"
+      ],
+      [
+        "2026-02-16",
+        "Daily Notes"
+      ],
+      [
+        "PPLUS Workspace",
+        "PPlus Project Management Testing"
+      ],
+      [
+        "Fixes Applied",
+        "Memory Search"
+      ],
+      [
+        "Daily Notes",
+        "PPlus Project Management Testing"
+      ],
+      [
+        "My Workspace",
+        "PPlus Project Management Testing"
+      ],
+      [
+        "ClawHub CLI",
+        "Daily Notes"
+      ],
+      [
+        "Anirach",
+        "Arthur"
+      ],
+      [
+        "Daily Notes",
+        "Lobsterboard Service"
+      ],
+      [
+        "Anirach",
+        "English Language"
+      ],
+      [
+        "Arthur",
+        "Labrador"
+      ],
+      [
+        "Fixes Applied",
+        "System Optimization Session"
+      ],
+      [
+        "Obsidian",
+        "Shared Knowledge Base"
+      ],
+      [
+        "Performance Tuning",
+        "System Optimization Session"
+      ],
+      [
+        "Performance Improvements",
+        "Proactive Heartbeats"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Feb 1-28, 2026",
+        "Mobile App Development Project"
+      ],
+      [
+        "Index Tag",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "KnowledgeGraph/_index.md",
+        "Obsidian"
+      ],
+      [
+        "Agent:Chapter-Writer:Main Session",
+        "Session Snapshot"
+      ],
+      [
+        "Faster Sub-Agent Spawning",
+        "Performance Improvements"
+      ],
+      [
+        "Markdown",
+        "Obsidian"
+      ],
+      [
+        "Base URL",
+        "Google Embedding Provider"
+      ],
+      [
+        "Batch Operation",
+        "Batch Processing Timestamp"
+      ],
+      [
+        "2026-02-13",
+        "Daily Notes"
+      ],
+      [
+        "KnowledgeGraph/_index.md",
+        "Source File Update Timestamp"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "HEARTBEAT.md",
+        "Proactive Heartbeats"
+      ],
+      [
+        "Daily Notes",
+        "Weather Widget"
+      ],
+      [
+        "Arthur",
+        "OpenClaw"
+      ],
+      [
+        "2026-02-16",
+        "Daily Notes Index"
+      ],
+      [
+        "Session Snapshot",
+        "Telegram:7579913696"
+      ],
+      [
+        "2026-03-01",
+        "Daily Notes"
+      ],
+      [
+        "Mobile App Development Project",
+        "PPlus Project Management Testing"
+      ],
+      [
+        "Daily Notes",
+        "LobsterBoard"
+      ],
+      [
+        "Batch Operation",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Agent Teams",
+        "Obsidian"
+      ],
+      [
+        "Knowledge Graph",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Knowledge Graph",
+        "Projects (Category)"
+      ],
+      [
+        "Obsidian",
+        "Vault"
+      ],
+      [
+        "Agent:Chapter-Writer:Main Session",
+        "Restart Snippet"
+      ],
+      [
+        "Knowledge Graph",
+        "People (Category)"
+      ],
+      [
+        "Arthur",
+        "Arthur's Daily Notes"
+      ],
+      [
+        "Anirach",
+        "USER.md"
+      ],
+      [
+        "LobsterBoard",
+        "Server"
+      ],
+      [
+        "2026-02-03",
+        "Daily Notes"
+      ],
+      [
+        "LobsterBoard",
+        "LobsterBoard Access URL"
+      ],
+      [
+        "Decisions (Category)",
+        "Knowledge Graph"
+      ],
+      [
+        "2026-02-02",
+        "Daily Notes"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search"
+      ]
+    ],
+    "count": 85,
+    "create_time": 1772676553,
+    "update_time": 1772676553,
+    "_id": "doc-6c5b7693090af032c39f43275553380a"
+  },
+  "doc-cfb78295a9119ca249b249f407bf9729": {
+    "relation_pairs": [
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "Daily/2026-02-15.md",
+        "Obsidian"
+      ],
+      [
+        "Anti-AI-Slop Design Principles",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Publisher",
+        "Writing Team"
+      ],
+      [
+        "2026-03-04 04:00 Batch",
+        "Obsidian: KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "Obsidian",
+        "Somchai"
+      ],
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "Memory System",
+        "Session Learnings"
+      ],
+      [
+        "Anong",
+        "KnowledgeGraph/People/Anong-อนงค.md"
+      ],
+      [
+        "/Restart Snippet",
+        "Agent:Chapter-Writer:Main Session"
+      ],
+      [
+        "ChartSense AI Project",
+        "MEMORY.md"
+      ],
+      [
+        "Prasert",
+        "skeptical engineer"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Quick Reference"
+      ],
+      [
+        "Memory Search",
+        "System Optimization Session"
+      ],
+      [
+        "KnowledgeGraph/People/Somchai.md",
+        "Obsidian"
+      ],
+      [
+        "Daily/2026-02-15.md",
+        "Weekly Memory Maintenance"
+      ],
+      [
+        "2026-03-02 23:23 Batch",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "MEMORY.md",
+        "Weekly Memory Maintenance"
+      ],
+      [
+        "Coding Team",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Decisions Made",
+        "Memory System"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "Pinned Tag",
+        "Quick Reference"
+      ],
+      [
+        "Session Snapshot (Msg #20)",
+        "Telegram ID 7579913696"
+      ],
+      [
+        "2026-03-02 18:00 Batch",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "KnowledgeGraph/People/Prasert-ประเสรฐ.md",
+        "Obsidian"
+      ],
+      [
+        "Tailwind CSS",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Daily/2026-02-11.md",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "BaseUrl Configuration",
+        "Memory Search"
+      ],
+      [
+        "2026-03-03 23:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Index Tag",
+        "Obsidian: KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "Home.md",
+        "Obsidian"
+      ],
+      [
+        "Decisions",
+        "Knowledge Graph Index"
+      ],
+      [
+        "KnowledgeGraph/People/Prasert.md",
+        "Obsidian"
+      ],
+      [
+        "Research Lead",
+        "Writing Team"
+      ],
+      [
+        "Anong",
+        "KnowledgeGraph/People/Anong.md"
+      ],
+      [
+        "Always-Load Tag",
+        "Quick Reference"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects"
+      ],
+      [
+        "Somchai",
+        "philosophical, contemplative"
+      ],
+      [
+        "BaseUrl Configuration",
+        "Unused BaseUrl"
+      ],
+      [
+        "BaseUrl Configuration",
+        "System Optimization Session"
+      ],
+      [
+        "2026-03-03 23:00 Batch",
+        "Obsidian: KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "Chapter Writer",
+        "Writing Team"
+      ],
+      [
+        "Category People",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Writing Team Setup"
+      ],
+      [
+        "Home.md",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "KnowledgeGraph/People/Somchai-สมชาย.md",
+        "Somchai"
+      ],
+      [
+        "2026-03-03 04:00 Batch",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "2026-03-03 04:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Important Events For Feb 12-14",
+        "MEMORY.md"
+      ],
+      [
+        "2026-03-03 18:00 Batch",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "2026-03-03 18:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "KnowledgeGraph/People/Prasert-ประเสรฐ.md",
+        "Prasert"
+      ],
+      [
+        "Knowledge-Graph Tag",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "GitHub",
+        "Three Old Men"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People"
+      ],
+      [
+        "Memory: 2026-03-02",
+        "Session Snapshot 09:31 BKK (Msg #20)"
+      ],
+      [
+        "2026-03-04 23:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "2026-03-04 18:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "KnowledgeGraph/People/Anong-อนงค.md",
+        "Obsidian"
+      ],
+      [
+        "2026-03-03 04:00 Batch",
+        "Obsidian: KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "Category Projects",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Installed Skills List",
+        "MEMORY.md"
+      ],
+      [
+        "2026-03-03 18:00 Batch",
+        "Obsidian: KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "Book Architect",
+        "Writing Team"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian: KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "Knowledge-Graph Tag",
+        "Obsidian: KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "Agent:Chapter-Writer:Main Session",
+        "Session Snapshot 09:31 BKK (Msg #20)"
+      ],
+      [
+        "Decisions Made",
+        "Session_Remember.Py"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian"
+      ],
+      [
+        "2026-03-04 23:00 Batch",
+        "Obsidian: KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "2026-03-04 18:00 Batch",
+        "Obsidian: KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "KnowledgeGraph/People/Anong.md",
+        "Obsidian"
+      ],
+      [
+        "Daily/2026-02-11.md",
+        "Obsidian"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Bangkok (BKK)",
+        "Session Snapshot 09:31 BKK (Msg #20)"
+      ],
+      [
+        "2026-03-03 23:00 Batch",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "Shadcn/UI",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "KnowledgeGraph/People/Somchai-สมชาย.md",
+        "Obsidian"
+      ],
+      [
+        "AIiH 2026",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Obsidian",
+        "Three Old Men"
+      ],
+      [
+        "Memory: 2026-03-02",
+        "Session Snapshot (Msg #20)"
+      ],
+      [
+        "Arscontexta",
+        "Session_Remember.Py"
+      ],
+      [
+        "Daily Notes 2026-03-01",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Obsidian"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Dev Editor",
+        "Writing Team"
+      ],
+      [
+        "2026-03-03 23:00 Generation Time",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Three Old Men"
+      ],
+      [
+        "Agent:Chapter-Writer:Main",
+        "Session Snapshot (Msg #20)"
+      ],
+      [
+        "Agent:Chapter-Writer:Main Session",
+        "Telegram User 7579913696"
+      ],
+      [
+        "KnowledgeGraph/People/Prasert.md",
+        "Prasert"
+      ],
+      [
+        "BaseUrl Configuration",
+        "Corrected BaseUrl"
+      ],
+      [
+        "2026-03-03 04:00 Batch",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Session Learnings"
+      ],
+      [
+        "KnowledgeGraph/_Index.Md",
+        "Obsidian"
+      ],
+      [
+        "Anong",
+        "nostalgic storyteller"
+      ],
+      [
+        "2026-03-02 23:23 Batch",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Memory: 2026-03-01",
+        "System Optimization Session"
+      ],
+      [
+        "2026-03-03 18:00 Batch",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "Quick Reference",
+        "Quick-Reference.Md"
+      ],
+      [
+        "2026-03-02 18:00 Batch",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Opus Model",
+        "Writing Team"
+      ],
+      [
+        "Knowledge Graph",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Writing Team",
+        "Writing Team Setup"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Telegram ID 7579913696"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Copy Editor",
+        "Writing Team"
+      ],
+      [
+        "Index Tag",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Obsidian",
+        "Quick-Reference.Md"
+      ],
+      [
+        "KnowledgeGraph/People/Somchai.md",
+        "Somchai"
+      ],
+      [
+        "Category Decisions",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Quick Reference",
+        "Reference Tag"
+      ],
+      [
+        "2026-03-04 04:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "2026-03-04 04:00 Generation Time",
+        "Knowledge Graph Index"
+      ],
+      [
+        "BaseUrl Configuration",
+        "Google Embedding Provider"
+      ],
+      [
+        "2026-03-03 23:00 Batch",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "2026-03-04 18:00 Generation Time",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Workspace",
+        "Writing Team"
+      ]
+    ],
+    "count": 121,
+    "create_time": 1772676610,
+    "update_time": 1772676610,
+    "_id": "doc-cfb78295a9119ca249b249f407bf9729"
+  },
+  "doc-893f12cbfe862ebe1e62f29a7e11b350": {
+    "relation_pairs": [
+      [
+        "AGENTS.md",
+        "Working Modes"
+      ],
+      [
+        "AIiH 2026 Templates",
+        "AIiH 2026 Templates Location"
+      ],
+      [
+        "Daily ArXiv Scan",
+        "Relevant Papers Identified"
+      ],
+      [
+        "Default DOCX Report Template",
+        "Default DOCX Report Template Location"
+      ],
+      [
+        "Google Drive",
+        "Google Drive LaTeX File Naming Convention"
+      ],
+      [
+        "Daily ArXiv Scan",
+        "Total Papers Scanned"
+      ],
+      [
+        "Facebook Page Token",
+        "Facebook Page Token Location"
+      ],
+      [
+        "Daily ArXiv Scan",
+        "TrustMH-Bench Paper"
+      ],
+      [
+        "AIiH 2026 Templates Location",
+        "llncs.cls"
+      ],
+      [
+        "Investigation",
+        "Write Error"
+      ],
+      [
+        "AIiH 2026 Templates Location",
+        "splncs04.bst"
+      ],
+      [
+        "Daily ArXiv Scan",
+        "MoD-DPO Paper"
+      ],
+      [
+        "Daily ArXiv Scan",
+        "Neuro-Symbolic AI Survey Paper"
+      ],
+      [
+        "Anirach's Classes",
+        "Fb_Post.py Script"
+      ],
+      [
+        "Fb-ai-news-post Cron Job",
+        "Fb-ai-news-post Cron Job Output Location"
+      ],
+      [
+        "SQLite FTS5 Memory System",
+        "SQLite FTS5 Memory System Location"
+      ],
+      [
+        "AIiH 2026 Templates Location",
+        "svlnproc1104.dot"
+      ],
+      [
+        "Google Drive",
+        "Google Drive Folder Naming Convention"
+      ],
+      [
+        "AIiH 2026 Templates Location",
+        "samplepaper.tex"
+      ],
+      [
+        "OpenClaw",
+        "Sandbox Security Fixes"
+      ],
+      [
+        "AIiH 2026",
+        "Word"
+      ],
+      [
+        "ArXiv",
+        "Daily ArXiv Scan"
+      ],
+      [
+        "Fb-ai-news-post Cron Job",
+        "Write Error"
+      ],
+      [
+        "DOCX Report Generation",
+        "Default DOCX Report Template"
+      ],
+      [
+        "Anirach's Classes",
+        "Facebook Page Token"
+      ],
+      [
+        "Data Access Expiration",
+        "Facebook Page Token"
+      ],
+      [
+        "Anirach's Classes",
+        "Facebook Page ID 115906681768742"
+      ],
+      [
+        "Relevant Papers Identified",
+        "Total Papers Scanned"
+      ],
+      [
+        "OpenClaw",
+        "OpenClaw Update"
+      ],
+      [
+        "Daily ArXiv Scan",
+        "Type-Aware RAG Concept"
+      ],
+      [
+        "Google Drive",
+        "Google Drive PDF File Naming Convention"
+      ],
+      [
+        "Facebook Page Token",
+        "Fb_Post.py Script"
+      ],
+      [
+        "Daily ArXiv Scan",
+        "PrivMedChat Paper"
+      ],
+      [
+        "Obsidian Memory",
+        "SQLite FTS5 Memory System"
+      ],
+      [
+        "AIiH 2026",
+        "AIiH 2026 Templates"
+      ],
+      [
+        "Coding Team",
+        "Sonnet"
+      ],
+      [
+        "AIiH 2026",
+        "CMT Paper ID 18 - RAG Second Brain v23.1"
+      ],
+      [
+        "Coding Team",
+        "Working Modes"
+      ],
+      [
+        "AIiH 2026",
+        "LaTeX"
+      ],
+      [
+        "Coding Team",
+        "Opus"
+      ]
+    ],
+    "count": 40,
+    "create_time": 1772676692,
+    "update_time": 1772676692,
+    "_id": "doc-893f12cbfe862ebe1e62f29a7e11b350"
+  },
+  "doc-6898b27740be443e8e453b8eccb739e1": {
+    "relation_pairs": [
+      [
+        "Batch Process 2026-03-04 04:00",
+        "Obsidian KnowledgeGraph Index File"
+      ],
+      [
+        "Knowledge Graph Index Update 2026-03-03 23:00",
+        "People Count 315"
+      ],
+      [
+        "Decisions Count",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Batch Process 2026-03-03 18:00",
+        "Memory Entry 2026-03-02"
+      ],
+      [
+        "7579913696",
+        "Session Snapshot"
+      ],
+      [
+        "Knowledge Graph Index Update 2026-03-03 23:00",
+        "Projects Count 127"
+      ],
+      [
+        "BKK",
+        "Session Snapshot"
+      ],
+      [
+        "Memory: 2026-02-23",
+        "Recent Activity"
+      ],
+      [
+        "Obsidian",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Batch Process 2026-03-04 23:00",
+        "Obsidian KnowledgeGraph Index File"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Notification Spam"
+      ],
+      [
+        "Batch",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "Decisions Made",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "Session Learnings",
+        "Workflow"
+      ],
+      [
+        "Decisions Made",
+        "Session_remember.py"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Telegram"
+      ],
+      [
+        "Daily Notes",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Memory: 2026-03-02",
+        "Session Snapshot"
+      ],
+      [
+        "Batch Process 2026-03-03 04:00",
+        "Memory Entry 2026-03-02"
+      ],
+      [
+        "Decisions Count 6",
+        "Knowledge Graph Index Update 2026-03-04 18:00"
+      ],
+      [
+        "People Category",
+        "People Count 315"
+      ],
+      [
+        "Batch Process 2026-03-03 23:00",
+        "Obsidian KnowledgeGraph Index File"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search Fix"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian KnowledgeGraph Index File"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge-Graph Tag",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Obsidian",
+        "Obsidian KnowledgeGraph Index File"
+      ],
+      [
+        "Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Obsidian: Quick-Reference.md",
+        "Reference Tag"
+      ],
+      [
+        "Session_remember.py",
+        "The /remember Command"
+      ],
+      [
+        "Batch Process 2026-03-03 18:00",
+        "Obsidian KnowledgeGraph Index File"
+      ],
+      [
+        "Obsidian: Quick-Reference.md",
+        "Quick Reference"
+      ],
+      [
+        "Decisions Count 6",
+        "Knowledge Graph Index Update 2026-03-04 04:00"
+      ],
+      [
+        "Knowledge Graph Index Update 2026-03-04 04:00",
+        "People Count 315"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Decisions Category",
+        "Decisions Count 6"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge Graph Index Update 2026-03-04 18:00"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Count"
+      ],
+      [
+        "Agent:Chapter-Writer:Main Session",
+        "Session Snapshot"
+      ],
+      [
+        "Obsidian",
+        "Obsidian: Quick-Reference.md"
+      ],
+      [
+        "\" /restart\" Snippet",
+        "Telegram User 7579913696"
+      ],
+      [
+        "Base URL",
+        "Google Embedding Provider"
+      ],
+      [
+        "Obsidian: Quick-Reference.md",
+        "Pinned Tag"
+      ],
+      [
+        "Obsidian: KnowledgeGraph/_index.md",
+        "Recent Activity"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian KnowledgeGraph Index File"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Decisions Count 6",
+        "Knowledge Graph Index Update 2026-03-03 23:00"
+      ],
+      [
+        "Batch Process 2026-03-03 04:00",
+        "Obsidian KnowledgeGraph Index File"
+      ],
+      [
+        "Agent:Chapter-Writer:Main Session",
+        "Telegram User 7579913696"
+      ],
+      [
+        "Agent: Chapter-Writer: Main",
+        "Session Snapshot"
+      ],
+      [
+        "Projects Category",
+        "Projects Count 127"
+      ],
+      [
+        "Knowledge Graph Index Update 2026-03-04 18:00",
+        "People Count 315"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Count"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Obsidian: Quick-Reference.md"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Session Learnings"
+      ],
+      [
+        "Memory: 2026-03-01",
+        "System Optimization Session"
+      ],
+      [
+        "20 Messages Exchanged",
+        "Agent:Chapter-Writer:Main Session"
+      ],
+      [
+        "Memory Entry 2026-03-02",
+        "Session Snapshot"
+      ],
+      [
+        "7579913696",
+        "Anirach Mingkhwan"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge Graph Index Update 2026-03-04 04:00"
+      ],
+      [
+        "Arscontexta",
+        "The /remember Command"
+      ],
+      [
+        "Knowledge Graph",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Index Tag",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Projects Category",
+        "Projects Count 128"
+      ],
+      [
+        "Daily Notes",
+        "Memory Entry 2026-03-01"
+      ],
+      [
+        "Always-Load Tag",
+        "Obsidian: Quick-Reference.md"
+      ],
+      [
+        "Telegram",
+        "Telegram ID"
+      ],
+      [
+        "Knowledge Graph Index Update 2026-03-04 04:00",
+        "Projects Count 127"
+      ],
+      [
+        "Batch",
+        "Recent Activity"
+      ],
+      [
+        "Memory: 2026-02-23",
+        "Session Learnings"
+      ],
+      [
+        "Daily Notes",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "Batch Process 2026-03-03 23:00",
+        "Memory Entry 2026-03-02"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge Graph Index Update 2026-03-03 23:00"
+      ],
+      [
+        "Batch Process 2026-03-04 18:00",
+        "Obsidian KnowledgeGraph Index File"
+      ],
+      [
+        "Memory Search Fix",
+        "System Optimization Session"
+      ],
+      [
+        "Knowledge Graph Index Update 2026-03-04 18:00",
+        "Projects Count 128"
+      ]
+    ],
+    "count": 78,
+    "create_time": 1772676738,
+    "update_time": 1772676738,
+    "_id": "doc-6898b27740be443e8e453b8eccb739e1"
+  },
+  "doc-b6f9007ed37a2d2015d2723fe141f45a": {
+    "relation_pairs": [
+      [
+        "Deadline",
+        "Item 156"
+      ],
+      [
+        "Item 156",
+        "March 4, 2026"
+      ],
+      [
+        "Item 156",
+        "KnowledgeGraph/Action-Items/2026-03-04-Items--156.md"
+      ],
+      [
+        "Item 156",
+        "Open Status"
+      ],
+      [
+        "Action Item",
+        "Item 156"
+      ],
+      [
+        "Item 156",
+        "Unknown Owner"
+      ],
+      [
+        "Item 156",
+        "Knowledge Graph"
+      ],
+      [
+        "KnowledgeGraph/Action-Items/2026-03-04-Items--156.md",
+        "March 4, 2026"
+      ],
+      [
+        "Batch Source",
+        "Item 156"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772676743,
+    "update_time": 1772676743,
+    "_id": "doc-b6f9007ed37a2d2015d2723fe141f45a"
+  },
+  "doc-afdb70d2f6128c9a780b9372e68554ef": {
+    "relation_pairs": [
+      [
+        "ACADEMIC_TEAM.md",
+        "Decision for ACADEMIC_TEAM.md Improvements"
+      ],
+      [
+        "CALIBRATION_DB.md",
+        "Decision for ACADEMIC_TEAM.md Improvements"
+      ],
+      [
+        "Decision for ACADEMIC_TEAM.md Improvements",
+        "Reviewer Score Calibration System"
+      ],
+      [
+        "Decision for ACADEMIC_TEAM.md Improvements",
+        "Novelty Verification Gate"
+      ],
+      [
+        "Adversarial Red-Team Reviewer Agent",
+        "Decision for ACADEMIC_TEAM.md Improvements"
+      ],
+      [
+        "Decision for ACADEMIC_TEAM.md Improvements",
+        "Pipeline"
+      ],
+      [
+        "Decision for ACADEMIC_TEAM.md Improvements",
+        "Structured Argumentation in Consensus Protocol"
+      ],
+      [
+        "Academic Agents",
+        "Adversarial Red-Team Reviewer Agent"
+      ],
+      [
+        "Academic Agents",
+        "Decision for ACADEMIC_TEAM.md Improvements"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772676769,
+    "update_time": 1772676769,
+    "_id": "doc-afdb70d2f6128c9a780b9372e68554ef"
+  },
+  "doc-624f82c2f306963511da123121ec4085": {
+    "relation_pairs": [
+      [
+        "Action Item",
+        "KnowledgeGraph/Action-Items/2026-03-04-Items--157.md"
+      ],
+      [
+        "KnowledgeGraph/Action-Items/2026-03-04-Items--157.md",
+        "Unknown"
+      ],
+      [
+        "Item 157",
+        "KnowledgeGraph/Action-Items/2026-03-04-Items--157.md"
+      ],
+      [
+        "2026-03-04",
+        "KnowledgeGraph/Action-Items/2026-03-04-Items--157.md"
+      ],
+      [
+        "KnowledgeGraph/Action-Items/2026-03-04-Items--157.md",
+        "Open"
+      ],
+      [
+        "Knowledge Graph",
+        "KnowledgeGraph/Action-Items/2026-03-04-Items--157.md"
+      ],
+      [
+        "Batch",
+        "KnowledgeGraph/Action-Items/2026-03-04-Items--157.md"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1772676776,
+    "update_time": 1772676776,
+    "_id": "doc-624f82c2f306963511da123121ec4085"
+  },
+  "doc-23fda636ff43924bd38d40789fc5e489": {
+    "relation_pairs": [
+      [
+        "Action Item",
+        "Unknown Owner"
+      ],
+      [
+        "Action Item",
+        "Knowledge Graph"
+      ],
+      [
+        "Action Item",
+        "Deadline"
+      ],
+      [
+        "Action Item",
+        "March 4, 2026"
+      ],
+      [
+        "Action Item",
+        "Item 155"
+      ],
+      [
+        "Action Item",
+        "Open Status"
+      ],
+      [
+        "Action Item",
+        "Batch Source"
+      ],
+      [
+        "2026-03-04-Items--155.md",
+        "Action Item"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772676812,
+    "update_time": 1772676812,
+    "_id": "doc-23fda636ff43924bd38d40789fc5e489"
+  },
+  "doc-76ebd2fd8a6971743f9a176cc997ff13": {
+    "relation_pairs": [
+      [
+        "Implemented All 7 Academic Pipeline Enhancements",
+        "Venue-Specific Reviewer Personas"
+      ],
+      [
+        "Implemented All 7 Academic Pipeline Enhancements",
+        "KnowledgeGraph/Projects/Implemented-All-7-Academic-Pipeline-Enhancements:-(1)-Venue-Specific-Reviewer-Personas.md"
+      ],
+      [
+        "Cross-Paper Knowledge Transfer",
+        "Implemented All 7 Academic Pipeline Enhancements"
+      ],
+      [
+        "Implemented All 7 Academic Pipeline Enhancements",
+        "Reviewer Comment Prediction Protocol"
+      ],
+      [
+        "Home",
+        "Implemented All 7 Academic Pipeline Enhancements"
+      ],
+      [
+        "Implemented All 7 Academic Pipeline Enhancements",
+        "Multi-Round Self-Improvement Loop"
+      ],
+      [
+        "Positioning Map Generator",
+        "Tools/Academic/Positioning_Map.py"
+      ],
+      [
+        "ACADEMIC_TEAM.md",
+        "Implemented All 7 Academic Pipeline Enhancements"
+      ],
+      [
+        "Tools/Academic/Style_Forensics.py",
+        "Writing Style Forensics"
+      ],
+      [
+        "Papers/Cross_Paper_Kb/Autopsy_Log.md",
+        "Rejection Autopsy Protocol"
+      ],
+      [
+        "Venue Profiles",
+        "Venue-Specific Reviewer Personas"
+      ],
+      [
+        "Implemented All 7 Academic Pipeline Enhancements",
+        "Rejection Autopsy Protocol"
+      ],
+      [
+        "Templates/Venue-Profiles/",
+        "Venue Profiles"
+      ],
+      [
+        "2026-03-04",
+        "Implemented All 7 Academic Pipeline Enhancements"
+      ],
+      [
+        "Implemented All 7 Academic Pipeline Enhancements",
+        "Positioning Map Generator"
+      ],
+      [
+        "Implemented All 7 Academic Pipeline Enhancements",
+        "Writing Style Forensics"
+      ],
+      [
+        "Cross-Paper Knowledge Transfer",
+        "Papers/Cross_Paper_Kb/Knowledge_Base.md"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1772676820,
+    "update_time": 1772676820,
+    "_id": "doc-76ebd2fd8a6971743f9a176cc997ff13"
   }
 }

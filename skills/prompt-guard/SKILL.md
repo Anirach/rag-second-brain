@@ -2,7 +2,7 @@
 name: prompt-guard
 author: "Seojoon Kim"
 version: 3.4.0
-description: "577+ pattern prompt injection defense. Now with typo-tolerant bypass detection. TieredPatternLoader fully operational. Drop-in defense for any LLM application."
+description: "Pattern-based prompt injection defense with 577+ detection patterns and typo-tolerant bypass detection. Use when building LLM applications that need input filtering, implementing prompt injection defense layers, or testing prompt security. This is a RULE-BASED scanner. NOT for: ML-based injection detection (use the managed prompt-guard skill for Meta's model), or scanning skill packages for security (use skillguard)."
 ---
 
 # Prompt Guard v3.4.0

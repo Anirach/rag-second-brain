@@ -1,3 +1,8 @@
+---
+name: debug-pro
+description: Advanced debugging workflows for complex issues. Use when standard debugging fails, need systematic root-cause analysis, or debugging distributed/async systems. NOT for: simple error lookups or code review (use clean-code-review).
+---
+
 # debug-pro
 
 Systematic debugging methodology and language-specific debugging commands.

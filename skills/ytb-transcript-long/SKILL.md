@@ -1,6 +1,6 @@
 ---
 name: youtube-transcript
-description: YouTube long video (>1 hour) full verbatim transcription and translation workflow. Use when user needs to (1) Extract subtitles from YouTube videos, (2) Translate English transcripts to Chinese, (3) Handle long videos that exceed session limits, (4) Process DownSub API responses and generate formatted documents.
+description: Full verbatim transcription of long YouTube videos (>1 hour) with optional translation. Handles videos exceeding session limits via chunked processing with DownSub API. Use specifically for LONG YouTube videos that need complete transcripts. NOT for: short video transcription (use summarize skill with YouTube URL), general audio transcription (use voice-recognition), or video frame extraction (use video-frames).
 ---
 
 # YouTube Long Video Transcript & Translation

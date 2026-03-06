@@ -1,6 +1,6 @@
 ---
 name: pdf-form-filler
-description: Fill PDF forms programmatically with text values and checkboxes. Use when you need to populate fillable PDF forms (government forms, applications, surveys, etc.) with data. Supports setting text fields and checkboxes with proper appearance states for visual rendering.
+description: Fill fillable PDF forms programmatically with text values and checkboxes. Use specifically when populating government forms, applications, surveys, or any PDF with form fields. NOT for: creating new PDFs (use ai-pdf-builder), editing PDF content/layout (use nano-pdf), or extracting data from PDFs (use pymupdf).
 version: 0.2.0
 ---
 

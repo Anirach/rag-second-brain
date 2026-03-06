@@ -1,6 +1,6 @@
 ---
 name: "data-anomaly-detector"
-description: "Detect anomalies and outliers in construction data: unusual costs, schedule variances, productivity spikes. Statistical and ML-based detection methods."
+description: "Detect outliers and anomalies in datasets using statistical methods and visualization. Use when finding unusual patterns, data quality issues, or unexpected values. NOT for: general data analysis (use data-analysis)."
 homepage: "https://datadrivenconstruction.io"
 metadata: {"openclaw": {"emoji": "✔️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---

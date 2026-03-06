@@ -1,6 +1,6 @@
 ---
 name: telegram-voice-group
-description: 向指定 Telegram 群组发送语音消息
+description: Send voice messages to specified Telegram groups. Use when user needs to send audio/voice messages to Telegram group chats programmatically. NOT for: regular text messages (use message tool directly) or speech-to-text (use voice-recognition).
 metadata: {"openclaw":{"emoji":"🔊","os":["linux"],"requires":{"bins":["ffmpeg","edge-tts"]}}}
 ---
 

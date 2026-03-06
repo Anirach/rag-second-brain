@@ -1,6 +1,6 @@
 ---
 name: DOCX
-description: Read and generate Word documents with correct structure, styles, and cross-platform compatibility.
+description: Read, parse, and modify existing Word documents (.docx) with python-docx. Use when READING content from .docx files, making edits to existing documents, or extracting text/tables from Word files. NOT for: creating new documents from scratch (use docx-generator-skill), creating Google Docs (use gdocs-markdown).
 metadata: {"clawdbot":{"emoji":"📘","os":["linux","darwin","win32"]}}
 ---
 

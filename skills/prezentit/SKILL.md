@@ -1,7 +1,7 @@
 ```skill
 ---
 name: prezentit
-description: Generate beautiful AI-powered presentations instantly. Create professional slides with custom themes, visual designs, and speaker notes—all through natural language commands.
+description: Create presentations from text/markdown with AI-powered slide generation. Use when quickly generating slide decks from content. NOT for: detailed PowerPoint editing (use powerpoint-pptx) or Google Slides (use google-slides).
 homepage: https://prezentit.net
 emoji: "👽"
 metadata:

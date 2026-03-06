@@ -1,7 +1,7 @@
 ---
 name: literature-review
 version: 1.2.0
-description: Assistance with writing literature reviews by searching for academic sources via Semantic Scholar, OpenAlex, Crossref and PubMed APIs. Use when the user needs to find papers on a topic, get details for specific DOIs, or draft sections of a literature review with proper citations.
+description: "Write literature review sections by searching Semantic Scholar, OpenAlex, Crossref, and PubMed APIs. Use when user needs to find papers on a topic, get details for specific DOIs, or draft literature review sections with proper citations. NOT for: broad web research (use deep-research-pro), full research reports (use academic-deep-research), or just finding/listing papers without review writing (use literature-search)."
 ---
 
 # Literature Review

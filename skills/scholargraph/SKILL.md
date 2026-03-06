@@ -1,8 +1,7 @@
-{
-  "name": "ScholarGraph",
-  "description": "An AI-powered toolkit that transforms academic literature into interactive knowledge graphs, enabling researchers to discover connections, track scholarly progress, and visualize research landscapes.",
-  "version": "1.0.0"
-}
+---
+name: scholargraph
+description: Visualize citation networks and research paper relationships as graphs. Use when mapping research landscapes, finding influential papers, or understanding citation patterns. NOT for: searching papers (use literature-search) or writing reviews.
+---
 
 # ScholarGraph
 

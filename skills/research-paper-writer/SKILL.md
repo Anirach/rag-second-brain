@@ -1,6 +1,6 @@
 ---
 name: research-paper-writer
-description: Creates formal academic research papers following IEEE/ACM formatting standards with proper structure, citations, and scholarly writing style. Use when the user asks to write a research paper, academic paper, or conference paper on any topic.
+description: Create new formal academic research papers from scratch following IEEE/ACM formatting standards with proper structure, citations, and scholarly writing. Use when user asks to WRITE a new research paper or conference paper on a topic. NOT for: refining/polishing existing drafts (use academic-writing-refiner), ML/AI papers for NeurIPS/ICLR (use 20-ml-paper-writing), or general writing improvement (use writing).
 ---
 
 # Research Paper Writer

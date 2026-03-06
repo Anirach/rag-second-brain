@@ -1,6 +1,6 @@
 ---
 name: academic-deep-research
-description: Transparent, rigorous research with full methodology — not a black-box API wrapper. Conducts exhaustive investigation through mandated 2-cycle research per theme, APA 7th citations, evidence hierarchy, and 3 user checkpoints. Self-contained using native OpenClaw tools (web_search, web_fetch, sessions_spawn). Use for literature reviews, competitive intelligence, or any research requiring academic rigor and reproducibility.
+description: "Conduct rigorous, multi-cycle academic research with APA 7th citations, evidence hierarchy, and user checkpoints. Use for literature reviews, systematic reviews, or any research requiring academic methodology and reproducibility. NOT for: quick web lookups (use web_search), paper searching without synthesis (use literature-search), or ML-specific paper writing (use 20-ml-paper-writing)."
 homepage: https://github.com/kesslerio/academic-deep-research-clawhub-skill
 metadata:
   openclaw:

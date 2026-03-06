@@ -1,7 +1,6 @@
 ---
 name: google-slides
-description: |
-  Google Slides API integration with managed OAuth. Create presentations, add slides, insert content, and manage slide formatting. Use this skill when users want to interact with Google Slides. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).
+description: Create and edit Google Slides presentations via API. Use when working with Google Slides specifically. NOT for: PowerPoint PPTX files (use powerpoint-pptx or ai-ppt-generator).
 compatibility: Requires network access and valid Maton API key
 metadata:
   author: maton

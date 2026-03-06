@@ -1,9 +1,6 @@
 ---
 name: edge-tts
-description: |
-  Text-to-speech conversion using node-edge-tts npm package for generating audio from text.
-  Supports multiple voices, languages, speed adjustment, pitch control, and subtitle generation.
-  Use when: (1) User requests audio/voice output with the "tts" trigger or keyword. (2) Content needs to be spoken rather than read (multitasking, accessibility, driving, cooking). (3) User wants a specific voice, speed, pitch, or format for TTS output.
+description: Generate speech audio from text using Microsoft Edge TTS (free, no API key). Use when converting text to speech locally, creating voiceovers, or generating audio files. NOT for: OpenAI Whisper transcription (use voice-recognition) or ElevenLabs TTS (use sag).
 ---
 
 # Edge-TTS Skill

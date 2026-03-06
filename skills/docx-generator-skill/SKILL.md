@@ -1,6 +1,6 @@
 ---
 name: docx-generator
-description: Professional Word document (.docx) generation skill using docx-js library. Use when creating reports, guides, manuals, proposals, or any professional documents with tables, styled headings, bullet lists, table of contents, headers/footers, and page breaks. Triggers on requests to create Word documents, generate reports, make professional documents, or convert text to formatted .docx files.
+description: Generate professional Word documents (.docx) using docx-js library with styled headings, TOC, headers/footers, tables, and page breaks. PRIMARY skill for creating new .docx reports, guides, manuals, and proposals. Use when creating Word documents from scratch. NOT for: reading/parsing existing DOCX files (use word-docx), Excel or PowerPoint (use office-document-specialist-suite).
 ---
 
 # DOCX Generator Skill
