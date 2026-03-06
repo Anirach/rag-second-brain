@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NRLS National Incident Command Dashboard — สรพ.</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Tahoma,sans-serif;background:#080c1e;color:#e0e6ed;min-height:100vh}
+.header{background:linear-gradient(135deg,#1a0a2e 0%,#2d1b4e 50%,#0d1b3e 100%);padding:18px 28px;display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #6a1b9a}
+.header h1{font-size:20px;color:#fff;letter-spacing:1px}
+.header h1 span{color:#ce93d8;font-weight:300}
+.header h1 .em{font-size:24px}
+.hdr-r{text-align:right;color:#90a4ae}
+.hdr-r .date{font-size:13px}.hdr-r .badge{background:#1b5e20;color:#66bb6a;padding:3px 10px;border-radius:12px;font-size:11px;margin-top:3px;display:inline-block}
+.hdr-r .badge.red{background:#b71c1c;color:#ef9a9a}
+
+.kpi-row{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;padding:14px 22px}
+.kpi{background:linear-gradient(145deg,#12102a,#0e0c22);border:1px solid #2a1a4f;border-radius:10px;padding:14px;text-align:center;position:relative;overflow:hidden}
+.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:10px 10px 0 0}
+.kpi.v::before{background:#9c27b0}.kpi.b::before{background:#2196f3}.kpi.g::before{background:#4caf50}
+.kpi.r::before{background:#f44336}.kpi.a::before{background:#ff9800}.kpi.c::before{background:#00bcd4}
+.kpi-l{font-size:10px;color:#78909c;text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px}
+.kpi-v{font-size:28px;font-weight:700;color:#fff}
+.kpi-s{font-size:10px;color:#90a4ae;margin-top:3px}
+.kpi-s .up{color:#66bb6a}.kpi-s .dn{color:#ef5350}.kpi-s .warn{color:#ff9800}
+
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:0 22px 12px}
+.g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;padding:0 22px 12px}
+.g23{display:grid;grid-template-columns:2fr 1fr;gap:12px;padding:0 22px 12px}
+.g32{display:grid;grid-template-columns:1fr 2fr;gap:12px;padding:0 22px 12px}
+.pnl{background:linear-gradient(145deg,#12102a,#0e0c22);border:1px solid #2a1a4f;border-radius:10px;padding:14px;margin-bottom:12px}
+.pnl-t{font-size:12px;font-weight:600;color:#ce93d8;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px;display:flex;align-items:center;gap:7px}
+.pnl-t .dot{width:7px;height:7px;border-radius:50%;background:#ce93d8;display:inline-block}
+
+.tbl{width:100%;border-collapse:collapse;font-size:11px}
+.tbl th{background:#1a1040;color:#b39ddb;padding:7px 5px;text-align:center;font-weight:600;border-bottom:2px solid #311b92;position:sticky;top:0}
+.tbl td{padding:6px 5px;text-align:center;border-bottom:1px solid #1a1040}
+.tbl tr:hover{background:rgba(156,39,176,0.06)}
+.tbl .left{text-align:left;color:#b0bec5}
+
+.bar-h{height:16px;border-radius:3px;display:flex;align-items:center;justify-content:flex-end;padding-right:4px;font-size:9px;font-weight:600;color:#fff}
+
+.alert{display:flex;align-items:center;gap:8px;padding:7px 9px;border-radius:6px;margin-bottom:5px;font-size:11px}
+.alert.crit{background:rgba(244,67,54,0.1);border-left:3px solid #f44336}
+.alert.warn{background:rgba(255,152,0,0.1);border-left:3px solid #ff9800}
+.alert.info{background:rgba(33,150,243,0.08);border-left:3px solid #2196f3}
+.alert .num{font-weight:700;font-size:16px;min-width:55px;text-align:right}
+.alert .txt{color:#b0bec5}
+
+canvas{max-height:100%}
+.ch{position:relative;height:250px}
+.ch-t{position:relative;height:300px}
+.ch-s{position:relative;height:210px}
+
+.footer{text-align:center;padding:8px;color:#546e7a;font-size:10px;border-top:1px solid #1a1040}
+.tag{display:inline-block;padding:2px 7px;border-radius:4px;font-size:10px;font-weight:600;margin:1px}
+.tag-r{background:#f4433620;color:#ef5350}.tag-a{background:#ff980020;color:#ff9800}.tag-g{background:#4caf5020;color:#4caf50}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span class="em">🛡️</span> NRLS National Incident <span>Command Dashboard</span></h1>
+  <div class="hdr-r">
+    <div class="date">📅 March 2026 | v_DataSetReport — Patient Safety Intelligence</div>
+    <div class="badge">● LIVE from HA+ Data Hub</div>
+    <div class="badge red" style="margin-left:4px">⚡ 586 Reporting Hospitals</div>
+  </div>
+</div>
+
+<!-- KPI Row -->
+<div class="kpi-row">
+  <div class="kpi v">
+    <div class="kpi-l">Reporting Hospitals (2025)</div>
+    <div class="kpi-v">586</div>
+    <div class="kpi-s">of 1,584 enrolled <span class="warn">(37%)</span></div>
+  </div>
+  <div class="kpi b">
+    <div class="kpi-l">Total Patient-Days (2025)</div>
+    <div class="kpi-v">14.7M</div>
+    <div class="kpi-s"><span class="dn">▼ 6.4%</span> vs 2024 (15.7M)</div>
+  </div>
+  <div class="kpi r">
+    <div class="kpi-l">In-Hospital Deaths (2025)</div>
+    <div class="kpi-v">81,033</div>
+    <div class="kpi-s"><span class="up">▼ 16.9%</span> vs 2024 (97,498)</div>
+  </div>
+  <div class="kpi a">
+    <div class="kpi-l">ER Critical Cases (2025)</div>
+    <div class="kpi-v">550,384</div>
+    <div class="kpi-s"><span class="dn">▼ 5.8%</span> vs 2024 (584,130)</div>
+  </div>
+  <div class="kpi c">
+    <div class="kpi-l">Patient Referrals (2025)</div>
+    <div class="kpi-v">1.07M</div>
+    <div class="kpi-s"><span class="up">▼ 8.0%</span> vs 2024 (1.16M)</div>
+  </div>
+  <div class="kpi g">
+    <div class="kpi-l">Surgical Patients (2025)</div>
+    <div class="kpi-v">1.14M</div>
+    <div class="kpi-s"><span class="warn">▼ 0.5%</span> stable vs 2024</div>
+  </div>
+</div>
+
+<!-- Row 2: Year Trend + Monthly Pattern -->
+<div class="g2">
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot"></span>Multi-Year Trend — Key Indicators (2019–2025)</div>
+    <div class="ch-t"><canvas id="yearTrend"></canvas></div>
+  </div>
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot"></span>Monthly Pattern 2025 — Deaths & ER Critical</div>
+    <div class="ch-t"><canvas id="monthChart"></canvas></div>
+  </div>
+</div>
+
+<!-- Row 3: Regional + Hospital Type -->
+<div class="g23">
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot"></span>Regional Performance (2025) — Key Safety Indicators</div>
+    <div style="max-height:320px;overflow-y:auto">
+    <table class="tbl">
+      <thead><tr><th>Region</th><th>Hospitals</th><th>Patient-Days</th><th>Deaths</th><th>Mortality Rate ‰</th><th>Referrals</th><th>ER Critical</th><th>Death Rate Bar</th></tr></thead>
+      <tbody id="regBody"></tbody>
+    </table>
+    </div>
+  </div>
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot" style="background:#f44336"></span>Critical Alerts</div>
+    <div class="alert crit">
+      <div class="num" style="color:#f44336">81K</div>
+      <div class="txt"><strong>In-Hospital Deaths (2025)</strong><br>5.5 per 1,000 patient-days<br><span class="tag tag-g">▼ 16.9% vs 2024 ✓</span></div>
+    </div>
+    <div class="alert crit">
+      <div class="num" style="color:#ff5722">139K</div>
+      <div class="txt"><strong>Peak Year: 2022</strong><br>Deaths spiked 35% above trend<br><span class="tag tag-r">COVID-19 impact year</span></div>
+    </div>
+    <div class="alert warn">
+      <div class="num" style="color:#ff9800">Mar</div>
+      <div class="txt"><strong>Highest Death Month</strong><br>8,992 deaths (March 2025)<br><span class="tag tag-a">Seasonal peak detected</span></div>
+    </div>
+    <div class="alert warn">
+      <div class="num" style="color:#ff9800">Nov</div>
+      <div class="txt"><strong>2nd Peak Month</strong><br>8,050 deaths (November 2025)<br><span class="tag tag-a">Winter season effect</span></div>
+    </div>
+    <div class="alert info">
+      <div class="num" style="color:#2196f3">37%</div>
+      <div class="txt"><strong>Reporting Coverage</strong><br>586 of 1,584 hospitals reporting<br><span class="tag tag-a">63% hospitals not in dataset</span></div>
+    </div>
+    <div style="margin-top:12px">
+      <div class="pnl-t"><span class="dot" style="background:#ff9800"></span>IC Risk: Device-Days Trend (2025)</div>
+      <div class="ch-s"><canvas id="deviceChart"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- Row 4: Enrollment Type + Reporting Trend -->
+<div class="g2">
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot"></span>Hospital Enrollment Type — Patient Volume & Mortality (2025)</div>
+    <div class="ch-t"><canvas id="enrollType"></canvas></div>
+  </div>
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot"></span>Reporting Hospital Growth (2019–2025)</div>
+    <div class="ch"><canvas id="hospGrowth"></canvas></div>
+    <div style="margin-top:12px">
+      <div class="pnl-t"><span class="dot" style="background:#4caf50"></span>Key Risk Rate Indicators (25 tracked)</div>
+      <table class="tbl">
+        <thead><tr><th>Risk Rate</th><th>Hospitals</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr><td>RR001</td><td>794</td><td class="left">Patient-Days (denominator)</td></tr>
+          <tr><td>RR017</td><td>711</td><td class="left">In-Hospital Deaths</td></tr>
+          <tr><td>RR011</td><td>730</td><td class="left">Patient Referrals</td></tr>
+          <tr><td>RR007</td><td>703</td><td class="left">ER Critical (Red)</td></tr>
+          <tr><td>RR008</td><td>702</td><td class="left">ER Urgent (Yellow)</td></tr>
+          <tr><td>RR013</td><td>519</td><td class="left">Surgical Patients</td></tr>
+          <tr><td>RR019</td><td>662</td><td class="left">Urinary Catheter Days</td></tr>
+          <tr><td>RR018</td><td>392</td><td class="left">Ventilator Days</td></tr>
+          <tr><td>RR020</td><td>386</td><td class="left">Central Line Days</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  NRLS National Incident Command Dashboard | Data: v_DataSetReport — HA+ Data Hub | สถาบันรับรองคุณภาพสถานพยาบาล (สรพ.) | Updated: March 6, 2026
+</div>
+
+<script>
+Chart.register(ChartDataLabels);
+Chart.defaults.color='#90a4ae';Chart.defaults.font.family="'Segoe UI',sans-serif";Chart.defaults.font.size=11;
+
+// 1. Multi-Year Trend
+new Chart(document.getElementById('yearTrend'),{
+  type:'line',
+  data:{
+    labels:['2019','2020','2021','2022','2023','2024','2025'],
+    datasets:[
+      {label:'Deaths (×1K)',data:[44.3,72.5,103.0,139.2,90.8,97.5,81.0],borderColor:'#f44336',backgroundColor:'#f4433630',fill:true,tension:.3,pointRadius:4,borderWidth:2},
+      {label:'ER Critical (×100K)',data:[4.78,4.76,4.64,4.88,5.30,5.84,5.50],borderColor:'#ff9800',backgroundColor:'#ff980020',fill:false,tension:.3,pointRadius:4,borderWidth:2,yAxisID:'y1'},
+      {label:'Referrals (×100K)',data:[5.59,8.16,8.53,9.50,11.75,11.60,10.67],borderColor:'#2196f3',backgroundColor:'#2196f320',fill:false,tension:.3,pointRadius:4,borderWidth:2,yAxisID:'y1'},
+      {label:'Surgeries (×100K)',data:[6.29,8.46,7.84,9.15,10.93,11.49,11.43],borderColor:'#4caf50',backgroundColor:'#4caf5020',fill:false,tension:.3,pointRadius:4,borderWidth:2,yAxisID:'y1'}
+    ]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:6,font:{size:10}}},datalabels:{display:false}},
+    scales:{
+      x:{grid:{color:'#1a1040'}},
+      y:{position:'left',grid:{color:'#1a1040'},title:{display:true,text:'Deaths (×1,000)',color:'#f44336',font:{size:10}}},
+      y1:{position:'right',grid:{display:false},title:{display:true,text:'Others (×100,000)',color:'#78909c',font:{size:10}}}
+    },
+    interaction:{intersect:false,mode:'index'}
+  }
+});
+
+// 2. Monthly Pattern 2025
+new Chart(document.getElementById('monthChart'),{
+  type:'bar',
+  data:{
+    labels:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+    datasets:[
+      {label:'Deaths',data:[7097,6758,8992,6465,6572,6315,5973,6117,5976,6829,8050,5889],
+        backgroundColor:ctx=>{const v=ctx.raw;return v>8000?'#f44336':v>7000?'#ff5722':'#ff9800'},borderRadius:3,yAxisID:'y'},
+      {label:'ER Critical',data:[50549,46086,53542,49624,42472,49937,42779,38797,45274,44329,42367,44628],
+        type:'line',borderColor:'#ce93d8',borderWidth:2,pointRadius:3,tension:.3,fill:false,yAxisID:'y1'}
+    ]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:6,font:{size:10}}},
+      datalabels:{display:false}},
+    scales:{
+      x:{grid:{color:'#1a1040'}},
+      y:{position:'left',grid:{color:'#1a1040'},title:{display:true,text:'Deaths',color:'#f44336',font:{size:10}}},
+      y1:{position:'right',grid:{display:false},title:{display:true,text:'ER Critical',color:'#ce93d8',font:{size:10}}}
+    }
+  }
+});
+
+// 3. Regional Table
+const regs=[
+  {name:'ภาคตะวันออกเฉียงเหนือ (Isan)',h:178,pd:4436352,d:23030,ref:314008,er:199986},
+  {name:'ภาคกลาง (Central)',h:126,pd:3331460,d:22111,ref:265692,er:127229},
+  {name:'ภาคใต้ (South)',h:88,pd:1852386,d:8111,ref:134473,er:54716},
+  {name:'กรุงเทพฯ (Bangkok)',h:41,pd:1521855,d:7871,ref:26396,er:39025},
+  {name:'ภาคเหนือ (North)',h:65,pd:1448286,d:4780,ref:131135,er:53181},
+  {name:'ภาคตะวันออก (East)',h:54,pd:1405159,d:9568,ref:141632,er:40154},
+  {name:'ภาคตะวันตก (West)',h:34,pd:728478,d:5562,ref:53971,er:36093}
+];
+const maxRate=Math.max(...regs.map(r=>r.d/r.pd*1000));
+const tbody=document.getElementById('regBody');
+regs.forEach(r=>{
+  const rate=(r.d/r.pd*1000).toFixed(2);
+  const barW=Math.round(rate/maxRate*100);
+  const barC=rate>6?'#f44336':rate>5?'#ff9800':'#4caf50';
+  tbody.innerHTML+=`<tr>
+    <td class="left">${r.name}</td><td>${r.h}</td>
+    <td>${(r.pd/1e6).toFixed(1)}M</td>
+    <td style="color:#ef5350;font-weight:600">${r.d.toLocaleString()}</td>
+    <td style="font-weight:600;color:${barC}">${rate}</td>
+    <td>${(r.ref/1e3).toFixed(0)}K</td>
+    <td>${(r.er/1e3).toFixed(0)}K</td>
+    <td><div class="bar-h" style="width:${barW}%;background:${barC}">${rate}‰</div></td>
+  </tr>`;
+});
+// Total row
+tbody.innerHTML+=`<tr style="background:#1a1040;font-weight:700">
+  <td class="left">Total</td><td>586</td><td>14.7M</td>
+  <td style="color:#ef5350">81,033</td><td style="font-weight:700">5.50</td>
+  <td>1.07M</td><td>550K</td><td></td></tr>`;
+
+// 4. Device Days (IC Risk)
+new Chart(document.getElementById('deviceChart'),{
+  type:'bar',
+  data:{
+    labels:['2019','2020','2021','2022','2023','2024','2025'],
+    datasets:[
+      {label:'Catheter Days (M)',data:[1.24,1.82,1.87,1.96,2.37,2.53,2.51],backgroundColor:'#7c4dff',borderRadius:3},
+      {label:'Ventilator Days (M)',data:[0.59,0.88,0.96,0.97,0.95,1.01,1.06],backgroundColor:'#f44336',borderRadius:3},
+      {label:'Central Line Days (M)',data:[0.24,0.37,0.46,0.65,0.86,0.84,0.78],backgroundColor:'#ff9800',borderRadius:3}
+    ]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'top',labels:{usePointStyle:true,pointStyle:'rect',padding:4,font:{size:9}}},datalabels:{display:false}},
+    scales:{x:{stacked:true,grid:{color:'#1a1040'}},y:{stacked:true,grid:{color:'#1a1040'},title:{display:true,text:'Million Days',color:'#78909c',font:{size:9}}}}
+  }
+});
+
+// 5. Enrollment Type (Horizontal)
+const etLabels=['รพท.(S)','รพศ.(A)','รพท.(M1)','รพช.(F2)','รร.แพทย์','รพช.(F1)','รพช.(M2)','รพศ.+รร.แพทย์','เอกชน≈รพท.','สถาบันเฉพาะทาง'];
+const etPD=[2.35,2.26,1.59,1.24,1.07,1.06,0.99,0.77,0.74,0.65];
+const etDeath=[14323,17437,7697,6270,5530,4697,4534,7355,1445,547];
+const etHosp=[37,16,35,213,9,88,51,3,42,22];
+new Chart(document.getElementById('enrollType'),{
+  type:'bar',
+  data:{
+    labels:etLabels,
+    datasets:[
+      {label:'Patient-Days (M)',data:etPD,backgroundColor:'#1565c0',borderRadius:3},
+      {label:'Deaths (K)',data:etDeath.map(v=>v/1000),backgroundColor:'#f44336',borderRadius:3}
+    ]
+  },
+  options:{
+    indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'top',labels:{usePointStyle:true,pointStyle:'rect',padding:6,font:{size:10}}},
+      datalabels:{color:'#e0e6ed',font:{size:9},anchor:'end',align:'left',
+        formatter:(v,ctx)=>{
+          if(ctx.datasetIndex===1){const pd=etPD[ctx.dataIndex];const rate=(v*1000/(pd*1e6)*1000).toFixed(1);return rate+'‰'}
+          return v.toFixed(1)+'M'
+        }}
+    },
+    scales:{x:{grid:{color:'#1a1040'}},y:{grid:{display:false}}}
+  }
+});
+
+// 6. Hospital Growth
+new Chart(document.getElementById('hospGrowth'),{
+  type:'line',
+  data:{
+    labels:['2019','2020','2021','2022','2023','2024','2025'],
+    datasets:[{
+      label:'Reporting Hospitals',data:[238,424,542,580,598,609,586],
+      borderColor:'#ce93d8',backgroundColor:'#ce93d830',fill:true,tension:.3,
+      pointRadius:5,pointBackgroundColor:'#ce93d8',borderWidth:2
+    }]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},
+      datalabels:{color:'#fff',font:{weight:'bold',size:12},anchor:'top',align:'top'}},
+    scales:{x:{grid:{color:'#1a1040'}},y:{grid:{color:'#1a1040'},min:100,title:{display:true,text:'Hospitals',color:'#78909c'}}}
+  }
+});
+</script>
+</body>
+</html>

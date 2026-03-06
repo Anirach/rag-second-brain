@@ -129,13 +129,13 @@
     "tokens": 1200,
     "content": "[Source: KnowledgeGraph/People/First-Novel.md]\n---\nname: \"First Novel\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# First Novel\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md\n# Memory Log — 2026-02-05  ## Major Accomplishments  ### 1. Writing Team Setup - Created 6-agent professional writing team (book-architect, research-lead, chapter-writer, dev-editor, copy-editor, publisher) - Workspaces at `~/.openclaw/workspace-{agent-name}` - Model allocation: Opus for thinking-he\n\n\n## 2026-02-17 23:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-18 04:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-18 04:02 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-18 23:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-19 04:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-20 04:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-20 04:02 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |",
     "chunk_order_index": 0,
-    "full_doc_id": "doc-a7fb5d32b2c808db5489dfaa0664d3ec",
+    "full_doc_id": "doc-64fc84630d5f8d5aad86cda5f36dd9b7",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:2df0dddb2cd257c182c0e738a47763d7",
       "default:extract:6c2e596e3fc3ac4c11113304155931b7"
     ],
-    "update_time": 1772676011,
+    "update_time": 1772823614,
     "_id": "chunk-481427393c6695a98dde842249c71ce5",
     "create_time": 0
   },
@@ -143,13 +143,13 @@
     "tokens": 1200,
     "content": "Memory Log — 2026-02-05  \n\n\n## 2026-02-20 23:26 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-21 04:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-22 04:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-22 04:02 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-22 18:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-22 23:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-23 04:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-23 04:01 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-23 18:00 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n##",
     "chunk_order_index": 1,
-    "full_doc_id": "doc-a7fb5d32b2c808db5489dfaa0664d3ec",
+    "full_doc_id": "doc-64fc84630d5f8d5aad86cda5f36dd9b7",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:c6ff5c311cf2badba6775c29ccba592c",
       "default:extract:58c6b0ba0bdb2e10c46539220bdec48b"
     ],
-    "update_time": 1772676011,
+    "update_time": 1772823614,
     "_id": "chunk-02c142cb55bfe21786326d82ec655339",
     "create_time": 0
   },
@@ -157,13 +157,13 @@
     "tokens": 1200,
     "content": "\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-23 18:01 — Obsidian: KnowledgeGraph/People/First-Novel.md\n--- name: \"First Novel\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # First Novel  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md # Memory Log — 2026-02-05  \n\n\n## 2026-02-23 18:03 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-23 23:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 04:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 18:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 23:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-25 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-24 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-24 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  >",
     "chunk_order_index": 2,
-    "full_doc_id": "doc-a7fb5d32b2c808db5489dfaa0664d3ec",
+    "full_doc_id": "doc-64fc84630d5f8d5aad86cda5f36dd9b7",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:83fde1c8664ae097a21003fd7ae5f2ff",
       "default:extract:4650b60ab4db9261e05cb446d2bb41f2"
     ],
-    "update_time": 1772676011,
+    "update_time": 1772823614,
     "_id": "chunk-dc6fcf70267592172f417dccb380b103",
     "create_time": 0
   },
@@ -171,13 +171,13 @@
     "tokens": 1200,
     "content": "25 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-28 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-28 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 23:00 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 04:40 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 18:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n##",
     "chunk_order_index": 3,
-    "full_doc_id": "doc-a7fb5d32b2c808db5489dfaa0664d3ec",
+    "full_doc_id": "doc-64fc84630d5f8d5aad86cda5f36dd9b7",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:9fe78044681baac2b81fe3be924c8b66",
       "default:extract:681deb9f3733f77c25d14e8ac73cf01f"
     ],
-    "update_time": 1772676011,
+    "update_time": 1772823614,
     "_id": "chunk-dbddb0cc8f3daa198946451856e988a7",
     "create_time": 0
   },
@@ -1739,13 +1739,13 @@
     "tokens": 1200,
     "content": "[Source: KnowledgeGraph/People/Memory-Log.md]\n---\nname: \"Memory Log\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Memory Log\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md\n# Memory Log — 2026-02-05  ## Major Accomplishments  ### 1. Writing Team Setup - Created 6-agent professional writing team (book-architect, research-lead, chapter-writer, dev-editor, copy-editor, publisher) - Workspaces at `~/.openclaw/workspace-{agent-name}` - Model allocation: Opus for thinking-he\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/2026-02-04.md\n# 2026-02-04 — Memory Log  ## Bookshelf App Project  **Location:** `/home/clawdbot/Projects/bookshelf` **Stack:** Next.js 14 + shadcn/ui + Prisma 5 + SQLite  ### Setup Complete - Database schema: Book, Author, Genre models with relations - Seeded 5 sample books: 1984, Foundation, Atomic Habits, Stev\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/2026-02-14.md\n# Memory Log — 2026-02-14 (Valentine's Day)  ## Model Update: Claude Opus 4-6 - Anirach switched primary model to `anthropic/claude-opus-4-6` (new release) - Initially failed (\"Unknown model\") around 05:52 Bangkok time, worked after retry - Updated all 28 Opus sub-agents from opus-4-5 → opus-4-6 - C\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Prasert-ประเสรฐ.md\n--- name: \"Prasert (ประเสริฐ)\" type: person role: \"skeptical engineer\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Prasert (ประเสริฐ)  | Field | Value | |-------|-------| | Role  | skeptical engineer | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:01 — Obsidian: Dail\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Anong.md\n--- name: \"Anong\" type: person role: \"nostalgic storyteller\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Anong  | Field | Value | |-------|-------| | Role  | nostalgic storyteller | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:00 — Obsidian: Daily/2026-02-05.md # Me\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Anong-อนงค.md\n--- name: \"Anong (อนงค์)\" type: person role: \"nostalgic storyteller\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Anong (อนงค์)  | Field | Value | |-------|-------| | Role  | nostalgic storyteller | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:01 — Obsidian: Daily/20\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Prasert.md\n--- name: \"Prasert\" type: person role: \"skeptical engineer\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Prasert  | Field | Value | |-------|-------| | Role  | skeptical engineer | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:00 — Obsidian: Daily/2026-02-05.md # Memo\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Somchai-สมชาย.md\n--- name: \"Somchai (สมชาย)\" type: person role: \"philosophical, contemplative\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Somchai (สมชาย)  | Field | Value | |-------|-------| | Role  | philosophical, contemplative | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:01 — \n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Somchai.md\n--- name: \"Somchai\" type: person role: \"philosophical, contemplative\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Somchai  | Field | Value | |-------|-------| | Role  | philosophical, contemplative | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:00 —",
     "chunk_order_index": 0,
-    "full_doc_id": "doc-f104271d4018c0a0f78f8a7799b9d92a",
+    "full_doc_id": "doc-93764e1166b64cc52374044d2955f430",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:4ba98bf6bc03fc7b0f7915863c084c2e",
       "default:extract:3015cb24b5c505c95fd54a30485d7f85"
     ],
-    "update_time": 1772676069,
+    "update_time": 1772824001,
     "_id": "chunk-71616aeafc61b899b58cf170dee71ae7",
     "create_time": 0
   },
@@ -1753,13 +1753,13 @@
     "tokens": 1200,
     "content": "KnowledgeGraph/People/Somchai.md\n--- name: \"Somchai\" type: person role: \"philosophical, contemplative\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Somchai  | Field | Value | |-------|-------| | Role  | philosophical, contemplative | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:00 — Obsidian: Daily/\n\n\n## 2026-02-24 04:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 18:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 23:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-25 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-24 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-24 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 04:00 tags: [",
     "chunk_order_index": 1,
-    "full_doc_id": "doc-f104271d4018c0a0f78f8a7799b9d92a",
+    "full_doc_id": "doc-93764e1166b64cc52374044d2955f430",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:8a92150cb0372aab1bc87ca40bd8d94f",
       "default:extract:359e83efa6f333b45c81e51a1385421c"
     ],
-    "update_time": 1772676069,
+    "update_time": 1772824001,
     "_id": "chunk-d38a9ea2781994983d82c56aaf21d90c",
     "create_time": 0
   },
@@ -1767,13 +1767,13 @@
     "tokens": 1200,
     "content": "Knowledge Graph Index  > Auto-generated on 2026-02-26 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-28 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-28 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 23:00 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 04:40 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-02 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 23:23 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-s",
     "chunk_order_index": 2,
-    "full_doc_id": "doc-f104271d4018c0a0f78f8a7799b9d92a",
+    "full_doc_id": "doc-93764e1166b64cc52374044d2955f430",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:fd75bc79e87cf06ce4261649b5eaef7f",
       "default:extract:c2c9b50cfde0f7b6243a6d0b54125e48"
     ],
-    "update_time": 1772676069,
+    "update_time": 1772824001,
     "_id": "chunk-a987e2ef6f4df602844b47725e43fa1a",
     "create_time": 0
   },
@@ -2985,13 +2985,13 @@
     "tokens": 1200,
     "content": "[Source: KnowledgeGraph/People/Writing-Team.md]\n---\nname: \"Writing Team\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Writing Team\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Home.md\n--- type: dashboard updated: 2026-02-16 tags: [home, dashboard] ---  # 🏠 Home  ## 📊 Active Projects  | Project | Status | Last Update | |---------|--------|------------| | [[KnowledgeGraph/Projects/RAG Second Brain\\|RAG Second Brain Paper]] | v23.1 submitted to AIiH 2026 | Feb 16 | | [[KnowledgeGrap\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md\n# Memory Log — 2026-02-05  ## Major Accomplishments  ### 1. Writing Team Setup - Created 6-agent professional writing team (book-architect, research-lead, chapter-writer, dev-editor, copy-editor, publisher) - Workspaces at `~/.openclaw/workspace-{agent-name}` - Model allocation: Opus for thinking-he\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/2026-02-15.md\n# 2026-02-15 — Memory Maintenance  ## Weekly Memory Maintenance (3 AM) - Reviewed memory files from Feb 12-14 - Updated MEMORY.md with:   - ChartSense AI project details   - Full installed skills list (68 total)   - Important events for Feb 12-14   - Updated review date - No outdated info removed (a\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/2026-02-11.md\n  ### UX/UI Designer Agent Added to Coding Team - Added **ux-designer** agent (Opus model) - Focus: Interface design, visual polish, usability, responsive design - Uses shadcn/ui, Tailwind CSS expertise - Anti-AI-slop design principles - Spawns for: UI polish, new screens, UX reviews, design systems\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Prasert-ประเสรฐ.md\n--- name: \"Prasert (ประเสริฐ)\" type: person role: \"skeptical engineer\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Prasert (ประเสริฐ)  | Field | Value | |-------|-------| | Role  | skeptical engineer | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:01 — Obsidian: Dail\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Anong.md\n--- name: \"Anong\" type: person role: \"nostalgic storyteller\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Anong  | Field | Value | |-------|-------| | Role  | nostalgic storyteller | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:00 — Obsidian: Daily/2026-02-05.md # Me\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Anong-อนงค.md\n--- name: \"Anong (อนงค์)\" type: person role: \"nostalgic storyteller\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Anong (อนงค์)  | Field | Value | |-------|-------| | Role  | nostalgic storyteller | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:01 — Obsidian: Daily/20\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Prasert.md\n--- name: \"Prasert\" type: person role: \"skeptical engineer\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Prasert  | Field | Value | |-------|-------| | Role  | skeptical engineer | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:00 — Obsidian: Daily/2026-02-05.md # Memo\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Somchai-สมชาย.md\n--- name: \"Somchai (สมชาย)\" type: person role: \"philosophical, contemplative\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Somchai (สมชาย)  | Field | Value | |-------|-------| | Role  | philosophical, contemplative | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:01 — \n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Somchai.md\n--- name: \"Somchai\" type: person role: \"philosophical",
     "chunk_order_index": 0,
-    "full_doc_id": "doc-cfb78295a9119ca249b249f407bf9729",
+    "full_doc_id": "doc-5dd5b36441bf0c04697c871845057f0b",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:5417e3cd7086bde2ad35eab6b172d6e2",
       "default:extract:56f76b869012208749914a6225f38b46"
     ],
-    "update_time": 1772676466,
+    "update_time": 1772824260,
     "_id": "chunk-1fee19755a3251618ba78c3efffeb833",
     "create_time": 0
   },
@@ -2999,13 +2999,13 @@
     "tokens": 1200,
     "content": "02-16 ---  # Somchai (สมชาย)  | Field | Value | |-------|-------| | Role  | philosophical, contemplative | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:01 — \n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Somchai.md\n--- name: \"Somchai\" type: person role: \"philosophical, contemplative\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Somchai  | Field | Value | |-------|-------| | Role  | philosophical, contemplative | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:00 — Obsidian: Daily/\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Projects/Three Old Men.md\n--- type: \"Project\" id: \"project:three-old-men\" tags: [project, complete] date: \"2026-02-15\" status: \"complete\" genre: \"literary fiction\" github: \"https://github.com/Anirach/three-old-men\" ---  # Three Old Men  ## Connections  - ← **works_on**: [[People/Anirach Mingkhwan|Anirach Mingkhwan]] - → **re\n\n\n## 2026-02-24 04:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 18:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 23:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-25 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-24 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-24 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on",
     "chunk_order_index": 1,
-    "full_doc_id": "doc-cfb78295a9119ca249b249f407bf9729",
+    "full_doc_id": "doc-5dd5b36441bf0c04697c871845057f0b",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:94b6dd0c2fbfc0115693057afc95714a",
       "default:extract:d2044a4ac6265c73f4f91c8cf4a4f69d"
     ],
-    "update_time": 1772676466,
+    "update_time": 1772824260,
     "_id": "chunk-34d9ec198ae427665d14d305ed714134",
     "create_time": 0
   },
@@ -3013,13 +3013,13 @@
     "tokens": 1200,
     "content": "00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-28 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-28 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 23:00 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 04:40 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-02 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01",
     "chunk_order_index": 2,
-    "full_doc_id": "doc-cfb78295a9119ca249b249f407bf9729",
+    "full_doc_id": "doc-5dd5b36441bf0c04697c871845057f0b",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:9ad766c7f94bd34a836e901ff6c912f1",
       "default:extract:378eab64075e7eedde62a46144bd9ed1"
     ],
-    "update_time": 1772676466,
+    "update_time": 1772824260,
     "_id": "chunk-aed742b710d4efe2e644f95efb224333",
     "create_time": 0
   },
@@ -3545,13 +3545,13 @@
     "tokens": 1200,
     "content": "[Source: KnowledgeGraph/People/Major-Accomplishments.md]\n---\nname: \"Major Accomplishments\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Major Accomplishments\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-05.md\n# Memory Log — 2026-02-05  ## Major Accomplishments  ### 1. Writing Team Setup - Created 6-agent professional writing team (book-architect, research-lead, chapter-writer, dev-editor, copy-editor, publisher) - Workspaces at `~/.openclaw/workspace-{agent-name}` - Model allocation: Opus for thinking-he\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Prasert-ประเสรฐ.md\n--- name: \"Prasert (ประเสริฐ)\" type: person role: \"skeptical engineer\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Prasert (ประเสริฐ)  | Field | Value | |-------|-------| | Role  | skeptical engineer | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:01 — Obsidian: Dail\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Anong.md\n--- name: \"Anong\" type: person role: \"nostalgic storyteller\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Anong  | Field | Value | |-------|-------| | Role  | nostalgic storyteller | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:00 — Obsidian: Daily/2026-02-05.md # Me\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Anong-อนงค.md\n--- name: \"Anong (อนงค์)\" type: person role: \"nostalgic storyteller\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Anong (อนงค์)  | Field | Value | |-------|-------| | Role  | nostalgic storyteller | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:01 — Obsidian: Daily/20\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Prasert.md\n--- name: \"Prasert\" type: person role: \"skeptical engineer\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Prasert  | Field | Value | |-------|-------| | Role  | skeptical engineer | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:00 — Obsidian: Daily/2026-02-05.md # Memo\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Somchai-สมชาย.md\n--- name: \"Somchai (สมชาย)\" type: person role: \"philosophical, contemplative\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Somchai (สมชาย)  | Field | Value | |-------|-------| | Role  | philosophical, contemplative | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:01 — \n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Somchai.md\n--- name: \"Somchai\" type: person role: \"philosophical, contemplative\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-17 ---  # Somchai  | Field | Value | |-------|-------| | Role  | philosophical, contemplative | | Org   | Unknown |  ## Interactions  ### 2026-02-17 04:00 — Obsidian: Daily/\n\n\n## 2026-02-24 04:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 18:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 23:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026",
     "chunk_order_index": 0,
-    "full_doc_id": "doc-7ce0672e9945eb4a6ae2aeee86b31529",
+    "full_doc_id": "doc-93ae1f80214c6b2df31480ba3cb0aa9c",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:f3eca6ce882de54aad50439a255d9e57",
       "default:extract:3597d9e63575a77088bb34f0001b702c"
     ],
-    "update_time": 1772676206,
+    "update_time": 1772824406,
     "_id": "chunk-e32dc00afb723b10d3141d9f4653b224",
     "create_time": 0
   },
@@ -3559,13 +3559,13 @@
     "tokens": 1200,
     "content": "/remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 23:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-25 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-24 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-24 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  >",
     "chunk_order_index": 1,
-    "full_doc_id": "doc-7ce0672e9945eb4a6ae2aeee86b31529",
+    "full_doc_id": "doc-93ae1f80214c6b2df31480ba3cb0aa9c",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:8d4227ef3f2933ab09fe9352204f02fb",
       "default:extract:50ebdfb9cde259cf0a3c32db962bfef4"
     ],
-    "update_time": 1772676206,
+    "update_time": 1772824406,
     "_id": "chunk-687c7ffaca7f439954f9a043c1fd03e1",
     "create_time": 0
   },
@@ -3573,13 +3573,13 @@
     "tokens": 1200,
     "content": "27 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-28 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-28 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 23:00 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 04:40 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-02 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 23:23 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- ---",
     "chunk_order_index": 2,
-    "full_doc_id": "doc-7ce0672e9945eb4a6ae2aeee86b31529",
+    "full_doc_id": "doc-93ae1f80214c6b2df31480ba3cb0aa9c",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:e16ebb7ed82dd8345abfea53b0a4dd8f",
       "default:extract:b7968aae479a93d3b65998b465813a14"
     ],
-    "update_time": 1772676206,
+    "update_time": 1772824406,
     "_id": "chunk-865b9f607b6143b2991ea86a5c2b5170",
     "create_time": 0
   },
@@ -4413,13 +4413,13 @@
     "tokens": 1200,
     "content": "[Source: KnowledgeGraph/People/Daily-Notes.md]\n---\nname: \"Daily Notes\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Daily Notes\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Memory: 2026-02-16\n# 2026-02-16 — Arthur's Daily Notes  ## LobsterBoard Dashboard - Installed LobsterBoard (https://github.com/Curbob/LobsterBoard) on server - Accessible at http://72.62.251.68:8080 - Created systemd service `lobsterboard.service` (auto-start on boot) - Fixed weather widget (Atlanta→Bangkok, °F→°C), G\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/2026-02-16.md\n# 2026-02-16 — Arthur's Daily Notes  ## LobsterBoard Dashboard - Installed LobsterBoard (https://github.com/Curbob/LobsterBoard) on server - Accessible at http://72.62.251.68:8080 - Created systemd service `lobsterboard.service` (auto-start on boot) - Fixed weather widget (Atlanta→Bangkok, °F→°C), G\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/2026-02-03.md\n# 2026-02-03 — Daily Notes  ## Language Preference Update - **Anirach confirmed: Always reply in English** unless told otherwise - Updated USER.md with this preference  ## Skills Installed via ClawHub Installed ClawHub CLI (`npm install -g clawhub`) and added skills:  **Frontend Design:** - `ui-ux-p\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/2026-02-02.md\n# 2026-02-02 — Daily Notes  ## PPlus Project Management Testing (Continued)  ### Test Session 2 - Mobile App Development Project - **Workspace:** PPLUS (different from previous My Workspace test) - **Project:** \"Mobile App Development\" - **Dates:** Feb 1-28, 2026 - **Template:** Content Creation (gr\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/2026-02-13.md\n# 2026-02-13 — Daily Notes  ## Performance Improvements Implemented  Anirach asked what could improve my performance. I identified and implemented:  1. **Proactive heartbeats** — Updated HEARTBEAT.md with actual checklist 2. **Faster sub-agent spawning** — Added \"spawn fast\" rule to AGENTS.md 3. **M\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/Index.md\n--- type: index updated: 2026-02-16 tags: [index, daily] ---  # 📅 Daily Notes (19 entries)  - [[Daily/2026-02-16|2026-02-16]] - [[Daily/2026-02-15-0435|2026-02-15-0435]] - [[Daily/2026-02-15|2026-02-15]] - [[Daily/2026-02-14|2026-02-14]] - [[Daily/2026-02-13|2026-02-13]] - [[Daily/2026-02-12|2026-02\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Arthur.md\n--- type: \"Person\" id: \"person:arthur\" tags: [person, agent] date: \"2026-01-26\" role: \"AI Assistant\" ---  # Arthur  AI agent (Labrador 🐕) running on OpenClaw. Born 2026-01-26.  ## Connections  - → **assists**: [[People/Anirach Mingkhwan|Anirach Mingkhwan]] - → **works_on**: [[Projects/RAG Second Bra\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Anirach.md\n--- name: \"Anirach\" type: person role: \"\" org: \"\" tags: [person, knowledge-graph] created: 2026-02-16 ---  # Anirach  | Field | Value | |-------|-------| | Role  | Unknown | | Org   | Unknown |  ## Interactions  ### 2026-02-16 23:00 — Memory: 2026-02-16 # 2026-02-16 — Arthur's Daily Notes  ## Lobste\n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/Topics/Obsidian.md\n--- type: topic status: active tags: [topic] created: 2026-02-15 updated: 2026-02-16 ---  # Obsidian  Markdown-based knowledge management with bidirectional linking. This vault serves as the shared knowledge base for all agent teams.  Structure: KnowledgeGraph (People/Projects/Topics/Documents/Decis\n\n\n## 2026-03-01 18:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes",
     "chunk_order_index": 0,
-    "full_doc_id": "doc-6c5b7693090af032c39f43275553380a",
+    "full_doc_id": "doc-360e20d557ee23581df4c2b935d485fa",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:27c651d5cf67799f56c13ff32fd376ef",
       "default:extract:cb6ad17c31297ee4580fb9230aa23537"
     ],
-    "update_time": 1772676442,
+    "update_time": 1772824574,
     "_id": "chunk-d8cba83ad815daf324fb66f8121ca897",
     "create_time": 0
   },
@@ -4595,13 +4595,13 @@
     "tokens": 1200,
     "content": "[Source: KnowledgeGraph/People/Knowledge-Graph.md]\n---\nname: \"Knowledge Graph\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Knowledge Graph\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 18:01 — Memory: 2026-02-17\n# 2026-02-17 — Session Notes  ## Pre-Compaction Summary (5:49 AM)  Session covered extensive work across multiple projects. Key state captured in summary compaction. No new work done in this session beyond context loading — this was a flush trigger.  ### Active State Reminders - **Paper v23.1**: ✅ S\n\n\n## 2026-02-17 18:02 — Memory: 2026-02-17\n# 2026-02-17 — Session Notes  ## Pre-Compaction Summary (5:49 AM)  Session covered extensive work across multiple projects. Key state captured in summary compaction. No new work done in this session beyond context loading — this was a flush trigger.  ### Active State Reminders - **Paper v23.1**: ✅ S\n\n\n## 2026-02-24 04:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 18:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 23:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-25 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-24 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-24 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 18:00  ## Overview  | Category | Count | |----------|-------| | People |",
     "chunk_order_index": 0,
-    "full_doc_id": "doc-1d67653ab01db992c1cb0d866d426ce4",
+    "full_doc_id": "doc-439daaf6d4fe9eaf9634ecb6996d41fa",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:d8bdf67130487ea2d5093fda6ce69d4f",
       "default:extract:813f80838200bd2e942db8a59525aee5"
     ],
-    "update_time": 1772676238,
+    "update_time": 1772824699,
     "_id": "chunk-a0ef545088384ee9d14b145ae009a44f",
     "create_time": 0
   },
@@ -4609,13 +4609,13 @@
     "tokens": 1200,
     "content": "Decisions | 6\n\n\n## 2026-02-26 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-28 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-28 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 23:00 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 04:40 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 18:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-02 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ###",
     "chunk_order_index": 1,
-    "full_doc_id": "doc-1d67653ab01db992c1cb0d866d426ce4",
+    "full_doc_id": "doc-439daaf6d4fe9eaf9634ecb6996d41fa",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:81e2db5dbe5cb93aba59803553448064",
       "default:extract:03aeca9fb2699641b9ea46841b160c00"
     ],
-    "update_time": 1772676238,
+    "update_time": 1772824699,
     "_id": "chunk-90a4287e7a69589023f97fe208e724fd",
     "create_time": 0
   },
@@ -4945,13 +4945,13 @@
     "tokens": 1200,
     "content": "[Source: KnowledgeGraph/People/Recent-Activity.md]\n---\nname: \"Recent Activity\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-24\n---\n\n# Recent Activity\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-24 04:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 18:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-24 23:00 — batch\n  --- Source: Memory: 2026-02-23 ---   --- ## /remember — 2026-02-23 12:51 BKK  ### 🧠 Session Learnings - [workflow] Always check cron delivery settings when creating new jobs to avoid notification spam  ### ✅ Decisions Made - Implement session_remember.py inspired by Arscontexta /remember command (\n\n\n## 2026-02-25 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-24 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-24 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-25 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-25 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-25 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-26 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-26 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-26 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 04",
     "chunk_order_index": 0,
-    "full_doc_id": "doc-6898b27740be443e8e453b8eccb739e1",
+    "full_doc_id": "doc-18b7f7811f76e9c0358362c03d6a9fcd",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:664fd591f8ccb53f7638327173b5f300",
       "default:extract:14130be1fd692c75f67bc0b15db07082"
     ],
-    "update_time": 1772676613,
+    "update_time": 1772824861,
     "_id": "chunk-1f197e592637ef1737a9a8857200343b",
     "create_time": 0
   },
@@ -4959,13 +4959,13 @@
     "tokens": 1200,
     "content": "Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-27 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 18:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-27 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-27 23:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-02-28 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-02-28 04:00  ## Overview  | Category | Count | |----------|-------| | People | 310 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-02-28 23:00 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 04:40 — batch\n  --- Source: Obsidian: Quick-Reference.md --- --- type: reference updated: 2026-02-17 tags: [pinned, reference, always-load] ---  # ⚡ Quick Reference  > **Always loaded at session start.** Critical IDs, links, and facts.  ## 🧑 Identity - **Human:** Anirach Mingkhwan - **Telegram ID:** 7579913696 - \n\n\n## 2026-03-01 18:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-02 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 23:23 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03",
     "chunk_order_index": 1,
-    "full_doc_id": "doc-6898b27740be443e8e453b8eccb739e1",
+    "full_doc_id": "doc-18b7f7811f76e9c0358362c03d6a9fcd",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:86f6a9bd55f615170eeb1046f340c10e",
       "default:extract:e42ca20d5c0b68031f16c8e349a71096"
     ],
-    "update_time": 1772676613,
+    "update_time": 1772824861,
     "_id": "chunk-a06fdd29b547fa50066bbf918525b3b2",
     "create_time": 0
   },
@@ -12953,15 +12953,15 @@
     "tokens": 1200,
     "content": "[Source: KnowledgeGraph/People/System-Optimization.md]\n---\nname: \"System Optimization\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-03-01\n---\n\n# System Optimization\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-03-01 18:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-02 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 23:23 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-",
     "chunk_order_index": 0,
-    "full_doc_id": "doc-77b830ba369d6d8769ecd015a1ffb403",
+    "full_doc_id": "doc-518c5dc74f944b50810ef8ff3d3071f9",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:eb826033b4ec9a6f4a707ab6f6659e4c",
       "default:extract:d6fa4821d6a36b4cfb4dffe9c4cf6c0a"
     ],
-    "create_time": 1772676370,
-    "update_time": 1772676417,
-    "_id": "chunk-9b3068faf3337e750644c8d7643fc411"
+    "update_time": 1772823843,
+    "_id": "chunk-9b3068faf3337e750644c8d7643fc411",
+    "create_time": 0
   },
   "chunk-521f51cb7088ea1256e4e2e3d6ab655d": {
     "tokens": 138,
@@ -12981,15 +12981,15 @@
     "tokens": 1200,
     "content": "6-02-15 updated: 2026-02-16 ---  # Obsidian  Markdown-based knowledge management with bidirectional linking. This vault serves as the shared knowledge base for all agent teams.  Structure: KnowledgeGraph (People/Projects/Topics/Documents/Decis\n\n\n## 2026-03-01 18:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-02 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 23:23 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------",
     "chunk_order_index": 1,
-    "full_doc_id": "doc-6c5b7693090af032c39f43275553380a",
+    "full_doc_id": "doc-360e20d557ee23581df4c2b935d485fa",
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:41a7238c7599704d5878d010d4412667",
       "default:extract:836c2101386109af7550c2870836f95c"
     ],
-    "create_time": 1772676442,
-    "update_time": 1772676487,
-    "_id": "chunk-8cc0b5accf865538247068fa2c8b6f4a"
+    "update_time": 1772824574,
+    "_id": "chunk-8cc0b5accf865538247068fa2c8b6f4a",
+    "create_time": 0
   },
   "chunk-4766a53f3a7b874f1a7885e6cdb3b9bf": {
     "tokens": 118,
@@ -13116,5 +13116,677 @@
     "create_time": 1772676779,
     "update_time": 1772676802,
     "_id": "chunk-23fda636ff43924bd38d40789fc5e489"
+  },
+  "chunk-d4d5be9af31c8385a55b4042062e087f": {
+    "tokens": 1200,
+    "content": "/v1beta\n\n\n## 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-02 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 23:23 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsid",
+    "chunk_order_index": 4,
+    "full_doc_id": "doc-64fc84630d5f8d5aad86cda5f36dd9b7",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:a43b1285e7dd390bcc55c7811f4f46a6",
+      "default:extract:3d7a9317af1627ef1d537b8b334c2ab9"
+    ],
+    "update_time": 1772823614,
+    "_id": "chunk-d4d5be9af31c8385a55b4042062e087f",
+    "create_time": 0
+  },
+  "chunk-96c70fe043587284fd7384360f83de7d": {
+    "tokens": 296,
+    "content": "type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 5,
+    "full_doc_id": "doc-f3de20fa0b060dc66c545d2beeae7739",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:8dc1c536f51a5b0994abfaa4622885ed",
+      "default:extract:a233f3559dfd272a7b4a7ad6f6dbe11c"
+    ],
+    "create_time": 1772762410,
+    "update_time": 1772762481,
+    "_id": "chunk-96c70fe043587284fd7384360f83de7d"
+  },
+  "chunk-a8a919f3748dda0a162989257025876c": {
+    "tokens": 757,
+    "content": "## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 3,
+    "full_doc_id": "doc-ec1e1b20f0179ae34ef96f6d0077735a",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1285c96780eefb092c898bb99cb048c9",
+      "default:extract:9de8062513c7daf9b953a4ea778e53c7"
+    ],
+    "create_time": 1772762410,
+    "update_time": 1772762466,
+    "_id": "chunk-a8a919f3748dda0a162989257025876c"
+  },
+  "chunk-8f744c0dc9832bb7420464d649488eab": {
+    "tokens": 1139,
+    "content": "[Source: KnowledgeGraph/People/Session-Major.md]\n---\nname: \"Session Major\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-03-01\n---\n\n# Session Major\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8f744c0dc9832bb7420464d649488eab",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:7e8fd631bc9fa3ae927109b8bc9ffe66",
+      "default:extract:0124dc36570be16d8f498a3abd4d2738"
+    ],
+    "create_time": 1772762589,
+    "update_time": 1772762650,
+    "_id": "chunk-8f744c0dc9832bb7420464d649488eab"
+  },
+  "chunk-4b0e11af5b44ab52a8227a20015a9b07": {
+    "tokens": 39,
+    "content": "-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-8f744c0dc9832bb7420464d649488eab",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d1f94b0e66f1ea1045cb8255072f9cab",
+      "default:extract:3f86d8753a7c077374c20abd896206d9"
+    ],
+    "create_time": 1772762589,
+    "update_time": 1772762629,
+    "_id": "chunk-4b0e11af5b44ab52a8227a20015a9b07"
+  },
+  "chunk-87973f7f18cf8516d82456867f60e79f": {
+    "tokens": 1189,
+    "content": "Notes \n\n\n## 2026-03-02 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 23:23 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 3,
+    "full_doc_id": "doc-c9f119f050eb40359ca811bef068916f",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5879dfd519aa1519e76a8dfa4490b77f",
+      "default:extract:6c179616d5ab6fc52d15aff64ab0e37e"
+    ],
+    "create_time": 1772762589,
+    "update_time": 1772762662,
+    "_id": "chunk-87973f7f18cf8516d82456867f60e79f"
+  },
+  "chunk-bcb40ac7623a8d0795573d187ca42a1e": {
+    "tokens": 89,
+    "content": "Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 4,
+    "full_doc_id": "doc-c9f119f050eb40359ca811bef068916f",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1845db0186da218e021ede305830c39f",
+      "default:extract:7d1bad8ce9bc4cf07c46c88f4dcc3ec3"
+    ],
+    "create_time": 1772762589,
+    "update_time": 1772762648,
+    "_id": "chunk-bcb40ac7623a8d0795573d187ca42a1e"
+  },
+  "chunk-e97f01a6c76ac6d4715d960b78e484f0": {
+    "tokens": 465,
+    "content": "Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-11e80e073116e14b2d2be52554627fc3",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:504b7865a020152a2d9812dcb8ca327e",
+      "default:extract:74f62bcd51f60c4e84aa8cb708b55574"
+    ],
+    "create_time": 1772762679,
+    "update_time": 1772762807,
+    "_id": "chunk-e97f01a6c76ac6d4715d960b78e484f0"
+  },
+  "chunk-abb061fa6be422bbf34b9117831dfcc8": {
+    "tokens": 394,
+    "content": "[Source: KnowledgeGraph/_index.md]\n---\ntype: index\nupdated: 2026-03-05 23:00\ntags: [knowledge-graph, index]\n---\n\n# Knowledge Graph Index\n\n> Auto-generated on 2026-03-05 23:00\n\n## Overview\n\n| Category | Count |\n|----------|-------|\n| People | 315 |\n| Projects | 129 |\n| Decisions | 66 |\n| Action Items | 162 |\n\n## Recent Activity\n\n- `2026-03-05 23:00` — [[System-Optimization]] (People)\n- `2026-03-05 23:00` — [[Daily-Notes]] (People)\n- `2026-03-05 23:00` — [[Fixes-Applied]] (People)\n- `2026-03-05 23:00` — [[2026-03-05-Items--161]] (Action-Items)\n- `2026-03-05 21:35` — [[Facts]] (Documents)\n- `2026-03-05 18:00` — [[2026-03-05-Items--159]] (Action-Items)\n- `2026-03-05 18:00` — [[2026-03-05--Items]] (Action-Items)\n- `2026-03-05 15:16` — [[Completed-skill-description-audit:-fixed-49-skills-across-5-batches]] (Projects)\n- `2026-03-04 04:08` — [[Implemented-all-7-academic-pipeline-enhancements:-(1)-Venue-Specific-Reviewer-Personas]] (Projects)\n- `2026-03-04 03:44` — [[2026-03-04-implemented-4-improvements-to-academicte]] (Decisions)",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-abb061fa6be422bbf34b9117831dfcc8",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:7a69263a4b673691a20e5a515e725d61",
+      "default:extract:a44d6d55f5ce76973bc26dde2008f908"
+    ],
+    "create_time": 1772762773,
+    "update_time": 1772762831,
+    "_id": "chunk-abb061fa6be422bbf34b9117831dfcc8"
+  },
+  "chunk-08e86d0e562a146331150d19c4c5e67c": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Fixes-Applied.md]\n---\nname: \"Fixes Applied\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-03-01\n---\n\n# Fixes Applied\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-03-01 18:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-02 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 23:23 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-9640547a187b0fa3f70c04d38bf0f930",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:075c0349b8e044f95bc1d29f5fe92c48",
+      "default:extract:5199f7ad160904ba1d6010d5e85dd766"
+    ],
+    "update_time": 1772824606,
+    "_id": "chunk-08e86d0e562a146331150d19c4c5e67c",
+    "create_time": 0
+  },
+  "chunk-7e30357a2804cd093debf64cfb766376": {
+    "tokens": 157,
+    "content": "Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-9b6d59ebe8b08aaa1ca5fbc619d5fa97",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:e163845b59b5c1fef7ea4f61a07f0bb4",
+      "default:extract:f6c1704773fadf82f4ce2cebb5b383f7"
+    ],
+    "create_time": 1772762843,
+    "update_time": 1772762899,
+    "_id": "chunk-7e30357a2804cd093debf64cfb766376"
+  },
+  "chunk-7793c1816ef50dc976008de6c6e8601b": {
+    "tokens": 989,
+    "content": "Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 3,
+    "full_doc_id": "doc-f7e5f8998b06a1650d5e6423b90eecf1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:0b356f702f6c3d79a71aac30063316be",
+      "default:extract:6db2cf68fc95888f753bb8395dbb551e"
+    ],
+    "create_time": 1772762858,
+    "update_time": 1772762960,
+    "_id": "chunk-7793c1816ef50dc976008de6c6e8601b"
+  },
+  "chunk-07fc1acb7742fd80221f70cc930bc3f0": {
+    "tokens": 1200,
+    "content": "20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 23:23 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph,",
+    "chunk_order_index": 2,
+    "full_doc_id": "doc-439daaf6d4fe9eaf9634ecb6996d41fa",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:4530cc8f32afcb067e791a95fa70c11d",
+      "default:extract:e9fd9f0a8bfadc7aabd5e6d83dba2f1c"
+    ],
+    "update_time": 1772824699,
+    "_id": "chunk-07fc1acb7742fd80221f70cc930bc3f0",
+    "create_time": 0
+  },
+  "chunk-4fdc26ddbfd5a67ff793d2535ecee5ab": {
+    "tokens": 155,
+    "content": "> Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 3,
+    "full_doc_id": "doc-caf3e3db6851b2278be68d38d6b73551",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:2ad80aeb5d7102c7b59e7ffb8caada65",
+      "default:extract:85c9b080cf9f74ab92ec830f679da89c"
+    ],
+    "create_time": 1772762940,
+    "update_time": 1772763022,
+    "_id": "chunk-4fdc26ddbfd5a67ff793d2535ecee5ab"
+  },
+  "chunk-82e6ec241481889525a6482b252d70dd": {
+    "tokens": 445,
+    "content": "| 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 2,
+    "full_doc_id": "doc-768da916d45d2760c4b1bc160846e8b7",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:fd2ad90c7412ec38093c9455c91deab8",
+      "default:extract:c110296f1289c41b1ca94852600c5d01"
+    ],
+    "create_time": 1772763045,
+    "update_time": 1772763111,
+    "_id": "chunk-82e6ec241481889525a6482b252d70dd"
+  },
+  "chunk-b10fda63d615c42dfd5266faa4de97b7": {
+    "tokens": 89,
+    "content": "[Source: KnowledgeGraph/Action-Items/2026-03-05--Items.md]\n---\ntype: action-item\ndate: 2026-03-05\nowner: \"\"\ndeadline: \"\"\nstatus: \"open\"\ntags: [action-item, knowledge-graph]\nsource: \"batch\"\n---\n\n# -Items)\n\n- **Owner:** Unknown\n- **Deadline:** \n- **Status:** open\n- **Source:** batch",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-b10fda63d615c42dfd5266faa4de97b7",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:324ad503c0ca794f34dc7de0c5c0f93f",
+      "default:extract:069a98ff23eea5f3d36e2ab9a81aa023"
+    ],
+    "create_time": 1772763194,
+    "update_time": 1772763216,
+    "_id": "chunk-b10fda63d615c42dfd5266faa4de97b7"
+  },
+  "chunk-0dd5351820dd106a02e63dc7e87bf6f3": {
+    "tokens": 1057,
+    "content": "Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 2,
+    "full_doc_id": "doc-8d8b5906dda33fd59de7983477be7683",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:529b3f47d12803bae573b64fdb86a1d3",
+      "default:extract:413903c8d8254cff83c51044c7b8b1f6"
+    ],
+    "create_time": 1772763194,
+    "update_time": 1772763270,
+    "_id": "chunk-0dd5351820dd106a02e63dc7e87bf6f3"
+  },
+  "chunk-813c4f52fd587bfecf3d1d07dba8dea0": {
+    "tokens": 93,
+    "content": "[Source: KnowledgeGraph/Action-Items/2026-03-05-Items--161.md]\n---\ntype: action-item\ndate: 2026-03-05\nowner: \"\"\ndeadline: \"\"\nstatus: \"open\"\ntags: [action-item, knowledge-graph]\nsource: \"batch\"\n---\n\n# Items | 161 |\n\n- **Owner:** Unknown\n- **Deadline:** \n- **Status:** open\n- **Source:** batch",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-813c4f52fd587bfecf3d1d07dba8dea0",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:7f121460cc81b4d882f39efabe608195",
+      "default:extract:646b2feb1d22d1994260f90c19498d5d"
+    ],
+    "create_time": 1772763226,
+    "update_time": 1772763239,
+    "_id": "chunk-813c4f52fd587bfecf3d1d07dba8dea0"
+  },
+  "chunk-f4dc7b3055f1c86726d780fc180a8345": {
+    "tokens": 93,
+    "content": "[Source: KnowledgeGraph/Action-Items/2026-03-05-Items--159.md]\n---\ntype: action-item\ndate: 2026-03-05\nowner: \"\"\ndeadline: \"\"\nstatus: \"open\"\ntags: [action-item, knowledge-graph]\nsource: \"batch\"\n---\n\n# Items | 159 |\n\n- **Owner:** Unknown\n- **Deadline:** \n- **Status:** open\n- **Source:** batch",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-f4dc7b3055f1c86726d780fc180a8345",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:0cf2a34b19c83f470c26036a0aca74b2",
+      "default:extract:8c7d5dd63ae97afdc2219582933d8e43"
+    ],
+    "create_time": 1772763246,
+    "update_time": 1772763254,
+    "_id": "chunk-f4dc7b3055f1c86726d780fc180a8345"
+  },
+  "chunk-132c6fc6e294620b0ff5157fe1165b60": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/Documents/HA-Standards-v6-Reference.md]\n# HA Thailand Standards v6 (2026-2030)\n## มาตรฐานโรงพยาบาลและบริการสุขภาพ ฉบับที่ 6\n\n**Publisher:** Healthcare Accreditation Institute (สรพ.), Public Organization\n**Effective:** 1 October 2026 (Thai: 1 ตุลาคม 2569)\n**Accredited by:** ISQua EEA (International Society for Quality in Health Care External Evaluation Association)\n**ISBN:** Pending | **Price:** 500 Baht | **Website:** www.ha.or.th\n\n**Local files:**\n- PDF: `/home/clawdbot/clawd/references/HA_Standards_v6_2026-2030.pdf`\n- Full text: `/home/clawdbot/clawd/tmp/ha_standards_v6_full.txt` (530KB, 6593 lines)\n\n---\n\n## Structure (4 Parts)\n\n### ตอนที่ I: ภาพรวมของการบริหารองค์กร (Organization Management Overview)\n| Chapter | Thai | English |\n|---------|------|---------|\n| I-1 | การนำ | Leadership |\n| I-2 | กลยุทธ์ | Strategy |\n| I-3 | ผู้ป่วย/ผู้รับผลงาน | Patient/Customer |\n| I-4 | การวัด การวิเคราะห์ และการจัดการความรู้ | Measurement, Analysis & Knowledge Management |\n| I-5 | บุคลากร | Workforce |\n| I-6 | การปฏิบัติการ | Operation |\n\n### ตอนที่ II: ระบบงานสำคัญของโรงพยาบาล (Key Hospital Systems)\n| Chapter | Thai | English |\n|---------|------|---------|\n| II-1 | การบริหารงานคุณภาพ ความเสี่ยง และความปลอดภัย | Quality, Risk and Safety Management |\n| II-2 | การกำกับดูแลด้านวิชาชีพ | Professional Governance |\n| II-3 | สิ่งแวดล้อมในการดูแลผู้ป่วย/ผู้รับผลงาน | Environment of Care |\n| II-4 | การป้องกันและควบคุมการติดเชื้อ | Infection Prevention and Control |\n| II-5 | ระบบเวชระเบียน | Medical Record System |\n| II-6 | ระบบการจัดการด้านยา | Medication Management System |\n| II-7 | การตรวจทดสอบเพื่อการวินิจฉัยโรค และบริการที่เกี่ยวข้อง | Diagnostic Testing & Related Services |\n| II-8 | การเฝ้าระวังโรคและภัยสุขภาพ | Disease & Health Hazard Surveillance |\n| II-9 | การทำงานกับชุมชน | Community Engagement |\n| II-10 | การดูแลผู้ป่วยโดยใช้เทคโนโลยีดิจิทัล | Digital Care (**NEW in v6**) |\n\n### ตอนที่ III: กระบวนการดูแลผู้ป่วย (Patient Care Processes)\n| Chapter | Thai | English |\n|---------|------|---------|\n| III-1 | การเข้าถึงและเข้ารับบริการ | Access and Entry |\n| III-2 | การประเมินผู้ป่วย | Patient Assessment |\n| III-3 | การวางแผน | Planning |\n| III-4 | การดูแลผู้ป่วย | Patient Care Delivery |\n| III-5 | การให้ข้อมูลและการเสริมพลังแก่ผู้ป่วย/ครอบครัว | Patient/Family Information & Empowerment |\n| III-6 | การดูแลต่อเนื่อง | Continuity of Care |\n\n### ตอนที่ IV: ผลการดำเนินการ (Performance Results)\n| Chapter | Thai | English |\n|---------|------|---------|\n| IV-1 | ด้านการดูแลสุขภาพ | Healthcare Results |\n| IV-2 | ด้านการมุ่งเน้นผู้ป่วยและผู้รับผลงาน | Patient/Customer Focus Results |\n| IV-3 | ด้านบุคลากร | Workforce Results |\n| IV-4 | ด้านการนำและการกำกับดูแล | Leadership and Governance Results |\n| IV-5 | ด้านระบบงานสำคัญ | Key Work Process Effectiveness Results |\n| IV-6 | ด้านการเงิน | Financial Results |\n\n### Appendices\n- ภาคผนวก 1: แนวทางการประเมินระดับการปฏิบัติตามมาตรฐาน (Scoring Guideline)\n- ภาคผนวก 3: ตารางเปรียบเทียบรหัสอ้างอิง v6 vs v5\n\n---\n\n## Key Changes from v5 → v6\n1. **I-1.2 ค.** การจัดบริการสุขภาพเพื่อความยั่งยืนและทำประโยชน์ให้สังคม (Sustainable healthcare services)\n2. **I-5** บุคลากร — expanded workforce standards\n3. **I-4.2 ค.** การจัดการความมั่นคงปลอดภัยสารสนเทศและการคุ้มครองข้อมูลส่วนบุคคล (InfoSec & PDPA)\n4. **I-7.3** ธนาคารเลือดและงานบริการโลหิต (Blood bank)\n5. **II-10** เทคโนโลยีดิจิทัลในการดูแลผู้ป่วย (Digital Care — **entirely new chapter**)\n6. **III-4.3 ฎ.** การดูแลผู้ป่วยวิกฤต (Critical care)\n\n## Context\n- Developed under changing global healthcare context including digital health and AI\n- Incorporates sustainability concepts\n- Enhanced workforce support standards\n- Aligned with ISQua EEA Guidelines 6th edition\n- Can be applied to non-hospital healthcare facilities (using",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8355a23b4a692a02042249a79f77cd01",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:713ca7339e89c6c652a0b35efd395e68",
+      "default:extract:bfe06aa6b6401aacf5157254af4aaefe"
+    ],
+    "create_time": 1772763260,
+    "update_time": 1772763337,
+    "_id": "chunk-132c6fc6e294620b0ff5157fe1165b60"
+  },
+  "chunk-14d55bcf9a1b416cefe3a95a593138a1": {
+    "tokens": 135,
+    "content": "ทัลในการดูแลผู้ป่วย (Digital Care — **entirely new chapter**)\n6. **III-4.3 ฎ.** การดูแลผู้ป่วยวิกฤต (Critical care)\n\n## Context\n- Developed under changing global healthcare context including digital health and AI\n- Incorporates sustainability concepts\n- Enhanced workforce support standards\n- Aligned with ISQua EEA Guidelines 6th edition\n- Can be applied to non-hospital healthcare facilities (using Parts I & IV as core, Parts II & III selectively)\n\n---\n\n*Tags:* #HA #Healthcare #Accreditation #Thailand #Standards #Quality #สรพ",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-8355a23b4a692a02042249a79f77cd01",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:0ff831429303887fb7ac4abe63c320e9",
+      "default:extract:0ef8866e598cf32e29cbaf6dc3518b67"
+    ],
+    "create_time": 1772763260,
+    "update_time": 1772763331,
+    "_id": "chunk-14d55bcf9a1b416cefe3a95a593138a1"
+  },
+  "chunk-689042a2405cb0172a76bf202e09b476": {
+    "tokens": 230,
+    "content": "[Source: KnowledgeGraph/Projects/Completed-skill-description-audit:-fixed-49-skills-across-5-batches.md]\n---\ntype: project\nname: Completed skill description audit: fixed 49 skills across 5 batches\nstatus: active\nupdated: 2026-03-05\ntags: [project]\n---\n\n# Completed skill description audit: fixed 49 skills across 5 batches\n\n**Status:** 13 empty descriptions filled, 14 overlap groups differentiated with NOT-for guidance, 8 vague/non-English descriptions rewritten. All workspace skills at /home/clawdbot/clawd/skills/. Audit report at tmp/skill-audit-report.md.\n**Updated:** 2026-03-05 15:16\n\n## Timeline\n- **[2026-03-05 15:16]** 13 empty descriptions filled, 14 overlap groups differentiated with NOT-for guidance, 8 vague/non-English descriptions rewritten. All workspace skills at /home/clawdbot/clawd/skills/. Audit report at tmp/skill-audit-report.md.\n\n## Related\n- [[Home|← Home]]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-689042a2405cb0172a76bf202e09b476",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:529e1b27c3097e0c9b2842a9b061cfb7",
+      "default:extract:228ba0fed90ddbabc6c9e14477339728"
+    ],
+    "create_time": 1772763368,
+    "update_time": 1772763395,
+    "_id": "chunk-689042a2405cb0172a76bf202e09b476"
+  },
+  "chunk-d2f92681cbc13202ffab87956e20912b": {
+    "tokens": 998,
+    "content": "[Source: KnowledgeGraph/Documents/Facts.md]\n---\ntype: facts\nupdated: 2026-02-16\ntags: [facts, reference]\n---\n\n# 📌 Quick Facts\n\n- **[2026-02-16 23:40]** CMT Paper ID 18 - RAG Second Brain v23.1 submitted to AIiH 2026\n- **[2026-02-17 00:47]** AIiH 2026 templates saved at /home/clawdbot/clawd/templates/AIiH-2026/ — LaTeX (llncs.cls, splncs04.bst, samplepaper.tex) and Word (svlnproc1104.dot)\n- **[2026-02-17 01:02]** Default DOCX report template: /home/clawdbot/clawd/templates/reports/LNCS_Report_Template.docx — Cover page, TOC, 3 heading levels (Navy/Blue/Gray), 9 table styles, 1-inch margins, professional formatting. Use as base for all DOCX report generation.\n- **[2026-02-17 01:25]** Paper file naming convention on Google Drive:\n- Folder: 'Multi-Source KG RAG Second Brain – AliH2026 - v{N}'\n- Files: 'MKG-RAG_SecondBrain_v{N}_AliH2026.tex' and 'MKG-RAG_SecondBrain_v{N}_AliH2026.pdf'\n- Examples: v20.3, v21, v22, v23\n- **[2026-02-21 20:10]** SQLite FTS5 memory system being built at /home/clawdbot/clawd/memory.db to replace file-based Obsidian memory\n- **[2026-02-28 20:01]** OpenClaw updated to v2026.2.26 on 2026-03-01 (from v2026.2.21-2) — includes sandbox security fixes\n- **[2026-02-28 20:01]** Coding team fully configured 2026-03-01: orchestrator=Opus, code-review=Opus, db-specialist=Opus, rest=Sonnet. All 4 working modes in orchestrator AGENTS.md\n- **[2026-02-28 20:01]** fb-ai-news-post cron job failing with write error to /tmp/fb_post_*.txt — needs investigation\n- **[2026-03-04 23:08]** Facebook Page token is at tools/fb_config.json (page_id: 115906681768742, page: Anirach's Classes). Post via: python3 tools/fb_post.py 'message'. Permanent token, data access expires May 2026.\n- **[2026-03-05 01:01]** Daily arXiv scan 2026-03-05: 88 relevant papers from 107 total. Top picks: TrustMH-Bench (LLM mental health eval), PrivMedChat (DP-RLHF medical dialogue), Type-Aware RAG, MoD-DPO (cross-modal hallucination), Neuro-Symbolic AI survey.\n- **[2026-03-05 21:35]** Facebook posting tool: python3 tools/fb_post.py 'message' — config at tools/fb_config.json with permanent page token for page 115906681768742 (Anirach's Classes). Token valid until May 2026. Cron sub-agents MUST use this tool, not raw curl.\n- **[2026-03-06 00:57]** HA Thailand Standards v6 (2026-2030) stored. PDF at references/HA_Standards_v6_2026-2030.pdf, full text at tmp/ha_standards_v6_full.txt (530KB). Structure reference at obsidian KnowledgeGraph/Documents/HA-Standards-v6-Reference.md. 4 parts: I-OrgMgmt(I-1~I-6), II-KeySystems(II-1~II-10), III-PatientCare(III-1~III-6), IV-Results(IV-1~IV-6). NEW in v6: II-10 Digital Care, I-4.2ค InfoSec/PDPA, sustainability, critical care.\n- **[2026-03-06 01:00]** Daily arXiv monitor 2026-03-06: 89 relevant papers from 106 found. Top: vector prompt interfaces for LLM customization, LLM code attribution fingerprints, neuro-symbolic cancer drug response framework, VLFM underrepresentation probing, transformer quantization outliers.",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d2f92681cbc13202ffab87956e20912b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:be26771530a5758514b39054a650db36",
+      "default:extract:cea528ab40f5fade561e2e92b2eabfe9"
+    ],
+    "create_time": 1772763382,
+    "update_time": 1772763457,
+    "_id": "chunk-d2f92681cbc13202ffab87956e20912b"
+  },
+  "chunk-26ed990cda14504934345a280aafe273": {
+    "tokens": 93,
+    "content": "[Source: KnowledgeGraph/Action-Items/2026-03-05-Items--158.md]\n---\ntype: action-item\ndate: 2026-03-05\nowner: \"\"\ndeadline: \"\"\nstatus: \"open\"\ntags: [action-item, knowledge-graph]\nsource: \"batch\"\n---\n\n# Items | 158 |\n\n- **Owner:** Unknown\n- **Deadline:** \n- **Status:** open\n- **Source:** batch",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-26ed990cda14504934345a280aafe273",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6b7cb719e2fb3dc5f677dd588fbb4a28",
+      "default:extract:d203fb0f46652247edcc5e2720caf8c3"
+    ],
+    "create_time": 1772763405,
+    "update_time": 1772763422,
+    "_id": "chunk-26ed990cda14504934345a280aafe273"
+  },
+  "chunk-2a95213262632488c3ed69d7623db435": {
+    "tokens": 517,
+    "content": "type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 18:00 — batch\n  --- Source: Memory: 2026-03-06 --- # 2026-03-06 — Daily Log  ## Smart HAI Dashboard Project  ### 30 Complex Dashboards Report (v1) - Generated first version: `HA_30_Complex_Dashboards.docx` - 5 domains, 30 dashboards mapped to 83 DW tables - GDrive: https://docs.google.com/document/d/1ZTkGsnP11sdo",
+    "chunk_order_index": 5,
+    "full_doc_id": "doc-64fc84630d5f8d5aad86cda5f36dd9b7",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d9a6405f1cf1ba7120382558f3bbe16b",
+      "default:extract:8d77aae68e9771bd867bf242a8bc3b8f"
+    ],
+    "create_time": 1772823613,
+    "update_time": 1772823683,
+    "_id": "chunk-2a95213262632488c3ed69d7623db435"
+  },
+  "chunk-82dee78d437d05747e42bee23124ec36": {
+    "tokens": 389,
+    "content": "[Source: KnowledgeGraph/_index.md]\n---\ntype: index\nupdated: 2026-03-06 18:00\ntags: [knowledge-graph, index]\n---\n\n# Knowledge Graph Index\n\n> Auto-generated on 2026-03-06 18:00\n\n## Overview\n\n| Category | Count |\n|----------|-------|\n| People | 318 |\n| Projects | 129 |\n| Decisions | 68 |\n| Action Items | 165 |\n\n## Recent Activity\n\n- `2026-03-06 18:00` — [[2026-03-06-Items--163]] (Action-Items)\n- `2026-03-06 18:00` — [[2026-03-06--Items]] (Action-Items)\n- `2026-03-06 18:00` — [[First-Novel]] (People)\n- `2026-03-06 18:00` — [[Memory-Log]] (People)\n- `2026-03-06 18:00` — [[Writing-Team]] (People)\n- `2026-03-06 16:00` — [[2026-03-06-via-information_schema-query]] (Decisions)\n- `2026-03-06 16:00` — [[2026-03-06-i_1_lrd-i_2_stg-i_3_pcm-i_4_kam-i_5_wkf-i_6_o]] (Decisions)\n- `2026-03-06 04:00` — [[2026-03-06-Items--162]] (Action-Items)\n- `2026-03-06 01:00` — [[Facts]] (Documents)\n- `2026-03-06 00:57` — [[HA-Standards-v6-Reference]] (Documents)",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-82dee78d437d05747e42bee23124ec36",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:aa28a4bc0ec7d122bcc14fab1bed83d5",
+      "default:extract:6a2e1cb2a1888fe606f0ac38ac763178"
+    ],
+    "create_time": 1772823613,
+    "update_time": 1772823686,
+    "_id": "chunk-82dee78d437d05747e42bee23124ec36"
+  },
+  "chunk-1a0c2a9031f1b858d79f12378d220496": {
+    "tokens": 1200,
+    "content": "[Source: KnowledgeGraph/People/Session-Major.md]\n---\nname: \"Session Major\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-03-01\n---\n\n# Session Major\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-03-01 23:00 — batch\n  --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes  ## System Optimization Session Major performance tuning done today:  ### Fixes Applied 1. **Memory search fixed** — Google embedding provider had `baseUrl: \"https://unused\"`, changed to `https://generativelanguage.googleapis.com/v1beta\n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-75fd74318d7ddac92854f738564a8641",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d195f5252373f948244d48f83196d4a3",
+      "default:extract:cb3ae293917a192fb5e7cce9ec87b74f"
+    ],
+    "create_time": 1772823754,
+    "update_time": 1772823815,
+    "_id": "chunk-1a0c2a9031f1b858d79f12378d220496"
+  },
+  "chunk-9a2930106fa93d6381998b32a2282a63": {
+    "tokens": 148,
+    "content": "-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-75fd74318d7ddac92854f738564a8641",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:25fa40dc1c8924d50032878d5c2e5b37",
+      "default:extract:d185167a18ed3e452d313db2c96f3644"
+    ],
+    "create_time": 1772823754,
+    "update_time": 1772823797,
+    "_id": "chunk-9a2930106fa93d6381998b32a2282a63"
+  },
+  "chunk-49d36a38c7bfb8ffb8ea83f341e5f76b": {
+    "tokens": 574,
+    "content": "Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-518c5dc74f944b50810ef8ff3d3071f9",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:bd04a952a4480a21b7765ffa77a44334",
+      "default:extract:1a56c35321b70cb2b6a9b191b0fc814c"
+    ],
+    "create_time": 1772823842,
+    "update_time": 1772823921,
+    "_id": "chunk-49d36a38c7bfb8ffb8ea83f341e5f76b"
+  },
+  "chunk-83ff44d971b52ca476564e78e582061c": {
+    "tokens": 194,
+    "content": "[Source: KnowledgeGraph/People/Complex-Dashboards.md]\n---\nname: \"Complex Dashboards\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-03-06\n---\n\n# Complex Dashboards\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-03-06 18:00 — batch\n  --- Source: Memory: 2026-03-06 --- # 2026-03-06 — Daily Log  ## Smart HAI Dashboard Project  ### 30 Complex Dashboards Report (v1) - Generated first version: `HA_30_Complex_Dashboards.docx` - 5 domains, 30 dashboards mapped to 83 DW tables - GDrive: https://docs.google.com/document/d/1ZTkGsnP11sdo",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-83ff44d971b52ca476564e78e582061c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:49968845d6178d89121a37ae4c90c91c",
+      "default:extract:3e28caf81aa80d49514a87be05c442cf"
+    ],
+    "create_time": 1772823953,
+    "update_time": 1772823992,
+    "_id": "chunk-83ff44d971b52ca476564e78e582061c"
+  },
+  "chunk-69a7df3853cff31dc6e6b38e8ad17a71": {
+    "tokens": 1200,
+    "content": "Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 18:00 — batch\n  --- Source: Memory: 2026-03-06 --- # 2026-03-06 — Daily Log  ## Smart HAI Dashboard Project  ### 30 Complex Dashboards Report (v1) - Generated first version: `HA_30_Complex_Dashboards.docx` - 5 domains, 30 dashboards mapped to 83 DW tables - GDrive: https://docs.google.com/document/d",
+    "chunk_order_index": 3,
+    "full_doc_id": "doc-93764e1166b64cc52374044d2955f430",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:dd520090d88cbdaa85aad54d6fd26dd7",
+      "default:extract:4b48d7201c6ac47dcd06ce354abc7145"
+    ],
+    "create_time": 1772824000,
+    "update_time": 1772824118,
+    "_id": "chunk-69a7df3853cff31dc6e6b38e8ad17a71"
+  },
+  "chunk-82ed154824a7605cfecdd0a9c40956db": {
+    "tokens": 110,
+    "content": "2026-03-06 18:00 — batch\n  --- Source: Memory: 2026-03-06 --- # 2026-03-06 — Daily Log  ## Smart HAI Dashboard Project  ### 30 Complex Dashboards Report (v1) - Generated first version: `HA_30_Complex_Dashboards.docx` - 5 domains, 30 dashboards mapped to 83 DW tables - GDrive: https://docs.google.com/document/d/1ZTkGsnP11sdo",
+    "chunk_order_index": 4,
+    "full_doc_id": "doc-93764e1166b64cc52374044d2955f430",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:256f2582788871066c34b32d35c60b02",
+      "default:extract:3a84303e491dc1cc85cf6da51e64f633"
+    ],
+    "create_time": 1772824000,
+    "update_time": 1772824032,
+    "_id": "chunk-82ed154824a7605cfecdd0a9c40956db"
+  },
+  "chunk-7ff7e5c1e27b82737e07d089640954be": {
+    "tokens": 592,
+    "content": "[Source: KnowledgeGraph/People/Daily-Log.md]\n---\nname: \"Daily Log\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-02-17\n---\n\n# Daily Log\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-02-17 04:03 — Obsidian: Daily/2026-02-09.md\n# 2026-02-09 — Daily Log  ## Paper Revisions  ### v7 & v8 Completed - **v7**: Fixed differentiability with two-stage training, compute feasibility, KG snapshot dates - **v8**: All 9 reviewer concerns addressed, estimated 8.5/10 (target: 8/10) - Both versions uploaded to Google Drive  ### ⚠️ v8 Revie\n\n\n## 2026-02-17 04:03 — Obsidian: Daily/2026-02-10.md\n# 2026-02-10 — Arthur's Daily Log  ## RAG Second Brain Paper v15  ### Final Results (Learned Gating) - **Sigmoid R@10:** 0.923 [0.889, 0.950] — **+18.4% over RRF** - **Softmax R@10:** 0.911 [0.874, 0.939] - **RRF Baseline:** 0.779 [0.730, 0.823] - **Statistical significance:** p < 0.001 (bootstrap) \n\n\n## 2026-02-17 04:03 — Obsidian: KnowledgeGraph/People/Arthur.md\n--- type: \"Person\" id: \"person:arthur\" tags: [person, agent] date: \"2026-01-26\" role: \"AI Assistant\" ---  # Arthur  AI agent (Labrador 🐕) running on OpenClaw. Born 2026-01-26.  ## Connections  - → **assists**: [[People/Anirach Mingkhwan|Anirach Mingkhwan]] - → **works_on**: [[Projects/RAG Second Bra\n\n\n## 2026-03-06 18:00 — batch\n  --- Source: Memory: 2026-03-06 --- # 2026-03-06 — Daily Log  ## Smart HAI Dashboard Project  ### 30 Complex Dashboards Report (v1) - Generated first version: `HA_30_Complex_Dashboards.docx` - 5 domains, 30 dashboards mapped to 83 DW tables - GDrive: https://docs.google.com/document/d/1ZTkGsnP11sdo",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-7ff7e5c1e27b82737e07d089640954be",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:817b2b4430bc5779f940bc965c7fba9e",
+      "default:extract:366d878a777c631fd369fb93a4d11d20"
+    ],
+    "create_time": 1772824186,
+    "update_time": 1772824233,
+    "_id": "chunk-7ff7e5c1e27b82737e07d089640954be"
+  },
+  "chunk-f1804599fe5a3988c5fa6a0d70774afe": {
+    "tokens": 1200,
+    "content": "Notes \n\n\n## 2026-03-02 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-02 23:23 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 04",
+    "chunk_order_index": 3,
+    "full_doc_id": "doc-5dd5b36441bf0c04697c871845057f0b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:428f31039260a5085bb78f5978f5ae89",
+      "default:extract:d98222410791800d936b4d7cc00cad96"
+    ],
+    "create_time": 1772824260,
+    "update_time": 1772824290,
+    "_id": "chunk-f1804599fe5a3988c5fa6a0d70774afe"
+  },
+  "chunk-5704b359100affdf9c88d72bae150dcc": {
+    "tokens": 310,
+    "content": "Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 18:00 — batch\n  --- Source: Memory: 2026-03-06 --- # 2026-03-06 — Daily Log  ## Smart HAI Dashboard Project  ### 30 Complex Dashboards Report (v1) - Generated first version: `HA_30_Complex_Dashboards.docx` - 5 domains, 30 dashboards mapped to 83 DW tables - GDrive: https://docs.google.com/document/d/1ZTkGsnP11sdo",
+    "chunk_order_index": 4,
+    "full_doc_id": "doc-5dd5b36441bf0c04697c871845057f0b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:2627f4b0cfb3e631886b543eeaa86443",
+      "default:extract:06f074aad34759b824fc0c4882a54a41"
+    ],
+    "create_time": 1772824260,
+    "update_time": 1772824319,
+    "_id": "chunk-5704b359100affdf9c88d72bae150dcc"
+  },
+  "chunk-d0a4425eeb6a909ec03274c53503d906": {
+    "tokens": 978,
+    "content": "## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 18:00 — batch\n  --- Source: Memory: 2026-03-06 --- # 2026-03-06 — Daily Log  ## Smart HAI Dashboard Project  ### 30 Complex Dashboards Report (v1) - Generated first version: `HA_30_Complex_Dashboards.docx` - 5 domains, 30 dashboards mapped to 83 DW tables - GDrive: https://docs.google.com/document/d/1ZTkGsnP11sdo",
+    "chunk_order_index": 3,
+    "full_doc_id": "doc-93ae1f80214c6b2df31480ba3cb0aa9c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:c501f16b65cae236cf4168cd82a1a0b8",
+      "default:extract:50d5dab9d5c6210da30ecaad66ee1dab"
+    ],
+    "create_time": 1772824406,
+    "update_time": 1772824496,
+    "_id": "chunk-d0a4425eeb6a909ec03274c53503d906"
+  },
+  "chunk-61c0edda5725534254122307b7c8815a": {
+    "tokens": 554,
+    "content": "| 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 2,
+    "full_doc_id": "doc-360e20d557ee23581df4c2b935d485fa",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:a04e8d31fa6e566647f8c21192cf1fba",
+      "default:extract:2bd4547ba18651ce3268ae318bc4da52"
+    ],
+    "create_time": 1772824574,
+    "update_time": 1772824617,
+    "_id": "chunk-61c0edda5725534254122307b7c8815a"
+  },
+  "chunk-2353a796b95378bd746791c5f2c7d9bd": {
+    "tokens": 190,
+    "content": "[Source: KnowledgeGraph/People/Budget-Year.md]\n---\nname: \"Budget Year\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-03-06\n---\n\n# Budget Year\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-03-06 18:00 — batch\n  --- Source: Memory: 2026-03-06 --- # 2026-03-06 — Daily Log  ## Smart HAI Dashboard Project  ### 30 Complex Dashboards Report (v1) - Generated first version: `HA_30_Complex_Dashboards.docx` - 5 domains, 30 dashboards mapped to 83 DW tables - GDrive: https://docs.google.com/document/d/1ZTkGsnP11sdo",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2353a796b95378bd746791c5f2c7d9bd",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d1f822ba0ea81c0f409462b81685aa2f",
+      "default:extract:91d1b9c83de0d8f3c11fc477ed621f4e"
+    ],
+    "create_time": 1772824574,
+    "update_time": 1772824596,
+    "_id": "chunk-2353a796b95378bd746791c5f2c7d9bd"
+  },
+  "chunk-054fad68bfc06d233635a4bc62f06276": {
+    "tokens": 266,
+    "content": "Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6",
+    "chunk_order_index": 1,
+    "full_doc_id": "doc-9640547a187b0fa3f70c04d38bf0f930",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:08b519899e4fed90e01315f8c9d5b1d3",
+      "default:extract:b43616fa1fdcecec488042aab92f84d2"
+    ],
+    "create_time": 1772824605,
+    "update_time": 1772824668,
+    "_id": "chunk-054fad68bfc06d233635a4bc62f06276"
+  },
+  "chunk-8450374cc104b9afeb7e8355e06627d4": {
+    "tokens": 376,
+    "content": "> Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 18:00 — batch\n  --- Source: Memory: 2026-03-06 --- # 2026-03-06 — Daily Log  ## Smart HAI Dashboard Project  ### 30 Complex Dashboards Report (v1) - Generated first version: `HA_30_Complex_Dashboards.docx` - 5 domains, 30 dashboards mapped to 83 DW tables - GDrive: https://docs.google.com/document/d/1ZTkGsnP11sdo",
+    "chunk_order_index": 3,
+    "full_doc_id": "doc-439daaf6d4fe9eaf9634ecb6996d41fa",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3403c4d74cba0f4b2550a959de53e90f",
+      "default:extract:020a65ccc6592031bf5ccdb418c19632"
+    ],
+    "create_time": 1772824698,
+    "update_time": 1772824776,
+    "_id": "chunk-8450374cc104b9afeb7e8355e06627d4"
+  },
+  "chunk-2cd04a98c88cb9a6e7d71b7f3ad2c996": {
+    "tokens": 1200,
+    "content": "Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Memory: 2026-03-01 --- # 2026-03-01 — Daily Notes \n\n\n## 2026-03-03 04:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 18:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-03 23:00 — batch\n  --- Source: Memory: 2026-03-02 ---  ### 09:31 BKK — Session Snapshot (msg #20) - Session: agent:chapter-writer:main - Last message from: telegram:7579913696 - Snippet: \"/restart\" - Auto-snapshot: session active, 20 messages exchanged   --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: i\n\n\n## 2026-03-04 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-03 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-03 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 127 | | Decisions | 6\n\n\n## 2026-03-04 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-04 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-04 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 18:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 04:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 04:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 128 | | Decisions | 6\n\n\n## 2026-03-05 23:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 18:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 18:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 04:00 — batch\n  --- Source: Obsidian: KnowledgeGraph/_index.md --- --- type: index updated: 2026-03-05 23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 18:00 — batch\n  --- Source: Memory: 2026-03-06 --- # 2026",
+    "chunk_order_index": 2,
+    "full_doc_id": "doc-18b7f7811f76e9c0358362c03d6a9fcd",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3ca76b18178b92447bb5740621826226",
+      "default:extract:fc50af050f22ce24ba12a19e9059f34d"
+    ],
+    "create_time": 1772824860,
+    "update_time": 1772824987,
+    "_id": "chunk-2cd04a98c88cb9a6e7d71b7f3ad2c996"
+  },
+  "chunk-43eab0fa420088ff612a86170aacc6ce": {
+    "tokens": 178,
+    "content": "23:00 tags: [knowledge-graph, index] ---  # Knowledge Graph Index  > Auto-generated on 2026-03-05 23:00  ## Overview  | Category | Count | |----------|-------| | People | 315 | | Projects | 129 | | Decisions | 6\n\n\n## 2026-03-06 18:00 — batch\n  --- Source: Memory: 2026-03-06 --- # 2026-03-06 — Daily Log  ## Smart HAI Dashboard Project  ### 30 Complex Dashboards Report (v1) - Generated first version: `HA_30_Complex_Dashboards.docx` - 5 domains, 30 dashboards mapped to 83 DW tables - GDrive: https://docs.google.com/document/d/1ZTkGsnP11sdo",
+    "chunk_order_index": 3,
+    "full_doc_id": "doc-18b7f7811f76e9c0358362c03d6a9fcd",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3adfbbc1a66674dc3f56c9d6cbee3fca",
+      "default:extract:31b5544111c44c6c4696def19912af8b"
+    ],
+    "create_time": 1772824860,
+    "update_time": 1772824889,
+    "_id": "chunk-43eab0fa420088ff612a86170aacc6ce"
+  },
+  "chunk-f8270574e44b03ea8ed7c1278a937889": {
+    "tokens": 191,
+    "content": "[Source: KnowledgeGraph/People/Dashboard-Project.md]\n---\nname: \"Dashboard Project\"\ntype: person\nrole: \"\"\norg: \"\"\ntags: [person, knowledge-graph]\ncreated: 2026-03-06\n---\n\n# Dashboard Project\n\n| Field | Value |\n|-------|-------|\n| Role  | Unknown |\n| Org   | Unknown |\n\n## Interactions\n\n### 2026-03-06 18:00 — batch\n  --- Source: Memory: 2026-03-06 --- # 2026-03-06 — Daily Log  ## Smart HAI Dashboard Project  ### 30 Complex Dashboards Report (v1) - Generated first version: `HA_30_Complex_Dashboards.docx` - 5 domains, 30 dashboards mapped to 83 DW tables - GDrive: https://docs.google.com/document/d/1ZTkGsnP11sdo",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-f8270574e44b03ea8ed7c1278a937889",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:c618bf987d0ace54d2761eb3a14ead84",
+      "default:extract:b1975d3ed925c0ce31c1b62b1904dc00"
+    ],
+    "create_time": 1772825058,
+    "update_time": 1772825093,
+    "_id": "chunk-f8270574e44b03ea8ed7c1278a937889"
+  },
+  "chunk-e44677d3b7901dfac79e002aeb0d11a5": {
+    "tokens": 85,
+    "content": "[Source: KnowledgeGraph/Decisions/2026-03-06-via-information_schema-query.md]\n# Decision: via information_schema query\n\n**Date:** 2026-03-06\n**Context:** \n**Rationale:** \n\n## Details\nvia information_schema query\n\n## Tags\n#decision #2026-03-06\n\n## Links\n- [[Daily/2026-03-06]]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e44677d3b7901dfac79e002aeb0d11a5",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:c5e8a815f39f6793d6320ddfe54b90b8",
+      "default:extract:4677b2c595f8a69195840b20ffb162d4"
+    ],
+    "create_time": 1772825105,
+    "update_time": 1772825124,
+    "_id": "chunk-e44677d3b7901dfac79e002aeb0d11a5"
+  },
+  "chunk-689ac1ee9d62ec2d49b1210fa76d62cf": {
+    "tokens": 250,
+    "content": "[Source: KnowledgeGraph/Decisions/2026-03-06-i_1_lrd-i_2_stg-i_3_pcm-i_4_kam-i_5_wkf-i_6_o.md]\n# Decision: i_1_lrd, i_2_stg, i_3_pcm, i_4_kam, i_5_wkf, i_6_opt, ii_1_rsq...ii_9_com, iii_1_acn...iii_6_coc, iv\n\n**Date:** 2026-03-06\n**Context:** \n**Rationale:** \n\n## Details\ni_1_lrd, i_2_stg, i_3_pcm, i_4_kam, i_5_wkf, i_6_opt, ii_1_rsq...ii_9_com, iii_1_acn...iii_6_coc, iv_1_hcr, iv_2_cfr, iv_3_wfr, iv_4_ldr, iv_5_wpr, iv_6_fnr\n\n## Tags\n#decision #2026-03-06\n\n## Links\n- [[Daily/2026-03-06]]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-689ac1ee9d62ec2d49b1210fa76d62cf",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6f7a4c273387a77c623ec4530e4ac90c",
+      "default:extract:74b8f2275a35800192c76563d4e54fc9"
+    ],
+    "create_time": 1772825138,
+    "update_time": 1772825188,
+    "_id": "chunk-689ac1ee9d62ec2d49b1210fa76d62cf"
+  },
+  "chunk-1d19890d1d093c09113388e12194d0cc": {
+    "tokens": 93,
+    "content": "[Source: KnowledgeGraph/Action-Items/2026-03-06-Items--162.md]\n---\ntype: action-item\ndate: 2026-03-06\nowner: \"\"\ndeadline: \"\"\nstatus: \"open\"\ntags: [action-item, knowledge-graph]\nsource: \"batch\"\n---\n\n# Items | 162 |\n\n- **Owner:** Unknown\n- **Deadline:** \n- **Status:** open\n- **Source:** batch",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-1d19890d1d093c09113388e12194d0cc",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:36d622456baa57f0ab325800e3c803b2",
+      "default:extract:f9e468a5458f0670698c990c871a03ad"
+    ],
+    "create_time": 1772825205,
+    "update_time": 1772825225,
+    "_id": "chunk-1d19890d1d093c09113388e12194d0cc"
+  },
+  "chunk-9f1de4efc5e7b6ce50de1426a4a46cee": {
+    "tokens": 93,
+    "content": "[Source: KnowledgeGraph/Action-Items/2026-03-06-Items--163.md]\n---\ntype: action-item\ndate: 2026-03-06\nowner: \"\"\ndeadline: \"\"\nstatus: \"open\"\ntags: [action-item, knowledge-graph]\nsource: \"batch\"\n---\n\n# Items | 163 |\n\n- **Owner:** Unknown\n- **Deadline:** \n- **Status:** open\n- **Source:** batch",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-9f1de4efc5e7b6ce50de1426a4a46cee",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3af31a783cc3f15a7359c2630349e373",
+      "default:extract:4aa2aff302e09283306e92dcfd505942"
+    ],
+    "create_time": 1772825237,
+    "update_time": 1772825270,
+    "_id": "chunk-9f1de4efc5e7b6ce50de1426a4a46cee"
+  },
+  "chunk-c676fbfb605498dc9758c93d6d6f28e4": {
+    "tokens": 89,
+    "content": "[Source: KnowledgeGraph/Action-Items/2026-03-06--Items.md]\n---\ntype: action-item\ndate: 2026-03-06\nowner: \"\"\ndeadline: \"\"\nstatus: \"open\"\ntags: [action-item, knowledge-graph]\nsource: \"batch\"\n---\n\n# -Items)\n\n- **Owner:** Unknown\n- **Deadline:** \n- **Status:** open\n- **Source:** batch",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-c676fbfb605498dc9758c93d6d6f28e4",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:e0795eb7a0227cabba435932f4fbecca",
+      "default:extract:31fd1df05c4d7f31c7777983d3b0cb66"
+    ],
+    "create_time": 1772825282,
+    "update_time": 1772825297,
+    "_id": "chunk-c676fbfb605498dc9758c93d6d6f28e4"
   }
 }

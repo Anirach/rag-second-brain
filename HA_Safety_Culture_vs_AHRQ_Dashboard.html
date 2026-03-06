@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HA Safety Culture vs AHRQ Benchmark Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<style>
+:root{--bg:#0a0e1a;--card:#111827;--card2:#1a2332;--border:#1e3a5f;--text:#e2e8f0;--text2:#94a3b8;--accent:#3b82f6;--green:#10b981;--red:#ef4444;--amber:#f59e0b;--purple:#8b5cf6;--cyan:#06b6d4}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;min-height:100vh}
+.header{background:linear-gradient(135deg,#1e3a5f 0%,#0f172a 50%,#1e1b4b 100%);padding:28px 40px;border-bottom:2px solid var(--accent)}
+.header h1{font-size:1.7rem;font-weight:700;letter-spacing:-.5px}
+.header h1 span{color:var(--accent)}
+.header .sub{color:var(--text2);font-size:.85rem;margin-top:4px}
+.header .badges{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.badge{padding:3px 10px;border-radius:12px;font-size:.72rem;font-weight:600;letter-spacing:.3px}
+.badge-blue{background:rgba(59,130,246,.15);color:#60a5fa;border:1px solid rgba(59,130,246,.3)}
+.badge-green{background:rgba(16,185,129,.15);color:#34d399;border:1px solid rgba(16,185,129,.3)}
+.badge-amber{background:rgba(245,158,11,.15);color:#fbbf24;border:1px solid rgba(245,158,11,.3)}
+.badge-purple{background:rgba(139,92,246,.15);color:#a78bfa;border:1px solid rgba(139,92,246,.3)}
+
+.grid{display:grid;gap:20px;padding:24px;max-width:1600px;margin:0 auto}
+.g2{grid-template-columns:1fr 1fr}
+.g3{grid-template-columns:1fr 1fr 1fr}
+.g1{grid-template-columns:1fr}
+
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;position:relative;overflow:hidden}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--purple))}
+.card h3{font-size:.95rem;color:var(--text2);margin-bottom:14px;font-weight:600;text-transform:uppercase;letter-spacing:.5px}
+.card h3 .icon{margin-right:6px}
+
+/* KPI row */
+.kpi-row{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;padding:0 24px 0}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;text-align:center;position:relative;overflow:hidden}
+.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+.kpi:nth-child(1)::before{background:var(--accent)}
+.kpi:nth-child(2)::before{background:var(--green)}
+.kpi:nth-child(3)::before{background:var(--amber)}
+.kpi:nth-child(4)::before{background:var(--red)}
+.kpi:nth-child(5)::before{background:var(--purple)}
+.kpi .label{font-size:.7rem;color:var(--text2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.kpi .val{font-size:1.6rem;font-weight:700}
+.kpi .note{font-size:.65rem;color:var(--text2);margin-top:2px}
+
+canvas{max-height:420px}
+
+/* Ranking table */
+.rank-table{width:100%;border-collapse:collapse;font-size:.82rem}
+.rank-table th{background:var(--card2);color:var(--text2);padding:8px 10px;text-align:left;font-weight:600;border-bottom:1px solid var(--border);position:sticky;top:0}
+.rank-table td{padding:7px 10px;border-bottom:1px solid rgba(30,58,95,.3)}
+.rank-table tr:hover td{background:rgba(59,130,246,.05)}
+.rank-num{font-weight:700;width:30px;text-align:center}
+.bar-cell{position:relative}
+.bar-bg{height:22px;border-radius:4px;display:flex;align-items:center;padding-left:8px;font-size:.75rem;font-weight:600;color:#fff;min-width:20px}
+.gap-pos{color:var(--green);font-weight:600}
+.gap-neg{color:var(--red);font-weight:600}
+.gap-warn{color:var(--amber);font-weight:600}
+
+.tag{display:inline-block;padding:2px 8px;border-radius:6px;font-size:.68rem;font-weight:600}
+.tag-strength{background:rgba(16,185,129,.15);color:#34d399;border:1px solid rgba(16,185,129,.25)}
+.tag-improve{background:rgba(239,68,68,.15);color:#f87171;border:1px solid rgba(239,68,68,.25)}
+.tag-watch{background:rgba(245,158,11,.15);color:#fbbf24;border:1px solid rgba(245,158,11,.25)}
+
+.legend-row{display:flex;gap:16px;justify-content:center;margin-top:8px;flex-wrap:wrap}
+.legend-item{display:flex;align-items:center;gap:5px;font-size:.72rem;color:var(--text2)}
+.legend-dot{width:10px;height:10px;border-radius:50%}
+
+.note-box{background:var(--card2);border-left:3px solid var(--amber);padding:12px 16px;border-radius:0 8px 8px 0;margin-top:12px;font-size:.78rem;color:var(--text2);line-height:1.5}
+
+.scroll-wrap{max-height:500px;overflow-y:auto}
+.scroll-wrap::-webkit-scrollbar{width:6px}
+.scroll-wrap::-webkit-scrollbar-track{background:var(--card)}
+.scroll-wrap::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+
+@media(max-width:900px){.g2,.g3{grid-template-columns:1fr}.kpi-row{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🏥 HA <span>Safety Culture</span> vs AHRQ Benchmark Dashboard</h1>
+  <div class="sub">Hospital Safety Culture Survey Results — HA Thailand Data Warehouse × AHRQ SOPS Hospital Survey 2.0 (400 US Hospitals)</div>
+  <div class="badges">
+    <span class="badge badge-blue">156 Scored Hospitals</span>
+    <span class="badge badge-green">27 HA Standard Chapters</span>
+    <span class="badge badge-amber">10 AHRQ Composites</span>
+    <span class="badge badge-purple">HSCS Survey Data</span>
+  </div>
+</div>
+
+<!-- KPI Cards -->
+<div class="kpi-row" style="padding:20px 24px 0;max-width:1600px;margin:0 auto">
+  <div class="kpi"><div class="label">HA Overall Score</div><div class="val" style="color:var(--accent)">202.3</div><div class="note">/ 300 (n=156)</div></div>
+  <div class="kpi"><div class="label">Strongest Chapter</div><div class="val" style="color:var(--green)">2.90</div><div class="note">IV-6 Financial Results</div></div>
+  <div class="kpi"><div class="label">Weakest Chapter</div><div class="val" style="color:var(--amber)">2.53</div><div class="note">III-3 Care Planning</div></div>
+  <div class="kpi"><div class="label">AHRQ Lowest</div><div class="val" style="color:var(--red)">51%</div><div class="note">Staffing & Work Pace</div></div>
+  <div class="kpi"><div class="label">Thai HSCS Avg</div><div class="val" style="color:var(--purple)">71.8%</div><div class="note">% Positive (9 hospitals)</div></div>
+</div>
+
+<!-- Row 1: AHRQ vs Thai mapping + ranked bar -->
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">📊</span>AHRQ 10 Composites — US Benchmark vs Thai Estimate</h3>
+    <canvas id="chartAHRQ"></canvas>
+    <div class="legend-row">
+      <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div>AHRQ US Benchmark (%)</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div>Thai HA Estimate (%)</div>
+      <div class="legend-item"><div class="legend-dot" style="background:rgba(239,68,68,.4)"></div>Gap Zone</div>
+    </div>
+  </div>
+  <div class="card">
+    <h3><span class="icon">🎯</span>Strength & Improvement Ranking (Gap Analysis)</h3>
+    <div class="scroll-wrap">
+      <table class="rank-table" id="gapTable">
+        <thead><tr><th>#</th><th>Dimension</th><th>AHRQ</th><th>Thai Est.</th><th>Gap</th><th>Status</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Row 2: Radar comparison + 27-chapter horizontal -->
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">🕸️</span>10-Dimension Radar — AHRQ vs Thai Mapping</h3>
+    <canvas id="chartRadar"></canvas>
+  </div>
+  <div class="card">
+    <h3><span class="icon">📈</span>27 HA Chapters Ranked — Score vs 2.80 Target</h3>
+    <canvas id="chart27" style="max-height:550px"></canvas>
+  </div>
+</div>
+
+<!-- Row 3: HSCS dimension data + Thai HSCS scatter -->
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">🔬</span>HSCS Survey Dimensions — Available Thai Data Points</h3>
+    <canvas id="chartHSCS"></canvas>
+    <div class="note-box">
+      ⚠️ <strong>Data Limitation:</strong> Only 9 hospitals reported HSCS/safety culture survey results in the DW (2021-2024). Values shown are individual hospital reports, not national averages. Survey instruments and scales vary across hospitals — no standardized national HSCS instrument exists yet.
+    </div>
+  </div>
+  <div class="card">
+    <h3><span class="icon">🏛️</span>HA Quality Score by Hospital Level vs AHRQ Context</h3>
+    <canvas id="chartLevel"></canvas>
+    <div class="legend-row">
+      <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div>Overall Score / 300</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div>RSQ (II-1) Chapter / 3.0</div>
+    </div>
+  </div>
+</div>
+
+<!-- Row 4: Part I-IV vs AHRQ mapping table -->
+<div class="grid g1">
+  <div class="card">
+    <h3><span class="icon">🗺️</span>Conceptual Mapping — HA Standard Chapters → AHRQ SOPS Composites</h3>
+    <div class="scroll-wrap">
+      <table class="rank-table" id="mappingTable">
+        <thead><tr><th>AHRQ Composite</th><th>AHRQ %</th><th>Mapped HA Chapter(s)</th><th>HA Score</th><th>HA as %</th><th>Gap</th><th>Priority</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="note-box" style="margin-top:14px">
+      📋 <strong>Mapping Method:</strong> HA Standard chapter scores (1.00–3.00 scale) converted to percentage equivalent (score/3×100) for comparison with AHRQ % positive response. This is a <em>conceptual</em> alignment — HA chapters assess organizational systems while AHRQ measures individual staff perceptions. Direct comparison should be interpreted with caution.
+    </div>
+  </div>
+</div>
+
+<!-- Row 5: Strengths & Areas for Improvement summary -->
+<div class="grid g2">
+  <div class="card" style="border-top:3px solid var(--green)">
+    <h3 style="color:var(--green)"><span class="icon">✅</span>TOP 5 Strengths</h3>
+    <div id="strengthsList"></div>
+  </div>
+  <div class="card" style="border-top:3px solid var(--red)">
+    <h3 style="color:#f87171"><span class="icon">⚠️</span>TOP 5 Areas for Improvement</h3>
+    <div id="improvList"></div>
+  </div>
+</div>
+
+<!-- Row 6: Overall perception + event reporting scatter -->
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">📉</span>Overall Safety Perception — Thai Hospitals vs AHRQ 67%</h3>
+    <canvas id="chartPerception"></canvas>
+  </div>
+  <div class="card">
+    <h3><span class="icon">📢</span>Event Reporting Frequency — Thai Data vs AHRQ 74%</h3>
+    <canvas id="chartReporting"></canvas>
+  </div>
+</div>
+
+<script>
+Chart.register(ChartDataLabels);
+const C = (id) => document.getElementById(id).getContext('2d');
+
+// ============================================================
+// DATA
+// ============================================================
+const ahrqData = [
+  {dim:'Teamwork', ahrq:82, thaiEst:73.0, haChapter:'I-5 Workforce', haScore:2.646, mapped:'i_5_wkf + ii_1_rsq', mappedScore:2.612},
+  {dim:'Supervisor Support', ahrq:80, thaiEst:75.5, haChapter:'IV-4 Leadership', haScore:2.617, mapped:'iv_4_ldr', mappedScore:2.617},
+  {dim:'Communication Openness', ahrq:76, thaiEst:71.0, haChapter:'II-9 Community', haScore:2.888, mapped:'ii_9_com + ii_1_rsq', mappedScore:2.733},
+  {dim:'Reporting Events', ahrq:74, thaiEst:49.4, haChapter:'II-1 RSQ', haScore:2.577, mapped:'ii_1_rsq', mappedScore:2.577},
+  {dim:'Communication About Error', ahrq:72, thaiEst:66.0, haChapter:'II-7 Data/Info', haScore:2.762, mapped:'ii_7_din', mappedScore:2.762},
+  {dim:'Org. Learning', ahrq:72, thaiEst:74.0, haChapter:'I-4 KAM', haScore:2.578, mapped:'i_4_kam + i_2_stg', mappedScore:2.586},
+  {dim:'Mgmt Support', ahrq:72, thaiEst:72.0, haChapter:'I-2 Strategy', haScore:2.593, mapped:'i_2_stg + iv_4_ldr', mappedScore:2.605},
+  {dim:'Response to Error', ahrq:68, thaiEst:65.5, haChapter:'II-1 RSQ', haScore:2.577, mapped:'ii_1_rsq + iii_6_coc', mappedScore:2.616},
+  {dim:'Handoffs & Info Exchange', ahrq:67, thaiEst:70.0, haChapter:'III-6 Care Continuity', haScore:2.654, mapped:'iii_6_coc + ii_8_dhs', mappedScore:2.726},
+  {dim:'Staffing & Work Pace', ahrq:51, thaiEst:60.0, haChapter:'I-5 Workforce', haScore:2.646, mapped:'i_5_wkf', mappedScore:2.646}
+];
+ahrqData.forEach(d => { d.haAsPct = Math.round(d.mappedScore/3*100*10)/10; d.gap = Math.round((d.haAsPct - d.ahrq)*10)/10; });
+
+// 27 chapters
+const ch27 = [
+  {code:'IV-6',name:'Financial Results',score:2.904},{code:'II-9',name:'Community Health',score:2.888},
+  {code:'I-3',name:'Patient Care Mgt',score:2.849},{code:'IV-2',name:'Customer Focus',score:2.814},
+  {code:'II-8',name:'Data & Health Info',score:2.798},{code:'II-7',name:'Data/Info Mgt',score:2.762},
+  {code:'I-1',name:'Leadership',score:2.759},{code:'III-1',name:'Access & Entry',score:2.740},
+  {code:'II-5',name:'Medication Safety',score:2.713},{code:'II-2',name:'Patient & Family',score:2.698},
+  {code:'III-4',name:'Patient Care Delivery',score:2.688},{code:'II-3',name:'Environment',score:2.690},
+  {code:'II-4',name:'Infection Control',score:2.655},{code:'III-6',name:'Care Continuity',score:2.654},
+  {code:'I-5',name:'Workforce',score:2.646},{code:'I-6',name:'Operations',score:2.638},
+  {code:'IV-4',name:'Leadership Results',score:2.617},{code:'II-6',name:'Med Mgt System',score:2.604},
+  {code:'I-2',name:'Strategy',score:2.593},{code:'I-4',name:'Knowledge & Analysis',score:2.578},
+  {code:'II-1',name:'Risk Safety Quality',score:2.577},{code:'III-5',name:'Implementation',score:2.567},
+  {code:'III-2',name:'Assessment',score:2.556},{code:'IV-1',name:'Healthcare Results',score:2.553},
+  {code:'IV-3',name:'Workforce Results',score:2.554},{code:'IV-5',name:'Process Results',score:2.535},
+  {code:'III-3',name:'Care Planning',score:2.529}
+].sort((a,b) => b.score - a.score);
+
+// HSCS dimensions from SAR data
+const hscsData = [
+  {dim:'การทำงานเป็นทีม (Teamwork)', values:[72.3,72.9,73.1,73.3], ahrq:82},
+  {dim:'การสื่อสารที่เปิดกว้าง (Comm. Openness)', values:[69.8,71.0,71.6,71.7], ahrq:76},
+  {dim:'Patient Safety Grade (ดีมาก-ดีเยี่ยม)', values:[69.1,70.3,71.9,73.7], ahrq:67},
+  {dim:'Overall Safety Perception', values:[65.4,66.7,70.5,83.5], ahrq:67},
+  {dim:'Event Reporting Frequency', values:[20.7,61.2,66.3], ahrq:74},
+  {dim:'Overall Culture Survey', values:[69.6,73.8,78.5,80.0,84.2], ahrq:null},
+  {dim:'HSCS Overall (% Positive)', values:[66.7,75.0], ahrq:null}
+];
+
+// Hospital levels
+const levels = [
+  {lev:'U',overall:227.0,rsq:2.820,n:2},{lev:'A+',overall:218.5,rsq:2.645,n:2},
+  {lev:'A',overall:214.1,rsq:2.636,n:12},{lev:'PS',overall:209.6,rsq:2.678,n:4},
+  {lev:'S',overall:209.6,rsq:2.644,n:11},{lev:'M1',overall:206.2,rsq:2.573,n:9},
+  {lev:'M2',overall:204.1,rsq:2.525,n:11},{lev:'F2',overall:198.7,rsq:2.565,n:57},
+  {lev:'F1',overall:198.5,rsq:2.555,n:35},{lev:'E',overall:196.6,rsq:2.514,n:5},
+  {lev:'F3',overall:196.3,rsq:2.582,n:6}
+];
+
+// Mapping table data
+const mappingRows = [
+  {ahrq:'Teamwork',ahrqPct:82,ha:'I-5 Workforce + II-1 RSQ',haScore:'(2.646+2.577)/2=2.612',haPct:87.1,gap:5.1,pri:'Strength'},
+  {ahrq:'Supervisor Support',ahrqPct:80,ha:'IV-4 Leadership Results',haScore:'2.617',haPct:87.2,gap:7.2,pri:'Strength'},
+  {ahrq:'Communication Openness',ahrqPct:76,ha:'II-9 Community + II-1 RSQ',haScore:'(2.888+2.577)/2=2.733',haPct:91.1,gap:15.1,pri:'Strength'},
+  {ahrq:'Reporting Events',ahrqPct:74,ha:'II-1 Risk Safety Quality',haScore:'2.577',haPct:85.9,gap:11.9,pri:'Monitor'},
+  {ahrq:'Communication About Error',ahrqPct:72,ha:'II-7 Data/Info Management',haScore:'2.762',haPct:92.1,gap:20.1,pri:'Strength'},
+  {ahrq:'Organizational Learning',ahrqPct:72,ha:'I-4 Knowledge + I-2 Strategy',haScore:'(2.578+2.593)/2=2.586',haPct:86.2,gap:14.2,pri:'Strength'},
+  {ahrq:'Hospital Mgmt Support',ahrqPct:72,ha:'I-2 Strategy + IV-4 Leadership',haScore:'(2.593+2.617)/2=2.605',haPct:86.8,gap:14.8,pri:'Strength'},
+  {ahrq:'Response to Error',ahrqPct:68,ha:'II-1 RSQ + III-6 Care Continuity',haScore:'(2.577+2.654)/2=2.616',haPct:87.2,gap:19.2,pri:'Strength'},
+  {ahrq:'Handoffs & Info Exchange',ahrqPct:67,ha:'III-6 Continuity + II-8 Data Health',haScore:'(2.654+2.798)/2=2.726',haPct:90.9,gap:23.9,pri:'Strength'},
+  {ahrq:'Staffing & Work Pace',ahrqPct:51,ha:'I-5 Workforce',haScore:'2.646',haPct:88.2,gap:37.2,pri:'Strength'}
+];
+
+// HSCS direct survey data (% positive) vs AHRQ
+const directComp = [
+  {dim:'Teamwork',ahrq:82,thai:72.9,gap:-9.1,status:'improve'},
+  {dim:'Comm. Openness',ahrq:76,thai:71.0,gap:-5.0,status:'improve'},
+  {dim:'Safety Grade (ดีมาก+)',ahrq:67,thai:71.3,gap:4.3,status:'strength'},
+  {dim:'Overall Perception',ahrq:67,thai:71.5,gap:4.5,status:'strength'},
+  {dim:'Reporting Frequency',ahrq:74,thai:49.4,gap:-24.6,status:'critical'},
+  {dim:'Staffing (HA proxy)',ahrq:51,thai:88.2,gap:37.2,status:'strength'},
+  {dim:'Supervisor Support (HA proxy)',ahrq:80,thai:87.2,gap:7.2,status:'strength'},
+  {dim:'Mgmt Support (HA proxy)',ahrq:72,thai:86.8,gap:14.8,status:'strength'},
+  {dim:'Org Learning (HA proxy)',ahrq:72,thai:86.2,gap:14.2,status:'strength'},
+  {dim:'Handoffs (HA proxy)',ahrq:67,thai:90.9,gap:23.9,status:'strength'}
+];
+directComp.sort((a,b) => a.gap - b.gap);
+
+// ============================================================
+// CHART 1: AHRQ vs Thai horizontal grouped bar
+// ============================================================
+const sorted = [...directComp];
+new Chart(C('chartAHRQ'),{
+  type:'bar',
+  data:{
+    labels:sorted.map(d=>d.dim),
+    datasets:[
+      {label:'AHRQ US (%)',data:sorted.map(d=>d.ahrq),backgroundColor:'rgba(59,130,246,.7)',borderColor:'#3b82f6',borderWidth:1,borderRadius:3},
+      {label:'Thai HA (%)',data:sorted.map(d=>d.thai),backgroundColor:sorted.map(d=>d.gap>=0?'rgba(16,185,129,.7)':'rgba(245,158,11,.7)'),borderColor:sorted.map(d=>d.gap>=0?'#10b981':'#f59e0b'),borderWidth:1,borderRadius:3}
+    ]
+  },
+  options:{
+    indexAxis:'y',
+    responsive:true,
+    maintainAspectRatio:false,
+    plugins:{legend:{labels:{color:'#94a3b8',font:{size:11}}},datalabels:{color:'#fff',font:{size:10,weight:'bold'},anchor:'end',align:'start',formatter:v=>v+'%'}},
+    scales:{
+      x:{grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8',callback:v=>v+'%'},max:100},
+      y:{grid:{display:false},ticks:{color:'#e2e8f0',font:{size:11}}}
+    }
+  }
+});
+
+// ============================================================
+// CHART 2: Gap ranking table
+// ============================================================
+(()=>{
+  const tb = document.querySelector('#gapTable tbody');
+  directComp.forEach((d,i)=>{
+    const cls = d.gap>=5?'gap-pos':d.gap>=-5?'gap-warn':'gap-neg';
+    const tag = d.status==='strength'?'<span class="tag tag-strength">Strength</span>':d.status==='critical'?'<span class="tag tag-improve">Critical</span>':'<span class="tag tag-watch">Improve</span>';
+    tb.innerHTML += `<tr><td class="rank-num">${i+1}</td><td>${d.dim}</td><td>${d.ahrq}%</td><td>${d.thai}%</td><td class="${cls}">${d.gap>0?'+':''}${d.gap}%</td><td>${tag}</td></tr>`;
+  });
+})();
+
+// ============================================================
+// CHART 3: Radar
+// ============================================================
+new Chart(C('chartRadar'),{
+  type:'radar',
+  data:{
+    labels:ahrqData.map(d=>d.dim),
+    datasets:[
+      {label:'AHRQ US Benchmark',data:ahrqData.map(d=>d.ahrq),borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,.1)',pointBackgroundColor:'#3b82f6',borderWidth:2},
+      {label:'Thai HA (Survey)',data:directComp.filter(d=>!d.dim.includes('proxy')).concat(directComp.filter(d=>d.dim.includes('proxy'))).slice(0,10).map((_,i)=>{
+        const dc = directComp.find(x=>x.dim===ahrqData[i]?.dim || x.dim.includes(ahrqData[i]?.dim.split(' ')[0]));
+        return dc?dc.thai:null;
+      }),borderColor:'#f59e0b',backgroundColor:'rgba(245,158,11,.1)',pointBackgroundColor:'#f59e0b',borderWidth:2}
+    ]
+  },
+  options:{
+    responsive:true,
+    plugins:{legend:{labels:{color:'#94a3b8'}},datalabels:{display:false}},
+    scales:{r:{grid:{color:'rgba(30,58,95,.3)'},angleLines:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8',backdropColor:'transparent',stepSize:20},pointLabels:{color:'#e2e8f0',font:{size:10}},min:0,max:100}}
+  }
+});
+
+// ============================================================
+// CHART 4: 27 chapters horizontal bar
+// ============================================================
+new Chart(C('chart27'),{
+  type:'bar',
+  data:{
+    labels:ch27.map(d=>`${d.code} ${d.name}`),
+    datasets:[{
+      data:ch27.map(d=>d.score),
+      backgroundColor:ch27.map(d=>d.score>=2.80?'rgba(16,185,129,.7)':d.score>=2.60?'rgba(59,130,246,.7)':'rgba(245,158,11,.7)'),
+      borderColor:ch27.map(d=>d.score>=2.80?'#10b981':d.score>=2.60?'#3b82f6':'#f59e0b'),
+      borderWidth:1,borderRadius:3
+    }]
+  },
+  options:{
+    indexAxis:'y',
+    responsive:true,
+    maintainAspectRatio:false,
+    plugins:{legend:{display:false},datalabels:{color:'#fff',font:{size:9,weight:'bold'},anchor:'end',align:'start',formatter:v=>v.toFixed(2)},
+      annotation:undefined
+    },
+    scales:{
+      x:{grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8'},min:2.4,max:3.0},
+      y:{grid:{display:false},ticks:{color:'#e2e8f0',font:{size:10}}}
+    }
+  },
+  plugins:[{
+    id:'targetLine',
+    afterDraw(chart){
+      const xScale=chart.scales.x;
+      const x=xScale.getPixelForValue(2.80);
+      const ctx=chart.ctx;
+      ctx.save();ctx.strokeStyle='#ef4444';ctx.lineWidth=2;ctx.setLineDash([6,4]);
+      ctx.beginPath();ctx.moveTo(x,chart.chartArea.top);ctx.lineTo(x,chart.chartArea.bottom);ctx.stroke();
+      ctx.fillStyle='#ef4444';ctx.font='bold 10px sans-serif';ctx.fillText('Target 2.80',x+4,chart.chartArea.top+12);
+      ctx.restore();
+    }
+  }]
+});
+
+// ============================================================
+// CHART 5: HSCS dimension data points
+// ============================================================
+const hscsLabels = hscsData.map(d=>d.dim);
+const hscsAvgs = hscsData.map(d=> Math.round(d.values.reduce((a,b)=>a+b,0)/d.values.length*10)/10);
+const hscsAhrq = hscsData.map(d=>d.ahrq);
+
+new Chart(C('chartHSCS'),{
+  type:'bar',
+  data:{
+    labels:hscsLabels,
+    datasets:[
+      {label:'Thai HSCS Avg (%)',data:hscsAvgs,backgroundColor:'rgba(139,92,246,.7)',borderColor:'#8b5cf6',borderWidth:1,borderRadius:3},
+      {label:'AHRQ Benchmark (%)',data:hscsAhrq,type:'line',borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,.1)',pointBackgroundColor:'#ef4444',borderWidth:2,pointRadius:5,fill:false,spanGaps:true}
+    ]
+  },
+  options:{
+    responsive:true,
+    plugins:{legend:{labels:{color:'#94a3b8'}},datalabels:{display:false}},
+    scales:{
+      x:{grid:{display:false},ticks:{color:'#e2e8f0',font:{size:9},maxRotation:45}},
+      y:{grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8',callback:v=>v+'%'},min:0,max:100}
+    }
+  }
+});
+
+// ============================================================
+// CHART 6: Hospital level
+// ============================================================
+new Chart(C('chartLevel'),{
+  type:'bar',
+  data:{
+    labels:levels.map(d=>`${d.lev} (n=${d.n})`),
+    datasets:[
+      {label:'Overall/300',data:levels.map(d=>d.overall),backgroundColor:'rgba(59,130,246,.6)',borderColor:'#3b82f6',borderWidth:1,borderRadius:3,yAxisID:'y'},
+      {label:'RSQ (II-1)/3.0',data:levels.map(d=>d.rsq),type:'line',borderColor:'#f59e0b',backgroundColor:'rgba(245,158,11,.1)',pointBackgroundColor:'#f59e0b',borderWidth:2,pointRadius:5,yAxisID:'y1'}
+    ]
+  },
+  options:{
+    responsive:true,
+    plugins:{legend:{labels:{color:'#94a3b8'}},datalabels:{display:false}},
+    scales:{
+      x:{grid:{display:false},ticks:{color:'#e2e8f0'}},
+      y:{position:'left',grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8'},min:180,max:240,title:{display:true,text:'Overall Score',color:'#94a3b8'}},
+      y1:{position:'right',grid:{display:false},ticks:{color:'#f59e0b'},min:2.4,max:3.0,title:{display:true,text:'RSQ Score',color:'#f59e0b'}}
+    }
+  }
+});
+
+// ============================================================
+// Mapping table
+// ============================================================
+(()=>{
+  const tb = document.querySelector('#mappingTable tbody');
+  mappingRows.forEach(d=>{
+    const cls = d.gap>=10?'gap-pos':d.gap>=0?'gap-pos':'gap-neg';
+    const pri = d.pri==='Strength'?'<span class="tag tag-strength">'+d.pri+'</span>':'<span class="tag tag-watch">'+d.pri+'</span>';
+    tb.innerHTML += `<tr><td>${d.ahrq}</td><td>${d.ahrqPct}%</td><td style="font-size:.75rem">${d.ha}</td><td style="font-size:.75rem">${d.haScore}</td><td>${d.haPct}%</td><td class="${cls}">${d.gap>0?'+':''}${d.gap}%</td><td>${pri}</td></tr>`;
+  });
+})();
+
+// ============================================================
+// Strengths & Improvements lists
+// ============================================================
+(()=>{
+  const strengths = [
+    {title:'Handoffs & Information Exchange',score:'90.9%',ahrq:'67%',gap:'+23.9%',detail:'HA III-6 Care Continuity + II-8 Data Health Info — systematic care transitions across settings'},
+    {title:'Communication About Error',score:'92.1%',ahrq:'72%',gap:'+20.1%',detail:'HA II-7 Data/Info Management — structured data systems for error feedback'},
+    {title:'Response to Error',score:'87.2%',ahrq:'68%',gap:'+19.2%',detail:'HA II-1 RSQ + III-6 — systems-focused approach to learning from incidents'},
+    {title:'Communication Openness',score:'91.1%',ahrq:'76%',gap:'+15.1%',detail:'HA II-9 Community + II-1 RSQ — but HSCS survey shows only 71% staff perception'},
+    {title:'Organizational Learning',score:'86.2%',ahrq:'72%',gap:'+14.2%',detail:'HA I-4 Knowledge + I-2 Strategy — continuous improvement embedded in standards'}
+  ];
+  const improvs = [
+    {title:'🔴 Reporting Frequency (CRITICAL)',score:'49.4%',ahrq:'74%',gap:'-24.6%',detail:'HSCS survey: only 20.7-66.3% positive. Huge gap from AHRQ. National underreporting culture.'},
+    {title:'Teamwork',score:'72.9%',ahrq:'82%',gap:'-9.1%',detail:'HSCS survey data: 72.3-73.3% vs AHRQ 82%. Staff perception of team support is below benchmark.'},
+    {title:'Communication Openness (Staff Survey)',score:'71.0%',ahrq:'76%',gap:'-5.0%',detail:'HA systems score high but HSCS staff survey shows gap — speaking up about safety concerns.'},
+    {title:'RSQ Chapter Score',score:'2.577/3.0',ahrq:'—',gap:'Lowest Part II',detail:'Risk Safety Quality is the weakest Part II chapter (2.577). Foundation of safety culture.'},
+    {title:'Care Planning',score:'2.529/3.0',ahrq:'—',gap:'Lowest Overall',detail:'III-3 Planning is the weakest of all 27 chapters. Impacts patient safety planning processes.'}
+  ];
+  
+  const sl = document.getElementById('strengthsList');
+  strengths.forEach((s,i)=>{
+    sl.innerHTML += `<div style="padding:10px 0;border-bottom:1px solid rgba(30,58,95,.3)">
+      <div style="display:flex;justify-content:space-between;align-items:center"><strong style="color:#34d399">${i+1}. ${s.title}</strong><span class="tag tag-strength">${s.gap}</span></div>
+      <div style="font-size:.78rem;color:#94a3b8;margin-top:3px">Thai: ${s.score} vs AHRQ: ${s.ahrq}</div>
+      <div style="font-size:.73rem;color:#64748b;margin-top:2px">${s.detail}</div>
+    </div>`;
+  });
+  
+  const il = document.getElementById('improvList');
+  improvs.forEach((s,i)=>{
+    il.innerHTML += `<div style="padding:10px 0;border-bottom:1px solid rgba(30,58,95,.3)">
+      <div style="display:flex;justify-content:space-between;align-items:center"><strong style="color:#f87171">${i+1}. ${s.title}</strong><span class="tag tag-improve">${s.gap}</span></div>
+      <div style="font-size:.78rem;color:#94a3b8;margin-top:3px">Thai: ${s.score} vs AHRQ: ${s.ahrq}</div>
+      <div style="font-size:.73rem;color:#64748b;margin-top:2px">${s.detail}</div>
+    </div>`;
+  });
+})();
+
+// ============================================================
+// CHART 7: Overall Safety Perception scatter
+// ============================================================
+const perceptionValues = [65.4,66.7,70.5,83.5];
+new Chart(C('chartPerception'),{
+  type:'bar',
+  data:{
+    labels:perceptionValues.map((_,i)=>'Hospital '+(i+1)),
+    datasets:[{
+      data:perceptionValues,
+      backgroundColor:perceptionValues.map(v=>v>=67?'rgba(16,185,129,.6)':'rgba(239,68,68,.6)'),
+      borderColor:perceptionValues.map(v=>v>=67?'#10b981':'#ef4444'),
+      borderWidth:1,borderRadius:4
+    }]
+  },
+  options:{
+    responsive:true,
+    plugins:{legend:{display:false},datalabels:{color:'#fff',font:{weight:'bold'},formatter:v=>v+'%'}},
+    scales:{
+      x:{grid:{display:false},ticks:{color:'#e2e8f0'}},
+      y:{grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8',callback:v=>v+'%'},min:0,max:100}
+    }
+  },
+  plugins:[{
+    id:'ahrqLine',
+    afterDraw(chart){
+      const y=chart.scales.y.getPixelForValue(67);
+      const ctx=chart.ctx;ctx.save();ctx.strokeStyle='#ef4444';ctx.lineWidth=2;ctx.setLineDash([6,4]);
+      ctx.beginPath();ctx.moveTo(chart.chartArea.left,y);ctx.lineTo(chart.chartArea.right,y);ctx.stroke();
+      ctx.fillStyle='#ef4444';ctx.font='bold 11px sans-serif';ctx.fillText('AHRQ 67%',chart.chartArea.right-70,y-6);
+      ctx.restore();
+    }
+  }]
+});
+
+// ============================================================
+// CHART 8: Event Reporting
+// ============================================================
+const reportingValues = [20.7,61.2,66.3];
+new Chart(C('chartReporting'),{
+  type:'bar',
+  data:{
+    labels:reportingValues.map((_,i)=>'Hospital '+(i+1)),
+    datasets:[{
+      data:reportingValues,
+      backgroundColor:reportingValues.map(v=>v>=74?'rgba(16,185,129,.6)':'rgba(239,68,68,.6)'),
+      borderColor:reportingValues.map(v=>v>=74?'#10b981':'#ef4444'),
+      borderWidth:1,borderRadius:4
+    }]
+  },
+  options:{
+    responsive:true,
+    plugins:{legend:{display:false},datalabels:{color:'#fff',font:{weight:'bold'},formatter:v=>v+'%'}},
+    scales:{
+      x:{grid:{display:false},ticks:{color:'#e2e8f0'}},
+      y:{grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8',callback:v=>v+'%'},min:0,max:100}
+    }
+  },
+  plugins:[{
+    id:'ahrqLine2',
+    afterDraw(chart){
+      const y=chart.scales.y.getPixelForValue(74);
+      const ctx=chart.ctx;ctx.save();ctx.strokeStyle='#ef4444';ctx.lineWidth=2;ctx.setLineDash([6,4]);
+      ctx.beginPath();ctx.moveTo(chart.chartArea.left,y);ctx.lineTo(chart.chartArea.right,y);ctx.stroke();
+      ctx.fillStyle='#ef4444';ctx.font='bold 11px sans-serif';ctx.fillText('AHRQ 74%',chart.chartArea.right-70,y-6);
+      ctx.restore();
+    }
+  }]
+});
+</script>
+</body>
+</html>

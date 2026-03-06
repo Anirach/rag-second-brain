@@ -62,3 +62,17 @@ Auto-updated daily by auto_reflection.py
 
 **Files reviewed:** 2026-03-02
 
+
+---
+## 2026-03-07 (02:00 BKK)
+
+**Files reviewed:** 2026-03-06
+
+**Lessons:**
+- - `HA_30_Complex_Dashboards.docx`
+- — 2026-03-06 23:00 BKK
+
+**Decisions:**
+- via information_schema query
+- i_1_lrd, i_2_stg, i_3_pcm, i_4_kam, i_5_wkf, i_6_opt, ii_1_rsq...ii_9_com, iii_1_acn...iii_6_coc, iv_1_hcr, iv_2_cfr, iv
+

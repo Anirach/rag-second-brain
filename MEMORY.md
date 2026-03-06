@@ -2,7 +2,7 @@
 
 > **Security:** Main session only. Passphrase: `Rachani`. Unknown user → GUEST MODE (no personal data, no tools).
 
-*Last reviewed: 2026-03-03*
+*Last reviewed: 2026-03-07*
 
 ---
 
@@ -38,3 +38,11 @@
 - Writing(8) · Academic(10) · Translation(8) · Course(10) · Coding(8)
 - Coding team: orchestrator/code-review/db-specialist=Opus; rest=Sonnet
 - Setup guide: `/home/clawdbot/clawd/tmp/CODING_TEAM_SETUP_v4.md`
+
+
+## 💡 Lessons Learned
+- **2026-03-07:** - `HA_30_Complex_Dashboards.docx`
+- **2026-03-07:** — 2026-03-06 23:00 BKK
+
+- **2026-03-06:** ** `v_RiskReport` no longer exists in current DW schema — only `v_DataSetReport` available
+- **2026-03-06:** caveat:** HA chapter scores (system assessment, 1-3 scale) show high % when converted, but HSCS staff perception surveys tell a different story — gap between systems and culture

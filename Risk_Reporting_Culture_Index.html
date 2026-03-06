@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Risk Reporting Culture Index — สรพ.</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Tahoma,sans-serif;background:#060b1a;color:#e0e6ed;min-height:100vh}
+.hdr{background:linear-gradient(135deg,#0a1628 0%,#162844 50%,#1a3a5c 100%);padding:16px 26px;display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #27ae60}
+.hdr h1{font-size:19px;color:#fff;letter-spacing:1px}.hdr h1 span{color:#66bb6a;font-weight:300}
+.hdr-r{text-align:right;color:#90a4ae;font-size:12px}
+.hdr-r .badge{background:#1b5e20;color:#66bb6a;padding:2px 8px;border-radius:10px;font-size:10px;display:inline-block;margin-top:3px}
+
+.kpi-row{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;padding:12px 20px}
+.kpi{background:linear-gradient(145deg,#0d1830,#0a1225);border:1px solid #1e3a5f;border-radius:10px;padding:12px;text-align:center;position:relative;overflow:hidden}
+.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:10px 10px 0 0}
+.kpi.g::before{background:#4caf50}.kpi.b::before{background:#2196f3}.kpi.a::before{background:#ff9800}
+.kpi.r::before{background:#f44336}.kpi.p::before{background:#9c27b0}
+.kpi-l{font-size:9.5px;color:#78909c;text-transform:uppercase;letter-spacing:.4px;margin-bottom:4px}
+.kpi-v{font-size:26px;font-weight:700;color:#fff}
+.kpi-s{font-size:9.5px;color:#90a4ae;margin-top:2px}
+
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 20px 10px}
+.g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;padding:0 20px 10px}
+.g23{display:grid;grid-template-columns:2fr 1fr;gap:10px;padding:0 20px 10px}
+.pnl{background:linear-gradient(145deg,#0d1830,#0a1225);border:1px solid #1e3a5f;border-radius:10px;padding:12px;margin-bottom:10px}
+.pnl-t{font-size:11px;font-weight:600;color:#66bb6a;margin-bottom:8px;text-transform:uppercase;letter-spacing:.4px;display:flex;align-items:center;gap:6px}
+.pnl-t .dot{width:6px;height:6px;border-radius:50%;background:#66bb6a}
+
+.tbl{width:100%;border-collapse:collapse;font-size:10.5px}
+.tbl th{background:#0f2040;color:#81c784;padding:6px 4px;text-align:center;font-weight:600;border-bottom:2px solid #1b5e20;position:sticky;top:0}
+.tbl td{padding:5px 4px;text-align:center;border-bottom:1px solid #0f2040}
+.tbl tr:hover{background:rgba(76,175,80,.06)}
+.tbl .left{text-align:left;color:#b0bec5}
+
+.maturity{display:inline-block;padding:2px 8px;border-radius:4px;font-size:9px;font-weight:700}
+.mat-gen{background:#1b5e2020;color:#66bb6a;border:1px solid #66bb6a40}
+.mat-pro{background:#01579b20;color:#4fc3f7;border:1px solid #4fc3f740}
+.mat-cal{background:#e6510020;color:#ff9800;border:1px solid #ff980040}
+.mat-rea{background:#bf360c20;color:#ff7043;border:1px solid #ff704340}
+.mat-pat{background:#b71c1c20;color:#ef5350;border:1px solid #ef535040}
+
+.gauge-row{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+.gauge{flex:1;min-width:80px;text-align:center;padding:8px 4px;border-radius:6px;border:1px solid #1e3a5f}
+.gauge-val{font-size:22px;font-weight:700}.gauge-lbl{font-size:8px;text-transform:uppercase;color:#78909c;margin-top:2px}
+
+canvas{max-height:100%}
+.ch{position:relative;height:240px}
+.ch-t{position:relative;height:280px}
+.ch-s{position:relative;height:200px}
+
+.footer{text-align:center;padding:6px;color:#546e7a;font-size:9px;border-top:1px solid #1a2a4a}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <h1>📊 Risk Reporting <span>Culture Index</span></h1>
+  <div class="hdr-r">
+    📅 2025 Data | v_DataSetReport — Safety Culture Intelligence<br>
+    <span class="badge">● 586 Reporting Hospitals</span>
+  </div>
+</div>
+
+<!-- KPI Row -->
+<div class="kpi-row">
+  <div class="kpi g">
+    <div class="kpi-l">Generative (Highest)</div>
+    <div class="kpi-v">138</div>
+    <div class="kpi-s">23.5% — ≥20 indicators, ≥11 months</div>
+  </div>
+  <div class="kpi b">
+    <div class="kpi-l">Proactive</div>
+    <div class="kpi-v">97</div>
+    <div class="kpi-s">16.6% — ≥18 indicators, ≥9 months</div>
+  </div>
+  <div class="kpi a">
+    <div class="kpi-l">Calculative</div>
+    <div class="kpi-v">165</div>
+    <div class="kpi-s">28.2% — ≥14 indicators, ≥6 months</div>
+  </div>
+  <div class="kpi r">
+    <div class="kpi-l">Reactive</div>
+    <div class="kpi-v">85</div>
+    <div class="kpi-s">14.5% — ≥8 indicators, ≥3 months</div>
+  </div>
+  <div class="kpi p">
+    <div class="kpi-l">Pathological (Lowest)</div>
+    <div class="kpi-v">101</div>
+    <div class="kpi-s">17.2% — &lt;8 indicators or &lt;3 months</div>
+  </div>
+</div>
+
+<!-- Row 2: Maturity Gauge + Year Trend -->
+<div class="g2">
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot"></span>Safety Culture Maturity Distribution (2025)</div>
+    <div class="ch"><canvas id="maturityChart"></canvas></div>
+    <div class="gauge-row">
+      <div class="gauge" style="border-color:#66bb6a40">
+        <div class="gauge-val" style="color:#66bb6a">22.0</div>
+        <div class="gauge-lbl">Avg Indicators (Generative)</div>
+      </div>
+      <div class="gauge" style="border-color:#4fc3f740">
+        <div class="gauge-val" style="color:#4fc3f7">19.1</div>
+        <div class="gauge-lbl">Avg Indicators (Proactive)</div>
+      </div>
+      <div class="gauge" style="border-color:#ff980040">
+        <div class="gauge-val" style="color:#ff9800">16.6</div>
+        <div class="gauge-lbl">Avg Indicators (Calculative)</div>
+      </div>
+      <div class="gauge" style="border-color:#ef535040">
+        <div class="gauge-val" style="color:#ef5350">5.6</div>
+        <div class="gauge-lbl">Avg Indicators (Pathological)</div>
+      </div>
+    </div>
+  </div>
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot"></span>Maturity Trend (2019–2025)</div>
+    <div class="ch-t"><canvas id="trendChart"></canvas></div>
+  </div>
+</div>
+
+<!-- Row 3: Regional + Enrollment Type -->
+<div class="g2">
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot"></span>Regional Culture Maturity Profile (2025)</div>
+    <div style="max-height:320px;overflow-y:auto">
+    <table class="tbl">
+      <thead><tr><th>Region</th><th>Hospitals</th><th>Avg Indicators</th><th>Avg Months</th><th><span class="maturity mat-gen">Generative</span></th><th><span class="maturity mat-pro">Proactive</span></th><th><span class="maturity mat-cal">Calculative</span></th><th><span class="maturity mat-rea">Reactive</span></th><th><span class="maturity mat-pat">Pathological</span></th></tr></thead>
+      <tbody>
+        <tr><td class="left">ภาคตะวันออกเฉียงเหนือ</td><td>178</td><td>15.8</td><td>9.7</td><td style="color:#66bb6a;font-weight:700">46</td><td>29</td><td>40</td><td>32</td><td style="color:#ef5350">31</td></tr>
+        <tr><td class="left">ภาคกลาง</td><td>126</td><td>15.8</td><td>10.2</td><td style="color:#66bb6a;font-weight:700">27</td><td>23</td><td>42</td><td>14</td><td style="color:#ef5350">20</td></tr>
+        <tr><td class="left">ภาคใต้</td><td>88</td><td>14.6</td><td>9.2</td><td>12</td><td>11</td><td style="font-weight:700;color:#ff9800">36</td><td>9</td><td style="color:#ef5350">20</td></tr>
+        <tr><td class="left">ภาคเหนือ</td><td>65</td><td>15.6</td><td>9.9</td><td>10</td><td style="font-weight:700;color:#4fc3f7">16</td><td>17</td><td>8</td><td style="color:#ef5350">14</td></tr>
+        <tr><td class="left">ภาคตะวันออก</td><td>54</td><td>17.0</td><td>10.2</td><td style="color:#66bb6a;font-weight:700">15</td><td>9</td><td>20</td><td>3</td><td>7</td></tr>
+        <tr><td class="left">กรุงเทพฯ</td><td>41</td><td>16.2</td><td>10.6</td><td style="color:#66bb6a;font-weight:700">19</td><td>1</td><td>4</td><td>11</td><td>6</td></tr>
+        <tr><td class="left">ภาคตะวันตก</td><td>34</td><td>17.0</td><td>10.1</td><td>9</td><td>8</td><td>6</td><td>8</td><td>3</td></tr>
+        <tr style="background:#0f2040;font-weight:700"><td class="left">Total</td><td>586</td><td>15.8</td><td>9.9</td><td style="color:#66bb6a">138</td><td style="color:#4fc3f7">97</td><td style="color:#ff9800">165</td><td style="color:#ff7043">85</td><td style="color:#ef5350">101</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot"></span>Regional Maturity Composition</div>
+    <div class="ch-t"><canvas id="regionChart"></canvas></div>
+  </div>
+</div>
+
+<!-- Row 4: Enrollment Type + Indicator Diversity -->
+<div class="g2">
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot"></span>Culture Index by Hospital Enrollment Type</div>
+    <div class="ch-t"><canvas id="enrollChart"></canvas></div>
+  </div>
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot"></span>Indicator Diversity Distribution (2025)</div>
+    <div class="ch"><canvas id="diversityChart"></canvas></div>
+    <div style="margin-top:10px">
+      <div class="pnl-t"><span class="dot" style="background:#ff9800"></span>Culture Index Methodology</div>
+      <table class="tbl">
+        <thead><tr><th>Level</th><th>Indicators</th><th>Months</th><th>Characteristics</th></tr></thead>
+        <tbody>
+          <tr><td><span class="maturity mat-gen">Generative</span></td><td>≥20/25</td><td>≥11/12</td><td class="left">Comprehensive, consistent, proactive reporting</td></tr>
+          <tr><td><span class="maturity mat-pro">Proactive</span></td><td>≥18/25</td><td>≥9/12</td><td class="left">Strong coverage, regular reporting</td></tr>
+          <tr><td><span class="maturity mat-cal">Calculative</span></td><td>≥14/25</td><td>≥6/12</td><td class="left">Moderate — tracking core indicators</td></tr>
+          <tr><td><span class="maturity mat-rea">Reactive</span></td><td>≥8/25</td><td>≥3/12</td><td class="left">Limited — basic reporting only</td></tr>
+          <tr><td><span class="maturity mat-pat">Pathological</span></td><td>&lt;8</td><td>&lt;3</td><td class="left">Minimal — poor safety data culture</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Row 5: Mortality Impact -->
+<div class="g2">
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot" style="background:#f44336"></span>Maturity Level vs. Average Hospital Size & Mortality</div>
+    <div class="ch"><canvas id="mortalityChart"></canvas></div>
+  </div>
+  <div class="pnl">
+    <div class="pnl-t"><span class="dot" style="background:#2196f3"></span>Reporting Hospital Growth & Coverage</div>
+    <div class="ch"><canvas id="growthChart"></canvas></div>
+  </div>
+</div>
+
+<div class="footer">
+  Risk Reporting Culture Index Dashboard | Data: v_DataSetReport (25 risk indicators × 586 hospitals) | สรพ. Smart HAI Dashboard | March 2026<br>
+  Maturity model based on Westrum's typology adapted for HA data reporting patterns: indicator diversity (breadth) × reporting consistency (temporal coverage)
+</div>
+
+<script>
+Chart.register(ChartDataLabels);
+Chart.defaults.color='#90a4ae';Chart.defaults.font.family="'Segoe UI',sans-serif";Chart.defaults.font.size=10;
+
+const matColors=['#66bb6a','#4fc3f7','#ff9800','#ff7043','#ef5350'];
+const matLabels=['Generative','Proactive','Calculative','Reactive','Pathological'];
+
+// 1. Maturity Donut
+new Chart(document.getElementById('maturityChart'),{
+  type:'doughnut',
+  data:{
+    labels:matLabels.map((l,i)=>`${l} (${[138,97,165,85,101][i]})`),
+    datasets:[{data:[138,97,165,85,101],backgroundColor:matColors,borderColor:'#0a1225',borderWidth:2}]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,cutout:'58%',
+    plugins:{
+      legend:{position:'right',labels:{padding:6,font:{size:10},usePointStyle:true,pointStyle:'circle'}},
+      datalabels:{color:'#fff',font:{weight:'bold',size:11},formatter:(v,c)=>{let t=586;return (v/t*100).toFixed(0)+'%'},anchor:'center'}
+    }
+  }
+});
+
+// 2. Maturity Trend
+new Chart(document.getElementById('trendChart'),{
+  type:'line',
+  data:{
+    labels:['2019','2020','2021','2022','2023','2024','2025'],
+    datasets:[
+      {label:'Generative',data:[48,76,113,131,146,136,138],borderColor:'#66bb6a',backgroundColor:'#66bb6a20',fill:true,tension:.3,borderWidth:2,pointRadius:3},
+      {label:'Proactive',data:[51,99,94,87,104,123,97],borderColor:'#4fc3f7',fill:false,tension:.3,borderWidth:2,pointRadius:3},
+      {label:'Calculative',data:[72,115,141,146,164,151,165],borderColor:'#ff9800',fill:false,tension:.3,borderWidth:2,pointRadius:3},
+      {label:'Total Hospitals',data:[234,421,536,575,598,609,586],borderColor:'#78909c',borderDash:[4,4],fill:false,tension:.3,borderWidth:1,pointRadius:2,yAxisID:'y1'}
+    ]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:5,font:{size:9}}},datalabels:{display:false}},
+    scales:{
+      x:{grid:{color:'#0f2040'}},
+      y:{position:'left',grid:{color:'#0f2040'},title:{display:true,text:'Hospitals per Level',font:{size:9}}},
+      y1:{position:'right',grid:{display:false},title:{display:true,text:'Total Reporting',color:'#78909c',font:{size:9}}}
+    },interaction:{intersect:false,mode:'index'}
+  }
+});
+
+// 3. Regional Stacked Bar
+new Chart(document.getElementById('regionChart'),{
+  type:'bar',
+  data:{
+    labels:['อีสาน','กลาง','ใต้','เหนือ','ตะวันออก','กทม.','ตะวันตก'],
+    datasets:[
+      {label:'Generative',data:[46,27,12,10,15,19,9],backgroundColor:'#66bb6a'},
+      {label:'Proactive',data:[29,23,11,16,9,1,8],backgroundColor:'#4fc3f7'},
+      {label:'Calculative',data:[40,42,36,17,20,4,6],backgroundColor:'#ff9800'},
+      {label:'Reactive',data:[32,14,9,8,3,11,8],backgroundColor:'#ff7043'},
+      {label:'Pathological',data:[31,20,20,14,7,6,3],backgroundColor:'#ef5350'}
+    ]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'top',labels:{usePointStyle:true,pointStyle:'rect',padding:4,font:{size:9}}},datalabels:{display:false}},
+    scales:{x:{stacked:true,grid:{color:'#0f2040'}},y:{stacked:true,grid:{color:'#0f2040'},title:{display:true,text:'Hospitals',font:{size:9}}}}
+  }
+});
+
+// 4. Enrollment Type (Horizontal)
+const eLabels=['รพท.(M1)','รพท.(S)','เอกชน≈รพศ.','รพช.(M2)','เอกชน≈รพท.','รพศ.(A)','รพช.(F1)','รร.แพทย์','รพช.(F2)','สถาบันเฉพาะทาง','รพช.(F3)'];
+const eInd=[19.5,19.5,18.1,17.7,17.6,17.5,16.4,15.8,14.2,11.9,11.5];
+const eMonth=[10.2,9.5,10.7,10.8,9.7,10.1,9.8,9.1,9.6,10.8,9.3];
+new Chart(document.getElementById('enrollChart'),{
+  type:'bar',
+  data:{
+    labels:eLabels,
+    datasets:[
+      {label:'Avg Indicators (of 25)',data:eInd,backgroundColor:eInd.map(v=>v>=18?'#66bb6a':v>=15?'#4fc3f7':v>=12?'#ff9800':'#ef5350'),borderRadius:3},
+      {label:'Avg Months (of 12)',data:eMonth,backgroundColor:'#42a5f540',borderColor:'#42a5f5',borderWidth:1,borderRadius:3}
+    ]
+  },
+  options:{
+    indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'top',labels:{usePointStyle:true,pointStyle:'rect',padding:5,font:{size:9}}},
+      datalabels:{color:'#e0e6ed',font:{size:9,weight:'bold'},anchor:'end',align:'left'}},
+    scales:{x:{grid:{color:'#0f2040'},max:25},y:{grid:{display:false}}}
+  }
+});
+
+// 5. Diversity Distribution
+new Chart(document.getElementById('diversityChart'),{
+  type:'bar',
+  data:{
+    labels:['23-25\n(Comprehensive)','20-22\n(Strong)','15-19\n(Moderate)','10-14\n(Limited)','1-9\n(Minimal)'],
+    datasets:[{
+      data:[65,111,236,74,100],
+      backgroundColor:['#1b5e20','#2e7d32','#f57f17','#e65100','#b71c1c'],
+      borderRadius:4
+    }]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},
+      datalabels:{color:'#fff',font:{weight:'bold',size:12},anchor:'end',align:'start'}},
+    scales:{x:{grid:{color:'#0f2040'}},y:{grid:{color:'#0f2040'},title:{display:true,text:'Hospitals',font:{size:9}}}}
+  }
+});
+
+// 6. Mortality by Maturity
+new Chart(document.getElementById('mortalityChart'),{
+  type:'bar',
+  data:{
+    labels:matLabels,
+    datasets:[
+      {label:'Avg Patient-Days',data:[56049,26046,14863,11647,10103],backgroundColor:matColors.map(c=>c+'80'),borderColor:matColors,borderWidth:1,borderRadius:3,yAxisID:'y'},
+      {label:'Avg Deaths',data:[331,130,69,67,56],type:'line',borderColor:'#f44336',borderWidth:2,pointRadius:5,pointBackgroundColor:'#f44336',yAxisID:'y1'}
+    ]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:5,font:{size:9}}},
+      datalabels:{display:ctx=>ctx.datasetIndex===1,color:'#f44336',font:{weight:'bold',size:10},anchor:'top',align:'top',formatter:v=>v.toFixed(0)}},
+    scales:{
+      x:{grid:{color:'#0f2040'}},
+      y:{position:'left',grid:{color:'#0f2040'},title:{display:true,text:'Avg Patient-Days',font:{size:9}}},
+      y1:{position:'right',grid:{display:false},title:{display:true,text:'Avg Deaths',color:'#f44336',font:{size:9}}}
+    }
+  }
+});
+
+// 7. Growth
+new Chart(document.getElementById('growthChart'),{
+  type:'line',
+  data:{
+    labels:['2019','2020','2021','2022','2023','2024','2025'],
+    datasets:[
+      {label:'Reporting Hospitals',data:[234,421,536,575,598,609,586],borderColor:'#4fc3f7',backgroundColor:'#4fc3f720',fill:true,tension:.3,borderWidth:2,pointRadius:4},
+      {label:'Avg Indicator Diversity',data:[16.5,16.5,15.9,15.6,15.9,16.0,15.8],borderColor:'#66bb6a',fill:false,tension:.3,borderWidth:2,pointRadius:4,yAxisID:'y1'}
+    ]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:5,font:{size:9}}},
+      datalabels:{display:ctx=>ctx.datasetIndex===0,color:'#fff',font:{weight:'bold',size:10},anchor:'top',align:'top'}},
+    scales:{
+      x:{grid:{color:'#0f2040'}},
+      y:{position:'left',grid:{color:'#0f2040'},min:100,title:{display:true,text:'Hospitals',font:{size:9}}},
+      y1:{position:'right',grid:{display:false},min:14,max:18,title:{display:true,text:'Avg Indicators',color:'#66bb6a',font:{size:9}}}
+    }
+  }
+});
+</script>
+</body>
+</html>

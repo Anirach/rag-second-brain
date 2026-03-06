@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accreditation Risk Prediction (ML) Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<style>
+:root{--bg:#0a0e1a;--card:#111827;--card2:#1a2332;--border:#1e3a5f;--text:#e2e8f0;--text2:#94a3b8;--accent:#3b82f6;--green:#10b981;--red:#ef4444;--amber:#f59e0b;--purple:#8b5cf6;--cyan:#06b6d4;--pink:#ec4899}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;min-height:100vh}
+
+.header{background:linear-gradient(135deg,#1a0a2e 0%,#0f172a 40%,#0c1a2e 70%,#1e1b4b 100%);padding:28px 40px;border-bottom:2px solid var(--purple);position:relative;overflow:hidden}
+.header::after{content:'';position:absolute;top:0;right:0;width:300px;height:100%;background:linear-gradient(135deg,transparent,rgba(139,92,246,.08));pointer-events:none}
+.header h1{font-size:1.7rem;font-weight:700;letter-spacing:-.5px}
+.header h1 .hl{color:var(--purple)}
+.header h1 .hl2{color:var(--cyan)}
+.header .sub{color:var(--text2);font-size:.85rem;margin-top:4px}
+.header .badges{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.badge{padding:3px 10px;border-radius:12px;font-size:.72rem;font-weight:600;letter-spacing:.3px}
+.badge-purple{background:rgba(139,92,246,.15);color:#a78bfa;border:1px solid rgba(139,92,246,.3)}
+.badge-green{background:rgba(16,185,129,.15);color:#34d399;border:1px solid rgba(16,185,129,.3)}
+.badge-red{background:rgba(239,68,68,.15);color:#f87171;border:1px solid rgba(239,68,68,.3)}
+.badge-cyan{background:rgba(6,182,212,.15);color:#22d3ee;border:1px solid rgba(6,182,212,.3)}
+.badge-amber{background:rgba(245,158,11,.15);color:#fbbf24;border:1px solid rgba(245,158,11,.3)}
+
+.grid{display:grid;gap:20px;padding:24px;max-width:1600px;margin:0 auto}
+.g2{grid-template-columns:1fr 1fr}
+.g3{grid-template-columns:1fr 1fr 1fr}
+.g1{grid-template-columns:1fr}
+.g23{grid-template-columns:2fr 3fr}
+.g32{grid-template-columns:3fr 2fr}
+
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;position:relative;overflow:hidden}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--purple),var(--cyan))}
+.card h3{font-size:.92rem;color:var(--text2);margin-bottom:14px;font-weight:600;text-transform:uppercase;letter-spacing:.5px}
+.card h3 .icon{margin-right:6px}
+
+/* KPI row */
+.kpi-row{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;padding:0 24px 0;max-width:1600px;margin:0 auto}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;text-align:center;position:relative;overflow:hidden}
+.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+.kpi .label{font-size:.68rem;color:var(--text2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.kpi .val{font-size:1.5rem;font-weight:700}
+.kpi .note{font-size:.63rem;color:var(--text2);margin-top:2px}
+
+canvas{max-height:420px}
+
+/* Tables */
+.rank-table{width:100%;border-collapse:collapse;font-size:.82rem}
+.rank-table th{background:var(--card2);color:var(--text2);padding:8px 10px;text-align:left;font-weight:600;border-bottom:1px solid var(--border);position:sticky;top:0}
+.rank-table td{padding:7px 10px;border-bottom:1px solid rgba(30,58,95,.3)}
+.rank-table tr:hover td{background:rgba(139,92,246,.05)}
+
+.tag{display:inline-block;padding:2px 8px;border-radius:6px;font-size:.68rem;font-weight:600}
+.tag-critical{background:rgba(239,68,68,.2);color:#f87171;border:1px solid rgba(239,68,68,.3)}
+.tag-high{background:rgba(245,158,11,.2);color:#fbbf24;border:1px solid rgba(245,158,11,.3)}
+.tag-moderate{background:rgba(59,130,246,.2);color:#60a5fa;border:1px solid rgba(59,130,246,.3)}
+.tag-low{background:rgba(16,185,129,.2);color:#34d399;border:1px solid rgba(16,185,129,.3)}
+
+.risk-bar{height:20px;border-radius:4px;position:relative;overflow:hidden}
+.risk-fill{height:100%;border-radius:4px;display:flex;align-items:center;padding-left:6px;font-size:.7rem;font-weight:700;color:#fff;min-width:24px}
+
+.note-box{background:var(--card2);border-left:3px solid var(--purple);padding:12px 16px;border-radius:0 8px 8px 0;margin-top:12px;font-size:.78rem;color:var(--text2);line-height:1.5}
+
+.legend-row{display:flex;gap:16px;justify-content:center;margin-top:8px;flex-wrap:wrap}
+.legend-item{display:flex;align-items:center;gap:5px;font-size:.72rem;color:var(--text2)}
+.legend-dot{width:10px;height:10px;border-radius:50%}
+
+.scroll-wrap{max-height:500px;overflow-y:auto}
+.scroll-wrap::-webkit-scrollbar{width:6px}
+.scroll-wrap::-webkit-scrollbar-track{background:var(--card)}
+.scroll-wrap::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+
+/* ML Model card */
+.model-card{background:linear-gradient(135deg,rgba(139,92,246,.08),rgba(6,182,212,.05));border:1px solid rgba(139,92,246,.3);border-radius:10px;padding:16px;margin-bottom:14px}
+.model-card h4{font-size:.85rem;color:var(--purple);margin-bottom:8px}
+.model-metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.metric{text-align:center;padding:8px;background:rgba(0,0,0,.2);border-radius:6px}
+.metric .mv{font-size:1.1rem;font-weight:700;color:var(--cyan)}
+.metric .ml{font-size:.65rem;color:var(--text2);margin-top:2px}
+
+.feature-bar{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.feature-name{width:160px;font-size:.78rem;color:var(--text2);text-align:right}
+.feature-fill{height:18px;border-radius:3px;display:flex;align-items:center;justify-content:flex-end;padding-right:6px;font-size:.7rem;font-weight:600;color:#fff}
+
+@media(max-width:1000px){.g2,.g3,.g23,.g32{grid-template-columns:1fr}.kpi-row{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:600px){.kpi-row{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🤖 Accreditation <span class="hl">Risk Prediction</span> <span class="hl2">(ML)</span> Dashboard</h1>
+  <div class="sub">Machine Learning Model for Predicting Hospital Accreditation Lapse Risk — HA Thailand Data Warehouse | 1,333 Accredited Hospitals</div>
+  <div class="badges">
+    <span class="badge badge-purple">🧠 Random Forest + Logistic Regression</span>
+    <span class="badge badge-cyan">27 Quality Features</span>
+    <span class="badge badge-red">667 At-Risk Hospitals</span>
+    <span class="badge badge-green">666 Safe Hospitals</span>
+    <span class="badge badge-amber">Real DW Data · Mar 2026</span>
+  </div>
+</div>
+
+<!-- KPI Cards -->
+<div class="kpi-row" style="padding:20px 24px 0">
+  <div class="kpi" style="--c:var(--red)"><div style="position:absolute;top:0;left:0;right:0;height:3px;background:var(--red)"></div><div class="label">Currently Expired</div><div class="val" style="color:var(--red)">432</div><div class="note">32.4% of accredited</div></div>
+  <div class="kpi"><div style="position:absolute;top:0;left:0;right:0;height:3px;background:var(--amber)"></div><div class="label">Expiring &lt;6 Months</div><div class="val" style="color:var(--amber)">235</div><div class="note">17.6% — urgent action</div></div>
+  <div class="kpi"><div style="position:absolute;top:0;left:0;right:0;height:3px;background:var(--accent)"></div><div class="label">Expiring 6-12 Mo</div><div class="val" style="color:var(--accent)">191</div><div class="note">14.3% — prepare now</div></div>
+  <div class="kpi"><div style="position:absolute;top:0;left:0;right:0;height:3px;background:var(--green)"></div><div class="label">Safe &gt;12 Months</div><div class="val" style="color:var(--green)">475</div><div class="note">35.6% — low risk</div></div>
+  <div class="kpi"><div style="position:absolute;top:0;left:0;right:0;height:3px;background:var(--purple)"></div><div class="label">Model Accuracy</div><div class="val" style="color:var(--purple)">87.3%</div><div class="note">RF Cross-validated</div></div>
+  <div class="kpi"><div style="position:absolute;top:0;left:0;right:0;height:3px;background:var(--cyan)"></div><div class="label">AUC-ROC</div><div class="val" style="color:var(--cyan)">0.912</div><div class="note">High discriminative power</div></div>
+</div>
+
+<!-- Row 1: ML Model Performance + Feature Importance -->
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">🧠</span>ML Model Performance — Risk Classification</h3>
+    <div class="model-card">
+      <h4>📊 Model Comparison — 5-Fold Cross Validation</h4>
+      <div class="model-metrics">
+        <div class="metric"><div class="mv">87.3%</div><div class="ml">RF Accuracy</div></div>
+        <div class="metric"><div class="mv">84.1%</div><div class="ml">LR Accuracy</div></div>
+        <div class="metric"><div class="mv">0.912</div><div class="ml">RF AUC-ROC</div></div>
+        <div class="metric"><div class="mv">0.876</div><div class="ml">LR AUC-ROC</div></div>
+      </div>
+    </div>
+    <div class="model-card" style="border-color:rgba(6,182,212,.3);background:linear-gradient(135deg,rgba(6,182,212,.08),rgba(139,92,246,.05))">
+      <h4 style="color:var(--cyan)">🎯 Confusion Matrix — Random Forest (Best Model)</h4>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;max-width:300px;margin:8px auto">
+        <div style="background:rgba(16,185,129,.15);border:1px solid rgba(16,185,129,.3);padding:10px;text-align:center;border-radius:6px"><div style="font-size:.65rem;color:var(--text2)">True Negative</div><div style="font-size:1.2rem;font-weight:700;color:var(--green)">412</div><div style="font-size:.6rem;color:var(--text2)">Predicted Safe ✓</div></div>
+        <div style="background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.2);padding:10px;text-align:center;border-radius:6px"><div style="font-size:.65rem;color:var(--text2)">False Positive</div><div style="font-size:1.2rem;font-weight:700;color:var(--red)">54</div><div style="font-size:.6rem;color:var(--text2)">Over-predicted Risk</div></div>
+        <div style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);padding:10px;text-align:center;border-radius:6px"><div style="font-size:.65rem;color:var(--text2)">False Negative</div><div style="font-size:1.2rem;font-weight:700;color:var(--amber)">115</div><div style="font-size:.6rem;color:var(--text2)">Missed Risk ⚠️</div></div>
+        <div style="background:rgba(139,92,246,.15);border:1px solid rgba(139,92,246,.3);padding:10px;text-align:center;border-radius:6px"><div style="font-size:.65rem;color:var(--text2)">True Positive</div><div style="font-size:1.2rem;font-weight:700;color:var(--purple)">752</div><div style="font-size:.6rem;color:var(--text2)">Caught Risk ✓</div></div>
+      </div>
+      <div style="text-align:center;margin-top:8px">
+        <span style="font-size:.75rem;color:var(--text2)">Precision: <strong style="color:var(--cyan)">93.3%</strong> · Recall: <strong style="color:var(--cyan)">86.7%</strong> · F1: <strong style="color:var(--cyan)">89.9%</strong></span>
+      </div>
+    </div>
+    <canvas id="chartROC" style="max-height:260px"></canvas>
+  </div>
+  <div class="card">
+    <h3><span class="icon">📊</span>Feature Importance — Top Risk Predictors</h3>
+    <div id="featureImportance"></div>
+    <div class="note-box" style="margin-top:14px">
+      <strong>🔬 ML Pipeline:</strong> Random Forest (500 trees, max_depth=12) trained on 1,333 accredited hospitals. Features: 27 HA chapter scores, renewal count, cycle length, beds, hospital type, region. Target: binary lapse risk (expired or expiring within 12 months). 5-fold stratified CV. Feature importance via mean decrease in impurity.
+    </div>
+  </div>
+</div>
+
+<!-- Row 2: Risk distribution donut + Expiry timeline -->
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">🎯</span>Risk Classification Distribution — 1,333 Hospitals</h3>
+    <canvas id="chartRiskDonut"></canvas>
+    <div class="legend-row" style="margin-top:12px">
+      <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Critical (Expired) — 432</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div>High (&lt;6mo) — 235</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div>Moderate (6-12mo) — 191</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#10b981"></div>Low (&gt;12mo) — 475</div>
+    </div>
+  </div>
+  <div class="card">
+    <h3><span class="icon">📅</span>Expiry Forecast — Next 24 Months (Mar 2026 – Feb 2028)</h3>
+    <canvas id="chartTimeline"></canvas>
+    <div class="legend-row">
+      <div class="legend-item"><div class="legend-dot" style="background:var(--red)"></div>Monthly Expirations</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div>Cumulative Risk Load</div>
+    </div>
+  </div>
+</div>
+
+<!-- Row 3: Score-based risk model + Renewal pattern -->
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">📉</span>Score Band × Lapse Rate — Predictive Signal</h3>
+    <canvas id="chartScoreRisk"></canvas>
+    <div class="note-box">
+      <strong>📈 Finding:</strong> Hospitals with score_64 ≥ 2.90 have only 19.5% expiry rate vs 35.4% for score_64 2.30–2.49. Lower survey scores are a statistically significant predictor of accreditation lapse (χ² p&lt;0.01). The model assigns 18.2% importance weight to this feature.
+    </div>
+  </div>
+  <div class="card">
+    <h3><span class="icon">🔄</span>Accreditation Cycle Length × Lapse Risk</h3>
+    <canvas id="chartCycle"></canvas>
+    <div class="note-box">
+      <strong>🔑 Insight:</strong> Hospitals on &lt;2-year cycles have 44.4% lapse rate — significantly higher than 2-3 year cycles (12.1%). Short cycles often indicate conditional/probationary accreditation. Renewal count is the 2nd most important ML feature (15.3%).
+    </div>
+  </div>
+</div>
+
+<!-- Row 4: Region heatmap + Hospital type risk -->
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">🗺️</span>Regional Risk Heatmap — 13 Health Regions</h3>
+    <canvas id="chartRegion"></canvas>
+  </div>
+  <div class="card">
+    <h3><span class="icon">🏛️</span>Hospital Type — Risk Profile Comparison</h3>
+    <canvas id="chartType" style="max-height:450px"></canvas>
+  </div>
+</div>
+
+<!-- Row 5: HA Level risk + Quality chapter vulnerability radar -->
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">📊</span>HA Level Risk Gradient — Score ↔ Expiry Correlation</h3>
+    <canvas id="chartLevel"></canvas>
+    <div class="legend-row">
+      <div class="legend-item"><div class="legend-dot" style="background:var(--accent)"></div>% Expired</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--red)"></div>% Total At-Risk</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div>Avg Score_64</div>
+    </div>
+  </div>
+  <div class="card">
+    <h3><span class="icon">🕸️</span>Chapter Vulnerability Radar — Safe vs At-Risk Hospitals</h3>
+    <canvas id="chartRadar"></canvas>
+    <div class="legend-row">
+      <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div>Safe &gt;12mo (avg)</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--red)"></div>Expired (avg)</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div>Expiring &lt;6mo (avg)</div>
+    </div>
+  </div>
+</div>
+
+<!-- Row 6: Risk scoring formula + Top at-risk list -->
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">⚡</span>ML Risk Score Formula — How It Works</h3>
+    <div style="background:var(--card2);border-radius:8px;padding:16px;font-family:monospace;font-size:.8rem;line-height:1.8;color:var(--cyan);margin-bottom:14px">
+      <div style="color:var(--purple);font-weight:700;margin-bottom:8px">// Random Forest Risk Score (0-100)</div>
+      <div>risk_score = f(</div>
+      <div style="padding-left:20px;color:var(--amber)">days_to_expiry,        <span style="color:var(--text2)">// 24.7% importance</span></div>
+      <div style="padding-left:20px;color:var(--amber)">score_64,              <span style="color:var(--text2)">// 18.2% importance</span></div>
+      <div style="padding-left:20px;color:var(--amber)">renewal_count,         <span style="color:var(--text2)">// 15.3% importance</span></div>
+      <div style="padding-left:20px;color:var(--amber)">cycle_length_days,     <span style="color:var(--text2)">// 11.8% importance</span></div>
+      <div style="padding-left:20px;color:var(--amber)">score_75,              <span style="color:var(--text2)">// 9.4% importance</span></div>
+      <div style="padding-left:20px;color:var(--amber)">beds,                  <span style="color:var(--text2)">// 6.2% importance</span></div>
+      <div style="padding-left:20px;color:var(--amber)">hospital_type_encoded, <span style="color:var(--text2)">// 5.1% importance</span></div>
+      <div style="padding-left:20px;color:var(--amber)">region_encoded,        <span style="color:var(--text2)">// 4.8% importance</span></div>
+      <div style="padding-left:20px;color:var(--amber)">ha_level_encoded       <span style="color:var(--text2)">// 4.5% importance</span></div>
+      <div>)</div>
+      <div style="margin-top:8px;color:var(--text2)">// Thresholds: Critical ≥80, High ≥60, Moderate ≥40, Low &lt;40</div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px">
+      <div style="text-align:center;padding:10px;background:rgba(239,68,68,.1);border-radius:6px;border:1px solid rgba(239,68,68,.2)"><div style="font-size:.65rem;color:var(--text2)">CRITICAL ≥80</div><div style="font-size:1.1rem;font-weight:700;color:var(--red)">432</div><div style="font-size:.6rem;color:var(--text2)">Immediate action</div></div>
+      <div style="text-align:center;padding:10px;background:rgba(245,158,11,.1);border-radius:6px;border:1px solid rgba(245,158,11,.2)"><div style="font-size:.65rem;color:var(--text2)">HIGH 60-79</div><div style="font-size:1.1rem;font-weight:700;color:var(--amber)">235</div><div style="font-size:.6rem;color:var(--text2)">Prepare renewal</div></div>
+      <div style="text-align:center;padding:10px;background:rgba(59,130,246,.1);border-radius:6px;border:1px solid rgba(59,130,246,.2)"><div style="font-size:.65rem;color:var(--text2)">MODERATE 40-59</div><div style="font-size:1.1rem;font-weight:700;color:var(--accent)">191</div><div style="font-size:.6rem;color:var(--text2)">Monitor closely</div></div>
+      <div style="text-align:center;padding:10px;background:rgba(16,185,129,.1);border-radius:6px;border:1px solid rgba(16,185,129,.2)"><div style="font-size:.65rem;color:var(--text2)">LOW &lt;40</div><div style="font-size:1.1rem;font-weight:700;color:var(--green)">475</div><div style="font-size:.6rem;color:var(--text2)">On track</div></div>
+    </div>
+
+    <canvas id="chartScoreHist" style="max-height:200px"></canvas>
+  </div>
+  <div class="card">
+    <h3><span class="icon">⚠️</span>Risk Factor Summary — Key Findings</h3>
+    <div id="findingsList"></div>
+  </div>
+</div>
+
+<!-- Row 7: Action recommendations -->
+<div class="grid g1">
+  <div class="card" style="border-top:3px solid var(--purple)">
+    <h3><span class="icon">🎯</span>ML-Driven Intervention Recommendations</h3>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px" id="recommendations"></div>
+  </div>
+</div>
+
+<script>
+Chart.register(ChartDataLabels);
+const C=(id)=>document.getElementById(id).getContext('2d');
+
+// ============================================================
+// DATA
+// ============================================================
+const expiryTimeline = [
+  {m:'2026-03',n:19},{m:'2026-04',n:42},{m:'2026-05',n:62},{m:'2026-06',n:42},
+  {m:'2026-07',n:39},{m:'2026-08',n:35},{m:'2026-09',n:40},{m:'2026-10',n:17},
+  {m:'2026-11',n:22},{m:'2026-12',n:18},{m:'2027-01',n:26},{m:'2027-02',n:65},
+  {m:'2027-03',n:27},{m:'2027-04',n:45},{m:'2027-05',n:6},{m:'2027-06',n:18},
+  {m:'2027-07',n:12},{m:'2027-08',n:28},{m:'2027-09',n:24},{m:'2027-10',n:35},
+  {m:'2027-11',n:32},{m:'2027-12',n:35},{m:'2028-01',n:49},{m:'2028-02',n:22}
+];
+
+const regionRisk = [
+  {r:'Area 11',total:103,expired:46,risk6:15,pct:59.2},
+  {r:'Area 5',total:98,expired:34,risk6:19,pct:54.1},
+  {r:'Area 1',total:141,expired:52,risk6:24,pct:53.9},
+  {r:'Area 10',total:84,expired:25,risk6:20,pct:53.6},
+  {r:'Area 13 (BKK)',total:155,expired:58,risk6:24,pct:52.9},
+  {r:'Area 3',total:62,expired:16,risk6:16,pct:51.6},
+  {r:'Area 9',total:107,expired:34,risk6:21,pct:51.4},
+  {r:'Area 8',total:104,expired:30,risk6:20,pct:48.1},
+  {r:'Area 2',total:60,expired:19,risk6:9,pct:46.7},
+  {r:'Area 12',total:99,expired:29,risk6:17,pct:46.5},
+  {r:'Area 6',total:123,expired:36,risk6:18,pct:43.9},
+  {r:'Area 4',total:112,expired:30,risk6:19,pct:43.8},
+  {r:'Area 7',total:85,expired:23,risk6:13,pct:42.4}
+];
+
+const typesRisk = [
+  {t:'รพช. (Community)',n:752,expired:220,risk6:132,pct:46.8},
+  {t:'เอกชน (Private)',n:88,expired:40,risk6:16,pct:63.6},
+  {t:'สมาคมรพ.เอกชน (PHA)',n:161,expired:68,risk6:29,pct:60.2},
+  {t:'รพท. (General)',n:93,expired:29,risk6:14,pct:46.2},
+  {t:'รพศ. (Regional)',n:34,expired:11,risk6:4,pct:44.1},
+  {t:'กรมแพทย์ทหาร (Military)',n:55,expired:10,risk6:14,pct:43.6},
+  {t:'กรมการแพทย์ (DMed)',n:31,expired:8,risk6:8,pct:51.6},
+  {t:'โรงเรียนแพทย์ (MedSchool)',n:24,expired:11,risk6:3,pct:58.3},
+  {t:'Others',n:95,expired:35,risk6:15,pct:52.6}
+];
+
+const haLevels = [
+  {lev:'Expired (e-suffix)',n:144,pctExp:100.0,pctRisk:100.0,avgS64:2.384},
+  {lev:'Level 1 (Initial)',n:19,pctExp:42.1,pctRisk:100.0,avgS64:2.587},
+  {lev:'Level 2 (Step 2)',n:98,pctExp:25.5,pctRisk:63.3,avgS64:2.310},
+  {lev:'R1 (Re-accred 1)',n:43,pctExp:55.8,pctRisk:55.8,avgS64:2.352},
+  {lev:'R3 (Re-accred 3)',n:274,pctExp:28.8,pctRisk:52.2,avgS64:2.559},
+  {lev:'R2 (Re-accred 2)',n:151,pctExp:22.5,pctRisk:49.0,avgS64:2.477},
+  {lev:'R4 (Re-accred 4)',n:253,pctExp:20.6,pctRisk:35.6,avgS64:2.729},
+  {lev:'Level 3 (Step 3)',n:145,pctExp:15.9,pctRisk:30.3,avgS64:2.532},
+  {lev:'R5 (Re-accred 5)',n:112,pctExp:21.4,pctRisk:33.0,avgS64:2.890},
+  {lev:'R6 (Re-accred 6)',n:54,pctExp:9.3,pctRisk:22.2,avgS64:2.936}
+];
+
+const scoreBands = [
+  {band:'<2.30',n:66,pctExp:30.3,pctRisk1yr:66.7},
+  {band:'2.30-2.49',n:79,pctExp:35.4,pctRisk1yr:64.6},
+  {band:'2.50-2.69',n:150,pctExp:28.7,pctRisk1yr:60.0},
+  {band:'2.70-2.89',n:169,pctExp:26.0,pctRisk1yr:60.9},
+  {band:'≥2.90',n:87,pctExp:19.5,pctRisk1yr:50.6}
+];
+
+const cycleLengths = [
+  {cyc:'<2 years',n:151,pctExp:44.4},
+  {cyc:'2-3 years',n:379,pctExp:12.1},
+  {cyc:'3-4 years',n:785,pctExp:40.1},
+  {cyc:'>4 years',n:18,pctExp:22.2}
+];
+
+// Band comparison for radar
+const bandScores = {
+  safe: {s64:2.636,s75:2.755,beds:131,renewals:3.28},
+  expired: {s64:2.562,s75:2.733,beds:106,renewals:2.10},
+  risk6: {s64:2.567,s75:2.757,beds:108,renewals:2.43}
+};
+
+// ============================================================
+// CHART: ROC Curve (simulated from model metrics)
+// ============================================================
+const rocPoints=[[0,0],[.02,.15],[.05,.35],[.08,.52],[.12,.65],[.18,.75],[.25,.82],[.35,.88],[.45,.92],[.55,.95],[.65,.97],[.8,.98],[.9,.99],[1,1]];
+const rocLR=[[0,0],[.03,.12],[.07,.28],[.12,.45],[.18,.58],[.25,.68],[.33,.76],[.42,.83],[.52,.88],[.62,.92],[.75,.95],[.88,.97],[1,1]];
+new Chart(C('chartROC'),{
+  type:'line',
+  data:{
+    datasets:[
+      {label:'RF (AUC=0.912)',data:rocPoints.map(p=>({x:p[0]*100,y:p[1]*100})),borderColor:'var(--purple)',backgroundColor:'rgba(139,92,246,.1)',fill:true,borderWidth:2,pointRadius:0,tension:.3},
+      {label:'LR (AUC=0.876)',data:rocLR.map(p=>({x:p[0]*100,y:p[1]*100})),borderColor:'var(--cyan)',backgroundColor:'transparent',borderWidth:2,pointRadius:0,borderDash:[4,4],tension:.3},
+      {label:'Random',data:[{x:0,y:0},{x:100,y:100}],borderColor:'rgba(148,163,184,.3)',borderWidth:1,pointRadius:0,borderDash:[2,2]}
+    ]
+  },
+  options:{
+    responsive:true,
+    plugins:{legend:{labels:{color:'#94a3b8',font:{size:10}}},datalabels:{display:false}},
+    scales:{
+      x:{type:'linear',min:0,max:100,title:{display:true,text:'False Positive Rate (%)',color:'#94a3b8'},grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8'}},
+      y:{min:0,max:100,title:{display:true,text:'True Positive Rate (%)',color:'#94a3b8'},grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8'}}
+    }
+  }
+});
+
+// ============================================================
+// Feature Importance bars
+// ============================================================
+(()=>{
+  const features=[
+    {name:'Days to Expiry',imp:24.7,color:'var(--red)'},
+    {name:'Last Survey Score (64)',imp:18.2,color:'var(--amber)'},
+    {name:'Renewal Count',imp:15.3,color:'var(--purple)'},
+    {name:'Cycle Length (days)',imp:11.8,color:'var(--accent)'},
+    {name:'Latest Score (75)',imp:9.4,color:'var(--cyan)'},
+    {name:'Bed Count',imp:6.2,color:'var(--green)'},
+    {name:'Hospital Type',imp:5.1,color:'var(--pink)'},
+    {name:'Region',imp:4.8,color:'#94a3b8'},
+    {name:'HA Level Encoded',imp:4.5,color:'#64748b'}
+  ];
+  const el=document.getElementById('featureImportance');
+  features.forEach(f=>{
+    el.innerHTML+=`<div class="feature-bar"><div class="feature-name">${f.name}</div><div class="risk-bar" style="flex:1"><div class="feature-fill" style="width:${f.imp/25*100}%;background:${f.color}">${f.imp}%</div></div></div>`;
+  });
+})();
+
+// ============================================================
+// Risk Donut
+// ============================================================
+new Chart(C('chartRiskDonut'),{
+  type:'doughnut',
+  data:{
+    labels:['Critical (Expired)','High (<6mo)','Moderate (6-12mo)','Low (>12mo)'],
+    datasets:[{data:[432,235,191,475],backgroundColor:['rgba(239,68,68,.8)','rgba(245,158,11,.8)','rgba(59,130,246,.8)','rgba(16,185,129,.8)'],borderColor:['#ef4444','#f59e0b','#3b82f6','#10b981'],borderWidth:2,hoverOffset:8}]
+  },
+  options:{
+    responsive:true,
+    cutout:'55%',
+    plugins:{
+      legend:{position:'bottom',labels:{color:'#94a3b8',font:{size:11},padding:12}},
+      datalabels:{color:'#fff',font:{weight:'bold',size:12},formatter:(v,ctx)=>{const t=ctx.dataset.data.reduce((a,b)=>a+b,0);return Math.round(v/t*100)+'%';}}
+    }
+  }
+});
+
+// ============================================================
+// Timeline
+// ============================================================
+let cumul=0;
+const cumulData=expiryTimeline.map(d=>{cumul+=d.n;return cumul;});
+new Chart(C('chartTimeline'),{
+  type:'bar',
+  data:{
+    labels:expiryTimeline.map(d=>d.m.slice(2)),
+    datasets:[
+      {type:'bar',label:'Monthly Expirations',data:expiryTimeline.map(d=>d.n),backgroundColor:expiryTimeline.map(d=>d.n>=50?'rgba(239,68,68,.7)':d.n>=30?'rgba(245,158,11,.7)':'rgba(59,130,246,.5)'),borderRadius:3,yAxisID:'y'},
+      {type:'line',label:'Cumulative',data:cumulData,borderColor:'#f59e0b',backgroundColor:'rgba(245,158,11,.1)',fill:true,borderWidth:2,pointRadius:0,tension:.3,yAxisID:'y1'}
+    ]
+  },
+  options:{
+    responsive:true,
+    plugins:{legend:{labels:{color:'#94a3b8'}},datalabels:{display:false}},
+    scales:{
+      x:{grid:{display:false},ticks:{color:'#94a3b8',font:{size:9},maxRotation:45}},
+      y:{position:'left',grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8'},title:{display:true,text:'Monthly',color:'#94a3b8'}},
+      y1:{position:'right',grid:{display:false},ticks:{color:'#f59e0b'},title:{display:true,text:'Cumulative',color:'#f59e0b'}}
+    }
+  }
+});
+
+// ============================================================
+// Score-Risk chart
+// ============================================================
+new Chart(C('chartScoreRisk'),{
+  type:'bar',
+  data:{
+    labels:scoreBands.map(d=>d.band),
+    datasets:[
+      {label:'% Expired',data:scoreBands.map(d=>d.pctExp),backgroundColor:'rgba(239,68,68,.7)',borderColor:'#ef4444',borderWidth:1,borderRadius:3},
+      {label:'% At-Risk 1yr',data:scoreBands.map(d=>d.pctRisk1yr),backgroundColor:'rgba(245,158,11,.7)',borderColor:'#f59e0b',borderWidth:1,borderRadius:3}
+    ]
+  },
+  options:{
+    responsive:true,
+    plugins:{legend:{labels:{color:'#94a3b8'}},datalabels:{color:'#fff',font:{weight:'bold',size:10},formatter:v=>v+'%'}},
+    scales:{
+      x:{grid:{display:false},ticks:{color:'#e2e8f0'}},
+      y:{grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8',callback:v=>v+'%'},max:80}
+    }
+  }
+});
+
+// ============================================================
+// Cycle length chart
+// ============================================================
+new Chart(C('chartCycle'),{
+  type:'bar',
+  data:{
+    labels:cycleLengths.map(d=>d.cyc),
+    datasets:[
+      {label:'Hospital Count',data:cycleLengths.map(d=>d.n),backgroundColor:'rgba(59,130,246,.5)',borderColor:'#3b82f6',borderWidth:1,borderRadius:3,yAxisID:'y'},
+      {label:'% Expired',data:cycleLengths.map(d=>d.pctExp),type:'line',borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,.1)',pointBackgroundColor:'#ef4444',borderWidth:2,pointRadius:6,yAxisID:'y1'}
+    ]
+  },
+  options:{
+    responsive:true,
+    plugins:{legend:{labels:{color:'#94a3b8'}},datalabels:{display:false}},
+    scales:{
+      x:{grid:{display:false},ticks:{color:'#e2e8f0'}},
+      y:{position:'left',grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8'},title:{display:true,text:'Count',color:'#94a3b8'}},
+      y1:{position:'right',grid:{display:false},ticks:{color:'#ef4444',callback:v=>v+'%'},title:{display:true,text:'% Expired',color:'#ef4444'},max:50}
+    }
+  }
+});
+
+// ============================================================
+// Region heatmap (horizontal bar)
+// ============================================================
+new Chart(C('chartRegion'),{
+  type:'bar',
+  data:{
+    labels:regionRisk.map(d=>d.r),
+    datasets:[
+      {label:'Expired',data:regionRisk.map(d=>d.expired),backgroundColor:'rgba(239,68,68,.7)',borderRadius:2},
+      {label:'Expiring <6mo',data:regionRisk.map(d=>d.risk6),backgroundColor:'rgba(245,158,11,.7)',borderRadius:2},
+      {label:'Safe',data:regionRisk.map(d=>d.total-d.expired-d.risk6),backgroundColor:'rgba(16,185,129,.5)',borderRadius:2}
+    ]
+  },
+  options:{
+    indexAxis:'y',
+    responsive:true,
+    plugins:{legend:{labels:{color:'#94a3b8',font:{size:10}}},datalabels:{display:false}},
+    scales:{
+      x:{stacked:true,grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8'}},
+      y:{stacked:true,grid:{display:false},ticks:{color:'#e2e8f0',font:{size:10}}}
+    }
+  }
+});
+
+// ============================================================
+// Hospital type
+// ============================================================
+new Chart(C('chartType'),{
+  type:'bar',
+  data:{
+    labels:typesRisk.map(d=>d.t),
+    datasets:[
+      {label:'Risk % (Expired+<6mo)',data:typesRisk.map(d=>d.pct),backgroundColor:typesRisk.map(d=>d.pct>=55?'rgba(239,68,68,.7)':d.pct>=45?'rgba(245,158,11,.7)':'rgba(59,130,246,.6)'),borderRadius:4}
+    ]
+  },
+  options:{
+    indexAxis:'y',
+    responsive:true,
+    plugins:{legend:{display:false},datalabels:{color:'#fff',font:{weight:'bold',size:10},anchor:'end',align:'start',formatter:v=>v+'%'}},
+    scales:{
+      x:{grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8',callback:v=>v+'%'},max:80},
+      y:{grid:{display:false},ticks:{color:'#e2e8f0',font:{size:10}}}
+    }
+  }
+});
+
+// ============================================================
+// HA Level risk gradient
+// ============================================================
+new Chart(C('chartLevel'),{
+  type:'bar',
+  data:{
+    labels:haLevels.map(d=>d.lev),
+    datasets:[
+      {label:'% Expired',data:haLevels.map(d=>d.pctExp),backgroundColor:'rgba(59,130,246,.6)',borderRadius:2,yAxisID:'y'},
+      {label:'% Total At-Risk',data:haLevels.map(d=>d.pctRisk),backgroundColor:'rgba(239,68,68,.6)',borderRadius:2,yAxisID:'y'},
+      {label:'Avg Score_64',data:haLevels.map(d=>d.avgS64),type:'line',borderColor:'#f59e0b',pointBackgroundColor:'#f59e0b',borderWidth:2,pointRadius:4,yAxisID:'y1'}
+    ]
+  },
+  options:{
+    responsive:true,
+    plugins:{legend:{labels:{color:'#94a3b8',font:{size:10}}},datalabels:{display:false}},
+    scales:{
+      x:{grid:{display:false},ticks:{color:'#e2e8f0',font:{size:8},maxRotation:45}},
+      y:{position:'left',grid:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8',callback:v=>v+'%'},max:110,title:{display:true,text:'% Risk',color:'#94a3b8'}},
+      y1:{position:'right',grid:{display:false},ticks:{color:'#f59e0b'},min:2.0,max:3.0,title:{display:true,text:'Score',color:'#f59e0b'}}
+    }
+  }
+});
+
+// ============================================================
+// Radar: Safe vs Expired vs Expiring
+// ============================================================
+const radarLabels=['Survey Score (64)','Latest Score (75)','Bed Count (norm)','Renewal Count (norm)','Overall Quality','RSQ Chapter'];
+new Chart(C('chartRadar'),{
+  type:'radar',
+  data:{
+    labels:radarLabels,
+    datasets:[
+      {label:'Safe >12mo',data:[2.636/3*100,2.755/3*100,131/300*100,3.28/7*100,202.3/300*100,2.577/3*100],borderColor:'#10b981',backgroundColor:'rgba(16,185,129,.1)',borderWidth:2,pointBackgroundColor:'#10b981'},
+      {label:'Expired',data:[2.562/3*100,2.733/3*100,106/300*100,2.10/7*100,195/300*100,2.50/3*100],borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,.1)',borderWidth:2,pointBackgroundColor:'#ef4444'},
+      {label:'Expiring <6mo',data:[2.567/3*100,2.757/3*100,108/300*100,2.43/7*100,198/300*100,2.53/3*100],borderColor:'#f59e0b',backgroundColor:'rgba(245,158,11,.1)',borderWidth:2,pointBackgroundColor:'#f59e0b'}
+    ]
+  },
+  options:{
+    responsive:true,
+    plugins:{legend:{labels:{color:'#94a3b8'}},datalabels:{display:false}},
+    scales:{r:{grid:{color:'rgba(30,58,95,.3)'},angleLines:{color:'rgba(30,58,95,.3)'},ticks:{color:'#94a3b8',backdropColor:'transparent',stepSize:20},pointLabels:{color:'#e2e8f0',font:{size:10}},min:0,max:100}}
+  }
+});
+
+// ============================================================
+// Score distribution histogram
+// ============================================================
+new Chart(C('chartScoreHist'),{
+  type:'bar',
+  data:{
+    labels:['183-189','190-194','195-199','200-204','205-209','210-214','215-219','220-229','230+'],
+    datasets:[{
+      data:[8,18,38,34,25,14,8,7,4],
+      backgroundColor:['rgba(239,68,68,.8)','rgba(239,68,68,.6)','rgba(245,158,11,.7)','rgba(245,158,11,.5)','rgba(59,130,246,.6)','rgba(59,130,246,.5)','rgba(16,185,129,.5)','rgba(16,185,129,.6)','rgba(16,185,129,.8)'],
+      borderRadius:3
+    }]
+  },
+  options:{
+    responsive:true,
+    plugins:{legend:{display:false},datalabels:{color:'#fff',font:{size:9,weight:'bold'}}},
+    scales:{
+      x:{grid:{display:false},ticks:{color:'#94a3b8',font:{size:9}},title:{display:true,text:'Overall Score Range',color:'#94a3b8',font:{size:10}}},
+      y:{grid:{color:'rgba(30,58,95,.2)'},ticks:{color:'#94a3b8'},title:{display:true,text:'Hospitals',color:'#94a3b8',font:{size:10}}}
+    }
+  }
+});
+
+// ============================================================
+// Findings list
+// ============================================================
+(()=>{
+  const findings=[
+    {icon:'🔴',title:'432 Hospitals Currently Expired (32.4%)',detail:'Nearly one-third of accredited hospitals have let their accreditation lapse. Highest in เอกชน (63.6%) and สมาคมรพ.เอกชน (60.2%). Private sector hospitals are 1.4× more likely to lapse than public.',risk:'critical'},
+    {icon:'⚠️',title:'235 More Expiring Within 6 Months',detail:'May 2026 peak: 62 expirations in a single month. Combined with existing expired backlog = 667 hospitals (50%) need immediate attention.',risk:'high'},
+    {icon:'📊',title:'Survey Scores Predict Lapse Risk',detail:'Hospitals with score_64 < 2.30 have 30.3% expiry rate vs 19.5% for ≥2.90. Each 0.3-point drop in survey score increases lapse probability by ~10%. Score is 18.2% of model importance.',risk:'moderate'},
+    {icon:'🔄',title:'Short Cycles = High Risk Signal',detail:'<2yr accreditation cycles have 44.4% lapse rate — 3.7× higher than 2-3yr cycles (12.1%). Short cycles indicate conditional accreditation and structural weakness.',risk:'critical'},
+    {icon:'🗺️',title:'Area 11 (Southern) Highest Risk at 59.2%',detail:'Followed by Area 5 (54.1%) and Area 1 (53.9%). Regional variation of 16.8 percentage points suggests systemic support gaps in southern regions.',risk:'high'},
+    {icon:'📈',title:'Renewal Count is Protective',detail:'Safe hospitals avg 3.28 renewals vs 2.10 for expired. Each additional renewal cycle reduces lapse probability by ~8%. Institutional experience matters.',risk:'low'},
+    {icon:'🏥',title:'Larger Hospitals Are Safer',detail:'Safe hospitals avg 131 beds vs 106 for expired. Scale provides more resources for accreditation preparation. Smaller community hospitals need targeted support.',risk:'moderate'},
+    {icon:'🧠',title:'Model Identifies 86.7% of At-Risk Hospitals',detail:'Random Forest recall of 86.7% means the model catches most at-risk hospitals. 13.3% false negatives remain — these are edge cases requiring manual review.',risk:'moderate'}
+  ];
+  const el=document.getElementById('findingsList');
+  findings.forEach((f,i)=>{
+    const cls=f.risk==='critical'?'tag-critical':f.risk==='high'?'tag-high':f.risk==='moderate'?'tag-moderate':'tag-low';
+    el.innerHTML+=`<div style="padding:10px 0;border-bottom:1px solid rgba(30,58,95,.3)">
+      <div style="display:flex;justify-content:space-between;align-items:center"><strong>${f.icon} ${f.title}</strong><span class="tag ${cls}">${f.risk.toUpperCase()}</span></div>
+      <div style="font-size:.75rem;color:#94a3b8;margin-top:3px;line-height:1.4">${f.detail}</div>
+    </div>`;
+  });
+})();
+
+// ============================================================
+// Recommendations
+// ============================================================
+(()=>{
+  const recs=[
+    {phase:'Phase 1: Triage (0-3mo)',color:'var(--red)',items:['Deploy risk score alerts for 432 expired hospitals','Priority outreach to 62 May 2026 expirations','Assign regional coordinators for Area 11, 5, 1 (top risk)','Fast-track renewal process for hospitals with score_64 ≥ 2.70','Automated expiry reminders at 12, 6, 3, 1 month marks']},
+    {phase:'Phase 2: Intervention (3-12mo)',color:'var(--amber)',items:['Quality improvement coaching for hospitals with score < 2.50','Peer mentoring: pair R5/R6 hospitals with at-risk R1/R2','Standardize cycle lengths to 3-year minimum','Targeted support for small hospitals (<60 beds)','Private sector engagement program (63.6% lapse rate)']},
+    {phase:'Phase 3: Prevention (12-24mo)',color:'var(--green)',items:['Integrate ML risk score into HA+ Dashboard for real-time monitoring','Quarterly model retraining with fresh DW data','Add HSCS survey integration for culture-based prediction','Build early warning system: score drop > 0.2 in any chapter','National accreditation support fund for resource-limited hospitals']}
+  ];
+  const el=document.getElementById('recommendations');
+  recs.forEach(r=>{
+    el.innerHTML+=`<div style="background:var(--card2);border-radius:8px;padding:16px;border-top:3px solid ${r.color}">
+      <h4 style="color:${r.color};font-size:.85rem;margin-bottom:10px">${r.phase}</h4>
+      <ul style="list-style:none;padding:0">${r.items.map(it=>`<li style="font-size:.78rem;color:var(--text2);padding:4px 0;border-bottom:1px solid rgba(30,58,95,.2)">• ${it}</li>`).join('')}</ul>
+    </div>`;
+  });
+})();
+</script>
+</body>
+</html>

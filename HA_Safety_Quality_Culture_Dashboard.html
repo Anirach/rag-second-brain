@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HA Safety & Quality Culture Database Dashboard — 2025</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0f1e;--card:#111827;--card2:#1a2235;--border:#1e293b;--text:#e2e8f0;--muted:#94a3b8;--accent:#3b82f6;--accent2:#8b5cf6;--green:#10b981;--red:#ef4444;--amber:#f59e0b;--teal:#14b8a6;--navy:#1e3a5f;--gold:#f4c430}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;min-height:100vh}
+.header{background:linear-gradient(135deg,#0f172a 0%,#1e3a5f 50%,#0f172a 100%);padding:28px 32px;border-bottom:2px solid var(--accent);text-align:center}
+.header h1{font-size:26px;font-weight:700;background:linear-gradient(90deg,#60a5fa,#a78bfa,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:4px;letter-spacing:-.5px}
+.header p{color:var(--muted);font-size:13px;letter-spacing:.5px}
+.kpi-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;padding:16px 24px;background:#0d1225}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;text-align:center;position:relative;overflow:hidden}
+.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:10px 10px 0 0}
+.kpi:nth-child(1)::before{background:var(--accent)}.kpi:nth-child(2)::before{background:var(--green)}.kpi:nth-child(3)::before{background:var(--teal)}.kpi:nth-child(4)::before{background:var(--accent2)}.kpi:nth-child(5)::before{background:var(--amber)}.kpi:nth-child(6)::before{background:var(--red)}
+.kpi .label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin-bottom:4px}
+.kpi .value{font-size:28px;font-weight:700;line-height:1.1}
+.kpi .sub{font-size:10px;color:var(--muted);margin-top:2px}
+.kpi:nth-child(1) .value{color:#60a5fa}.kpi:nth-child(2) .value{color:#34d399}.kpi:nth-child(3) .value{color:#2dd4bf}.kpi:nth-child(4) .value{color:#a78bfa}.kpi:nth-child(5) .value{color:#fbbf24}.kpi:nth-child(6) .value{color:#f87171}
+.grid{display:grid;gap:16px;padding:16px 24px}
+.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:1fr 1fr 1fr}.g23{grid-template-columns:2fr 1fr}.g32{grid-template-columns:3fr 2fr}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;position:relative}
+.card h3{font-size:13px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.card h3 .icon{font-size:16px}
+.chart-wrap{position:relative;width:100%;height:300px}
+.chart-wrap.tall{height:400px}
+.chart-wrap.short{height:250px}
+
+/* Tables */
+.tbl{width:100%;border-collapse:collapse;font-size:11px;margin-top:8px}
+.tbl th{background:#1a2540;color:#94a3b8;font-weight:600;text-transform:uppercase;font-size:9px;letter-spacing:.8px;padding:8px 10px;text-align:left;border-bottom:1px solid var(--border)}
+.tbl td{padding:7px 10px;border-bottom:1px solid #1a2235}
+.tbl tr:hover td{background:#1a2540}
+.tbl .num{text-align:right;font-variant-numeric:tabular-nums}
+.tbl .hi{color:#34d399;font-weight:600}.tbl .lo{color:#f87171;font-weight:600}
+
+/* Gauge / Donut center text */
+.gauge-center{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center}
+.gauge-center .big{font-size:36px;font-weight:700;color:#60a5fa}.gauge-center .sm{font-size:12px;color:var(--muted)}
+
+/* Badges */
+.badge{display:inline-block;padding:2px 8px;border-radius:20px;font-size:10px;font-weight:600}
+.badge-green{background:#064e3b;color:#34d399}.badge-amber{background:#78350f;color:#fbbf24}.badge-red{background:#7f1d1d;color:#f87171}.badge-blue{background:#1e3a5f;color:#60a5fa}.badge-purple{background:#3b0764;color:#c084fc}
+
+/* Footer */
+.footer{text-align:center;padding:16px;color:var(--muted);font-size:10px;border-top:1px solid var(--border)}
+
+/* Responsive */
+@media(max-width:900px){.kpi-strip{grid-template-columns:repeat(3,1fr)}.g2,.g3,.g23,.g32{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🏥 HA Safety & Quality Culture Database Dashboard</h1>
+  <p>2025 HA+ Data Hub • Healthcare Accreditation Institute (สรพ.) Thailand • 156 Assessed Hospitals • 586 Risk Reporting Hospitals</p>
+</div>
+
+<!-- KPI Strip -->
+<div class="kpi-strip">
+  <div class="kpi"><div class="label">Total Enrolled</div><div class="value">1,584</div><div class="sub">Hospitals in System</div></div>
+  <div class="kpi"><div class="label">Accredited</div><div class="value">84.2%</div><div class="sub">1,333 of 1,584</div></div>
+  <div class="kpi"><div class="label">Assessed (Scored)</div><div class="value">156</div><div class="sub">Complete Chapter Scores</div></div>
+  <div class="kpi"><div class="label">Overall Score</div><div class="value">202.3</div><div class="sub">Avg / 300 (SD 10.3)</div></div>
+  <div class="kpi"><div class="label">Risk Reporters</div><div class="value">586</div><div class="sub">25 Risk Indicators</div></div>
+  <div class="kpi"><div class="label">Weakest Chapter</div><div class="value">2.53</div><div class="sub">III-3 Care Planning</div></div>
+</div>
+
+<!-- Row 1: 27 Chapter Radar + Distribution -->
+<div class="grid g23">
+  <div class="card">
+    <h3><span class="icon">📊</span> All 27 HA Standard Chapters — National Average Scores (1.00–3.00)</h3>
+    <div class="chart-wrap tall"><canvas id="radarAll"></canvas></div>
+  </div>
+  <div class="card">
+    <h3><span class="icon">📈</span> Overall Score Distribution (N=156)</h3>
+    <div class="chart-wrap" style="height:200px"><canvas id="distChart"></canvas></div>
+    <table class="tbl" style="margin-top:12px">
+      <tr><th>Percentile</th><th class="num">Score</th></tr>
+      <tr><td>90th (Top 10%)</td><td class="num hi">216.5</td></tr>
+      <tr><td>75th (Q3)</td><td class="num">207.6</td></tr>
+      <tr><td>50th (Median)</td><td class="num">200.8</td></tr>
+      <tr><td>25th (Q1)</td><td class="num">195.4</td></tr>
+      <tr><td>10th (Bottom 10%)</td><td class="num lo">190.5</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- Row 2: Part I–IV Horizontal Bars -->
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">👔</span> Part I: Leadership & Management</h3>
+    <div class="chart-wrap short"><canvas id="partI"></canvas></div>
+  </div>
+  <div class="card">
+    <h3><span class="icon">🏥</span> Part II: Healthcare Systems</h3>
+    <div class="chart-wrap"><canvas id="partII"></canvas></div>
+  </div>
+</div>
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">🩺</span> Part III: Patient Care Processes</h3>
+    <div class="chart-wrap short"><canvas id="partIII"></canvas></div>
+  </div>
+  <div class="card">
+    <h3><span class="icon">📋</span> Part IV: Results</h3>
+    <div class="chart-wrap short"><canvas id="partIV"></canvas></div>
+  </div>
+</div>
+
+<!-- Row 3: Hospital Level Comparison + Maturity -->
+<div class="grid g32">
+  <div class="card">
+    <h3><span class="icon">🏛️</span> Overall Score by Hospital Level</h3>
+    <div class="chart-wrap"><canvas id="levelChart"></canvas></div>
+  </div>
+  <div class="card">
+    <h3><span class="icon">🎯</span> Risk Reporting Culture Maturity (2025)</h3>
+    <div class="chart-wrap" style="height:280px;display:flex;align-items:center;justify-content:center;position:relative">
+      <canvas id="maturityDonut" style="max-width:260px"></canvas>
+      <div class="gauge-center"><div class="big">586</div><div class="sm">Hospitals</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Row 4: Trending + Level Radar Comparison -->
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">📈</span> Risk Reporting Growth Trend (2019–2025)</h3>
+    <div class="chart-wrap"><canvas id="trendChart"></canvas></div>
+  </div>
+  <div class="card">
+    <h3><span class="icon">🔬</span> Chapter Scores: University vs Community vs Specialized</h3>
+    <div class="chart-wrap"><canvas id="radarCompare"></canvas></div>
+  </div>
+</div>
+
+<!-- Row 5: Detailed Comparison Table -->
+<div class="grid" style="grid-template-columns:1fr">
+  <div class="card">
+    <h3><span class="icon">📋</span> Chapter Score Comparison by Hospital Level (Top 8 Types)</h3>
+    <table class="tbl" id="compTable">
+      <thead>
+        <tr>
+          <th>Chapter</th><th>Name</th>
+          <th class="num">F2 (57)</th><th class="num">F1 (35)</th><th class="num">A (12)</th>
+          <th class="num">M2 (11)</th><th class="num">S (11)</th><th class="num">M1 (9)</th>
+          <th class="num">U (2)</th><th class="num">National</th>
+        </tr>
+      </thead>
+      <tbody id="compBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Row 6: Risk Indicators + Accreditation Level -->
+<div class="grid g2">
+  <div class="card">
+    <h3><span class="icon">⚠️</span> Top 12 Risk Rate Indicators — Hospital Coverage (2025)</h3>
+    <div class="chart-wrap tall"><canvas id="riskIndicators"></canvas></div>
+  </div>
+  <div class="card">
+    <h3><span class="icon">🏅</span> Accreditation Level Distribution</h3>
+    <div class="chart-wrap tall"><canvas id="accredChart"></canvas></div>
+  </div>
+</div>
+
+<div class="footer">
+  HA Safety & Quality Culture Database Dashboard — Data Source: HA+ Data Hub (PostgreSQL DW) — Generated March 2026<br>
+  Healthcare Accreditation Institute (สรพ.) • 27 HA Standard Chapters • Modeled after AHRQ SOPS Database Report
+</div>
+
+<script>
+Chart.register(ChartDataLabels);
+Chart.defaults.color='#94a3b8';Chart.defaults.font.family="'Segoe UI',system-ui,sans-serif";
+Chart.defaults.font.size=11;Chart.defaults.plugins.datalabels.display=false;
+
+const C={blue:'#3b82f6',purple:'#8b5cf6',green:'#10b981',red:'#ef4444',amber:'#f59e0b',teal:'#14b8a6',
+  cyan:'#06b6d4',pink:'#ec4899',lime:'#84cc16',indigo:'#6366f1',
+  blueA:'rgba(59,130,246,.15)',greenA:'rgba(16,185,129,.15)',purpleA:'rgba(139,92,246,.15)',redA:'rgba(239,68,68,.15)'};
+
+// === RADAR: All 27 Chapters ===
+const chLabels=['I-1 LRD','I-2 STG','I-3 PCM','I-4 KAM','I-5 WKF','I-6 OPT',
+  'II-1 RSQ','II-2 PFG','II-3 ENV','II-4 IC','II-5 MRS','II-6 MMS','II-7 DIN','II-8 DHS','II-9 COM',
+  'III-1 ACN','III-2 ASM','III-3 PLN','III-4 PCD','III-5 IMP','III-6 COC',
+  'IV-1 HCR','IV-2 CFR','IV-3 WFR','IV-4 LDR','IV-5 WPR','IV-6 FNR'];
+const natScores=[2.76,2.59,2.85,2.58,2.65,2.64,2.58,2.70,2.69,2.65,2.71,2.60,2.76,2.80,2.89,2.74,2.56,2.53,2.69,2.57,2.65,2.55,2.81,2.55,2.62,2.54,2.90];
+
+new Chart(document.getElementById('radarAll'),{
+  type:'radar',
+  data:{labels:chLabels,datasets:[{
+    label:'National Average',data:natScores,
+    borderColor:C.blue,backgroundColor:C.blueA,borderWidth:2,pointRadius:3,pointBackgroundColor:C.blue
+  },{
+    label:'Target (2.80)',data:Array(27).fill(2.80),
+    borderColor:'rgba(239,68,68,.4)',backgroundColor:'transparent',borderWidth:1,borderDash:[5,5],pointRadius:0
+  }]},
+  options:{scales:{r:{min:2.3,max:3.0,ticks:{stepSize:.1,color:'#64748b',font:{size:8}},grid:{color:'#1e293b'},pointLabels:{font:{size:9},color:'#cbd5e1'}}},
+    plugins:{legend:{position:'bottom',labels:{boxWidth:12,padding:12}},datalabels:{display:false}}}
+});
+
+// === Distribution ===
+new Chart(document.getElementById('distChart'),{
+  type:'bar',
+  data:{labels:['<190','190-194','195-199','200-204','205-209','210-214','215-219','220-224','225+'],
+    datasets:[{data:[14,22,33,34,20,15,7,8,3],
+      backgroundColor:['#7f1d1d','#991b1b','#b45309','#d97706','#059669','#0d9488','#0284c7','#6366f1','#7c3aed'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{indexAxis:'x',scales:{x:{grid:{display:false}},y:{grid:{color:'#1e293b'},title:{display:true,text:'Hospitals'}}},
+    plugins:{legend:{display:false},datalabels:{display:true,anchor:'end',align:'top',color:'#e2e8f0',font:{size:10,weight:'bold'}}}}
+});
+
+// === Part I ===
+function hBar(id,labels,data,color,bg){
+  new Chart(document.getElementById(id),{
+    type:'bar',data:{labels,datasets:[{data,backgroundColor:bg||color+'33',borderColor:color,borderWidth:1.5,borderRadius:4,borderSkipped:false}]},
+    options:{indexAxis:'y',scales:{x:{min:2.3,max:3.0,grid:{color:'#1e293b'}},y:{grid:{display:false},ticks:{font:{size:11}}}},
+      plugins:{legend:{display:false},datalabels:{display:true,anchor:'end',align:'right',color:'#e2e8f0',font:{size:11,weight:'bold'},
+        formatter:v=>v.toFixed(2)}}}
+  });
+}
+hBar('partI',['I-3 Patient-Centered','I-1 Leadership','I-5 Workforce','I-6 Operations','I-2 Strategy','I-4 Knowledge Mgmt'],
+  [2.85,2.76,2.65,2.64,2.59,2.58],C.blue);
+hBar('partII',['II-9 Community','II-8 Disease/Health','II-7 DIN','II-5 Medical Records','II-2 Patient Focus','II-3 Environment','II-4 Infection Control','II-6 Medication Mgmt','II-1 RSQ (Risk/Safety)'],
+  [2.89,2.80,2.76,2.71,2.70,2.69,2.65,2.60,2.58],C.teal);
+hBar('partIII',['III-1 Access','III-4 Care Delivery','III-6 Continuity','III-5 Implementation','III-2 Assessment','III-3 Care Planning'],
+  [2.74,2.69,2.65,2.57,2.56,2.53],C.purple);
+hBar('partIV',['IV-6 Financial','IV-2 Customer Focus','IV-4 Leadership','IV-1 Healthcare','IV-3 Workforce','IV-5 Workplace'],
+  [2.90,2.81,2.62,2.55,2.55,2.54],C.amber);
+
+// === Hospital Level ===
+new Chart(document.getElementById('levelChart'),{
+  type:'bar',
+  data:{labels:['U (2)','A+ (2)','A (12)','PS (4)','S (11)','M1 (9)','M2 (11)','F1 (35)','F2 (57)','F3 (6)','E (5)'],
+    datasets:[{label:'Overall Score',data:[227.0,218.5,214.1,209.6,209.6,206.2,204.1,198.5,198.7,196.3,196.6],
+      backgroundColor:['#7c3aed','#6366f1','#3b82f6','#0ea5e9','#06b6d4','#14b8a6','#10b981','#84cc16','#eab308','#f97316','#ef4444'],
+      borderRadius:4,borderSkipped:false},{
+      label:'National Avg (202.3)',data:Array(11).fill(202.3),type:'line',
+      borderColor:'rgba(239,68,68,.6)',borderDash:[6,4],borderWidth:2,pointRadius:0,fill:false}]},
+  options:{scales:{y:{min:185,max:235,grid:{color:'#1e293b'}},x:{grid:{display:false}}},
+    plugins:{legend:{position:'bottom',labels:{boxWidth:12}},
+      datalabels:{display:function(ctx){return ctx.datasetIndex===0},anchor:'end',align:'top',color:'#e2e8f0',font:{size:10,weight:'bold'},formatter:v=>v.toFixed(1)}}}
+});
+
+// === Maturity Donut ===
+new Chart(document.getElementById('maturityDonut'),{
+  type:'doughnut',
+  data:{labels:['Generative (178)','Proactive (193)','Calculative (73)','Reactive (62)','Pathological (80)'],
+    datasets:[{data:[178,193,73,62,80],
+      backgroundColor:['#10b981','#06b6d4','#f59e0b','#f97316','#ef4444'],
+      borderColor:'#111827',borderWidth:2}]},
+  options:{cutout:'65%',plugins:{legend:{position:'bottom',labels:{boxWidth:10,padding:8,font:{size:10}}},
+    datalabels:{display:true,color:'#fff',font:{size:11,weight:'bold'},formatter:(v,ctx)=>{
+      const pct=Math.round(v/586*100);return pct+'%'}}}}
+});
+
+// === Trending ===
+new Chart(document.getElementById('trendChart'),{
+  type:'line',
+  data:{labels:['2019','2020','2021','2022','2023','2024','2025'],
+    datasets:[{label:'Reporting Hospitals',data:[238,424,542,580,598,609,586],
+      borderColor:C.blue,backgroundColor:C.blueA,fill:true,tension:.3,pointRadius:5,pointBackgroundColor:C.blue},
+      {label:'Records (÷100)',data:[342.85,620.85,754.70,820.44,932.13,943.24,896.95],
+      borderColor:C.purple,backgroundColor:'transparent',tension:.3,pointRadius:4,pointBackgroundColor:C.purple,borderDash:[4,4]}]},
+  options:{scales:{y:{grid:{color:'#1e293b'},title:{display:true,text:'Count'}},x:{grid:{display:false}}},
+    plugins:{legend:{position:'bottom',labels:{boxWidth:12}},datalabels:{display:false}}}
+});
+
+// === Radar Compare: U vs F2 vs E ===
+const uScores=[3.05,2.82,2.95,2.80,2.85,2.80,2.82,2.92,2.90,2.94,2.88,2.80,3.01,3.25,2.75,3.00,2.75,2.75,2.84,2.75,2.75,2.77,3.00,2.75,2.75,2.75,3.00];
+const f2Scores=[2.73,2.56,2.84,2.56,2.64,2.61,2.56,2.67,2.68,2.64,2.70,2.59,2.76,2.75,2.94,2.69,2.53,2.52,2.66,2.54,2.59,2.53,2.83,2.54,2.58,2.52,2.94];
+const eScores=[2.77,2.58,2.86,2.60,2.66,2.65,2.51,2.60,2.70,2.78,2.65,2.56,2.81,2.70,2.70,2.85,2.65,2.55,2.69,2.50,2.50,2.53,2.80,2.50,2.50,2.60,2.70];
+const shortLabels=['LRD','STG','PCM','KAM','WKF','OPT','RSQ','PFG','ENV','IC','MRS','MMS','DIN','DHS','COM','ACN','ASM','PLN','PCD','IMP','COC','HCR','CFR','WFR','LDR','WPR','FNR'];
+
+new Chart(document.getElementById('radarCompare'),{
+  type:'radar',
+  data:{labels:shortLabels,datasets:[
+    {label:'University (U, n=2)',data:uScores,borderColor:C.purple,backgroundColor:'rgba(139,92,246,.1)',borderWidth:2,pointRadius:2},
+    {label:'Community F2 (n=57)',data:f2Scores,borderColor:C.green,backgroundColor:'rgba(16,185,129,.1)',borderWidth:2,pointRadius:2},
+    {label:'Specialized E (n=5)',data:eScores,borderColor:C.amber,backgroundColor:'rgba(245,158,11,.1)',borderWidth:2,pointRadius:2}
+  ]},
+  options:{scales:{r:{min:2.3,max:3.3,ticks:{stepSize:.2,color:'#64748b',font:{size:8}},grid:{color:'#1e293b'},pointLabels:{font:{size:8},color:'#cbd5e1'}}},
+    plugins:{legend:{position:'bottom',labels:{boxWidth:10,padding:10,font:{size:10}}},datalabels:{display:false}}}
+});
+
+// === Comparison Table ===
+const chapters=[
+  {ch:'I-1',name:'Leadership (LRD)',f2:2.73,f1:2.70,a:2.90,m2:2.75,s:2.84,m1:2.75,u:3.05,nat:2.76},
+  {ch:'I-2',name:'Strategy (STG)',f2:2.56,f1:2.54,a:2.78,m2:2.52,s:2.67,m1:2.56,u:2.82,nat:2.59},
+  {ch:'I-3',name:'Patient-Centered (PCM)',f2:2.84,f1:2.80,a:2.92,m2:2.82,s:2.87,m1:2.89,u:2.95,nat:2.85},
+  {ch:'I-4',name:'Knowledge Mgmt (KAM)',f2:2.56,f1:2.57,a:2.65,m2:2.55,s:2.60,m1:2.56,u:2.80,nat:2.58},
+  {ch:'I-5',name:'Workforce (WKF)',f2:2.64,f1:2.62,a:2.76,m2:2.62,s:2.62,m1:2.65,u:2.85,nat:2.65},
+  {ch:'I-6',name:'Operations (OPT)',f2:2.61,f1:2.61,a:2.85,m2:2.56,s:2.64,m1:2.58,u:2.80,nat:2.64},
+  {ch:'II-1',name:'RSQ (Risk/Safety)',f2:2.56,f1:2.55,a:2.64,m2:2.53,s:2.64,m1:2.57,u:2.82,nat:2.58},
+  {ch:'II-2',name:'Patient Focus (PFG)',f2:2.67,f1:2.64,a:2.85,m2:2.65,s:2.76,m1:2.76,u:2.92,nat:2.70},
+  {ch:'II-3',name:'Environment (ENV)',f2:2.68,f1:2.68,a:2.76,m2:2.62,s:2.64,m1:2.74,u:2.90,nat:2.69},
+  {ch:'II-4',name:'Infection Control (IC)',f2:2.64,f1:2.65,a:2.74,m2:2.58,s:2.62,m1:2.61,u:2.94,nat:2.65},
+  {ch:'II-5',name:'Medical Records (MRS)',f2:2.70,f1:2.71,a:2.83,m2:2.61,s:2.75,m1:2.72,u:2.88,nat:2.71},
+  {ch:'II-6',name:'Medication Mgmt (MMS)',f2:2.59,f1:2.63,a:2.67,m2:2.59,s:2.58,m1:2.59,u:2.80,nat:2.60},
+  {ch:'II-7',name:'DIN',f2:2.76,f1:2.68,a:2.79,m2:2.76,s:2.79,m1:2.85,u:3.01,nat:2.76},
+  {ch:'II-8',name:'Disease/Health (DHS)',f2:2.75,f1:2.84,a:2.75,m2:3.00,s:2.68,m1:2.72,u:3.25,nat:2.80},
+  {ch:'II-9',name:'Community (COM)',f2:2.94,f1:2.91,a:2.83,m2:2.86,s:2.86,m1:2.89,u:2.75,nat:2.89},
+  {ch:'III-1',name:'Access (ACN)',f2:2.69,f1:2.69,a:2.85,m2:2.77,s:2.80,m1:2.72,u:3.00,nat:2.74},
+  {ch:'III-2',name:'Assessment (ASM)',f2:2.53,f1:2.52,a:2.65,m2:2.50,s:2.61,m1:2.61,u:2.75,nat:2.56},
+  {ch:'III-3',name:'Care Planning (PLN)',f2:2.52,f1:2.52,a:2.52,m2:2.50,s:2.59,m1:2.50,u:2.75,nat:2.53},
+  {ch:'III-4',name:'Care Delivery (PCD)',f2:2.66,f1:2.65,a:2.85,m2:2.68,s:2.75,m1:2.69,u:2.84,nat:2.69},
+  {ch:'III-5',name:'Implementation (IMP)',f2:2.54,f1:2.54,a:2.58,m2:2.59,s:2.73,m1:2.56,u:2.75,nat:2.57},
+  {ch:'III-6',name:'Continuity (COC)',f2:2.59,f1:2.70,a:2.71,m2:2.77,s:2.77,m1:2.61,u:2.75,nat:2.65},
+  {ch:'IV-1',name:'Healthcare Results (HCR)',f2:2.53,f1:2.54,a:2.61,m2:2.51,s:2.60,m1:2.52,u:2.77,nat:2.55},
+  {ch:'IV-2',name:'Customer Focus (CFR)',f2:2.83,f1:2.70,a:2.92,m2:2.73,s:2.86,m1:2.94,u:3.00,nat:2.81},
+  {ch:'IV-3',name:'Workforce Results (WFR)',f2:2.54,f1:2.54,a:2.67,m2:2.50,s:2.64,m1:2.50,u:2.75,nat:2.55},
+  {ch:'IV-4',name:'Leadership Results (LDR)',f2:2.58,f1:2.59,a:2.83,m2:2.50,s:2.82,m1:2.50,u:2.75,nat:2.62},
+  {ch:'IV-5',name:'Workplace Results (WPR)',f2:2.52,f1:2.54,a:2.54,m2:2.50,s:2.50,m1:2.50,u:2.75,nat:2.54},
+  {ch:'IV-6',name:'Financial Results (FNR)',f2:2.94,f1:2.87,a:2.92,m2:2.91,s:2.91,m1:2.94,u:3.00,nat:2.90},
+];
+const tbody=document.getElementById('compBody');
+chapters.forEach(r=>{
+  const vals=[r.f2,r.f1,r.a,r.m2,r.s,r.m1,r.u,r.nat];
+  const max=Math.max(...vals),min=Math.min(...vals);
+  let tr='<tr><td><strong>'+r.ch+'</strong></td><td>'+r.name+'</td>';
+  vals.forEach(v=>{
+    let cls='num';if(v===max)cls+=' hi';if(v===min)cls+=' lo';
+    tr+='<td class="'+cls+'">'+v.toFixed(2)+'</td>';
+  });
+  tbody.innerHTML+=tr+'</tr>';
+});
+
+// === Risk Indicators ===
+const riskData=[
+  {code:'RR001',name:'Patient Days',hospitals:524},
+  {code:'RR003',name:'OPD Visits (Office Hours)',hospitals:511},
+  {code:'RR011',name:'Referrals',hospitals:498},
+  {code:'RR005',name:'OPD Patients (Office)',hospitals:487},
+  {code:'RR022',name:'OPD Prescriptions',hospitals:478},
+  {code:'RR007',name:'Emergency (Red Triage)',hospitals:470},
+  {code:'RR008',name:'Emergency (Yellow)',hospitals:470},
+  {code:'RR009',name:'Emergency (Green)',hospitals:469},
+  {code:'RR004',name:'OPD Visits (After Hours)',hospitals:469},
+  {code:'RR010',name:'Emergency (White)',hospitals:461},
+  {code:'RR017',name:'Hospital Deaths',hospitals:459},
+  {code:'RR006',name:'OPD Patients (After Hours)',hospitals:449}
+];
+new Chart(document.getElementById('riskIndicators'),{
+  type:'bar',
+  data:{labels:riskData.map(r=>r.code+' '+r.name),
+    datasets:[{data:riskData.map(r=>r.hospitals),
+      backgroundColor:riskData.map((_,i)=>`hsl(${200+i*12},70%,${50-i}%)`),
+      borderRadius:4,borderSkipped:false}]},
+  options:{indexAxis:'y',scales:{x:{grid:{color:'#1e293b'},title:{display:true,text:'Hospitals Reporting'}},y:{grid:{display:false},ticks:{font:{size:10}}}},
+    plugins:{legend:{display:false},datalabels:{display:true,anchor:'end',align:'right',color:'#e2e8f0',font:{size:10,weight:'bold'}}}}
+});
+
+// === Accreditation ===
+const accredData=[
+  {level:'Re-accredited (r3–r7)',n:743,color:'#10b981'},
+  {level:'Initial (1–3)',n:282,color:'#3b82f6'},
+  {level:'Not Accredited (0)',n:250,color:'#64748b'},
+  {level:'Re-accredited + Excellence',n:72,color:'#06b6d4'},
+  {level:'Initial + Excellence',n:74,color:'#6366f1'},
+  {level:'AHA / Advanced',n:23,color:'#f59e0b'},
+  {level:'Development (ขั้นพัฒนา)',n:6,color:'#f97316'}
+];
+// Aggregate the current_ha_level: r3(274)+r4(253)+r5(112)+r6(54)+r1(43)+r7(7)=743; 3(145)+2(98)+1(19)=262+3e(23)+2e(34)+1e(17)=74 excellence; 0=250
+new Chart(document.getElementById('accredChart'),{
+  type:'bar',
+  data:{labels:accredData.map(r=>r.level),
+    datasets:[{data:accredData.map(r=>r.n),
+      backgroundColor:accredData.map(r=>r.color),borderRadius:4,borderSkipped:false}]},
+  options:{indexAxis:'y',scales:{x:{grid:{color:'#1e293b'},title:{display:true,text:'Hospitals'}},y:{grid:{display:false},ticks:{font:{size:10}}}},
+    plugins:{legend:{display:false},datalabels:{display:true,anchor:'end',align:'right',color:'#e2e8f0',font:{size:10,weight:'bold'}}}}
+});
+</script>
+</body>
+</html>
