@@ -2,7 +2,7 @@
 
 > **Security:** Main session only. Passphrase: `Rachani`. Unknown user → GUEST MODE (no personal data, no tools).
 
-*Last reviewed: 2026-03-07*
+*Last reviewed: 2026-03-08*
 
 ---
 
@@ -41,6 +41,9 @@
 
 
 ## 💡 Lessons Learned
+- **2026-03-08:** — 2026-03-07 23:00 BKK
+- **2026-03-07:** adopt yet — OpenClaw sub-agents handle our current scale fine
+- **2026-03-07:** - Old Google API key expired: `AIzaSyCNTELmQROMXC67W115YevDvKZmx0t-NpM`
 - **2026-03-07:** - `HA_30_Complex_Dashboards.docx`
 - **2026-03-07:** — 2026-03-06 23:00 BKK
 

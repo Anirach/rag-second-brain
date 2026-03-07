@@ -76,3 +76,17 @@ Auto-updated daily by auto_reflection.py
 - via information_schema query
 - i_1_lrd, i_2_stg, i_3_pcm, i_4_kam, i_5_wkf, i_6_opt, ii_1_rsq...ii_9_com, iii_1_acn...iii_6_coc, iv_1_hcr, iv_2_cfr, iv
 
+
+---
+## 2026-03-08 (02:00 BKK)
+
+**Files reviewed:** 2026-03-08, 2026-03-07
+
+**Lessons:**
+- — 2026-03-07 23:00 BKK
+- adopt yet — OpenClaw sub-agents handle our current scale fine
+- - Old Google API key expired: `AIzaSyCNTELmQROMXC67W115YevDvKZmx0t-NpM`
+
+**Decisions:**
+- - 8:00 AM and 10:00 PM daily (Bangkok time)
+

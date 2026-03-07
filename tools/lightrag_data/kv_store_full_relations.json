@@ -82022,5 +82022,3981 @@
     "create_time": 1772825305,
     "update_time": 1772825305,
     "_id": "doc-c676fbfb605498dc9758c93d6d6f28e4"
+  },
+  "doc-b0393a6415c78258060096629d199fd2": {
+    "relation_pairs": [
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People"
+      ],
+      [
+        "Count Of Decisions",
+        "Decisions"
+      ],
+      [
+        "Complex-Dashboards",
+        "People"
+      ],
+      [
+        "Action Items",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-07-Items--169",
+        "Action Items"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-07---800-am-and-1000-pm-daily-bangkok-time",
+        "Decisions"
+      ],
+      [
+        "2026-03-07-problem--solut",
+        "Action Items"
+      ],
+      [
+        "Decisions",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-06-i_1_lrd-i_2_stg-i_3_pcm-i_4_kam-i_5_wkf-i_6_o",
+        "Decisions"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge Graph Tag"
+      ],
+      [
+        "Memory-Log",
+        "People"
+      ],
+      [
+        "Documents",
+        "Knowledge Graph Index"
+      ],
+      [
+        "First-Novel",
+        "People"
+      ],
+      [
+        "2026-03-07--Items",
+        "Action Items"
+      ],
+      [
+        "2026-03-06-via-information_schema-query",
+        "Decisions"
+      ],
+      [
+        "Documents",
+        "Facts"
+      ],
+      [
+        "Action Items",
+        "Count Of Action Items"
+      ],
+      [
+        "Count Of Projects",
+        "Projects"
+      ],
+      [
+        "Count Of People",
+        "People"
+      ]
+    ],
+    "count": 22,
+    "create_time": 1772910067,
+    "update_time": 1772910067,
+    "_id": "doc-b0393a6415c78258060096629d199fd2"
+  },
+  "doc-115c3556a788f46fb3e05f2cfb0fc545": {
+    "relation_pairs": [
+      [
+        "Memory Search Fix",
+        "Performance Tuning"
+      ],
+      [
+        "/Remember Command",
+        "Decisions Made"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search Fix"
+      ],
+      [
+        "DevOps/VibeCoding Course",
+        "PPTX"
+      ],
+      [
+        "First Novel",
+        "KnowledgeGraph/People/First-Novel.md"
+      ],
+      [
+        "KnowledgeGraph/People/First-Novel.md",
+        "Obsidian"
+      ],
+      [
+        "Decisions",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knuth \"Claude's Cycles\"",
+        "Memory 2026-03-07"
+      ],
+      [
+        "/Remember Command",
+        "Batch Process"
+      ],
+      [
+        "Memory Log 2026-03-02",
+        "Session Snapshot"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Daily/2026-02-05.md"
+      ],
+      [
+        "Decisions Made",
+        "Memory (Source)"
+      ],
+      [
+        "Bangkok",
+        "Session Snapshot"
+      ],
+      [
+        "Major Accomplishments",
+        "Writing Team"
+      ],
+      [
+        "2026-03-05 23:00 Knowledge Graph Update",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index Document"
+      ],
+      [
+        "Obsidian",
+        "Obsidian People File"
+      ],
+      [
+        "DevOps/VibeCoding Course",
+        "Knuth \"Claude's Cycles\""
+      ],
+      [
+        "First Novel",
+        "Obsidian"
+      ],
+      [
+        "Memory (Source)",
+        "Session Learnings"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Obsidian"
+      ],
+      [
+        "Obsidian",
+        "Obsidian KnowledgeGraph/People/First-Novel.md"
+      ],
+      [
+        "Opus",
+        "Thinking"
+      ],
+      [
+        "Agent Chapter Writer Main Session",
+        "Session Snapshot"
+      ],
+      [
+        "Google Drive",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Workflow"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People"
+      ],
+      [
+        "Generative Language API Base URL",
+        "Google Embedding Provider"
+      ],
+      [
+        "Memory Log",
+        "Obsidian"
+      ],
+      [
+        "/Remember Command",
+        "Memory (Source)"
+      ],
+      [
+        "Workspaces",
+        "Writing Team"
+      ],
+      [
+        "Google Embedding Provider",
+        "System Optimization Session"
+      ],
+      [
+        "Daily Log 2026-03-06",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Major Accomplishments",
+        "Memory Log - 2026-02-05"
+      ],
+      [
+        "Human-AI Collaboration",
+        "PPTX"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Daily Note File"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "First Novel",
+        "Obsidian People File"
+      ],
+      [
+        "Publisher",
+        "Writing Team"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "DW Tables"
+      ],
+      [
+        "Base URL",
+        "https://generativelanguage.googleapis.com/v1beta"
+      ],
+      [
+        "/Remember Command",
+        "Session Learnings"
+      ],
+      [
+        "Knowledge Graph",
+        "Knowledge Graph Index"
+      ],
+      [
+        "DevOps/VibeCoding Course",
+        "Handout PDF"
+      ],
+      [
+        "First Novel",
+        "Writing Team"
+      ],
+      [
+        "Performance Tuning",
+        "System Optimization Session"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian"
+      ],
+      [
+        "Restart Command",
+        "Telegram User 7579913696"
+      ],
+      [
+        "Arscontexta",
+        "Session Remember.py"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Notification Spam"
+      ],
+      [
+        "7579913696",
+        "Telegram ID"
+      ],
+      [
+        "Dev-Editor",
+        "Writing Team"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "5 Domains"
+      ],
+      [
+        "Decisions Category",
+        "Session Remember.py"
+      ],
+      [
+        "Memory Log",
+        "Obsidian Daily Note File"
+      ],
+      [
+        "Knowledge Graph",
+        "Knowledge Graph Index Document"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "2026-03-06 04:00 Knowledge Graph Update",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Cron Delivery Settings",
+        "New Jobs"
+      ],
+      [
+        "Memory Search",
+        "System Optimization Session"
+      ],
+      [
+        "Base URL",
+        "Google Embedding Provider"
+      ],
+      [
+        "First Novel",
+        "Obsidian KnowledgeGraph/People/First-Novel.md"
+      ],
+      [
+        "Batch Process",
+        "Obsidian Index File"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Quick Reference"
+      ],
+      [
+        "Memory Log - 2026-02-05",
+        "Obsidian Daily/2026-02-05.md"
+      ],
+      [
+        "Research-Lead",
+        "Writing Team"
+      ],
+      [
+        "2026-03-05 04:00 Knowledge Graph Update",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Human-AI Collaboration",
+        "Knuth \"Claude's Cycles\""
+      ],
+      [
+        "2026-03-04 23:00 Knowledge Graph Update",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Opus",
+        "Writing Team"
+      ],
+      [
+        "Daily Notes 2026-03-01",
+        "System Optimization Session"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge Graph Index Document"
+      ],
+      [
+        "Openclaw",
+        "Workspaces"
+      ],
+      [
+        "Batch Processing Event",
+        "Memory Log 2026-03-02"
+      ],
+      [
+        "API Version v1beta",
+        "Generative Language API Base URL"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Agent Chapter Writer Main Session",
+        "Telegram User 7579913696"
+      ],
+      [
+        "Obsidian",
+        "Quick Reference"
+      ],
+      [
+        "Chapter-Writer",
+        "Writing Team"
+      ],
+      [
+        "First Novel",
+        "Knowledge Graph"
+      ],
+      [
+        "Book-Architect",
+        "Writing Team"
+      ],
+      [
+        "Knowledge Graph Index Document",
+        "Projects Category"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "2026-03-05 18:00 Knowledge Graph Update",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Copy-Editor",
+        "Writing Team"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Memory Log - 2026-02-05"
+      ],
+      [
+        "Batch Processing Event",
+        "Memory Log 2026-03-01"
+      ],
+      [
+        "/Remember Command",
+        "Session Remember.py"
+      ],
+      [
+        "Knowledge Graph Index Document",
+        "People Category"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Daily Notes 2026-03-01",
+        "Memory Log 2026-03-01"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Index File"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Telegram ID"
+      ]
+    ],
+    "count": 97,
+    "create_time": 1772910140,
+    "update_time": 1772910140,
+    "_id": "doc-115c3556a788f46fb3e05f2cfb0fc545"
+  },
+  "doc-2783c6770b9ae6331dd8f5b93766740a": {
+    "relation_pairs": [
+      [
+        "Complex Dashboards",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Handout PDF (Knuth \"Claude's Cycles\")",
+        "Knuth \"Claude's Cycles\" Course Materials"
+      ],
+      [
+        "2026-03-06 18:00 Batch Interaction",
+        "Complex Dashboards"
+      ],
+      [
+        "Complex Dashboards",
+        "Knuth \"Claude's Cycles\" Course Materials"
+      ],
+      [
+        "2026-03-07 04:00 Batch Interaction",
+        "Complex Dashboards"
+      ],
+      [
+        "2026-03-07 18:00 Batch Interaction",
+        "Complex Dashboards"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Complex Dashboards"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Memory Log (2026-03-06)"
+      ],
+      [
+        "GDrive Document Link",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "2026-03-06 23:00 Batch Interaction",
+        "Complex Dashboards"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Dashboards"
+      ],
+      [
+        "Dashboards",
+        "Domains (Dashboard Project)"
+      ],
+      [
+        "DW Tables",
+        "Dashboards"
+      ],
+      [
+        "Knuth \"Claude's Cycles\" Course Materials",
+        "PPTX (Knuth \"Claude's Cycles\")"
+      ],
+      [
+        "HA_30_Complex_Dashboards GDrive URL",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "Knuth \"Claude's Cycles\" Course Materials",
+        "Memory Log (2026-03-07)"
+      ],
+      [
+        "DevOps/VibeCoding Course",
+        "Knuth \"Claude's Cycles\" Course Materials"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "HA_30_Complex_Dashboards.docx"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1772910200,
+    "update_time": 1772910200,
+    "_id": "doc-2783c6770b9ae6331dd8f5b93766740a"
+  },
+  "doc-d67d4243c24baa09d8d2431bd6a036f8": {
+    "relation_pairs": [
+      [
+        "2026-03-03 23:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Memory: 2026-03-02",
+        "Session Snapshot"
+      ],
+      [
+        "/Remember Command",
+        "Decisions Made"
+      ],
+      [
+        "Session Learnings",
+        "Workflow"
+      ],
+      [
+        "Knowledge Graph Index (Updated 2026-03-05 23:00)",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search Fix"
+      ],
+      [
+        "/Remember Command",
+        "BKK"
+      ],
+      [
+        "Obsidian",
+        "Quick-Reference.md"
+      ],
+      [
+        "2026-03-03 18:00 Batch",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "2026-03-06 04:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph Index (Updated 2026-03-04 23:00)",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph Index (Updated 2026-03-04 04:00)",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "2026-03-03 23:00 Batch",
+        "Session Snapshot (msg #20)"
+      ],
+      [
+        "Activity Log 2026-03-07",
+        "Course Materials"
+      ],
+      [
+        "7579913696",
+        "Agent:Chapter-Writer:Main Session"
+      ],
+      [
+        "Memory Search Fix",
+        "System Optimization Session"
+      ],
+      [
+        "2026-03-03 18:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "2026-03-05 04:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Course Materials",
+        "PPTX (4 Slides, Dark Theme)"
+      ],
+      [
+        "2026-03-03 23:00 Batch",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Google Embedding Provider",
+        "Google Embedding Provider BaseUrl"
+      ],
+      [
+        "Human-AI Collaboration",
+        "PPTX (4 Slides, Dark Theme)"
+      ],
+      [
+        "Knowledge Graph Index (Updated 2026-03-05 04:00)",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Activity Log 2026-03-06"
+      ],
+      [
+        "Anirach",
+        "Model Update: Claude Opus 4-6"
+      ],
+      [
+        "Knowledge Graph Index (Updated 2026-03-05 18:00)",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Batch Event",
+        "Memory"
+      ],
+      [
+        "2026-03-05 18:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "2026-03-03 18:00 Batch",
+        "Session Snapshot (msg #20)"
+      ],
+      [
+        "Memory Log",
+        "Model Update: Claude Opus 4-6"
+      ],
+      [
+        "Bookshelf App Project",
+        "Shadcn/Ui"
+      ],
+      [
+        "Google Drive",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "Memory: 2026-03-02",
+        "Session Snapshot (msg #20)"
+      ],
+      [
+        "Memory Log",
+        "Writing Team Setup"
+      ],
+      [
+        "Model Update: Claude Opus 4-6",
+        "Opus 4-5"
+      ],
+      [
+        "2026-03-04 18:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Anong",
+        "Memory Log"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Session Learnings"
+      ],
+      [
+        "Atomic Habits",
+        "Bookshelf App Project"
+      ],
+      [
+        "Database Schema",
+        "Genre Model"
+      ],
+      [
+        "DevOps/VibeCoding Course",
+        "Handout PDF (7 Sections)"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Count"
+      ],
+      [
+        "Bookshelf App Project",
+        "Database Schema"
+      ],
+      [
+        "KnowledgeGraph/_index.md",
+        "Obsidian"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "2026-03-01 Daily Notes",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "/Remember Command",
+        "Session Learnings"
+      ],
+      [
+        "Decisions Count",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Activity Log 2026-03-07",
+        "Knuth \"Claude's Cycles\""
+      ],
+      [
+        "Author Model",
+        "Database Schema"
+      ],
+      [
+        "Book Model",
+        "Database Schema"
+      ],
+      [
+        "Memory: 2026-03-01",
+        "System Optimization Session"
+      ],
+      [
+        "Course Materials",
+        "DevOps/VibeCoding Course"
+      ],
+      [
+        "Course Materials",
+        "Knuth \"Claude's Cycles\""
+      ],
+      [
+        "Book Architect",
+        "Writing Team Setup"
+      ],
+      [
+        "Memory Log",
+        "Somchai"
+      ],
+      [
+        "Chapter Writer",
+        "Writing Team Setup"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian"
+      ],
+      [
+        "2026-03-05 23:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Opus",
+        "Writing Team Setup"
+      ],
+      [
+        "Knowledge Graph",
+        "Somchai"
+      ],
+      [
+        "Memory Log",
+        "Prasert"
+      ],
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "OpenClaw",
+        "Writing Team Setup"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Count"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "5 Domains"
+      ],
+      [
+        "Knowledge Graph Index (Updated 2026-03-03 23:00)",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Decisions Made",
+        "Session_Remember.py"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "Course Materials",
+        "Handout PDF (7 Sections)"
+      ],
+      [
+        "DevOps/VibeCoding Course",
+        "PPTX (4 Slides, Dark Theme)"
+      ],
+      [
+        "7579913696",
+        "Session Snapshot"
+      ],
+      [
+        "Claude Opus 4-6",
+        "Model Update: Claude Opus 4-6"
+      ],
+      [
+        "Cron Delivery Settings",
+        "New Jobs"
+      ],
+      [
+        "Bookshelf App Project",
+        "SQLite"
+      ],
+      [
+        "Arscontexta",
+        "Session_Remember.py"
+      ],
+      [
+        "Bookshelf App Project",
+        "Memory Log"
+      ],
+      [
+        "Claude Opus 4-6",
+        "Opus"
+      ],
+      [
+        "Session Snapshot (msg #20)",
+        "Telegram User ID 7579913696"
+      ],
+      [
+        "Bookshelf App Project",
+        "Prisma 5"
+      ],
+      [
+        "Opus",
+        "Opus 4-5"
+      ],
+      [
+        "2026-03-04 23:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Research Lead",
+        "Writing Team Setup"
+      ],
+      [
+        "/Remember Command",
+        "Session_Remember.py"
+      ],
+      [
+        "Copy Editor",
+        "Writing Team Setup"
+      ],
+      [
+        "Agent:Chapter-Writer:Main",
+        "Session Snapshot (msg #20)"
+      ],
+      [
+        "09:31 BKK",
+        "Session Snapshot (msg #20)"
+      ],
+      [
+        "2026-03-04 04:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "2026-03-03 04:00 Batch",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Google Embedding Provider BaseUrl",
+        "https://generativelanguage.googleapis.com/v1beta"
+      ],
+      [
+        "2026-03-06 Daily Log",
+        "Memory: 2026-03-06"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "83 DW Tables"
+      ],
+      [
+        "Publisher",
+        "Writing Team Setup"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "2026-03-03 04:00 Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "1984",
+        "Bookshelf App Project"
+      ],
+      [
+        "7579913696",
+        "Anirach Mingkhwan"
+      ],
+      [
+        "09:31 BKK",
+        "Bangkok"
+      ],
+      [
+        "Notification Spam",
+        "Session Learnings"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Quick-Reference.md"
+      ],
+      [
+        "Knowledge Graph Index (Updated 2026-03-04 18:00)",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Obsidian",
+        "Somchai"
+      ],
+      [
+        "Bookshelf App Project",
+        "Foundation"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "BKK",
+        "Session Snapshot"
+      ],
+      [
+        "Bookshelf App Project",
+        "Next.js 14"
+      ],
+      [
+        "Agent:Chapter-Writer:Main Session",
+        "Session Snapshot"
+      ],
+      [
+        "Batch Event",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Activity Log 2026-03-06",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-03 04:00 Batch",
+        "Session Snapshot (msg #20)"
+      ],
+      [
+        "Dev Editor",
+        "Writing Team Setup"
+      ]
+    ],
+    "count": 113,
+    "create_time": 1772910306,
+    "update_time": 1772910306,
+    "_id": "doc-d67d4243c24baa09d8d2431bd6a036f8"
+  },
+  "doc-694c9f5d0097703ad5caebf14f1e84e6": {
+    "relation_pairs": [
+      [
+        "Bigger Picture",
+        "PPTX"
+      ],
+      [
+        "Human-AI Collaboration",
+        "PPTX"
+      ],
+      [
+        "Course Materials",
+        "DevOps/VibeCoding Course"
+      ],
+      [
+        "Claude's Cycles",
+        "Knuth"
+      ],
+      [
+        "PPTX",
+        "Problem & Solution"
+      ],
+      [
+        "Course Materials",
+        "Handout PDF"
+      ],
+      [
+        "Course Materials",
+        "Knuth"
+      ],
+      [
+        "PPTX",
+        "Title"
+      ],
+      [
+        "Course Materials",
+        "PPTX"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772910339,
+    "update_time": 1772910339,
+    "_id": "doc-694c9f5d0097703ad5caebf14f1e84e6"
+  },
+  "doc-4bc701838f07233735cb275776b21683": {
+    "relation_pairs": [
+      [
+        "Knuth \"Claude's Cycles\" Course Materials",
+        "March 7, 2026 Daily Log"
+      ],
+      [
+        "Learned Gating",
+        "Softmax R@10"
+      ],
+      [
+        "February 9, 2026 Daily Log",
+        "Paper Revisions"
+      ],
+      [
+        "Daily Log",
+        "February 9, 2026 Daily Log"
+      ],
+      [
+        "March 6, 2026 Daily Log",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Learned Gating",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Google Drive",
+        "V7 Version"
+      ],
+      [
+        "February 10, 2026 Daily Log",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Human-AI Collaboration",
+        "PPTX"
+      ],
+      [
+        "Arthur",
+        "OpenClaw"
+      ],
+      [
+        "March 7, 2026 Daily Log",
+        "Memory"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "5 Domains"
+      ],
+      [
+        "Reviewer Concerns",
+        "V8 Version"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Bootstrap (Statistical Method)",
+        "Statistical Significance"
+      ],
+      [
+        "Paper Revisions",
+        "V8 Version"
+      ],
+      [
+        "March 6, 2026 Daily Log",
+        "Memory"
+      ],
+      [
+        "Arthur",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "Bigger Picture",
+        "PPTX"
+      ],
+      [
+        "Arthur",
+        "February 10, 2026 Daily Log"
+      ],
+      [
+        "Daily Log",
+        "March 7, 2026 Daily Log"
+      ],
+      [
+        "Two-Stage Training",
+        "V7 Version"
+      ],
+      [
+        "Daily Log",
+        "March 6, 2026 Daily Log"
+      ],
+      [
+        "DevOps/VibeCoding Course",
+        "Knuth \"Claude's Cycles\" Course Materials"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Arthur"
+      ],
+      [
+        "RAG Second Brain Paper",
+        "RRF Baseline"
+      ],
+      [
+        "Learned Gating",
+        "Sigmoid R@10"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Google Drive"
+      ],
+      [
+        "Daily Log",
+        "February 10, 2026 Daily Log"
+      ],
+      [
+        "Knuth \"Claude's Cycles\" Course Materials",
+        "PPTX"
+      ],
+      [
+        "R@10",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "Google Drive",
+        "V8 Version"
+      ],
+      [
+        "RAG Second Brain Paper",
+        "Statistical Significance"
+      ],
+      [
+        "Paper Revisions",
+        "V7 Version"
+      ],
+      [
+        "Handout PDF",
+        "Knuth \"Claude's Cycles\" Course Materials"
+      ],
+      [
+        "PPTX",
+        "Problem And Solution"
+      ],
+      [
+        "KG Snapshot Dates",
+        "V7 Version"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "83 DW Tables"
+      ]
+    ],
+    "count": 39,
+    "create_time": 1772910430,
+    "update_time": 1772910430,
+    "_id": "doc-4bc701838f07233735cb275776b21683"
+  },
+  "doc-b61a94f1c64490d6b372bc3a6d0bab7e": {
+    "relation_pairs": [
+      [
+        "Chapter Writer",
+        "Writing Team"
+      ],
+      [
+        "Copy Editor",
+        "Writing Team"
+      ],
+      [
+        "Batch Process",
+        "Obsidian System"
+      ],
+      [
+        "Anti-AI-Slop Design Principles",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Decisions",
+        "Knowledge Graph Index"
+      ],
+      [
+        "2026-03-06 23:00 Batch",
+        "2026-03-06 Daily Log"
+      ],
+      [
+        "Opus Model",
+        "Writing Team"
+      ],
+      [
+        "Anong",
+        "nostalgic storyteller"
+      ],
+      [
+        "Tailwind CSS",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "AIiH 2026",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "30 Dashboards",
+        "83 DW Tables"
+      ],
+      [
+        "Home.md",
+        "RAG Second Brain Paper"
+      ],
+      [
+        "2026-03-05 18:00 Update",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "Daily/2026-02-11.md",
+        "Obsidian"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Obsidian"
+      ],
+      [
+        "Category Decisions",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Installed Skills List",
+        "MEMORY.md"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Writing Team Setup"
+      ],
+      [
+        "Pinned Tag",
+        "Quick Reference"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Three Old Men"
+      ],
+      [
+        "Batch Process",
+        "Memory System"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People"
+      ],
+      [
+        "Obsidian",
+        "_index.md"
+      ],
+      [
+        "2026-03-06 Daily Log",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Category People",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Restart Command Snippet",
+        "Session Snapshot"
+      ],
+      [
+        "Daily/2026-02-15.md",
+        "Weekly Memory Maintenance"
+      ],
+      [
+        "2026-03-06 23:00 Batch",
+        "Memory"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Session Learnings"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search"
+      ],
+      [
+        "Decisions Made",
+        "Memory System"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects"
+      ],
+      [
+        "BaseUrl Configuration",
+        "Google Embedding Provider"
+      ],
+      [
+        "Anong",
+        "KnowledgeGraph/People/Anong-อนงค.md"
+      ],
+      [
+        "Coding Team",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Publisher",
+        "Writing Team"
+      ],
+      [
+        "Obsidian",
+        "Three Old Men"
+      ],
+      [
+        "Memory: 2026-03-02",
+        "Session Snapshot (Msg #20)"
+      ],
+      [
+        "KnowledgeGraph/People/Prasert-ประเสรฐ.md",
+        "Obsidian"
+      ],
+      [
+        "Session Snapshot (Msg #20)",
+        "Telegram ID 7579913696"
+      ],
+      [
+        "2026-03-06 18:00 Batch",
+        "2026-03-06 Daily Log"
+      ],
+      [
+        "Knowledge Graph",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Home.md",
+        "Obsidian"
+      ],
+      [
+        "Memory: 2026-03-01",
+        "System Optimization Session"
+      ],
+      [
+        "KnowledgeGraph/_Index.Md",
+        "Obsidian"
+      ],
+      [
+        "Dev Editor",
+        "Writing Team"
+      ],
+      [
+        "BaseUrl Configuration",
+        "Corrected BaseUrl"
+      ],
+      [
+        "Agent:Chapter-Writer:Main",
+        "Session Snapshot"
+      ],
+      [
+        "Daily/2026-02-11.md",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "GitHub",
+        "Three Old Men"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian"
+      ],
+      [
+        "GDrive",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian System"
+      ],
+      [
+        "BaseUrl Configuration",
+        "Unused BaseUrl"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Prasert",
+        "skeptical engineer"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "5 Domains"
+      ],
+      [
+        "KnowledgeGraph/People/Anong-อนงค.md",
+        "Obsidian"
+      ],
+      [
+        "BaseUrl Configuration",
+        "Memory Search"
+      ],
+      [
+        "KnowledgeGraph/People/Prasert.md",
+        "Obsidian"
+      ],
+      [
+        "Always-Load Tag",
+        "Quick Reference"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "2026-03-05 23:00 Update",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Shadcn/UI",
+        "UX/UI Designer Agent"
+      ],
+      [
+        "Anong",
+        "KnowledgeGraph/People/Anong.md"
+      ],
+      [
+        "ChartSense AI Project",
+        "MEMORY.md"
+      ],
+      [
+        "Memory Search",
+        "System Optimization Session"
+      ],
+      [
+        "Somchai",
+        "philosophical, contemplative"
+      ],
+      [
+        "KnowledgeGraph/People/Prasert-ประเสรฐ.md",
+        "Prasert"
+      ],
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "Important Events For Feb 12-14",
+        "MEMORY.md"
+      ],
+      [
+        "Daily/2026-02-15.md",
+        "Obsidian"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Quick Reference"
+      ],
+      [
+        "Book Architect",
+        "Writing Team"
+      ],
+      [
+        "MEMORY.md",
+        "Weekly Memory Maintenance"
+      ],
+      [
+        "Writing Team",
+        "Writing Team Setup"
+      ],
+      [
+        "Workspace",
+        "Writing Team"
+      ],
+      [
+        "KnowledgeGraph/People/Somchai.md",
+        "Obsidian"
+      ],
+      [
+        "Obsidian",
+        "Quick-Reference.Md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "_index.md"
+      ],
+      [
+        "2026-03-06 04:00 Batch",
+        "Obsidian"
+      ],
+      [
+        "KnowledgeGraph/People/Somchai-สมชาย.md",
+        "Obsidian"
+      ],
+      [
+        "Category Projects",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Telegram ID 7579913696"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "30 Dashboards"
+      ],
+      [
+        "2026-03-06 04:00 Batch",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Session Snapshot",
+        "Telegram User 7579913696"
+      ],
+      [
+        "Memory System",
+        "Session Snapshot"
+      ],
+      [
+        "BaseUrl Configuration",
+        "System Optimization Session"
+      ],
+      [
+        "Decisions Made",
+        "Session_Remember.Py"
+      ],
+      [
+        "KnowledgeGraph/People/Anong.md",
+        "Obsidian"
+      ],
+      [
+        "Memory System",
+        "Session Learnings"
+      ],
+      [
+        "Arscontexta",
+        "Session_Remember.Py"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Daily Notes (Memory)",
+        "Memory System"
+      ],
+      [
+        "Bangkok (BKK)",
+        "Session Snapshot"
+      ],
+      [
+        "2026-03-06 18:00 Batch",
+        "Memory"
+      ],
+      [
+        "KnowledgeGraph/People/Prasert.md",
+        "Prasert"
+      ],
+      [
+        "Agent:Chapter-Writer:Main",
+        "Session Snapshot (Msg #20)"
+      ],
+      [
+        "Quick Reference",
+        "Reference Tag"
+      ],
+      [
+        "Obsidian",
+        "Somchai"
+      ],
+      [
+        "KnowledgeGraph/People/Somchai.md",
+        "Somchai"
+      ],
+      [
+        "KnowledgeGraph/People/Somchai-สมชาย.md",
+        "Somchai"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Quick Reference",
+        "Quick-Reference.Md"
+      ],
+      [
+        "Research Lead",
+        "Writing Team"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ]
+    ],
+    "count": 110,
+    "create_time": 1772910556,
+    "update_time": 1772910556,
+    "_id": "doc-b61a94f1c64490d6b372bc3a6d0bab7e"
+  },
+  "doc-c4cf83631ad8cbf83a2e3e82e701c0c8": {
+    "relation_pairs": [
+      [
+        "Memory: 2026-03-02",
+        "Session Snapshot"
+      ],
+      [
+        "Course Materials",
+        "PPTX (Course Material)"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Memory Log"
+      ],
+      [
+        "Session Learnings",
+        "Workflow"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search Fix"
+      ],
+      [
+        "Knuth \"Claude's Cycles\"",
+        "Memory Log"
+      ],
+      [
+        "Arscontexta /Remember Command",
+        "Session_Remember.py"
+      ],
+      [
+        "Memory Log",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Knuth",
+        "Knuth's \"Claude's Cycles\""
+      ],
+      [
+        "Batch Process",
+        "Knowledge Graph Index Generation"
+      ],
+      [
+        "Decisions",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Memory Search Fix",
+        "System Optimization Session"
+      ],
+      [
+        "2026-02-23 12:51 BKK",
+        "Session Learnings"
+      ],
+      [
+        "DevOps/VibeCoding Course",
+        "Knuth's \"Claude's Cycles\""
+      ],
+      [
+        "Daily Log",
+        "Timestamp 2026-03-06"
+      ],
+      [
+        "Major Accomplishments",
+        "Writing Team"
+      ],
+      [
+        "Major Accomplishments",
+        "Opus"
+      ],
+      [
+        "DevOps/VibeCoding Course",
+        "Knuth \"Claude's Cycles\""
+      ],
+      [
+        "Knuth's \"Claude's Cycles\"",
+        "Memory Log 2026-03-07"
+      ],
+      [
+        "Obsidian: Quick-Reference.Md",
+        "Quick Reference"
+      ],
+      [
+        "2026-02-23 12:51 BKK Session",
+        "Implement Session_remember.py"
+      ],
+      [
+        "Daily Log",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Daily Log",
+        "Memory Log"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People"
+      ],
+      [
+        "Obsidian",
+        "Prasert"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Timestamp 2026-03-04 18:00"
+      ],
+      [
+        "Knuth's \"Claude's Cycles\"",
+        "PPTX"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Timestamp 2026-03-04 04:00"
+      ],
+      [
+        "/Restart Snippet",
+        "Session Snapshot"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Session Learnings"
+      ],
+      [
+        "Human-AI Collaboration",
+        "PPTX"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Cron Job"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Publisher",
+        "Writing Team"
+      ],
+      [
+        "Openclaw",
+        "Writing Team"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Somchai"
+      ],
+      [
+        "Memory Log",
+        "Session Snapshot"
+      ],
+      [
+        "Handout PDF",
+        "Knuth's \"Claude's Cycles\""
+      ],
+      [
+        "Knowledge Graph Index",
+        "Timestamp 2026-03-04 23:00"
+      ],
+      [
+        "Memory: 2026-03-01",
+        "System Optimization Session"
+      ],
+      [
+        "2026-02-23 12:51 BKK",
+        "Decisions Made"
+      ],
+      [
+        "Course Materials",
+        "Knuth \"Claude's Cycles\""
+      ],
+      [
+        "Implement Session_remember.py",
+        "Session_remember.py"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Dashboards"
+      ],
+      [
+        "2026-02-23 12:51 BKK Session",
+        "BKK"
+      ],
+      [
+        "Agent:Chapter-Writer:Main",
+        "Session Snapshot"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian"
+      ],
+      [
+        "/remember Command",
+        "Session_remember.py"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Major Accomplishments"
+      ],
+      [
+        "Anong",
+        "Obsidian"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Notification Spam"
+      ],
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge Graph Index Generation"
+      ],
+      [
+        "Dev-Editor",
+        "Writing Team"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian: KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "Decisions Made",
+        "Session_Remember.py"
+      ],
+      [
+        "GDrive",
+        "HA_30_Complex_Dashboards.Docx"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Timestamp 2026-03-05 23:00"
+      ],
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_Index.Md"
+      ],
+      [
+        "Session Snapshot",
+        "Timestamp 2026-03-03 09:31 BKK"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "HA_30_Complex_Dashboards.Docx"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Quick Reference"
+      ],
+      [
+        "Course Materials",
+        "Handout PDF"
+      ],
+      [
+        "Research-Lead",
+        "Writing Team"
+      ],
+      [
+        "Course Materials Delivered",
+        "Memory Log 2026-03-07"
+      ],
+      [
+        "Session Snapshot",
+        "Telegram ID 7579913696"
+      ],
+      [
+        "Daily/2026-02-05.md",
+        "Prasert"
+      ],
+      [
+        "2026-02-23 12:51 BKK",
+        "BKK"
+      ],
+      [
+        "Anong",
+        "Daily/2026-02-05.md"
+      ],
+      [
+        "Batch Process",
+        "KnowledgeGraph/_index.md"
+      ],
+      [
+        "Arscontexta",
+        "Session_remember.py"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Domains"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Telegram ID 7579913696"
+      ],
+      [
+        "Chapter-Writer",
+        "Writing Team"
+      ],
+      [
+        "Batch Process",
+        "Memory Source"
+      ],
+      [
+        "Book-Architect",
+        "Writing Team"
+      ],
+      [
+        "2026-02-23 12:51 BKK Session",
+        "Session Learnings"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Timestamp 2026-03-05 04:00"
+      ],
+      [
+        "Copy-Editor",
+        "Writing Team"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Timestamp 2026-03-05 18:00"
+      ],
+      [
+        "/remember Command",
+        "Arscontexta"
+      ],
+      [
+        "Major Accomplishments",
+        "Obsidian"
+      ],
+      [
+        "Session Snapshot",
+        "Telegram"
+      ],
+      [
+        "DW Tables",
+        "Dashboards"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Timestamp 2026-03-03 23:00"
+      ],
+      [
+        "Obsidian",
+        "Somchai"
+      ],
+      [
+        "Restart Command",
+        "Session Snapshot"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Course Materials Delivered",
+        "Knuth's \"Claude's Cycles\""
+      ]
+    ],
+    "count": 92,
+    "create_time": 1772910703,
+    "update_time": 1772910703,
+    "_id": "doc-c4cf83631ad8cbf83a2e3e82e701c0c8"
+  },
+  "doc-e8b1deea3137e75a167475d367ac5674": {
+    "relation_pairs": [
+      [
+        "DevOps/VibeCoding Course",
+        "Knuth \"Claude's Cycles\""
+      ],
+      [
+        "Bigger Picture",
+        "PPTX"
+      ],
+      [
+        "PPTX",
+        "PPTX Title"
+      ],
+      [
+        "Human-AI Collaboration",
+        "PPTX"
+      ],
+      [
+        "Budget Year",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Budget Year"
+      ],
+      [
+        "Budget Year",
+        "Knuth \"Claude's Cycles\""
+      ],
+      [
+        "GDrive",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "PPTX",
+        "Problem & Solution"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "5 Domains"
+      ],
+      [
+        "Knuth \"Claude's Cycles\"",
+        "PPTX"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "30 Dashboards",
+        "83 DW Tables"
+      ],
+      [
+        "Handout PDF",
+        "Knuth \"Claude's Cycles\""
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "30 Dashboards"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "HA_30_Complex_Dashboards.docx"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1772910746,
+    "update_time": 1772910746,
+    "_id": "doc-e8b1deea3137e75a167475d367ac5674"
+  },
+  "doc-9f84bd64cf4e5f6830ab69949c73330d": {
+    "relation_pairs": [
+      [
+        "Dark Theme",
+        "PPTX (4 Slides)"
+      ],
+      [
+        "Date 2026-03-06",
+        "Memory (Source)"
+      ],
+      [
+        "Course Materials (Delivered)",
+        "Daily Log (2026-03-07)"
+      ],
+      [
+        "Batch 2026-02-25 04:00",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Session Learnings",
+        "Workflow"
+      ],
+      [
+        "Decisions Made",
+        "Session_remember.py"
+      ],
+      [
+        "Session",
+        "Telegram ID"
+      ],
+      [
+        "Base URL",
+        "Generative Language API Endpoint URL"
+      ],
+      [
+        "Knowledge Graph",
+        "Unknown Organization"
+      ],
+      [
+        "Decisions Count (6)",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Course Materials (Delivered)",
+        "Handout PDF (7 Sections)"
+      ],
+      [
+        "Snippet /Restart",
+        "Telegram User 7579913696"
+      ],
+      [
+        "Batch Processing",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Index Type Metadata",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Count (315)"
+      ],
+      [
+        "Telegram",
+        "Telegram ID"
+      ],
+      [
+        "Batch 2026-02-24 04:00",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Domains Count (5)"
+      ],
+      [
+        "Memory: 2026-02-23",
+        "Session Learnings"
+      ],
+      [
+        "Course Materials (Delivered)",
+        "Knuth \"Claude's Cycles\""
+      ],
+      [
+        "Interaction 2026-02-17 18:02",
+        "Memory: 2026-02-17"
+      ],
+      [
+        "Daily Log (2026-03-06)",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Count (128)"
+      ],
+      [
+        "Interaction 2026-02-17 18:01",
+        "Memory: 2026-02-17"
+      ],
+      [
+        "Pinned Tag",
+        "Quick Reference"
+      ],
+      [
+        "Auto-Snapshot Feature",
+        "Session Snapshot"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "DW Tables Count (83)"
+      ],
+      [
+        "Batch (2026-03-07 18:00)",
+        "Daily Log (2026-03-07)"
+      ],
+      [
+        "Batch 2026-02-26 04:00",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Workflow"
+      ],
+      [
+        "Batch 2026-02-26 18:00",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "BKK",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "Generative Language API",
+        "Google Embedding Provider"
+      ],
+      [
+        "Google Embedding Provider",
+        "System Optimization Session"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Update Timestamp"
+      ],
+      [
+        "Paper V23.1",
+        "Session Notes"
+      ],
+      [
+        "Batch Process",
+        "Memory"
+      ],
+      [
+        "Batch Process",
+        "Obsidian KnowledgeGraph/_index.md"
+      ],
+      [
+        "Index Updated Timestamp",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Count"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Daily Notes",
+        "Memory"
+      ],
+      [
+        "20 Messages Exchanged",
+        "Session Snapshot"
+      ],
+      [
+        "Projects Category",
+        "Projects Count Value (127)"
+      ],
+      [
+        "Batch (2026-03-06 23:00)",
+        "Daily Log (2026-03-06)"
+      ],
+      [
+        "Batch 2026-02-24 18:00",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "Obsidian",
+        "Obsidian: KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Batch 2026-02-25 18:00",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Session Snapshot",
+        "Snippet /Restart"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Updated Timestamp (2026-03-05 23:00)"
+      ],
+      [
+        "Decisions Count",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Base URL",
+        "Generative Language API"
+      ],
+      [
+        "Pre-Compaction Summary",
+        "Session Notes"
+      ],
+      [
+        "Knowledge Graph",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Category Label",
+        "Overview Section"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Count (129)"
+      ],
+      [
+        "Daily Notes",
+        "System Optimization Session"
+      ],
+      [
+        "Memory: 2026-02-23",
+        "Remember Command"
+      ],
+      [
+        "Projects",
+        "Session Notes"
+      ],
+      [
+        "Date 2026-03-06",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Overview Section"
+      ],
+      [
+        "Decisions Category",
+        "Decisions Count Value"
+      ],
+      [
+        "Count Label",
+        "Overview Section"
+      ],
+      [
+        "Batch (2026-03-06 18:00)",
+        "Daily Log (2026-03-06)"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian"
+      ],
+      [
+        "GDrive",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "Batch 2026-02-24 23:00",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "Date 2026-03-05",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Decisions Made",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Notification Spam"
+      ],
+      [
+        "Batch Processing",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Batch (2026-03-05 23:00)",
+        "Knowledge Graph Index"
+      ],
+      [
+        "09:31 BKK Timestamp",
+        "Session Snapshot"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Count"
+      ],
+      [
+        "Agent Chapter-Writer:Main",
+        "Session"
+      ],
+      [
+        "Date 2026-03-07",
+        "Memory (Source)"
+      ],
+      [
+        "Human-AI Collaboration Slide",
+        "PPTX (4 Slides)"
+      ],
+      [
+        "Always-Load Tag",
+        "Quick Reference"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "Batch 2026-02-25 23:00",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Generative Language API",
+        "Generative Language API Endpoint URL"
+      ],
+      [
+        "Cron Delivery Settings",
+        "New Jobs"
+      ],
+      [
+        "Memory: 2026-02-17",
+        "Session Notes"
+      ],
+      [
+        "Memory Search",
+        "System Optimization Session"
+      ],
+      [
+        "Google Drive Document URL",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "Base URL",
+        "Google Embedding Provider"
+      ],
+      [
+        "Knowledge Graph",
+        "Unknown Role"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Quick Reference"
+      ],
+      [
+        "Chapter Writer Agent",
+        "Session"
+      ],
+      [
+        "PPTX (4 Slides)",
+        "Problem & Solution Slide"
+      ],
+      [
+        "Daily Log (2026-03-06)",
+        "Memory (Source)"
+      ],
+      [
+        "Knowledge Graph Index",
+        "KnowledgeGraph/_Index.md"
+      ],
+      [
+        "Quick Reference",
+        "Update Timestamp"
+      ],
+      [
+        "People Category",
+        "People Count Value"
+      ],
+      [
+        "Course Materials (Delivered)",
+        "PPTX (4 Slides)"
+      ],
+      [
+        "Arscontexta",
+        "Session_remember.py"
+      ],
+      [
+        "Memory",
+        "Session Snapshot"
+      ],
+      [
+        "Batch (2026-03-05 04:00)",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Session",
+        "Session Snapshot"
+      ],
+      [
+        "Session Snapshot",
+        "Telegram User 7579913696"
+      ],
+      [
+        "Projects Category",
+        "Projects Count Value (128)"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Dashboards Count (30)"
+      ],
+      [
+        "Batch (2026-03-07 04:00)",
+        "Daily Log (2026-03-07)"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian KnowledgeGraph/_index.md"
+      ],
+      [
+        "Obsidian",
+        "Quick Reference"
+      ],
+      [
+        "Course Materials (Delivered)",
+        "Date 2026-03-07"
+      ],
+      [
+        "Index Type",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian: KnowledgeGraph/_Index.md"
+      ],
+      [
+        "KnowledgeGraph/_Index.md",
+        "Obsidian"
+      ],
+      [
+        "PPTX (4 Slides)",
+        "PPTX Title Slide"
+      ],
+      [
+        "Session Snapshot",
+        "Update Timestamp"
+      ],
+      [
+        "Daily Log (2026-03-07)",
+        "Memory (Source)"
+      ],
+      [
+        "Course Materials (Delivered)",
+        "DevOps/VibeCoding Course"
+      ],
+      [
+        "Bigger Picture Slide",
+        "PPTX (4 Slides)"
+      ],
+      [
+        "Quick Reference",
+        "Reference Tag"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Updated Timestamp (2026-03-05 18:00)"
+      ],
+      [
+        "BKK Time",
+        "Session Snapshot"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Batch Event",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Telegram ID"
+      ],
+      [
+        "Batch (2026-03-06 04:00)",
+        "Knowledge Graph Index"
+      ]
+    ],
+    "count": 125,
+    "create_time": 1772910922,
+    "update_time": 1772910922,
+    "_id": "doc-9f84bd64cf4e5f6830ab69949c73330d"
+  },
+  "doc-844a038af961b3e79e2c2d73a8f4501b": {
+    "relation_pairs": [
+      [
+        "Memory: 2026-03-02",
+        "Session Snapshot"
+      ],
+      [
+        "Course Materials",
+        "PPTX (Course Material)"
+      ],
+      [
+        "Session Learnings",
+        "Workflow"
+      ],
+      [
+        "Memory: 2026-02-23",
+        "Recent Activity"
+      ],
+      [
+        "Batch Process (2026-03-04 18:00)",
+        "Knowledge Graph Index Content (Generated 2026-03-04 18:00)"
+      ],
+      [
+        "Google Embedding Provider",
+        "Memory Search Fix"
+      ],
+      [
+        "Decisions Made",
+        "Session_remember.py"
+      ],
+      [
+        "Batch",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Batch Process (2026-03-04 23:00)",
+        "Knowledge Graph Index Content (Generated 2026-03-04 23:00)"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-05 18:00)",
+        "People (Category)"
+      ],
+      [
+        "Decisions (Category)",
+        "Knowledge Graph Index Content (Generated 2026-03-03 23:00)"
+      ],
+      [
+        "Agent: Chapter-Writer: Main",
+        "Session Snapshot"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index Content (Generated 2026-03-05 04:00)"
+      ],
+      [
+        "Obsidian",
+        "Obsidian: Quick-Reference.md"
+      ],
+      [
+        "Agent: Chapter-Writer: Main",
+        "Session Snapshot Message 20"
+      ],
+      [
+        "Obsidian",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-04 18:00)",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-05 18:00)",
+        "Projects (Category)"
+      ],
+      [
+        "Batch Process (2026-03-03 23:00)",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Knowledge Graph Index Generation Event"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index Content (Generated 2026-03-04 04:00)"
+      ],
+      [
+        "Always-Load Tag",
+        "Obsidian: Quick-Reference.md"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-04 04:00)",
+        "People (Category)"
+      ],
+      [
+        "Telegram",
+        "Telegram ID"
+      ],
+      [
+        "Obsidian: Quick-Reference.md",
+        "Quick Reference"
+      ],
+      [
+        "Memory Search Fix",
+        "System Optimization Session"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Count (Index)"
+      ],
+      [
+        "Batch Process (2026-03-03 04:00)",
+        "Memory Record (2026-03-02)"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-05 04:00)",
+        "People (Category)"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-04 04:00)",
+        "Projects (Category)"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-05 23:00)",
+        "People (Category)"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index Content (Generated 2026-03-04 23:00)"
+      ],
+      [
+        "Memory: 2026-02-23",
+        "Session Learnings"
+      ],
+      [
+        "Daily Notes (2026-03-01)",
+        "Memory Record (2026-03-01)"
+      ],
+      [
+        "Batch Process (2026-03-05 18:00)",
+        "Knowledge Graph Index Content (Generated 2026-03-05 18:00)"
+      ],
+      [
+        "Course Materials",
+        "Knuth 'Claude's Cycles' DevOps/VibeCoding Course"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index Content (Generated 2026-03-04 18:00)"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-04 23:00)",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "Batch Process (2026-03-03 18:00)",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index Content (Generated 2026-03-05 23:00)"
+      ],
+      [
+        "Google Drive",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "Obsidian: Quick-Reference.md",
+        "Reference Tag"
+      ],
+      [
+        "Batch Process (2026-03-04 04:00)",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Daily Notes",
+        "Memory: 2026-03-02"
+      ],
+      [
+        "Human-AI Collaboration",
+        "PPTX (Course Material)"
+      ],
+      [
+        "Arscontexta",
+        "The /remember Command"
+      ],
+      [
+        "Decisions (Category)",
+        "Knowledge Graph Index Content (Generated 2026-03-05 18:00)"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Session Learnings"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index Content (Generated 2026-03-03 23:00)"
+      ],
+      [
+        "Batch Process (2026-03-03 04:00)",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Count"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Decisions Count",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Knowledge Graph",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Batch Process (2026-03-05 18:00)",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-05 18:00)",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "Batch",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "PPTX (Course Material)",
+        "Problem & Solution (Topic)"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-03 23:00)",
+        "People (Category)"
+      ],
+      [
+        "Batch Process (2026-03-06 04:00)",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Batch Process (2026-03-05 23:00)",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-05 04:00)",
+        "Projects (Category)"
+      ],
+      [
+        "Memory: 2026-03-01",
+        "System Optimization Session"
+      ],
+      [
+        "Batch Process (2026-03-05 04:00)",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-05 23:00)",
+        "Projects (Category)"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-03 23:00)",
+        "Projects (Category)"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-04 04:00)",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "DevOps/VibeCoding",
+        "Knuth 'Claude's Cycles' DevOps/VibeCoding Course"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-05 04:00)",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "Decisions Made",
+        "Memory: 2026-02-23"
+      ],
+      [
+        "Cron Delivery Settings",
+        "Notification Spam"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-05 23:00)",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "Batch Process (2026-03-03 23:00)",
+        "Knowledge Graph Index Content (Generated 2026-03-03 23:00)"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-04 23:00)",
+        "People (Category)"
+      ],
+      [
+        "Knowledge-Graph Tag",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Count"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "5 Domains"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "7579913696",
+        "Session Snapshot"
+      ],
+      [
+        "Index Tag",
+        "Knowledge Graph Index Content (Generated 2026-03-05 18:00)"
+      ],
+      [
+        "Batch Process (2026-03-04 18:00)",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Batch Process (2026-03-05 04:00)",
+        "Knowledge Graph Index Content (Generated 2026-03-05 04:00)"
+      ],
+      [
+        "Bigger Picture (Topic)",
+        "PPTX (Course Material)"
+      ],
+      [
+        "Knowledge Graph",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Base URL",
+        "Google Embedding Provider"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-04 18:00)",
+        "People (Category)"
+      ],
+      [
+        "Knuth 'Claude's Cycles' DevOps/VibeCoding Course",
+        "Memory Log Entry (2026-03-07)"
+      ],
+      [
+        "Obsidian: KnowledgeGraph/_index.md",
+        "Recent Activity"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Telegram"
+      ],
+      [
+        "Batch Process (2026-03-04 23:00)",
+        "Obsidian Knowledge Graph Index File"
+      ],
+      [
+        "Decisions (Category)",
+        "Knowledge Graph Index Content (Generated 2026-03-05 04:00)"
+      ],
+      [
+        "Batch",
+        "Recent Activity"
+      ],
+      [
+        "Session Snapshot Message 20",
+        "Telegram User ID 7579913696"
+      ],
+      [
+        "Memory (Data Source)",
+        "Memory Log Entry (2026-03-07)"
+      ],
+      [
+        "Batch Process (2026-03-04 04:00)",
+        "Knowledge Graph Index Content (Generated 2026-03-04 04:00)"
+      ],
+      [
+        "Session_remember.py",
+        "The /remember Command"
+      ],
+      [
+        "Decisions (Category)",
+        "Knowledge Graph Index Content (Generated 2026-03-04 04:00)"
+      ],
+      [
+        "Batch Process (2026-03-03 18:00)",
+        "Memory Record (2026-03-02)"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "30 Dashboards"
+      ],
+      [
+        "Index Tag",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Daily Notes",
+        "Memory: 2026-03-01"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Obsidian: KnowledgeGraph/_index.md"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-03 23:00)",
+        "Knowledge-Graph Tag"
+      ],
+      [
+        "Course Materials",
+        "Handout PDF (Course Material)"
+      ],
+      [
+        "Decisions Count (Index)",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Decisions (Category)",
+        "Knowledge Graph Index Content (Generated 2026-03-04 23:00)"
+      ],
+      [
+        "Batch Process (2026-03-05 23:00)",
+        "Knowledge Graph Index Content (Generated 2026-03-05 23:00)"
+      ],
+      [
+        "Knowledge Graph Index",
+        "Projects Category"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-04 23:00)",
+        "Projects (Category)"
+      ],
+      [
+        "Batch Process (2026-03-03 23:00)",
+        "Memory Record (2026-03-02)"
+      ],
+      [
+        "Bangkok (BKK)",
+        "Session Snapshot Message 20"
+      ],
+      [
+        "7579913696",
+        "Anirach Mingkhwan"
+      ],
+      [
+        "Decisions (Category)",
+        "Knowledge Graph Index Content (Generated 2026-03-04 18:00)"
+      ],
+      [
+        "Anirach Mingkhwan",
+        "Obsidian: Quick-Reference.md"
+      ],
+      [
+        "Memory Record (2026-03-02)",
+        "Session Snapshot Message 20"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Count (Index)"
+      ],
+      [
+        "Daily Log Entry (2026-03-06)",
+        "Memory (Data Source)"
+      ],
+      [
+        "Decisions (Category)",
+        "Knowledge Graph Index Content (Generated 2026-03-05 23:00)"
+      ],
+      [
+        "Knowledge Graph Index",
+        "People Category"
+      ],
+      [
+        "Daily Log Entry (2026-03-06)",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Restart Command",
+        "Session Snapshot Message 20"
+      ],
+      [
+        "Decisions Category",
+        "Knowledge Graph Index"
+      ],
+      [
+        "Session Snapshot Message 20",
+        "Telegram"
+      ],
+      [
+        "Knowledge Graph Index Content (Generated 2026-03-04 18:00)",
+        "Projects (Category)"
+      ],
+      [
+        "Obsidian: Quick-Reference.md",
+        "Pinned Tag"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "83 DW Tables"
+      ]
+    ],
+    "count": 127,
+    "create_time": 1772911031,
+    "update_time": 1772911031,
+    "_id": "doc-844a038af961b3e79e2c2d73a8f4501b"
+  },
+  "doc-7c2cdd5ff3d5c08c4f1f51c769710ea9": {
+    "relation_pairs": [
+      [
+        "DevOps/VibeCoding Course",
+        "Knuth \"Claude's Cycles\""
+      ],
+      [
+        "Course Materials",
+        "Handout PDF (7 Sections)"
+      ],
+      [
+        "Google Drive",
+        "HA_30_Complex_Dashboards.docx"
+      ],
+      [
+        "Dashboard Project",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "30 Dashboards",
+        "5 Domains"
+      ],
+      [
+        "Dashboard Project",
+        "Knuth \"Claude's Cycles\""
+      ],
+      [
+        "Memory: 2026-03-06",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Course Materials",
+        "Knuth \"Claude's Cycles\""
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "Smart HAI Dashboard Project"
+      ],
+      [
+        "Knuth \"Claude's Cycles\"",
+        "Memory: 2026-03-07"
+      ],
+      [
+        "30 Dashboards",
+        "83 DW Tables"
+      ],
+      [
+        "Course Materials",
+        "PPTX (4 Slides, Dark Theme)"
+      ],
+      [
+        "30 Complex Dashboards Report (v1)",
+        "HA_30_Complex_Dashboards.docx"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1772911080,
+    "update_time": 1772911080,
+    "_id": "doc-7c2cdd5ff3d5c08c4f1f51c769710ea9"
+  },
+  "doc-333094d57c54def874daab5cee50712c": {
+    "relation_pairs": [
+      [
+        "HA Thailand Standards v6 (2026-2030)",
+        "III-PatientCare"
+      ],
+      [
+        "LLM Mental Health Eval",
+        "TrustMH-Bench"
+      ],
+      [
+        "Blog Series",
+        "Git Branching"
+      ],
+      [
+        "DB-Specialist",
+        "Opus"
+      ],
+      [
+        "HA Thailand Standards v6 (2026-2030)",
+        "KnowledgeGraph/Documents/HA-Standards-v6-Reference.md"
+      ],
+      [
+        "Email",
+        "Heartbeat Check 08:30 BKK"
+      ],
+      [
+        "Blog Series",
+        "Thai Markdown"
+      ],
+      [
+        "ArXiv",
+        "Daily ArXiv Scan 2026-03-05"
+      ],
+      [
+        "API Lifecycle",
+        "Blog Series"
+      ],
+      [
+        "Daily ArXiv Monitor 2026-03-06",
+        "LLM Code Attribution Fingerprints"
+      ],
+      [
+        "Heartbeat Check",
+        "Scheduled Time 08:30"
+      ],
+      [
+        "Cron Sub-Agents",
+        "Raw Curl"
+      ],
+      [
+        "Blog Series",
+        "Docker vs VMs"
+      ],
+      [
+        "HA Thailand Standards v6 (2026-2030)",
+        "tmp/ha_standards_v6_full.txt"
+      ],
+      [
+        "Facebook Page Token",
+        "tools/fb_config.json"
+      ],
+      [
+        "HA Thailand Standards v6 (2026-2030)",
+        "IV-Results"
+      ],
+      [
+        "Orchestrator",
+        "Working Modes"
+      ],
+      [
+        "Word",
+        "svlnproc1104.dot"
+      ],
+      [
+        "Sandbox Security Fixes",
+        "v2026.2.26"
+      ],
+      [
+        "Code-Review",
+        "Opus"
+      ],
+      [
+        "Heartbeat Check",
+        "Timestamp 2026-03-07 01:30"
+      ],
+      [
+        "AGENTS.md",
+        "Working Modes"
+      ],
+      [
+        "OpenClaw",
+        "v2026.2.26"
+      ],
+      [
+        "Contextual Invertible World Models",
+        "Daily ArXiv Scan Mar 7"
+      ],
+      [
+        "I-OrgMgmt",
+        "InfoSec/PDPA"
+      ],
+      [
+        "Cover Page",
+        "Default DOCX Report Template"
+      ],
+      [
+        "Cron Sub-Agents",
+        "python3 tools/fb_post.py"
+      ],
+      [
+        "Heartbeat 6:31 AM",
+        "Sub-Agents"
+      ],
+      [
+        "Digital Care",
+        "II-KeySystems"
+      ],
+      [
+        "Daily ArXiv Scan 2026-03-05",
+        "TrustMH-Bench"
+      ],
+      [
+        "Daily ArXiv Monitor 2026-03-06",
+        "Vector Prompt Interfaces for LLM Customization"
+      ],
+      [
+        "Default DOCX Report Template",
+        "Table Styles"
+      ],
+      [
+        "/home/clawdbot/clawd/memory.db",
+        "SQLite FTS5 Memory System"
+      ],
+      [
+        "Coding Team",
+        "Opus"
+      ],
+      [
+        "Daily ArXiv Scan Mar 7",
+        "POET-X"
+      ],
+      [
+        "Heartbeat Check 08:30 BKK",
+        "Sub-Agents"
+      ],
+      [
+        "ArXiv",
+        "Daily ArXiv Monitor 2026-03-06"
+      ],
+      [
+        "LaTeX",
+        "llncs.cls"
+      ],
+      [
+        "Google Drive",
+        "Paper File Naming Convention"
+      ],
+      [
+        "1-Inch Margins",
+        "Default DOCX Report Template"
+      ],
+      [
+        "Default DOCX Report Template",
+        "Table Of Contents"
+      ],
+      [
+        "AIiH 2026",
+        "RAG Second Brain v23.1"
+      ],
+      [
+        "Daily ArXiv Scan 2026-03-05",
+        "Type-Aware RAG"
+      ],
+      [
+        "Fb-Ai-News-Post Cron Job",
+        "Write Error"
+      ],
+      [
+        "MKG-RAG_SecondBrain_v{N}_AliH2026.tex",
+        "Paper File Naming Convention"
+      ],
+      [
+        "KnowledgeGraph/Documents/HA-Standards-v6-Reference.md",
+        "Obsidian"
+      ],
+      [
+        "Rest Role",
+        "Sonnet"
+      ],
+      [
+        "Fb-Ai-News-Post Cron Job",
+        "Investigation"
+      ],
+      [
+        "Blog Series",
+        "Timestamp 2026-03-07 03:31"
+      ],
+      [
+        "Default DOCX Report Template",
+        "Professional Formatting"
+      ],
+      [
+        "OpenClaw",
+        "v2026.2.21-2"
+      ],
+      [
+        "AIiH 2026 Templates",
+        "Word"
+      ],
+      [
+        "CMT Paper ID 18",
+        "RAG Second Brain v23.1"
+      ],
+      [
+        "MKG-RAG_SecondBrain_v{N}_AliH2026.pdf",
+        "Paper File Naming Convention"
+      ],
+      [
+        "Biomedical AI",
+        "Contextual Invertible World Models"
+      ],
+      [
+        "Opus",
+        "Orchestrator"
+      ],
+      [
+        "Blog Series",
+        "CI/CD"
+      ],
+      [
+        "Coding Team",
+        "Sonnet"
+      ],
+      [
+        "Default DOCX Report Template",
+        "Heading Levels"
+      ],
+      [
+        "AIiH 2026",
+        "AIiH 2026 Templates"
+      ],
+      [
+        "Multi-Source KG RAG Second Brain – AliH2026 - v{N}",
+        "Paper File Naming Convention"
+      ],
+      [
+        "HA Thailand Standards v6 (2026-2030)",
+        "Sustainability"
+      ],
+      [
+        "/home/clawdbot/clawd/templates/reports/LNCS_Report_Template.docx",
+        "Default DOCX Report Template"
+      ],
+      [
+        "Daily ArXiv Scan 2026-03-05",
+        "MoD-DPO"
+      ],
+      [
+        "Daily ArXiv Scan 2026-03-05",
+        "Neuro-Symbolic AI Survey"
+      ],
+      [
+        "Cross-Modal Hallucination",
+        "MoD-DPO"
+      ],
+      [
+        "/home/clawdbot/clawd/templates/AIiH-2026/",
+        "AIiH 2026 Templates"
+      ],
+      [
+        "Daily ArXiv Monitor 2026-03-06",
+        "VLFM Underrepresentation Probing"
+      ],
+      [
+        "LaTeX",
+        "splncs04.bst"
+      ],
+      [
+        "Facebook Page Token",
+        "Page ID 115906681768742"
+      ],
+      [
+        "HA Thailand Standards v6 (2026-2030)",
+        "references/HA_Standards_v6_2026-2030.pdf"
+      ],
+      [
+        "DP-RLHF Medical Dialogue",
+        "PrivMedChat"
+      ],
+      [
+        "/tmp/fb_post_*.txt",
+        "Write Error"
+      ],
+      [
+        "Obsidian Memory",
+        "SQLite FTS5 Memory System"
+      ],
+      [
+        "Email",
+        "Heartbeat Check"
+      ],
+      [
+        "Facebook Page Token",
+        "python3 tools/fb_post.py"
+      ],
+      [
+        "DOCX Report Generation",
+        "Default DOCX Report Template"
+      ],
+      [
+        "ArXiv",
+        "Daily ArXiv Scan Mar 7"
+      ],
+      [
+        "LaTeX",
+        "samplepaper.tex"
+      ],
+      [
+        "AIiH 2026 Templates",
+        "LaTeX"
+      ],
+      [
+        "Daily ArXiv Scan 2026-03-05",
+        "PrivMedChat"
+      ],
+      [
+        "Heartbeat Check",
+        "Sub-Agents"
+      ],
+      [
+        "Daily ArXiv Monitor 2026-03-06",
+        "Neuro-Symbolic Cancer Drug Response Framework"
+      ],
+      [
+        "Critical Care",
+        "HA Thailand Standards v6 (2026-2030)"
+      ],
+      [
+        "HA Thailand Standards v6 (2026-2030)",
+        "II-KeySystems"
+      ],
+      [
+        "Anirach's Classes",
+        "Page ID 115906681768742"
+      ],
+      [
+        "Memory-Efficient LLM Training",
+        "POET-X"
+      ],
+      [
+        "Blog Series",
+        "Cover Images"
+      ],
+      [
+        "Facebook Page Token",
+        "May 2026"
+      ],
+      [
+        "Bangkok",
+        "Heartbeat Check"
+      ],
+      [
+        "HA Thailand Standards v6 (2026-2030)",
+        "I-OrgMgmt"
+      ],
+      [
+        "Daily ArXiv Scan Mar 7",
+        "LLM Fact-Checking Without Retrieval"
+      ],
+      [
+        "Daily ArXiv Monitor 2026-03-06",
+        "Transformer Quantization Outliers"
+      ],
+      [
+        "Daily ArXiv Scan Mar 7",
+        "Interpretable Prototype Networks for Medical Data"
+      ]
+    ],
+    "count": 94,
+    "create_time": 1772911241,
+    "update_time": 1772911241,
+    "_id": "doc-333094d57c54def874daab5cee50712c"
+  },
+  "doc-bb159995fe0aaa27664948d87f740cda": {
+    "relation_pairs": [
+      [
+        "2026-03-07",
+        "KnowledgeGraph/Decisions/2026-03-07---800-am-and-1000-pm-daily-bangkok-time.md"
+      ],
+      [
+        "Daily/2026-03-07",
+        "Decision: 8:00 AM And 10:00 PM Daily (Bangkok Time)"
+      ],
+      [
+        "Bangkok Time",
+        "Decision: 8:00 AM And 10:00 PM Daily (Bangkok Time)"
+      ],
+      [
+        "Decision: 8:00 AM And 10:00 PM Daily (Bangkok Time)",
+        "KnowledgeGraph/Decisions/2026-03-07---800-am-and-1000-pm-daily-bangkok-time.md"
+      ],
+      [
+        "2026-03-07",
+        "Decision: 8:00 AM And 10:00 PM Daily (Bangkok Time)"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1772911274,
+    "update_time": 1772911274,
+    "_id": "doc-bb159995fe0aaa27664948d87f740cda"
+  },
+  "doc-4eaae098a9fec8d05420eb0faf8f6104": {
+    "relation_pairs": [
+      [
+        "Action Item",
+        "Knowledge Graph"
+      ],
+      [
+        "2026-03-07",
+        "Action Item"
+      ],
+      [
+        "Action Item",
+        "Unknown Owner"
+      ],
+      [
+        "Action Item",
+        "Batch Source"
+      ],
+      [
+        "Action Item",
+        "KnowledgeGraph/Action-Items/2026-03-07--Items.md"
+      ],
+      [
+        "Action Item",
+        "Open Status"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1772911311,
+    "update_time": 1772911311,
+    "_id": "doc-4eaae098a9fec8d05420eb0faf8f6104"
+  },
+  "doc-a49a2a856b8bd05700b4f33eb914dd4e": {
+    "relation_pairs": [
+      [
+        "Batch",
+        "Items 165"
+      ],
+      [
+        "Deadline",
+        "Items 165"
+      ],
+      [
+        "Action Item",
+        "Unknown"
+      ],
+      [
+        "Items 165",
+        "KnowledgeGraph"
+      ],
+      [
+        "2026-03-06",
+        "Action Item"
+      ],
+      [
+        "Items 165",
+        "Unknown"
+      ],
+      [
+        "Action Item",
+        "Items 165"
+      ],
+      [
+        "Action Item",
+        "Batch"
+      ],
+      [
+        "2026-03-06",
+        "Items 165"
+      ],
+      [
+        "Items 165",
+        "Open"
+      ],
+      [
+        "Items 165",
+        "Status"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1772911349,
+    "update_time": 1772911349,
+    "_id": "doc-a49a2a856b8bd05700b4f33eb914dd4e"
+  },
+  "doc-f28547105bf2d4243f6ae21da7501a82": {
+    "relation_pairs": [
+      [
+        "Action Item",
+        "Knowledge Graph"
+      ],
+      [
+        "2026-03-07",
+        "Action Item"
+      ],
+      [
+        "Action Item",
+        "Unknown Owner"
+      ],
+      [
+        "Action Item",
+        "Deadline"
+      ],
+      [
+        "2026-03-07--Item.md",
+        "Action Item"
+      ],
+      [
+        "Action Item",
+        "Batch Source"
+      ],
+      [
+        "Action Item",
+        "Open Status"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1772911384,
+    "update_time": 1772911384,
+    "_id": "doc-f28547105bf2d4243f6ae21da7501a82"
+  },
+  "doc-df89a9a94938a9adcfad05fa14251c9a": {
+    "relation_pairs": [
+      [
+        "2026-03-07-problem--solut.md",
+        "Action Item"
+      ],
+      [
+        "2026-03-07-problem--solut.md",
+        "Unknown Owner"
+      ],
+      [
+        "2026-03-07",
+        "2026-03-07-problem--solut.md"
+      ],
+      [
+        "2026-03-07-problem--solut.md",
+        "Batch Source"
+      ],
+      [
+        "2026-03-07-problem--solut.md",
+        "Open Status"
+      ],
+      [
+        "2026-03-07-problem--solut.md",
+        "Knowledge Graph"
+      ],
+      [
+        "2026-03-07-problem--solut.md",
+        "Problem & Solut"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1772911389,
+    "update_time": 1772911389,
+    "_id": "doc-df89a9a94938a9adcfad05fa14251c9a"
+  },
+  "doc-04e12e42246ce3393cda4585cac03ce1": {
+    "relation_pairs": [
+      [
+        "Action Item 166",
+        "Knowledge Graph"
+      ],
+      [
+        "Action Item 166",
+        "No Deadline"
+      ],
+      [
+        "Action Item 166",
+        "Unknown Owner"
+      ],
+      [
+        "2026-03-07",
+        "Action Item 166"
+      ],
+      [
+        "Action Item",
+        "Action Item 166"
+      ],
+      [
+        "Action Item 166",
+        "KnowledgeGraph/Action-Items/2026-03-07-Items--166.md"
+      ],
+      [
+        "Action Item 166",
+        "Batch"
+      ],
+      [
+        "Action Item 166",
+        "Open"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772911420,
+    "update_time": 1772911420,
+    "_id": "doc-04e12e42246ce3393cda4585cac03ce1"
+  },
+  "doc-f6004e99bdb551aaf95f716dcec48ac5": {
+    "relation_pairs": [
+      [
+        "Discuss Topics From List",
+        "IaC"
+      ],
+      [
+        "Discuss Topics From List",
+        "Linux/Shell Essentials"
+      ],
+      [
+        "General",
+        "Test Session Remember Tool"
+      ],
+      [
+        "Discuss Topics From List",
+        "Pending Action Items"
+      ],
+      [
+        "Discuss Topics From List",
+        "General"
+      ],
+      [
+        "Session Remember.py",
+        "Test Session Remember Tool"
+      ],
+      [
+        "Test Session Remember Tool",
+        "Todo"
+      ],
+      [
+        "Pending Action Items",
+        "Test Session Remember Tool"
+      ],
+      [
+        "Pending Action Items",
+        "Session Remember.py"
+      ],
+      [
+        "Discuss Topics From List",
+        "Todo"
+      ],
+      [
+        "KnowledgeGraph/Action-Items/Pending.md",
+        "Pending Action Items"
+      ],
+      [
+        "Ansible",
+        "IaC"
+      ],
+      [
+        "Discuss Topics From List",
+        "Monitoring & Observability"
+      ],
+      [
+        "IaC",
+        "Terraform"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1772911447,
+    "update_time": 1772911447,
+    "_id": "doc-f6004e99bdb551aaf95f716dcec48ac5"
+  },
+  "doc-5a6d50cc87153f5563d210fdc8d86fe8": {
+    "relation_pairs": [
+      [
+        "Action Item 169",
+        "Deadline"
+      ],
+      [
+        "Action Item 169",
+        "Unknown Owner"
+      ],
+      [
+        "Action Item 169",
+        "Batch Source"
+      ],
+      [
+        "Action Item 169",
+        "Action-Item Tag"
+      ],
+      [
+        "Action Item 169",
+        "Action Item File Path"
+      ],
+      [
+        "Action Item 169",
+        "Open Status"
+      ],
+      [
+        "Action Item 169",
+        "Knowledge Graph"
+      ],
+      [
+        "Action Item 169",
+        "Date 2026-03-07"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1772911474,
+    "update_time": 1772911474,
+    "_id": "doc-5a6d50cc87153f5563d210fdc8d86fe8"
+  },
+  "doc-0675b88b9f4cf07a0e2ae3b73847404d": {
+    "relation_pairs": [
+      [
+        "Action Item",
+        "Knowledge Graph"
+      ],
+      [
+        "2026-03-07",
+        "Action Item"
+      ],
+      [
+        "Action Item",
+        "Human-AI Collaboration"
+      ],
+      [
+        "Action Item",
+        "Batch"
+      ],
+      [
+        "Action Item",
+        "Owner"
+      ],
+      [
+        "Human-AI Collaboration",
+        "Problem & Solution"
+      ],
+      [
+        "Action Item",
+        "Status"
+      ],
+      [
+        "Bigger Picture",
+        "Human-AI Collaboration"
+      ],
+      [
+        "Action Item",
+        "Problem & Solution"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1772911490,
+    "update_time": 1772911490,
+    "_id": "doc-0675b88b9f4cf07a0e2ae3b73847404d"
   }
 }

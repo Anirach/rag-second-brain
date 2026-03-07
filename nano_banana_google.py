@@ -5,7 +5,7 @@ import base64
 import sys
 import json
 
-GOOGLE_API_KEY = "AIzaSyCNTELmQROMXC67W115YevDvKZmx0t-NpM"
+GOOGLE_API_KEY = "AIzaSyC1BLzV7El8nNV5hqeCdo4R32Cd2HydyNk"
 
 def generate_image(prompt: str, output_path: str) -> bool:
     """Generate an image using Gemini 3 Pro Image (Nano Banana Pro)"""
