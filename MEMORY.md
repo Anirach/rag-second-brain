@@ -22,6 +22,8 @@
 - **RAG Second Brain (AIiH 2026):** v23.1 submitted, all 3 reviewers ACCEPT. Camera-ready deadline: **April 10, 2026**
 - **DevOps/VibeCoding Course:** 15 weeks. PPTX Wk1–5✅ Wk6❌ Wk7–15 pending. Handouts Wk1–4✅. Dark theme `#0D1229`, PptxGenJS 4.0.1. Build from main agent (sandbox fails).
 - **NCD-CIE Paper:** v20 submitted AIiH 2026. Springer LNCS.
+- **DevOps Blog Series (practical-algo.com style):** **COMPLETE** — 20 posts delivered covering full DevOps landscape (Git→CI/CD→Docker→API→K8s→Networking→IaC→Monitoring→Linux→DevSecOps→Testing→GitOps→Cloud→SRE→GitHub Actions→Testing→DB→Auth→Architecture→Frontend)
+- **Smart HAI Dashboard Project:** Phase 2 TOR-aligned dashboard specifications delivered, interactive ML dashboards deployed
 
 ## 🔧 Technical Recipes
 - **PPTX:** PptxGenJS at `/home/clawdbot/.npm-global/lib/node_modules/pptxgenjs`. Post-process emoji. Layout: y=1.1–4.95, never exceed y+h>5.3.
@@ -33,6 +35,9 @@
 - Verify numbers before reporting. Wrong numbers hurt more than vague ones.
 - PPTX emoji: always post-process. Acknowledge first, then work.
 - Paper delivery: always full academic team review first (peer-reviewer + methodology-expert + technical-writer).
+- **DevOps Blog Series:** 20 posts completed in practical-algo.com style with Thai content, Labrador mascot covers
+- **Cover Variations:** Mix poses (sitting at desk, standing at whiteboard, side angles) — avoid repetitive straight-facing poses
+- **HA DW Schema:** `v_RiskReport` no longer exists — use `v_DataSetReport` for risk data; table names are case-sensitive
 
 ## 📖 Agent Teams (45 total) — manuals on Google Drive
 - Writing(8) · Academic(10) · Translation(8) · Course(10) · Coding(8)
