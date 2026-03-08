@@ -1,0 +1,2 @@
+tools/lightrag_data/vdb_entities.json filter=lfs diff=lfs merge=lfs -text
+tools/lightrag_data/vdb_relationships.json filter=lfs diff=lfs merge=lfs -text

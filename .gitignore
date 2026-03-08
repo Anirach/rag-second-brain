@@ -44,4 +44,4 @@ test-claude-code/
 
 # Large data files
 experiments/kg-diagnosis-ddxplus/data/ddxplus/*.csv
-tools/lightrag_data/vdb_relationships.json
+# tools/lightrag_data/vdb_relationships.json  # moved to Git LFS
