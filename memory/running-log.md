@@ -90,3 +90,21 @@ Auto-updated daily by auto_reflection.py
 **Decisions:**
 - - 8:00 AM and 10:00 PM daily (Bangkok time)
 
+
+---
+## 2026-04-05 (03:00 BKK)
+
+**Weekly memory maintenance completed:**
+- Read memory/ files from 2026-03-29 to 2026-04-04 (7 days)
+- Updated MEMORY.md with new lessons:
+  - Cron job auto-reflection fails in sandbox (needs host execution)
+  - BPK dashboards: navy-teal-gold palette, pure CSS/SVG
+- Archived no completed action items (all open items > 2 weeks remain pending)
+- Ran quick_note.py for 2 new technical facts
+- Committed and pushed obsidian vault: "Weekly memory consolidation: cron sandbox fix, BPK dashboards, vibe skills"
+
+**Key learnings distilled:**
+- Cron job failures persist (6 jobs: 4 outbound channel, 1 timeout, 1 intermittent)
+- BPK database: 543GB, 726 tables, 16 schemas — always use tools/bpk_query.py
+- Arxiv monitor needs resilience (4 categories failing)
+
