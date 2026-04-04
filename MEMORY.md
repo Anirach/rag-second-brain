@@ -46,7 +46,27 @@
 
 
 ## 💡 Lessons Learned
-- **2026-03-08:** — 2026-03-07 23:00 BKK
+- **2026-04-05:** Cron job auto-reflection fails in sandbox due to file access — requires host-only execution (`0 2 * * * cd /home/clawdbot/clawd && python3 tools/auto_reflection.py`)
+- **2026-04-04:** Ensure clarity in understanding user queries, especially when involving specific tools or technologies like Tailscale and DuckMan.
+- **2026-04-02:** Internal handling of medication reminders reduces external dependencies
+- **2026-04-02:** Persistent cron job failures (6 jobs) — 4 outbound Telegram channel, 1 timeout, 1 intermittent. Investigate session channel configuration and cron job setup.
+- **2026-04-01:** Telegram delivery for daily cost reports is pending due to session channel issues; investigate and fix cron job failures to ensure timely delivery.
+- **2026-04-01:** Internal reminders logged without user notifications (marked as no-alert) should be reviewed to ensure they align with user expectations.
+- **2026-03-30:** vibe-research skill is a direct fit for automating literature reviews and hypothesis testing in research workflows
+- **2026-03-30:** productivity-automation-kit can significantly enhance daily efficiency by automating routine tasks and organizing data
+- **2026-03-30:** vibe-3k skill is valuable for complex coding projects requiring multi-agent collaboration and code quality assurance
+
+- **[2026-03-17]** Book to study: Foundations of Machine Learning (2nd ed, 2018) by Mohri, Rostamizadeh, Talwalkar. Free PDF: https://cs.nyu.edu/~mohri/mlbook/ Slides: http://cs.nyu.edu/~mohri/ml18
+- **[2026-03-30]** arXiv monitor partial failures (cs.AI, cs.CL, cs.CV, q-bio.QM categories) — investigate API reliability or rate limits
+- **[2026-03-30]** ClawHub skill `vibe-research` is a strong candidate for automating literature reviews and research synthesis
+- **[2026-03-30]** Medication reminders should NOT be logged as "lessons learned" — they cluttered MEMORY.md (cleaned up today)
+
+- **2026-04-02:** RGBA→RGB conversion required when embedding matplotlib/chart images in DOCX (doc.add_picture fails on RGBA PNGs)
+- **2026-04-02:** BPK database: 543GB, 726 tables, 16 schemas — always use tools/bpk_query.py with auto de-ID, never raw psql
+- **2026-04-02:** Interactive HTML dashboards with pure CSS/SVG (no external deps) are effective for executive presentations
+- **2026-04-02:** Navy/teal/gold palette established as BPK dashboard standard
+
+*Last reviewed: 2026-04-05*
 - **2026-03-07:** adopt yet — OpenClaw sub-agents handle our current scale fine
 - **2026-03-07:** - Old Google API key expired: `AIzaSyCNTELmQROMXC67W115YevDvKZmx0t-NpM`
 - **2026-03-07:** - `HA_30_Complex_Dashboards.docx`
