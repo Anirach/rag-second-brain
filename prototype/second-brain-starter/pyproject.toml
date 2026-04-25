@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "second-brain-starter"
+version = "0.1.0"
+description = "Minimal provenance-aware RAG second brain starter"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "beautifulsoup4",
+  "python-docx",
+  "pymupdf",
+]
+
+[project.scripts]
+second-brain = "second_brain.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,21 @@
+# SQLite
+/db/*.sqlite
+/db/*.sqlite-shm
+/db/*.sqlite-wal
+
+# Derived artifacts
+/derived/cache/*
+/derived/embeddings/*
+/derived/graph/*
+/derived/search/*
+
+# Inbox is intentionally ephemeral
+/raw/inbox/*
+
+# Python build/runtime junk
+__pycache__/
+*.pyc
+
+# OS/editor junk
+.DS_Store
+*.swp

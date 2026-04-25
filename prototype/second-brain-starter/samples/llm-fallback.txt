@@ -1,0 +1,1 @@
+Large Language Models can maintain persistent knowledge artifacts. LLM systems benefit from durable summaries and curated entities. LLM appears several times here.

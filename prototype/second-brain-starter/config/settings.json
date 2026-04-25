@@ -1,0 +1,27 @@
+{
+  "database": "db/metadata.sqlite",
+  "knowledgeRoot": "knowledge",
+  "rawRoot": "raw/sources",
+  "extractRoot": "extract",
+  "reviewQueue": "reviews/queue.jsonl",
+  "defaultOutputLanguage": "en",
+  "vectorStore": {
+    "enabled": false,
+    "provider": "lancedb",
+    "path": "derived/embeddings"
+  },
+  "retrieval": {
+    "preferKnowledgeObjects": true,
+    "maxObjects": 8,
+    "maxEvidenceChunks": 12,
+    "fallbackToRaw": true
+  },
+  "llm": {
+    "enabled": false,
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "model": "gpt-4.1-mini",
+    "apiKeyEnv": "OPENAI_API_KEY",
+    "extractionEnabled": false,
+    "extractionModel": "gpt-4.1-mini"
+  }
+}
