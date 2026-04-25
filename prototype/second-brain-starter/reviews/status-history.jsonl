@@ -1,0 +1,6 @@
+{"object_id": "cpt_retrieval-augmented-generation", "status": "reviewed", "reason": "workflow check", "updated_at": "2026-04-25T07:46:13+00:00"}
+{"object_id": "syn_retrieval-augmented-generation-overview", "status": "trusted", "reason": "review:rev_20260425_074246_004 accepted reviewed and promoted", "updated_at": "2026-04-25T07:46:14+00:00"}
+{"object_id": "ent_the-transformer", "status": "deprecated", "reason": "merged into ent_transformer duplicate article variant", "updated_at": "2026-04-25T08:02:03+00:00"}
+{"object_id": "qst_attention_open_questions", "status": "reviewed", "reason": "review:rev_20260425_074246_001 accepted resolved via api test", "updated_at": "2026-04-25T09:03:03+00:00"}
+{"object_id": "cpt_self_attention", "status": "reviewed", "reason": "ui api test", "updated_at": "2026-04-25T09:08:33+00:00"}
+{"object_id": "cpt_example-concept-2", "status": "deprecated", "reason": "merged into cpt_example ui merge api test", "updated_at": "2026-04-25T09:14:40+00:00"}

@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Second Brain Starter</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; background:#0f172a; color:#e2e8f0; }
+    .wrap { max-width: 1220px; margin: 0 auto; padding: 24px; }
+    h1,h2,h3 { margin: 0 0 12px; }
+    .grid { display:grid; grid-template-columns: 1.15fr 0.85fr; gap: 18px; }
+    .card { background:#111827; border:1px solid #334155; border-radius:14px; padding:16px; margin-bottom:18px; box-shadow:0 6px 20px rgba(0,0,0,.18); }
+    input, select, button, textarea { width:100%; box-sizing:border-box; border-radius:10px; border:1px solid #475569; background:#0b1220; color:#e2e8f0; padding:10px 12px; }
+    input[type=file], input[type=checkbox] { padding: 8px; width:auto; }
+    button { background:#2563eb; border:none; cursor:pointer; font-weight:600; }
+    button:hover { background:#1d4ed8; }
+    .btn-secondary { background:#475569; }
+    .btn-danger { background:#b91c1c; }
+    .btn-warn { background:#d97706; }
+    .row { display:flex; gap:10px; align-items:center; }
+    .row > * { flex:1; }
+    .row .inline { flex:0 0 auto; }
+    pre { white-space:pre-wrap; word-break:break-word; background:#020617; padding:12px; border-radius:10px; border:1px solid #1e293b; max-height: 520px; overflow:auto; }
+    .muted { color:#94a3b8; font-size: 14px; }
+    ul { margin: 8px 0 0; padding-left: 18px; }
+    li { margin-bottom: 10px; }
+    .pill { display:inline-block; background:#1e293b; color:#cbd5e1; padding:2px 8px; border-radius:999px; font-size:12px; margin-left:6px; }
+    .ok { color:#86efac; }
+    .err { color:#fca5a5; }
+    .actions { display:flex; gap:6px; margin-top:8px; flex-wrap:wrap; }
+    .actions button { width:auto; padding:6px 10px; font-size:12px; }
+    label.inline { display:flex; align-items:center; gap:8px; font-size:13px; color:#cbd5e1; }
+    .stats { display:grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+    .stat { background:#020617; border:1px solid #1e293b; border-radius:12px; padding:12px; }
+    .stat .n { font-size: 24px; font-weight: 700; }
+    .dash-cols { display:grid; grid-template-columns: 1fr 1fr; gap:14px; margin-top:14px; }
+    .mini ul { margin-top:4px; }
+    .mini li { margin-bottom:8px; }
+    @media (max-width: 900px) { .grid, .dash-cols, .stats { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Second Brain Starter <span class="pill">local UI</span></h1>
+    <p class="muted">A lightweight cockpit for ingest, retrieval, governance, redundancy cleanup, and artifact inspection.</p>
+
+    <div class="card">
+      <div class="row" style="justify-content:space-between; align-items:flex-end;">
+        <div>
+          <h2>Project dashboard</h2>
+          <p class="muted">Snapshot of knowledge volume, trust state, review pressure, and recent activity.</p>
+        </div>
+        <div class="inline"><button id="dashboardBtn">Refresh dashboard</button></div>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="muted">Sources</div><div class="n" id="statSources">-</div></div>
+        <div class="stat"><div class="muted">Active objects</div><div class="n" id="statObjects">-</div></div>
+        <div class="stat"><div class="muted">Open reviews</div><div class="n" id="statReviewsOpen">-</div></div>
+        <div class="stat"><div class="muted">Total reviews</div><div class="n" id="statReviewsTotal">-</div></div>
+      </div>
+      <div class="dash-cols">
+        <div class="mini"><h3>Status mix</h3><ul id="statusMix"></ul></div>
+        <div class="mini"><h3>Type mix</h3><ul id="typeMix"></ul></div>
+        <div class="mini"><h3>Recent objects</h3><ul id="recentObjects"></ul></div>
+        <div class="mini"><h3>Recent status changes</h3><ul id="recentStatus"></ul></div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div>
+        <div class="card">
+          <h2>Upload & ingest</h2>
+          <div class="row">
+            <input id="uploadTitle" placeholder="Optional title override" />
+            <input id="uploadOrigin" placeholder="Origin" value="web-ui" />
+          </div>
+          <div class="row" style="margin-top:10px;">
+            <input id="uploadFile" type="file" />
+            <button id="uploadBtn">Upload</button>
+          </div>
+          <p id="uploadOut" class="muted">Supported: pdf, doc, docx, txt, md, html.</p>
+        </div>
+
+        <div class="card">
+          <h2>Ask</h2>
+          <div class="row">
+            <input id="queryInput" placeholder="Ask about your knowledge base…" value="durable knowledge objects" />
+            <button id="answerBtn">Answer</button>
+          </div>
+          <p class="muted">This uses the current deterministic answer pipeline.</p>
+          <pre id="answerOut">No answer yet.</pre>
+        </div>
+
+        <div class="card">
+          <h2>Search</h2>
+          <div class="row">
+            <input id="searchInput" placeholder="Search terms…" value="transformer" />
+            <button id="searchBtn">Query</button>
+          </div>
+          <pre id="searchOut">No query run yet.</pre>
+        </div>
+
+        <div class="card">
+          <h2>Artifact viewer</h2>
+          <p class="muted">Click “View” on any object to inspect the stored markdown artifact.</p>
+          <pre id="artifactOut">No artifact selected.</pre>
+        </div>
+      </div>
+
+      <div>
+        <div class="card">
+          <h2>Objects</h2>
+          <div class="row">
+            <select id="objectStatus">
+              <option value="">all statuses</option>
+              <option>draft</option>
+              <option>synthesized</option>
+              <option>reviewed</option>
+              <option>trusted</option>
+              <option>deprecated</option>
+            </select>
+            <button id="objectsBtn">Load</button>
+          </div>
+          <div class="row" style="margin-top:10px; margin-bottom:10px;">
+            <select id="objectActionStatus">
+              <option value="reviewed" selected>reviewed</option>
+              <option value="trusted">trusted</option>
+              <option value="draft">draft</option>
+              <option value="synthesized">synthesized</option>
+              <option value="deprecated">deprecated</option>
+            </select>
+          </div>
+          <p id="objectOut" class="muted">Choose a target status, then use Set/Promote on any object card.</p>
+          <ul id="objectsOut"></ul>
+        </div>
+
+        <div class="card">
+          <h2>Reviews</h2>
+          <div class="row">
+            <select id="reviewStatus">
+              <option selected>open</option>
+              <option>accepted</option>
+              <option>rejected</option>
+              <option>deferred</option>
+            </select>
+            <button id="reviewsBtn">Load</button>
+          </div>
+          <div class="row" style="margin-top:10px; margin-bottom:10px;">
+            <label class="inline"><input id="reviewPromote" type="checkbox" /> promote on accept</label>
+            <select id="reviewPromoteTarget">
+              <option value="reviewed" selected>reviewed</option>
+              <option value="trusted">trusted</option>
+            </select>
+          </div>
+          <p id="reviewOut" class="muted">Open reviews can be resolved directly here.</p>
+          <ul id="reviewsOut"></ul>
+        </div>
+
+        <div class="card">
+          <h2>Redundancy</h2>
+          <div class="row">
+            <input id="mergeReason" placeholder="Merge reason" value="merged via web-ui" />
+            <button id="redundancyBtn">Scan</button>
+          </div>
+          <p id="redundancyOut" class="muted">Suggested merges stay conservative.</p>
+          <ul id="redundancyList"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+async function getJson(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(await res.text());
+  return res.json();
+}
+function renderList(el, items, formatter) {
+  el.innerHTML = '';
+  if (!items || !items.length) { el.innerHTML = '<li class="muted">No items.</li>'; return; }
+  for (const item of items) { const li = document.createElement('li'); li.innerHTML = formatter(item); el.appendChild(li); }
+}
+async function loadDashboard() {
+  try {
+    const data = await getJson('/api/dashboard');
+    document.getElementById('statSources').textContent = data.source_count;
+    document.getElementById('statObjects').textContent = data.object_count;
+    document.getElementById('statReviewsOpen').textContent = data.review_count_open;
+    document.getElementById('statReviewsTotal').textContent = data.review_count_total;
+    renderList(document.getElementById('statusMix'), Object.entries(data.status_counts || {}), ([k,v]) => `<strong>${k}</strong><span class="pill">${v}</span>`);
+    renderList(document.getElementById('typeMix'), Object.entries(data.type_counts || {}), ([k,v]) => `<strong>${k}</strong><span class="pill">${v}</span>`);
+    renderList(document.getElementById('recentObjects'), data.recent_objects || [], item => `<strong>${item.title}</strong> <span class="pill">${item.status}</span><br><span class="muted">${item.object_id} · ${item.updated_at}</span>`);
+    renderList(document.getElementById('recentStatus'), data.recent_status_changes || [], item => `<strong>${item.object_id}</strong> <span class="pill">${item.status}</span><br><span class="muted">${item.updated_at}</span>`);
+  } catch (e) { document.getElementById('statusMix').innerHTML = `<li>${String(e)}</li>`; }
+}
+async function loadAnswer() {
+  const q = encodeURIComponent(document.getElementById('queryInput').value.trim());
+  const out = document.getElementById('answerOut'); out.textContent = 'Loading…';
+  try { const data = await getJson(`/api/answer?q=${q}`); out.textContent = data.text; } catch (e) { out.textContent = String(e); }
+}
+async function loadQuery() {
+  const q = encodeURIComponent(document.getElementById('searchInput').value.trim());
+  const out = document.getElementById('searchOut'); out.textContent = 'Loading…';
+  try { const data = await getJson(`/api/query?q=${q}`); out.textContent = data.text; } catch (e) { out.textContent = String(e); }
+}
+async function viewArtifact(objectId) {
+  const out = document.getElementById('artifactOut'); out.textContent = 'Loading artifact…';
+  try {
+    const data = await getJson(`/api/artifact?object_id=${encodeURIComponent(objectId)}`);
+    out.textContent = `${data.item.title} (${data.item.object_id})\n${data.item.path}\n\n${data.content}`;
+  } catch (e) { out.textContent = String(e); }
+}
+async function objectStatusAction(objectId, action) {
+  const out = document.getElementById('objectOut'); out.className = 'muted'; out.textContent = `${action} ${objectId}…`;
+  try {
+    const selected = document.getElementById('objectActionStatus').value;
+    const payload = { object_id: objectId, action, reason: 'updated via web-ui' };
+    if (action === 'set' || action === 'promote') payload.status = selected;
+    const res = await fetch('/api/objects/status', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+    if (!res.ok) throw new Error(await res.text());
+    const data = await res.json();
+    out.className = 'muted ok'; out.textContent = `Updated ${data.item.object_id} to ${data.item.status}`;
+    await Promise.all([loadDashboard(), loadObjects(), loadAnswer(), loadQuery()]);
+  } catch (e) { out.className = 'muted err'; out.textContent = String(e); }
+}
+async function loadObjects() {
+  const status = encodeURIComponent(document.getElementById('objectStatus').value);
+  try {
+    const data = await getJson(`/api/objects?status=${status}`);
+    renderList(document.getElementById('objectsOut'), data.items, item => {
+      const actions = `
+        <div class="actions">
+          <button class="btn-secondary" onclick="viewArtifact('${item.object_id}')">View</button>
+          ${item.status !== 'deprecated' ? `<button class="btn-secondary" onclick="objectStatusAction('${item.object_id}','set')">Set selected</button><button onclick="objectStatusAction('${item.object_id}','promote')">Promote</button>` : ''}
+        </div>`;
+      return `<strong>${item.title}</strong> <span class="pill">${item.status}</span><br><span class="muted">${item.object_id} · ${item.object_type}</span>${actions}`;
+    });
+  } catch (e) { document.getElementById('objectsOut').innerHTML = `<li>${String(e)}</li>`; }
+}
+async function resolveReview(reviewId, decision) {
+  const out = document.getElementById('reviewOut'); out.className = 'muted'; out.textContent = `Resolving ${reviewId}…`;
+  try {
+    const res = await fetch('/api/reviews/resolve', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ review_id: reviewId, decision, promote: document.getElementById('reviewPromote').checked && decision === 'accepted', promote_target: document.getElementById('reviewPromoteTarget').value, notes:'resolved via web-ui' }) });
+    if (!res.ok) throw new Error(await res.text());
+    const data = await res.json();
+    out.className = 'muted ok'; out.textContent = `Resolved ${data.item.review_id} as ${data.item.status}`;
+    await Promise.all([loadDashboard(), loadReviews(), loadObjects(), loadAnswer(), loadQuery()]);
+  } catch (e) { out.className = 'muted err'; out.textContent = String(e); }
+}
+async function loadReviews() {
+  const status = encodeURIComponent(document.getElementById('reviewStatus').value);
+  try {
+    const data = await getJson(`/api/reviews?status=${status}`);
+    renderList(document.getElementById('reviewsOut'), data.items, item => {
+      const buttons = item.status === 'open' ? `<div class="actions"><button onclick="resolveReview('${item.review_id}','accepted')">Accept</button><button class="btn-secondary" onclick="resolveReview('${item.review_id}','deferred')">Defer</button><button class="btn-danger" onclick="resolveReview('${item.review_id}','rejected')">Reject</button></div>` : '';
+      return `<strong>${item.review_id}</strong> <span class="pill">${item.status}</span><br>${item.reason}<br><span class="muted">${item.target_type}:${item.target_id}</span>${buttons}`;
+    });
+  } catch (e) { document.getElementById('reviewsOut').innerHTML = `<li>${String(e)}</li>`; }
+}
+async function loadRedundancy() {
+  const out = document.getElementById('redundancyOut'); out.className = 'muted'; out.textContent = 'Scanning…';
+  try {
+    const data = await getJson('/api/redundancy');
+    renderList(document.getElementById('redundancyList'), data.items, item => {
+      const actions = `<div class="actions"><button class="btn-warn" onclick="mergeObjects('${item.source_object_id}','${item.target_object_id}')">Merge into target</button></div>`;
+      return `<strong>${item.object_type}</strong> <span class="pill">score ${item.score.toFixed(2)}</span><br>merge <span class="muted">${item.source_object_id}</span> → <span class="muted">${item.target_object_id}</span><br>${item.reason}${actions}`;
+    });
+    out.className = 'muted ok'; out.textContent = `Found ${(data.items || []).length} candidate(s).`;
+  } catch (e) { out.className = 'muted err'; out.textContent = String(e); }
+}
+async function mergeObjects(sourceObjectId, targetObjectId) {
+  const out = document.getElementById('redundancyOut'); out.className = 'muted'; out.textContent = `Merging ${sourceObjectId}…`;
+  try {
+    const res = await fetch('/api/redundancy/merge', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ source_object_id: sourceObjectId, target_object_id: targetObjectId, reason: document.getElementById('mergeReason').value.trim() || 'merged via web-ui' }) });
+    if (!res.ok) throw new Error(await res.text());
+    const data = await res.json();
+    out.className = 'muted ok'; out.textContent = `Merged ${data.item.source_object_id} → ${data.item.target_object_id}`;
+    await Promise.all([loadDashboard(), loadRedundancy(), loadObjects(), loadReviews(), loadAnswer(), loadQuery()]);
+  } catch (e) { out.className = 'muted err'; out.textContent = String(e); }
+}
+async function uploadFile() {
+  const fileInput = document.getElementById('uploadFile'); const out = document.getElementById('uploadOut');
+  if (!fileInput.files.length) { out.className='muted err'; out.textContent='Choose a file first.'; return; }
+  const form = new FormData(); form.append('file', fileInput.files[0]);
+  if (document.getElementById('uploadTitle').value.trim()) form.append('title', document.getElementById('uploadTitle').value.trim());
+  form.append('origin', document.getElementById('uploadOrigin').value.trim() || 'web-ui');
+  out.className='muted'; out.textContent='Uploading…';
+  try {
+    const res = await fetch('/api/upload', { method:'POST', body: form });
+    if (!res.ok) throw new Error(await res.text());
+    const data = await res.json();
+    out.className='muted ok'; out.textContent=`Ingested ${data.source_id} · concept ${data.concept_id}`;
+    await Promise.all([loadDashboard(), loadObjects(), loadReviews(), loadRedundancy(), loadQuery(), loadAnswer()]);
+  } catch (e) { out.className='muted err'; out.textContent=String(e); }
+}
+
+document.getElementById('dashboardBtn').onclick = loadDashboard;
+document.getElementById('answerBtn').onclick = loadAnswer;
+document.getElementById('searchBtn').onclick = loadQuery;
+document.getElementById('objectsBtn').onclick = loadObjects;
+document.getElementById('reviewsBtn').onclick = loadReviews;
+document.getElementById('redundancyBtn').onclick = loadRedundancy;
+document.getElementById('uploadBtn').onclick = uploadFile;
+
+loadDashboard(); loadAnswer(); loadObjects(); loadReviews(); loadRedundancy();
+</script>
+</body>
+</html>

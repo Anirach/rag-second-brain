@@ -1,0 +1,15 @@
+{
+  "source_id": "src_20260425_075336_c13b80147d",
+  "title": "example",
+  "source_type": "pdf",
+  "origin": "cli-file",
+  "original_path": "/home/clawdbot/clawd/tmp/second-brain-starter/samples/example.pdf",
+  "normalized_text_path": "source.txt",
+  "checksum": "sha256:0954583b202238bdd7d09f12f7acab73f36fbfbcc394f8d3999bfcb09be2cf15",
+  "created_at": "2026-04-25T07:53:36+00:00",
+  "updated_at": "2026-04-25T07:53:36+00:00",
+  "language": "en",
+  "authors": [],
+  "url": null,
+  "tags": []
+}
