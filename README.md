@@ -71,6 +71,12 @@ See:
 - `prototype/second-brain-starter/README.md`
 - `docs/SECOND_BRAIN_STARTER_MIGRATION.md`
 
+Quick launch from repo root:
+
+```bash
+bash scripts/run_second_brain_starter.sh web-ui --port 8765
+```
+
 This separation is intentional for now, so the MVP can be reviewed without overwriting the current top-level structure.
 
 ## Paper
