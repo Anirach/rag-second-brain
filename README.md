@@ -56,6 +56,23 @@ rag-second-brain/
 └── requirements.txt
 ```
 
+
+## Prototype Track: second-brain-starter
+
+A newer lean, provenance-aware MVP now lives under:
+
+- `prototype/second-brain-starter/`
+
+This track is different from the original root-level research code:
+- root project = retrieval / KG / ontology research prototype
+- `prototype/second-brain-starter/` = operational second-brain MVP with ingestion, review workflow, trust-state promotion, redundancy handling, and lightweight web UI
+
+See:
+- `prototype/second-brain-starter/README.md`
+- `docs/SECOND_BRAIN_STARTER_MIGRATION.md`
+
+This separation is intentional for now, so the MVP can be reviewed without overwriting the current top-level structure.
+
 ## Paper
 
 This code accompanies the paper: *"Co-occurrence, Sequence and Knowledge Graph with Ontology as a Second Brain for AI-LLM"*
