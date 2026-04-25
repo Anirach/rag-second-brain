@@ -219,8 +219,9 @@ class InfoNCETrainer:
         denominator = numerator + np.sum(np.exp(neg_sims - max_sim))
         
         loss = -np.log(numerator / denominator + 1e-10)
-        
-        return loss
+
+        # Numerical noise can push an otherwise zero-ish loss slightly negative.
+        return float(max(loss, 0.0))
 
 
 """
